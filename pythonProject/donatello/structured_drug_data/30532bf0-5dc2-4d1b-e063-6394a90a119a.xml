@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="30532bf0-5dc2-4d1b-e063-6394a90a119a"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Phenobarbital Oral Solution USP, CIV</title>
+   <effectiveTime value="20250314"/>
+   <setId root="feda8ef8-6d67-4ea1-bf19-21fd7d4872bd"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079394054"/>
+            <name>Chartwell RX, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="118673485"/>
+                        <name>Chartwell Pharmaceuticals Carmel, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="62135-962" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="30534814-cb1b-6763-e063-6394a90adefc"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250314"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="62135-962" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Phenobarbital</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Phenobarbital</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C151H8M554" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCROSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="mL" value="5"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="YQE403BP4D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENOBARBITAL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="YQE403BP4D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENOBARBITAL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="473" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62135-962-47" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250213"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62135-962-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43187" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CUP"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="2" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="62135-962-24" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20250213"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="7.5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62135-962-07" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43187" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CUP"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="2" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="62135-962-23" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20250213"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62135-962-15" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43187" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CUP"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="2" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="62135-962-22" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20250213"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250213"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48326" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="red" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73375" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CHERRY" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48677" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CIV"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld50a1210-140c-4ea0-ba6d-abc5d8cd49af">
+               <id root="30532bf0-5dc3-4d1b-e063-6394a90a119a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>The barbiturates are nonselective central nervous system (CNS) depressants that are primarily used as sedative-hypnotics. In subhypnotic doses, they are also used as anticonvulsants. The barbiturates and their sodium salts are subject to control under the Federal Controlled Substances Act.</paragraph>
+                  <paragraph>Phenobarbital is a barbituric acid derivative and occurs as white, odorless, small crystals or crystalline powder that is very slightly soluble in water; soluble in alcohol, in ether, and in solutions of fixed alkali hydroxides and carbonates; sparingly soluble in chloroform. Phenobarbital is 5-ethyl-5-phenylbarbituric acid and has the empirical formula C
+ 
+  <sub>12</sub>H
+ 
+  <sub>12</sub>N
+ 
+  <sub>2</sub>O
+ 
+  <sub>3</sub>. Its molecular weight is 232.24. It has the following structural formula:
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="La3ad57ea-cb11-40cc-bf41-8cc3e9fb6d00"/>
+                  </paragraph>
+                  <paragraph>Phenobarbital is a substituted pyrimidine derivative in which the basic structure is barbituric acid, a substance that has no CNS activity. CNS activity is obtained by substituting alkyl, alkenyl, or aryl groups on the pyrimidine ring.</paragraph>
+                  <paragraph>Phenobarbital Oral Solution, USP is red colored liquid with cherry flavor.  Each 5 mL (teaspoon) contains 20 mg Phenobarbital and Alcohol 13.5%. The oral solution also contains FD&amp;C Red #40, glycerin, sucrose, wild cherry flavor, and purified water. </paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+               <component>
+                  <observationMedia ID="La3ad57ea-cb11-40cc-bf41-8cc3e9fb6d00">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="phenobarbital-oral-solution-structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L6125e94b-d6b1-4613-beb7-cbbd584c1557">
+               <id root="30532bf0-5dc4-4d1b-e063-6394a90a119a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Barbiturates are capable of producing all levels of CNS mood alteration, from excitation to mild sedation, hypnosis, and deep coma. Overdosage can produce death. In high enough therapeutic doses, barbiturates induce anesthesia.</paragraph>
+                  <paragraph>Barbiturates depress the sensory cortex, decrease motor activity, alter cerebellar function, and produce drowsiness, sedation, and hypnosis.</paragraph>
+                  <paragraph>Barbiturate-induced sleep differs from physiologic sleep. Sleep laboratory studies have demonstrated that barbiturates reduce the amount of time spent in the rapid eye movement (REM) phase of sleep or the dreaming stage. Also, Stages III and IV sleep are decreased. Following abrupt cessation of barbiturates used regularly, patients may experience markedly increased dreaming, nightmares, and/or insomnia. Therefore, withdrawal of a single therapeutic dose over 5 or 6 days has been recommended to lessen the REM rebound and disturbed sleep that contribute to the drug withdrawal syndrome (for example, the dose should be decreased from 3 to 2 doses/day for 1 week).</paragraph>
+                  <paragraph>In studies, secobarbital sodium and pentobarbital sodium have been found to lose most of their effectiveness for both inducing and maintaining sleep by the end of 2 weeks of continued drug administration even with the use of multiple doses. As with secobarbital sodium and pentobarbital sodium, other barbiturates (including amobarbital) might be expected to lose their effectiveness for inducing and maintaining sleep after about 2 weeks. The short-, intermediate-, and to a lesser degree, long-acting barbiturates have been widely prescribed for treating insomnia. Although the clinical literature abounds with claims that the short-acting barbiturates are superior for producing sleep whereas the intermediate-acting compounds are more effective in maintaining sleep, controlled studies have failed to demonstrate these differential effects. Therefore, as sleep medications, the barbiturates are of limited value beyond short-term use.</paragraph>
+                  <paragraph>Barbiturates have little analgesic action at subanesthetic doses. Rather, in subanesthetic doses, these drugs may increase the reaction to painful stimuli. All barbiturates exhibit anticonvulsant activity in anesthetic doses. However, of the drugs in this class, only phenobarbital, mephobarbital, and metharbital are effective as oral anticonvulsants in subhypnotic doses.</paragraph>
+                  <paragraph>Barbiturates are respiratory depressants, and the degree of respiratory depression is dependent upon the dose. With hypnotic doses, respiratory depression produced by barbiturates is similar to that which occurs during physiologic sleep and is accompanied by a slight decrease in blood pressure and heart rate.</paragraph>
+                  <paragraph>Studies in laboratory animals have shown that barbiturates cause reductions in the tone and contractility of the uterus, ureters, and urinary bladder. However, concentrations of the drugs required to produce this effect in humans are not reached with sedative-hypnotic doses.</paragraph>
+                  <paragraph>Barbiturates do not impair the normal hepatic function but have been shown to induce liver microsomal enzymes, thus increasing and/or altering the metabolism of barbiturates and other drugs (see Drug Interactions under
+ 
+  <linkHtml href="#L7f56acc0-9f5b-40a9-b067-08296dee9bf3">PRECAUTIONS</linkHtml>).
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+               <component>
+                  <section ID="L724c1ad0-cecd-4cb2-b610-8a513490586a">
+                     <id root="30532bf0-5dc5-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>PHARMACOKINETICS</title>
+                     <text>
+                        <paragraph>Barbiturates are absorbed in varying degrees following oral or parenteral administration. The salts are more rapidly absorbed than are the acids. The rate of absorption is increased if the sodium salt is ingested as a dilute solution or taken on an empty stomach.</paragraph>
+                        <paragraph>Duration of action, which is related to the rate at which the barbiturates are redistributed throughout the body, varies among persons and in the same person from time to time.</paragraph>
+                        <paragraph>Phenobarbital is classified as a long-acting barbiturate when taken orally. Its onset of action is 1 hour or longer, and its duration of action ranges from 10 to 12 hours.</paragraph>
+                        <paragraph>Barbiturates are weak acids that are absorbed and rapidly distributed to all tissues and fluids, with high concentrations in the brain, liver, and kidneys. Lipid solubility of the barbiturates is the dominant factor in their distribution within the body. The more lipid soluble the barbiturate, the more rapidly it penetrates all tissues of the body. Barbiturates are bound to plasma and tissue proteins to a varying degree with the degree of binding increasing directly as a function of lipid solubility.</paragraph>
+                        <paragraph>Phenobarbital has the lowest lipid solubility, lowest plasma binding, lowest brain protein binding, the longest delay in onset of activity, and the longest duration of action. The plasma half-life for phenobarbital in adults ranges between 53 and 118 hours with a mean of 79 hours. The plasma half-life for phenobarbital in children and newborns (less than 48 hours old) ranges between 60 to 180 hours with a mean of 110 hours.</paragraph>
+                        <paragraph>Barbiturates are metabolized primarily by the hepatic microsomal enzyme system, and the metabolic products are excreted in the urine, and, less commonly, in the feces. Approximately 25% to 50% of a dose of phenobarbital is eliminated unchanged in the urine. The excretion of unmetabolized barbiturate is one feature that distinguishes the long-acting category from those belonging to other categories, which are almost entirely metabolized. The inactive metabolites of the barbiturates are excreted as conjugates of glucuronic acid.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lcc62e499-a115-4f33-b90c-c893c37d43f2">
+               <id root="30532bf0-5dc6-4d1b-e063-6394a90a119a"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS USAGE</title>
+               <text>
+                  <paragraph>A. Sedative 
+  <br/>  B. Anticonvulsant - For the treatment of generalized and partial seizures.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf5c4ed17-76c5-4b01-a48a-470c9e9dbc6e">
+               <id root="30532bf0-5dc7-4d1b-e063-6394a90a119a"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Phenobarbital is contraindicated in patients who are hypersensitive to barbiturates, in patients with a history of manifest or latent porphyria, and in patients with marked impairment of liver function or respiratory disease in which dyspnea or obstruction is evident.</paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf893ddc1-f4e7-44d9-87d5-096c470cc1a5">
+               <id root="30532bf0-5dc8-4d1b-e063-6394a90a119a"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">1. Habit Forming</content>
+                  </paragraph>
+                  <paragraph>Phenobarbital may be habit forming. Tolerance and psychological and physical dependence may occur with continued use (see
+ 
+  <linkHtml href="#L093ea2c2-66d8-40d7-8699-9f1ce51d6035">DRUG ABUSE AND DEPENDENCE</linkHtml>and Pharmacokinetics under
+ 
+  <linkHtml href="#L6125e94b-d6b1-4613-beb7-cbbd584c1557">CLINICAL PHARMACOLOGY</linkHtml>). Patients who have psychologic dependence on barbiturates may increase the dosage or decrease the dosage interval without consulting a physician and may subsequently develop a physical dependence on barbiturates. In order to minimize the possibility of overdosage or the development of dependence, the prescribing and dispensing of sedative-hypnotic barbiturates should be limited to the amount required for the interval until the next appointment. Abrupt cessation after prolonged use in a person who is dependent on the drug may result in withdrawal symptoms, including delirium, convulsions, and possibly death. Barbiturates should be withdrawn gradually from any patient known to be taking excessive doses over long periods of time (see
+ 
+  <linkHtml href="#L093ea2c2-66d8-40d7-8699-9f1ce51d6035">DRUG ABUSE AND DEPENDENCE</linkHtml>).
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2. Acute or Chronic Pain</content>
+                  </paragraph>
+                  <paragraph>Caution should be exercised when barbiturates are administered to patients with acute or chronic pain, because paradoxical excitement could be induced or important symptoms could be masked. However, the use of barbiturates as sedatives in the postoperative surgical period and as adjuncts to cancer chemotherapy is well established.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3. Usage in Pregnancy</content>
+                  </paragraph>
+                  <paragraph>Barbiturates can cause fetal damage when administered to a pregnant woman. Retrospective, case-controlled studies have suggested a connection between the maternal consumption of barbiturates and a higher than expected incidence of fetal abnormalities. Barbiturates readily cross the placental barrier and are distributed throughout fetal tissues; the highest concentrations are found in the placenta, fetal liver, and brain. Fetal blood levels approach maternal blood levels following parenteral administration.</paragraph>
+                  <paragraph>Withdrawal symptoms occur in infants born to women who receive barbiturates throughout the last trimester of pregnancy (see
+ 
+  <linkHtml href="#L093ea2c2-66d8-40d7-8699-9f1ce51d6035">DRUG ABUSE AND DEPENDENCE</linkHtml>).
+
+ </paragraph>
+                  <paragraph>If Phenobarbital is used during pregnancy or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to the fetus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4. Usage in Children</content>
+                  </paragraph>
+                  <paragraph>Phenobarbital has been reported to be associated with cognitive deficits in children taking it for complicated febrile seizures.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5. Synergistic Effects</content>
+                  </paragraph>
+                  <paragraph>The concomitant use of alcohol or other CNS depressants may produce additive CNS depressant effects.</paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7f56acc0-9f5b-40a9-b067-08296dee9bf3">
+               <id root="30532bf0-5dc9-4d1b-e063-6394a90a119a"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text/>
+               <effectiveTime value="20250305"/>
+               <component>
+                  <section ID="Lc715ff0b-439f-4fc7-88d0-58164980b538">
+                     <id root="30532bf0-5dca-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Barbiturates may be habit forming. Tolerance and psychological and physical dependence may occur with continued use (see
+ 
+  <linkHtml href="#L093ea2c2-66d8-40d7-8699-9f1ce51d6035">DRUG ABUSE AND DEPENDENCE</linkHtml>).
+
+ </paragraph>
+                        <paragraph>Barbiturates should be administered with caution, if at all, to patients who are mentally depressed, have suicidal tendencies, or have a history of drug abuse.</paragraph>
+                        <paragraph>Elderly or debilitated patients may react to barbiturates with marked excitement, depression, or confusion. In some persons, especially children, barbiturates repeatedly produce excitement rather than depression.</paragraph>
+                        <paragraph>In patients with hepatic damage, barbiturates should be administered with caution and initially in reduced doses. Barbiturates should not be administered to patients showing the premonitory signs of hepatic coma.</paragraph>
+                        <paragraph>The systemic effects of exogenous and endogenous corticosteroids may be diminished by Phenobarbital. Thus, this product should be administered with caution to patients with borderline hypoadrenal function, regardless of whether it is of pituitary or of primary adrenal origin.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lddda2acb-4df3-42ce-92ce-295cf1443839">
+                     <id root="30532bf0-5dcb-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>The following information and instructions should be given to patients receiving barbiturates.</paragraph>
+                        <list listType="ordered">
+                           <item>The use of barbiturates carries with it an associated risk of psychological and/or physical dependence. The patient should be warned against increasing the dose of the drug without consulting a physician.</item>
+                           <item>Barbiturates may impair the mental and/or physical abilities required for the performance of potentially hazardous tasks, such as driving a car or operating machinery. The patients should be cautioned accordingly.</item>
+                           <item>Alcohol should not be consumed while taking barbiturates. The concurrent use of the barbiturates with other CNS depressants (eg., alcohol, narcotics, tranquilizers, and antihistamines) may result in additional CNS-depressant effects.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lf37c2402-4f79-40fd-8968-ba86e24c69c9">
+                     <id root="30532bf0-5dcc-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Prolonged therapy with barbiturates should be accompanied by periodic laboratory evaluation of organ systems, including hematopoietic, renal, and hepatic systems (see General under
+ 
+  <linkHtml href="#L7f56acc0-9f5b-40a9-b067-08296dee9bf3">PRECAUTIONS</linkHtml>and
+ 
+  <linkHtml href="#L2080a501-16b1-4b98-b0aa-817315971188">ADVERSE REACTIONS</linkHtml>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L2a098bc2-45a8-423c-8697-02bb7a48392f">
+                     <id root="30532bf0-5dcd-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Most reports of clinically significant drug interactions occurring with the barbiturates have involved phenobarbital. However, the application of this data to other barbiturates appears valid and warrants serial blood level determinations of the relevant drugs when there are multiple therapies.</paragraph>
+                        <paragraph>1. Anticoagulants</paragraph>
+                        <paragraph>Phenobarbital lowers the plasma levels of dicumarol and causes a decrease in anticoagulant activity as measured by the prothrombin time. Barbiturates can induce hepatic microsomal enzymes resulting in increased metabolism and decreased anticoagulant response of oral anticoagulants (eg., warfarin, acenocoumarol, dicumarol, and phenprocoumon). Patients stabilized on anticoagulant therapy may require dosage adjustments if barbiturates are added to or withdrawn from their dosage regimen.</paragraph>
+                        <paragraph>2. Corticosteroids</paragraph>
+                        <paragraph>Barbiturates appear to enhance the metabolism of exogenous corticosteroids, probably through the induction of hepatic microsomal enzymes. Patients stabilized on corticosteroid therapy may require dosage adjustments if barbiturates are added to or withdrawn from their dosage regimen.</paragraph>
+                        <paragraph>3. Griseofulvin</paragraph>
+                        <paragraph>Phenobarbital appears to interfere with the absorptions of orally administered griseofulvin, thus decreasing its blood level. The effect of the resultant decreased blood levels of griseofulvin on therapeutic response has not been established. However, it would be preferable to avoid concomitant administration of these drugs.</paragraph>
+                        <paragraph>4. Doxycycline</paragraph>
+                        <paragraph>Phenobarbital has been shown to shorten the half-life of doxycycline for as long as 2 weeks after barbiturate therapy is discontinued. This mechanism is probably through the induction of hepatic microsomal enzymes that metabolize the antibiotic. If phenobarbital and doxycycline are administered concurrently, the clinical response to doxycycline should be monitored closely.</paragraph>
+                        <paragraph>5. Phenytoin, Sodium Valproate, Valproic Acid</paragraph>
+                        <paragraph>The effect of barbiturates on the metabolism of phenytoin appears to be variable. Some investigators report an accelerating effect, whereas others report no effect. Because the effect of barbiturates on the metabolism of phenytoin is not predictable, phenytoin and barbiturate blood levels should be monitored more frequently if these drugs are given concurrently. Sodium valproate and valproic acid increase the phenobarbital serum levels; therefore, phenobarbital blood levels should be closely monitored and appropriate dosage adjustments made as clinically indicated.</paragraph>
+                        <paragraph>6. CNS Depressants</paragraph>
+                        <paragraph>The concomitant use of other CNS depressants, including other sedatives or hypnotics, antihistamines, tranquilizers, or alcohol, may produce additive depressants.</paragraph>
+                        <paragraph>7. Monoamine Oxidase Inhibitors (MAOIs)</paragraph>
+                        <paragraph>MAOIs prolong the effects of barbiturates, probably because metabolism of the barbiturate is inhibited.</paragraph>
+                        <paragraph>8. Estradiol, Estrone, Progesterone, and other Steroidal Hormones</paragraph>
+                        <paragraph>Pretreatment with or concurrent administration of phenobarbital may decrease the effect of estradiol by increasing its metabolism. There have been reports of patients treated with antiepileptic drugs (eg., phenobarbital) who become pregnant while taking oral contraceptives. An alternate contraceptive method might be suggested to women taking Phenobarbital.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L35385047-9cbe-4638-8b09-37d866d30b7b">
+                     <id root="30532bf0-5dce-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Carcinogenesis</title>
+                     <text>
+                        <paragraph>1. Animal Data</paragraph>
+                        <paragraph>Phenobarbital sodium is carcinogenic in mice and rats after lifetime administration. In mice, it produced benign and malignant liver cell tumors. In rats, benign liver cell tumors were observed very late in life.</paragraph>
+                        <paragraph>2. Human Data</paragraph>
+                        <paragraph>In a 29-year epidemiologic study of 9,136 patients who were treated on an anticonvulsant protocol that included phenobarbital, results indicated a higher than normal incidence of hepatic carcinoma. Previously, some of these patients had been treated with thorotrast, a drug which is known to produce hepatic carcinomas. Thus, this study did not provide sufficient evidence that phenobarbital sodium is carcinogenic in humans.</paragraph>
+                        <paragraph>A retrospective study of 84 children with brain tumors matched to 73 normal controls and 78 cancer controls (malignant disease other than brain tumors) suggested an association between exposure to barbiturates prenatally and an increased incidence of brain tumors.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lf627b1a9-e737-4467-a8b5-44496a01686b">
+                     <id root="30532bf0-5dcf-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Usage in Pregnancy</title>
+                     <text>
+                        <paragraph>1. Teratogenic Effects</paragraph>
+                        <paragraph>See Usage in Pregnancy
+ 
+  <content styleCode="italics">under</content>
+                           <linkHtml href="#Lf893ddc1-f4e7-44d9-87d5-096c470cc1a5">WARNINGS</linkHtml>.
+
+ </paragraph>
+                        <paragraph>2. Nonteratogenic Effects</paragraph>
+                        <paragraph>Reports of infants suffering from long-term barbiturate exposure in utero included the acute withdrawal syndrome of seizures and hyperirritability from birth to a delayed onset of up to 14 days (see
+ 
+  <linkHtml href="#L093ea2c2-66d8-40d7-8699-9f1ce51d6035">DRUG ABUSE AND DEPENDENCE</linkHtml>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L1cea0197-329a-46de-88f5-647fd0ccf798">
+                     <id root="30532bf0-5dd0-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>Hypnotic doses of barbiturates do not appear to impair uterine activity significantly during labor. Full anesthetic doses of barbiturates decrease the force and frequency of uterine contractions. Administration of sedative-hypnotic barbiturates to the mother during labor may result in respiratory depression in the newborn. Premature infants are particularly susceptible to the depressant effects of barbiturates. If barbiturates are used during labor and delivery, resuscitation equipment should be available.</paragraph>
+                        <paragraph>Data are not available to evaluate the effect of barbiturates when forceps delivery or other intervention is necessary or to determine the effect of barbiturates on the later growth, development, and functional maturation of the child.</paragraph>
+                        <paragraph>Caution should be exercised when phenobarbital is administered to a nursing woman, because small amounts of barbiturates are excreted in the milk.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L2080a501-16b1-4b98-b0aa-817315971188">
+               <id root="30532bf0-5dd1-4d1b-e063-6394a90a119a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions have been reported:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">CNS Depression</content>- Residual sedation or “hangover”, drowsiness, lethargy, and vertigo. Emotional disturbances and phobias may be accentuated. In some persons, barbiturates such as phenobarbital repeatedly produce excitement rather than depression, and the patient may appear to be inebriated. Irritability and hyperactivity can occur in children. Like other nonanalgesic hypnotic drugs, barbiturates such as phenobarbital, when given in the presence of pain, may cause restlessness, excitement, and even delirium. Rarely, the use of barbiturates results in the localized or diffuse myalgic, neuralgic, or arthritic pain, especially in psychoneurotic patients with insomnia. The pain may appear in paroxysms, is most intense in the early morning hours, and is most frequently located in the region of the neck, shoulder girdle, and upper limbs. Symptoms may last for days after the drug is discontinued.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory/Circulatory</content>- Respiratory depression, apnea, circulatory collapse.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Allergic</content>- Acquired hypersensitivity to barbiturates consists chiefly in allergic reactions that occur especially in persons who tend to have asthma, urticaria, angioedema, and similar conditions.
+
+ </paragraph>
+                  <paragraph>Hypersensitivity reactions in this category include localized swelling, particularly of the eyelids, cheeks or lips, and erythematous dermatitis. Rarely exfoliative dermatitis (eg., Stevens-Johnson syndrome and toxic epidermal necrolysis) may be caused by phenobarbital and can prove fatal. The skin eruption may be associated with fever, delirium, and marked degenerative changes in the liver and other parenchymatous organs. In a few cases, megaloblastic anemia has been associated with the chronic use of phenobarbital.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Other</content>- Nausea and vomiting; headache, osteomalacia.
+
+ </paragraph>
+                  <paragraph>The following adverse reactions and their incidence were compiled from surveillance of thousands of hospitalized patients who received barbiturates. Because such patients may be less aware of the milder adverse effects of barbiturates, the incidence of these reactions may be somewhat higher in fully ambulatory patients.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">More than 1 in 100 Patients</content>
+                  </paragraph>
+                  <paragraph>The most common adverse reaction, estimated to occur at a rate of 1 to 3 patients per 100, is:</paragraph>
+                  <paragraph>Nervous System: Somnolence</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Less than 1 in 100 Patients</content>
+                  </paragraph>
+                  <paragraph>Adverse reactions estimated to occur at a rate of less than 1 in 100 patients are listed below, grouped by organ system and by decreasing order of occurrence:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Nervous System</content>: Agitation, confusion, hyperkinesia, ataxia, CNS depression, nightmares, nervousness, psychiatric disturbances, hallucinations, insomnia, anxiety, dizziness, abnormality in thinking.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory System</content>: Hypoventilation, apnea
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular System</content>: Bradycardia, hypotension, syncope
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Digestive System</content>: Nausea, vomiting, constipation
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Other Reported Reactions</content>: Headache, injection site reactions, hypersensitivity reactions (angioedema, skin rashes, exfoliative dermatitis), fever, liver damage, megaloblastic anemia following chronic phenobarbital use.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Chartwell RX, LLC. at 1-845-232-1683 or FDA at 1-800-FDA-1088 or www.fda.gov/wedwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L093ea2c2-66d8-40d7-8699-9f1ce51d6035">
+               <id root="30532bf0-5dd2-4d1b-e063-6394a90a119a"/>
+               <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <text>
+                  <paragraph>Phenobarbital is a Schedule IV drug.</paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+               <component>
+                  <section ID="L0f6af097-e406-402f-9d3b-9f0f68894acb">
+                     <id root="30532bf0-5dd3-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Dependence</title>
+                     <text>
+                        <paragraph>Barbiturates may be habit forming. Tolerance, psychological dependence, and physical dependence may occur, especially following prolonged use of high doses of barbiturates. Daily administrations in excess of 400 mg of pentobarbital or secobarbital for approximately 90 days is likely to produce some degree of physical dependence. A dosage of 600 to 800 mg taken for at least 35 days is sufficient to produce withdrawal seizures. The average daily dose for the barbiturate addict is usually about 1.5 g. As tolerance to barbiturates develops, the amount needed to maintain the same level of intoxication increases; tolerance to a fatal dosage, however, does not increase more than twofold. As this occurs, the margin between intoxicating dosage and fatal dosage becomes smaller.</paragraph>
+                        <paragraph>Symptoms of acute intoxication with barbiturates include unsteady gait, slurred speech, and sustained nystagmus. Mental signs of chronic intoxication include confusion, poor judgment, irritability, insomnia, and somatic complaints. Symptoms of barbiturate dependence are similar to those of chronic alcoholism. If an individual appears to be intoxicated with alcohol to a degree that is radically disproportionate to the amount of alcohol in his or her blood, the use of barbiturates should be suspected. The lethal dose of a barbiturate is far less if alcohol is also ingested.</paragraph>
+                        <paragraph>The symptoms of barbiturate withdrawal can be severe and may cause death. Minor withdrawal symptoms may appear 8 to 12 hours after the last dose of a barbiturate. These symptoms usually appear in the following order: anxiety, muscle twitching, tremor of hands and fingers, progressive weakness, dizziness, distortion in visual perception, nausea, vomiting, insomnia, and orthostatic hypotension. Major withdrawal symptoms (convulsions and delirium) may occur within 16 hours and last up to 5 days after abrupt cessation of barbiturates. The intensity of withdrawal symptoms gradually declines over a period of approximately 15 days. Individuals susceptible to barbiturate abuse and dependence include alcoholics and opiate abusers as well as other sedative-hypnotic and amphetamine abusers.</paragraph>
+                        <paragraph>Drug dependence on barbiturates arises from repeated administration of a barbiturate or agent with barbiturate-like effect on a continuous basis, generally in amounts exceeding therapeutic dose levels. The characteristics of drug dependence on barbiturates include: (a) a strong desire or need to continue taking the drug; (b) a tendency to increase the dose; (c) a psychic dependence on the effects of the drug related to subjective and individual appreciation of those effects; and (d) a physical dependence on the effects of the drug, requiring its presence for maintenance of homeostasis and resulting in a definite, characteristic and self-limited abstinence syndrome when the drug is withdrawn.</paragraph>
+                        <paragraph>Treatment of barbiturate dependence consists of cautious and gradual withdrawal of the drug. Barbiturate-dependent patients can be withdrawn by using a number of different withdrawal regimens. In all cases, withdrawal requires an extended period of time. One method involves substituting a 30-mg dose of phenobarbital for each 100- to 200-mg dose of barbiturate that the patient has been taking. The total daily amount of phenobarbital is then administered in 3 or 4 divided doses, not to exceed 600 mg daily. If signs of withdrawal occur on the first day of treatment, a loading dose of 100 to 200 mg of phenobarbital may be administered IM in addition to the oral dose. After stabilization on phenobarbital, the total daily dose is decreased by 30 mg/day as long as withdrawal is proceeding smoothly. A modification of this regimen involves initiating treatment at the patient’s regular dosage level and decreasing the daily dosage by 10% if tolerated by the patient.</paragraph>
+                        <paragraph>Infants who are physically dependent on barbiturates may be given phenobarbital, 3 to 10 mg/kg/day. After withdrawal symptoms (hyperactivity, disturbed sleep, tremors, and hyperreflexia) are relieved, the dosage of phenobarbital should be generally decreased and completely withdrawn over a 2-week period.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf13c3516-472d-4dd8-8f4d-826727055840">
+               <id root="30532bf0-5dd4-4d1b-e063-6394a90a119a"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE SECTION</title>
+               <text/>
+               <effectiveTime value="20250305"/>
+               <component>
+                  <section ID="Lf819a3ec-3e82-4d84-9514-bfebf00d9036">
+                     <id root="30532bf0-5dd5-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Signs and Symptoms</title>
+                     <text>
+                        <paragraph>The onset of symptoms following a toxic oral exposure to phenobarbital may not occur until several hours following ingestion. The toxic dose of barbiturates varies considerably. In general, an oral dose of 1 g of most barbiturates produces serious poisoning in an adult. Death commonly occurs after 2 to 10 g of ingested barbiturate. The sedated, therapeutic blood levels of phenobarbital range between 5 to 40 mcg/mL; the usual lethal blood level ranges from 100 to 200 mcg/mL. Barbiturate intoxication may be confused with alcoholism, bromide intoxication, and various neurologic disorders. Potential tolerance must be considered when evaluating significance of dose and plasma concentration.</paragraph>
+                        <paragraph>The manifestations of a long-acting barbiturate in overdose include nystagmus, ataxia, CNS depression, respiratory depression, hypothermia, and hypotension. Other findings may include absent or depressed reflexes and erythematous or hemorrhagic blisters (primarily at pressure points). Following massive exposure to phenobarbital, pulmonary edema, circulatory collapse with loss of peripheral vascular tone, cardiac arrest, and death may occur.</paragraph>
+                        <paragraph>In extreme overdose, all electrical activity in the brain may cease, in which case a “flat” EEG normally equated with clinical death should not be accepted. This effect is fully reversible unless hypoxic damage occurs.</paragraph>
+                        <paragraph>Consideration should be given to the possibility of barbiturate intoxication even in situations that appear to involve trauma.</paragraph>
+                        <paragraph>Complications such as pneumonia, pulmonary edema, cardiac arrhythmias, congestive heart failure, and renal failure may occur. Uremia may increase CNS sensitivity to barbiturates if renal function is impaired. Differential diagnosis should include hypoglycemia, head trauma, cerebrovascular accidents, convulsive states and diabetic coma.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L073b9d53-b177-4680-9ebc-bd939e37dcf6">
+                     <id root="30532bf0-5dd6-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment</title>
+                     <text>
+                        <paragraph>To obtain up-to-date information about the treatment of overdose, a good resource is your certified Regional Poison Control Center. Telephone numbers of certified poison control centers are listed in the Physicians’ Desk Reference (PDR). In managing overdosage, consider the possibility of multiple drug overdoses, interaction among drugs, and unusual drug kinetics in your patient.</paragraph>
+                        <paragraph>Protect the patient’s airway and support ventilation and perfusion. Meticulously monitor and maintain, within acceptable limits, the patient’s vital signs, blood gases, serum electrolytes, etc. Absorption of drugs from the gastrointestinal tract may be decreased by giving activated charcoal, which, in many cases, is more effective than emesis or lavage; consider charcoal instead of or in addition to gastric emptying. Repeated doses of charcoal over time may hasten elimination of some drugs that have been absorbed. Safeguard the patient’s airway when employing gastric emptying or charcoal.</paragraph>
+                        <paragraph>Alkalinization of urine hastens phenobarbital excretion, but dialysis and hemoperfusion are more effective and cause less troublesome alteration in electrolyte equilibrium. If the patient has chronically abused sedatives, withdrawal reactions may be manifest following acute overdose.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L2de713c7-dfaf-4fe1-af0f-3d0436536011">
+               <id root="30532bf0-5dd7-4d1b-e063-6394a90a119a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE &amp; ADMINISTRATION</title>
+               <text>
+                  <paragraph>The dose of phenobarbital must be individualized with full knowledge of its particular characteristics. Factors of consideration are the patient’s age, weight, and condition.</paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+               <component>
+                  <section ID="L70684670-2efb-494f-a44d-15048a16b15f">
+                     <id root="30532bf0-5dd8-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Sedation</title>
+                     <text>
+                        <paragraph>For sedation, the drug may be administered in single doses of 30 to 120 mg repeated at intervals; frequency will be determined by the patient’s response. It is generally considered that no more than 400 mg of phenobarbital should be administered during a 24-hour period.</paragraph>
+                        <paragraph>Adults: Daytime Sedation: 30 to 120 mg daily in 2 to 3 divided doses.</paragraph>
+                        <paragraph>Oral Hypnotic: 100 to 200 mg.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L8fd075c0-afa2-474a-8e21-3e23435245e8">
+                     <id root="30532bf0-5dd9-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Anticonvulsant Use</title>
+                     <text>
+                        <paragraph>Clinical laboratories reference values should be used to determine the therapeutic anticonvulsant level of phenobarbital in the serum. To achieve the blood levels considered therapeutic in pediatric patients, higher per-kilogram dosages are generally necessary for phenobarbital and most other anticonvulsants. In pediatric patients and infants, phenobarbital at a loading dose of 15 to 20 mg/kg produces blood levels of about 20 mcg/mL shortly after administration.</paragraph>
+                        <paragraph>Phenobarbital has been used in the treatment and prophylaxis of febrile seizures. However, it has not been established that prevention of febrile seizures influences the subsequent development of epilepsy.</paragraph>
+                        <paragraph>Adults: 60 to 200 mg/day.</paragraph>
+                        <paragraph>Pediatric Patients: 3 to 6 mg/kg/day.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L1a8e081f-d812-4843-9ddc-61503118efb8">
+                     <id root="30532bf0-5dda-4d1b-e063-6394a90a119a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Special Patient Population</title>
+                     <text>
+                        <paragraph>Dosage should be reduced in the elderly or debilitated because these patients may be more sensitive to barbiturates. Dosage should be reduced for patients with impaired renal function or hepatic disease.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L01855846-689f-4130-bc99-fa212476d8bb">
+               <id root="30532bf0-5ddb-4d1b-e063-6394a90a119a"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>16 fl oz (473 mL) bottle (NDC 62135-962-47).</paragraph>
+                  <paragraph>5 mL cups (NDC 62135-962-05) and 20 x 5 mL cups (NDC 62135-962-24). </paragraph>
+                  <paragraph>7.5 mL cups (NDC 62135-962-07) and 20 x 7.5 mL cups (NDC 62135-962-23). </paragraph>
+                  <paragraph>15 mL cups (NDC 62135-962-15) and 20 x 15 mL cups (NDC 62135-962-22). </paragraph>
+                  <paragraph/>
+                  <paragraph>Contains alcohol, 13.5%</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container as defined in the USP/NF with a child resistant closure.</paragraph>
+                  <paragraph>Shake well before use.</paragraph>
+                  <paragraph>Keep tightly closed. Store at 20° - 25°C (68° - 77°F). [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for: 
+   <br/>  Chartwell RX, LLC. 
+   <br/>  Congers, NY 10920
+  </content>
+                  </paragraph>
+                  <paragraph>L72434</paragraph>
+                  <paragraph>Rev. 02/2025</paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld2308143-dd8a-4873-ba42-e53d4a331c18">
+               <id root="30532bf0-5ddc-4d1b-e063-6394a90a119a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Phenobarbital Oral Solution, USP CIV 20 mg/5 mL - NDC 62135-962-47 - 473 mL Bottle Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L1511cd63-196e-4d87-b79b-cb8fe7e434c0"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Phenobarbital Oral Solution, USP CIV 20 mg/5 mL - NDC 62135-962-05 - 5 mL Unit-Dose Cup Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L25537751-bf7f-4379-a1f3-3cc88005da23"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Phenobarbital Oral Solution, USP CIV 30 mg/7.5 mL - NDC 62135-962-07 - 7.5 mL Unit-Dose Cup Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L63f65378-b9b6-4e51-86d5-89aa37223080"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Phenobarbital Oral Solution, USP CIV 60 mg/15 mL - NDC 62135-962-15 - 15 mL Unit-Dose Cup Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L1d80b3a0-202c-45ca-b2db-9b176cc5fbb9"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+               <component>
+                  <observationMedia ID="L1511cd63-196e-4d87-b79b-cb8fe7e434c0">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="phenobarbital-oral-solution-473ml-bottle-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L25537751-bf7f-4379-a1f3-3cc88005da23">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="phenobarbital-oral-solution-5ml-cup-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L63f65378-b9b6-4e51-86d5-89aa37223080">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="phenobarbital-oral-solution-7pt5ml-cup-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L1d80b3a0-202c-45ca-b2db-9b176cc5fbb9">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="phenobarbital-oral-solution-15ml-cup-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

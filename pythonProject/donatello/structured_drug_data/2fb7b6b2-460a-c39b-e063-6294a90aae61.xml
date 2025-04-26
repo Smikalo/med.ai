@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2fb7b6b2-460a-c39b-e063-6294a90aae61"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Sodium Chloride Injection (EUA)</title>
+   <effectiveTime value="20250307"/>
+   <setId root="2fb7b6b2-460b-c39b-e063-6294a90aae61"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="527866378"/>
+            <name>Huaren Pharmaceutical (Rizhao) Co., Ltd.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="30ca2bfb-0c71-4b73-e063-6394a90a0f59"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250307"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="85268-801" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>SODIUM CHLORIDE 0.9%</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SODIUM CHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85268-801-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85268-801-03" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250307"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250307"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="2fb7ae3b-d117-742f-e063-6394a90a4ece"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">SODIUM CHLORIDE INJECTION, USP BAG</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Sodium Chloride Injection Instructions</content>
+                  </paragraph>
+                  <paragraph>Please read the instructions carefully and use under the guidance of a physician.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Check carefully before use. Do not use if leakage is found, the drug liquid is unclear, or there are visible particles, do not use.</content>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="2fb793ba-8275-c167-e063-6294a90a509a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">INGREDIENTS</content>
+               </title>
+               <text>
+                  <paragraph>This product is an isotonic sterilizing aqueous solution of sodium chloride.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Chemical Name:</content> Sodium chloride
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Molecular Formula:</content> NaCl Molecular Weight: 58.44 Osmolality: 260~320 mOsmol/kg.
+ </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2fb79174-ceb9-b90e-e063-6294a90acab7">
+               <id root="2fb79d5a-1cec-ae8b-e063-6294a90a2c15"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">CHARACTER</content>
+               </title>
+               <text>
+                  <paragraph>This product is a colorless and clear liquid.</paragraph>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="2fb73372-aba1-76ed-e063-6294a90a53a3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>It is used to regulate the balance of water and electrolytes in the body.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="2fb793ba-8270-c167-e063-6294a90a509a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">SPECIFICATION</content>
+               </title>
+               <text>
+                  <paragraph>50ml: 0.45g; 100ml: 0.9g; 250ml: 2.25g; 500ml: 4.5g; 1000ml: 9g</paragraph>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s20">
+               <id root="2fb73232-39b2-7bae-e063-6294a90a5eac"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>Intravenous infusion, dosage according to the need of the disease.</paragraph>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s18">
+               <id root="2fb735f3-8e26-5efd-e063-6394a90a66b8"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Excessive and rapid infusion can cause water and sodium retention, edema, elevated blood pressure, rapid heart rate, chest tightness, dyspnea, and even acute left heart failure.</paragraph>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="2fb7364d-d98c-56c1-e063-6394a90a2cac"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Use with caution in the following cases:</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>CD Edematous diseases, such as nephrotic syndrome, cirrhosis, ascites, congestive heart failure, acute left heart failure, brain edema, and idiopathic edema</item>
+                     <item>Acute renal failure, oliguria stage, chronic renal failure, urine volume decreased, and poor response to diuretic drugs</item>
+                     <item>Hypertension</item>
+                     <item>Hypokalemia</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Follow-up examination:</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>CD Serum sodium, potassium, chlorine concentration</item>
+                     <item>Blood acid-base balance index</item>
+                     <item>Kidney function </item>
+                     <item>Blood pressure</item>
+                     <item>Cardiopulmonary function</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s12">
+               <id root="2fb75aa1-e6d4-6720-e063-6294a90a425a"/>
+               <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+               <title>
+                  <content styleCode="bold">MEDICATION IN PREGNANT WOMEN AND LACTATING WOMEN</content>
+               </title>
+               <text>
+                  <paragraph>Not clear.</paragraph>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s16">
+               <id root="2fb75cda-21bf-8a99-e063-6294a90a077d"/>
+               <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+               <title>
+                  <content styleCode="bold">MEDICATION IN CHILDREN</content>
+               </title>
+               <text>
+                  <paragraph>The amount and speed of fluid supplementation should be strictly controlled.</paragraph>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s17">
+               <id root="2fb7579d-5710-9880-e063-6294a90a1860"/>
+               <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+               <title>
+                  <content styleCode="bold">MEDICATION IN THE ELDERLY</content>
+               </title>
+               <text>
+                  <paragraph>The amount and speed of fluid supplementation should be strictly controlled.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s10">
+               <id root="2fb75d85-839e-691c-e063-6394a90a7e2c"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">DRUG INTERACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Should not be used with drugs with known incompatibility contraindications.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s19">
+               <id root="2fb75d85-83a0-691c-e063-6394a90a7e2c"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">DRUG OVERDOSE</content>
+               </title>
+               <text>
+                  <paragraph>For those with existing acidosis, a large amount of this product can cause hyperchloric acidosis.</paragraph>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="2fb76414-4889-91c3-e063-6294a90a34a7"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">PHARMACOLOGY AND TOXICOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>Sodium and chlorine are important electrolytes in the body, mainly in the extracellular fluid, and play a very important role in maintaining the normal blood and extracellular fluid volume and osmotic pressure of the human body. The normal serum sodium concentration is 135~145mmol/L, accounting for 92% of the plasma cation and 90% of the total osmotic pressure, so the amount of plasma sodium plays a decisive role in the osmotic pressure. The normal serum chlorine concentration is 98~106mmol/L, which is mainly regulated by the human body through the hypothalamus, posterior pituitary and kidney to maintain the stability of body fluid volume and osmotic pressure.</paragraph>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="2fb76ca1-301e-a950-e063-6294a90aaf5b"/>
+               <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+               <title>
+                  <content styleCode="bold">PHARMACOKINETICS</content>
+               </title>
+               <text>
+                  <paragraph>In the gastrointestinal tract, sodium is absorbed almost entirely through the active transport of intestinal mucosal cells. Sodium is excreted primarily by the kidneys.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s22">
+               <id root="2fb7679c-5436-6e8d-e063-6394a90a4e07"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">PACKAGE</content>
+               </title>
+               <text>
+                  <list listType="ordered">
+                     <item>Plastic infusion bag (non-PVC co-extruded film, double hard tube, easy to fold, double valve and double plug). 50ml/ bag, 100ml/ bag, 250ml/ bag, 500ml/ bag, 10O0ml/ bag.</item>
+                     <item>Plastic infusion bag (non-PVC co-extruded film, double hard tube, easy to fold, double valve double plug, double aseptic packaging). 50ml/ bag, 100ml/ bag, 250ml/ bag, 500ml/ bag, 1000ml/ bag.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s21">
+               <id root="2fb7bab7-bef9-966b-e063-6394a90a1b24"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">VALIDITY</content>
+               </title>
+               <text>
+                  <list listType="ordered">
+                     <item>The product of 50ml,100ml, and 1000ml specifications is valid for 24 months.</item>
+                     <item>The validity period of 250ml,500ml is 36 months.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d94ef3d-6a2c-51c5-e063-6294a90aee52">
+               <id root="2fb75dea-d27c-6890-e063-6394a90ab862"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>
+                  <content styleCode="bold">STORAGE</content>
+               </title>
+               <text>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F)
+ 
+  <content styleCode="bold">[see USP Controlled Room Temperature]</content>. Protect from freezing.
+
+ </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2fb7a986-62c3-8209-e063-6394a90abfd1">
+               <id root="30c9ad10-3a9d-0927-e063-6394a90a201a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">OTHER INFORMATION</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">[EXECUTIVE STANDARD] </content>
+                  </paragraph>
+                  <paragraph>Pharmacopoeia of the People's Republic of China (2020, Volume 11)</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">[APPROVAL NUMBER]</content>
+                  </paragraph>
+                  <paragraph>GuoYaoZhunZi: H20033208 (50ml: 0.45g)</paragraph>
+                  <paragraph>GuoYaoZhunZi: H20023682 (100ml: 0.9g)</paragraph>
+                  <paragraph>GuoYaoZhunZi: H20023146 (250ml: 2.25g)</paragraph>
+                  <paragraph>GuoYaoZhunZi: H20023145 (500ml: 4.5g)</paragraph>
+                  <paragraph>GuoYaoZhunZi: H20023750 (1000ml: 9g)</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">[PHARMACEUTICAL MARKETING AUTHORIZATION HOLDER]</content>
+                  </paragraph>
+                  <paragraph>Name: Huaren Pharmaceutical Co., Ltd.</paragraph>
+                  <paragraph>Registered Address: No. 187, Zhuzhou Road, Qingdao High-tech Park, China.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">[MANUFACTURER]</content>
+                  </paragraph>
+                  <paragraph>Enterprise Name: Huaren Pharmaceutical Co., Ltd.</paragraph>
+                  <paragraph>Production Address: No. 187, Zhuzhou Road, Qingdao High-tech Park, China. Zip code: 266101</paragraph>
+                  <paragraph>Tel.: 400-0648885      </paragraph>
+                  <paragraph>Fax: 0532-67709071</paragraph>
+                  <paragraph>Website: http//www.qdhuaren.com</paragraph>
+                  <paragraph/>
+                  <paragraph>Fax: 0532-88702625</paragraph>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30c9bc48-6ccf-0cda-e063-6394a90a1952">
+               <id root="30c9d8ab-0be0-2613-e063-6394a90aa59d"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <title>
+                  <content styleCode="bold">HEALTH CARE PROVIDER LETTER pg.1</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_30c9cdf6-8e31-1413-e063-6394a90abc54"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <observationMedia ID="img_30c9cdf6-8e31-1413-e063-6394a90abc54">
+                     <text>Pg1 DHCP</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="DHCP Letter_3-2025_Page_1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30c9dc19-5093-17dd-e063-6394a90a51f9">
+               <id root="30c9e3bc-0875-2be6-e063-6394a90a8548"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <title>
+                  <content styleCode="bold">HEALTH CARE PROVIDER LETTER pg.2</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_30c9dafa-8e08-128d-e063-6394a90a2fbe"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <observationMedia ID="img_30c9dafa-8e08-128d-e063-6394a90a2fbe">
+                     <text>Pg2 DHCP</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="DHCP Letter_3-2025_Page_2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30c9d769-bc78-04d2-e063-6294a90a665a">
+               <id root="30c9d769-bc77-04d2-e063-6294a90a665a"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <title>
+                  <content styleCode="bold">HEALTH CARE PROVIDER LETTER pg.3</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_30c9d90b-eba7-17be-e063-6394a90a8408"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <observationMedia ID="img_30c9d90b-eba7-17be-e063-6394a90a8408">
+                     <text>Pg3 DHCP</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="DHCP Letter_3-2025_Page_3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s23">
+               <id root="30c9dc19-5094-17dd-e063-6394a90a51f9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PACKAGE LABEL</content>– 0.9% Sodium Chloride 1000 mL Bag Label
+</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2fb77dc4-deef-b184-e063-6294a90a1bf3"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250207"/>
+               <component>
+                  <observationMedia ID="img_2fb77dc4-deef-b184-e063-6294a90a1bf3">
+                     <text>SC 1000mL Bag</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="1000mL BAG.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

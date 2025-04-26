@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="b4fff30d-25fe-4b44-aff2-cd02cc251a1c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use VOWST™ safely and effectively. See full prescribing information for VOWST.<br/>
+      <br/> VOWST (fecal microbiota spores, live-brpk) capsules, for oral administration<br/> Initial U.S. Approval:  2023</title>
+   <effectiveTime value="20250321"/>
+   <setId root="99e5a37a-930c-4641-bcdd-7013ec1c15fe"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="057562771" root="1.3.6.1.4.1.519.1"/>
+            <name>Aimmune Therapeutics, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="119400808" root="1.3.6.1.4.1.519.1"/>
+                        <name>Seres Therapeutics, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="71881-400" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="000e67ff-df97-4c31-8b02-77cfbadec1b6"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250201"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71881-400" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>VOWST</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>fecal microbiota spores, live-brpk</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="30000000" unit="[CFU]"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9K7X6R5BMW" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DONOR HUMAN STOOL SPORES (ETHANOL TREATED)</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9K7X6R5BMW" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DONOR HUMAN STOOL SPORES (ETHANOL TREATED)</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="12" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="71881-400-12" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20230426"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BLA125757" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230426"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText>Opaque</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="23" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">SER109</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="S1">
+               <id root="71cedc10-8db6-422d-b2f1-f52926c28ee6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1  INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>VOWST is indicated to prevent the recurrence of <content styleCode="italics">Clostridioides difficile</content> infection (CDI) in individuals 18 years of age and older following antibacterial treatment for recurrent CDI (rCDI).</paragraph>
+               </text>
+               <effectiveTime value="20250201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>VOWST is indicated to prevent the recurrence of <content styleCode="italics">Clostridioides difficile</content> infection (CDI) in individuals 18 years of age and older following antibacterial treatment for recurrent CDI (rCDI). (<linkHtml href="#S1">1</linkHtml>)</paragraph>
+                        <paragraph>Limitation of Use:</paragraph>
+                        <paragraph>VOWST is not indicated for treatment of CDI.</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section>
+                     <id root="fe884847-195f-4df6-b7ec-137bc461318d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>Limitation of Use:</paragraph>
+                        <paragraph>VOWST is not indicated for treatment of CDI.</paragraph>
+                     </text>
+                     <effectiveTime value="20250201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S2">
+               <id root="32e0141f-9627-429c-907c-3eaf525ccaf7"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2  DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20250201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">For oral administration only. (<linkHtml href="#S2">2</linkHtml>)</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Prior to taking the first dose:<list listType="unordered" styleCode="circle">
+                                 <item>Complete antibacterial treatment for rCDI 2 to 4 days before initiating treatment with VOWST. (<linkHtml href="#S2.1">2.1</linkHtml>)</item>
+                                 <item>Drink 296 mL (10 oz) of magnesium citrate on the day before and at least 8 hours prior to taking the first dose of VOWST. In clinical studies, participants with impaired kidney function received polyethylene glycol electrolyte solution (250 mL GoLYTELY, not approved for this use). (<linkHtml href="#S2.1">2.1</linkHtml>)</item>
+                              </list>
+                           </item>
+                           <item>The dosage of VOWST is 4 capsules taken orally once daily for 3 consecutive days. (<linkHtml href="#S2.2">2.2</linkHtml>)</item>
+                           <item>Take each dose (4 capsules) on an empty stomach prior to the first meal of the day. (<linkHtml href="#S2.2">2.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S2.1">
+                     <id root="731c9fba-32ab-4217-8ce2-dfb75ca7f2b8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1  Prior to taking the first dose</title>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Complete antibacterial treatment for recurrent CDI 2 to 4 days before initiating treatment with VOWST.</item>
+                           <item>Drink 296 mL (10 oz) magnesium citrate, on the day before and at least 8 hours prior to taking the <content styleCode="underline">first</content> dose of VOWST. In clinical studies, participants with impaired kidney function received polyethylene glycol electrolyte solution (250 mL GoLYTELY, not approved for this use) <content styleCode="italics">[see <linkHtml href="#S14">Clinical Studies (14)</linkHtml>].</content>
+                           </item>
+                           <item>Do not eat or drink, except for small amount of water, for at least 8 hours prior to taking the first dose.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.2">
+                     <id root="197dd3d4-d40c-4077-a85d-c207322458a9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2  Dosing regimen</title>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>The dosage of VOWST is 4 capsules taken orally once daily for 3 consecutive days.</item>
+                           <item>Take each dose (4 capsules) on an empty stomach prior to the first meal of the day.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S3">
+               <id root="461a88a5-bcbd-48d9-a560-5064672e6290"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3  DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Capsule. A single dose is 4 capsules.</paragraph>
+               </text>
+               <effectiveTime value="20250201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Capsule. A single dose is 4 capsules. (<linkHtml href="#S3">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S4">
+               <id root="194c5441-d119-4f74-8cd9-fddb7267c587"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4  CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None<content styleCode="italics">.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>None. (<linkHtml href="#S4">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S5">
+               <id root="0677e5df-85d4-4b9a-a626-4c3e4e191d14"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5  WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20250201"/>
+               <component>
+                  <section ID="S5.1">
+                     <id root="02b2460a-4d4b-46ed-b6d9-4fc5838eecbf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1  Transmissible infectious agents</title>
+                     <text>
+                        <paragraph>Because VOWST is manufactured from human fecal matter, it may carry a risk of transmitting infectious agents. Any infection suspected by a healthcare provider possibly to have been transmitted by this product should be reported by the healthcare provider to Aimmune Therapeutics, Inc. at 1-833-246-2566. </paragraph>
+                     </text>
+                     <effectiveTime value="20250201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.2">
+                     <id root="9448ecdb-6d84-45a9-ad89-08ffb8933723"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2  Potential presence of food allergens</title>
+                     <text>
+                        <paragraph>VOWST is manufactured from human fecal matter and may contain food allergens. The potential for VOWST to cause adverse reactions due to food allergens is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20250201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S6">
+               <id root="a5e581e5-ff93-484b-8d10-66c25d9a6af6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6  ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The most common adverse reactions (reported in ≥5% of participants) were abdominal distension (31.1%), fatigue (22.2%), constipation (14.4%), chills (11.1%), and diarrhea (10.0%).</paragraph>
+               </text>
+               <effectiveTime value="20250201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (reported in ≥5% of participants) were abdominal distension (31.1%), fatigue (22.2%), constipation (14.4%), chills (11.1%) and diarrhea (10.0%). (<linkHtml href="#S6.1">6.1</linkHtml>)</paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Aimmune Therapeutics, Inc. at 1-833-246-2566 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S6.1">
+                     <id root="a70c911b-5c96-491f-90ab-57380a1855b2"/>
+                     <code code="90374-0" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL TRIALS EXPERIENCE SECTION"/>
+                     <title>6.1  Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>The safety of VOWST was evaluated in one Phase 3, randomized, double-blind clinical study (Study 1: NCT03183128) and one Phase 3, open-label clinical study (Study 2: NCT03183141) conducted in the United States and Canada. Adults with confirmed rCDI were required to have symptoms controlled 48 to 96 hours post-antibacterial treatment to be eligible for enrollment and randomization (1:1) to receive either VOWST or placebo (capsules containing 92 ± 4% glycerol in saline) for 3 consecutive days. Participants with neutropenia (absolute neutrophil count of &lt;500 cells/mm<sup>3</sup>), toxic megacolon, or small bowel ileus were excluded from these studies. A total of 349 adults 18 years of age and older with rCDI were exposed to VOWST across both Study 1 (n=90) and Study 2 (n=259).  Across both Study 1 and Study 2, 99.1% of adults (346/349) received all scheduled doses of VOWST. Overall, across the 2 studies, the median age of VOWST recipients was 66 years (range, 21-100 years). The racial and ethnic distribution was as follows: 92.3% were white and 5.2% were black. In Study 1, females comprised 68.9% of the VOWST arm compared to 51.1% in the placebo arm. Rates of the following comorbidities (at study entry) were similar across the VOWST and placebo arms: cardiac disease (33.3% and 31.5%, respectively), immunocompromise/immunosuppression (28.9% and 30.4%, respectively), diabetes (20.0% and 27.2%, respectively), and renal impairment (14.4% and 15.2%, respectively). In Study 2, 68.4% were females and representation of comorbidities was similar to Study 1.</paragraph>
+                     </text>
+                     <effectiveTime value="20250201"/>
+                     <component>
+                        <section>
+                           <id root="e942ddb5-2d9f-4487-b765-2119485964db"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Adverse Reactions</content>
+                              </paragraph>
+                              <paragraph>In Study 1, participants recorded solicited adverse events in a diary for 7 days after completion of the 3-day regimen of VOWST or placebo. In both Study 1 and Study 2, participants were monitored for unsolicited adverse events by queries during weekly encounters for a period of 8 weeks. Monitoring for  serious adverse events and adverse events of special interest (i.e., invasive infections) continued for a period of 6 months after the first dose of study drug. In Study 1, a multi-center, double-blind randomized (1:1), placebo-controlled trial conducted in the United States and Canada, adults 18 years of age and older (range: 18 to 100 years of age) received three daily doses of VOWST (n=90) or placebo (n=92). Overall through the 24 week follow up period, 12 VOWST recipients (13.3%) and 37 placebo recipients (40.2%) did not complete the study.</paragraph>
+                              <paragraph>Participants with a recurrence of CDI during the first 8 weeks after receipt of first dose of VOWST or placebo were eligible to enroll into Study 2 and were no longer followed for safety in Study 1. During the first 8 weeks following VOWST or placebo, 5 participants (5.6%) and 28 participants (30.4%) respectively, did not complete 8 weeks of study participation. Of these, 4 VOWST recipients and 25 placebo recipients discontinued Study 1 and enrolled in Study 2.</paragraph>
+                              <paragraph>In Study 1, within 8 weeks following VOWST or placebo, the most common solicited adverse reactions reported by ≥5% of VOWST recipients, and at a rate greater than that reported by placebo recipients, were abdominal distension (31.1%), fatigue (22.2%), constipation (14.4%), and chills (11.1%). The most common unsolicited adverse reaction was diarrhea (10.0%) (Table 1). The median duration (days) of these events was 5 days or less; specifically, abdominal distension (3.0), constipation (2.0), fatigue (4.5), chills (1.5), and diarrhea (5.0).</paragraph>
+                              <table width="85%">
+                                 <caption>Table 1: Adverse Reactions Reported in ≥5% of VOWST-treated Participants and at a Frequency Greater than Placebo within 8 weeks after receipt of VOWST or placebo  (Study 1)<footnote>Safety population, defined as all randomized participants who received a dose of study medication, by treatment received 85/90 participants in the VOWST group and 64/92 participants in the placebo group completed 8 week follow up.</footnote>
+                                 </caption>
+                                 <col width="34%" align="left" valign="top"/>
+                                 <col width="33%" align="left" valign="top"/>
+                                 <col width="33%" align="left" valign="top"/>
+                                 <thead>
+                                    <tr>
+                                       <th styleCode="Lrule Rrule">Adverse Reaction</th>
+                                       <th styleCode="Rrule">VOWST<br/>N=90<br/>%</th>
+                                       <th styleCode="Rrule">Placebo<br/>N=92<br/>%</th>
+                                    </tr>
+                                 </thead>
+                                 <tfoot>
+                                    <tr>
+                                       <td colspan="3" align="left" valign="top">System Organ Class and Preferred Terms reported by Medical Dictionary for Regulatory Activities (MedDRA) version 20.0</td>
+                                    </tr>
+                                 </tfoot>
+                                 <tbody>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Solicited<footnote>Solicited adverse events were recorded by participants in a diary for 7 days after completion of the 3-day regimen of VOWST or placebo.  Participants were monitored for unsolicited events by queries during visits for a period of 8 weeks after the first dose of study drug.</footnote>
+                                       </td>
+                                       <td styleCode="Rrule"/>
+                                       <td styleCode="Rrule"/>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Abdominal distension</td>
+                                       <td styleCode="Rrule">31.1</td>
+                                       <td styleCode="Rrule">29.3</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Fatigue</td>
+                                       <td styleCode="Rrule">22.2</td>
+                                       <td styleCode="Rrule">21.7</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Constipation</td>
+                                       <td styleCode="Rrule">14.4</td>
+                                       <td styleCode="Rrule">10.9</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Chills</td>
+                                       <td styleCode="Rrule">11.1</td>
+                                       <td styleCode="Rrule">7.6</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Unsolicited</td>
+                                       <td styleCode="Rrule"/>
+                                       <td styleCode="Rrule"/>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Lrule Rrule">  Diarrhea</td>
+                                       <td styleCode="Rrule">10.0</td>
+                                       <td styleCode="Rrule">4.3</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>In Study 1, most adverse reactions occurred within 10 days of starting treatment with VOWST. After this, the proportion of participants with adverse reactions declined through follow-up. The majority of adverse reactions were mild or moderate in severity.</paragraph>
+                              <paragraph>In Study 2, the most commonly reported adverse reactions were preferred terms under the system organ class of Gastrointestinal disorders, namely flatulence (4.2%), diarrhea (3.4%) and nausea (3.0%). The majority of adverse reactions were mild to moderate in severity. All adverse events collected in Study 2 were unsolicited.</paragraph>
+                           </text>
+                           <effectiveTime value="20250201"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="e8dfff90-26eb-4d69-a953-c96e347fa2fe"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Serious Adverse Events</content>
+                              </paragraph>
+                              <paragraph>Among 349 VOWST recipients, there were no serious adverse events considered related to VOWST.</paragraph>
+                           </text>
+                           <effectiveTime value="20250201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S7">
+               <id root="b1374aff-b4bf-4cd8-a20e-2ce705f88c5c"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7  DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>VOWST contains bacterial spores; therefore, antibacterials should not be administered concurrently with VOWST.</paragraph>
+               </text>
+               <effectiveTime value="20250201"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Antibacterials should not be administered concurrently with VOWST. (<linkHtml href="#S7">7</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S8">
+               <id root="0e8f0c2b-a71c-4986-b563-caf6a1469ff6"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8  USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20250201"/>
+               <component>
+                  <section ID="S8.1">
+                     <id root="ad0639ca-44f6-4f79-a26e-d01e70741166"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1  Pregnancy</title>
+                     <effectiveTime value="20250201"/>
+                     <component>
+                        <section>
+                           <id root="72776233-49bb-45a1-b581-65d619a40884"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>All pregnancies have a background risk of major birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriages in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                              <paragraph>There are no data on use of VOWST in pregnant individuals. Developmental toxicity studies in animals have not been conducted with VOWST.</paragraph>
+                           </text>
+                           <effectiveTime value="20250201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.2">
+                     <id root="493331bf-b357-49ef-b46d-039988dc3a57"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2  Lactation</title>
+                     <effectiveTime value="20250201"/>
+                     <component>
+                        <section>
+                           <id root="1e21b12e-5780-4cd7-9aa8-566e2faeb278"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>It is not known whether VOWST is excreted in human milk. Data are not available to assess the effects of VOWST on the breastfed infant or on milk production/excretion.The developmental and health benefits of breastfeeding should be considered, along with the mother's clinical need for VOWST and any other potential adverse effects on the breastfed child from VOWST or from the underlying maternal condition.</paragraph>
+                           </text>
+                           <effectiveTime value="20250201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.4">
+                     <id root="21de7eeb-7fe1-481a-9eb5-56c842d619fd"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4  Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of VOWST in individuals younger than 18 years of age have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20250201"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.5">
+                     <id root="1adb5b58-9ab4-4bae-a06b-8dd082e12582"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5  Geriatric Use</title>
+                     <text>
+                        <paragraph>Of the 349 adults who received VOWST, 52.4% were 65 years of age and over (n=183), and 28.1% were 75 years of age and over (n=98). Data from clinical studies of VOWST are not sufficient to determine if adults 65 years of age and older respond differently than younger adults.</paragraph>
+                     </text>
+                     <effectiveTime value="20250201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S11">
+               <id root="23f0cadf-30fd-41d7-a671-48cafaa16333"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11  DESCRIPTION</title>
+               <text>
+                  <paragraph>VOWST (fecal microbiota spores, live-brpk) is a bacterial spore suspension in capsules for oral administration. VOWST is manufactured from human fecal matter sourced from qualified donors. Human fecal matter donations are routinely tested for a panel of transmissible pathogens. Donors do not have dietary restrictions with respect to potential food allergens. The spore suspension is generated by treating fecal matter with ethanol to kill organisms that are not spores, followed by filtration steps to remove solids and residual ethanol. Each capsule of VOWST contains between 1×10<sup>6</sup> and 3×10<sup>7</sup> Firmicutes spore colony forming units in 92 ± 4% (w/w) glycerol in saline. </paragraph>
+               </text>
+               <effectiveTime value="20250201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S12">
+               <id root="5ed9cbf9-0781-402a-8dd0-e05b1d56d6c0"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12  CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20250201"/>
+               <component>
+                  <section ID="S12.1">
+                     <id root="c9611b47-d3f6-4afa-a034-4fa6e86e59a3"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1	 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The mechanism of action of VOWST has not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20250201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S13">
+               <id root="fc7f63b7-38dd-4984-aab7-dda786e4179e"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13  NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20250201"/>
+               <component>
+                  <section ID="S13.1">
+                     <id root="41d33513-b337-4a7d-9fa4-4461dfc64961"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1  Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>VOWST has not been evaluated for carcinogenicity, genotoxicity, mutagenic potential, or impairment of male or female fertility in animals.</paragraph>
+                     </text>
+                     <effectiveTime value="20250201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S14">
+               <id root="b3af0b3f-3dc7-4f7d-86dc-984a2ebba3ce"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14  CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>The efficacy of VOWST was evaluated in a randomized placebo-controlled multi-center study (Study 1). The primary objective was to demonstrate the reduction of CDI recurrence with VOWST. Enrolled participants were 18 years of age or older and had a confirmed diagnosis of recurrent CDI (with a total of ≥3 episodes of CDI within 12 months). CDI episode at the study entry was defined as diarrhea (≥3 unformed stools per day for at least 2 consecutive days) and a positive <content styleCode="italics">C. difficile</content> stool sample using a toxin assay. Participants were required to have symptom resolution, defined as &lt;3 unformed stools in 24 hours for 2 or more consecutive days prior to randomization, following 10 to 21 days of standard-of-care antibacterial treatment with vancomycin or fidaxomicin. Participants were stratified by antibacterial received (vancomycin or fidaxomicin) and age (&lt;65 years or ≥65 years) and randomized 1:1 to receive a dose of VOWST or placebo once daily for 3 consecutive days. The day prior to starting the assigned treatment regimen, participants were required to drink 296 mL (10 oz) of magnesium citrate or based on medical judgment, 250 mL polyethylene glycol electrolyte solution (GoLYTELY, not approved for this use). Participants with impaired kidney function who were unable to take magnesium citrate took 250 mL polyethylene glycol electrolyte solution. All participants fasted for at least 8 hours before taking the first dose of VOWST. Participants were also required to continue fasting for 1 hour after the first day of treatment with VOWST. For Days 2 and 3, VOWST was taken in the morning before breakfast.</paragraph>
+                  <paragraph>In the intent-to-treat population consisting of all 182 randomized participants, 89 were in the VOWST group and 93 were in the placebo group. The participants had a mean age of 65.5 years (range, 18–100 years), 93.4% were white, 59.9% were female, and 73.1% received vancomycin. </paragraph>
+                  <paragraph>The primary efficacy endpoint was CDI recurrence through 8 weeks after completion of treatment. Participants were assessed for recurrence, which was defined as ≥3 unformed stools per day for 2 consecutive days with continued diarrhea until antibacterial treatment was initiated, a positive <content styleCode="italics">C. difficile</content> test on a stool sample determined by a toxin assay, and assessment by the Investigator that the clinical condition of the participant warranted antibacterial treatment. </paragraph>
+                  <paragraph>Through 8 weeks after treatment, CDI recurrence in VOWST-treated participants was lower compared to that in placebo-treated participants (12.4% compared to 39.8%). VOWST met the pre-specified success criterion of the upper bound of the two-sided 95% confidence interval of the CDI relative risk lower than 0.83 (see <linkHtml href="#table2">Table 2</linkHtml>).</paragraph>
+                  <table width="85%" ID="table2">
+                     <caption>Table 2: Efficacy Results through 8 Weeks after VOWST Treatment (Study 1, Intent-to-Treat Population<footnote>Intent-to-treat population, consisted of all participants who were randomized. Participants were analyzed according to randomized treatment assignment which differed from actual treatment received for 5 participants (3 participants randomized to placebo received VOWST and 2 participants randomized to VOWST received placebo), which resulted in differing number of participants in each treatment arm for efficacy and safety analyses.</footnote>)</caption>
+                     <col width="30%" align="left" valign="top"/>
+                     <col width="22%" align="center" valign="top"/>
+                     <col width="26%" align="center" valign="top"/>
+                     <col width="22%" align="center" valign="top"/>
+                     <thead>
+                        <tr>
+                           <th styleCode="Lrule Rrule"/>
+                           <th styleCode="Rrule">VOWST<br/>N=89<br/>n (%)</th>
+                           <th styleCode="Rrule">Placebo<br/>N=93<br/>n (%)</th>
+                           <th styleCode="Rrule">Relative Risk <br/>(95% CI) <footnote>VOWST divided by Placebo recurrence rate adjusted for stratification based on Cochran-Mantel-Haenszel method. 95% CI based on Greenland-Robins method. VOWST met the pre-specified success criterion of the upper bound of the two-sided 95% CI of the CDI relative risk &lt;0.83.</footnote>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tfoot>
+                        <tr>
+                           <td colspan="4" align="left" valign="top">CDI=<content styleCode="italics">C. difficile</content> infection; CI=confidence interval; n (%)=Number (percentage) of participants in the analysis population meeting the criteria for endpoint; N = Number of participants included in the analysis population</td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Lrule Rrule">CDI Recurrence <footnote>Participants who were lost to follow-up, terminated the study prematurely, or died without a recorded recurrence before the end of the time interval (1 and 2 participants in VOWST and placebo group, respectively) were assumed to have had a recurrence.</footnote>
+                           </td>
+                           <td styleCode="Rrule">11 (12.4)</td>
+                           <td styleCode="Rrule">37 (39.8)</td>
+                           <td styleCode="Rrule">0.32 (0.18; 0.58)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Through 12 weeks after treatment, the recurrence rates for VOWST and placebo recipients were 18.0% (16/89) and 46.2% (43/93), respectively with a relative risk of 0.40 (95% CI 0.24,0.65). Through 24 weeks after treatment, recurrence rates for VOWST and placebo recipients were 21.3% (19/89) and 47.3% (44/93), respectively with a relative risk of 0.46 (95% CI 0.30, 0.73).</paragraph>
+               </text>
+               <effectiveTime value="20250201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S16">
+               <id root="77439d30-241f-495b-ab89-68163e8e32b1"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16  HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>VOWST is supplied as capsules in bottles with child-resistant caps. Each bottle contains 12 white capsules imprinted with "SER109". Each bottle is supplied in a carton.</paragraph>
+                  <paragraph>Bottles of 12 capsules:  NDC 71881-400-12.</paragraph>
+               </text>
+               <effectiveTime value="20250201"/>
+               <component>
+                  <section>
+                     <id root="d762aea1-3732-4212-ae87-976869be133e"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>Store VOWST in the original packaging at 2° to 25°C (36° to 77°F). Do not store in the freezer.</paragraph>
+                     </text>
+                     <effectiveTime value="20250201"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S17">
+               <id root="3ad5ca0b-17b6-4fb9-a533-88d5b756e76e"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17  PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Patient Information).</paragraph>
+                  <paragraph>Inform patients not to take VOWST concurrently with antibacterials <content styleCode="italics">[see <linkHtml href="#S7">Drug Interactions (7)</linkHtml>].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250201"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="42e1765a-ee5b-4ff3-95f6-b379c423a4f3"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Distributed by:<br/>Aimmune Therapeutics, Inc.<br/>1007 US Highway 202/206, Bridgewater, NJ 08807<br/>US license number: 2109</paragraph>
+                  <paragraph>VOWST is a trademark of Société des Produits Nestlé S.A., <br/>Vevey, Switzerland. © 2025 Nestlé.</paragraph>
+                  <paragraph>GoLYTELY is a registered trademark of Braintree Laboratories, Inc.</paragraph>
+               </text>
+               <effectiveTime value="20250201"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="40eec3db-0929-46b2-8a58-f8c857782102"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <text>
+                  <table width="100%">
+                     <col width="100%" align="left" valign="top"/>
+                     <thead>
+                        <tr>
+                           <th styleCode="Lrule Rrule" align="center">Patient Information<br/>VOWST (pronounced Vowst)<br/>(fecal microbiota spores, live – brpk)<br/>capsules, for oral use</th>
+                        </tr>
+                     </thead>
+                     <tfoot>
+                        <tr>
+                           <td align="left">This Patient Information has been approved by the U.S. Food and Drug Administration.	<br/>	Issued 02/2025</td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Before you take VOWST, read this information sheet and be sure you understand it. If you have questions or experience any side effects, talk to your healthcare provider. This information does not take the place of talking about VOWST with your healthcare provider. Keep this patient information so you can read it again.</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="bold">What is VOWST?</content>
+                              <br/>VOWST is a prescription medicine used to prevent <content styleCode="italics">Clostridioides difficile</content> (<content styleCode="italics">C. difficile</content>) infection from coming back in people 18 years of age or older after antibiotic treatment for <content styleCode="italics">C. difficile</content> infection has been completed.<br/>VOWST is not intended for treatment of <content styleCode="italics">C. difficile</content> infection.</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="bold">How should I take VOWST?</content>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>VOWST is taken over three consecutive days.</item>
+                                 <item>Before you take VOWST:<list listType="unordered" styleCode="circle">
+                                       <item>2 to 4 days before your first dose of VOWST, finish your antibiotic treatment for <content styleCode="italics">C. difficile</content> infection.</item>
+                                       <item>On the day before and at least 8 hours prior to the <content styleCode="underline">first</content> dose of VOWST, drink 10 oz (296 mL) of magnesium citrate laxative.</item>
+                                       <item>Do not eat or drink, except for small amount of water, for at least 8 hours prior to taking the first dose.</item>
+                                    </list>
+                                 </item>
+                                 <item>The next day after taking the laxative, take 4 VOWST capsules by mouth on an empty stomach prior to the first meal of the day.</item>
+                                 <item>Take 4 VOWST capsules by mouth once daily for two more days in a row. Take VOWST capsules on an empty stomach prior to the first meal of the day.</item>
+                              </list>Swallow each capsule whole. DO NOT crush, chew, or break the capsules.</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="bold">Do any medications interfere with VOWST?</content>
+                              <br/>VOWST contains live bacteria. Antibiotics can interfere with VOWST. VOWST should not be taken at the same time as antibiotics. </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="bold">What should I tell my healthcare provider before taking VOWST?</content>
+                              <br/>Tell your healthcare provider if you:<list listType="unordered" styleCode="disc">
+                                 <item>have kidney disease because you may not be able to take the magnesium citrate laxative.</item>
+                                 <item>have any other medical conditions now or have had before.</item>
+                                 <item>take any medicines, including prescription and over-the-counter medicines, vitamins, and supplements.</item>
+                                 <item>are pregnant or planning to get pregnant.</item>
+                                 <item>are breast-feeding.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="bold">What are the possible side effects of VOWST?<br/>The most common side effects observed in patients taking VOWST were:</content>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>bloated abdomen</item>
+                                 <item>fatigue</item>
+                                 <item>constipation</item>
+                                 <item>chills</item>
+                                 <item>diarrhea</item>
+                              </list>These are not all the possible side effects of VOWST. Be sure to tell your healthcare provider about any side effect that bothers you or that does not go away. For more information, ask your healthcare provider or pharmacist.<br/>Call your healthcare provider for medical advice about side effects. You may report side effects to Aimmune Therapeutics, Inc. at 1-833-246-2566 or FDA at 1-800-FDA-1088 or report online to www.fda.gov/medwatch.</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="bold">How should I store VOWST?</content>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>Keep the bottle of VOWST capsules either in the refrigerator or at room temperature (36 to 77°F, 2 to 25°C). Do not store in the freezer.</item>
+                                 <item>Do not use VOWST past the expiration date stamped on the carton and the bottle.</item>
+                              </list>
+                              <content styleCode="bold">Keep VOWST out of the reach of children.</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="bold">What if I have questions?</content>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>Call your healthcare provider.</item>
+                                 <item>Call Aimmune Therapeutics, Inc.at 1-833-AIM-2KNO (1-833-246-2566).</item>
+                                 <item>Go to the website www.VOWST.com.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="bold">What are the ingredients in VOWST?<br/>Active ingredient:</content> live bacterial spores<br/>
+                              <content styleCode="bold">Inactive ingredients:</content> Glycerol, Saline</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">Distributed by:<br/>
+                              <content styleCode="bold">Aimmune Therapeutics, Inc.</content>
+                              <br/>1007 US Highway 202/206, Bridgewater, NJ 08807<br/>US license number: 2109<br/>VOWST is a trademark of Société des Produits Nestlé S.A.,<br/>Vevey, Switzerland. © 2025 Nestlé.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20250201"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="615d2d68-1bb7-4bf1-931f-43a554c87fd8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 12 Capsule Bottle Carton</title>
+               <text>
+                  <paragraph>fecal microbiota<br/>spores, live-brpk<br/>VOWST<sup>®</sup>
+                  </paragraph>
+                  <paragraph>Contents: One bottle containing 12 capsules</paragraph>
+                  <paragraph>Distributed by Aimmune Therapeutics, Inc.</paragraph>
+                  <paragraph>NDC 71881-400-12</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20250201"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 12 Capsule Bottle Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="vowst-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

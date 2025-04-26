@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="83215733-be55-48e1-95dc-2884132042d2"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">OBAGI-C<sup>®</sup>
+      </content>
+      <br/>
+      <content styleCode="bold">RX SYSTEM</content>
+      <br/>
+   </title>
+   <effectiveTime value="20250101"/>
+   <setId root="9ff4f617-b8d3-46d6-8ddb-41088dd8f226"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="790553353" root="1.3.6.1.4.1.519.1"/>
+            <name>Obagi Cosmeceuticals LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="017014734" root="1.3.6.1.4.1.519.1"/>
+                  <name>G.S.COSMECEUTICAL USA, INC.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="017014734" root="1.3.6.1.4.1.519.1"/>
+                        <name>G.S.COSMECEUTICAL USA, INC.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="62032-106" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="785961046" root="1.3.6.1.4.1.519.1"/>
+                        <name>PURETEK CORPORATION</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="62032-106" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="62032-106" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="62032-106" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="ebed585e-e9a1-485d-af06-fcda7f2bf5fc"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250101"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="62032-106" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>OBAGI C RX system C CLARIFYING SERUM</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>HYDROQUINONE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="40" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XV74C1N1AE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROQUINONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="XV74C1N1AE" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROQUINONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PQ6CK8PD0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ASCORBIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8D08K3S51E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE CARBONATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43172" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="62032-106-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20100101"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="UNAPPROVED DRUG OTHER"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20100101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f640922d-5cc0-499e-be5f-4026ae576c3c">
+               <id root="98dbdbc6-f810-4511-93a1-2b4f34180437"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WELCOME TO THE OBAGI-C<sup>®</sup> RX SYSTEM OF SKIN CARE PRODUCTS!</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c4f18b52-3dc1-4acf-858b-79d8d6988a3b">
+               <id root="7abf08ff-de08-4802-8743-e8616f9a0fe8"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>PATIENT INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For Topical Use Only</content>
+                  </paragraph>
+                  <paragraph>Complete skin care regimen formulated with 4% hydroquinone to reduce hyperpigmentation and other essential ingredients to help address the signs of skin aging caused by photoaging.</paragraph>
+                  <paragraph>Please read this product information prior to use of the Obagi-C® Rx System. Any questions regarding your particular skin care regimen should be directed to your physician. More information about the Obagi-C® Rx System or other Obagi systems is available at our website at www.obagi.com.</paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c02cae32-47e5-4976-8c87-fee9457f454e">
+               <id root="6d2fe7a8-2c5e-463d-861e-17ffd63d647c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>PHYSICIAN PRESCRIBING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR EXTERNAL USE ONLY</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_1c11b264-0113-44a8-87ee-d5e2ec655dd4">
+               <id root="3716f9b8-3782-4286-982b-b6ce864d6748"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>62032-106-10 Obagi-C<sup>®</sup> Rx System C-Clarifying Serum for Normal to Dry Skin </title>
+               <text>
+                  <paragraph>Each gram of Obagi-C<sup>®</sup> Rx System C-Clarifying Serum for Normal to Dry Skin contains:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Active: </content>Hydroquinone, USP 4% (40 mg per g)</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Inactives: </content>ascorbic acid, propylene carbonate, propylene glycol, sodium lauryl sulfate, water</paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_708e7f6d-9f0c-466a-8793-d0c1c36c4e18">
+               <id root="eb244209-7ad0-4d9f-9144-eb35bc732a94"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>62032-122-10 Obagi-C<sup>®</sup> Rx System C-Clarifying Serum for Normal to Oily Skin</title>
+               <text>
+                  <paragraph>Each gram of Obagi-C<sup>®</sup> Rx System C-Clarifying Serum for Normal to Oily Skin contains:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Active: </content>Hydroquinone, USP 4% (40 mg per g)</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Inactives: </content>ascorbic acid, dipropylene glycol, fragrance, propylene carbonate, propylene glycol, SD alcohol-39-C, sodium lauryl sulfate, water</paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_305c0769-a9db-462c-af0b-4801eccbce01">
+               <id root="4e0334af-9e05-4c6d-871b-01f4c004902c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>62032-105-36 Obagi-C<sup>®</sup> Rx System C-Therapy Night Cream</title>
+               <text>
+                  <paragraph>Each gram of Obagi-C<sup>®</sup> Rx System C-Therapy Night Cream contains:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Active: </content>Hydroquinone, USP 4% (40 mg per g)</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Inactives: </content>ascorbic acid, BHT, cetyl alcohol, disodium EDTA, glycerin, lactic acid, methylparaben, phenyl trimethicone, PPG-2 myristyl ether propionate, propylparaben, saponins, sodium lauryl sulfate, sodium metabisulfite, TEA-salicylate, tocopheryl acetate, water</paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_71aa9a6a-9c72-4c9e-845b-999b0d423eb2">
+               <id root="6ea1ae89-3ad2-418b-8746-312169c65f32"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>Description</title>
+               <text>
+                  <paragraph>Hydroquinone is 1,4-benzenediol. Hydroquinone occurs as fine, white needles. The drug is freely soluble in water and in alcohol. Chemically, hydroquinone is designated as p-dihydroxybenzene; the empirical formula is C6H6O2; molecular weight is 110.11 g per mol.</paragraph>
+                  <paragraph>The chemical structure is in the diagram.</paragraph>
+                  <renderMultiMedia ID="id1469698819" referencedObject="F35C38FA-A08A-40E7-A431-FD39D2AD4B1F"/>
+               </text>
+               <effectiveTime value="20191224"/>
+               <component>
+                  <observationMedia ID="F35C38FA-A08A-40E7-A431-FD39D2AD4B1F">
+                     <text>chemstructure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="chemstructure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8f88b637-13b1-4f5e-b90a-e953e77d7997">
+               <id root="f0913576-9f28-49fe-a50e-1fbbfb775b30"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Topical application of hydroquinone produces a reversible depigmentation of the skin by inhibition of the enzymatic oxidation of tyrosine to 3, 4-dihydroxyphenylalanine (DOPA) and suppression of other melanocyte metabolic processes. Exposure to sunlight or ultraviolet light will cause repigmentation of the bleached areas, which may be prevented by the use of sunscreen agents contained in the Obagi-C® Rx System Sun Shield Matte Broad Spectrum SPF 50.</paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a4a0650f-37db-4ac5-bc65-eb9264e63ea2">
+               <id root="9d6787bc-3e90-4d46-9d25-11fb56f77e80"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>The gradual bleaching of hyperpigmented skin conditions such as chloasma, melasma, freckles, senile lentigines, and other unwanted areas of melanin hyperpigmentation.</paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2547e235-1ad8-4da0-a250-770e3ea1a905">
+               <id root="9e3a3c95-8092-4b19-b4a6-2c9bdbf21a57"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>A thin application should be applied once or twice daily or as directed by a physician. If no improvement is seen after three (3) months of treatment, use of this product should be discontinued. Sun exposure should be limited by using a sunscreen agent or protective clothing to cover bleached skin when using and after using this product in order to prevent darkening from reoccurring.</paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS">
+               <id root="c2127a01-dcd6-4de5-914b-70cbc2b190ca"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>• Hydroquinone is a skin-bleaching agent, which may produce unwanted cosmetic effects if not used as directed. The physician should be familiar with the contents of this insert before prescribing or dispensing this product.</paragraph>
+                  <paragraph>• Test for skin sensitivity before using by applying a small amount to an unbroken patch of skin and check within 24 hours. Minor redness is not a contraindication, but where there is itching or vesicle formation or excessive inflammatory response, the product should be discontinued and a physician consulted. Close patient supervision is recommended.</paragraph>
+                  <paragraph>• Avoid contact with eyes, nose, mouth, and lips. In case of accidental contact, the patient should rinse thoroughly with water and contact a physician.</paragraph>
+                  <paragraph>• Sunscreen use is an essential aspect of hydroquinone therapy because even minimal sunlight exposure sustains melanocytic activity.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The Obagi-C</content>® <content styleCode="bold">Rx System C-Therapy Night Cream contains sodium metabisulfite, a sulfite that may cause allergic-type reactions including anaphylactic symptoms and life-threatening or less severe asthmatic episodes in certain susceptible people. The overall prevalence of sulfite sensitivity in the general population is unknown and probably low. Sulfite sensitivity is seen more frequently in asthmatic than in nonasthmatic people.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8e7ec7e3-d1a5-434f-be65-e24c62d3c8b4">
+               <id root="2d5f8cc2-6043-498c-85e9-d1d0067eeb6b"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">(See <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                        <content styleCode="underline">.</content>)</content>
+                  </paragraph>
+                  <paragraph>Treatment should be limited to relatively small areas of the body at one time since some patients experience a transient skin reddening and a mild burning sensation, which does not preclude treatment.</paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+               <component>
+                  <section ID="ID_34245168-dc38-4e89-8c0d-6addf2c914de">
+                     <id root="3850fa5c-85cd-42dd-b9f2-2b7b48e360f8"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy Category C</content>
+                        </paragraph>
+                        <paragraph>Animal reproduction studies have not been conducted with topical hydroquinone. It is also not known whether hydroquinone can cause fetal harm when used topically on a pregnant woman or affect reproductive capacity. It is not known to what degree, if any, topical hydroquinone is absorbed systemically. Topical hydroquinone should be used on pregnant women only when clearly indicated. </paragraph>
+                     </text>
+                     <effectiveTime value="20191224"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c0dbbc7f-5f9e-4725-a336-7e40c45cc103">
+                     <id root="a9766a79-8260-4546-9213-8fc17a4b18d8"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether topical hydroquinone is absorbed or excreted in human milk. Caution is advised when topical hydroquinone is used by a nursing mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20191224"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a8c98f27-eae5-44a4-b87c-e1fc5bff3bbf">
+                     <id root="dfaca744-32a6-4918-95ac-ef373d1fa4be"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Usage</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in children, below the age of 12 years, have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20191224"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f342a5be-3478-45ed-bf22-ac817261b0dd">
+               <id root="eb7e78ef-c0e2-4a14-9b21-9dc576345148"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>No systemic adverse reactions have been reported. Occasional hypersensitivity (localized contact dermatitis) may occur, in which case the product should be discontinued and physician notified immediately.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Obagi Medical Products, a division of Valeant Pharmaceuticals North America LLC, at 1-800-321-4576 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b2565421-025f-46c1-b09b-562c570a79b6">
+               <id root="66b5d07c-b9ea-4bc7-b8c0-8a10ee2acf83"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>People with prior history of sensitivity or allergic reaction to this product or any of its ingredients should not use it. The safety of topical hydroquinone use during pregnancy or in children (12 years and under) has not been established.</paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_4fca72d2-1507-46b0-a043-9d7ce7e9a402">
+               <id root="76b8adf7-f626-498e-bc30-8486d4966492"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Obagi-C<sup>®</sup> Rx System C-Clarifying Serum</content>
+                     <br/>(Hydroquinone, USP 4%) for Normal to Dry Skin is available as follows: <br/>1 fl. oz. (30 mL) bottle    <br/>NDC 62032-106-10</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Obagi-C<sup>®</sup> Rx System C-Clarifying Serum</content>
+                     <br/>(Hydroquinone, USP 4%) for Normal to Oily Skin is available as follows: <br/>1 fl. oz. (30 mL) bottle    <br/>NDC 62032-122-10</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Obagi-C<sup>®</sup> Rx System C-Therapy Night Cream</content>
+                     <br/>(Hydroquinone, USP 4%) is available as follows: <br/>Net wt. 2 oz. (57 g) bottle    <br/>NDC 62032-105-36</paragraph>
+                  <paragraph>Store at controlled room temperature: 15° to 25°C (59° to 77°F). Keep out of direct sunlight.</paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6aa989d2-bcf9-4f64-8e46-d697fd4712c5">
+               <id root="c4d4a722-d3bb-4717-b713-684da89a8fe2"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                  </paragraph>
+                  <paragraph>Obagi Medical Products, Inc., a division of Valeant Pharmaceuticals North America LLC<br/>Bridgewater, NJ 08807 USA</paragraph>
+                  <paragraph>U.S. Patent 6,299,889</paragraph>
+                  <paragraph>Obagi-C is a trademark of Valeant Pharmaceuticals International, Inc. or its affiliates.</paragraph>
+                  <paragraph>©OMP, Inc.</paragraph>
+                  <paragraph>www.obagi.com </paragraph>
+                  <paragraph>9578900</paragraph>
+                  <paragraph>Revised: 10/2016 </paragraph>
+               </text>
+               <effectiveTime value="20191224"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_44b63911-e513-41f5-b402-cae77af83dc2">
+               <id root="a27f457e-5106-479e-ad1c-cc3f29c8c5bc"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 30 mL Bottle Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">OBAGI-C</content>
+                     <sup>®</sup>
+                     <br/>
+                     <content styleCode="bold">RX SYSTEM</content>
+                  </paragraph>
+                  <paragraph>NDC# 62032-106-10</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">C-CLARIFYING SERUM</content>
+                  </paragraph>
+                  <paragraph>SKIN LIGHTENING SERUM<br/>WITH VITAMIN C 10% <br/>                    HYDROQUINONE USP, 4% <br/>RX ONLY</paragraph>
+                  <paragraph>FOR NORMAL TO DRY SKIN</paragraph>
+                  <paragraph>AM </paragraph>
+                  <paragraph>1fl. oz. (30 mL) </paragraph>
+                  <renderMultiMedia ID="id2101367533" referencedObject="ID_322cd5e5-acd7-470e-805d-4990cb3ec616"/>
+               </text>
+               <effectiveTime value="20191224"/>
+               <component>
+                  <observationMedia ID="ID_322cd5e5-acd7-470e-805d-4990cb3ec616">
+                     <text>PRINCIPAL DISPLAY PANEL - 30 mL Bottle Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="obagi-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

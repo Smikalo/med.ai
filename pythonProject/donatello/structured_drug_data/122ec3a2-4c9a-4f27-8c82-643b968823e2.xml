@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="122ec3a2-4c9a-4f27-8c82-643b968823e2"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold"> Ketoconazole Shampoo, 2% </content>
+   </title>
+   <effectiveTime value="20240311"/>
+   <setId root="a4bb3f4c-ad93-4d85-b8d0-54eaa62228fd"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="081468959" root="1.3.6.1.4.1.519.1"/>
+            <name>Viona Pharmaceuticals Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="650199482" root="1.3.6.1.4.1.519.1"/>
+                  <name>Zydus Lifesciences Limited</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="650650802" root="1.3.6.1.4.1.519.1"/>
+                        <name>Zydus Lifesciences Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72578-156" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72578-156" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="e9945521-9db3-4fee-a1f7-73f339a0f52c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL Product Data Elements Section"/>
+               <effectiveTime value="20240311"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72578-156" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ketoconazole</name>
+                        <formCode code="C42981" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SHAMPOO"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ketoconazole</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="20" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="R9400W927I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>KETOCONAZOLE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="R9400W927I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>KETOCONAZOLE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="92005F972D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>COCO DIETHANOLAMIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="D6DH1DTN7E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DISODIUM LAURETH SULFOSUCCINATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M629807ATL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IMIDUREA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="YM0K64F20V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PEG-120 METHYL GLUCOSE DIOLEATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="BPV390UAP0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURETH-3 SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="120" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72578-156-12" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250308"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA218559" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250308"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID1">
+               <id root="b5d5a1de-937a-4d96-b64b-7b844e4daa35"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph ID="ID2">
+                     <content styleCode="bold">For Topical Application Only</content>
+                  </paragraph>
+                  <paragraph>Ketoconazole shampoo, 2% is a red-orange liquid for topical application, containing the broad spectrum synthetic antifungal agent ketoconazole in a concentration of 2% in an aqueous suspension. It also contains: cocodiethanolamide, disodium laureth sulfosuccinate, FD&amp;C red no. 40, hydrochloric acid, imidurea, laurdimonium hydroxypropyl hydrolyzed animal collagen, PEG-120 methyl glucose dioleate, purified water, sodium chloride, sodium hydroxide and sodium lauryl ether sulfate.</paragraph>
+                  <paragraph>Ketoconazole is <content styleCode="underline">cis</content>-1-acetyl-4-[4-[[2-(2,4-dichlorophenyl)-2-(1<content styleCode="underline">H</content>-imidazol-1- ylmethyl)-1,3-dioxolan-4-yl]methoxy]phenyl]piperazine and has the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20240311"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Ketoconazole shampoo-image01</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="122ec3a2-4c9a-4f27-8c82-643b968823e2-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID3">
+               <id root="7baf104f-7b33-4503-9a59-fac99c710815"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph ID="ID4">Tinea (pityriasis) versicolor is a non-contagious infection of the skin caused by <content styleCode="italics">Pityrosporum orbiculare (Malassezia furfur</content>). This commensal organism is part of the normal skin flora. In susceptible individuals the condition is often recurrent and may give rise to hyperpigmented or hypopigmented patches on the trunk which may extend to the neck, arms and upper thighs. Treatment of the infection may not immediately result in restoration of pigment to the affected sites. Normalization of pigment following successful therapy is variable and may take months, depending on individual skin type and incidental skin exposure. The rate of recurrence of infection is variable.</paragraph>
+                  <paragraph>Ketoconazole was not detected in plasma in 39 patients who shampooed 4 times to 10 times per week for 6 months or in 33 patients who shampooed 2 times to 3 times per week for 3 months to 26 months (mean: 16 months).</paragraph>
+                  <paragraph>An exaggerated use washing test on the sensitive antecubital skin of 10 subjects twice daily for five consecutive days showed that the irritancy potential of ketoconazole shampoo, 2% was significantly less than that of 2.5% selenium sulfide shampoo.</paragraph>
+                  <paragraph>A human sensitization test, a phototoxicity study and a photoallergy study conducted in 38 male and 22 female volunteers showed no contact sensitization of the delayed hypersensitivity type, no phototoxicity and no photoallergenic potential due to ketoconazole shampoo, 2%.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mode of Action</content>
+                  </paragraph>
+                  <paragraph>Interpretations of <content styleCode="italics">in vivo </content>studies suggest that ketoconazole impairs the synthesis of ergosterol, which is a vital component of fungal cell membranes. It is postulated, but not proven, that the therapeutic effect of ketoconazole in tinea (pityriasis) versicolor is due to the reduction of <content styleCode="italics">Pityrosporum orbiculare </content>(<content styleCode="italics">Malassezia furfur</content>) and that the therapeutic effect in dandruff is due to the reduction of <content styleCode="italics">Pityrosporum ovale</content>. Support for the therapeutic effect in tinea versicolor comes from a three-arm, parallel, double-blind, placebo controlled study in patients who had moderately severe tinea (pityriasis) versicolor. Successful response rates in the primary efficacy population for each of both three-day and single-day regimens of ketoconazole shampoo, 2% were statistically significantly greater (73% and 69%, respectively) than a placebo regimen (5%). There had been mycological confirmation of fungal disease in all cases at baseline. Mycological clearing rates were 84% and 78%, respectively, for the three-day and one-day regimens of the 2% shampoo and 11% in the placebo regimen. While the differences in the rates of successful response between either of the two active treatments and placebo were statistically significant, the difference between the two active regimens was not.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Microbiology</content>
+                  </paragraph>
+                  <paragraph>Ketoconazole is a broad spectrum synthetic antifungal agent which inhibits the growth of the following common dermatophytes and yeasts by altering the permeability of the cell membrane: dermatophytes: <content styleCode="italics">Trichophyton rubrum</content>, <content styleCode="italics">T. mentagrophytes</content>, <content styleCode="italics">T. tonsurans</content>, <content styleCode="italics">Microsporum canis</content>, <content styleCode="italics">M. audouini</content>, <content styleCode="italics">M. gypseum </content>and <content styleCode="italics">Epidermophyton floccosum</content>; yeasts: <content styleCode="italics">Candida albicans</content>, <content styleCode="italics">C. tropicalis</content>, <content styleCode="italics">Pityrosporum ovale </content>(<content styleCode="italics">Malassezia ovale</content>) and <content styleCode="italics">Pityrosporum orbiculare </content>(<content styleCode="italics">M. furfur</content>). Development of resistance by these microorganisms to ketoconazole has not been reported.</paragraph>
+               </text>
+               <effectiveTime value="20240311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID5">
+               <id root="6c38a7b6-53a7-4587-8838-29177864ea56"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph ID="ID6">Ketoconazole shampoo, 2% is indicated for the treatment of tinea (pityriasis) versicolor caused by or presumed to be caused by <content styleCode="italics">Pityrosporum orbiculare </content>(also known as <content styleCode="italics">Malassezia furfur </content>or <content styleCode="italics">M. orbiculare</content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note:</content> Tinea (pityriasis) versicolor may give rise to hyperpigmented or hypopigmented patches on the trunk which may extend to the neck, arms and upper thighs. Treatment of the infection may not immediately result in normalization of pigment to the affected sites. Normalization of pigment following successful therapy is variable and may take months, depending on individual skin type and incidental sun exposure. Although tinea versicolor is not contagious, it may recur because the organism that causes the disease is part of the normal skin flora.</paragraph>
+               </text>
+               <effectiveTime value="20240311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID7">
+               <id root="efa5127c-7aea-4514-b9f0-6d44c757168e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph ID="ID8">Ketoconazole shampoo, 2% is contraindicated in persons who have known hypersensitivity to the active ingredient or excipients of this formulation.</paragraph>
+               </text>
+               <effectiveTime value="20240311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID9">
+               <id root="71097b3f-fb0a-421a-b17b-98faf0021638"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph ID="ID10">Severe hypersensitivity reactions, including anaphylaxis, have been reported during post-marketing use of ketoconazole shampoo, 2%. If a reaction suggesting sensitivity or chemical irritation should occur, use of the medication should be discontinued.</paragraph>
+               </text>
+               <effectiveTime value="20240311"/>
+               <component>
+                  <section ID="ID11">
+                     <id root="cae8cccf-4564-4382-9678-4dfa4ca284c2"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph ID="ID12">Patients should be advised of the following:</paragraph>
+                        <list listType="unordered" ID="ID13" styleCode="Disc">
+                           <item>Ketoconazole shampoo, 2% may be irritating to mucous membranes of the eyes and contact with this area should be avoided.</item>
+                           <item>The following have been reported with the use of ketoconazole shampoo, 2%: hair discoloration and abnormal hair texture, removal of the curl from permanently waved hair, itching, skin burning sensation and contact dermatitis, hypersensitivity, angioedema, alopecia, rash, urticaria, skin irritation, dry skin and application site reactions.</item>
+                           <item>Patients who develop allergic reactions, such as generalized rash, skin reactions, severe swelling, angioedema or shortness of breath should discontinue ketoconazole shampoo, 2% and contact their physician immediately.</item>
+                        </list>
+                        <paragraph ID="ID14">
+                           <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                        </paragraph>
+                        <paragraph>Long-term studies to assess the carcinogenic potential of ketoconazole shampoo, 2% have not been conducted. A long-term feeding study of ketoconazole in Swiss Albino mice and in Wistar rats showed no evidence of oncogenic activity. The dominant lethal mutation test in male and female mice revealed that single oral doses of ketoconazole as high as 80 mg/kg were not genotoxic. The Ames Salmonella microsomal activator assay was also negative.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Teratogenic effects</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>There are no adequate and well-controlled studies in pregnant women. Ketoconazole should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. In humans, ketoconazole is not detected in plasma after chronic shampooing on the scalp.</paragraph>
+                        <paragraph>Ketoconazole has been shown to be teratogenic (syndactylia and oligodactylia) in the rat when given orally in the diet at 80 mg/kg/day (a dose 10 times the maximum recommended human oral dose). However, these effects may be related to maternal toxicity, which was seen at this and higher dose levels.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Nursing Mothers</content>
+                        </paragraph>
+                        <paragraph>There are no adequate and well-controlled studies in nursing women. Ketoconazole is not detected in plasma after chronic shampooing on the scalp. Caution should be exercised when ketoconazole shampoo, 2% is administered to a nursing woman.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Use</content>
+                        </paragraph>
+                        <paragraph>Safety and effectiveness in children have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20240311"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID15">
+               <id root="486b1ea2-8a5b-418c-ab52-5f8137ca624a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph ID="ID16">
+                     <content styleCode="bold">Clinical Trials Experience</content>
+                  </paragraph>
+                  <paragraph>In 11 double-blind trials in 264 patients using ketoconazole shampoo, 2% for the treatment of dandruff or seborrheic dermatitis, an increase in normal hair loss and irritation occurred in less than 1% of patients. In three open-label safety trials in which 41 patients shampooed 4 times to 10 times weekly for six months, the following adverse experiences each occurred once: abnormal hair texture, scalp pustules, mild dryness of the skin and itching. As with other shampoos, oiliness and dryness of hair and scalp have been reported. In a double-blind, placebo-controlled trial in which patients with tinea versicolor were treated with either a single application of ketoconazole shampoo, 2% (n=106), a daily application for three consecutive days (n=107) or placebo (n=105), drug-related adverse events occurred in 5 (5%), 7 (7%) and 4 (4%) of patients, respectively. The only events that occurred in more than one patient in any one of the three treatment groups were pruritus, application site reaction and dry skin; none of these events occurred in more than 3% of the patients in any one of the three groups.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Post-marketing Experience</content>
+                  </paragraph>
+                  <paragraph>Because these reactions are reported voluntarily from a population of uncertain size, it is not possible to reliably estimate their frequency. The following adverse drug reactions have been identified during post-marketing experience with ketoconazole shampoo, 2%: there have been reports of hair discoloration and abnormal hair texture, itching, skin burning sensation, contact dermatitis, hypersensitivity, angioedema, alopecia, rash, urticaria, skin irritation, dry skin and application site reactions.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Viona Pharmaceuticals Inc. at 1-888-304-5011 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID17">
+               <id root="64914eda-1e03-45af-aea7-aea26e74126d"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph ID="ID18">Ketoconazole shampoo, 2% is intended for external use only. In the event of accidental ingestion, supportive and symptomatic measures should be employed. Induced emesis and gastric lavage should not be performed to avoid aspiration.</paragraph>
+               </text>
+               <effectiveTime value="20240311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID19">
+               <id root="aaa1b8d6-e550-4c46-a549-3c0f85c692a8"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph ID="ID20">Apply the shampoo to the damp skin of the affected area and a wide margin surrounding this area. Lather, leave in place for 5 minutes and then rinse off with water.</paragraph>
+                  <paragraph>One application of the shampoo should be sufficient.</paragraph>
+               </text>
+               <effectiveTime value="20240311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID21">
+               <id root="00224a26-64bc-4b80-b1e5-f478e489f9d9"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph ID="ID22">Ketoconazole shampoo, 2% is a red-orange liquid supplied in a 4-fluid ounce (120 mL) nonbreakable plastic bottle (NDC 72578-156-12).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage conditions</content>
+                  </paragraph>
+                  <paragraph>Store at 20°C to 25°C (68°F to 77°F); excursions permitted to 15°C to 30°C (59°F to 86°F) [see USP Controlled Room Temperature]. Protect from light.</paragraph>
+               </text>
+               <effectiveTime value="20240311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID23">
+               <id root="1e72d0a4-f3fc-440c-a323-110104a2f400"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph ID="ID24">
+                     <content styleCode="bold">Manufactured by:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Zydus Lifesciences Ltd.</content>
+                  </paragraph>
+                  <paragraph>Changodar, Ahmedabad, India</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Viona Pharmaceuticals Inc.</content>
+                  </paragraph>
+                  <paragraph>Cranford, NJ 07016</paragraph>
+                  <paragraph>Rev.: 03/24</paragraph>
+               </text>
+               <effectiveTime value="20240311"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID25">
+               <id root="4ff638d2-38c5-4c11-b7a7-8c573c9aecf1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph ID="ID26">NDC 72578-156-12</paragraph>
+                  <paragraph>Ketoconazole Shampoo, 2%</paragraph>
+                  <paragraph>For Topical Application Only</paragraph>
+                  <paragraph>4 FL OZ (120 mL)</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <renderMultiMedia referencedObject="MM2">
+                     <caption>Front label</caption>
+                  </renderMultiMedia>
+                  <renderMultiMedia referencedObject="MM3">
+                     <caption>Back label</caption>
+                  </renderMultiMedia>
+               </text>
+               <effectiveTime value="20240311"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>image02</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="122ec3a2-4c9a-4f27-8c82-643b968823e2-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>image03</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="122ec3a2-4c9a-4f27-8c82-643b968823e2-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

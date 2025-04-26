@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="308e0113-aeb5-2471-e063-6294a90ad4ef"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>REGIOCIT</title>
+   <effectiveTime value="20250317"/>
+   <setId root="6fa432f1-7cde-4840-80f0-1be19a76f318"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="119181963"/>
+            <name>Vantive US Healthcare LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="437668413"/>
+                        <name>Bieffe Medital S.p.A.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="24571-123" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="24571-123" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="24571-123" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="24571-123" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" displayName="sterilize" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="24571-123" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="308e0205-acdb-ba48-e063-6394a90a91ee"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250317"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="24571-123" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>REGIOCIT</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sodium Chloride, Sodium Citrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="5.03"/>
+                              <denominator unit="mL" value="1000"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="5.29"/>
+                              <denominator unit="mL" value="1000"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE, UNSPECIFIED FORM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS CITRIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="2" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="24571-123-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20200918"/>
+                                          <high value="20260228"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20200918"/>
+                              <high value="20260228"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38212" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="EXTRACORPOREAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_02130e07-55fa-41cd-b7ea-1776b66c8ae8">
+               <id root="308e0113-aeb6-2471-e063-6294a90ad4ef"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Emergency Use Authorization (EUA) for REGIOCIT (Sodium Chloride and Sodium Citrate Renal Replacement and Regional Anticoagulant Solution)</title>
+               <text>
+                  <paragraph>FACT SHEET FOR HEALTHCARE PROVIDERS</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">REGIOCIT</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Sodium Chloride and Sodium Citrate Renal Replacement and Regional Anticoagulant solution)</content>For continuous renal replacement therapy
+
+ </paragraph>
+                  <paragraph>For extracorporeal use only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Emergency Use Authorization for the United States</content>
+                  </paragraph>
+                  <paragraph>The U.S. Food and Drug Administration (FDA) has issued an Emergency Use Authorization (EUA) to permit the emergency use of the unapproved product, REGIOCIT: a replacement solution that contains citrate for Regional Citrate Anticoagulation (RCA) of the extracorporeal circuit. REGIOCIT has been authorized for emergency use as a replacement solution in adult patients treated with Continuous Renal Replacement Therapy (CRRT), and for whom RCA is appropriate, during the COVID-19 pandemic. REGIOCIT is intended for use in a critical care setting. REGIOCIT is intended to be used in continuous venovenous hemofiltration (CVVH) and continuous venovenous hemodiafiltration (CVVHDF) modalities. Use of REGIOCIT is limited to healthcare providers and/or institutions that Baxter has qualified to administer REGIOCIT for these emergency uses.</paragraph>
+                  <paragraph>REGIOCIT has been authorized by FDA for emergency use. REGIOCIT is not FDA-approved.</paragraph>
+                  <paragraph>REGIOCIT is authorized only for the duration of the declaration that circumstances exist justifying the authorization of the emergency use of REGIOCIT under section 564(b)(1) of the Act, 21 U.S.C. § 360bbb-3(b)(1), unless the authorization is terminated or revoked sooner.</paragraph>
+                  <paragraph>The scope of the EUA is as follows:</paragraph>
+                  <list listType="unordered">
+                     <item>REGIOCIT will be used as a replacement solution only in adult patients being treated with CRRT and for whom RCA is appropriate.</item>
+                     <item>REGIOCIT will be administered only by a licensed healthcare provider in a critical care setting.</item>
+                     <item>REGIOCIT will available for use only in facilities that Baxter Healthcare Corporation has qualified and provided appropriate training on the use of REGIOCIT.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Product Description</content>
+                  </paragraph>
+                  <paragraph>REGIOCIT is a sterile, replacement solution intended for use in adult patients being treated with CRRT and for whom RCA is appropriate. REGIOCIT, contains physiological concentrations of sodium (140 mmol/l), chloride (86 mmol/l), and a low concentration of citrate (18 mmol/L).</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="98%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <list listType="ordered">
+                                 <item>
+                                    <content styleCode="bold">IMPORTANT ADMINISTRATION INSTRUCTIONS:</content>
+                                 </item>
+                              </list>
+                              <paragraph>•
+     
+      <content styleCode="bold"/>
+                                 <content styleCode="bold">A separate systemic infusion of calcium must be administered during use of REGIOCIT to prevent or treat hypocalcemia. Blood calcium concentrations (ionized and total) must be monitored throughout CRRT.</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">• REGIOCIT solution must be used in pre-dilution mode only, with appropriate extracorporeal renal replacement equipment intended for CRRT, using an integrated pre-blood pump for RCA and in combination with other replacement and/or dialysate solution to provide the recommended dose of CRRT.</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">• REGIOCIT may only be administered by health care providers/institutions that have been qualified by Baxter to administer the product.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Instructions for Use</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250317"/>
+               <component>
+                  <section ID="ID_de0f2f9b-d952-4864-ab55-90c3c03ab431">
+                     <id root="308e0113-aeb7-2471-e063-6294a90ad4ef"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>DOSAGE AND ADMINISTRATION</title>
+                     <effectiveTime value="20200813"/>
+                     <component>
+                        <section ID="ID_0939737e-014d-4bed-aa8f-59fb4ab574eb">
+                           <id root="308e0113-aeb8-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>1.1 Administration Instructions</title>
+                           <text>
+                              <paragraph>Renal Replacement Solution: Not for direct intravenous infusion.</paragraph>
+                              <paragraph>The recommended effluent volume for patients receiving CRRT for acute kidney injury (AKI) is 20 to 25 mL/kg/h. This usually requires a higher prescription of effluent volume. The prescription of REGIOCIT solution must consider the flow rates of the effluent and other therapeutic fluids, the patient’s fluid removal requirements, additional fluid inputs and outputs, and the desired acid-base and electrolyte balance.</paragraph>
+                              <paragraph>The mode of therapy, solute formulations, flow rates and length of therapy should be selected by the physician responsible for managing treatment depending on the clinical condition of the patient as well as the patient’s fluid, electrolyte, acid base and glucose balance.</paragraph>
+                              <paragraph>Dialysate and replacement fluid formulations and flow rates are prescribed in accordance with the patient’s clinical needs. The use of a calcium-containing dialysate or replacement fluid is not recommended, since the calcium provided by these solutions may counteract the anticoagulant effect of citrate in the circuit.</paragraph>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_f7ad801a-b989-48c7-8a58-fa12be2ba1ce">
+                           <id root="308e0113-aeb9-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>1.2 Suggested Dosing</title>
+                           <text>
+                              <paragraph>The rate at which REGIOCIT solution is administered depends on the targeted citrate dose and the prescribed blood flow rate. The pre-filter infusion rate of REGIOCIT solution is indexed to the blood flow rate to achieve a target blood citrate concentration of 3 mmol/L of blood (See Table 1). Flow rate for anticoagulation of the extracorporeal circuit should be titrated to achieve a post-filter concentration of ionized calcium in the range of 0.25 to 0.35 mmol/L.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Table 1: REGIOCIT Solution Flow Rates to Achieve Citrate Dose of 3 mmol/L of Blood</content>
+                                 <renderMultiMedia ID="id-461505336" referencedObject="ID_0aa5e5cb-3f81-42bb-b525-a02ebb736d14"/>
+                              </paragraph>
+                              <paragraph>Prior to initiating therapy, the patient’s systemic ionized calcium concentration should be within the normal physiologic range (1.0 to 1.2 mmol/L) by adjustment of calcium supplementation. A separate infusion of calcium is always required during use of REGIOCIT, due to loss in the effluent. Calcium solution infusion is commenced at the rate of 4 mmol/h, when commencing therapy (see Table 4). Adjust or stop calcium infusion according to physician’s prescription when REGIOCIT is stopped.</paragraph>
+                              <paragraph>Citrate also acts as a buffer source (due to conversion to bicarbonate); the infusion rate of REGIOCIT solution must be considered in relation to the rate at which buffer administration occurs from other sources (e.g., dialysate and/or replacement fluid). REGIOCIT solution must be used together with a dialysis solution/replacement solution with appropriate bicarbonate concentration.</paragraph>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                           <component>
+                              <observationMedia ID="ID_0aa5e5cb-3f81-42bb-b525-a02ebb736d14">
+                                 <text>Table 1</text>
+                                 <value mediaType="image/jpeg" xsi:type="ED">
+                                    <reference value="image-01.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_48279341-2f32-4ab0-92a4-ff2f7b2164b1">
+                           <id root="308e0113-aeba-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>1.3 Laboratory Monitoring</title>
+                           <text>
+                              <paragraph>Monitoring of the post-filter blood ionized calcium (iCa), systemic blood iCa, and total blood calcium levels in conjunction with other laboratory and clinical parameters such as acid-base balance and serum electrolytes are essential to guide appropriate REGIOCIT solution dosage based on the desired level of anticoagulation. Levels should be taken at baseline, 1 hour after initiation (or adjustment), and every 6 hours (See Table 2). Rapidly decreasing systemic ionized calcium levels are an early indicator of citrate accumulation.</paragraph>
+                              <paragraph>Measurement of total calcium and assessment of total-to-ionized calcium ratio is necessary. Citrate accumulation causes systemic ionized calcium levels to drop and the ratio of total-to-ionized calcium increases (total-to-ionized calcium ratio &gt; 2.5). In the presence of impaired citrate metabolism, a progressively higher calcium infusion rate is required to maintain the systemic ionized calcium concentration within the intended target. When a total-to-ionized-calcium ratio &gt; 2.5 is recorded, any one of the following abnormalities reported concurrently increases the likelihood of citrate accumulation:</paragraph>
+                              <list listType="unordered">
+                                 <item>A rapid decline in systemic iCa concentration despite adequate calcium compensation</item>
+                                 <item>A rapid decrease in pH or a decrease in base excess</item>
+                                 <item>A rapid increase in anion gap</item>
+                              </list>
+                              <paragraph>In order to avoid metabolic alkalosis, acid-base balance and systemic ionized calcium can be measured using blood gas analysis. If metabolic alkalosis or citrate accumulation is suspected, decrease the citrate dose while tolerating a post-filter ionized calcium of &lt; 0.5 mmol/L. This can be achieved by either decreasing the blood flow rate to decrease the overall citrate load, increasing the dialysate/replacement flow rate (when applicable) to increase the citrate removal, or decreasing the citrate flow to decrease the citrate dose. Dialysate solutions contain bicarbonate below or above physiological range of 22 to 26 mmol/L, and increasing or decreasing the flow rates of the dialysate solutions can impact the acid-base status of the patient.</paragraph>
+                              <paragraph>Plasma levels of sodium, magnesium, potassium, and glucose, and phosphate should be monitored regularly and should be supplemented as needed.</paragraph>
+                              <paragraph>Table 2 provides a summary of the most important parameters to be monitored during RCA therapy, as well as options for adjustment.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Table 2: Monitoring and Adjustment During RCA Therapy</content>
+                              </paragraph>
+                              <renderMultiMedia ID="id-1337684395" referencedObject="af887ad1-839c-44bb-842b-c788b75f4f86"/>
+                              <renderMultiMedia ID="id-1209880703" referencedObject="dcf0dae3-4548-4835-8e71-01a96ab3ad6a"/>
+                              <paragraph>Table 3 provides the REGIOCIT solution flow rate adjustment based on a citrate dose adjustment of 0.5 mmol/L.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Table 3: REGIOCIT Solution Flowrate Adjustment Based on a Citrate Dose Adjustment of 0.5 mmol/L</content>
+                              </paragraph>
+                              <renderMultiMedia ID="id983279143" referencedObject="ID_02162e3b-9761-4c68-b488-a49e707b25f1"/>
+                              <paragraph>Table 4 provides recommendations to maintain a systemic ionized calcium level between 1.0 mmol/L and 1.2 mmol/L.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Table 4: Sliding Scale of Calcium Infusion</content>
+                              </paragraph>
+                              <renderMultiMedia ID="id-2026233943" referencedObject="ID_6dcd3b00-f868-4cf1-820e-09cf76b04b77"/>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                           <component>
+                              <observationMedia ID="af887ad1-839c-44bb-842b-c788b75f4f86">
+                                 <text>Table 2 1 of 2</text>
+                                 <value mediaType="image/jpeg" xsi:type="ED">
+                                    <reference value="image-02.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                           <component>
+                              <observationMedia ID="dcf0dae3-4548-4835-8e71-01a96ab3ad6a">
+                                 <text>Table 2 2 of 2</text>
+                                 <value mediaType="image/jpeg" xsi:type="ED">
+                                    <reference value="image-03.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                           <component>
+                              <observationMedia ID="ID_02162e3b-9761-4c68-b488-a49e707b25f1">
+                                 <text>Table 3</text>
+                                 <value mediaType="image/jpeg" xsi:type="ED">
+                                    <reference value="image-04.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                           <component>
+                              <observationMedia ID="ID_6dcd3b00-f868-4cf1-820e-09cf76b04b77">
+                                 <text>Table 4</text>
+                                 <value mediaType="image/jpeg" xsi:type="ED">
+                                    <reference value="image-05.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_ed502775-58d0-424a-a036-94431f3c8a27">
+                     <id root="308e0113-aebb-2471-e063-6294a90ad4ef"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>WARNINGS AND PRECAUTIONS</title>
+                     <effectiveTime value="20200813"/>
+                     <component>
+                        <section ID="ID_9666e1d5-a916-4b88-b79e-53ed56308b52">
+                           <id root="308e0113-aebc-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>2.1 Hypocalcemia</title>
+                           <text>
+                              <paragraph>REGIOCIT solution contains no calcium, and may lead to systemic ionized hypocalcemia due to loss of calcium bound to citrate in the effluent and/or in the case of systemic citrate accumulation. Calcium</paragraph>
+                              <paragraph>reinfusion is required during use of REGIOCIT and blood calcium concentrations (ionized and total) must be monitored.</paragraph>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_9f384605-47ef-4937-a0c7-5fee6d586252">
+                           <id root="308e0113-aebd-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>2.3 Hypomagnesemia</title>
+                           <text>
+                              <paragraph>REGIOCIT solution contains no magnesium. Use of the REGIOCIT solution may result in hypomagnesemia due to CRRT effluent losses. Magnesium levels must be monitored as infusion of magnesium may be necessary.</paragraph>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_3a44271a-3a68-4ba3-ade3-e522a0f041af">
+                           <id root="308e0113-aebe-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>2.4 Hypoglycemia</title>
+                           <text>
+                              <paragraph>REGIOCIT solution contains no dextrose. Administration of REGIOCIT solution may lead to hypoglycemia. Blood glucose levels must be monitored regularly.</paragraph>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_c4986a32-bfad-4d23-9b23-fa77a6f98e00">
+                           <id root="308e0113-aebf-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>2.5 Hypokalemia</title>
+                           <text>
+                              <paragraph>REGIOCIT solution contains no potassium. The serum potassium concentration must be monitored before and during CRRT.</paragraph>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_bcf99546-1a50-48c9-9d3e-4fc58895e882">
+                           <id root="308e0113-aec0-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>2.6 Metabolic Alkalosis</title>
+                           <text>
+                              <paragraph>REGIOCIT solution contains citrate, which contributes to the overall buffer load. Metabolization of 1 mol of citrate generates 3 mol of bicarbonate. Additional sodium bicarbonate (or buffer source) contained in the CRRT fluids or in other fluids administered during therapy may increase the risk of metabolic alkalosis. Metabolic alkalosis may occur if the net citrate administration rate exceeds that which is necessary to maintain acid–base balance. If metabolic alkalosis occurs, decrease the citrate dose, and/or increase the dialysate/replacement flow rate (when applicable) or change the composition of the CRRT solution.</paragraph>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_36a247d8-452f-4485-b08c-d088aaa159b5">
+                           <id root="308e0113-aec1-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>2.7 Metabolic Acidosis</title>
+                           <text>
+                              <paragraph>Metabolic acidosis may occur if metabolic clearance of citrate by the liver or skeletal muscle is impaired. If citrate accumulation develops and/or metabolic acidosis develops or worsens during therapy with REGIOCIT solution, the infusion rate may need to be decreased or its administration stopped.</paragraph>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_770e3f71-1331-4973-b885-237464ddf964">
+                           <id root="308e0113-aec2-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>2.8 Use in Patients with Mild to Moderate Hepatic Impairment</title>
+                           <text>
+                              <paragraph>Metabolism of citrate (to bicarbonate) may be impaired in patients with hepatic impairment, resulting in accumulation of citrate. If REGIOCIT solution is administered to patients with mild to moderate hepatic impairment, frequent monitoring of pH, electrolytes, total-to-ionized calcium ratio, and systemic ionized calcium is important to avoid electrolyte and/or acid–base imbalance.</paragraph>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_a12a2286-1105-4318-964f-107e446ee68e">
+                           <id root="308e0113-aec3-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>2.9 Hypoosmolarity/Hypotonicity</title>
+                           <text>
+                              <paragraph>REGIOCIT solution is hypoosmolar/hypotonic relative to standard CRRT replacement fluids and should be used with caution in patients with traumatic brain injury, cerebral edema, or increased intracranial pressure.</paragraph>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_1db46d62-8868-4cdd-8dcd-778a3f231184">
+                     <id root="308e0113-aec4-2471-e063-6294a90ad4ef"/>
+                     <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+                     <title>CONTRAINDICATIONS</title>
+                     <text>
+                        <paragraph>Contraindications for the use of REGIOCIT include:</paragraph>
+                        <list listType="unordered">
+                           <item>Severe liver failure</item>
+                           <item>Shock with muscle hypoperfusion</item>
+                           <item>Known hypersensitivity to any component of REGIOCIT</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250317"/>
+                     <component>
+                        <section ID="ID_b24df9bc-3690-45e7-8b84-fc4e7245b91b">
+                           <id root="308e0113-aec5-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Adverse Event Reporting</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Report adverse events or quality problems experienced with the use of this product.</paragraph>
+                              <paragraph>Healthcare facilities and prescribing health care providers or their designee receiving REGIOCIT will track all medication errors associated with the use of and all serious adverse events that are considered to be potentially attributable to REGIOCIT use and must report these to FDA using one of the following methods:</paragraph>
+                              <list listType="unordered">
+                                 <item>Complete and submit a MedWatch form online (
+  
+   <linkHtml href="file:///C:\Users\USCO-BaxEdgeProd\AppData\Local\Temp\www.fda.gov\medwatch\report.htm">www.fda.gov/medwatch/report.htm</linkHtml>)
+ 
+  </item>
+                                 <item>Complete and submit FDA Form 3500 (health professional) by fax (1-800-FDA-0178) (this form can be found via link above).</item>
+                              </list>
+                              <paragraph>Call 1-800-FDA-1088 for questions. Submitted reports should state, “use of REGIOCIT was under an EUA” at the beginning of the question “Describe Event” for further analysis.</paragraph>
+                              <paragraph>Contact Baxter Healthcare Corporation at 1-866-888-2472 or
+ 
+  <linkHtml href="file:///C:\Users\USCO-BaxEdgeProd\AppData\Local\Temp\global_pharmacovigilance_deerfield@baxter.com">global_pharmacovigilance_deerfield@baxter.com</linkHtml>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_34f7b9a8-22cc-4f21-9a81-d86268cbeb95">
+                           <id root="308e0113-aec6-2471-e063-6294a90ad4ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">What is an EUA?</content>
+                           </title>
+                           <text>
+                              <paragraph>The United States FDA has made REGIOCIT available to treat patients in an ICU during the COVID-19 pandemic under an emergency access mechanism called an Emergency Use Authorization (EUA). The EUA is supported by a Secretary of Health and Human Service (HHS) declaration that circumstances exist to justify the emergency use of drugs and biological products during the COVID-19 pandemic.</paragraph>
+                              <paragraph>REGIOCIT made available under an EUA have not undergone the same type of review as an FDA-approved product. FDA may issue an EUA when certain criteria are met, which includes that there are no adequate, approved, available alternatives. In addition, the FDA decision is based on the totality of scientific evidence available showing that it is reasonable to believe that REGIOCIT may be effective for use as a replacement solution in adult patients treated with Continuous Renal Replacement Therapy (CRRT) and requiring regional citrate anticoagulation (RCA) of the extracorporeal circuit in an ICU setting during the Coronavirus Disease 2019 (COVID-19) pandemic, and that the known and potential benefits of REGIOCIT for such use outweigh the known and potential risks of REGIOCIT.</paragraph>
+                              <paragraph>This EUA for REGIOCIT is in effect for the duration of the COVID-19 declaration justifying emergency use of the products, unless terminated or revoked (after which the products may no longer be needed). The EUA will end when the declaration is terminated or revoked or when there is a change in the approval status of the product such that an EUA is no longer needed.</paragraph>
+                              <paragraph>This communication and product information is available on Baxter Healthcare’s website:</paragraph>
+                              <paragraph>To access COVID-19 Resources, product details, product use information, and the comprehensive Prismaflex Control Unit Operator’s Manual and PrisMax Control Unit Operator’s Manual please visit the Baxter Healthcare Acute Therapies website at
+ 
+  <linkHtml href="http://www.renalacute.com">http://www.renalacute.com</linkHtml>
+                              </paragraph>
+                              <paragraph>FDA’s webpage also includes links to patient fact sheet and manufacturer’s instructions
+ 
+  <linkHtml href="https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization">https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization#covidtherapeutics</linkHtml>.
+
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20200813"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_15c1875d-858b-45d8-8f02-33ac36ccb836">
+               <id root="308e0113-aec7-2471-e063-6294a90ad4ef"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Fact Sheet For Patients And Parent/Caregivers Emergency Use Authorization (EUA) for REGIOCIT (Sodium Chloride and Sodium Citrate Renal Replacement and Regional Anticoagulant Solution)</title>
+               <text>
+                  <paragraph>You are being given REGIOCIT: a replacement solution for Continuous Renal Replacement Therapy (CRRT) that also reduces the risk of filter clotting. This fact sheet contains information to help you understand the risks and benefits of taking the REGIOCIT you have received or may receive.</paragraph>
+                  <paragraph>There is currently a shortage of U.S. Food and Drug Administration (FDA)-approved replacement solutions that may be used to provide CRRT. REGIOCIT is not an FDA-approved medicine in the United States. REGIOCIT is currently approved in Europe and other countries. Read this Fact Sheet for information about REGIOCIT. Talk to your health care provider if you have questions. It is your choice to receive REGIOCIT or stop it at any time.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is COVID-19? 
+   <br/>
+                     </content>COVID-19 is caused by a virus called a coronavirus. This type of coronavirus has not been seen before. This new virus was first found in people in December 2019. You can get COVID-19 through contact with another person who has the virus.
+
+ </paragraph>
+                  <paragraph>COVID-19 illnesses have ranged from very mild (including some with no reported symptoms) to severe, including illness resulting in death. While information so far suggests that most COVID-19 illness is mild, serious illness can happen and may cause some of your other medical conditions to become worse. Older people and people of all ages with severe, long lasting (chronic) medical conditions like heart disease, lung disease and diabetes, for example seem to be at higher risk of being hospitalized for COVID-19.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the symptoms of COVID-19? 
+   <br/>
+                     </content>The symptoms of COVID-19 are fever, cough, and shortness of breath, which may appear 2-14 days after exposure. Serious illness, including breathing problems, can occur and may cause your other medical conditions to become worse.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is REGIOCIT? 
+   <br/>
+                     </content>Regiocit is a replacement solution for CRRT, which is a form of “dialysis” treatment, that also reduces the risk of filter clotting. Replacement solutions are used during CRRT to help correct acid-base abnormalities and electrolyte abnormalities, remove “uremic” and other toxins and facilitate the use of CRRT to control fluid overload.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What should I tell my healthcare provider before I receive REGIOCIT?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tell your healthcare provider about all of your medical conditions, including if you:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Have any allergies</item>
+                     <item>Have liver disease</item>
+                     <item>Are pregnant or plan to become pregnant</item>
+                     <item>Are breast-feeding or plan to breastfeed</item>
+                     <item>Are taking any medicines (prescription, over-the-counter, vitamins, or herbal products)</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Who should not receive REGIOCIT? 
+   <br/>
+                     </content>Do not take Regiocit if you:
+
+ </paragraph>
+                  <list listType="unordered">
+                     <item>Have severe liver failure</item>
+                     <item>Have shock with decreased blood flow to the muscles (muscle hypoperfusion)</item>
+                     <item>Are allergic to any of the ingredients in REGIOCIT</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the important possible side effects for REGIOCIT? 
+   <br/>
+                     </content>Possible side effects of
+ 
+  <content styleCode="bold">REGIOCIT</content>include:
+
+ </paragraph>
+                  <list listType="unordered">
+                     <item>Low levels of calcium in your blood</item>
+                     <item>Low levels of magnesium, potassium, or phosphate in your blood, or changes in the glucose level in your blood</item>
+                     <item>Too much acid or base in your blood (acid-base status)</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What other treatment choices are there? 
+   <br/>
+                     </content>Your healthcare provider may use a different replacement solution for CRRT or a type of “dialysis” that does not require a replacement solution.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How do I report side effects with REGIOCIT?</content>
+                     <br/>  Tell your healthcare provider right away if you have any side effects that bother you or do not go away. Report side effects to FDA MedWatch at
+ 
+  <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>or call 1-800-FDA-1088 or contact Baxter Healthcare Corporation at 1-866-888-2472 or
+ 
+  <linkHtml href="mailto:global_pharmacovigilance_deerfield@baxter.com">global_pharmacovigilance_deerfield@baxter.com</linkHtml>.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How can I learn more?</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Ask your healthcare provider</item>
+                     <item>Visit
+  
+   <linkHtml href="http://www.cdc.gov/COVID19">www.cdc.gov/COVID19</linkHtml>
+                     </item>
+                     <item>Contact your local or state public health department</item>
+                     <item>Visit
+  
+   <linkHtml href="http://www.baxter.com">www.baxter.com</linkHtml>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What is an Emergency Use Authorization (EUA)?</content>
+                  </paragraph>
+                  <paragraph>The United States FDA has made REGIOCIT available under an emergency access mechanism called an EUA. The EUA is supported by a Secretary of Health and Human Service (HHS) declaration that circumstances exist to justify the emergency use of drugs and biological products during the COVID-19 pandemic.</paragraph>
+                  <paragraph>REGIOCIT has not undergone the same type of review as an FDA-approved or cleared product. FDA may issue an EUA when certain criteria are met, which includes that there are no adequate, approved, available alternatives. In addition, the FDA decision is based on the totality of scientific evidence available showing that it is reasonable to believe that the product may be effective in treatment of patients during the COVID-19 pandemic. All of these criteria must be met to allow for the product to be used in the treatment of patients during the COVID-19 pandemic, and that the known and potential benefits outweigh the known and potential risks for such use.</paragraph>
+                  <paragraph>The EUA for REGIOCIT is in effect for the duration of the COVID-19 declaration justifying emergency use of these products, unless terminated or revoked (after which the products may no longer be used).</paragraph>
+               </text>
+               <effectiveTime value="20200813"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2f5b9b91-7e73-42a8-a957-d836ae61d6b3">
+               <id root="308e0113-aec8-2471-e063-6294a90ad4ef"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>REGIOCIT Package Insert for Emergency Use Authorization</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">REGIOCIT has been authorized by FDA for emergency use. 
+   <br/>  REGIOCIT is not FDA-approved. 
+   <br/>  REGIOCIT is authorized only for the duration of the declaration that 
+   <br/>  circumstances exist justifying the authorization of the emergency use of 
+   <br/>  REGIOCIT under section 564(b)(1) of the Act, 21 U.S.C. § 360bbb-3(b)(1), 
+   <br/>  unless the authorization is terminated or revoked sooner.
+  </content>
+                  </paragraph>
+                  <paragraph>Sodium chloride and sodium citrate solution</paragraph>
+                  <paragraph>for hemofiltration and regional citrate anticoagulation during Continuous Renal</paragraph>
+                  <paragraph>Replacement Therapy (CRRT)</paragraph>
+                  <paragraph>Sodium chloride 5.03 g/L, sodium citrate 5.29 g/L</paragraph>
+                  <paragraph>Solution for Extracorporeal use only. Not for direct intravenous infusion</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">EN</content>Package insert............................................................................2
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">REGIOCIT</content>
+                  </paragraph>
+                  <paragraph>Sodium chloride and sodium citrate solution</paragraph>
+                  <paragraph>for hemofiltration and regional citrate anticoagulation</paragraph>
+                  <paragraph>during Continuous Renal Replacement Therapy (CRRT)</paragraph>
+                  <paragraph>sodium chloride 5.03 g/L, sodium citrate 5.29 g/L</paragraph>
+                  <paragraph>Solution for Extracorporeal use only, Not for direct intravenous infusion</paragraph>
+               </text>
+               <effectiveTime value="20250317"/>
+               <component>
+                  <section ID="ID_4067b484-2d0d-4a22-8fec-dd3a3546b2f9">
+                     <id root="308e0113-aec9-2471-e063-6294a90ad4ef"/>
+                     <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+                     <title>INDICATIONS</title>
+                     <text>
+                        <paragraph>REGIOCIT (sodium chloride and sodium citrate) solution is indicated for use as 
+  <br/>  replacement solution for regional citrate anticoagulation (RCA) of the extracorporeal 
+  <br/>  circuit in patients treated with continuous renal replacement therapy (CRRT), 
+  <br/>  particularly when systemic anticoagulation with heparin is contraindicated, e.g., in 
+  <br/>  patients with increased bleeding risks.
+ </paragraph>
+                        <paragraph>REGIOCIT should be administered only under the supervision of a physician 
+  <br/>  experienced in the use of CRRT.
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Pediatrics</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Pediatrics (&lt;18 years of age):</content>No data are available to Health Canada; therefore, 
+  <br/>  Health Canada has not authorized an indication for pediatric use.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Geriatrics</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Geriatrics (&gt; 65 years of age):</content>Evidence from clinical studies and experience 
+  <br/>  suggests that use in the geriatric population is not associated with differences in 
+  <br/>  safety or effectiveness.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_6271316c-b505-4f4c-960a-a475605505a1">
+                     <id root="308e0113-aeca-2471-e063-6294a90ad4ef"/>
+                     <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+                     <title>CONTRAINDICATIONS</title>
+                     <text>
+                        <paragraph>REGIOCIT solution is contraindicated in:</paragraph>
+                        <list listType="unordered">
+                           <item>patients who are hypersensitive to this drug or to any ingredient in the formulation, including any non-medicinal ingredient, or component of the container. For a complete listing, see Dosage Forms, Strengths, Composition and Packaging.</item>
+                           <item>severe liver failure</item>
+                           <item>shock with muscle hypoperfusion</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_6d32022f-ba4c-4649-8383-ecce36fe4535">
+                     <id root="308e0113-aecb-2471-e063-6294a90ad4ef"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>DOSAGE AND ADMINISTRATION</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">For Extracorporeal use only. Not for direct intravenous infusion. 
+   <br/>
+                           </content>REGIOCIT solution is used as a renal replacement solution. The product has an 
+  <br/>  osmolarity of 244 mOsm/L and a pH of approximately 7.4.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Dosing Considerations</content>
+                        </paragraph>
+                        <paragraph>Dosing considerations of the drug:</paragraph>
+                        <list listType="unordered">
+                           <item>REGIOCIT solution should not be used for direct intravenous infusion. The product must be used in pre-dilution mode only, with appropriate extracorporeal renal replacement equipment intended for CRRT, using an integrated pre-blood pump for RCA.</item>
+                           <item>In addition to providing anticoagulation to the extracorporeal circuit and hemofilters, citrate also acts as a buffer source due to its metabolic conversion to bicarbonate systemically. Thus, the infusion rate of REGIOCIT solution to be administered should take into account the rate at which buffer administration occurs from other sources, e.g., dialysate and/or replacement fluid. The product must be used together with a dialysis/replacement solution at an appropriate bicarbonate concentration.</item>
+                           <item>Dose reduction may be needed in patients with mild to moderate hepatic impairment. In these patients, more frequent monitoring of citrate accumulation is advised. REGIOCIT solution should not be administered to patients with reduced liver and muscle perfusion, e.g., during conditions such as septic shock and lactic acidosis, or in patients with severe hepatic impairment, due to limited citrate metabolism (see CONTRAINDICATIONS).</item>
+                           <item>
+                              <content styleCode="bold">A separate systemic infusion of calcium is always required to prevent or treat hypocalcemia. Adjust calcium infusion depending on measured serum total-to-ionized calcium ratio and ionized calcium levels, to maintain values in the physiologic range. Adjust or stop calcium infusion according to the direction of the attending physician when REGIOCIT solution has been stopped.</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Magnesium may need to be supplemented intravenously, based on systemic serum magnesium levels.</content>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">Recommended Dose and Dosage Adjustment</content>
+                        </paragraph>
+                        <paragraph>The rate at which REGIOCIT solution is administered depends on the targeted citrate dose and the prescribed blood flow rate (BFR). The prescription of the product must consider the flow rates of the effluent and other therapeutic fluids, the patient’s fluid removal requirements, additional fluid inputs and outputs, and the desired acid-base and electrolyte balance.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">REGIOCIT solution should be prescribed and its administration (dose, infusion rate, and cumulative volume) established only by critical care or nephrology physicians experienced in administration of CRRT.</content>
+                        </paragraph>
+                        <paragraph>The pre-filter infusion rate of REGIOCIT solution (based on its concentration) is indexed to the blood flow rate to achieve a target blood citrate concentration of 3 to 4 mmol/L in the blood. Flow rate for anticoagulation of the extracorporeal circuit should be titrated to achieve a post-filter concentration of ionized calcium in the range 0.25 to 0.35 mmol/L. The patient’s systemic ionized calcium concentration should be maintained in the normal physiologic range by adjustment of calcium supplementation.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Administration</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Monitoring of the post-filter blood ionized calcium (iCa), systemic blood iCa, and total blood calcium levels in conjunction with other laboratory and clinical parameters is essential to guide appropriate REGIOCIT solution dosage based on the desired level of anticoagulation (see WARNINGS AND PRECAUTIONS). Plasma levels of sodium, magnesium, potassium, and phosphate should also be monitored regularly and these electrolytes supplemented as needed.</content>
+                        </paragraph>
+                        <paragraph>REGIOCIT solution may be warmed to 37°C to enhance patient comfort. Warming of the product prior to use should be done with dry heat only. Solution should not be heated in water or in a microwave oven due to the potential for patient injury or discomfort.</paragraph>
+                        <paragraph>REGIOCIT solution should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Do not administer unless the solution is clear and the seal is intact.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_407113d8-6a33-48c0-b315-6f2762ca6575">
+                     <id root="308e0113-aecc-2471-e063-6294a90ad4ef"/>
+                     <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+                     <title>OVERDOSAGE</title>
+                     <text>
+                        <paragraph>Electrolyte imbalance and acid–base balance abnormalities, e.g., hypocalcemia, metabolic alkalosis, etc. may occur in the event of an overdose. Stop administration promptly (see
+ 
+  <linkHtml href="#ID_aa3b9da7-08b8-4ca4-9924-de7d3fee2ef2">WARNINGS AND PRECAUTIONS</linkHtml>).
+
+ </paragraph>
+                        <paragraph>In patients with impaired citrate metabolism, e.g., liver failure, circulatory shock etc, overdosage with REGIOCIT solution may be manifested as citrate accumulation, metabolic acidosis, systemic total hypercalcemia and ionized hypocalcemia along with increased total calcium/ionized calcium ratio (see
+ 
+  <linkHtml href="#ID_6271316c-b505-4f4c-960a-a475605505a1">CONTRAINDICATIONS</linkHtml>, and
+ 
+  <linkHtml href="#ID_aa3b9da7-08b8-4ca4-9924-de7d3fee2ef2">WARNINGS AND PRECAUTIONS</linkHtml>).
+
+ </paragraph>
+                        <paragraph>Careful calcium supplementation can reverse the effects of an overdose. The risk can be minimized by close monitoring during treatment.</paragraph>
+                        <renderMultiMedia ID="id-672647263" referencedObject="b075356c-82e3-4c36-bdd2-bd5aeb05f25a"/>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                     <component>
+                        <observationMedia ID="b075356c-82e3-4c36-bdd2-bd5aeb05f25a">
+                           <text>Management of suspected drug overdose instructions</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-16.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_aa3b9da7-08b8-4ca4-9924-de7d3fee2ef2">
+                     <id root="308e0113-aecd-2471-e063-6294a90ad4ef"/>
+                     <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+                     <title>DOSAGE FORMS, STRENGTHS, COMPOSITION AND PACKAGING</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Table 1 – Dosage Forms, Strengths, Composition and Packaging</content>
+                        </paragraph>
+                        <renderMultiMedia ID="id-2115054429" referencedObject="a6d72557-1b40-41d4-b3fc-0824922c3fc4"/>
+                        <paragraph>
+                           <content styleCode="bold">Table 2 – Electrolyte Concentrations from the Medicinal Ingredients</content>
+                        </paragraph>
+                        <renderMultiMedia ID="id1764575466" referencedObject="ID_93a078d9-c1a4-41f3-9c9c-18a600162167"/>
+                        <paragraph>REGIOCIT (sodium chloride and sodium citrate) solution is available in a 5 000 mL bag, with a luer connector valve and a spike connector. The bag is made of a multilayer film containing polyolefins and elastomers.</paragraph>
+                        <paragraph>This product is not made with natural rubber latex.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                     <component>
+                        <observationMedia ID="a6d72557-1b40-41d4-b3fc-0824922c3fc4">
+                           <text>EUA IFU Table 1</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-06.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="ID_93a078d9-c1a4-41f3-9c9c-18a600162167">
+                           <text>EUA IFU Table 2</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-07.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_5d3cc6e8-9a4c-4944-88cd-4fd5bd83763d">
+                     <id root="308e0113-aece-2471-e063-6294a90ad4ef"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>WARNINGS AND PRECAUTIONS</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">There have been reports of system failure due to apparent operator error during administration of CRRT with REGIOCIT solution, leading to serious adverse events, including life-threatening hypocalcemia. Plasma electrolyte and acid-base parameters should be closely monitored during CRRT, and appropriate action taken if imbalances of electrolytes or acid-base balance are detected. Instructions for use of REGIOCIT and CRRT must be strictly followed.</content>
+                        </paragraph>
+                        <paragraph>Cautionary statements are provided in WARNINGS AND PRECAUTIONS, Endocrine and Metabolism, Hematologic, Hepatic / Biliary / Pancreatic, and Monitoring and Laboratory Tests, and in DRUG INTERACTIONS to avoid the following when performing the CRRT procedure:</paragraph>
+                        <list listType="ordered">
+                           <item>- Hypercalcemia</item>
+                           <item>- Hyponatremia</item>
+                           <item>- Fluid retention, dehydration</item>
+                           <item>- Nausea, vomiting</item>
+                           <item>- Muscle spasms</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">Citrate Accumulation</content>
+                        </paragraph>
+                        <paragraph>Special attention is required in patients with liver failure, including hepatic cirrhosis or acute hepatic failure, or in shock, since metabolism of citrate may be markedly reduced and patients may be thus exposed to citrate accumulation. In these circumstances, more frequent monitoring of citrate accumulation should be undertaken. With systemic citrate accumulation, metabolic acidosis and ionized hypocalcemia may ensue, and the ratio of total to ionized calcium in the blood rises. If total/ionized calcium ratio rises above 2.3, REGIOCIT infusion should be reduced or stopped. CRRT may then be continued without anticoagulation, or by using other means of anticoagulation.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">REGIOCIT is contraindicated in patients with severe hepatic impairment or in circulatory shock with muscle hypoperfusion (see
+  
+   <linkHtml href="#ID_6271316c-b505-4f4c-960a-a475605505a1">CONTRAINDICATIONS</linkHtml>).
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>Excessive infusion of citrate can lead to acute hypocalcemia and metabolic alkalosis, with neurologic and cardiac complications. Treatment consists of discontinuation of the citrate infusion and infusion of calcium.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Endocrine and Metabolism</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hypocalcemia</content>
+                        </paragraph>
+                        <paragraph>REGIOCIT solution contains no calcium, and may lead to systemic ionized hypocalcemia, due to loss of calcium bound to citrate in the effluent and/or in the case of systemic citrate accumulation (see
+ 
+  <linkHtml href="#ID_6d32022f-ba4c-4649-8383-ecce36fe4535">DOSAGE AND ADMINISTRATION</linkHtml>,
+ 
+  <linkHtml href="#ID_6d32022f-ba4c-4649-8383-ecce36fe4535">Administration</linkHtml>).
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Electrolyte and Acid–Base Balance</content>
+                        </paragraph>
+                        <paragraph>REGIOCIT solution contains citrate, which can influence the patient’s electrolyte and acid–base balance. Plasma electrolyte and acid–base parameters should be closely monitored during CRRT. Closely monitor sodium, magnesium, potassium, phosphate, and calcium. Infusion of electrolytes may be needed to supplement any loss.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hypercalcemia</content>
+                        </paragraph>
+                        <paragraph>Medicinal products containing calcium used for maintenance of calcium homeostasis in CRRT patients can increase the risk of hypercalcemia, and can result in a reduced anticoagulation effect. Care should be taken to avoid excessive titration in administering calcium as this can lead to hypercalcemia. Frequent monitoring of pH, electrolytes, total-to-ionized calcium ratio, and systemic ionized calcium is important to avoid electrolyte and/or acid-base imbalance.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hypomagnesemia</content>
+                        </paragraph>
+                        <paragraph>REGIOCIT solution contains no magnesium. Use of the REGIOCIT solution may result in hypomagnesemia due to CRRT effluent losses (see
+ 
+  <linkHtml href="#ID_6d32022f-ba4c-4649-8383-ecce36fe4535">DOSAGE AND ADMINISTRATION, Administration</linkHtml>).
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hypoglycemia</content>
+                        </paragraph>
+                        <paragraph>REGIOCIT solution contains no dextrose. Administration of REGIOCIT solution may lead to hypoglycemia. Blood glucose levels should be monitored regularly.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hypokalemia</content>
+                        </paragraph>
+                        <paragraph>REGIOCIT solution contains no potassium. The serum potassium concentration must be monitored before and during CRRT.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Metabolic Alkalosis</content>
+                        </paragraph>
+                        <paragraph>REGIOCIT solution contains citrate, which contributes to the overall buffer load. Additional sodium bicarbonate (or buffer source) contained in the CRRT fluids or in other fluids administered during therapy may increase the risk of metabolic alkalosis. Metabolic alkalosis may occur if the net citrate administration rate exceeds that which is necessary to maintain acid–base balance.</paragraph>
+                        <paragraph>If metabolic alkalosis occurs, decrease the citrate dose, and/or increase the dialysate flow rate or change the composition of the CRRT solution.</paragraph>
+                        <paragraph>Blood calcium levels, pH and bicarbonate should be monitored regularly in patients with metabolic alkalosis since this condition may potentiate hypocalcemia.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Metabolic Acidosis</content>
+                        </paragraph>
+                        <paragraph>Metabolic acidosis may occur if metabolic clearance of citrate by the liver or skeletal muscle is impaired (see
+ 
+  <linkHtml href="#ID_6271316c-b505-4f4c-960a-a475605505a1">CONTRAINDICATIONS</linkHtml>).
+
+ </paragraph>
+                        <paragraph>If citrate accumulation develops and/or metabolic acidosis develops or worsens during therapy with REGIOCIT, the infusion rate may need to be decreased or its administration stopped.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hypo-osmolarity/Hypotonicity</content>
+                        </paragraph>
+                        <paragraph>REGIOCIT solution is hypo-osmolar/hypotonic relative to standard CRRT replacement fluids and should be used with caution in patients with traumatic brain injury, cerebral edema, or increased intracranial pressure.</paragraph>
+                        <paragraph>Instructions for use of REGIOCIT must be strictly followed. Incorrect use of the access ports or other restrictions to fluid flow may lead to incorrect patient weight loss and may result in machine alarms being set off. Continuing treatment without resolving the originating cause may lead to patient injury or death.</paragraph>
+                        <paragraph>Careful ongoing assessment is required of all solutions infused during REGIOCIT administration, whether related to CRRT dialysis fluids or to other solutions infused systemically.</paragraph>
+                        <paragraph>REGIOCIT has a physiological sodium level of 140 mmol/L. However, sodium losses occurring during CRRT must be balanced as part of overall fluid and electrolyte management to avoid a drop in blood sodium level leading to systemic hyponatremia.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Hematologic</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hemodynamic Status and Fluid Balance</content>
+                        </paragraph>
+                        <paragraph>The patient’s hematocrit, hemodynamic status and fluid balance should be monitored throughout the procedure.</paragraph>
+                        <list listType="ordered">
+                           <item>- In case of hypervolemia, the net ultrafiltration rate prescribed for the CRRT device can be increased, and/or the rate of administration of solutions other than replacement fluid and/or dialysate can be reduced.</item>
+                           <item>- In case of hypovolemia, the net ultrafiltration rate prescribed for the CRRT device can be reduced, and/or the rate of administration of solutions other than replacement fluid and/or dialysate can be increased.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">Hepatic/Biliary/Pancreatic</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Use in Patients with Mild to Moderate Hepatic Impairment</content>
+                        </paragraph>
+                        <paragraph>Systemic metabolism of citrate to bicarbonate may be impaired in patients with hepatic impairment, resulting in accumulation of citrate. If REGIOCIT solution is administered to patients with mild to moderate hepatic impairment, frequent monitoring of pH, electrolytes, total-to-ionized calcium ratio, and systemic ionized calcium is important to avoid electrolyte and/or acid–base imbalance (see
+ 
+  <linkHtml href="#ID_6271316c-b505-4f4c-960a-a475605505a1">CONTRAINDICATIONS</linkHtml>).
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Monitoring and Laboratory Tests</content>
+                        </paragraph>
+                        <paragraph>Plasma electrolyte and acid–base parameters should be closely monitored during CRRT. Closely monitor sodium, magnesium, potassium, phosphate, calcium, blood glucose levels, hematocrit, hemodynamic status and fluid balance, pH, bicarbonate, total-to-ionized calcium ratio, and systemic ionized calcium. Infusion of electrolytes may be needed to supplement any loss.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Special Populations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Pregnant Women</content>
+                        </paragraph>
+                        <paragraph>There are no adequate data from the use of REGIOCIT solution in pregnant women.</paragraph>
+                        <paragraph>Physicians should carefully consider the potential risks and benefits for each specific patient before administering REGIOCIT solution.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Breast-feeding</content>
+                        </paragraph>
+                        <paragraph>There are no adequate data from the use of REGIOCIT solution in lactating women.</paragraph>
+                        <paragraph>Physicians should carefully consider the potential risks and benefits for each specific patient before administering REGIOCIT solution.</paragraph>
+                        <paragraph>It is unknown if the drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Pediatrics</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Pediatrics (&lt; 18 years of age):</content>No data are available to Health Canada; therefore, Health Canada has not authorized an indication for pediatric use.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Geriatrics</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Geriatrics (&gt; 65 years of age):</content>Evidence from clinical studies and experience suggests that use in the geriatric population is not associated with differences in safety or effectiveness.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">ADVERSE REACTIONS</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Adverse Reaction Overview</content>
+                        </paragraph>
+                        <paragraph>The following adverse reactions represent those adverse reactions that are thought to have an association with the use of REGIOCIT solution or that may occur in conjunction with performing the CRRT procedure:</paragraph>
+                        <paragraph>Adverse reactions reported with other CRRT products include:</paragraph>
+                        <list listType="ordered">
+                           <item>- Hypotension</item>
+                           <item>- Hypocalcemia (due to excessive and uncorrected effect of citrate in the body)</item>
+                           <item>- Other electrolyte imbalances (hypomagnesemia, hypokalemia, hypophosphatemia)</item>
+                           <item>- Acid–base balance disorders (including metabolic alkalosis, metabolic acidosis)</item>
+                           <item>- Hypoglycemia</item>
+                           <item>- Fluid imbalance</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">Clinical Trial Adverse Reactions</content>
+                        </paragraph>
+                        <paragraph>Because clinical trials are conducted under very specific conditions, the adverse reaction rates observed in the clinical trials may not reflect the rates observed in practice and should not be compared to the rates in the clinical trials of another drug. Adverse reaction information from clinical trials is useful for identifying drug-related adverse events and for approximating rates.</paragraph>
+                        <paragraph>In an open-label randomised study, 54 patients were administered RCA with an equimolar solution of citrate, sodium and chloride, as contained in REGIOCIT solution, and 49 received systemic anticoagulation with unfractionated heparin (UFH) while undergoing CRRT using continuous venovenous hemodiafiltration. Adverse events related to metabolic disorders occurred in 26% of patients in the RCA-treated group, compared to 28% of patients in the UFH-treated group. These adverse events were generally transient and reversible. Metabolic alkalosis was seen in 6% of patients treated with RCA, compared to none treated with UFH, and metabolic acidosis was reported in 6% and 2% of patients in the RCA and UFH groups, respectively. Six patients treated with RCA experienced severe hypocalcemia, compared to one patient treated with UFH.</paragraph>
+                        <paragraph>In a second hemodiafiltration trial which evaluated 19 patients randomised to an equimolar solution of citrate, sodium and chloride, as contained in REGIOCIT solution, and 11 patients randomised to UFH anticoagulation, Hypocalcemia requiring intervention was reported in 3 patients treated with RCA, with 2 of these patients requiring treatment interruption of RCA.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Post-Market Adverse Reactions</content>
+                        </paragraph>
+                        <paragraph>To date, adverse events reported in the post-marketing setting for REGIOCIT appear to be consistent with those listed above in Adverse Reaction Overview.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_60fafd21-6515-432f-a4e9-825b6bdb3ff0">
+                     <id root="308e0113-aecf-2471-e063-6294a90ad4ef"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>DRUG INTERACTIONS</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Overview</content>
+                        </paragraph>
+                        <paragraph>The blood concentration of filterable/dialyzable drugs may be reduced during treatment due to their removal by the extracorporeal filter. Corresponding corrective therapy should be instituted if necessary to establish the desired blood concentrations for drugs removed during treatment. Patient monitoring at an appropriate frequency is required.</paragraph>
+                        <paragraph>When prescribing REGIOCIT, the physician needs to consider the use of other anticoagulants along with other buffer-containing and electrolyte solutions (including CRRT replacement fluid and dialysate).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Drug-Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>The drugs listed in this table are based on either drug interaction case studies or clinical trials, or potential interactions due to the expected magnitude and seriousness of the interaction (i.e., those identified as contraindicated).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 3 - Established or Potential Drug-Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <renderMultiMedia ID="id-297155059" referencedObject="ID_1da5be1a-c9d2-4f1e-9fc2-583795e0cb82"/>
+                           </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250317"/>
+                     <component>
+                        <observationMedia ID="ID_1da5be1a-c9d2-4f1e-9fc2-583795e0cb82">
+                           <text>EUA IFU Table 3</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-08.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_78fbc76a-0e96-4779-8c22-a26cd84b2c4d">
+                     <id root="308e0113-aed0-2471-e063-6294a90ad4ef"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>ACTION AND CLINICAL PHARMACOLOGY</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Mechanism of Action</content>
+                        </paragraph>
+                        <paragraph>Citrate provides regional anticoagulation of blood in the continuous renal replacement therapy (CRRT) extracorporeal circuit by binding calcium and rendering calcium unavailable to the clotting cascade. Several steps of the clotting cascade are dependent on calcium and the absence of calcium prevents clotting in the circuit.</paragraph>
+                        <paragraph>During CRRT, pre-dilution infusion of citrate into the access line of the extracorporeal circuit provides only regional extracorporeal anticoagulation (and thus avoids systemic anticoagulation of the patient) for two reasons. First, once blood from the extracorporeal circuit is returned to the patient, it mixes with the central venous blood which contains calcium. The second way in which a systemic anticoagulant effect is avoided is by infusion of calcium in the post-filter (return) bloodline of the extracorporeal circuit.</paragraph>
+                        <paragraph>This procedure not only helps neutralize citrate’s anticoagulant effect in the patient’s blood, but also prevents any depletion of the patient’s calcium stores which may result from the loss of calcium (bound to citrate) in the CRRT effluent fluid.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Pharmacodynamics</content>
+                        </paragraph>
+                        <paragraph>Citrate provides anticoagulation by its ability to form complexes with ionized calcium, making it unavailable to the clotting cascade. In REGIOCIT, sodium concentration has been set to 140 mmol/l as critically ill patients may develop severe hyponatremia. Chloride is set to the level required to balance cations as the solution is hydrogen carbonate free. Sodium and chloride are normal constituents of the human body and are considered to be pharmacologically inactive. Citrate is a normal metabolite in the human body that acts as a first intermediate substance in the Krebs cycle. REGIOCIT does not contain potassium or glucose.</paragraph>
+                        <paragraph>Two studies provide information on the dose/response relationship between citrate concentration and anticoagulation. In one study,
+ 
+  <content styleCode="italics">ex-vivo</content>anticoagulation with anticoagulant citrate dextrose formula A (ACD-A) in blood collected from six healthy volunteers was studied. The study concluded that the clinically relevant effects of citrate anticoagulation rely solely on the disturbed formation of the calcium-dependent coagulation factors complexes. In this study, the anticoagulation effects of citrate were monitored either by methods that quantify clot formation (i.e., activated clotting time) or by direct assessment of ionized calcium levels.
+
+ </paragraph>
+                        <paragraph>The correlation between concentrations of ionized calcium and clotting times revealed almost no anticoagulant effect when ionized calcium levels were up to or above 0.50 mmol/L, while clotting times showed a steep increase when calcium levels were decreased below 0.50 mmol/L. With respect to maximum effect, 5.65 mmol/L citrate induced clotting times of infinity in all samples.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Pharmacokinetics</content>
+                        </paragraph>
+                        <paragraph>Citrate is a normal metabolite in the human body and an intermediate substance in the Krebs cycle. This physiological pathway is capable of processing high amounts of citric acid as long as it occurs at low concentrations. The Krebs cycle takes place in the mitochondria, and all cells that contain these cellular organelles can metabolize citrate. Tissues rich in mitochondria such as liver, skeletal muscles, and kidney therefore have a higher capacity for citrate generation and elimination.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Absorption:</content>Absorption of sodium and chloride is determined by the patient’s clinical condition, metabolic status, and residual renal function.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Distribution:</content>Extracellular citrate can be transported from the blood across the plasma membrane by a group of proteins i.e. the plasma membrane citrate transporters (PMCTs) into the cells and then metabolized in various organs and tissues.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Metabolism:</content>Citrate is an intermediate in the central metabolic pathway called Krebs cycle as mentioned above. Citrate is rapidly metabolized mainly in the liver, but can also be metabolized by other organs/tissues.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Elimination:</content>Any excess of circulating citrate is normally excreted via the kidneys.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Special Populations and Conditions</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Hepatic Insufficiency:</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>When treating decompensated cirrhosis patients, one should also consider:</paragraph>
+                        <list listType="unordered">
+                           <item>Impairment of citrate metabolism due to failure of microcirculation and oxidative metabolism (lactic acidosis and/or shock),</item>
+                           <item>Impaired muscular utilization of citrate (cachexia, high doses of vasopressors),</item>
+                           <item>Citrate load associated with blood products.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_5a5bfe4f-ad17-423f-8bf0-0ca82743367a">
+                     <id root="308e0113-aed1-2471-e063-6294a90ad4ef"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>STORAGE, STABILITY AND DISPOSAL</title>
+                     <text>
+                        <paragraph>Store at 4 °C to 30 °C. Do not freeze or expose to excessive heat.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_0b7cfff7-a6af-4555-aef9-980f1b962093">
+                     <id root="308e0113-aed2-2471-e063-6294a90ad4ef"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>SPECIAL HANDLING INSTRUCTIONS</title>
+                     <text>
+                        <paragraph>Aseptic technique should be used throughout the handling and administration to the patient.</paragraph>
+                        <paragraph>Remove the overwrap from the bag immediately before use.</paragraph>
+                        <paragraph>Use only if the overwrap is not damaged, all seals are intact, and the solution is clear. Press bag firmly to test for any leakage. If leakage is discovered, discard the solution immediately since sterility can no longer be assured.</paragraph>
+                        <paragraph>Follow the instructions below when connecting the solution bags for correct use of the access ports.</paragraph>
+                        <list listType="unordered">
+                           <item>If the luer connector is used, remove the cap with a twist and pull motion. Connect the male luer lock on the pre-blood pump line to the female luer connector on the bag using a push and twist motion. Ensure that the connection is fully sealed and tighten (see Figure I). The connector is now open. Verify that the fluid is flowing freely. When the pre-blood pump line is disconnected from the luer connector, the connector will close and the flow of the solution will stop. The luer is a needle-less port. 
+   <br/>
+                              <renderMultiMedia ID="id1636764750" referencedObject="ID_75537e2e-5e3c-47fe-a916-7bbcc8162050"/>
+                           </item>
+                           <item>If the injection connector (or spike connector) is used, remove the snap-off cap. Introduce the spike through the rubber septum (see Figure II). Verify that the fluid is flowing freely. 
+   <br/>
+                              <renderMultiMedia ID="id1877727813" referencedObject="ec9ed037-d7f0-4e42-858a-fa81e6a752aa"/>
+                           </item>
+                           <item>Before adding a substance or medication, verify that it is soluble and stable in REGIOCIT, and that the pH range of REGIOCIT is appropriate.</item>
+                           <item>Additives known or determined to be incompatible should not be added.</item>
+                           <item>The instructions for use of the medication to be added and other relevant literature must be consulted.</item>
+                           <item>After addition, if there is a discoloration and/or the appearance of precipitates, insoluble complexes, or crystals, do not use.</item>
+                           <item>Mix the solution thoroughly when additives have been introduced. The introduction and mixing of additives must always be performed prior to connecting the solution bag to the extracorporeal circuit.</item>
+                           <item>The solution is for single use only.</item>
+                           <item>Discard any unused portion.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250317"/>
+                     <component>
+                        <observationMedia ID="ID_75537e2e-5e3c-47fe-a916-7bbcc8162050">
+                           <text>EUA IFU Figure 1</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-09.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="ec9ed037-d7f0-4e42-858a-fa81e6a752aa">
+                           <text>EUA IFU Figure 2</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-10.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_4f3ed52b-ef9d-49ee-a775-3825a5c8ed38">
+                     <id root="308e0113-aed3-2471-e063-6294a90ad4ef"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>READ THIS FOR SAFE AND EFFECTIVE USE OF YOUR MEDICINE PATIENT MEDICATION INFORMATION</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">REGIOCIT</content>
+                        </paragraph>
+                        <paragraph>Sodium chloride and sodium citrate solution</paragraph>
+                        <paragraph>Read this carefully before you start taking
+ 
+  <content styleCode="bold">REGIOCIT</content>solution and each time you get a refill. This leaflet is a summary and will not tell you everything about this drug. Talk to your healthcare professional about your medical condition and treatment and ask if there is any new information about
+ 
+  <content styleCode="bold">REGIOCIT</content>solution.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">What is REGIOCIT solution used for?</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>Is a solution for hemofiltration and prevents blood clotting during continuous renal replacement therapy (CRRT), which is a form or dialysis treatment. This medicine is used for critically ill patients particularly when other medicine used to prevent blood clotting is not an appropriate choice.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">How does REGIOCIT solution work?</content>
+                        </paragraph>
+                        <paragraph>This medicine is to be administered into the blood circuit outside of your body when you have CRRT. This medicine is to be used in hospitals and administered by medical professionals only.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">What are the ingredients in REGIOCIT solution?</content>
+                        </paragraph>
+                        <paragraph>Medicinal ingredients: sodium chloride and sodium citrate</paragraph>
+                        <paragraph>Non-medicinal ingredients: hydrochloric acid, water</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">REGIOCIT solution comes in the following dosage forms:</content>
+                        </paragraph>
+                        <paragraph>Solution with 5.03 g/L of sodium chloride and 5.29 g/L of sodium citrate</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Do not use REGIOCIT solution if:</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>You are allergic to any ingredients (See
+  
+   <content styleCode="bold">What are the ingredients in REGIOCIT solution</content>).
+ 
+  </item>
+                           <item>Severely impaired liver function</item>
+                           <item>Severely decreased blood flow in the muscles</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">To help avoid side effects and ensure proper use, talk to your healthcare professional before you take REGIOCIT solution. Talk about any health conditions or problems you may have, including if you:</content>
+                        </paragraph>
+                        <paragraph>• have diabetes</paragraph>
+                        <paragraph>• have been treated for chronic kidney disease</paragraph>
+                        <paragraph>• have a history of liver disease</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Tell your healthcare professional about all the medicines you take, including any drugs, vitamins, minerals, natural supplements or alternative medicines.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">The following may interact with REGIOCIT solution:</content>
+                        </paragraph>
+                        <paragraph>• Medicinal products that contain calcium, sodium bicarbonate, or any form of vitamin D.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">How to take REGIOCIT solution:</content>
+                        </paragraph>
+                        <paragraph>Your healthcare professional will prescribe and administer the product.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Overdose:</content>
+                        </paragraph>
+                        <table width="100%">
+                           <col width="79%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Toprule " valign="top">
+                                    <paragraph>If you think you have taken too much REGIOCIT solution, contact your healthcare professional, hospital emergency department or regional poison control centre immediately, even if there are no symptoms.</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <br/>
+                           <content styleCode="bold">What are possible side effects from using REGIOCIT solution?</content>
+                        </paragraph>
+                        <paragraph>These are not all the possible side effects you may feel when taking REGIOCIT solution. If you experience any side effects, contact your healthcare professional.</paragraph>
+                        <paragraph>The following side effects have been associated with other CRRT products:</paragraph>
+                        <list listType="unordered">
+                           <item>Low Blood Pressure
+  
+   <content styleCode="bold">(Hypotension)</content>
+                           </item>
+                           <item>Low blood calcium, due to excessive and uncorrected effect of citrate in the body
+  
+   <content styleCode="bold">(Hypocalcemia)</content>
+                           </item>
+                           <item>Having an imbalance in your body where you do not have enough magnesium, potassium or phosphate
+  
+   <content styleCode="bold">(Electrolyte imbalances, including hypomagnesemia, hypokalemia, hypophosphatemia)</content>
+                           </item>
+                           <item>Disorder where the pH in your body is not balanced
+  
+   <content styleCode="bold">(Acid-base disorders, including metabolic acidosis, metabolic alkalosis)</content>
+                           </item>
+                           <item>Low Blood Sugar
+  
+   <content styleCode="bold">(Hypoglycemia)</content>
+                           </item>
+                           <item>Having an imbalance in the fluids in your body
+  
+   <content styleCode="bold">(Fluid imbalance)</content>
+                           </item>
+                        </list>
+                        <paragraph>The possible side effects can be resulted from your CRRT procedure:</paragraph>
+                        <list listType="unordered">
+                           <item>Having an imbalance in your body where you have too much calcium
+  
+   <content styleCode="bold">(Hypercalcemia)</content>, or do not have enough sodium
+  
+   <content styleCode="bold">(Hyponatremia)</content>
+                           </item>
+                           <item>Having too much fluids
+  
+   <content styleCode="bold">(Fluid retention)</content>or not enough fluids in your body
+  
+   <content styleCode="bold">(Dehydration)</content>
+                           </item>
+                           <item>Nausea and vomiting</item>
+                           <item>Muscle Spasms</item>
+                        </list>
+                        <paragraph>If you have a troublesome symptom or side effect that is not listed here or becomes bad enough to interfere with your daily activities, talk to your healthcare professional.</paragraph>
+                        <table width="100%">
+                           <col width="79%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Reporting Side Effects</content>
+                                    </paragraph>
+                                    <paragraph>You can report any suspected side effects associated with the use of health products to Health Canada by:</paragraph>
+                                    <list listType="unordered">
+                                       <item>Visiting the Web page on Adverse Reaction Reporting (http://www.hc-sc. gc.ca/dhp-mps/medeff/report-declaration/index-eng.php) for information on how to report online, by mail or by fax; or</item>
+                                       <item>Calling toll-free at 1-866-234-2345.</item>
+                                    </list>
+                                    <paragraph>
+                                       <content styleCode="italics">NOTE: Contact your health professional if you need information about how to manage your side effects. The Canada Vigilance Program does not provide medical advice.</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <br/>
+                           <content styleCode="bold">Storage:</content>
+                        </paragraph>
+                        <paragraph>Store at 4 °C to 30 °C. Do not freeze or expose to excessive heat.</paragraph>
+                        <paragraph>Keep out of reach and sight of children.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">If you want more information about REGIOCIT solution:</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>Talk to your healthcare professional</item>
+                           <item>Find the full product monograph that is prepared for healthcare professionals and includes this Patient Medication Information by visiting the Health Canada website (https://health-products.canada.ca/dpd-bdpp/index-eng.jsp); the manufacturer’s website (http://baxter.ca), or by calling 1-888-719-9955.</item>
+                        </list>
+                        <paragraph>The content of this leaflet was prepared by Baxter Corporation, Mississauga, Ontario L5N 0C2, Canada.</paragraph>
+                        <paragraph>Last Revised: August 13, 2020</paragraph>
+                        <paragraph>Barcode 
+  <br/>  0 719002 429008
+ </paragraph>
+                        <paragraph>Baxter and Regiocit are trademarks of Baxter International Inc. or its subsidiaries.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Baxter logo</content>
+                           </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_bcba8a29-22af-42bc-a365-cfd03fc97fa9">
+               <id root="308e0113-aed4-2471-e063-6294a90ad4ef"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <renderMultiMedia ID="id1236901800" referencedObject="d6804658-f612-42c2-85c8-619b77abe4fd"/>
+                  <paragraph>
+                     <content styleCode="bold">DIN 02496755</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Product Code: 955791</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">REGIOCIT</content>
+                  </paragraph>
+                  <paragraph>Sodium chloride and sodium citrate solution 
+  <br/>  5.03 g / L, 5.29 g / L 
+  <br/>  Solution de chlorure de sodium et de citrate de sodium 
+  <br/>  5,03 g / L, 5,29 g / L
+ </paragraph>
+                  <paragraph>Sterile / Stérile 
+  <br/>  Nonpyrogenic / Apyrogène 
+  <br/>  For hemofiltration and regional citrate anticoagulation during 
+  <br/>  Continuous Renal Replacement Therapy (CRRT) / 
+  <br/>  Pour hémofiltration et anticoagulation régionale au citrate pendant la thérapie de 
+  <br/>  remplacement rénal continue (TRRC).
+ </paragraph>
+                  <renderMultiMedia ID="id1413585981" referencedObject="ID_765c3615-df4b-4109-a83b-905bf9ece7ec"/>
+                  <paragraph>Hydrochloric acid (pH adjuster) / Acide chlorhydrique (ajusteur de pH) 
+  <br/>  Water for Injection / Eau pour injection 
+  <br/>
+                     <content styleCode="bold">Solution for Extracorporeal use only. Not for direct intravenous infusion.</content>To be used in 
+  <br/>  pre-dilution only during CRRT.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For single use only</content>. Discard any unused portion. Product Monograph available upon 
+  <br/>  request. See patient medication information. This product is not made with natural rubber 
+  <br/>  latex.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Solution pour administration extracorporelle seulement. Ne pas administrer par 
+   <br/>  perfusion intraveineuse directe.
+  </content>Ne doit être utilisé en mode pré-dilution que pour la
+ 
+  <content styleCode="bold">
+                        <br/>
+                     </content>thérapie de remplacement rénal continu (TRRC).
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pour usage unique seulement.</content>Jeter toute portion non utilisée. Monographie disponible sur 
+  <br/>  demande. Voir les renseignements pour le patient sur le médicament. Ce produit n’est pas 
+  <br/>  fabriqué avec du latex de caoutchouc naturel.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">18 Citrate 
+   <br/>  mmol / L mmol / L
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">140 Na
+  
+   <sup>+</sup>
+                        <br/>  mmol / L
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5 000 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia ID="id1928225847" referencedObject="c83002fd-17d7-4b39-b239-7091400e1a15"/>
+                     </content>
+                  </paragraph>
+                  <paragraph>Store at 4°C to 30 °C. Do not freeze or 
+  <br/>  expose to excessive heat.
+ </paragraph>
+                  <paragraph>Conserver à une température comprise 
+  <br/>  entre 4 °C et 30 °C. Ne pas congeler ni 
+  <br/>  exposer à une chaleur excessive.
+ </paragraph>
+                  <paragraph>Questions and Concerns / 
+  <br/>  Des questions ou problèmes 
+  <br/>
+                     <content styleCode="bold">Baxter Corporation</content>
+                     <br/>  Mississauga, ON L5N 0C2 
+  <br/>  Customer Service / 
+  <br/>  Service à la clientèle 
+  <br/>  1-888-719-9955
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2 x 5 000 mL</content>
+                  </paragraph>
+                  <paragraph>07-05-00-0207</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Baxter logo</content>
+                     </content>
+                  </paragraph>
+                  <renderMultiMedia ID="id1470713789" referencedObject="e0a1d87c-4ec4-42f2-ad78-69dbdf783d8a"/>
+                  <paragraph>
+                     <content styleCode="bold">18 Citrate 
+   <br/>  mmol / L
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">140 Na
+  
+   <sup>+</sup>
+                        <br/>  mmol / L
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DIN 02496755</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Product code: 955791</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">REGIOCIT 
+   <br/>  Sodium chloride and sodium citrate solution 
+   <br/>  5.03 g / L, 5.29 g / L 
+   <br/>  Solution de chlorure de sodium et de citrate de sodium 
+   <br/>  5,03 g / L, 5,29 g / L
+  </content>
+                  </paragraph>
+                  <paragraph>Sterile / Stérile</paragraph>
+                  <paragraph>Nonpyrogenic / Apyrogène</paragraph>
+                  <paragraph>For hemofiltration and regional citrate anticoagulation during Continuous Renal Replacement Therapy (CRRT) / 
+  <br/>  Pour hémofiltration et anticoagulation régionale au citrate pendant la thérapie de remplacement rénal continue (TRRC).
+ </paragraph>
+                  <renderMultiMedia ID="id-318107687" referencedObject="ID_1ab48c4a-2761-4a07-b902-cf9c15c37872"/>
+                  <paragraph>
+                     <content styleCode="bold">244 mOsm/L</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5000 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Approx pH 7.4</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Solution for Extracorporeal use only. Not for direct intravenous infusion.</content>To be used in pre-dilution only during Continuous 
+  <br/>  Renal Replacement Therapy (CRRT). 
+  <br/>  Use only if overwrap and solution bag are not damaged and there is no leakage. 
+  <br/>  The introduction and mixing of additives must always be performed prior to connecting the solution bag to the extracorporeal circuit. Mix the solution thoroughly when additives have been introduced. Use only if solution is clear and free from visible particles.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Single use only.</content>Discard unused portion. Product Monograph available upon request. 
+  <br/>
+                     <content styleCode="bold">Dose:</content>Read the package insert before use. This product is not made with natural rubber latex. 
+  <br/>
+                     <content styleCode="bold">Store:</content>4°C to 30°C. Do not freeze or expose to excessive heat.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Solution pour administration extracorporelle seulement. Ne pas administrer par perfusion intraveineuse directe.</content>Ne doit être utilisé en mode pré-dilution que pour la thérapie de remplacement rénal continu (TRRC). N’utiliser que si le suremballage et le sac de solution sont intacts et ne présentent aucune fuite. Il faut toujours injecter et mélanger les additifs avant de connecter le sac de solution au circuit extracorporel. 
+  <br/>  Bien mélanger la solution après l’injection des additifs. La solution ne doit être utilisée que si elle est limpide et ne contient aucune particule visible.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usage unique seulement.</content>Jeter la portion non utilisée. Monographie disponible sur demande. 
+  <br/>
+                     <content styleCode="bold">Posologie :</content>Lire la notice d'emballage avant l'utilisation. Ce produit n'est pas fabriqué avec du latex de caoutchouc naturel. 
+  <br/>
+                     <content styleCode="bold">Conservation :</content>entre 4 °C et 30 °C. Ne pas congeler ni exposer à une chaleur excessive.
+
+ </paragraph>
+                  <paragraph>Questions and Concerns / Des questions ou problèmes</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Baxter Corporation 
+   <br/>
+                     </content>Mississauga, ON L5N 0C2
+ 
+  <content styleCode="bold">
+                        <br/>
+                     </content>Customer Service / Service à la clientèle
+ 
+  <content styleCode="bold">
+                        <br/>
+                     </content>1-888-719-9955
+
+ </paragraph>
+                  <paragraph>2D barcode</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Baxter Logo</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Barcode 
+  <br/>  00000955791
+ </paragraph>
+                  <paragraph>07-25-00-1832</paragraph>
+               </text>
+               <effectiveTime value="20200813"/>
+               <component>
+                  <observationMedia ID="d6804658-f612-42c2-85c8-619b77abe4fd">
+                     <text>Representative Container Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image11.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_765c3615-df4b-4109-a83b-905bf9ece7ec">
+                     <text>Representative Container Label Table 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-12.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="c83002fd-17d7-4b39-b239-7091400e1a15">
+                     <text>Representative Container Label Table 2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-13.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="e0a1d87c-4ec4-42f2-ad78-69dbdf783d8a">
+                     <text>Representative bag label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-14.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_1ab48c4a-2761-4a07-b902-cf9c15c37872">
+                     <text>Representative Carton Label Table 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-15.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

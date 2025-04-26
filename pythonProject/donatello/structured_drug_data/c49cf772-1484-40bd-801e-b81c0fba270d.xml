@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="c49cf772-1484-40bd-801e-b81c0fba270d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Triamterene Capsule, USP<br/> Potassium-Sparing Diuretic</title>
+   <effectiveTime value="20250204"/>
+   <setId root="93c2a15e-c8c0-429f-8085-f8b647c39dcf"/>
+   <versionNumber value="101"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+            <name>Bryant Ranch Prepack</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                  <name>Bryant Ranch Prepack</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bryant Ranch Prepack</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="72162-2265"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="72162-2265"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4696e3ec-debf-4d04-a0a4-faefd39e46e1"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20241203"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72162-2265" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Triamterene</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Triamterene Capsules</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="52817-364" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="50" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WS821Z52LQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRIAMTERENE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WS821Z52LQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRIAMTERENE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="9DBA0SBB0L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C RED NO. 33</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H77VEI93A8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C YELLOW NO. 6</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SHELLAC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZH3C48M4T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72162-2265-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250204"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA211581" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20181212"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48326" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RED"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" unit="mm" value="14"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">AT;50</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>triamterene-structure.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="triamterene-structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="ec987a56-146b-473c-a084-3dbee6b25f11"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Triamterene Capsules are potassium-sparing diuretics.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                     <br/> Triamterene</paragraph>
+                  <paragraph>Triamterene is 2,4,7-triamino-6-phenyl-pteridine. Its molecular weight is 253.27. At 50°C, triamterene is slightly soluble in water. It is soluble in dilute ammonia, dilute aqueous sodium hydroxide and dimethylformamide. It is sparingly soluble in methanol.</paragraph>
+                  <br/>
+                  <paragraph>Each capsule for oral use, with opaque red cap and body, contains Triamterene USP, <br/> 50 mg or 100 mg, and is imprinted with AT 50 (for the 50-mg strength) and AT 100 (for the 100-mg strength) in white ink on both the cap and body. Inactive ingredients consist of Lactose monohydrate, Magnesium stearate, Gelatin, D&amp;C Red No.33, FD&amp;C yellow No.6, Titanium dioxide, Sodium lauryl sulfate, Shellac and Potassium hydroxide.</paragraph>
+               </text>
+               <effectiveTime value="20241203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="75bd9a97-3d15-4843-bbc9-865dafc32fb2"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Triamterene has a unique mode of action; it inhibits the reabsorption of sodium ions in exchange for potassium and hydrogen ions at that segment of the distal tubule under the control of adrenal mineralocorticoids (especially aldosterone). This activity is not directly related to aldosterone secretion or antagonism; it is a result of a direct effect on the renal tubule.</paragraph>
+                  <paragraph>The fraction of filtered sodium reaching this distal tubular exchange site is relatively small, and the amount which is exchanged depends on the level of mineralocorticoid activity. Thus, the degree of natriuresis and diuresis produced by inhibition of the exchange mechanism is necessarily limited. Increasing the amount of available sodium and the level of mineralocorticoid activity by the use of more proximally acting diuretics will increase the degree of diuresis and potassium conservation. </paragraph>
+                  <paragraph>Triamterene occasionally causes increases in serum potassium which can result in hyperkalemia. It does not produce alkalosis, because it does not cause excessive excretion of titratable acid and ammonium. </paragraph>
+                  <paragraph>Triamterene has been shown to cross the placental barrier and appear in the cord blood of animals. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacokinetics</content>
+                     <br/> Onset of action is 2 to 4 hours after ingestion. In normal volunteers the mean peak serum levels were 30 ng/mL at 3 hours. The average percent of drug recovered in the urine (0 to 48 hours) was 21%. Triamterene is primarily metabolized to the sulfate conjugate of hydroxytriamterene. Both the plasma and urine levels of this metabolite greatly exceed triamterene levels. Triamterene is rapidly absorbed, with somewhat less than 50% of the oral dose reaching the urine. Most patients will respond to triamterene during the first day of treatment. Maximum therapeutic effect, however, may not be seen for several days. Duration of diuresis depends on several factors, especially renal function, but it generally tapers off 7 to 9 hours after administration.</paragraph>
+               </text>
+               <effectiveTime value="20241203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="58ace44c-25f0-4842-875a-311452892231"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS &amp; USAGE</title>
+               <text>
+                  <paragraph>Triamterene Capsules USP is indicated in the treatment of edema associated with congestive heart failure, cirrhosis of the liver and the nephrotic syndrome; steroid-induced edema, idiopathic edema and edema due to secondary hyperaldosteronism.</paragraph>
+                  <paragraph>Triamterene Capsules USP may be used alone or with other diuretics, either for its added diuretic effect or its potassium-sparing potential. It also promotes increased diuresis when patients prove resistant or only partially responsive to thiazides or other diuretics because of secondary hyperaldosteronism.</paragraph>
+                  <paragraph>Usage in Pregnancy. The routine use of diuretics in an otherwise healthy woman is inappropriate and exposes mother and fetus to unnecessary hazard. Diuretics do not prevent development of toxemia of pregnancy, and there is no satisfactory evidence that they are useful in the treatment of developed toxemia.</paragraph>
+                  <paragraph>Edema during pregnancy may arise from pathological causes or from the physiologic and mechanical consequences of pregnancy. Diuretics are indicated in pregnancy (however, see <content styleCode="bold">PRECAUTIONS</content> below) when edema is due to pathologic causes, just as they are in the absence of pregnancy. Dependent edema in pregnancy, resulting from restriction of venous return by the expanded uterus, is properly treated through elevation of the lower extremities and use of support hose; use of diuretics to lower intravascular volume in this case is illogical and unnecessary. There is hypervolemia during normal pregnancy which is harmful to neither the fetus nor the mother (in the absence of cardiovascular disease), but which is associated with edema, including generalized edema, in the majority of pregnant women. If this edema produces discomfort, increased recumbency will often provide relief. In rare instances, this edema may cause extreme discomfort which is not relieved by rest. In these cases, a short course of diuretics may provide relief and may be appropriate.</paragraph>
+               </text>
+               <effectiveTime value="20241203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="85fdc8e3-2482-41ca-9b68-cca21e5431a4"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Anuria. Severe or progressive kidney disease or dysfunction, with the possible exception of nephrosis. Severe hepatic disease. Hypersensitivity to the drug or any of its components.</paragraph>
+                  <paragraph>Triamterene Capsules USP should not be used in patients with pre-existing elevated serum potassium, as is sometimes seen in patients with impaired renal function or azotemia, or in patients who develop hyperkalemia while on the drug. Patients should not be placed on dietary potassium supplements, potassium salts or potassium-containing salt substitutes in conjunction with triamterene.</paragraph>
+                  <paragraph>Triamterene should not be given to patients receiving other potassium-sparing agents, such as spironolactone, amiloride hydrochloride, or other formulations containing triamterene. Two deaths have been reported in patients receiving concomitant spironolactone and triamterene or Dyazide®. Although dosage recommendations were exceeded in one case and in the other serum electrolytes were not properly monitored, these two drugs should not be given concomitantly.</paragraph>
+               </text>
+               <effectiveTime value="20241203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="86cff646-6764-4333-a8db-4bde47c976b0"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <table cellspacing="0" cellpadding="0" border="0">
+                     <tbody>
+                        <tr>
+                           <td styleCode="Lrule Rrule" valign="middle">Abnormal elevation of serum potassium levels (greater than or equal to 5.5 mEq/liter) can occur with all potassium-sparing agents, including triamterene. Hyperkalemia is more likely to occur in patients with renal impairment and diabetes (even without evidence of renal impairment), and in the elderly or severely ill. Since uncorrected hyperkalemia may be fatal, serum potassium levels must be monitored at frequent intervals especially in patients receiving triamterene, when dosages are changed or with any illness that may influence renal function. </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+                  <paragraph> There have been isolated reports of hypersensitivity reactions; therefore, patients should be observed regularly for the possible occurrence of blood dyscrasias, liver damage or other idiosyncratic reactions.</paragraph>
+                  <br/>
+                  <paragraph>Periodic BUN and serum potassium determinations should be made to check kidney function, especially in patients with suspected or confirmed renal insufficiency. It is particularly important to make serum potassium determinations in elderly or diabetic patients receiving the drug; these patients should be observed carefully for possible serum potassium increases.</paragraph>
+                  <paragraph>If hyperkalemia is present or suspected, an electrocardiogram should be obtained. If the ECG shows no widening of the QRS or arrhythmia in the presence of hyperkalemia, it is usually sufficient to discontinue triamterene and any potassium supplementation, and substitute a thiazide alone. Sodium polystyrene sulfonate<content styleCode="italics"> (Kayexalate®, Concordia Pharmaceuticals Inc.)</content>  may be administered to enhance the excretion of excess potassium. <content styleCode="bold">The presence of a widened QRS complex or arrhythmia in association with hyperkalemia requires prompt additional therapy.</content> For tachyarrhythmia, infuse 44 mEq of sodium bicarbonate or 10 mL of 10% calcium gluconate or calcium chloride over several minutes. For asystole, bradycardia or A-V block transvenous pacing is also recommended.</paragraph>
+                  <paragraph>The effect of calcium and sodium bicarbonate is transient and repeated administration may be required. When indicated by the clinical situation, excess K+ may be removed by dialysis or oral or rectal administration of <content styleCode="italics">Kayexalate®.</content> Infusion of glucose and insulin has also been used to treat hyperkalemia.</paragraph>
+               </text>
+               <effectiveTime value="20241203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="b3f115f0-ec2f-4bfa-85c9-37b24a89dbda"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20241203"/>
+               <component>
+                  <section ID="Section_6.1">
+                     <id root="ae9ff71c-cd14-4d72-a4ab-c18b8dc81f13"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>GENERAL PRECAUTIONS</title>
+                     <text>
+                        <paragraph>Triamterene tends to conserve potassium rather than to promote the excretion as do many diuretics and, occasionally, can cause increases in serum potassium which, in some instances, can result in hyperkalemia. In rare instances, hyperkalemia has been associated with cardiac irregularities.</paragraph>
+                        <paragraph>Electrolyte imbalance often encountered in such diseases as congestive heart failure, renal disease or cirrhosis may be aggravated or caused independently by any effective diuretic agent including triamterene. The use of full doses of a diuretic when salt intake is restricted can result in a low-salt syndrome.</paragraph>
+                        <paragraph>Triamterene can cause mild nitrogen retention, which is reversible upon withdrawal of the drug, and is seldom observed with intermittent (every-other-day) therapy.</paragraph>
+                        <paragraph>Triamterene may cause a decreasing alkali reserve, with the possibility of metabolic acidosis.</paragraph>
+                        <paragraph>By the very nature of their illness, cirrhotics with splenomegaly sometimes have marked variations in their blood. Since triamterene is a weak folic acid antagonist, it may contribute to the appearance of megaloblastosis in cases where folic acid stores have been depleted. Therefore, periodic blood studies in these patients are recommended. They should also be observed for exacerbations of underlying liver disease.</paragraph>
+                        <paragraph>Triamterene has elevated uric acid, especially in persons predisposed to gouty arthritis.</paragraph>
+                        <paragraph>Triamterene has been reported in renal stones in association with other calculus components. Triamterene should be used with caution in patients with histories of renal stones.</paragraph>
+                     </text>
+                     <effectiveTime value="20241203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.2">
+                     <id root="63fe3e6d-a0f1-45e3-b883-1feb50c9fe71"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>INFORMATION FOR PATIENTS</title>
+                     <text>
+                        <paragraph>To help avoid stomach upset, it is recommended that the drug be taken after meals.</paragraph>
+                        <paragraph>If a single daily dose is prescribed, it may be preferable to take it in the morning to minimize the effect of increased frequency of urination on nighttime sleep.</paragraph>
+                        <paragraph>If a dose is missed, the patient should not take more than the prescribed dose at the next dosing interval.</paragraph>
+                     </text>
+                     <effectiveTime value="20241203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.3">
+                     <id root="86a24e09-7181-4df2-bb6c-b984bdb7e3c7"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>LABORATORY TESTS</title>
+                     <text>
+                        <paragraph>Hyperkalemia will rarely occur in patients with adequate urinary output, but it is a possibility if large doses are used for considerable periods of time. If hyperkalemia is observed, Triamterene should be withdrawn. The normal adult range of serum potassium is 3.5 to 5.0 mEq per liter, with 4.5 mEq often being used for a reference point. Potassium levels persistently above 6 mEq per liter require careful observation and treatment. Normal potassium levels tend to be higher in neonates (7.7 mEq per liter) than in adults. </paragraph>
+                        <paragraph>Serum potassium levels do not necessarily indicate true body potassium concentration. A rise in plasma pH may cause a decrease in plasma potassium concentration and an increase in the intracellular potassium concentration. Because triamterene conserves potassium, it has been theorized that in patients who have received intensive therapy or been given the drug for prolonged periods, a rebound kaliuresis could occur upon abrupt withdrawal. In such patients, withdrawal of triamterene should be gradual.</paragraph>
+                     </text>
+                     <effectiveTime value="20241203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.4">
+                     <id root="c211060f-283f-4eb4-bd74-6e6d857fce38"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>DRUG INTERACTIONS</title>
+                     <text>
+                        <paragraph>Caution should be used when lithium and diuretics are used concomitantly because diuretic-induced sodium loss may reduce the renal clearance of lithium and increase serum lithium levels with risk of lithium toxicity. Patients receiving such combined therapy should have serum lithium levels monitored closely and the lithium dosage adjusted if necessary.</paragraph>
+                        <paragraph>A possible interaction resulting in acute renal failure has been reported in a few subjects when indomethacin, a nonsteroidal anti-inflammatory agent, was given with triamterene. Caution is advised in administering nonsteroidal anti-inflammatory agents with triamterene.</paragraph>
+                        <paragraph>The effects of the following drugs may be potentiated when given together with triamterene: antihypertensive medication, other diuretics, preanesthetic and anesthetic agents, skeletal muscle relaxants (non-depolarizing).</paragraph>
+                        <paragraph>Potassium-sparing agents should be used with caution in conjunction with angiotensin-converting enzyme (ACE) inhibitors due to an increased risk of hyperkalemia.</paragraph>
+                        <paragraph>The following agents, given together with triamterene, may promote serum potassium accumulation and possibly result in hyperkalemia because of the potassium-sparing nature of triamterene, especially in patients with renal insufficiency: blood from blood bank (may contain up to 30 mEq of potassium per liter of plasma or up to 65 mEq per liter of whole blood when stored for more than 10 days); low-salt milk (may contain up to 60 mEq of potassium per liter); potassium-containing medications (such as parenteral penicillin G potassium); salt substitutes (most contain substantial amounts of potassium).</paragraph>
+                        <paragraph>Triamterene may raise blood glucose levels; for adult-onset diabetes, dosage adjustments of hypoglycemic agents may be necessary during and/or after therapy; concurrent use with chlorpropamide may increase the risk of severe hyponatremia.</paragraph>
+                     </text>
+                     <effectiveTime value="20241203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.5">
+                     <id root="bcdd394b-b382-4cc4-beb0-e9b2434aaa90"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>DRUG &amp; OR LABORATORY TEST INTERACTIONS</title>
+                     <text>
+                        <paragraph>Triamterene and quinidine have similar fluorescence spectra; thus, triamterene will interfere with the fluorescent measurement of quinidine.</paragraph>
+                     </text>
+                     <effectiveTime value="20241203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.6">
+                     <id root="0ebbfa6b-7a4f-44f7-9eba-130306f49a25"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Carcinogenesis:</content> In studies conducted under the auspices of the National Toxicology Program, groups of rats were fed diets containing 0, 150, 300 or 600 ppm of triamterene, and groups of mice were fed diets containing 0, 100, 200 or 400 ppm triamterene. Male and female rats exposed to the highest tested concentration received triamterene at about 25 and 30 mg/kg/day, respectively.<br/>
+                           <br/> Male and female mice exposed to the highest tested concentration received triamterene at about 45 and 60 mg/kg/day, respectively.</paragraph>
+                        <paragraph>There was an increased incidence of hepatocellular neoplasia (primarily adenomas) in male and female mice at the highest dosage level. These doses represent 7.5X and 10X the Maximum Recommended Human Dose (MRHD) of 300 mg/kg/day (or 6 mg/kg/day based on a 50 kg patient) for male and female mice, respectively, when based on body weight and 0.7X and 0.9X the MRHD when based on body-surface area.</paragraph>
+                        <paragraph>Although hepatocellular neoplasia (exclusively adenomas) in the rat study was limited to triamterene-exposed males, incidence was not dose dependent and there was no statistically significant difference from control incidence at any dose level.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Mutagenesis:</content> Triamterene was not mutagenic in bacteria (Salmonella typhimurium strains TA98, TA100, TA1535 or TA1537) with or without metabolic activation. It did not induce chromosomal aberrations in Chinese hamster ovary (CHO) cells in vitro with or without metabolic activation, but it did induce sister chromatid exchanges in CHO cells in vitro with and without metabolic activation.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Impairment of Fertility:</content> Studies of the effects of triamterene on animal reproductive function have not been conducted.</paragraph>
+                     </text>
+                     <effectiveTime value="20241203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.7">
+                     <id root="31acee24-bfe7-4066-9f4f-016e4fa5c94c"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>PREGNANCY</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Teratogenic Effects:</content>
+                           <br/> Reproduction studies have been performed in rats at doses as high as 20 times the Maximum Recommended Human Dose (MRHD) on the basis of body weight, and 6 times the MRHD on the basis of body-surface area, without evidence of harm to the fetus due to triamterene. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Nonteratogenic Effects:</content>
+                           <br/> Triamterene has been shown to cross the placental barrier and appear in cord blood. The use of triamterene in pregnant women requires that the anticipated benefits be weighed against possible hazards to the fetus. These possible hazards include adverse reactions which have occurred in the adult.</paragraph>
+                     </text>
+                     <effectiveTime value="20241203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.9">
+                     <id root="af6dc92a-61cb-4a7a-a3c2-f3d4aae28a8c"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>NURSING MOTHERS</title>
+                     <text>
+                        <paragraph>Triamterene has not been studied in nursing mothers. Triamterene appears in animal milk and is likely present in human milk. If use of the drug product is deemed essential, the patient should stop nursing.</paragraph>
+                     </text>
+                     <effectiveTime value="20241203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.10">
+                     <id root="be776474-62c0-4c84-a7e1-b033e3740bac"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>PEDIATRIC USE</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20241203"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="39eba846-b31e-4c9a-871e-92150680f800"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Adverse effects are listed in decreasing order of frequency; however, the most serious adverse effects are listed first, regardless of frequency. All adverse effects occur rarely (that is, 1 in 1000, or less).</paragraph>
+                  <paragraph>Hypersensitivity: anaphylaxis, rash, photosensitivity.<br/>
+                     <br/> Metabolic: hyperkalemia, hypokalemia.<br/>
+                     <br/> Renal: azotemia, elevated BUN and creatinine, renal stones, acute interstitial nephritis (rare), acute renal failure (one case of irreversible renal failure has been reported).<br/>
+                     <br/> Gastrointestinal: jaundice and/or liver enzyme abnormalities, nausea and vomiting, diarrhea.<br/>
+                     <br/> Hematologic: thrombocytopenia, megaloblastic anemia.<br/>
+                     <br/> Central Nervous System: weakness, fatigue, dizziness, headache, dry mouth.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact TruPharma, LLC at 1-877-541-5504 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+               </text>
+               <effectiveTime value="20241203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="2fbdf8e3-3f2a-4a2b-b69d-3d654e2cf921"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>In the event of overdosage, it can be theorized that electrolyte imbalance would be the major concern, with particular attention to possible hyperkalemia. Other symptoms that might be seen would be nausea and vomiting, other G.I. disturbances and weakness. It is conceivable that some hypotension could occur. As with an overdose of any drug, immediate evacuation of the stomach should be induced through emesis and gastric lavage. Careful evaluation of the electrolyte pattern and fluid balance should be made. There is no specific antidote.</paragraph>
+                  <paragraph>Reversible acute renal failure following ingestion of 50 tablets of a product containing a combination of 50 mg triamterene and 25 mg hydrochlorothiazide has been reported.</paragraph>
+                  <paragraph>The oral LD50 in mice is 380 mg/kg. The amount of drug in a single dose ordinarily associated with symptoms of overdose or likely to be life-threatening is not known.</paragraph>
+                  <paragraph>Although triamterene is 67% protein bound, there may be some benefit to dialysis in cases of overdosage.</paragraph>
+               </text>
+               <effectiveTime value="20241203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="3d7ef526-4a2d-4bfe-b6b5-6bd8c93bf7b5"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE &amp; ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Adult Dosage</content>
+                     <br/> Dosage should be titrated to the needs of the individual patient. When used alone, the usual starting dose is 100 mg twice daily after meals. When combined with another diuretic or antihypertensive agent, the total daily dosage of each agent should usually be lowered initially and then adjusted to the patient’s needs. The total daily dosage should not exceed 300 mg. Please refer to <content styleCode="underline">PRECAUTIONS−General.</content>
+                  </paragraph>
+                  <paragraph>When triamterene capsules are added to other diuretic therapy or when patients are switched to triamterene capsules from other diuretics, all potassium supplementation should be discontinued.</paragraph>
+               </text>
+               <effectiveTime value="20241203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="01b48eac-d5a7-4440-bd97-fe7d414f57d6"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Triamterene Capsules</paragraph>
+                  <paragraph>Each capsule for oral use, with opaque red cap and body, contains Triamterene USP, 50 mg and is imprinted with AT 50 (for the 50-mg</paragraph>
+                  <paragraph>strength) in white ink on both the cap and body and they are available as follow.</paragraph>
+                  <list listType="unordered">
+                     <item>NDC 72162-2265-1: 100 Capsules in a BOTTLE</item>
+                  </list>
+                  <paragraph>STORAGE</paragraph>
+                  <paragraph>Store at 25°C (77°F); excursions permitted to 15°-30°C (59°-86°F) [see USP Controlled Room Temperature]. Dispense in a tight, light resistant container.</paragraph>
+                  <paragraph>Repackaged/Relabeled by:<br/>Bryant Ranch Prepack, Inc.<br/>Burbank, CA 91504</paragraph>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3f4c9fe4-2cc4-40aa-948a-0b78c3c7a373"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Triamterene 50mg Capsule</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="mm63629"/>
+               </text>
+               <effectiveTime value="20250307"/>
+               <component>
+                  <observationMedia ID="mm63629">
+                     <text>Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl721622265.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

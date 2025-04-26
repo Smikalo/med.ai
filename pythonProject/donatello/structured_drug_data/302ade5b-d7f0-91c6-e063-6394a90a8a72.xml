@@ -1,0 +1,2190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="302ade5b-d7f0-91c6-e063-6394a90a8a72"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use FUROSCIX safely and effectively. See full prescribing information for FUROSCIX.
+ <br/>
+      <br/>
+      <br/>
+      <br/>
+Furoscix® (furosemide injection), for subcutaneous use
+ <br/>
+      <br/>
+      <br/>
+      <br/>
+Initial U.S. Approval: 1968
+</title>
+   <effectiveTime value="20250312"/>
+   <setId root="eac958dd-8d43-e44e-e053-2995a90a4d5e"/>
+   <versionNumber value="16"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079386513"/>
+            <name>scPharmaceuticals Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079386513"/>
+                        <name>scPharmaceuticals Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="71767-100" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="302bd471-df54-072e-e063-6394a90aa9c1"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250312"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71767-100" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FUROSCIX</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>furosemide injection 80 mg/ 10 mL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="8"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7LXU5N7ZO5" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FUROSEMIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7LXU5N7ZO5" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FUROSEMIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43183" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTRIDGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="1" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="71767-100-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20221114"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA209988" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20221114"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE">
+                              <originalText>Clear to slightly yellow</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1f2ef992-125c-4b39-e063-6394a90a6dd9">
+               <id root="2faf51e4-6775-cf3d-e063-6394a90aaa99"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <effectiveTime value="20250310"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Indications and Usage (
+    <linkHtml href="#id_link_ec7dc1f6-1fb7-4bf1-e053-2a95a90a3b93">1</linkHtml>)
+   </paragraph>
+                        <paragraph>Warnings and Precautions, Incomplete Dosing (
+    <linkHtml href="#id_link_1e7a300b-a2ff-69c7-e063-6394a90afb06">5.5</linkHtml>)
+   </paragraph>
+                        <paragraph/>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_ec7dc1f6-1fb7-4bf1-e053-2a95a90a3b93">
+               <id root="2faf4c30-43ac-c83c-e063-6394a90a1905"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>
+                     <linkHtml name="_Ref485760664">FUROSCIX is indicated for the treatment of edema in adult patients with chronic heart failure or chronic kidney disease (CKD), including the nephrotic syndrome.</linkHtml>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250310"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>FUROSCIX is a loop diuretic indicated for the treatment of edema in adult patients with chronic heart failure or chronic kidney disease, including the nephrotic syndrome. (
+    <linkHtml href="#id_link_ec7dc1f6-1fb7-4bf1-e053-2a95a90a3b93">1</linkHtml>)
+   </paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf7fdbd-cf62-331f-e053-2a95a90a68b2">
+               <id root="2ffdb35b-04ad-6769-e063-6294a90a4e34"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240815"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>The single-use, On-body Infusor is pre-programmed to deliver 30mg of furosemide over the first hour then 12.5 mg per hour for the subsequent 4 hours. (
+     <linkHtml href="#id_link_ec6a644c-020d-972c-e053-2a95a90ab6f4">2.1</linkHtml>)
+    </item>
+                           <item>FUROSCIX is not for chronic use and should be replaced with oral diuretics as soon as practical. (
+     <linkHtml href="#id_link_ec6a644c-020d-972c-e053-2a95a90ab6f4">2.1</linkHtml>)
+    </item>
+                           <item>See Full Prescribing Information for important administration instructions. (
+     <linkHtml href="#id_link_ec6b2b19-02d0-6a3e-e053-2995a90a24d5">2.2</linkHtml>)
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="id_link_ec6a644c-020d-972c-e053-2a95a90ab6f4">
+                     <id root="2f258cb4-89e4-a2c9-e063-6394a90a26cf"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>2.1 Dosage</title>
+                     <text>
+                        <paragraph>The single-use, On-body Infusor with prefilled cartridge is pre-programmed to deliver 30 mg of furosemide over the first hour followed by 12.5 mg per hour for the subsequent 4 hours 
+  <content styleCode="italics">[see Use in Specific Populations (
+   <linkHtml href="#id_link_2f257c90-6408-4655-e063-6294a90adc72">8.6</linkHtml>) and see Clinical Pharmacology (
+   <linkHtml href="#id_link_eaf8e628-a0fe-06f8-e053-2995a90a3ab2">12</linkHtml>)]. 
+  </content>
+                        </paragraph>
+                        <paragraph>FUROSCIX is not for chronic use and should be replaced with oral diuretics as soon as practical.</paragraph>
+                     </text>
+                     <effectiveTime value="20250310"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_ec6b2b19-02d0-6a3e-e053-2995a90a24d5">
+                     <id root="1fba6776-e5f6-b4f3-e063-6294a90ae5c3"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>2.2 Important Administration Instructions</title>
+                     <text>
+                        <paragraph>FUROSCIX is intended for use in a setting where the patient can limit their activity for the duration of administration. 
+  <content styleCode="italics">[see Warnings and Precautions (
+   <linkHtml href="#id_link_1e7a300b-a2ff-69c7-e063-6394a90afb06">5.5</linkHtml>)]
+  </content>
+                        </paragraph>
+                        <paragraph>FUROSCIX is not compatible with use in an MRI setting.</paragraph>
+                        <paragraph>Inspect FUROSCIX prefilled cartridge prior to administration. FUROSCIX is a clear to slightly yellow solution. Do not use FUROSCIX if solution is discolored or cloudy 
+  <content styleCode="italics">[see Description (
+   <linkHtml href="#id_link_eaf8c81b-909e-350c-e053-2a95a90aadda">11</linkHtml>)] 
+  </content>.
+ </paragraph>
+                        <paragraph>Refer to the Instructions for Use for additional information.</paragraph>
+                        <paragraph>Load the prefilled cartridge of furosemide into the On-body Infusor and close the cartridge holder.</paragraph>
+                        <paragraph>Peel away the adhesive liner on the On-body Infusor and apply onto a clean, dry area of the abdomen between the top of the beltline and the bottom of the ribcage that is not tender, bruised, red or indurated. The distance from the top of the beltline to the bottom of the ribcage should be at least 2 ½ inches.</paragraph>
+                        <paragraph>Start the injection by firmly pressing and releasing the blue start button.</paragraph>
+                        <paragraph>Do not remove until the injection is complete (signaled by the solid green status light, beeping sound, and the white plunger rod filling the cartridge window).</paragraph>
+                        <paragraph>Rotate the site of each subcutaneous administration.</paragraph>
+                     </text>
+                     <effectiveTime value="20240814"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf8144a-8eb3-d170-e053-2995a90a9ca5">
+               <id root="2f259f36-ade8-aa1d-e063-6394a90ac415"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Injection: 80 mg/10 mL (8 mg/mL) as a clear to slightly yellow solution in a single-dose prefilled cartridge for use only with co-packaged single-use, On-body Infusor.</paragraph>
+               </text>
+               <effectiveTime value="20250310"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Injection: 80 mg/10 mL (8 mg/mL) in a single-dose prefilled cartridge co-packaged with a single-use On-body Infusor. (
+    <linkHtml href="#id_link_eaf8144a-8eb3-d170-e053-2995a90a9ca5">3</linkHtml>)
+   </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf81b94-ff05-f072-e053-2a95a90a117f">
+               <id root="2f25638c-2519-362e-e063-6294a90a2c82"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <list listType="unordered">
+                     <item>FUROSCIX is contraindicated in patients with anuria.</item>
+                     <item>FUROSCIX is contraindicated in patients with a history of hypersensitivity to furosemide, any component of the FUROSCIX formulation, or medical adhesives.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250310"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Anuria (
+     <linkHtml href="#id_link_eaf81b94-ff05-f072-e053-2a95a90a117f">4</linkHtml>)
+    </item>
+                           <item>Hypersensitivity to furosemide, components of FUROSCIX formulation, or medical adhesives. (
+     <linkHtml href="#id_link_eaf81b94-ff05-f072-e053-2a95a90a117f">4</linkHtml>)
+    </item>
+                        </list>
+                        <paragraph/>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf82b9b-d777-0267-e053-2995a90a2588">
+               <id root="2ffdb5fe-16ed-6795-e063-6294a90a3e2c"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240814"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="underline">Fluid, Electrolyte, and Metabolic Abnormalities</content>: Monitor serum electrolytes, CO
+     <sub>2</sub>, BUN, creatinine, glucose, and uric acid. (
+     <linkHtml href="#id_link_ec6b7937-74d6-d494-e053-2a95a90a004b">5.1</linkHtml>)
+    </item>
+                           <item>
+                              <content styleCode="underline">Worsening Renal Function</content>: Monitor for dehydration and azotemia. (
+     <linkHtml href="#id_link_ec6b80a0-c23a-fab0-e053-2a95a90adba5">5.2</linkHtml>)
+    </item>
+                           <item>
+                              <content styleCode="underline">Ototoxicity</content>: Avoid higher than recommended doses. (
+     <linkHtml href="#id_link_ec6b80a0-c23c-fab0-e053-2a95a90adba5">5.3</linkHtml>, 
+     <linkHtml href="#id_link_ec6d53cb-00f4-79bc-e053-2995a90adb50">7.1</linkHtml>)
+    </item>
+                           <item>
+                              <content styleCode="underline">Acute Urinary Retention</content>: Monitor patients with symptoms of urinary retention. (
+     <linkHtml href="#id_link_ec6b87f1-e5ff-21c2-e053-2a95a90ab76d">5.4</linkHtml>)
+    </item>
+                           <item>
+                              <content styleCode="underline">Incomplete Dosing</content>: Fluid contact and certain patient movements during treatment may cause the On-body Infusor to prematurely terminate infusion. Ensure patients can detect and respond to alarms. (
+     <linkHtml href="#id_link_1e7a300b-a2ff-69c7-e063-6394a90afb06">5.5</linkHtml>)
+    </item>
+                        </list>
+                        <paragraph/>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="id_link_ec6b7937-74d6-d494-e053-2a95a90a004b">
+                     <id root="2fae7056-757b-e84b-e063-6294a90a6c6f"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>5.1 Fluid, Electrolyte, and Metabolic Abnormalities</title>
+                     <text>
+                        <paragraph>Furosemide may cause fluid, electrolyte, and metabolic abnormalities such as hypovolemia, hypokalemia, azotemia, hyponatremia, hypochloremic alkalosis, hypomagnesemia, hypocalcemia, hyperglycemia, or hyperuricemia, particularly in patients receiving higher doses, patients with inadequate oral electrolyte intake, and in elderly patients. Excessive diuresis may cause dehydration and blood volume reduction with circulatory collapse and possibly vascular thrombosis and embolism, particularly in elderly patients. Serum electrolytes, CO
+  <sub>2</sub>, BUN, creatinine, glucose, and uric acid should be monitored frequently during furosemide therapy 
+  <content styleCode="italics">[see Use in Specific Populations (
+   <linkHtml href="#id_link_2f257c90-6408-4655-e063-6294a90adc72">8.6</linkHtml>)]
+  </content>.
+ </paragraph>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20250310"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_ec6b80a0-c23a-fab0-e053-2a95a90adba5">
+                     <id root="1f2f069e-86a7-9b49-e063-6394a90a70af"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>5.2 Worsening Renal Function</title>
+                     <text>
+                        <paragraph>Furosemide can cause dehydration and azotemia. If increasing azotemia and oliguria occur during treatment of severe progressive renal disease, discontinue furosemide 
+  <content styleCode="italics">[see Clinical Pharmacology (
+   <linkHtml href="#id_link_ec6c1181-35ef-3fb9-e053-2a95a90a0d1d">12.3</linkHtml>)]. 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240814"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_ec6b80a0-c23c-fab0-e053-2a95a90adba5">
+                     <id root="1e7a7a1c-900d-30ee-e063-6394a90a3be2"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>5.3 Ototoxicity</title>
+                     <text>
+                        <paragraph>Cases of tinnitus and reversible or irreversible hearing impairment and deafness have been reported with furosemide. Reports usually indicate that furosemide ototoxicity is associated with rapid injection, severe renal impairment, the use of higher than recommended doses, hypoproteinemia or concomitant therapy with aminoglycoside antibiotics, ethacrynic acid, or other ototoxic drugs. If the physician elects to use high-dose parenteral therapy, controlled intravenous infusion is advisable (for adults, an infusion rate not exceeding 4 mg furosemide per minute has been used) 
+  <content styleCode="italics">[see Drug Interactions (
+   <linkHtml href="#id_link_ec6d53cb-00f4-79bc-e053-2995a90adb50">7.1</linkHtml>)]. 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20221114"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_ec6b87f1-e5ff-21c2-e053-2a95a90ab76d">
+                     <id root="f603c643-2beb-852a-e053-2a95a90a684d"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>5.4 Acute Urinary Retention</title>
+                     <text>
+                        <paragraph>In patients with severe symptoms of urinary retention (because of bladder emptying disorders, prostatic hyperplasia, urethral narrowing), the administration of furosemide can cause acute urinary retention related to increased production and retention of urine. These patients require careful monitoring, especially during the initial stages of treatment.</paragraph>
+                     </text>
+                     <effectiveTime value="20221114"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_1e7a300b-a2ff-69c7-e063-6394a90afb06">
+                     <id root="2faf507f-839b-bb47-e063-6294a90a8d9a"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title>5.5 Incomplete Dosing</title>
+                     <text>
+                        <paragraph>The On-body Infusor should not be allowed to get wet from water or any other fluids (blood or drug product). Fluid contact with the circuit board can lead to device errors and premature termination of infusion.</paragraph>
+                        <paragraph>The On-body Infusor is intended for use in a setting where the patient can limit their activity for the duration of administration. Certain patient movements may cause interruption of device adherence to skin and premature termination of infusion.</paragraph>
+                        <paragraph>The On-body Infusor for FUROSCIX should only be used in patients who can detect and respond to alarms to ensure a complete dose is administered.</paragraph>
+                     </text>
+                     <effectiveTime value="20240814"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf84712-cede-09ee-e053-2995a90a0c61">
+               <id root="1e7a6bff-1c80-0005-e063-6394a90aecd3"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following important adverse reactions are discussed elsewhere in the labeling:</paragraph>
+                  <paragraph/>
+                  <list listType="unordered">
+                     <item>Fluid, Electrolyte, and Metabolic Abnormalities 
+   <content styleCode="italics">[see Warnings and Precautions (
+    <linkHtml href="#id_link_ec6b7937-74d6-d494-e053-2a95a90a004b">5.1</linkHtml>)]. 
+   </content>
+                     </item>
+                     <item>Ototoxicity 
+   <content styleCode="italics">[see Warnings and Precautions (
+    <linkHtml href="#id_link_ec6b80a0-c23c-fab0-e053-2a95a90adba5">5.3</linkHtml>)] 
+   </content>
+                     </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>The following adverse reactions associated with the use of furosemide were identified in clinical trials or post-marketing reports. Because these reactions were reported voluntarily from a population of uncertain size, it is not always possible to estimate their frequency reliably, or to establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adverse reactions are categorized below by organ system and listed by decreasing severity.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal System Reactions</content>: pancreatitis, jaundice (intrahepatic cholestatic jaundice), increased liver enzymes, anorexia, oral and gastric irritation, cramping, diarrhea, constipation, nausea, vomiting.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Systemic Hypersensitivity Reactions</content>: severe anaphylactic or anaphylactoid reactions (e.g., with shock), systemic vasculitis, interstitial nephritis, necrotizing angiitis.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Central Nervous System Reactions</content>: tinnitus and hearing loss, paresthesias, vertigo, dizziness, headache, blurred vision, xanthopsia.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hematologic Reactions</content>: aplastic anemia, thrombocytopenia, agranulocytosis, hemolytic anemia, leukopenia, anemia, eosinophilia.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Dermatologic Hypersensitivity Reactions</content>: toxic epidermal necrolysis, Stevens-Johnson Syndrome, erythema multiforme, drug rash with eosinophilia and systemic symptoms, acute generalized exanthematous pustulosis, exfoliative dermatitis, bullous pemphigoid, purpura, photosensitivity, rash.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular Reactions</content>: orthostatic hypotension, increase in cholesterol and triglyceride serum levels.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Administration Site and Skin Reactions</content>: erythema, bruising, edema, infusion site pain.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Other Reactions</content>: glycosuria, muscle spasm, weakness, restlessness, urinary bladder spasm, thrombophlebitis, transient injection site pain following intramuscular injection, fever.
+ </paragraph>
+               </text>
+               <effectiveTime value="20221114"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common adverse reactions during treatment with the Furoscix Infusor were administration site and skin reactions: erythema, bruising, edema and infusion site pain. 
+    <linkHtml href="#id_link_eaf84712-cede-09ee-e053-2995a90a0c61">(6)</linkHtml>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact scPharmaceuticals, Inc. at 1-855-727-4276 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf88eec-5edf-b551-e053-2a95a90a3de4">
+               <id root="2fae4546-68b3-cf57-e063-6294a90ab5e3"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250310"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="underline">Aminoglycoside antibiotics</content>: Increased potential ototoxicity of the antibiotics. Avoid combination. (
+     <linkHtml href="#id_link_ec6d53cb-00f4-79bc-e053-2995a90adb50">7.1</linkHtml>)
+    </item>
+                           <item>
+                              <content styleCode="underline">Ethacrynic acid</content>: Risk of ototoxicity. Avoid combination (
+     <linkHtml href="#id_link_ec6d53cb-00f4-79bc-e053-2995a90adb50">7.1</linkHtml>)
+    </item>
+                           <item>
+                              <content styleCode="underline">Salicylates</content>: Risk of salicylate toxicity. (
+     <linkHtml href="#id_link_ec6d53cb-00f4-79bc-e053-2995a90adb50">7.1</linkHtml>)
+    </item>
+                           <item>
+                              <content styleCode="underline">Cisplatin and nephrotoxic drugs</content>: Risk of ototoxicity and nephrotoxicity. (
+     <linkHtml href="#id_link_ec6d53cb-00f4-79bc-e053-2995a90adb50">7.1</linkHtml>)
+    </item>
+                           <item>
+                              <content styleCode="underline">Lithium</content>: Risk of lithium toxicity. (
+     <linkHtml href="#id_link_ec6d53cb-00f4-79bc-e053-2995a90adb50">7.1</linkHtml>)
+    </item>
+                           <item>
+                              <content styleCode="underline">Renin-angiotensin inhibitors</content>: Increased risk of hypotension and renal failure. (
+     <linkHtml href="#id_link_ec6d53cb-00f4-79bc-e053-2995a90adb50">7.1</linkHtml>)
+    </item>
+                           <item>
+                              <content styleCode="underline">Adrenergic blocking drugs</content>: Risk of potentiation. (
+     <linkHtml href="#id_link_ec6d53cb-00f4-79bc-e053-2995a90adb50">7.1</linkHtml>)
+    </item>
+                           <item>
+                              <content styleCode="underline">Drugs undergoing renal tubular secretion</content>: Risk of toxicity potentiation. (
+     <linkHtml href="#id_link_ec6d53cb-00f4-79bc-e053-2995a90adb50">7.1</linkHtml>)
+    </item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">See 
+     <linkHtml href="#id_link_eaf8fe00-528c-6dd2-e053-2a95a90a221a">17</linkHtml> for PATIENT COUNSELING INFORMATION
+    </content>.
+   </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="id_link_ec6d53cb-00f4-79bc-e053-2995a90adb50">
+                     <id root="1e7a8937-4795-fce3-e063-6394a90aeaf1"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>7.1 Effects of Furosemide on Other Drugs</title>
+                     <text>
+                        <table border="5" width="100%">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Drug/Substance Class or Name</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Drug Interaction Effect</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Recommendations</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Aminoglycoside antibiotics</td>
+                                 <td>Furosemide may increase the ototoxic potential of aminoglycoside antibiotics, especially in the presence of impaired renal function 
+     <content styleCode="italics">[see Warnings and Precautions (
+      <linkHtml href="#id_link_ec6b80a0-c23c-fab0-e053-2a95a90adba5">5.3</linkHtml>)]. 
+     </content>
+                                 </td>
+                                 <td>Avoid combination except in life-threatening situations.</td>
+                              </tr>
+                              <tr>
+                                 <td>Ethacrynic acid</td>
+                                 <td>Possibility of ototoxicity 
+     <content styleCode="italics"> [see Warnings and Precautions (
+      <linkHtml href="#id_link_ec6b80a0-c23c-fab0-e053-2a95a90adba5">5.3</linkHtml>)]. 
+     </content>
+                                 </td>
+                                 <td>Avoid concomitant use with ethacrynic acid.</td>
+                              </tr>
+                              <tr>
+                                 <td>Salicylates</td>
+                                 <td>May experience salicylate toxicity at lower doses because of competitive renal excretory sites.</td>
+                                 <td>Monitor for symptoms of salicylate toxicity.</td>
+                              </tr>
+                              <tr>
+                                 <td>Cisplatin</td>
+                                 <td>There is a risk of ototoxic effects if cisplatin and furosemide are given concomitantly 
+     <content styleCode="italics">[see Warnings and Precautions (
+      <linkHtml href="#id_link_ec6b80a0-c23c-fab0-e053-2a95a90adba5">5.3</linkHtml>)]. 
+     </content>
+                                 </td>
+                                 <td/>
+                              </tr>
+                              <tr>
+                                 <td>Cisplatin and nephrotoxic drugs</td>
+                                 <td>Nephrotoxicity</td>
+                                 <td>Administer furosemide at lower doses and with positive fluid balance when used to achieve forced diuresis during cisplatin treatment. Monitor renal function.</td>
+                              </tr>
+                              <tr>
+                                 <td>Paralytic agents</td>
+                                 <td>Furosemide has a tendency to antagonize the skeletal muscle relaxing effect of tubocurarine and may potentiate the action of succinylcholine.</td>
+                                 <td>Monitor for skeletal muscle effect.</td>
+                              </tr>
+                              <tr>
+                                 <td>Lithium</td>
+                                 <td>Furosemide reduces lithium’s renal clearance and add a high-risk of lithium toxicity.</td>
+                                 <td>Avoid concomitant use with lithium.</td>
+                              </tr>
+                              <tr>
+                                 <td>Angiotensin converting enzyme inhibitors or angiotensin II receptor blockers</td>
+                                 <td>May lead to severe hypotension and deterioration in renal function, including renal failure.</td>
+                                 <td>Monitor for changes in blood pressure and renal function and interrupt or reduce the dosage of furosemide, angiotensin converting enzyme inhibitors, or angiotensin receptor blockers if needed.</td>
+                              </tr>
+                              <tr>
+                                 <td>Antihypertensive drugs</td>
+                                 <td>Furosemide may add to or potentiate the therapeutic effect of other antihypertensive drugs.</td>
+                                 <td>Monitor for changes in blood pressure and adjust the dose of other antihypertensive drugs if needed.</td>
+                              </tr>
+                              <tr>
+                                 <td>Adrenergic blocking drugs or peripheral adrenergic blocking drugs</td>
+                                 <td>Potentiation occurs.</td>
+                                 <td>Monitor for changes in blood pressure and adjust the dose of adrenergic blocking drugs if needed.</td>
+                              </tr>
+                              <tr>
+                                 <td>Norepinephrine</td>
+                                 <td>Furosemide may decrease arterial responsiveness (vasoconstricting effect) to norepinephrine.</td>
+                                 <td>Monitor blood pressure (or mean arterial pressure).</td>
+                              </tr>
+                              <tr>
+                                 <td>Chloral hydrate</td>
+                                 <td>In isolated cases, intravenous administration of furosemide within 24 hours of taking chloral hydrate may lead to flushing, sweating attacks, restlessness, nausea, increase in blood pressure, and tachycardia.</td>
+                                 <td>Concomitant use with chloral hydrate is not recommended.</td>
+                              </tr>
+                              <tr>
+                                 <td>Methotrexate and other drugs undergoing renal tubular secretion</td>
+                                 <td>Furosemide may decrease renal elimination of other drugs that undergo tubular secretion. High-dose treatment of furosemide may result in elevated serum levels of these drugs and may potentiate their toxicity.</td>
+                                 <td>Monitor serum levels of drugs undergoing renal tubular secretion and adjust the dose if needed.</td>
+                              </tr>
+                              <tr>
+                                 <td>Cephalosporin</td>
+                                 <td>Furosemide can increase the risk of cephalosporin-induced nephrotoxicity even in the setting of minor or transient renal impairment.</td>
+                                 <td>Monitor for changes in renal function.</td>
+                              </tr>
+                              <tr>
+                                 <td>Cyclosporine</td>
+                                 <td>Increased risk of gouty arthritis secondary to furosemide-induced hyperuricemia and cyclosporine impairment of renal urate excretion.</td>
+                                 <td>Monitor serum urate levels.</td>
+                              </tr>
+                              <tr>
+                                 <td>Thyroid hormones</td>
+                                 <td>High-doses (&gt; 80 mg) of furosemide may inhibit the binding of thyroid hormones to carrier proteins and result in transient increase in free thyroid hormones, followed by an overall decrease in total thyroid hormone levels.</td>
+                                 <td>Monitor the total thyroid hormone levels.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20221114"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_ec6d9974-acf8-bd29-e053-2a95a90a7db7">
+                     <id root="f603c643-2bef-852a-e053-2a95a90a684d"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>7.2 Effect of Other Drugs on Furosemide</title>
+                     <text>
+                        <table border="10" width="100%">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Drug/Substance Class or Name</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Drug Interaction Effect</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Recommendations</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Phenytoin</td>
+                                 <td>
+                                    <paragraph>Phenytoin interferes directly with renal action of furosemide.</paragraph>
+                                 </td>
+                                 <td>Monitor diuretic effects of furosemide and adjust the dose of furosemide if needed.</td>
+                              </tr>
+                              <tr>
+                                 <td>Methotrexate and other drugs undergoing renal tubular secretion</td>
+                                 <td>May reduce the effect of furosemide. High-dose treatment of methotrexate and these other drugs may result in elevated serum levels of furosemide and may potentiate the toxicity of furosemide.</td>
+                                 <td>Monitor for enhanced toxicity of furosemide.</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <paragraph>Indomethacin</paragraph>
+                                 </td>
+                                 <td>Coadministration of indomethacin may reduce the natriuretic and antihypertensive effects of furosemide in some patients by inhibiting prostaglandin synthesis. Indomethacin may also affect plasma renin levels, aldosterone excretion, and renin profile evaluation.</td>
+                                 <td>Patients receiving both indomethacin and furosemide should be observed closely to determine if the desired diuretic and/or antihypertensive effect of furosemide is achieved.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20221114"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf8ae5d-9bdc-62ce-e053-2995a90a0e0b">
+               <id root="302ae14a-cd5e-7fa7-e063-6394a90abb41"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250310"/>
+               <component>
+                  <section ID="id_link_ec6b8c01-e9d3-10d1-e053-2a95a90a7b6e">
+                     <id root="f603c643-2bf1-852a-e053-2a95a90a684d"/>
+                     <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Available data from published observational studies, case reports, and post marketing reports, from decades of use, have not demonstrated a drug-associated risk of major birth defects, miscarriage, or other adverse maternal or fetal outcomes with furosemide use during pregnancy. Untreated congestive heart failure and cirrhosis of the liver can lead to adverse outcomes for the mother and the fetus 
+  
+         
+ 
+  
+         
+ 
+  <content styleCode="italics">(see Clinical Considerations).</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>In animal reproduction studies, furosemide has been shown to cause unexplained maternal deaths and abortions in rabbits when administered orally during organogenesis at 4 times a human i.v. dose of 80 mg based on body surface area (BSA) and oral bioavailability corrections, presumably secondary to volume depletion 
+  
+         
+ 
+  
+         
+ 
+  <content styleCode="italics">(see Data).</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>The estimated background risk for major birth defects and miscarriage for the indicated populations is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in the clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Considerations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Disease-associated Maternal and/or Embryo/fetal Risk</content>
+                        </paragraph>
+                        <paragraph>Pregnant women with congestive heart failure are at increased risk for pre-term birth. Stroke volume and heart rate increase during pregnancy, increasing cardiac output, especially during the first trimester. Clinical classification of heart disease may worsen with pregnancy and lead to maternal death and/or stillbirth. Closely monitor pregnant patients for destabilization of their heart failure.</paragraph>
+                        <paragraph>Pregnant women with symptomatic cirrhosis generally have poor outcomes including hepatic failure, variceal hemorrhage, pre-term delivery, fetal growth restriction and maternal death. Outcomes are worse with coexisting esophageal varices. Carefully monitor pregnant women with cirrhosis of the liver.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>The effects of furosemide on embryonic and fetal development and on pregnant dams were studied in mice, rats, and rabbits.</paragraph>
+                        <paragraph/>
+                        <paragraph>Furosemide caused unexplained maternal deaths and abortions in the rabbit at the lowest dose of 25 mg/kg (approximately 4 times the human i.v. dose of 80 mg based on BSA and oral bioavailability corrections). In another study, a dose of 50 mg/kg (approximately 7 times a human i.v. dose of 80 mg based on BSA and oral bioavailability corrections) also caused maternal deaths and abortions when administered to rabbits between Days 12 and 17 of gestation. In a third study, none of the pregnant rabbits survived an oral dose of 100 mg/kg. Data from the above studies indicate fetal lethality that can precede maternal deaths.</paragraph>
+                        <paragraph>The results of the mouse study and one of the three rabbit studies also showed an increased incidence and severity of hydronephrosis (distention of the renal pelvis and, in some cases, of the ureters) in fetuses of treated dams as compared with the incidence of fetuses from the control group.</paragraph>
+                     </text>
+                     <effectiveTime value="20221114"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_ec6b80a0-c240-fab0-e053-2a95a90adba5">
+                     <id root="f603c643-2bf2-852a-e053-2a95a90a684d"/>
+                     <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>The presence of furosemide has been reported in human breast milk. There are no data on the effects on the breastfed infant or the effects on milk production. Doses of furosemide associated with clinically significant diuresis may impair milk production. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for furosemide and any potential adverse effects on the breastfed infant from furosemide or from the underlying maternal condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20221114"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_ec6b90f6-5f98-d4c3-e053-2a95a90abbe3">
+                     <id root="1e7a8ba9-f7a4-ef1e-e063-6294a90a9440"/>
+                     <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and efficacy for pediatric use have not been established 
+  <content styleCode="italics">[see Indications and Usage (</content>
+                           <linkHtml href="#id_link_ec7dc1f6-1fb7-4bf1-e053-2a95a90a3b93">1</linkHtml>
+                           <content styleCode="italics">)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20221114"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_ec6b9d60-c15e-6183-e053-2a95a90a81fd">
+                     <id root="1e7a8d02-40b7-02da-e063-6394a90ae38c"/>
+                     <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Controlled clinical studies did not include sufficient numbers of subjects to determine whether subjects aged 65 and over respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for the elderly patients should be cautious, reflecting the greater frequency of decreased hepatic, renal or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>FUROSCIX is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function 
+  <content styleCode="italics">[see Clinical Pharmacology (
+   <linkHtml href="#id_link_ec6c1181-35ef-3fb9-e053-2a95a90a0d1d">12.3</linkHtml>)]. 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20221114"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_2f257c90-6408-4655-e063-6294a90adc72">
+                     <id root="2f259637-c053-4c35-e063-6294a90af883"/>
+                     <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+                     <title>8.6 Renal Impairment</title>
+                     <text>
+                        <paragraph>Significantly reduced renal function can affect the response to furosemide. The On-body Infusor will deliver only an 80 mg dose of furosemide, and patients with significantly reduced renal function may require additional diuretic therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20250310"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_2f258918-841e-4fb0-e063-6294a90a0f6b">
+                     <id root="2f258918-841d-4fb0-e063-6294a90a0f6b"/>
+                     <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+                     <title>8.7 Hepatic Impairment</title>
+                     <text>
+                        <paragraph>In patients with hepatic cirrhosis and ascites, sudden alterations of fluid and electrolyte balance may precipitate hepatic encephalopathy and coma. Treat such patients in a setting where clinical status and electrolyte balance can be carefully monitored.</paragraph>
+                     </text>
+                     <effectiveTime value="20250310"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf8bdde-2297-50d6-e053-2995a90add08">
+               <id root="f603c643-2bf5-852a-e053-2a95a90a684d"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>The principal signs and symptoms of overdose with FUROSCIX are dehydration, blood volume reduction, hypotension, electrolyte imbalance, hypokalemia and hypochloremic alkalosis, and are extensions of its diuretic action.</paragraph>
+                  <paragraph/>
+                  <paragraph>The concentration of furosemide in biological fluids associated with toxicity or death is not known.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Treatment of overdosage is supportive and consists of replacement of excessive fluid and electrolyte losses. Serum electrolytes, carbon dioxide level and blood pressure should be determined frequently. Adequate drainage must be assured in patients with urinary bladder outlet obstruction (such as prostatic hypertrophy).</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Hemodialysis does not accelerate furosemide elimination.</paragraph>
+               </text>
+               <effectiveTime value="20221114"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf8c81b-909e-350c-e053-2a95a90aadda">
+               <id root="1e7a8d02-40b8-02da-e063-6394a90ae38c"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>FUROSCIX (furosemide injection 80 mg/10 mL) is a loop diuretic which is an anthranilic acid derivative.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Chemically, it is 4-­chloro-­N-­furfuryl-­5-­sulfamoylanthranilic acid.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Furosemide is a white to slightly yellow crystalline powder. It is sparingly soluble in alcohol, freely soluble in dilute alkali solutions and insoluble in dilute acids. The structural formula is as follows:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eaf8a718-a386-6dd0-e053-2a95a90a9899"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Molecular Formula: C 
+  <sub>12</sub>H 
+  <sub>11</sub>ClN 
+  <sub>2</sub>O 
+  <sub>5</sub>S
+ </paragraph>
+                  <paragraph>Molecular Weight: 330.75 g/mol</paragraph>
+                  <paragraph/>
+                  <paragraph>FUROSCIX is a single-dose prefilled cartridge co-packaged with a single-use, On-body Infusor. The single-dose prefilled cartridge contains 80 mg per 10 mL sterile, clear to slightly yellow, and non-pyrogenic furosemide solution. The pH of FUROSCIX, 7.4, differs from that of Furosemide Injection, USP.</paragraph>
+                  <paragraph/>
+                  <paragraph>Each 1 mL of FUROSCIX contains the following inactive ingredients: hydrochloric acid for pH adjustment if needed, sodium chloride (5.84 mg), sodium hydroxide for pH adjustment if needed, tris HCl (7.88 mg), and water for injection (q.s.).</paragraph>
+                  <paragraph/>
+                  <paragraph>FUROSCIX is administered via a wearable, single-use, electromechanical (battery powered, micro-processor controlled), On-body delivery system that is pre-programmed to deliver 80 mg of FUROSCIX over 5-hours using a bi-phasic delivery profile.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20221114"/>
+               <component>
+                  <observationMedia ID="img_eaf8a718-a386-6dd0-e053-2a95a90a9899">
+                     <text>Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Furosemide Structure .jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf8e628-a0fe-06f8-e053-2995a90a3ab2">
+               <id root="2ffdbd8f-8129-8f6f-e063-6394a90a5a1a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240814"/>
+               <component>
+                  <section ID="id_link_ec6bdf5f-68d7-ff3c-e053-2a95a90a30dc">
+                     <id root="f603c643-2bf8-852a-e053-2a95a90a684d"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Furosemide primarily inhibits the reabsorption of sodium and chloride in the proximal and distal tubules and in the loop of Henle. The high degree of diuresis is largely due to the unique site of action. The action on the distal tubule is independent of any inhibitory effect on carbonic anhydrase and aldosterone.</paragraph>
+                     </text>
+                     <effectiveTime value="20221114"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_ec6be2fa-8bf0-1857-e053-2995a90a7e74">
+                     <id root="2ffdbb42-d94a-89b2-e063-6394a90a0ab5"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>In patients with NYHA Class II and Class III heart failure, subcutaneous administration of FUROSCIX (30 mg furosemide over the first hour followed by 12.5 mg per hour for the subsequent 4 hours, total 80mg furosemide) produced similar diuresis and natriuresis to intravenous administration (two 40 mg bolus doses separated by 120 minutes) at 8 and 24 hour post-dose. The duration of diuretic effect with FUROSCIX is up to 8 hours after initiation of dosing.</paragraph>
+                     </text>
+                     <effectiveTime value="20240814"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_ec6c1181-35ef-3fb9-e053-2a95a90a0d1d">
+                     <id root="2f25aec3-cbd5-638e-e063-6294a90a6301"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Absorption</content>
+                        </paragraph>
+                        <paragraph>In patients with NYHA Class II-III congestive heart failure, subcutaneous infusion of FUROSCIX (30 mg furosemide over the first hour followed by 12.5 mg per hour for the subsequent 4 hours, 80 mg furosemide total), the bioavailability was 99.6% (90% CI: 94.8, 104.8) with a median T 
+  <sub>max </sub>of 4 hours relative to 80 mg intravenous furosemide (two 40-mg bolus doses separated by 120 minutes). The pharmacokinetic parameters of FUROSCIX are presented in Table 1 below:
+ </paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Table 1: Pharmacokinetic Data of FUROSCIX Following Subcutaneous Infusion (n = 15)</content>
+                        </paragraph>
+                        <table border="10" width="100%">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Dose</content>
+                                 </td>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">C 
+       <sub>max</sub>
+                                       </content>
+                                    </paragraph>
+                                    <content styleCode="bold">(ng/mL)</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">AUC 
+      <sub>t</sub> (ng×hr/mL) 
+     </content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">T 
+      <sub>1/2</sub> (hr) 
+     </content>
+                                 </td>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">AUC 
+       <sub>∞</sub>
+                                       </content>
+                                    </paragraph>
+                                    <content styleCode="bold">(ng×hr/mL)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>FUROSCIX: 30 mg subcutaneously infused over the first hour followed by 12.5 mg per hour for the subsequent 4 hours (total dose: 80 mg furosemide)</td>
+                                 <td>
+                                    <paragraph>2040 ± 449</paragraph>
+                                 </td>
+                                 <td>13000 ± 4000</td>
+                                 <td>
+                                    <paragraph>3.2 ± 0.9</paragraph>
+                                 </td>
+                                 <td>13100 ± 4010</td>
+                              </tr>
+                              <tr>
+                                 <td>Furosemide administered as 2 x 40 mg bolus doses intravenously, separated by 120 minutes (total dose: 80 mg furosemide)</td>
+                                 <td>8580 ± 2540</td>
+                                 <td>13000 ± 4050</td>
+                                 <td>2.6 ± 0.3</td>
+                                 <td>13200 ± 4170</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>The terminal half-life of furosemide is approximately 2 hours.</paragraph>
+                        <paragraph>The impact of subcutaneous edema at the administration site of FUROSCIX on drug absorption is unknown.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Distribution</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>Furosemide is extensively bound to plasma proteins, mainly to albumin. Plasma concentrations ranging from 1 mcg per mL to 400 mcg per mL are 91% to 99% bound in healthy individuals. The unbound fraction averages 2.3% to 4.1% at therapeutic concentrations.</paragraph>
+                        <paragraph/>
+                        <paragraph>Furosemide binding to albumin may be reduced in elderly patients.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Metabolism</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>Furosemide glucuronide is the only or at least the major biotransformation product of furosemide in man.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="underline">Elimination</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>Significantly more furosemide is excreted in urine following the intravenous injection than after the tablet or oral solution.</paragraph>
+                        <paragraph/>
+                        <paragraph>Furosemide is predominantly excreted unchanged in the urine.</paragraph>
+                        <paragraph/>
+                        <paragraph>The renal clearance of furosemide after intravenous administration in older healthy male subjects (60 to 70 years of age) is significantly less than in younger healthy male subjects (20 to 35 years of age).</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20250310"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eb00d0ed-5574-45ba-e053-2a95a90adeb1">
+               <id root="f603c643-2bfb-852a-e053-2a95a90a684d"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20221114"/>
+               <component>
+                  <section ID="id_link_ec6bb71d-f8f8-3051-e053-2995a90a383d">
+                     <id root="f603c643-2bfc-852a-e053-2a95a90a684d"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Carcinogenesis</content>
+                        </paragraph>
+                        <paragraph>Furosemide was tested for carcinogenicity by oral administration in one strain of mice and one strain of rats. A small but significantly increased incidence of mammary gland carcinomas occurred in female mice at a dose approximately 8 times a human i.v. dose of 80 mg based on BSA and oral bioavailability corrections. There were marginal increases in uncommon tumors in male rats at a dose of 15 mg per kg (slightly greater than the maximum human dose) but not at 30 mg per kg.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Mutagenesis</content>
+                        </paragraph>
+                        <paragraph>Furosemide was devoid of mutagenic activity in various strains of 
+  
+         
+ 
+  
+         
+ 
+  <content styleCode="italics">Salmonella typhimurium</content> when tested in the presence or absence of an 
+  
+         
+ 
+  
+         
+ 
+  <content styleCode="italics">in vitro</content> metabolic activation system, and questionably positive for gene mutation in mouse lymphoma cells in the presence of rat liver S9 at the highest dose tested. Furosemide did not induce sister chromatid exchange in human cells
+  
+         
+ 
+  
+         
+ 
+  <content styleCode="italics"> in vitro</content>, but other studies on chromosomal aberrations in human cells 
+  
+         
+ 
+  
+         
+ 
+  <content styleCode="italics">in vitro</content> gave conflicting results. In Chinese hamster cells it induced chromosomal damage but was questionably positive for sister chromatid exchange. Studies on the induction by furosemide of chromosomal aberrations in mice were inconclusive. The urine of rats treated with this drug did not induce gene conversion in 
+  
+         
+ 
+  
+         
+ 
+  <content styleCode="italics">Saccharomyces cerevisiae</content>.
+ 
+        
+
+ 
+        
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Impairment of Fertility</content>
+                        </paragraph>
+                        <paragraph>Furosemide produced no impairment of fertility in male or female rats, at 100 mg per kg per day (the maximum effective diuretic dose in the rat), approximately 7 times a human i.v. dose of 80 mg based on BSA and oral bioavailability corrections.</paragraph>
+                     </text>
+                     <effectiveTime value="20221114"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf8f5fc-e344-4268-e053-2995a90acdd5">
+               <id root="2f25b336-05c8-5a13-e063-6294a90acdea"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>FUROSCIX injection is a sterile, clear to slightly yellow, non-pyrogenic liquid supplied in a single-dose prefilled cartridge for subcutaneous infusion co-packaged with the On-body Infusor. Each single-use On-body Infusor with prefilled cartridge is designed to deliver 80 mg of FUROSCIX in 10 mL solution over 5-hours.</paragraph>
+                  <table border="1" width="100%">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph>Carton containing one 80 mg/10 mL (8 mg/mL) prefilled cartridge co-packaged with one On-body Infusor</paragraph>
+                           </td>
+                           <td>NDC 71767-100-01</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph>Store between 20°C and 25°C (68°F and 77°F); excursions permitted between 15°C and 30°C (59°F and 86°F) [See USP Controlled Room Temperature]. Do not refrigerate or freeze.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Protect FUROSCIX from light. Do not remove the cartridge from carton until it is ready for use. Do not use if the solution is discolored or cloudy. Protect the On-body Infusor from water.</paragraph>
+               </text>
+               <effectiveTime value="20250310"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf8fe00-528c-6dd2-e053-2a95a90a221a">
+               <id root="2f25bb14-7925-b562-e063-6394a90a8ea5"/>
+               <code code="88436-1" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT COUNSELING INFORMATION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient and/or caregiver to read the FDA-approved patient labeling 
+  <content styleCode="italics">[see FDA-approved Instructions for Use]</content>.
+ </paragraph>
+                  <paragraph>Advise the patient that they should not allow the On-body Infusor to come into contact with water or other fluids. Patients should check the device for alarms to ensure a complete dose is administered
+  <content styleCode="italics"> [see Warnings and Precautions (
+   <linkHtml href="#id_link_1e7a300b-a2ff-69c7-e063-6394a90afb06">5.5</linkHtml>)]
+  </content>.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="underline">Fluid, Electrolyte, and Metabolic Abnormalities</content>
+                  </paragraph>
+                  <paragraph>Advise patients that they may experience symptoms from excessive fluid and/or electrolyte losses. The postural hypotension that sometimes occurs can usually be managed by getting up slowly. Potassium supplements and/or dietary measures may be needed to control or avoid hypokalemia 
+  <content styleCode="italics">[see Warnings and Precautions (
+   <linkHtml href="#id_link_ec6b7937-74d6-d494-e053-2a95a90a004b">5.1</linkHtml>)]
+  </content>.
+ </paragraph>
+                  <paragraph>Advise patients that furosemide may increase blood glucose levels and thereby affect urine glucose tests 
+  <content styleCode="italics">[see Warnings and Precautions (
+   <linkHtml href="#id_link_ec6b7937-74d6-d494-e053-2a95a90a004b">5.1</linkHtml>)].
+  </content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="underline">Photosensitivity</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>The skin of some patients may be more sensitive to the effects of sunlight while taking furosemide 
+  <content styleCode="italics">[see Adverse Reactions (
+   <linkHtml href="#id_link_eaf84712-cede-09ee-e053-2995a90a0c61">6</linkHtml>)]
+  </content>.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Advise hypertensive patients to avoid medications that may increase blood pressure, including over-the-counter products for appetite suppression and cold symptoms 
+  <content styleCode="italics">[see Drug Interactions (
+   <linkHtml href="#id_link_ec6d53cb-00f4-79bc-e053-2995a90adb50">7.1</linkHtml>)]
+  </content>.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>For more information about FUROSCIX, go to www.FUROSCIX.com or call 1-855-SCPHARMA (1-855-727-4276)</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>scPharmaceuticals, Inc.</paragraph>
+                  <paragraph/>
+                  <paragraph>FUROSCIX
+  <sup>®</sup> (furosemide injection 80 mg/10 mL) for subcutaneous use
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>scPharmaceuticals, Inc.,</paragraph>
+                  <paragraph>25 Mall Road, Suite 203,</paragraph>
+                  <paragraph>Burlington, MA 01803</paragraph>
+                  <paragraph>Patent Protected: www.scpharmaceuticals.com/patents</paragraph>
+                  <paragraph>FUROSCIX
+  <sup>®</sup> is a mark of scPharmaceuticals Inc.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Reg-0018 Rev 02</paragraph>
+               </text>
+               <effectiveTime value="20250310"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf74b32-8e83-6aca-e053-2a95a90a6387">
+               <id root="1f95ad2a-0505-473c-e063-6294a90a35ca"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">INSTRUCTIONS FOR USE</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Model/REF # FUR-80W5</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Instructions For Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">On-Body Infusor for</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FUROSCIX® [fue roe’ six]</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(furosemide injection) for subcutaneous use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Single-Use On-Body Infusor and</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">80 mg/10 mL (8 mg/mL) Prefilled Cartridge</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>This Instructions for Use contains information about how to prepare and use FUROSCIX On-Body Infusor.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Before Starting</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Read this Instructions for Use before using the FUROSCIX On-Body Infusor for the first time.</item>
+                     <item>You or a caregiver should receive training before using the Furoscix On-Body Infusor.</item>
+                     <item>Always wash your hands before starting.</item>
+                     <item>The FUROSCIX On-Body Infusor will deliver a fixed dose of 80 mg of furosemide over about 5 hours.</item>
+                     <item>The FUROSCIX On-Body Infusor delivers the medicine just under the skin (subcutaneously).</item>
+                     <item>When the FUROSCIX On-Body Infusor is started, a small needle sticks into the skin to deliver the medicine. The on-body Infusor signals when all the medicine has been delivered. When the on-body Infusor is removed from the skin, a needle cover will extend over the needle to protect from an accidental needle stick.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Parts of the FUROSCIX On-Body Infusor and Prefilled Cartridge</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7cdee6-6bb9-bc9c-e053-2995a90a75ae"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Important Information</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>The on-body Infusor and prefilled cartridge are not made with natural rubber latex.</item>
+                     <item>The infusion will last about 5 hours. During this time, you should limit your activity so that your bending movements are limited. Wearing the Infusor while riding in a car or flying in an airplane is not recommended.</item>
+                     <item>You should notice an increase in urine production in about an hour after the infusion is started and may need to make frequent bathroom visits. Be sure you have access to a bathroom for up to 8 hours after starting the infusion. If you do not notice the need to go to the bathroom, call your healthcare provider.</item>
+                     <item>The on-body Infusor can only be used with the prefilled FUROSCIX cartridge supplied in the kit.</item>
+                     <item>
+                        <content styleCode="bold">Do not</content> use any other cartridges or medicines inside the on-body Infusor.
+  </item>
+                     <item>
+                        <content styleCode="bold">Do not </content>apply lotions, oils, or ointments to the adhesion area of the abdomen prior to applying the on-body Infusor to the abdomen.
+  </item>
+                     <item>
+                        <content styleCode="bold">Do not</content> use the on-body Infusor if the packaging appears to be opened, or if the on-body Infusor has been dropped or appears to be broken or damaged.
+  </item>
+                     <item>
+                        <content styleCode="bold">Do not </content>use the on-body Infusor within 12 inches of mobile phones, tablets, computers or wireless accessories (for example: TV remote control, Bluetooth computer keyboard or mouse).
+  </item>
+                     <item>
+                        <content styleCode="bold">Do not</content> use the on-body Infusor or prefilled cartridge after the expiration date on the carton.
+  </item>
+                     <item>
+                        <content styleCode="bold">Do not </content>use the prefilled cartridge if the liquid is discolored or cloudy. The liquid in the prefilled cartridge should be clear to slightly yellow in color.
+  </item>
+                     <item>
+                        <content styleCode="bold">Do not</content> use the on-body Infusor in or around an MRI machine.
+  </item>
+                     <item>
+                        <content styleCode="bold">Do not </content>take the on-body Infusor off your skin while it is infusing, unless there is an emergency or a device error. Removing the on-body Infusor before the infusion is done will result in a partial dose. The on-body Infusor will stop infusing and it cannot be restarted. 
+   <content styleCode="bold">Do not</content> apply a new on-body Infusor unless instructed to do so by your healthcare provider.
+  </item>
+                     <item>
+                        <content styleCode="bold">Do not </content>reuse the on-body Infusor. The on-body Infusor is for single use only.
+  </item>
+                     <item>
+                        <content styleCode="bold">Do not</content> let the on-body Infusor get wet from water or any other liquids. 
+   <content styleCode="bold">Do not</content> shower, bathe, swim or do activities that may make you sweat while wearing the on-body Infusor. It contains parts that should not get wet.
+  </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Call your healthcare provider or scPharmaceuticals at 1-855-SCPHARMA (1-855-727-4276) if you have any questions.</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Storage Information</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>The FUROSCIX On-Body Infusor and prefilled cartridge should be stored at controlled room temperature between 68°F to 77°F (20°C to 25°C) (see Figure B). Do not refrigerate or freeze.</item>
+                     <item>
+                        <content styleCode="bold">Keep</content> the FUROSCIX prefilled cartridge in the original carton to protect from light or physical damage until you are ready to use.
+  </item>
+                     <item>
+                        <content styleCode="bold">Keep</content> the FUROSCIX On-Body Infusor and prefilled cartridge out of the reach of children.
+  </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7ceeab-8657-640e-e053-2a95a90a27a0"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Prepare for the Infusion</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">STEP 1 Wash Hands, Check Expiration Date and Remove Supplies from Carton</content>
+                  </paragraph>
+                  <paragraph>​ 
+  <content styleCode="bold">1.1 </content>Wash your hands before using the on-body Infusor (Figure C).
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7cf5cc-89a6-88e5-e053-2a95a90a82c1"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1.2</content> Check the expiration date on the FUROSCIX On-Body Infusor carton (see Figure D). 
+  <content styleCode="bold">Do not </content>use if the expiration date has passed.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7cf76d-3ed2-083f-e053-2995a90a9775"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1.3 </content>Open the carton and peel away the white paper cover. Remove the plastic cover from the clear tray. Remove supplies from the carton and packaging (see Figure E). 
+  <content styleCode="bold">Do not</content> use the on-body Infusor or prefilled cartridge if packaging appears to have been previously opened or damaged.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7cf8f6-ce69-1e7d-e053-2a95a90a9b49"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1.4 </content>Gather all materials needed for your injection, on a clean, well-lit work surface (Figure F):
+ </paragraph>
+                  <list listType="unordered">
+                     <item>On-body Infusor and prefilled cartridge (Included)</item>
+                     <item>Instructions For Use (Included)</item>
+                     <item>Alcohol wipes (Included)</item>
+                     <item>Clippers (if needed) (Not included)</item>
+                     <item>Sharps disposal container (Not included)</item>
+                  </list>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7cf5cc-89a7-88e5-e053-2a95a90a82c1"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">STEP 2 Check On-Body Infusor and Prefilled Cartridge</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2.1</content> Check the on-body Infusor and prefilled cartridge for any damage (see Figure G).
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not </content>use the on-body Infusor or prefilled cartridge if either item appears to be damaged.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not </content>touch the blue start button until the on-body Infusor is on the skin and you are ready to begin the infusion.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> touch or fully open the cartridge holder until you are ready to load the cartridge.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d07a9-e6b9-77bd-e053-2995a90a23b3"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2.2 </content>Check the liquid medicine in the prefilled cartridge (see Figure H). The liquid in the prefilled cartridge should be clear to slightly yellow.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not </content>use the prefilled cartridge if the liquid is discolored or cloudy.
+ </paragraph>
+                  <paragraph>Call scPharmaceuticals at: 1-855-SCPHARMA (1-855-727-4276) or call your healthcare provider.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7cf5cc-89a8-88e5-e053-2a95a90a82c1"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">STEP 3 Load Prefilled Cartridge into the On-Body Infusor</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3.1</content> Clean the tip (small end) of the prefilled cartridge with an alcohol wipe (see Figure I).
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not </content>continue with the process of opening the cartridge holder all the way or loading the prefilled cartridge until you are ready to begin the infusion.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d16c8-13cb-35ab-e053-2a95a90ad558"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3.2 </content>Open the cartridge holder all the way to turn on the on-body Infusor. The on-body Infusor “beeps” and the indicator light will begin blinking blue (see Figure J).
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note:</content> Complete steps 3.3 through 6.1 within 30 minutes of fully opening the cartridge holder or the Infusor will alarm and cannot restart.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d0d52-1448-dc29-e053-2995a90a602a"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3.3</content> Insert the prefilled cartridge into the cartridge holder with the tip pointed down (see Figure K).
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note: </content>The prefilled cartridge should slide into the cartridge holder easily. If it does not slide in easily, check the prefilled cartridge to make sure the tip is pointed down and try again.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> press the blue start button until on-body Infusor is applied to skin and you are ready to begin the infusion.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d1d38-00d5-2bd1-e053-2a95a90ac04c"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3.4 </content>Close the cartridge holder all the way until it is even with the rest of the on-body Infusor (see Figure L). You may hear a “click” sound when it is closed.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note: </content>If the indicator light blinks red and the on-body Infusor "beeps", the on-body Infusor has experienced an internal error. 
+  <content styleCode="bold">Do not</content> use the on-body Infusor (see On-Body Infusor Alarm section).
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d1d38-00d6-2bd1-e053-2a95a90ac04c"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Apply the On-Body Infusor</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">STEP 4 Select and Prepare Application Site</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4.1 </content>Select one site on the stomach on either side of the belly button (navel). The site should be a 
+  <content styleCode="bold">flat area</content> below the rib cage and above the belt line (see Figure M).
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not </content>select a site where the skin is irritated or broken.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> apply lotions, oils or ointments to the adhesion area of the abdomen.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> select a site where belts, waistbands or other types of clothing may rub against, disturb, or dislodge the on-body Infusor.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note</content>: Rotate application site (side of the stomach) each time if told by your healthcare provider to repeat dose.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d3813-41c1-0af8-e053-2a95a90a16ea"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4.2 </content>The site should be hairless or nearly hairless. If needed, remove excess hair by clipping or shaving the hair before applying the on-body Infusor (see Figure N).
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d3813-41c2-0af8-e053-2a95a90a16ea"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4.3</content> Wipe the skin where the on-body Infusor will be applied with an alcohol wipe and allow area to dry (see Figure O).
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d3a64-83b9-0fd8-e053-2a95a90afdcf"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">STEP 5 Apply the On-Body Infusor</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5.1 </content>Pick up the on-body Infusor. Peel away the adhesive liner by grasping the white tab and pulling it away from the blue tab/adhesive backing (see Figure P).
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> touch the sticky (adhesive) part of the on-body Infusor with your fingers or let it touch any objects or surfaces before the Infusor is placed on the skin.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d16c8-13cc-35ab-e053-2a95a90ad558"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5.2</content> Apply the on-body Infusor to the chosen skin site while standing or sitting up straight.
+ </paragraph>
+                  <paragraph>Position the on-body Infusor so that the cartridge window and the indicator light can be seen during the infusion (see Figure Q).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> bend over when applying the on-body Infusor.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d3a64-83ba-0fd8-e053-2a95a90afdcf"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5.3 </content>Press the on-body Infusor firmly onto the skin and hold it for several seconds (see Figure R). Then rub your finger over the edges of the adhesive to get it to stick well.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> touch the blue start button until you are ready to start the infusion (see Step 6).
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> remove and reapply on-body Infusor. The on-body Infusor adhesive might not work as well.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d3a64-83bb-0fd8-e053-2a95a90afdcf"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Start the Infusion</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">STEP 6 Start the Infusion</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">6.1 </content>Firmly 
+  <content styleCode="bold">press and release</content> the blue start button to begin the infusion (see Figure S).
+ </paragraph>
+                  <paragraph>The on-body Infusor will stick a very small needle just under the skin and begin delivering the medicine. The indicator light will start blinking green and the on-body Infusor "beeps", signifying that the infusion has begun.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note: </content>At the start of the infusion, you may also hear the on-body Infusor motor running for several seconds.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d3c3c-4afc-900c-e053-2995a90aa34f"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">STEP 7 Allow Medicine to Deliver for 5 Hours</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">7.1 </content>Relax during the delivery period. The on-body Infusor should remain on the skin until the delivery is complete.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not </content>exercise or take part in activities that might result in the on-body Infusor falling off. Take care not to bump the on-body Infusor while wearing it. It takes about 5 hours for the on-body Infusor to deliver all of the medicine. During the infusion, the indicator light will continue to blink green periodically, signifying that the infusion is running (see Figure T).
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note: </content>If the on-body Infusor falls off or if the indicator light begins blinking red, call your healthcare provider right away (see On-Body Infusor Alarm section). 
+  <content styleCode="bold">Do not</content> reapply or reuse the on-body Infusor. 
+  <content styleCode="bold">Do not </content>apply a new on-body Infusor unless instructed to do so by your healthcare provider.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d4428-24a3-b5e8-e053-2a95a90a48c6"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">If You Have to Stop the Infusion Due to An Emergency, Do the Following:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Remove the on-body Infusor from the skin (see Step 8). It will immediately stop infusing and the on-body Infusor will deactivate. 
+   <content styleCode="bold">Do not </content>reuse the on-body Infusor. After the on-body Infusor is removed, it can no longer be used.
+  </item>
+                     <item>Call your healthcare provider for further instructions.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Remove and Dispose of the On-Body Infusor</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">STEP 8 When Infusion is Complete, Remove the On-Body Infusor from the Skin</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">8.1 </content>The infusion is complete and the on-body Infusor is ready to be removed when (see Figure U):
+ </paragraph>
+                  <list listType="unordered">
+                     <item>The indicator light turns solid green.</item>
+                     <item>The on-body Infusor "beeps".</item>
+                     <item>The white plunger rod fills the cartridge window all the way.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Note:</content> If indicator light begins blinking red instead of green and the on-body Infusor “beeps”, call your healthcare provider (see On-Body Infusor Alarm section).
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d3c3c-4afd-900c-e053-2995a90aa34f"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">8.2</content> Peel the on-body Infusor off the skin by holding the skin down and pulling on the blue tab (see Figure V). When the on-body Infusor is removed, the indicator light will turn off, the needle cover will extend over the needle to protect against accidental needle sticks, and the on-body Infusor will turn off.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note: </content>You might have some discomfort after you remove the adhesive. This discomfort should quickly go away. However, some redness of the skin may remain.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d4428-24a5-b5e8-e053-2a95a90a48c6"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">8.3</content> Check the infusion site. If there is any bleeding use a cotton ball or apply a small adhesive bandage.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">STEP 9 Throw Away (Dispose) of Used On-Body Infusor</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">9.1 </content>Dispose of the used FUROSCIX On-Body Infusor and prefilled cartridge together into an FDA-cleared sharps container (see Figure W).
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> attempt to remove the cartridge from the on-body Infusor; it cannot be removed.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> throw away the used on-body Infusor into household trash.
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d4428-24a6-b5e8-e053-2a95a90a48c6"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>If you do not have a FDA-cleared sharps disposal container, you may use a household container that is:</paragraph>
+                  <list listType="unordered">
+                     <item>made of a heavy-duty plastic,</item>
+                     <item>can be closed with a tight-fitting, puncture-resistant lid, without sharps being able to come out,</item>
+                     <item>upright and stable during use,</item>
+                     <item>leak-resistant, and</item>
+                     <item>properly labeled to warn of hazardous waste inside the container.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>When your sharps disposal container is almost full, you will need to follow your community guidelines for the right way to dispose of your sharps disposal container. There may be state or local laws about how you should throw away used Needles and syringes. For more information about safe sharps disposal, and for specific information about sharps disposal in the state that you live in, go to the FDA’s website at: http://www.fda.gov/safesharpsdisposal.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> dispose of your used sharps disposal container in your household trash unless your community guidelines permit this.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> recycle the on-body Infusor or sharps disposal container or throw them into household trash.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Important: </content>Always keep the sharps disposal container out of the reach of children.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>For more information refer to: http://www.safeneedledisposal.org</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Infusor Alarm</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What happened?</content>
+                  </paragraph>
+                  <paragraph>The Indicator light blinks red and the on-body Infusor "beeps" (see Figure X).</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d5c03-5c4d-9c33-e053-2995a90aaf07"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">What does it mean?</content>
+                  </paragraph>
+                  <paragraph>There has been an internal error or the on-body Infusor came off the skin during the infusion.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">What to do?</content>
+                  </paragraph>
+                  <paragraph>Stop using the on-body Infusor. If the on-body Infusor is on the skin, carefully remove it. Call your healthcare provider for further instructions.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Do not </content>reapply or reuse the on-body Infusor. It can no longer be used.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Do not</content> apply a new on-body Infusor unless instructed to do so by your healthcare provider.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Symbols Legend</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb7d6521-a7d4-3ec6-e053-2a95a90a58a7"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>scPharmaceuticals, Inc.</paragraph>
+                  <paragraph>25 Mall Road, Suite 203, Burlington, MA 01803</paragraph>
+                  <paragraph>1-855-SCPHARMA (1-855-727-4276)</paragraph>
+                  <paragraph/>
+                  <paragraph>This Instructions for Use has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Issued: 10/2023</paragraph>
+                  <paragraph/>
+                  <paragraph>Reg-0017 Rev 01</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20231130"/>
+               <component>
+                  <observationMedia ID="img_eb7cdee6-6bb9-bc9c-e053-2995a90a75ae">
+                     <text>Figure A</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure A.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7ceeab-8657-640e-e053-2a95a90a27a0">
+                     <text>Figure B</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure B.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7cf5cc-89a6-88e5-e053-2a95a90a82c1">
+                     <text>c</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure C.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7cf76d-3ed2-083f-e053-2995a90a9775">
+                     <text>D</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure D.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7cf8f6-ce69-1e7d-e053-2a95a90a9b49">
+                     <text>E</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure E.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7cf5cc-89a7-88e5-e053-2a95a90a82c1">
+                     <text>F</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure F.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d07a9-e6b9-77bd-e053-2995a90a23b3">
+                     <text>G</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure G.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7cf5cc-89a8-88e5-e053-2a95a90a82c1">
+                     <text>H</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure H.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d16c8-13cb-35ab-e053-2a95a90ad558">
+                     <text>I</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure I.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d0d52-1448-dc29-e053-2995a90a602a">
+                     <text>J</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure J.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d1d38-00d5-2bd1-e053-2a95a90ac04c">
+                     <text>K</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure K.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d1d38-00d6-2bd1-e053-2a95a90ac04c">
+                     <text>L</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure L.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d3813-41c1-0af8-e053-2a95a90a16ea">
+                     <text>M</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure M.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d3813-41c2-0af8-e053-2a95a90a16ea">
+                     <text>N</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure N.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d3a64-83b9-0fd8-e053-2a95a90afdcf">
+                     <text>O</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure O.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d16c8-13cc-35ab-e053-2a95a90ad558">
+                     <text>P</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure P.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d3a64-83ba-0fd8-e053-2a95a90afdcf">
+                     <text>Q</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure Q.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d3a64-83bb-0fd8-e053-2a95a90afdcf">
+                     <text>R</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure R.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d3c3c-4afc-900c-e053-2995a90aa34f">
+                     <text>S</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure S.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d4428-24a3-b5e8-e053-2a95a90a48c6">
+                     <text>T</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure T.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d3c3c-4afd-900c-e053-2995a90aa34f">
+                     <text>U</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure U.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d4428-24a5-b5e8-e053-2a95a90a48c6">
+                     <text>V</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure V.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d4428-24a6-b5e8-e053-2a95a90a48c6">
+                     <text>W</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure W.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d5c03-5c4d-9c33-e053-2995a90aaf07">
+                     <text>X</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Figure X.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_eb7d6521-a7d4-3ec6-e053-2a95a90a58a7">
+                     <text>Symb</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="IFU Symbols.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eae43987-3d34-1b0a-e053-2a95a90a9799">
+               <id root="0b65f45e-7b90-6d73-e063-6294a90a1025"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Cartridge Carton</paragraph>
+                  <paragraph>NDC 71767-100</paragraph>
+                  <paragraph>FUROSCIX 
+  <sup>®</sup>
+                  </paragraph>
+                  <paragraph>(furosemide injection)</paragraph>
+                  <paragraph>80 mg/10 mL</paragraph>
+                  <paragraph>(8 mg/mL)</paragraph>
+                  <paragraph>10 mL Single Dose Cartridge</paragraph>
+                  <paragraph>FOR SUBCUTANEOUS USE ONLY</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_0b65833c-611a-f7ec-e063-6394a90a97cb"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20231130"/>
+               <component>
+                  <observationMedia ID="img_0b65833c-611a-f7ec-e063-6394a90a97cb">
+                     <text>Drug Product Cartridge Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Drug Product Cartridge Carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaed825f-017c-619f-e053-2a95a90af514">
+               <id root="0b65f7e6-dba2-3bec-e063-6394a90a6816"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Cartridge</paragraph>
+                  <paragraph>NDC 71767-100</paragraph>
+                  <paragraph>FUROSCIX 
+  <sup>®</sup>
+                  </paragraph>
+                  <paragraph>(furosemide injection)</paragraph>
+                  <paragraph>80 mg/10 mL</paragraph>
+                  <paragraph>(8 mg/mL)</paragraph>
+                  <paragraph>10 mL Single Dose Cartridge</paragraph>
+                  <paragraph>FOR SUBCUTANEOUS USE ONLY</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_0b65833c-611b-f7ec-e063-6394a90a97cb"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231130"/>
+               <component>
+                  <observationMedia ID="img_0b65833c-611b-f7ec-e063-6394a90a97cb">
+                     <text>Drug Product Cartridge</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Drug Product Cartridge.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf046bc-2c2b-3a1a-e053-2995a90a0ed7">
+               <id root="2736b31b-3400-ea0f-e063-6394a90ad0dd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>Device Tyvek Lid</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>On-Body Infusor for</paragraph>
+                  <paragraph>FUROSCIX®</paragraph>
+                  <paragraph>(furosemide injection)
+  <br/>
+                     <br/>
+80 mg/10 mL (8 mg/mL)
+  <br/>
+                     <br/>
+For subcutaneous use
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2736a25e-802e-cd18-e063-6394a90a07e7"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20241119"/>
+               <component>
+                  <observationMedia ID="img_2736a25e-802e-cd18-e063-6394a90a07e7">
+                     <text>Device Tyvek Lid</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Device-Tyvek-Lid.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf05e6c-d5e5-6fbe-e053-2a95a90a4993">
+               <id root="f603c643-2c03-852a-e053-2a95a90a684d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Device (Direct Pad Printing)</paragraph>
+                  <paragraph/>
+                  <paragraph>On-Body Infusor for</paragraph>
+                  <paragraph>FUROSCIX
+  
+       
+ 
+  
+       
+ 
+  <sup>®</sup>
+                  </paragraph>
+                  <paragraph>(furosemide injection)
+  
+       
+ 
+  
+       
+ 
+  <br/>
+80 mg/10 mL (8 mg/mL)
+  
+       
+ 
+  
+       
+ 
+  <br/>
+For subcutaneous use
+ 
+      
+
+ 
+      
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eb0305f8-90a3-5c73-e053-2995a90acfc2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20221114"/>
+               <component>
+                  <observationMedia ID="img_eb0305f8-90a3-5c73-e053-2995a90acfc2">
+                     <text>Device Pad</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Device.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf6f278-03b0-0ef2-e053-2a95a90ac05c">
+               <id root="f603c643-2c04-852a-e053-2a95a90a684d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>Combination Product Primary Carton</paragraph>
+                  <paragraph/>
+                  <paragraph>NDC 71767-100-01</paragraph>
+                  <paragraph/>
+                  <paragraph>1 X 10 mL Single Dose Prefilled Cartridge</paragraph>
+                  <paragraph>1 X Single Use On-Body Infusor</paragraph>
+                  <paragraph/>
+                  <paragraph>FUROSCIX
+  
+       
+ 
+  
+       
+ 
+  <sup>®</sup>
+                  </paragraph>
+                  <paragraph>(furosemide injection)</paragraph>
+                  <paragraph>80 mg/10 mL</paragraph>
+                  <paragraph>(8 mg/mL)</paragraph>
+                  <paragraph>FOR SUBCUTANEOUS USE ONLY</paragraph>
+                  <paragraph>Single Dose</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eaf6e168-67ef-5850-e053-2a95a90a0da7"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20221114"/>
+               <component>
+                  <observationMedia ID="img_eaf6e168-67ef-5850-e053-2a95a90a0da7">
+                     <text>Combination Product Primary Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Combination Product Primary Carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_eaf70d4d-4e81-ef3d-e053-2995a90a0ced">
+               <id root="f603c643-2c05-852a-e053-2a95a90a684d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Combination Product Physician Sample Primary Carton</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>NDC 71767-100-01</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PHYSICIAN SAMPLE ONLY</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">NOT FOR SALE</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>1 X 10 mL Single Dose Prefilled Cartridge</paragraph>
+                  <paragraph>1 X Single Use On-Body Infusor</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>FUROSCIX
+  
+       
+ 
+  
+       
+ 
+  <sup>®</sup>
+                  </paragraph>
+                  <paragraph>(furosemide injection)</paragraph>
+                  <paragraph>80 mg/10 mL</paragraph>
+                  <paragraph>(8 mg/mL)</paragraph>
+                  <paragraph>FOR SUBCUTANEOUS USE ONLY</paragraph>
+                  <paragraph>Single Dose</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_eaf6f278-03b6-0ef2-e053-2a95a90ac05c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20221114"/>
+               <component>
+                  <observationMedia ID="img_eaf6f278-03b6-0ef2-e053-2a95a90ac05c">
+                     <text>Physician Sample</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Combination Product Physician Sample.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="35f1c1aa-2a7d-4f55-bab6-f98270b196e2"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold"/>
+   </title>
+   <effectiveTime value="20240515"/>
+   <setId root="0093b694-9fcb-46ae-b1ab-7d0fa204c6c8"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="051229602" root="1.3.6.1.4.1.519.1"/>
+            <name>Meda Pharmaceuticals Inc.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="087e4b11-f529-4983-9da7-53825c371fd7"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200813"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0037-6830" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cortifoam</name>
+                        <formCode code="C42888" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AEROSOL, FOAM"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>hydrocortisone acetate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="1500"/>
+                              <denominator unit="g" value="15"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3X7931PO74" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCORTISONE ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WI4X0X7BPJ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROCORTISONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="603RP8TB9A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ETHYLENE DISTEARAMIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FD0913P475" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARETH-10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="936JST6JCN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CETYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="9O3K93S3TK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TROLAMINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="BXR49TP611" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOBUTANE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="T75W9911L6" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPANE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="15"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43181" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CANISTER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0037-6830-15" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20150615"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA017351" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150615"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="RN010">
+               <id root="76ccd3fc-9b34-44d2-8b6f-53d3bf0bf3a1"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Cortifoam<sup>®</sup> (hydrocortisone acetate rectal aerosol) 10% Rectal Foam contains hydrocortisone acetate 10% in a base containing propylene glycol, emulsifying wax, polyoxyethylene-10-stearyl ether, cetyl alcohol, methylparaben, propylparaben, trolamine, purified water and inert propellants: isobutane and propane. </paragraph>
+                  <paragraph>Each application delivers approximately 900 mg of foam containing 80 mg of hydrocortisone (90 mg of hydrocortisone acetate).</paragraph>
+                  <paragraph>The molecular weight of hydrocortisone acetate is 404.50. It is designated chemically as pregn-4-ene-3,20-dione,21-(acetyloxy)-11,17-dihydroxy-,(11β)-. The empirical formula is C<sub>23</sub>H<sub>32</sub>O<sub>6</sub> and the structural formula is:</paragraph>
+                  <renderMultiMedia ID="id1490671521" referencedObject="ID_9280fc22-aa58-4783-9d3c-cf70e46e1586"/>
+                  <paragraph>Hydrocortisone acetate, a synthetic adrenocortical steroid, is a white to practically white, odorless, crystalline powder. It is insoluble in water (1 mg/100 mL) and slightly soluble in alcohol and chloroform.</paragraph>
+               </text>
+               <effectiveTime value="20240515"/>
+               <component>
+                  <observationMedia ID="ID_9280fc22-aa58-4783-9d3c-cf70e46e1586">
+                     <text>Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="RN020">
+               <id root="4a104d18-b11b-408b-ac04-015b6d0e2e8c"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Cortifoam<sup>®</sup> provides effective topical administration of an anti-inflammatory corticosteroid as adjunctive therapy of ulcerative proctitis. Direct observations of methylene blue-containing foam have shown staining about 10 centimeters into the rectum.</paragraph>
+               </text>
+               <effectiveTime value="20180725"/>
+            </section>
+         </component>
+         <component>
+            <section ID="RN030">
+               <id root="1a6583f2-90d0-4b3a-8ba7-a63a7c5672f6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE </title>
+               <text>
+                  <paragraph>Cortifoam<sup>®</sup> is indicated as adjunctive therapy in the topical treatment of ulcerative proctitis of the distal portion of the rectum in patients who cannot retain hydrocortisone or other corticosteroid enemas.</paragraph>
+               </text>
+               <effectiveTime value="20180725"/>
+            </section>
+         </component>
+         <component>
+            <section ID="RN040">
+               <id root="4b2c78c1-9a1a-48f7-972c-171b2e01d9f8"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS </title>
+               <text>
+                  <paragraph>Cortifoam<sup>®</sup> is contraindicated in patients who are hypersensitive to any components of this product. </paragraph>
+                  <paragraph>Local contraindications to the use of intrarectal steroids include obstruction, abscess, perforation, peritonitis, fresh intestinal anastomoses, extensive fistulas and sinus tracts.</paragraph>
+               </text>
+               <effectiveTime value="20180725"/>
+            </section>
+         </component>
+         <component>
+            <section ID="RN050">
+               <id root="98750152-3acf-49c1-9135-71dd4c627115"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20240227"/>
+               <component>
+                  <section ID="RN051">
+                     <id root="4ff18a31-054e-4d52-a8ca-1c43f7d3a896"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Do not insert any part of the aerosol container directly into the anus. Contents of the container are under pressure. Do not burn or puncture the aerosol container. Do not store at temperatures above 120°F. Because Cortifoam<sup>®</sup> is not expelled, systemic hydrocortisone absorption may be greater from Cortifoam<sup>®</sup> than from corticosteroid enema formulations. If there is not evidence of clinical or proctologic improvement within two or three weeks after starting Cortifoam<sup>®</sup> therapy, or if the patient's condition worsens, discontinue the drug.</paragraph>
+                        <paragraph>Rare instances of anaphylactoid reactions have occurred in patients receiving corticosteroid therapy (see <linkHtml href="#RN080">ADVERSE REACTIONS</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN052">
+                     <id root="ae8d4da1-652a-4cb4-ab0c-8006c71448d1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardio-renal</title>
+                     <text>
+                        <paragraph>Corticosteroids can cause elevation of blood pressure, salt and water retention, and increased excretion of potassium. These effects are less likely to occur with the synthetic derivatives except when used in large doses. Dietary salt restriction and potassium supplementation may be necessary. All corticosteroids increase calcium excretion. </paragraph>
+                        <paragraph>Literature reports suggest an apparent association between use of corticosteroids and left ventricular free wall rupture after a recent myocardial infarction; therefore, therapy with corticosteroids should be used with great caution in these patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN053">
+                     <id root="eb1afea8-2522-4b5d-af2b-5766e515214b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Endocrine </title>
+                     <text>
+                        <paragraph>Corticosteroids can produce reversible hypothalamicpituitary adrenal (HPA) axis suppression with the potential for glucocorticosteroid insufficiency after withdrawal of treatment. </paragraph>
+                        <paragraph>Metabolic clearance of corticosteroids is decreased in hypothyroid patients and increased in hyperthyroid patients. Changes in thyroid status of the patient may necessitate adjustment in dosage.</paragraph>
+                     </text>
+                     <effectiveTime value="20240227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN054">
+                     <id root="e2605e0e-70bf-4af7-8197-9fa973efe949"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Infections</title>
+                     <effectiveTime value="20240227"/>
+                     <component>
+                        <section ID="ID_b669e5fb-bbfe-4845-9881-8fd3f92010e7">
+                           <id root="cb3abc23-223c-4976-b08b-36a3c11babff"/>
+                           <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">General</content>
+                              </content>
+                              <content styleCode="bold">
+                                 <content styleCode="italics"/>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Patients who are on corticosteroids are more susceptible to infections than are healthy individuals. There may be decreased resistance and inability to localize infection when corticosteroids are used. Infection with any pathogen (viral, bacterial, fungal, protozoan or helminthic) in any location of the body may be associated with the use of corticosteroids alone or in combination with other immunosuppressive agents. These infections may be mild to severe. With increasing doses of corticosteroids, the rate of occurrence of infectious complications increases. Corticosteroids may also mask some signs of current infection. </paragraph>
+                           </text>
+                           <effectiveTime value="20240227"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_5b97325c-2921-4b2d-ba77-73d1917ca7ea">
+                           <id root="a4cf6ad5-8a5e-46db-838c-eb3882060d68"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Fungal infections</content>
+                              </content>
+                              <content styleCode="bold">
+                                 <content styleCode="italics"/>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Corticosteroids may exacerbate systemic fungal infections and therefore should not be used in the presence of such infections unless they are needed to control drug reactions. There have been cases reported in which concomitant use of amphotericin B and hydrocortisone was followed by cardiac enlargement and congestive heart failure (see <linkHtml href="#RN068">PRECAUTIONS, Drug Interactions, Amphotericin B injection and potassium-depleting agents</linkHtml>).</paragraph>
+                           </text>
+                           <effectiveTime value="20240227"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_f1f23e4b-50f7-494d-9c17-fd4ead19fd76">
+                           <id root="2187694f-3278-4cd4-ad46-056725b2d9c1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Special pathogens</content>
+                              </content>
+                              <content styleCode="bold">
+                                 <content styleCode="italics"/>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Latent disease may be activated or there may be an exacerbation of intercurrent infections due to pathogens, including those caused by Amoeba, Candida, Cryptococcus, Mycobacterium, Nocardia, Pneumocystis, and Toxoplasma. </paragraph>
+                              <paragraph>It is recommended that latent amebiasis or active amebiasis be ruled out before initiating corticosteroid therapy in any patient who has spent time in the tropics or in any patient with unexplained diarrhea. </paragraph>
+                              <paragraph>Similarly, corticosteroids should be used with great care in patients with known or suspected Strongyloides (thread worm) infestation. In such patients, corticosteroid-induced immunosuppression may lead to Strongyloides hyperinfection and dissemination with widespread larval migration, often accompanied by severe enterocolitis and potentially fatal gram-negative septicemia. </paragraph>
+                              <paragraph>Corticosteroids should not be used in cerebral malaria.</paragraph>
+                           </text>
+                           <effectiveTime value="20240227"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_d5a7eb91-f5af-47e0-9bca-e614024d6723">
+                           <id root="14ce4a7b-8c81-4b2e-8b7e-bd826bc3e1e9"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Tuberculosis</content>
+                              </content>
+                              <content styleCode="bold">
+                                 <content styleCode="italics"/>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>If corticosteroids are indicated in patients with latent tuberculosis or tuberculin reactivity, close observation is necessary as reactivation of the disease may occur. During prolonged corticosteroid therapy, these patients should receive chemoprophylaxis.</paragraph>
+                           </text>
+                           <effectiveTime value="20240227"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_f7b9aac5-cd0b-4469-904f-f5ef8dc07619">
+                           <id root="e01f6e4a-d0b1-44d3-859b-3e74765aa809"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Vaccination</content>
+                              </content>
+                              <content styleCode="bold">
+                                 <content styleCode="italics"/>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Administration of live or live, attenuated vaccines is contraindicated in patients receiving immunosuppressive doses of corticosteroids. Killed or inactivated vaccines may be administered. However, the response to such vaccines cannot be predicted.</content> Immunization procedures may be undertaken in patients who are receiving corticosteroids as replacement therapy, e.g., for Addison's disease.</paragraph>
+                           </text>
+                           <effectiveTime value="20240227"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_e6be4f59-2d44-45e6-8088-6cb75751ff12">
+                           <id root="bb393a3e-6cae-4579-ba25-4e5ead51934a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Viral infections</content>
+                              </content>
+                              <content styleCode="bold">
+                                 <content styleCode="italics"/>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Chickenpox and measles can have a more serious or even fatal course in pediatric and adult patients on corticosteroids. In pediatric and adult patients who have not had these diseases, particular care should be taken to avoid exposure. The contribution of the underlying disease and/or prior corticosteroid treatment to the risk is also not known. If exposed to chickenpox, prophylaxis with varicella zoster immune globulin (VZIG) may be indicated. If exposed to measles, prophylaxis with immunoglobulin (IG) may be indicated. (See the respective package inserts for complete VZIG and IG prescribing information.) If chickenpox develops, treatment with antiviral agents should be considered.</paragraph>
+                           </text>
+                           <effectiveTime value="20240227"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_beeafd58-054c-40fe-8e54-e22b0326cc30">
+                           <id root="eed3ba37-51fd-40c3-83d3-a11c775c87e5"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Ophthalmic</content>
+                              </content>
+                              <content styleCode="bold">
+                                 <content styleCode="italics"/>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Use of corticosteroids may produce posterior subcapsular cataracts, glaucoma with possible damage to the optic nerves, and may enhance the establishment of secondary ocular infections due to bacteria, fungi, or viruses. If a patient presents with symptoms such as blurred vision or other visual disturbances, the patient should be considered for referral to an ophthalmologist for evaluation. The use of oral corticosteroids is not recommended in the treatment of optic neuritis and may lead to an increase in the risk of new episodes. Corticosteroids should not be used in active ocular herpes simplex.</paragraph>
+                           </text>
+                           <effectiveTime value="20240227"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="RN060">
+               <id root="57ec14dd-7f81-49aa-b13d-60d1c253f36a"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20240227"/>
+               <component>
+                  <section ID="RN061">
+                     <id root="2c50f14f-fa0f-4796-b61a-1852b8b25759"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>The lowest possible dose of corticosteroid should be used to control the condition under treatment. When reduction in dosage is possible, the reduction should be gradual. </paragraph>
+                        <paragraph>Since complications of treatment with glucocorticoids are dependent on the size of the dose and the duration of treatment, a risk/benefit decision must be made in each individual case as to dose and duration of treatment and as to whether daily or intermittent therapy should be used.</paragraph>
+                        <paragraph>Kaposi's sarcoma has been reported to occur in patients receiving corticosteroid therapy, most often for chronic conditions. Discontinuation of corticosteroids may result in clinical improvement.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN062">
+                     <id root="51207d45-7418-4830-8cda-cc8a2dfe7e30"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardio-renal </title>
+                     <text>
+                        <paragraph>As sodium retention with resultant edema and potassium loss may occur in patients receiving corticosteroids, these agents should be used with caution in patients with congestive heart failure, hypertension, or renal insufficiency.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN063">
+                     <id root="3527fb11-246c-4c2f-a9a6-fe91de1915fe"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Endocrine</title>
+                     <text>
+                        <paragraph>Drug-induced secondary adrenocortical insufficiency may be minimized by gradual reduction of dosage. This type of relative insufficiency may persist for months after discontinuation of therapy; therefore, in any situation of stress occurring during that period, hormone therapy should be reinstituted. Since mineralocorticoid secretion may be impaired, salt and/or a mineralocorticoid should be administered concurrently.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN064">
+                     <id root="a1c7e453-6445-462b-8adb-568962053690"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal</title>
+                     <text>
+                        <paragraph>Steroids should be used with caution in active or latent peptic ulcers, diverticulitis, fresh intestinal anastomoses, and nonspecific ulcerative colitis, since they may increase the risk of a perforation. Where surgery is imminent, it is hazardous to wait more than a few days for a satisfactory response to medical treatment. </paragraph>
+                        <paragraph>Do not employ in immediate or early postoperative period following ileorectostomy.</paragraph>
+                        <paragraph>Signs of peritoneal irritation following gastrointestinal perforation in patients receiving corticosteroids may be minimal or absent.</paragraph>
+                        <paragraph>There is an enhanced effect of corticosteroids in patients with cirrhosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN065">
+                     <id root="6f60daf7-48f4-48bf-99d6-ea9fdeaf87cd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Musculoskeletal</title>
+                     <text>
+                        <paragraph>Corticosteroids decrease bone formation and increase bone resorption both through their effect on calcium regulation (i.e., decreasing absorption and increasing excretion) and inhibition of osteoblast function. This, together with a decrease in the protein matrix of the bone secondary to an increase in protein catabolism, and reduced sex hormone production, may lead to inhibition of bone growth in pediatric patients and the development of osteoporosis at any age. Special consideration should be given to patients at increased risk of osteoporosis (i.e., postmenopausal women) before initiating corticosteroid therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN066">
+                     <id root="6771d315-d1f2-49c7-a8fb-029ce380a741"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Neuro-psychiatric</title>
+                     <text>
+                        <paragraph>An acute myopathy has been observed with the use of high doses of corticosteroids, most often occurring in patients with disorders of neuromuscular transmission (e.g., myasthenia gravis), or in patients receiving concomitant therapy with neuromuscular blocking drugs (e.g., pancuronium). This acute myopathy is generalized, may involve ocular and respiratory muscles, and may result in quadriparesis. Elevation of creatinine kinase may occur. Clinical improvement or recovery after stopping corticosteroids may require weeks to years. </paragraph>
+                        <paragraph>Psychic derangements may appear when corticosteroids are used, ranging from euphoria, insomnia, mood swings, personality changes, and severe depression to frank psychotic manifestations. Also, existing emotional instability or psychotic tendencies may be aggravated by corticosteroids.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN067">
+                     <id root="4c2537cd-9381-42cd-a8d4-ad6163937815"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Ophthalmic</title>
+                     <text>
+                        <paragraph>Intraocular pressure may become elevated in some individuals. If steroid therapy is continued for more than 6 weeks, intraocular pressure should be monitored.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN168">
+                     <id root="7cd98b89-5d4f-4ee6-a2e7-2a598f71acfe"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Patients should be warned not to discontinue the use of corticosteroids abruptly or without medical supervision, to advise any medical attendants that they are taking corticosteroids and to seek medical advice at once should they develop fever or other signs of infection.</paragraph>
+                        <paragraph>Persons who are on corticosteroids should be warned to avoid exposure to chickenpox or measles. Patients should also be advised that if they are exposed, medical advice should be sought without delay.</paragraph>
+                     </text>
+                     <effectiveTime value="20240227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN068">
+                     <id root="7a336b8e-c736-44d4-8a4d-de194305f687"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Aminoglutethimide:</content> Aminoglutethimide may lead to a loss of corticosteroid-induced adrenal suppression.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Amphotericin B injection and potassium-depleting agents:</content> When corticosteroids are administered concomitantly with potassium-depleting agents (i.e., amphotericin B, diuretics), patients should be observed closely for development of hypokalemia. There have been cases reported in which concomitant use of amphotericin B and hydrocortisone was followed by cardiac enlargement and congestive heart failure.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Antibiotics:</content> Macrolide antibiotics have been reported to cause a significant decrease in corticosteroid clearance.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Anticholinesterases:</content> Concomitant use of anticholinesterase agents and corticosteroids may produce severe weakness in patients with myasthenia gravis. If possible, anticholinesterase agents should be withdrawn at least 24 hours before initiating corticosteroid therapy.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Anticoagulants, oral:</content> Coadministration of corticosteroids and warfarin result in inhibition of response to warfarin. Therefore, coagulation indices should be monitored to maintain the desired anticoagulant effect.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Antidiabetics:</content> Because corticosteroids may increase blood glucose concentrations, dosage adjustments of antidiabetic agents may be required.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Antitubercular drugs:</content> Serum concentrations of isoniazid may be decreased.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cholestyramine:</content> Cholestyramine may increase the clearance of corticosteroids.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cyclosporine:</content> Increased activity of both cyclosporine and corticosteroids may occur when the two are used concurrently. Convulsions have been reported with this concurrent use.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Digitalis glycosides:</content> Patients on digitalis glycosides may be at increased risk of arrhythmias due to hypokalemia.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Estrogens, including oral contraceptives:</content> Estrogens may decrease the hepatic metabolism of certain corticosteroids, thereby increasing their effect.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatic Enzyme Inducers (e.g., barbiturates, phenytoin, carbamazepine, rifampin):</content> Drugs which induce hepatic microsomal drug metabolizing enzyme activity may enhance the metabolism of corticosteroids and require that the dosage of the corticosteroid be increased.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Ketoconazole:</content> Ketoconazole has been reported to decrease the metabolism of certain corticosteroids by up to 60%, leading to an increased risk of corticosteroids side effects.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nonsteroidal anti-inflammatory agents (NSAIDS):</content> Concomitant use of aspirin (or other nonsteroidal anti-inflammatory agents) and corticosteroids increases the risk of gastrointestinal side effects. Aspirin should be used cautiously in conjunction with corticosteroids in hypoprothrombinemia. The clearance of salicylates may be increased with concurrent use of corticosteroids.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Skin tests:</content> Corticosteroids may suppress reactions to skin tests.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Vaccines:</content> Patients on prolonged corticosteroid therapy may exhibit a diminished response to toxoids and live or inactivated vaccines due to inhibition of antibody response. Corticosteroids may also potentiate the replication of some organisms contained in live attenuated vaccines. Routine administration of vaccines or toxoids should be deferred until corticosteroid therapy is discontinued if possible (see <linkHtml href="#ID_f7b9aac5-cd0b-4469-904f-f5ef8dc07619">WARNINGS, Infections, Vaccination</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20240227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN069">
+                     <id root="cc12f3d4-83f0-4a47-8c53-bada85717053"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No adequate studies have been conducted in animals to determine whether corticosteroids have a potential for carcinogenesis or mutagenesis.</paragraph>
+                        <paragraph>Steroids may increase or decrease motility and number of spermatozoa in some patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN070">
+                     <id root="bddb9231-0632-48a5-a75e-851e43eaf237"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy </title>
+                     <effectiveTime value="20240227"/>
+                     <component>
+                        <section ID="ID_91094429-2b86-4778-9d43-8ea7fd7c520f">
+                           <id root="886a1ebf-85a5-4e15-801f-4516719b42ac"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="italics">Teratogenic Effects</content>
+                           </title>
+                           <text>
+                              <paragraph>Corticosteroids have been shown to be teratogenic in many species when given in doses equivalent to the human dose. Animal studies in which corticosteroids have been given to pregnant mice, rats, and rabbits have yielded an increased incidence of cleft palate in the offspring. There are no adequate and well-controlled studies in pregnant women. Corticosteroids should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Infants born to mothers who have received corticosteroids during pregnancy should be carefully observed for signs of hypoadrenalism.</paragraph>
+                           </text>
+                           <effectiveTime value="20240227"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN701">
+                     <id root="18df3617-4682-4391-ba6e-2b957e0e0702"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. Caution should be exercised when corticosteroids are administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN702">
+                     <id root="0de45681-b375-45cb-9339-687dc6a5cad1"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20200813"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="RN703">
+                     <id root="287017c5-e6ad-4c2a-be24-51a236a27426"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>No overall differences in safety or effectiveness were observed between elderly subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out.</paragraph>
+                     </text>
+                     <effectiveTime value="20240227"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="RN080">
+               <id root="e05a67d8-d8e4-497e-a558-9c625241fd1b"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">(listed alphabetically, under each subsection)  </content>
+                  </paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Meda Pharmaceuticals Inc. at 1-877-848-6608 or <br/>FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Allergic reactions:</content> Anaphylactoid reaction, anaphylaxis, angioedema.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular:</content> Bradycardia, cardiac arrest, cardiac arrhythmias, cardiac enlargement, circulatory collapse, congestive heart failure, fat embolism, hypertension, hypertrophic cardiomyopathy in premature infants, myocardial rupture following recent myocardial infarction (see <linkHtml href="#RN050">WARNINGS</linkHtml>), pulmonary edema, syncope, tachycardia, thromboembolism, thrombophlebitis, vasculitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Dermatologic:</content> Acne, allergic dermatitis, cutaneous and subcutaneous atrophy, dry scaly skin, ecchymoses and petechiae, edema, erythema, hyperpigmentation, hypopigmentation, impaired wound healing, increased sweating, rash, sterile abscess, striae, suppressed reactions to skin tests, thin fragile skin, thinning scalp hair, urticaria. </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Endocrine:</content> Decreased carbohydrate and glucose tolerance, development of cushingoid state, glycosuria, hirsutism, hypertrichosis, increased requirements for insulin or oral hypoglycemic agents in diabetes, manifestations of latent diabetes mellitus, menstrual irregularities, secondary adrenocortical and pituitary unresponsiveness (particularly in times of stress, as in trauma, surgery, or illness), suppression of growth in pediatric patients. </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Fluid and electrolyte disturbances:</content> Congestive heart failure in susceptible patients, fluid retention, hypokalemic alkalosis, potassium loss, sodium retention. </paragraph>
+                  <paragraph>Where hypokalemia and other symptoms associated with fluid and electrolyte imbalance call for potassium supplementation and salt poor or salt-free diets, these may be instituted and are compatible with diet requirements for ulcerative proctitis. </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal:</content> Abdominal distention, elevation in serum liver enzyme levels (usually reversible upon discontinuation), hepatomegaly, increased appetite, nausea, pancreatitis, peptic ulcer with possible perforation and hemorrhage, perforation of the small and large intestine (particularly in patients with inflammatory bowel disease), ulcerative esophagitis. </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Metabolic:</content> Negative nitrogen balance due to protein catabolism.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Musculoskeletal:</content> Aseptic necrosis of femoral and humeral heads, Charcot-like arthropathy, loss of muscle mass, muscle weakness, osteoporosis, pathologic fracture of long bones, steroid myopathy, tendon rupture, vertebral compression fractures. </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Neurologic/Psychiatric:</content> Convulsions, depression, emotional instability, euphoria, headache, increased intracranial pressure with papilledema (pseudotumor cerebri) usually following discontinuation of treatment, insomnia, mood swings, neuritis, neuropathy, paresthesia, personality changes, psychic disorders, vertigo. </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Ophthalmic:</content> Blurred vision, exophthalmos, glaucoma, increased intraocular pressure, posterior subcapsular cataracts, rare instances of blindness associated with periocular injections. </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Other:</content> Abnormal fat deposits, decreased resistance to infection, hiccups, increased or decreased motility and number of spermatozoa, malaise, moon face, weight gain.</paragraph>
+               </text>
+               <effectiveTime value="20240227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="RN090">
+               <id root="8c50f60e-9ab0-4f79-b0fc-c854907d194e"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Treatment of acute overdosage is by supportive and symptomatic therapy. For chronic overdosage in the face of severe disease requiring continuous steroid therapy, the dosage of the corticosteroid may be reduced only temporarily, or alternate day treatment may be introduced.</paragraph>
+               </text>
+               <effectiveTime value="20180725"/>
+            </section>
+         </component>
+         <component>
+            <section ID="RN100">
+               <id root="a9f701ca-3b9d-42b3-ad70-e01df370936e"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The usual dose is one applicatorful once or twice daily for two or three weeks, and every second day thereafter, administered rectally. Directions for use, below and on the carton, describe how to use the aerosol container and applicator. Satisfactory response usually occurs within five to seven days marked by a decrease in symptoms. Symptomatic improvement in ulcerative proctitis should not be used as the sole criterion for evaluating efficacy. Sigmoidoscopy is also recommended to judge dosage adjustment, duration of therapy, and rate of improvement. </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">It Should Be Emphasized that Dosage Requirements are Variable and Must Be Individualized on the Basis of the Disease Under Treatment and the Response of the Patient.</content> After a favorable response is noted, the proper maintenance dosage should be determined by decreasing the initial drug dosage in small decrements at appropriate time intervals until the lowest dosage which will maintain an adequate clinical response is reached. Situations which may make dosage adjustments necessary are changes in clinical status secondary to remissions or exacerbations in the disease process, the patient's individual drug responsiveness, and the effect of patient exposure to stressful situations not directly related to the disease entity under treatment. In this latter situation it may be necessary to increase the dosage of the corticosteroid for a period of time consistent with the patient's condition. If after long-term therapy the drug is to be stopped, it is recommended that it be withdrawn gradually rather than abruptly.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Directions For Use</content>
+                  </paragraph>
+                  <paragraph>(1) Shake foam container vigorously for 5-10 seconds before each use. <content styleCode="bold">Do not remove container cap during use of the product.</content>
+                  </paragraph>
+                  <paragraph>(2) Hold container upright on a level surface and gently place the tip of the applicator onto the nose of the container cap. CONTAINER MUST BE HELD UPRIGHT TO OBTAIN PROPER FLOW OF MEDICATION. </paragraph>
+                  <paragraph>(3) Pull plunger past the fill line on the applicator barrel. </paragraph>
+                  <paragraph>(4) To fill applicator barrel, press down firmly on cap flanges, hold for 1 – 2 seconds and release. Pause 5 – 10 seconds to allow foam to expand in applicator barrel. Repeat until foam reaches fill line. Remove applicator from container cap. Allow some foam to remain on the applicator tip. A burst of air may come out of container with first pump. </paragraph>
+                  <paragraph>(5) Hold applicator firmly by barrel, making sure thumb and middle finger are positioned securely underneath and resting against barrel wings. Place index finger over the plunger. Gently insert tip into anus. Once in place, push plunger to expel foam, then withdraw applicator.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION:</content> Do not insert any part of the aerosol container directly into the anus. Apply to anus only with enclosed applicator. </paragraph>
+                  <paragraph>(6) After each use, applicator parts should be pulled apart for thorough cleaning with warm water. The container cap and underlying tip should also be pulled apart and rinsed to help prevent build-up of foam and possible blockage.</paragraph>
+               </text>
+               <effectiveTime value="20180725"/>
+            </section>
+         </component>
+         <component>
+            <section ID="RN110">
+               <id root="d5fd6b9f-19b5-4c24-9901-47e8c332aa49"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Cortifoam<sup>®</sup> is supplied in an aerosol container with a special rectal applicator. Each applicator delivers approximately 900 mg of foam containing approximately 80 mg of hydrocortisone as 90 mg of hydrocortisone acetate. When used correctly, the aerosol container will deliver a minimum of 14 applications. </paragraph>
+                  <paragraph>NDC 0037-6830-15    15 g</paragraph>
+                  <paragraph>Store at controlled room temperature, 20°-25°C (68°-77°F). </paragraph>
+                  <paragraph>DO NOT REFRIGERATE.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>Distributed by:<br/>Meda Pharmaceuticals Inc.<br/>Canonsburg, PA 15317  U.S.A.</paragraph>
+                  <paragraph>
+                     <br/>© 2024 Mylan Specialty L.P., a Viatris Company </paragraph>
+                  <paragraph>For Medical Inquiries, call toll-free 1-877-848-6608</paragraph>
+                  <paragraph>CORTIFOAM is a registered trademark of Alaven Pharmaceutical LLC, a Viatris Company.</paragraph>
+                  <paragraph>IN-683015-05<br/>141280-0324<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240515"/>
+            </section>
+         </component>
+         <component>
+            <section ID="RN111">
+               <id root="3737d35d-deb6-4e69-a372-c386644b0639"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 15 g Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content> 0037-6830-15</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">cortifoam<sup>®</sup>
+                     </content>
+                     <br/>(hydrocortisone acetate 10%)</paragraph>
+                  <paragraph>rectal foam</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only    </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">15 g net wt</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DIRECTIONS FOR USE</content>
+                  </paragraph>
+                  <table styleCode="Noautorules" width="100%">
+                     <col width="25%"/>
+                     <col width="25%"/>
+                     <col width="25%"/>
+                     <col width="25%"/>
+                     <tbody>
+                        <tr>
+                           <td colspan="2" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">APPLICATOR</content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">FOAM CONTAINER</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" colspan="2" valign="top">
+                              <renderMultiMedia ID="id-766231831" referencedObject="ID_0d97cb50-7ddc-45e8-9d6b-872bc0d6535e"/>
+                           </td>
+                           <td align="center" colspan="2" valign="top">
+                              <renderMultiMedia ID="id1165829483" referencedObject="ID_5070a261-2fd7-492a-afb7-a4136808055b"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">1</content>   Shake foam container vigorously for 5 - 10 seconds before each use. <content styleCode="bold">Do not remove container cap during use of the product.</content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">2</content>     Hold container upright on a level surface and gently place the tip of the applicator onto the nose of the container cap.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" valign="top">
+                              <renderMultiMedia ID="id-1130469969" referencedObject="ID_36728466-ddbd-4096-bc04-f458f058e4c5"/>
+                           </td>
+                           <td colspan="2" valign="top">
+                              <paragraph>CONTAINER MUST BE HELD UPRIGHT TO OBTAIN PROPER FLOW OF MEDICATION.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" valign="top"/>
+                           <td colspan="2" valign="top">
+                              <renderMultiMedia ID="id1346905463" referencedObject="E63FD9CF-E31E-4279-BCB7-74D3820AB497"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">3</content>   Pull plunger past the fill line on the applicator barrel.</paragraph>
+                           </td>
+                           <td colspan="3" valign="top">
+                              <renderMultiMedia ID="id-1844316854" referencedObject="ID_16be9232-7fd7-4f16-a4d5-b005a11030b6"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold"> </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">4</content>   To fill applicator barrel, press down firmly on cap flanges, hold for 1 – 2 seconds and release. Pause 5 - 10 seconds to allow foam to expand in applicator barrel. Repeat until foam reaches fill line. Remove applicator from container cap. Allow some foam to remain on the applicator tip.<br/>A burst of air may come out of container with first pump.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold"> </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">5</content>   Hold applicator firmly by barrel, making sure thumb and middle finger are positioned securely underneath and resting against barrel wings. Place index finger over the plunger. Gently insert tip into anus. Once in place, push plunger to expel foam, then withdraw applicator.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold"> </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">6</content>   After each use, applicator parts should be pulled apart for thorough cleaning with warm water. The container cap and underlying tip should also be pulled apart and rinsed to help prevent buildup of foam and possible blockage.</paragraph>
+                           </td>
+                           <td valign="top">
+                              <renderMultiMedia ID="id1667359715" referencedObject="ID_1ad584b4-ff10-49aa-b19e-45e32504833d"/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Description: </content>cortifoam<sup>®</sup> (hydrocortisone acetate) 10% rectal foam contains hydrocortisone acetate 10% in a base containing propylene glycol, emulsifying wax, polyoxyethylene-10-stearyl ether, cetyl alcohol, methylparaben, propyl-paraben, trolamine, purified water and inert propellants: isobutane and propane.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dosage: </content>One applicatorful once or twice daily for two or three weeks, and every second day thereafter, administered rectally. See back of carton for full directions for use.</paragraph>
+                  <paragraph>Please see package insert for further information. For rectal use only.</paragraph>
+                  <paragraph>117756-0324     UC-683015-05</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution: </content>Do not insert any part of the aerosol container directly into the anus. Apply to anus only with the enclosed applicator.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WARNINGS: </content>Contents of the container are under pressure. Do not burn or puncture the aerosol container. Do not store at temperatures above 120°F (49°C).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">KEEP OUT OF REACH OF CHILDREN.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store upright at controlled room temperature 20° - 25°C (68° - 77°F).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DO NOT REFRIGERATE</content>
+                  </paragraph>
+                  <paragraph>Distributed by: Meda Pharmaceuticals Inc., Canonsburg, PA 15317 U.S.A.</paragraph>
+                  <paragraph>© 2024 Mylan Specialty L.P., a Viatris Company</paragraph>
+                  <paragraph>CORTIFOAM is a registered trademark of Alaven Pharmaceutical LLC, a Viatris company.</paragraph>
+                  <renderMultiMedia ID="id-662707468" referencedObject="ID_098a9209-a066-4689-8c0d-d74282c6e4e2"/>
+               </text>
+               <effectiveTime value="20240515"/>
+               <component>
+                  <observationMedia ID="ID_0d97cb50-7ddc-45e8-9d6b-872bc0d6535e">
+                     <text>Cortifoam Carton - Applicator</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_5070a261-2fd7-492a-afb7-a4136808055b">
+                     <text>Cortifoam Carton - Foam Container</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_36728466-ddbd-4096-bc04-f458f058e4c5">
+                     <text>Cortifoam Carton - Step 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="E63FD9CF-E31E-4279-BCB7-74D3820AB497">
+                     <text>Cortifoam Carton - Step 2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_16be9232-7fd7-4f16-a4d5-b005a11030b6">
+                     <text>Cortifoam Carton - Step 3</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_1ad584b4-ff10-49aa-b19e-45e32504833d">
+                     <text>Cortifoam Carton - Step 6</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_098a9209-a066-4689-8c0d-d74282c6e4e2">
+                     <text>Cortifoam Rectal Foam 10% Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

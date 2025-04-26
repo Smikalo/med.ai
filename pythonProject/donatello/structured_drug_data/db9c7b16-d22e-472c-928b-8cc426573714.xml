@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="db9c7b16-d22e-472c-928b-8cc426573714"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use TEPYLUTE safely and effectively. See full prescribing information for TEPYLUTE.<br/>TEPYLUTE (thiotepa) injection, for intravenous use<br/>Initial U.S. Approval: 1959</title>
+   <effectiveTime value="20250204"/>
+   <setId root="add44e98-a042-4e38-b870-beb36693805b"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="118055608"/>
+            <name>Shorla Oncology Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="985706879" root="1.3.6.1.4.1.519.1"/>
+                  <name>Shorla Pharma Ltd.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="342875539"/>
+                        <name>AqVida GmbH</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="81927-105" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="81927-106" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="0371a7ac-c4e5-4317-9af0-9b5addb8c853"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20250304"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="81927-105" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>TEPYLUTE</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>thiotepa</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="10" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="905Z5W3GKH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>THIOTEPA</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="905Z5W3GKH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>THIOTEPA</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B697894SGQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 400</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1.5" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <formCode code="C43215" displayName="VIAL, SINGLE-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="81927-105-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250331"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250331"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA216984" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="81927-106" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>TEPYLUTE</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>thiotepa</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="10" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="905Z5W3GKH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>THIOTEPA</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="905Z5W3GKH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>THIOTEPA</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B697894SGQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 400</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <formCode code="C43210" displayName="VIAL, MULTI-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="81927-106-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250331"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250331"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA216984" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L98295baf-363a-4e2a-9b9c-dba8437eedf6">
+               <id root="ada5980c-d1d8-4fe8-93fa-534e1ebce1ef"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20250204"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Dosage and Administration (<linkHtml href="#Lda4c5896-1cdb-49ff-920f-1669092b11e0">2.2</linkHtml>)                               2/2025</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="L6f44c51d-491b-408c-95f4-ff94c8777416">
+               <id root="8fdfcc3b-db2a-4d43-bebc-d69720127bda"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING: SEVERE MYELOSUPPRESSION and CARCINOGENICITY</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">TEPYLUTE may cause severe marrow suppression, and high doses may cause marrow ablation with resulting infection or bleeding. Monitor hematologic laboratory parameters.<content styleCode="italics"> [see Warnings and Precautions (<linkHtml href="#L9f6ed7c6-b5bd-45e7-8c3f-cb8e3e4c23c1">5.1</linkHtml>)].</content>
+                        </content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">TEPYLUTE should be considered potentially carcinogenic in humans<content styleCode="italics"> [see Warnings and Precautions (<linkHtml href="#L6990ec73-2a7b-46db-ae20-44c93a9135e6">5.7</linkHtml>)].</content>
+                        </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20250204"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">WARNING: SEVERE MYELOSUPPRESSION and CARCINOGENICITY</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">See full prescribing information for complete boxed warning</content>
+                           </content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="bold">May cause severe marrow suppression or ablation with resulting infection or bleeding. Monitor hematologic laboratory parameters (<linkHtml href="#L9f6ed7c6-b5bd-45e7-8c3f-cb8e3e4c23c1">5.1</linkHtml>).</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Potentially carcinogenic in humans (<linkHtml href="#L6990ec73-2a7b-46db-ae20-44c93a9135e6">5.7</linkHtml>).</content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc0be55f7-15f6-4312-9d18-6577eb6a5ea0">
+               <id root="266472a1-c62e-41ec-a5c9-1af47be92aaf"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240702"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>TEPYLUTE is an alkylating drug indicated for treatment of adenocarcinoma of the breast or ovary. (<linkHtml href="#L74d3ff77-bb11-48a3-a42a-018ac91a3242">1.1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="L74d3ff77-bb11-48a3-a42a-018ac91a3242">
+                     <id root="ab889dfd-d807-4671-bc24-fc4003b614a4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>1.1 Adenocarcinoma of the Breast or Ovary</title>
+                     <text>
+                        <paragraph>TEPYLUTE is indicated for treatment of adenocarcinoma of the breast or ovary.</paragraph>
+                     </text>
+                     <effectiveTime value="20240702"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L9d12617c-9ef2-42fd-ac07-3dd2d5eaab26">
+               <id root="6250e279-b1c3-4a4a-820d-e147b99cd57b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250220"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The recommended dose of TEPYLUTE for treatment of adenocarcinoma of the breast or ovary is 0.3 mg/kg to 0.4 mg/kg intravenously. (<linkHtml href="#Ld7516ba8-2dba-4ece-b78e-b3bec6c14b45">2.1</linkHtml>)</paragraph>
+                        <paragraph>See full prescribing information for preparation instructions. (<linkHtml href="#Lda4c5896-1cdb-49ff-920f-1669092b11e0">2.2</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="Ld7516ba8-2dba-4ece-b78e-b3bec6c14b45">
+                     <id root="846181d5-e43d-40f8-b5e5-c6bec2e93875"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Recommended Dosage</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Adenocarcinoma </content>
+                           <content styleCode="underline">of </content>
+                           <content styleCode="underline">the </content>
+                           <content styleCode="underline">Breast </content>
+                           <content styleCode="underline">or </content>
+                           <content styleCode="underline">Ovary</content>
+                        </paragraph>
+                        <paragraph>The recommended dose of TEPYLUTE for treatment of adenocarcinoma of the breast or ovary is 0.3 mg/kg to 0.4 mg/kg intravenously. Doses should be given at 1 to 4 week intervals. Initially the higher dose in the given range is commonly administered. The maintenance dose should be adjusted weekly on the basis of pretreatment control blood counts and subsequent blood counts.</paragraph>
+                        <paragraph>Maintenance doses should not be administered more frequently than weekly.</paragraph>
+                     </text>
+                     <effectiveTime value="20250220"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lda4c5896-1cdb-49ff-920f-1669092b11e0">
+                     <id root="2d7c8902-031d-4b7d-9b95-c36f4efb4228"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Preparation Instructions</title>
+                     <text>
+                        <paragraph>TEPYLUTE is a hazardous drug. Follow applicable special handling and disposal procedures<sup>1</sup>.</paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">Use aseptic technique to prepare TEPYLUTE.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Dilution</content>
+                           <content styleCode="underline"> in the infusion bag</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>Remove vial from refrigerated conditions 1 hour prior to dilution.</item>
+                           <item>
+                              <content styleCode="xmChange">Dilute the solution in an appropriate volume of 0.9% Sodium Chloride Injection to obtain a final TEPYLUTE concentration between 0.5 mg/mL and 1 mg/mL. Use a 16G needle with a Luer-lock syringe to dilute the solution.</content>
+                           </item>
+                           <item>Use the diluted TEPYLUTE infusion solution immediately. If the solution is not used immediately, store refrigerated at 2°C to 8°C (36°F to 46°F) for up to 24 hours, or at room temperature 25°C (77°F) for up to 4 hours.</item>
+                        </list>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Use TEPYLUTE diluted solutions only if free of visible particulate matter. Filter using a 0.2 micron filter prior to administration. Filtering does not alter solution potency. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">
+                              <content styleCode="xmChange">Storage of Undiluted TEPYLUTE:</content>
+                           </content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="xmChange">Single-dose vial: Each vial is intended for single-dose only. Discard any unused portion left in the vial.  </content>
+                           </item>
+                           <item>
+                              <content styleCode="xmChange">Multiple-dose vial: After first use, store the partially used vial in the original carton refrigerated at 2°C to 8°C (36°F to 46°F) for 14 days. </content>
+                           </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250219"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld29d1e45-a615-485b-bfe1-8439672ef7db">
+               <id root="e97e18ce-59c9-4566-bb73-a10479df00ad"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <list listType="unordered">
+                     <item>Injection: 15 mg/1.5 mL (10 mg/mL) of thiotepa in a clear, colorless or almost colorless solution in single-dose vial.</item>
+                     <item>Injection: 100 mg/10 mL (10 mg/mL) of thiotepa in a clear, colorless or almost colorless solution in multiple-dose vial.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250220"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Injection: 15 mg/1.5 mL (10 mg/mL) of thiotepa solution in single-dose vial. (<linkHtml href="#Ld29d1e45-a615-485b-bfe1-8439672ef7db">3</linkHtml>)</item>
+                           <item>Injection: 100 mg/10 mL (10 mg/mL) of thiotepa solution in multiple-dose vial. (<linkHtml href="#Ld29d1e45-a615-485b-bfe1-8439672ef7db">3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb6fbcdc6-823e-48b4-b04f-79ffb5f44137">
+               <id root="cf439746-8fbb-4e28-ab80-f7950f6be6de"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>TEPYLUTE is contraindicated in:</paragraph>
+                  <list listType="unordered">
+                     <item>Patients with severe hypersensitivity to thiotepa<content styleCode="italics"> [see Warnings and Precautions (<linkHtml href="#Le57580b6-b2ba-4259-b0b7-b92d3c4d4f1f">5.2</linkHtml>)]</content>
+                     </item>
+                     <item>Concomitant use with live or attenuated vaccines <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#L004de1b7-2428-4962-85be-b5cad2c7209f">5.4</linkHtml>)]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20240625"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Hypersensitivity to the active substance. (<linkHtml href="#Lb6fbcdc6-823e-48b4-b04f-79ffb5f44137">4</linkHtml>)</item>
+                           <item>Concomitant use with live or attenuated vaccines. (<linkHtml href="#Lb6fbcdc6-823e-48b4-b04f-79ffb5f44137">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="L897e6463-fb30-47eb-8cf6-ddfae6d68027">
+               <id root="a71a2919-51ef-4c65-82ac-f26d711351a3"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240822"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Cutaneous Toxicity: Cleanse skin at least twice daily through 48 hours after the last dose of TEPYLUTE. (<linkHtml href="#L42b60859-cfac-4a7f-af41-5eca3595a309">5.3</linkHtml>)</item>
+                           <item>Polyethylene Glycol 400 Toxicity: Take into consideration the PEG 400 load from concomitant medications. (<linkHtml href="#L10f001f7-c074-4947-a127-3758ab71d7b1">5.8</linkHtml>)</item>
+                           <item>Embryo-Fetal Toxicity: Can cause fetal harm. Advise females of reproductive potential of the potential risk to a fetus and to use effective contraception. (<linkHtml href="#L7baa8d5c-944d-4fa8-9302-1e1e77a02e24">5.9</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="L9f6ed7c6-b5bd-45e7-8c3f-cb8e3e4c23c1">
+                     <id root="9d67f9a9-de70-4e87-900b-c2e4bfaba179"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Myelosuppression</title>
+                     <text>
+                        <paragraph>For patients receiving TEPYLUTE for treatment of adenocarcinoma of the breast or adenocarcinoma of the ovary, if the bone marrow has been compromised by prior irradiation or chemotherapy, or is recovering from chemotherapy, the risk of severe myelosuppression with TEPYLUTE may be increased. Perform periodic complete blood counts during the course of treatment with TEPYLUTE. Provide supportive care for infections, bleeding, and symptomatic anemia <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#L27809865-9392-4a42-8ad5-8e2f54cbb574">6.1</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240822"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Le57580b6-b2ba-4259-b0b7-b92d3c4d4f1f">
+                     <id root="b357615c-a08c-4cfb-a656-bbaad52fae12"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Hypersensitivity</title>
+                     <text>
+                        <paragraph>Clinically significant hypersensitivity reactions, including anaphylaxis, have occurred following administration of thiotepa. If anaphylactic or other clinically significant allergic reaction occurs, discontinue treatment with TEPYLUTE, initiate appropriate therapy, and monitor until signs and symptoms resolve<content styleCode="italics"> [see Contraindications (<linkHtml href="#Lb6fbcdc6-823e-48b4-b04f-79ffb5f44137">4</linkHtml>) </content>and<content styleCode="italics"> Adverse Reactions (<linkHtml href="#L27809865-9392-4a42-8ad5-8e2f54cbb574">6.1</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L42b60859-cfac-4a7f-af41-5eca3595a309">
+                     <id root="0ea29c90-5a45-4a0d-aae7-8dc8191c5883"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Cutaneous Toxicity</title>
+                     <text>
+                        <paragraph>TEPYLUTE and/or its active metabolites may be excreted in part via skin in patients receiving high-dose therapy. Treatment with TEPYLUTE may cause skin discoloration, pruritus, blistering, desquamation, and peeling that may be more severe in the groin, axillae, skin folds, in the neck area, and under dressings. Instruct patients to shower or bathe with water at least twice daily through 48 hours after administration of TEPYLUTE. Change occlusive dressing and clean the covered skin at least twice daily through 48 hours after administration of TEPYLUTE. Change bed sheets daily during treatment.</paragraph>
+                        <paragraph>Skin reactions associated with accidental exposure to TEPYLUTE may occur. Wash the skin thoroughly with soap and water in case TEPYLUTE solution contacts the skin. Flush mucous membranes in case of TEPYLUTE contact with mucous membranes.</paragraph>
+                     </text>
+                     <effectiveTime value="20240822"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L004de1b7-2428-4962-85be-b5cad2c7209f">
+                     <id root="8c0424ac-7af9-4673-aa9c-8b2cbbcba9d4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Concomitant Use of Live and Attenuated Vaccines</title>
+                     <text>
+                        <paragraph>Do not administer live or attenuated viral or bacterial vaccines to a patient treated with TEPYLUTE until the immunosuppressive effects have resolved.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L182a3ec1-be5c-4eb7-bcc6-ffc3f046b195">
+                     <id root="4e8fb9cd-472d-4539-b3a1-123fd31b95e1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Hepatic Veno-Occlusive Disease</title>
+                     <text>
+                        <paragraph>Monitor by physical examination, serum transaminases and bilirubin, and provide supportive care to patients who develop hepatic veno-occlusive disease.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L69de6c4d-4938-4bed-b1aa-74b7618a0c30">
+                     <id root="8bd44a43-4ec8-4fc1-b31d-18bd303b2835"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Central Nervous System Toxicity</title>
+                     <text>
+                        <paragraph>Fatal encephalopathy has occurred in patients treated with high doses of thiotepa. Other central nervous system toxicities, such as headache, apathy, psychomotor retardation, disorientation, confusion, amnesia, hallucinations, drowsiness, somnolence, seizures, coma, inappropriate behavior and forgetfulness have been reported to occur in a dose-dependent manner during or shortly after administration of high-dose thiotepa. Do not exceed the recommended dose of TEPYLUTE. If severe or life-threatening central nervous system toxicity occurs, discontinue administration of TEPYLUTE and provide supportive care.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L6990ec73-2a7b-46db-ae20-44c93a9135e6">
+                     <id root="0c9bfa39-2740-479c-9798-ed6cecc02d6d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7 Carcinogenicity</title>
+                     <text>
+                        <paragraph>Like many alkylating agents, thiotepa has been reported to be carcinogenic when administered to laboratory animals <content styleCode="italics">[see Nonclinical Toxicity (<linkHtml href="#L6b86ce42-aa59-4be5-8e27-196e2f1f8021">13.1)</linkHtml>]</content>. Carcinogenicity is shown most clearly in studies using mice, but there is some evidence of carcinogenicity in man. There is an increased risk of a secondary malignancy with use of TEPYLUTE.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L10f001f7-c074-4947-a127-3758ab71d7b1">
+                     <id root="2817a9e9-3a27-4f94-a447-47d3711833ad"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.8 Polyethylene Glycol 400 Toxicity</title>
+                     <text>
+                        <paragraph>TEPYLUTE contains a high concentration of polyethylene glycol (PEG) 400. Based on findings in animals, administration of high amounts of PEG 400 may cause damage to the kidneys and liver at dosages higher than recommended. When prescribing TEPYLUTE, take into consideration the PEG 400 load from concomitant medications.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L7baa8d5c-944d-4fa8-9302-1e1e77a02e24">
+                     <id root="d1208596-9433-416f-a986-b23da71409ee"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.9 Embryo-Fetal Toxicity</title>
+                     <text>
+                        <paragraph>Based on the mechanism of action and findings in animals, TEPYLUTE can cause fetal harm when administered to a pregnant woman. There are no adequate and well-controlled studies of TEPYLUTE in pregnant women. Thiotepa given by the intraperitoneal (IP) route was teratogenic in mice at doses ≥ 1 mg/kg (3.2 mg/m<sup>2</sup>), approximately 8-fold less than the maximum recommended human therapeutic dose (0.8 mg/kg, 27 mg/m<sup>2</sup>), based on body-surface area. Thiotepa given by the IP route was teratogenic in rats at doses ≥ 3 mg/kg (21 mg/m<sup>2</sup>), approximately equal to the maximum recommended human therapeutic dose, based on body-surface area. Thiotepa was lethal to rabbit fetuses at a dose of 3 mg/kg (41 mg/m<sup>2</sup>), approximately two times the maximum recommended human therapeutic dose based on body-surface area.</paragraph>
+                        <paragraph>Advise pregnant women of the potential risk to the fetus <content styleCode="italics">[</content>
+                           <content styleCode="italics">see Use in Specific Populations (<linkHtml href="#L42b40799-30c7-4ca2-9240-6af3c5500e45">8.1</linkHtml>, <linkHtml href="#L43009643-6990-4c02-9fd3-b7de057ea4d6">8.3</linkHtml>)</content>
+                           <content styleCode="italics">]</content>. Advise females of reproductive potential to use highly effective contraception during and after treatment with TEPYLUTE for 6 months after therapy. Advise males of reproductive potential to use effective contraception during and after treatment with TEPYLUTE for 1 year after therapy <content styleCode="italics">[</content>
+                           <content styleCode="italics">see Use in Specific Populations (<linkHtml href="#L42b40799-30c7-4ca2-9240-6af3c5500e45">8.1</linkHtml>, <linkHtml href="#L43009643-6990-4c02-9fd3-b7de057ea4d6">8.3</linkHtml>)</content>
+                           <content styleCode="italics">]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240822"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Le21d18cf-6f4f-48b4-9291-709c3ccba467">
+               <id root="eb45b7bf-94ed-420f-a121-247312dc4980"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following clinically significant adverse reactions are described elsewhere in other sections of the label:</paragraph>
+                  <list listType="unordered">
+                     <item>Myelosuppression <content styleCode="italics">[</content>
+                        <content styleCode="italics">see Warnings and Precautions (<linkHtml href="#L9f6ed7c6-b5bd-45e7-8c3f-cb8e3e4c23c1">5.1</linkHtml>)</content>
+                        <content styleCode="italics">]</content>
+                     </item>
+                     <item>Infection <content styleCode="italics">[</content>
+                        <content styleCode="italics">see Warnings and Precautions (<linkHtml href="#L9f6ed7c6-b5bd-45e7-8c3f-cb8e3e4c23c1">5.1</linkHtml>)</content>
+                        <content styleCode="italics">]</content>
+                     </item>
+                     <item>Hypersensitivity <content styleCode="italics">[</content>
+                        <content styleCode="italics">see Warnings and Precautions (<linkHtml href="#Le57580b6-b2ba-4259-b0b7-b92d3c4d4f1f">5.2</linkHtml>)</content>
+                        <content styleCode="italics">]</content>
+                     </item>
+                     <item>Cutaneous Toxicity <content styleCode="italics">[</content>
+                        <content styleCode="italics">see Warnings and Precautions (<linkHtml href="#L42b60859-cfac-4a7f-af41-5eca3595a309">5.3</linkHtml>)</content>
+                        <content styleCode="italics">]</content>
+                     </item>
+                     <item>Hepatic Veno-Occlusive Disease <content styleCode="italics">[</content>
+                        <content styleCode="italics">see Warnings and Precautions (<linkHtml href="#L182a3ec1-be5c-4eb7-bcc6-ffc3f046b195">5.5</linkHtml>)</content>
+                        <content styleCode="italics">]</content>
+                     </item>
+                     <item>Central Nervous System Toxicity <content styleCode="italics">[</content>
+                        <content styleCode="italics">see Warnings and Precautions (<linkHtml href="#L69de6c4d-4938-4bed-b1aa-74b7618a0c30">5.6</linkHtml>)</content>
+                        <content styleCode="italics">]</content>
+                     </item>
+                     <item>Carcinogenicity <content styleCode="italics">[</content>
+                        <content styleCode="italics">see Warnings and Precautions (<linkHtml href="#L6990ec73-2a7b-46db-ae20-44c93a9135e6">5.7</linkHtml>)</content>
+                        <content styleCode="italics">]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20250220"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common adverse reactions (incidence greater than 10%) are neutropenia, anemia, thrombocytopenia, elevated alanine aminotransferase, elevated aspartate aminotransferase, elevated bilirubin, mucositis, cytomegalovirus infection, hemorrhage, diarrhea, hematuria and rash. (<linkHtml href="#L27809865-9392-4a42-8ad5-8e2f54cbb574">6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Shorla Oncology at 844-9-SHORLA or FDA at 1-800-FDA-1088 or <content styleCode="underline">www.fda.gov/medwatch</content>
+                              <content styleCode="underline">.</content>
+                           </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="L27809865-9392-4a42-8ad5-8e2f54cbb574">
+                     <id root="e77e8c5d-4030-440b-8e3d-bed3c9fb8157"/>
+                     <code code="90374-0" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL TRIALS EXPERIENCE SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared with rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Adverse Reactions with Treatment of adenocarcinoma of the breast and adenocarcinoma of the ovary</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Gastrointestinal:</content> Nausea, vomiting, abdominal pain, anorexia.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">General:</content> Fatigue, weakness. Febrile reaction and discharge from a subcutaneous lesion may occur as the result of breakdown of tumor tissue.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hypersensitivity Reactions:</content> Allergic reactions - rash, urticaria, laryngeal edema, asthma, anaphylactic shock, wheezing.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Local Reactions:</content> Contact dermatitis, pain at the injection site.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Neurologic:</content> Dizziness, headache, blurred vision.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal:</content> Dysuria, urinary retention, chemical cystitis or hemorrhagic cystitis.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Reproductive:</content> Amenorrhea, interference with spermatogenesis.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Respiratory:</content> Prolonged apnea has been reported when succinylcholine was administered prior to surgery, following combined use of thiotepa and other anticancer agents. It was theorized that this was caused by decrease of pseudocholinesterase activity caused by the anticancer drugs.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Skin:</content> Dermatitis, alopecia. Skin depigmentation has been reported following topical use.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Special Senses:</content> Conjunctivitis.</paragraph>
+                     </text>
+                     <effectiveTime value="20240702"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lb5eec28f-0bcd-4c64-9804-d0c9bb4ccfd3">
+                     <id root="40d7e30a-4428-4fc2-9905-636ff6eab02f"/>
+                     <code code="90375-7" codeSystem="2.16.840.1.113883.6.1" displayName="POSTMARKETING EXPERIENCE SECTION"/>
+                     <title>6.2 Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post approval use of thiotepa. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Blood and lymphatic system disorders:</content> Febrile bone marrow aplasia.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cardiac disorders:</content> Bradycardia, cardiac failure congestive, cardio-respiratory arrest, pericardial effusion, pericarditis, right ventricular hypertrophy.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Congenital, familial and genetic disorders:</content> Aplasia.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Ear and labyrinth disorders:</content> Deafness.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Eye disorders:</content> Blindness, eyelid ptosis, papilledema, strabismus.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Gastrointestinal disorders:</content> Ascites, dysphagia, enterocolitis, gastritis, palatal disorder.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">General disorders and administration site conditions:</content> Device related infection, gait disturbance, malaise, multi-organ failure, pain.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatobiliary disorders:</content> Hepatomegaly.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Immune system disorders:</content> Bone marrow transplant rejection, immunosuppression.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Infections and infestations:</content> Acute sinusitis, bronchopulmonary aspergillosis, candida sepsis, enterococcal infection, Epstein-Barr virus infection, Escherichia sepsis, Fusarium infection, gastroenteritis, infection, lower respiratory tract infection fungal, lower respiratory tract infection viral, parainfluenza virus infection, Pneumonia legionella, relapsing fever, respiratory tract infection, sepsis, septic shock, Staphylococcal bacteremia, Staphylococcal infection, systemic candida, urinary tract infection.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Injury, poisoning and procedural complications:</content> Refractoriness to platelet transfusion, subdural hematoma.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Investigations:</content> Coagulation test abnormal, hemoglobin decreased, Klebsiella test positive, nuclear magnetic resonance imaging brain abnormal, transaminases increased, weight increased.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism and nutrition disorders:</content> Hyponatremia.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Neoplasms benign, malignant and unspecified (incl. cysts and polyps):</content> Breast cancer metastatic, central nervous system lymphoma, leukemia recurrent, lymphoma, malignant neoplasm progression, metastatic neoplasm, post-transplant lymphoproliferative disorder.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nervous system disorders:</content> Aphasia, brain injury, bulbar palsy, central nervous system lesion, cerebral microangiopathy, cerebral ventricle dilatation, cerebrovascular accident, cognitive disorder, convulsion, coordination abnormal, encephalitis, encephalopathy, hemiplegia, hypotonia, leukoencephalopathy, memory impairment, motor dysfunction, neurotoxicity, quadriparesis, speech disorder, tremor, VII<sup>th</sup> nerve paralysis, white matter lesion.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Psychiatric disorders:</content> Delirium, depression, disorientation, suicidal ideation.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal and urinary disorders:</content> Renal failure, nephropathy toxic.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Respiratory, thoracic and mediastinal disorders:</content> Acute respiratory distress, aspiration, dyspnea exertional, interstitial lung disease, lung disorder, pneumonitis, pulmonary arteriopathy, pulmonary sepsis, pulmonary veno-occlusive disease, respiratory distress, respiratory failure, pulmonary hypertension.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Skin and subcutaneous tissue disorders:</content> Stevens-Johnson syndrome and toxic epidermal necrolysis.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Vascular disorders:</content> Capillary leak syndrome.</paragraph>
+                     </text>
+                     <effectiveTime value="20240702"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L04fca7d4-68f1-4948-b2b6-27aeef01524d">
+               <id root="1e0501c1-21aa-4fcc-bee4-a139a43fac32"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240625"/>
+               <component>
+                  <section ID="Ldac95a1c-1711-48b1-b384-33b13380b402">
+                     <id root="dee7c8f6-4561-4de2-819c-49c766bcad74"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Effect of Cytochrome CYP3A Inhibitors and Inducers</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content> studies suggest that thiotepa is metabolized by CYP3A4 and CYP2B6 to its active metabolite TEPA. Avoid coadministration of strong CYP3A4 inhibitors (e.g., itraconazole, clarithromycin, ritonavir) and strong CYP3A4 inducers (e.g., rifampin, phenytoin) with thiotepa due to the potential effects on efficacy and toxicity <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#L457fe90e-1145-41b7-9a96-2dcd36ce250d">12.3</linkHtml>)].</content> Consider alternative medications with no or minimal potential to inhibit or induce CYP3A4. If concomitant use of strong CYP3A4 modulators cannot be avoided, closely monitor for adverse drug reactions.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lc1f55c94-011d-49ea-b771-df9b021121db">
+                     <id root="dbf109b3-08b6-496a-8587-88dc59949da2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 Effect of TEPYLUTE on Cytochrome CYP2B6 Substrates</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content> studies suggest that thiotepa inhibits CYP2B6. Thiotepa may increase the exposure of drugs that are substrates of CYP2B6 in patients; however, the clinical relevance of this <content styleCode="italics">in vitro</content> interaction is unknown<content styleCode="italics"> [see Clinical Pharmacology (<linkHtml href="#L457fe90e-1145-41b7-9a96-2dcd36ce250d">12.3</linkHtml>)]</content>
+                           <content styleCode="italics">.</content> The administration of thiotepa with cyclophosphamide in patients reduces the conversion of cyclophosphamide to the active metabolite, 4-hydroxycyclophosphamide; the effect appears sequence dependent with a greater reduction in the conversion to 4-hydroxycyclophosphamide when thiotepa is administered 1.5 hours prior to the intravenous administration of cyclophosphamide compared to administration of thiotepa after intravenous cyclophosphamide <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#L457fe90e-1145-41b7-9a96-2dcd36ce250d">12.3</linkHtml>)]</content>
+                           <content styleCode="italics">.</content> The reduction in 4-hydroxycyclophosphamide levels may potentially reduce efficacy of cyclophosphamide treatment.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L919728c9-2e8a-4d5e-8bc4-c3bf8686af2d">
+               <id root="2879db9d-786e-4bef-84b0-a832a2782e42"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240822"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Lactation: Advise not to breastfeed. (<linkHtml href="#Lfe1110fa-ca4b-408e-93ea-a78210afcedc">8.2</linkHtml>)</item>
+                           <item>Moderate or severe renal impairment: Monitor patients more frequently for toxicity. (<linkHtml href="#L1dc5bb61-cd93-4359-9758-57ae86dc48b8">8.6</linkHtml>
+                              <content>, </content>
+                              <linkHtml href="#L457fe90e-1145-41b7-9a96-2dcd36ce250d">12.3</linkHtml>
+                              <content>)</content>
+                           </item>
+                           <item>Moderate or severe hepatic impairment: Monitor patients more frequently for toxicity. (<linkHtml href="#Lf611f7c0-8a89-4974-ac71-3af06a7446b9">8.7</linkHtml>
+                              <content>, </content>
+                              <linkHtml href="#L457fe90e-1145-41b7-9a96-2dcd36ce250d">12.3</linkHtml>
+                              <content>)</content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="L42b40799-30c7-4ca2-9240-6af3c5500e45">
+                     <id root="872b4abe-e208-475f-8a52-73ef5b798e45"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>TEPYLUTE can cause fetal harm when administered to a pregnant woman based on findings from animals and the drug’s mechanism of action <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#L6726e93b-d70b-4bb4-a481-9b45fb598cd1">12.1</linkHtml>)]</content>
+                           <content styleCode="italics">.</content> Limited available data with thiotepa use in pregnant women are insufficient to inform a drug-associated risk of major birth defects and miscarriage. In animal reproduction studies, administration of thiotepa to pregnant mice and rats during organogenesis produced teratogenic effects (neural tube defects and malformations of the skeletal system of the fetus) at doses approximately 0.125 and 1 times, respectively, the maximum recommended human daily dose on a mg/m<sup>2</sup> basis. Thiotepa was lethal to rabbit fetuses at approximately 2 times the maximum recommended human therapeutic dose based on body-surface area <content styleCode="italics">[see Data]</content>. Consider the benefits and risks of TEPYLUTE for the mother and possible risks to the fetus when prescribing TEPYLUTE to a pregnant woman.</paragraph>
+                        <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">
+                              <content styleCode="italics">Animal Data</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Thiotepa given by the IP route in mice at doses ≥ 1 mg/kg (3.2 mg/m<sup>2</sup>), approximately 8-fold less than the maximum recommended human therapeutic dose based on body-surface area, and in rats at doses ≥ 3 mg/kg (21 mg/m<sup>2</sup>), approximately equal to the maximum recommended human therapeutic dose based on body-surface area, resulted in various malformations including neural tube defects, omphalocele, renal agenesis, atresia ani, limb and digit defects, cleft palate, micrognathia, other skeletal anomalies in the skull, vertebrae and ribs, and reduced skeletal ossification. Thiotepa was lethal to rabbit fetuses at a dose of 3 mg/kg (41 mg/m<sup>2</sup>), approximately 2 times the maximum recommended human therapeutic dose based on body-surface area.</paragraph>
+                     </text>
+                     <effectiveTime value="20240822"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lfe1110fa-ca4b-408e-93ea-a78210afcedc">
+                     <id root="a442a1d7-ac27-4529-9284-ae9208c0cbbe"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There is no information regarding the presence of thiotepa in human milk, the effects on the breastfed infant, or the effects on milk production.</paragraph>
+                        <paragraph>Because of the potential for serious adverse reactions, including the potential for tumorigenicity shown for thiotepa in animal studies, advise patients not to breastfeed during TEPYLUTE treatment and for 1 week after the last dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20240702"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L43009643-6990-4c02-9fd3-b7de057ea4d6">
+                     <id root="2e940c4c-0d80-4576-b460-c97363c65be3"/>
+                     <code code="77291-3" codeSystem="2.16.840.1.113883.6.1" displayName="FEMALES &amp; MALES OF REPRODUCTIVE POTENTIAL SECTION"/>
+                     <title>8.3 Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph>TEPYLUTE can cause fetal harm when administered to a pregnant woman <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#L42b40799-30c7-4ca2-9240-6af3c5500e45">8.1</linkHtml>)]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Pregnancy testing</content>
+                        </paragraph>
+                        <paragraph>Verify the pregnancy status of females of reproductive potential prior to initiating TEPYLUTE therapy.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Contraception</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">
+                              <content styleCode="italics">Females</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Advise females of reproductive potential to avoid pregnancy during TEPYLUTE treatment and for 6 months after the last dose of TEPYLUTE. Advise females to immediately report pregnancy <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#L42b40799-30c7-4ca2-9240-6af3c5500e45">8.1</linkHtml>)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">
+                              <content styleCode="italics">Males</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>TEPYLUTE may damage spermatozoa and testicular tissue, resulting in possible genetic abnormalities. Males with female sexual partners of reproductive potential should use effective contraception during TEPYLUTE treatment and for 1 year after the last dose of TEPYLUTE <content styleCode="italics">[see Nonclinical Toxicology (<linkHtml href="#L6b86ce42-aa59-4be5-8e27-196e2f1f8021">13.1</linkHtml>)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Infertility</content>
+                        </paragraph>
+                        <paragraph>Based on nonclinical findings, male and female fertility may be compromised by treatment with TEPYLUTE. Inform male patients about the possibility of sperm conservation before the start of therapy <content styleCode="italics">[see Nonclinical Toxicology (<linkHtml href="#L6b86ce42-aa59-4be5-8e27-196e2f1f8021">13.1</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240702"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L5a4fae4e-a695-4f79-9ffa-37055f81d11c">
+                     <id root="ca72da96-84e3-41bf-9475-3bce846af5bd"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of TEPYLUTE in neonates have not been established.</paragraph>
+                        <paragraph>Safety and effectiveness of TEPYLUTE for treatment of adenocarcinoma of the breast and adenocarcinoma of the ovary in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Ldb71d34d-2e7b-498f-af6b-1ef2ef30c0d0">
+                     <id root="6b5c3111-814c-469c-9b65-f0dd26792a3b"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of thiotepa for treatment of adenocarcinoma of the breast and adenocarcinoma of the ovary did not include sufficient numbers of subjects aged 65 and over to determine whether elderly subjects respond differently from younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreasing hepatic, renal or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L1dc5bb61-cd93-4359-9758-57ae86dc48b8">
+                     <id root="bc2315cd-c7d8-4998-a936-164b77bd21ac"/>
+                     <code code="88828-9" codeSystem="2.16.840.1.113883.6.1" displayName="RENAL IMPAIRMENT SUBSECTION"/>
+                     <title>8.6 Renal Impairment</title>
+                     <text>
+                        <paragraph>In patients with moderate (creatinine clearance (CLcr) of 30 mL/min to 59 mL/min) renal impairment, decreased renal excretion may result in increased plasma levels of thiotepa and TEPA <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#L457fe90e-1145-41b7-9a96-2dcd36ce250d">12.3</linkHtml>)]</content>. This may result in increased toxicity. Monitor patients with moderate to severe (CLcr &lt; 30 mL/min) renal impairment for signs and symptoms of toxicity following treatment with TEPYLUTE for an extended period of time.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lf611f7c0-8a89-4974-ac71-3af06a7446b9">
+                     <id root="1824f83e-2cce-4cf2-972a-f13189f4ace9"/>
+                     <code code="88829-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEPATIC IMPAIRMENT SUBSECTION"/>
+                     <title>8.7 Hepatic Impairment</title>
+                     <text>
+                        <paragraph>Thiotepa is extensively metabolized in the liver. Patients with moderate (bilirubin levels greater than 1.5 times to 3 times the upper limit of normal and any AST) hepatic impairment may have increased plasma levels of thiotepa <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#L457fe90e-1145-41b7-9a96-2dcd36ce250d">12.3</linkHtml>)]</content>. This may result in toxicity. Monitor patients with moderate to severe (bilirubin levels greater than 3 times upper limit of normal and any AST) hepatic impairment for signs and symptoms of toxicity following treatment with TEPYLUTE for an extended period of time.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc6d08fd5-94d7-4e17-8333-8f69b5d4e4bb">
+               <id root="49f54d72-a882-4966-a383-5dc92b90f4fc"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>There is no experience with overdoses of thiotepa. The most important adverse reactions expected in case of overdose are myeloablation and pancytopenia <content styleCode="italics">[see Nonclinical Toxicology (<linkHtml href="#L6b86ce42-aa59-4be5-8e27-196e2f1f8021">13.1</linkHtml>)]</content>. There is no known antidote for thiotepa. Monitor the hematological status closely and provide vigorous supportive measures as medically indicated.</paragraph>
+               </text>
+               <effectiveTime value="20240625"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5387a17f-11f1-4cc0-a114-889ca52df5e7">
+               <id root="5a39ef9a-d3f8-43fe-971d-f34a3a7b34d5"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>TEPYLUTE injection contains thiotepa, an alkylating drug. The chemical name for thiotepa is Tris(1-aziridinyl)phosphine sulfide. Thiotepa has the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L67ced616-92f4-4ba5-aa17-b7114f1c2353"/>
+                  </paragraph>
+                  <paragraph>
+                     <content>Thiotepa has the molecular formula C</content>
+                     <sub>6</sub>
+                     <content>H</content>
+                     <sub>12</sub>
+                     <content>N</content>
+                     <sub>3</sub>
+                     <content>PS, and a molecular weight of 189.23, and it appears as fine, white crystalline flakes, with a melting range of 52°C to 57°C. It is soluble in water and organic solvents. Thiotepa is unstable in acid medium.</content>
+                  </paragraph>
+                  <paragraph>TEPYLUTE (thiotepa) injection is supplied as a sterile solution for intravenous use after dilution.  When diluted in water, the resulting solution has a pH of approximately 5.5 to 7.5.</paragraph>
+                  <paragraph>TEPYLUTE injection is a 10 mg/mL solution available as:</paragraph>
+                  <list listType="unordered">
+                     <item>15 mg/1.5 mL strength single-dose vial contains 15 mg thiotepa and 1.7 g of polyethylene glycol 400</item>
+                     <item>100 mg/10 mL strength multiple-dose vial contains 100 mg thiotepa and 11.3 g of polyethylene glycol 400</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250220"/>
+               <component>
+                  <observationMedia ID="L67ced616-92f4-4ba5-aa17-b7114f1c2353">
+                     <text>structural formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="structure01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L9665f611-c155-47f5-b267-93a917d4ff2f">
+               <id root="74639aa7-c47c-4509-8397-6ef4f2390c77"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text/>
+               <effectiveTime value="20240702"/>
+               <component>
+                  <section ID="L6726e93b-d70b-4bb4-a481-9b45fb598cd1">
+                     <id root="e51b3c0d-235c-4aa6-a93d-b0b07bf8110f"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Thiotepa is an alkylating drug of the polyfunctional type, related chemically and pharmacologically to the nitrogen mustard. The radiomimetic action of thiotepa is believed to occur through the release of ethyleneimine radicals which, like irradiation, disrupt the bonds of DNA. One of the principle bond disruptions is initiated by alkylation of guanine at the N-7 position, which severs the linkage between the purine base and the sugar and liberates alkylated guanines.</paragraph>
+                     </text>
+                     <effectiveTime value="20240702"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L457fe90e-1145-41b7-9a96-2dcd36ce250d">
+                     <id root="08ccc72b-f3c9-4b35-a013-9c03226407c2"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Absorption</content>
+                        </paragraph>
+                        <paragraph>Thiotepa reached maximal concentrations close to the end of infusion following an intravenous infusion.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Distribution</content>
+                        </paragraph>
+                        <paragraph>The binding of thiotepa to plasma proteins is approximately 10% to 20%. In adults administered intravenous thiotepa between 20 mg to 250 mg/m<sup>2</sup> as an intravenous bolus or infusion up to 4 hours, the mean volume of distribution of thiotepa ranged from 1.0 L/kg (30%) to 1.9 L/kg (17%).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Elimination</content>
+                        </paragraph>
+                        <paragraph>In adults administered intravenous thiotepa between 20 mg to 250 mg/m<sup>2</sup> as an intravenous bolus or infusion up to 4 hours, the mean thiotepa clearance ranged from 14.6 L/hr/m<sup>2</sup> (23%) to 27.9 L/hr/m<sup>2</sup> (69%). In adult population, the mean terminal elimination half-life ranged from 1.4 hours (7%) to 3.7 hours (14%) for thiotepa and from 4.9 hours to 17.6 hours (20%) for TEPA.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism</content>
+                        </paragraph>
+                        <paragraph>Thiotepa undergoes hepatic metabolism. <content styleCode="italics">In vitro</content> data suggests that CYP3A4 and CYP2B6 may be responsible for the metabolism of thiotepa to TEPA, a major active metabolite.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Excretion</content>
+                        </paragraph>
+                        <paragraph>In adult patients, urinary excretion of thiotepa accounted for less than 2% of the dose and TEPA accounted for 11% or less of the dose.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Specific Populations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">
+                              <content styleCode="italics">Hepatic Impairment</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>The exposure (as measured by area under the curve (AUC)) of thiotepa increased by 1.6-fold and 1.8-fold following administration of multiple thiotepa doses of 7 mg/kg administered every 2 days with cyclophosphamide in two adult patients who had liver metastases with moderate hepatic impairment compared to the exposure observed in one patient with normal hepatic function. The effect of severe hepatic impairment on thiotepa exposure is unknown.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">
+                              <content styleCode="italics">Renal Impairment</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>The exposure (as measured by AUC) of thiotepa increased by 1.4-fold and TEPA increased by 2.6-fold following administration of multiple doses of 120 mg/m<sup>2</sup>/day in one patient with moderate renal impairment (CLcr = 38 mL/min) administered cyclophosphamide plus thiotepa plus carboplatin, compared to exposure of thiotepa in patients with normal renal function. The effects of severe renal impairment or end-stage renal disease on thiotepa exposure are unknown.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>The clinical relevance of <content styleCode="italics">in vitro</content> inhibition of the cytochrome P450 enzymes described below is unknown, but it cannot be excluded that the systemic exposure of thiotepa or medicinal products that are substrates for these enzymes may be affected with concomitant administration with TEPYLUTE.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">
+                              <content styleCode="italics">Effect of Cytochrome P450 Modulators on Thiotepa</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content> data demonstrates that CYP3A4 and CYP2B6 inhibitors decrease the metabolism of thiotepa<content styleCode="italics"> [see Drug Interactions (<linkHtml href="#Ldac95a1c-1711-48b1-b384-33b13380b402">7.1</linkHtml>)]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">
+                              <content styleCode="italics">Effect of Thiotepa on Cytochrome P450 2B6 </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content> data demonstrates that thiotepa inhibits CYP2B6.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">
+                              <content styleCode="italics">Effect of Thiotepa on Cyclophosphamide</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>The administration of thiotepa 1.5 hours prior to intravenous cyclophosphamide in patients administered cyclophosphamide plus thiotepa plus carboplatin decreased the AUC of 4-hydroxycyclophosphamide by 26% and maximal concentrations of 4-hydroxycyclophosphamide by 62%, compared to administration of cyclophosphamide prior to thiotepa.</paragraph>
+                     </text>
+                     <effectiveTime value="20240625"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L4d9dccdc-09ca-40ff-8666-905ee7670005">
+               <id root="f597b208-609c-4868-aaf7-0ed9a6e8202e"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <text/>
+               <effectiveTime value="20250204"/>
+               <component>
+                  <section ID="L6b86ce42-aa59-4be5-8e27-196e2f1f8021">
+                     <id root="814a2850-7c39-40f7-9f74-b4e60e0bc32f"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph> In mice, repeated intraperitoneal (IP) administration of thiotepa (1.15 or 2.3 mg/kg three times per week for 52 or 43 weeks, respectively) produced a significant increase in the combined incidence of squamous-cell carcinomas of the skin, preputial gland, and ear canal, and combined incidence of lymphoma and lymphocytic leukemia. In other studies in mice, repeated IP administration of thiotepa (4 or 8 mg/kg three times per week for 4 weeks followed by a 20 week observation period or 1.8 mg/kg three times per week for 4 weeks followed by a 35 week observation period) resulted in an increased incidence of lung tumors. In rats, repeated IP administration of thiotepa (0.7 or 1.4 mg/kg three times per week for 52 or 34 weeks, respectively) produced significant increases in the incidence of squamous-cell carcinomas of the skin or ear canal, combined hematopoietic neoplasms, and uterine adenocarcinomas. Thiotepa given intravenously (IV) to rats (1 mg/kg once per week for 52 weeks) produced an increased incidence of malignant tumors (abdominal cavity sarcoma, lymphosarcoma myelosis, seminoma, fibrosarcoma, salivary gland hemangioendothelioma, mammary sarcoma, pheochromocytoma) and benign tumors. The lowest reported carcinogenic dose in mice (1.15 mg/kg, 3.68 mg/m<sup>2</sup>) is approximately 7-fold less than the maximum recommended human therapeutic dose based on body-surface area. The lowest reported carcinogenic dose in rats (0.7 mg/kg, 4.9 mg/m <sup>2</sup> ) is approximately 6-fold less than the maximum recommended human therapeutic dose based on body-surface area.  Thiotepa was mutagenic in in vitro assays in Salmonella typhimurium, E coli, Chinese hamster lung and human lymphocytes. Chromosomal aberrations and sister chromatid exchanges were observed in vitro with thiotepa in bean root tips, human lymphocytes, Chinese hamster lung, and monkey lymphocytes. Mutations were observed with oral thiotepa in mouse at doses &gt; 2.5 mg/kg (8 mg/m<sup>2</sup>). The mouse micronucleus test was positive with intraperitoneal administration of &gt; 1 mg/kg (3.2 mg/m<sup>2</sup>). Other positive in vivo chromosomal aberration or mutation assays included Drosophila melanogaster, Chinese hamster marrow, murine marrow, monkey lymphocyte, and murine germ cell. Thiotepa impaired fertility in male mice at oral or intraperitoneal doses ≥ 0.7 mg/kg (2.24 mg/m<sup>2</sup>), approximately 12-fold less than the maximum recommended human therapeutic dose based on body-surface area. Thiotepa (0.5 mg) inhibited implantation in female rats when instilled into the uterine cavity. Thiotepa interfered with spermatogenesis in mice at IP doses ≥ 0.5 mg/kg (1.6 mg/m<sup>2</sup>), approximately 17-fold less than the maximum recommended human therapeutic dose based on body-surface area. Thiotepa interfered with spermatogenesis in hamsters at an IP dose of 1 mg/kg (4.1 mg/m<sup>2</sup>), approximately 7-fold less than the maximum recommended human therapeutic dose based on body-surface area. </paragraph>
+                     </text>
+                     <effectiveTime value="20250204"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L86aa1190-192e-4f82-882c-34e9038bec0b">
+               <id root="6031beb6-c2e9-4a25-996c-18cbeb4b43b1"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>15 REFERENCES</title>
+               <text>
+                  <paragraph>1. OSHA Hazardous Drugs. OSHA. <content styleCode="italics">[Accessed from</content>
+                     <content styleCode="underline">
+                        <content styleCode="italics"> http://www.osha.gov/SLTC/hazardousdrugs/index.html]</content>
+                     </content>.</paragraph>
+               </text>
+               <effectiveTime value="20250220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc474e727-31c8-47b6-a045-3d2bc6e2c228">
+               <id root="23f0d3c9-de38-4c4f-bcb7-6a735a20284e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text/>
+               <effectiveTime value="20250219"/>
+               <component>
+                  <section ID="L148bc380-3426-424e-9eed-37dd9d2df331">
+                     <id root="45cd6180-e249-4612-ba15-66081fcf64b6"/>
+                     <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">How Supplied</content>
+                        </paragraph>
+                        <paragraph>TEPYLUTE injection is supplied as a clear, colorless or almost colorless solution. The vial stopper is not made with natural rubber latex.</paragraph>
+                        <paragraph>TEPYLUTE Injection</paragraph>
+                        <table width="100%">
+                           <caption/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">
+                                    <content styleCode="bold"> NDC Number</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">
+                                    <content styleCode="bold"> Strength</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule">
+                                    <content styleCode="bold"> Vial Presentation</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"> 81927-105-01</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"> 15 mg/ 1.5 mL (10 mg/mL)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"> Single-dose vial, carton of 1</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"> 81927-106-01</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"> 100 mg/ 10 mL (10 mg/mL)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule"> Multiple-dose vial, carton of 1</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20250219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lac9e3b13-8966-417e-b959-ddd2c72a67cf">
+                     <id root="366c02c3-f631-4d9c-bf49-a4065d35d813"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Storage and Handling</content>
+                        </paragraph>
+                        <paragraph>TEPYLUTE injection vials must be stored and transported refrigerated at 2°C to 8°C (36°F to 46°F). Do not freeze.</paragraph>
+                        <paragraph>TEPYLUTE injection is a hazardous drug. Follow applicable special handling and disposal procedures<sup>1</sup>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240822"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lce07a3cb-c4d0-48bc-b51e-75c545c83946">
+               <id root="eb4cdd17-a37a-431f-a2b1-1dbd8b610643"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Hypersensitivity</content>
+                  </paragraph>
+                  <paragraph>Counsel patients on the signs and symptoms of hypersensitivity and to seek immediate emergency assistance if they develop any of these signs and symptoms <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#Le57580b6-b2ba-4259-b0b7-b92d3c4d4f1f">5.2</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Myelosuppression</content>
+                  </paragraph>
+                  <paragraph>Inform patients of the possibility of developing low blood cell counts and the need for hematopoietic progenitor cell infusion. Instruct patients to immediately report to their healthcare provider if bleeding or fever occurs <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#L9f6ed7c6-b5bd-45e7-8c3f-cb8e3e4c23c1">5.1</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Embryo-Fetal Toxicity</content>
+                  </paragraph>
+                  <paragraph>Advise pregnant women and females of reproductive potential of the potential risk to a fetus. Advise females of reproductive potential to inform their healthcare provider if they are pregnant or become pregnant.</paragraph>
+                  <paragraph>Advise females of reproductive potential to use effective contraception during treatment with TEPYLUTE and for 6 months after the last dose <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#L6990ec73-2a7b-46db-ae20-44c93a9135e6">5.7</linkHtml>), Use in Specific Populations (<linkHtml href="#L42b40799-30c7-4ca2-9240-6af3c5500e45">8.1</linkHtml>, <linkHtml href="#L43009643-6990-4c02-9fd3-b7de057ea4d6">8.3</linkHtml>)]</content>.</paragraph>
+                  <paragraph>Advise males with female partners of reproductive potential to use effective contraception during TEPYLUTE treatment and for 1 year after the last dose of TEPYLUTE <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#L43009643-6990-4c02-9fd3-b7de057ea4d6">8.3</linkHtml>)]</content>.</paragraph>
+                  <paragraph>Advise patients that TEPYLUTE can produce infertility. Inform male patients about the possibility of sperm conservation before the start of therapy <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#L43009643-6990-4c02-9fd3-b7de057ea4d6">8.3</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Lactation</content>
+                  </paragraph>
+                  <paragraph>Advise women not to breastfeed while receiving TEPYLUTE and for 1 week after the last dose <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#Lfe1110fa-ca4b-408e-93ea-a78210afcedc">8.2</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Secondary malignancies</content>
+                  </paragraph>
+                  <paragraph>Inform patients that TEPYLUTE can increase the risk of secondary malignancy <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#L182a3ec1-be5c-4eb7-bcc6-ffc3f046b195">5.5</linkHtml>)]</content>.</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>AqVida GmbH, Dassow,</paragraph>
+                  <paragraph>Germany</paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Shorla Oncology Inc.,</content>
+                  </paragraph>
+                  <paragraph>Cambridge, MA 02142, USA</paragraph>
+                  <paragraph>Patent Information: U.S. Patent: 11,975,013</paragraph>
+                  <paragraph>Version: THTGIUS007</paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ldf3bd9f8-c622-4315-9f20-6f4e5e50aa22">
+               <id root="c4e6b5f2-919a-4a90-bd0e-cff8e0d24321"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 15 mg/1.5 mL Vial Label</title>
+               <text>
+                  <paragraph>NDC 81927-105-01</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tepylute</content>
+                  </paragraph>
+                  <paragraph>(thiotepa) injection</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">15 mg/1.5 mL</content>
+                  </paragraph>
+                  <paragraph>(10 mg/mL)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For intravenous infusion.</content>
+                     <br/>
+                     <content styleCode="bold">MUST BE DILUTED PRIOR TO USE.</content>
+                  </paragraph>
+                  <paragraph>Single-dose vial</paragraph>
+                  <paragraph>Discard unused portion</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lfbf61314-5117-458c-87b5-24a1cbd5dd96"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250220"/>
+               <component>
+                  <observationMedia ID="Lfbf61314-5117-458c-87b5-24a1cbd5dd96">
+                     <text>15 mg Vial Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image001-v2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L6a670bfa-5690-47d6-bce3-46cf49a7ab39">
+               <id root="a9910c0e-c6b6-44da-b37a-cbb504fa659b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 15 mg/1.5 mL Carton</title>
+               <text>
+                  <paragraph>NDC 81927-105-01</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tepylute</content>
+                  </paragraph>
+                  <paragraph>(thiotepa) injection</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">15 mg/1.5 mL</content>
+                  </paragraph>
+                  <paragraph>(10 mg/mL)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Infusion.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MUST BE DILUTED PRIOR TO USE.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: Hazardous Drug</content>
+                  </paragraph>
+                  <paragraph>Contains one single-dose vial </paragraph>
+                  <paragraph>Discard unused portion </paragraph>
+                  <paragraph>Sterile</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L1b65c99d-bd91-431e-9145-2992de10f5a0"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250220"/>
+               <component>
+                  <observationMedia ID="L1b65c99d-bd91-431e-9145-2992de10f5a0">
+                     <text>15 mg Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image002.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf66f3238-999b-4cfb-84ea-a6fa7c6f7ad5">
+               <id root="5c08a8c6-62d7-4324-a67d-819b6807c3bf"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 100 mg/10 mL Vial Label</title>
+               <text>
+                  <paragraph>NDC 81927-106-01 </paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tepylute</content>
+                  </paragraph>
+                  <paragraph>(thiotepa) injection</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">100 mg/10 mL</content>
+                  </paragraph>
+                  <paragraph>(10 mg/mL)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For intravenous infusion.</content>
+                     <br/>
+                     <content styleCode="bold">MUST BE DILUTED PRIOR TO USE.</content>
+                  </paragraph>
+                  <paragraph>Multiple-Dose vial</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L30bf81f6-7b9e-4bb7-bf88-07e71298702c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250220"/>
+               <component>
+                  <observationMedia ID="L30bf81f6-7b9e-4bb7-bf88-07e71298702c">
+                     <text>100 mg Vial Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image003.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld6a2f80e-1a43-4b58-9061-f54e93dc47a5">
+               <id root="2f333c78-bcb0-45aa-ba82-a6512313dd49"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 100 mg/10 mL Carton</title>
+               <text>
+                  <paragraph>NDC 81927-106-01</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tepylute</content>
+                  </paragraph>
+                  <paragraph>(thiotepa) injection</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">100 mg/10 mL</content>
+                  </paragraph>
+                  <paragraph>(10 mg/mL)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Infusion.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MUST BE DILUTED PRIOR TO USE.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: Hazardous Drug</content>
+                  </paragraph>
+                  <paragraph>Contains one Multiple-Dose vial</paragraph>
+                  <paragraph>Sterile</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L50346c87-598b-49c1-9ae4-546326201fb7"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250220"/>
+               <component>
+                  <observationMedia ID="L50346c87-598b-49c1-9ae4-546326201fb7">
+                     <text>100 mg Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image004.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="670cd773-d959-49c7-b0e3-217a2bff3949"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title>Testosterone Enanthate Injection, USP  CIII<br/> Rx only<br/> Multiple Dose Vial<br/>
+   </title>
+   <effectiveTime value="20250315"/>
+   <setId root="82a98132-9d5f-40a5-8c4f-f52f2a5de60e"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="968961354"/>
+            <name>Eugia US LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="872201704" root="1.3.6.1.4.1.519.1"/>
+                        <name>EUGIA Pharma Specialities Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55150-336" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55150-336" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55150-336" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8ec89006-de16-4c3b-9d2e-39fb859407af"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250315"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55150-336" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>TESTOSTERONE ENANTHATE<suffix/>
+                        </name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>TESTOSTERONE ENANTHATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="200" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7Z6522T8N9" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TESTOSTERONE ENANTHATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3XMK78S47O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TESTOSTERONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QX10HYY4QV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SESAME OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="HM4YQM8WRC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CHLOROBUTANOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43210" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, MULTI-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="55150-336-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20240228"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA212659" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20240228"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48676" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CIII"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="9d6e4deb-f67e-45be-be9b-448733671a1b"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Testosterone enanthate injection, USP provides testosterone enanthate, a derivative of the primary endogenous androgen testosterone, for intramuscular administration. In their active form, androgens have a 17-beta-hydroxy group. Esterification of the 17-beta-hydroxy group increases the duration of action of testosterone; hydrolysis to free testosterone occurs <content styleCode="italics">in vivo</content>. Each mL of sterile, clear colorless to pale yellow color oily solution provides 200 mg testosterone enanthate, USP in sesame oil with 5 mg chlorobutanol (chloral derivative) as a preservative.<br/>
+                     <br/> Testosterone enanthate is designated chemically as androst-4-en-3-one, 17-[(1-oxoheptyl)-oxy]-, (17β)-. Structural formula:<br/>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250315"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="testosterone-str.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="94fca76e-ba06-4a39-bcd6-4f99b33e7721"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Endogenous androgens are responsible for the normal growth and development of the male sex organs and for maintenance of secondary sex characteristics. These effects include growth and maturation of prostate, seminal vesicles, penis, and scrotum; development of male hair distribution, such as beard, pubic, chest, and axillary hair; laryngeal enlargement; vocal cord thickening; alterations in body musculature; and fat distribution.<br/>
+                     <br/> Androgens also cause retention of nitrogen, sodium, potassium, and phosphorus, and decreased urinary excretion of calcium. Androgens have been reported to increase protein anabolism and decrease protein catabolism. Nitrogen balance is improved only when there is sufficient intake of calories and protein.<br/>
+                     <br/> Androgens are responsible for the growth spurt of adolescence and for the eventual termination of linear growth which is brought about by fusion of the epiphyseal growth centers. In children, exogenous androgens accelerate linear growth rates but may cause a disproportionate advancement in bone maturation. Use over long periods may result in fusion of the epiphyseal growth centers and termination of the growth process. Androgens have been reported to stimulate the production of red blood cells by enhancing the production of erythropoietic stimulating factor.<br/>
+                     <br/> During exogenous administration of androgens, endogenous testosterone release is inhibited through feedback inhibition of pituitary luteinizing hormone (LH). At large doses of exogenous androgens, spermatogenesis may also be suppressed through feedback inhibition of pituitary follicle stimulating hormone (FSH).<br/>
+                     <br/> There is a lack of substantial evidence that androgens are effective in fractures, surgery, convalescence, and functional uterine bleeding.</paragraph>
+               </text>
+               <effectiveTime value="20250315"/>
+               <component>
+                  <section ID="Section_2.1">
+                     <id root="c3e65472-7fce-4a65-b77b-03ba443b585f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>PHARMACOKINETICS</title>
+                     <text>
+                        <paragraph>Testosterone esters are less polar than free testosterone. Testosterone esters in oil injected intramuscularly are absorbed slowly from the lipid phase; thus testosterone enanthate can be given at intervals of two to four weeks.<br/>
+                           <br/> Testosterone in plasma is 98 percent bound to a specific testosterone-estradiol binding globulin, and about two percent is free. Generally, the amount of this sex-hormone binding globulin (SHBG) in the plasma will determine the distribution of testosterone between free and bound forms, and the free testosterone concentration will determine its half-life.<br/>
+                           <br/> About 90 percent of a dose of testosterone is excreted in the urine as glucuronic and sulfuric acid conjugates of testosterone and its metabolites; about six percent of a dose is excreted in the feces, mostly in the unconjugated form. Inactivation of testosterone occurs primarily in the liver. Testosterone is metabolized to various 17-keto steroids through two different pathways. There are considerable variations of the half-life of testosterone as reported in the literature, ranging from 10 to 100 minutes.<br/>
+                           <br/> In responsive tissues, the activity of testosterone appears to depend on reduction to dihydrotestosterone (DHT), which binds to cytosol receptor proteins. The steroid-receptor complex is transported to the nucleus where it initiates transcription events and cellular changes related to androgen action.</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="0a6e1e59-b604-4017-a10f-4d93d5b5e4de"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Males<br/>
+                     </content>
+                     <br/> Testosterone enanthate injection is indicated for replacement therapy in conditions associated with a deficiency or absence of endogenous testosterone.<br/>
+                     <content styleCode="italics">
+                        <br/> Primary hypogonadism (congenital or acquired) </content>– Testicular failure due to cryptorchidism, bilateral torsion, orchitis, vanishing testis syndrome, or orchidectomy.<br/>
+                     <content styleCode="italics">
+                        <br/> Hypogonadotropic hypogonadism (congenital or acquired) </content>– Gonadotropin or luteinizing hormone-releasing hormone (LHRH) deficiency, or pituitary-hypothalamic injury from tumors, trauma, or radiation. (Appropriate adrenal cortical and thyroid hormone replacement therapy are still necessary, however, and are actually of primary importance.)<br/>
+                     <br/> If the above conditions occur prior to puberty, androgen replacement therapy will be needed during the adolescent years for development of secondary sexual characteristics. Prolonged androgen treatment will be required to maintain sexual characteristics in these and other males who develop testosterone deficiency after puberty.<br/>
+                     <br/> Safety and efficacy of testosterone enanthate injection in men with age-related hypogonadism have not been established.<br/>
+                     <content styleCode="italics">
+                        <br/> Delayed puberty </content>– Testosterone enanthate injection may be used to stimulate puberty in carefully selected males with clearly delayed puberty. These patients usually have a familial pattern of delayed puberty that is not secondary to a pathological disorder; puberty is expected to occur spontaneously at a relatively late date. Brief treatment with conservative doses may occasionally be justified in these patients if they do not respond to psychological support. The potential adverse effect on bone maturation should be discussed with the patient and parents prior to androgen administration. An X-ray of the hand and wrist to determine bone age should be obtained every six months to assess the effect of treatment on the epiphyseal centers (see <content styleCode="bold">
+                        <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                     </content>).<br/>
+                     <br/>
+                     <content styleCode="bold">Females</content>
+                     <br/>
+                     <content styleCode="italics">
+                        <br/> Metastatic mammary cancer </content>– Testosterone enanthate injection may be used secondarily in women with advancing inoperable metastatic (skeletal) mammary cancer who are one to five years postmenopausal. Primary goals of therapy in these women include ablation of the ovaries. Other methods of counteracting estrogen activity are adrenalectomy, hypophysectomy, and/or antiestrogen therapy. This treatment has also been used in premenopausal women with breast cancer who have benefited from oophorectomy and are considered to have a hormone-responsive tumor. Judgment concerning androgen therapy should be made by an oncologist with expertise in this field.</paragraph>
+               </text>
+               <effectiveTime value="20250315"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="8c9ed393-cd37-4ee7-9776-4fb49d9ccb68"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Androgens are contraindicated in men with carcinomas of the breast or with known or suspected carcinomas of the prostate and in women who are or may become pregnant. When administered to pregnant women, androgens cause virilization of the external genitalia of the female fetus. This virilization includes clitoromegaly, abnormal vaginal development, and fusion of genital folds to form a scrotal-like structure. The degree of masculinization is related to the amount of drug given and the age of the fetus and is most likely to occur in the female fetus when the drugs are given in the first trimester. If the patient becomes pregnant while taking androgens, she should be apprised of the potential hazard to the fetus.<br/>
+                     <br/> This preparation is also contraindicated in patients with a history of hypersensitivity to any of its components.</paragraph>
+               </text>
+               <effectiveTime value="20250315"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="acc3a7bb-4e37-4586-a0db-28c852059a43"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>In patients with breast cancer and in immobilized patients, androgen therapy may cause hypercalcemia by stimulating osteolysis. In patients with cancer, hypercalcemia may indicate progression of bony metastasis. If hypercalcemia occurs, the drug should be discontinued and appropriate measures instituted.<br/>
+                     <br/> Prolonged use of high doses of androgens has been associated with the development of peliosis hepatis and hepatic neoplasms including hepatocellular carcinoma (see <content styleCode="bold">
+                        <linkHtml href="#Section_6.6">PRECAUTIONS, Carcinogenesis</linkHtml>
+                     </content>). Peliosis hepatis can be a life-threatening or fatal complication.<br/>
+                     <br/> If cholestatic hepatitis with jaundice appears or if liver function tests become abnormal, the androgen should be discontinued and the etiology should be determined. Drug-induced jaundice is reversible when the medication is discontinued.<br/>
+                     <br/> Geriatric patients treated with androgens may be at an increased risk for the development of prostatic hypertrophy and prostatic carcinoma.<br/>
+                     <br/> There have been postmarketing reports of venous thromboembolic events, including deep vein thrombosis (DVT) and pulmonary embolism (PE), in patients using testosterone products, such as testosterone enanthate. Evaluate patients who report symptoms of pain, edema, warmth and erythema in the lower extremity for DVT and those who present with acute shortness of breath for PE. If a venous thromboembolic event is suspected, discontinue treatment with testosterone enanthate and initiate appropriate workup and management<content styleCode="italics">.<br/>
+                     </content>
+                     <br/> Long term clinical safety trials have not been conducted to assess the cardiovascular outcomes of testosterone replacement therapy in men. To date, epidemiologic studies and randomized controlled trials have been inconclusive for determining the risk of major adverse cardiovascular events (MACE), such as non-fatal myocardial infarction, non-fatal stroke, and cardiovascular death, with the use of testosterone compared to non-use. Some studies, but not all, have reported an increased risk of MACE in association with use of testosterone replacement therapy in men. Patients should be informed of this possible risk when deciding whether to use or to continue to use testosterone enanthate.  </paragraph>
+                  <paragraph>Testosterone products can increase cardiovascular (CV) risk over time. Monitor blood pressure periodically in men using testosterone products, especially in men with hypertension. Testosterone products are not recommended for use in patients with uncontrolled hypertension.<br/>
+                  </paragraph>
+                  <br/>
+                  <paragraph>Testosterone has been subject to abuse, typically at doses higher than recommended for the approved indication and in combination with other anabolic steroids. Anabolic androgenic steroid abuse can lead to serious cardiovascular and psychiatric adverse reactions (see <content styleCode="bold">
+                        <linkHtml href="#Section_8">DRUG ABUSE AND DEPENDENCE</linkHtml>
+                     </content>).<br/>
+                     <br/> If testosterone abuse is suspected, check serum testosterone concentrations to ensure they are within therapeutic range. However, testosterone levels may be in the normal or subnormal range in men abusing synthetic testosterone derivatives. Counsel patients concerning the serious adverse reactions associated with abuse of testosterone and anabolic steroids. Conversely, consider the possibility of testosterone and anabolic steroid abuse in suspected patients who present with serious cardiovascular or psychiatric adverse events.<br/>
+                     <br/> Due to sodium and water retention, edema with or without congestive heart failure may be a serious complication in patients with preexisting cardiac, renal, or hepatic disease. In addition to discontinuation of the drug, diuretic therapy may be required. If the administration of testosterone enanthate is restarted, a lower dose should be used.<br/>
+                     <br/> Gynecomastia frequently develops and occasionally persists in patients being treated for hypogonadism.<br/>
+                     <br/> Androgen therapy should be used cautiously in healthy males with delayed puberty. The effect on bone maturation should be monitored by assessing bone age of the wrist and hand every six months. In children, androgen treatment may accelerate bone maturation without producing compensatory gain in linear growth. This adverse effect may result in compromised adult stature. The younger the child the greater the risk of compromising final mature height.</paragraph>
+               </text>
+               <effectiveTime value="20250315"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="d663bd98-ff7e-4bb1-b49f-b62abc172784"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20250315"/>
+               <component>
+                  <section ID="Section_6.1">
+                     <id root="3327a611-da45-44c4-81db-f4c25c6bd65b"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Women should be observed for signs of virilization (deepening of the voice, hirsutism, acne, clitoromegaly, and menstrual irregularities). Discontinuation of drug therapy at the time of evidence of mild virilism is necessary to prevent irreversible virilization. Such virilization is usual following androgen use at high doses and is not prevented by concomitant use of estrogens. A decision may be made by the patient and the physician that some virilization will be tolerated during treatment for breast carcinoma.<br/>
+                           <br/> Because androgens may alter serum cholesterol concentration, caution should be used when administering these drugs to patients with a history of myocardial infarction or coronary artery disease. Serial determinations of serum cholesterol should be made and therapy adjusted accordingly. A causal relationship between myocardial infarction and hypercholesterolemia has not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.2">
+                     <id root="36396d5f-8f8e-4c23-8a64-fcfe6780fc77"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Male adolescent patients receiving androgens for delayed puberty should have bone development checked every six months.<br/>
+                           <br/> The physician should instruct patients to report any of the following side effects of androgens:<br/>
+                           <content styleCode="italics">
+                              <br/> Adult or adolescent males </content>– too frequent or persistent erections of the penis.<br/>
+                           <content styleCode="italics">
+                              <br/> Women </content>– hoarseness, acne, changes in menstrual periods, or more facial hair.<br/>
+                           <content styleCode="italics">
+                              <br/> All patients </content>– any nausea, vomiting, changes in skin color, or ankle swelling.</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.12">
+                     <id root="f21db97d-3207-4459-877e-8719262287bc"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of testosterone enanthate did not include sufficient numbers of subjects, aged 65 and older, to determine whether they respond differently from younger subjects. Testosterone replacement is not indicated in geriatric patients who have age-related hypogonadism only (“andropause”), because there is insufficient safety and efficacy information to support such use. Current studies do not assess whether testosterone use increases risks of prostate cancer, prostate hyperplasia, and cardiovascular disease in the geriatric population.<br/>
+                           <content styleCode="bold">
+                              <br/> Intramuscular Administration<br/>
+                           </content>
+                           <br/> When properly given, injections of testosterone enanthate are well tolerated. Care should be taken to slowly inject the preparation deeply into the gluteal muscle, being sure to follow the usual precautions for intramuscular administration, such as the avoidance of intravascular injection. There have been rare postmarketing reports of transient reactions involving urge to cough, coughing fits, and respiratory distress immediately after the injection of testosterone enanthate, an oil-based depot preparation (see <content styleCode="bold">
+                              <linkHtml href="#Section_10">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.3">
+                     <id root="5cbdb305-96f0-4af5-96e2-0a21823319d9"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Women with disseminated breast carcinoma should have frequent determination of urine and serum calcium levels during the course of androgen therapy (see <content styleCode="bold">
+                              <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                           </content>).<br/>
+                           <br/> Periodic (every six months) X-ray examinations of bone age should be made during treatment of pre-pubertal males to determine the rate of bone maturation and the effects of androgen therapy on the epiphyseal centers.<br/>
+                           <br/> Hemoglobin and hematocrit should be checked periodically for polycythemia in patients who are receiving high doses of androgens.</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.4">
+                     <id root="af4a7a75-23cb-484c-b653-035d2910dfbf"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>When administered concurrently, the following drugs may interact with androgens:<br/>
+                           <content styleCode="italics">
+                              <br/> Anticoagulants, oral </content>– C-17 substituted derivatives of testosterone, such as methandrostenolone, have been reported to decrease the anticoagulant requirement. Patients receiving oral anticoagulant therapy require close monitoring especially when androgens are started or stopped.<br/>
+                           <content styleCode="italics">
+                              <br/> Antidiabetic drugs and insulin </content>– In diabetic patients, the metabolic effects of androgens may decrease blood glucose and insulin requirements.<br/>
+                           <content styleCode="italics">
+                              <br/> ACTH and corticosteroids </content>– Enhanced tendency toward edema. Use caution when giving these drugs together, especially in patients with hepatic or cardiac disease.<br/>
+                           <content styleCode="italics">
+                              <br/> Oxyphenbutazone </content>– Elevated serum levels of oxyphenbutazone may result.</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.5">
+                     <id root="5e057d7d-0836-44fe-b00c-0713b45a1cf3"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interferences</title>
+                     <text>
+                        <paragraph>Androgens may decrease levels of thyroxine-binding globulin, resulting in decreased total T<sub>4</sub> serum levels and increased resin uptake of T<sub>3</sub> and T<sub>4</sub>. Free thyroid hormone levels remain unchanged, however, and there is no clinical evidence of thyroid dysfunction.</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.6">
+                     <id root="a5ac183b-7616-4128-8777-6d1262edeca3"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis</title>
+                     <text>
+                        <paragraph>Testosterone has been tested by subcutaneous injection and implantation in mice and rats. The implant induced cervical-uterine tumors in mice, which metastasized in some cases. There is suggestive evidence that injection of testosterone into some strains of female mice increases their susceptibility to hepatoma. Testosterone is also known to increase the number of tumors and decrease the degree of differentiation of chemically induced carcinomas of the liver in rats.<br/>
+                           <br/> There are rare reports of hepatocellular carcinoma in patients receiving long-term therapy with androgens in high doses. Withdrawal of the drugs did not lead to regression of the tumors in all cases.<br/>
+                           <br/> Geriatric patients treated with androgens may be at an increased risk for the development of prostatic hypertrophy and prostatic carcinoma.</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.7">
+                     <id root="a4071748-04e8-44e8-aa01-0664ad4dfe98"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy: Teratogenic Effects</title>
+                     <text>
+                        <paragraph>Category X (see <content styleCode="bold">
+                              <linkHtml href="#Section_4">CONTRAINDICATIONS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.9">
+                     <id root="0a1637c2-4afa-4d8c-9f62-3b389302b628"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether androgens are excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from androgens, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.10">
+                     <id root="000dbbd6-fb7b-482c-a6d4-84d2ebf2ef31"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Androgen therapy should be used very cautiously in pediatric patients and only by specialists who are aware of the adverse effects on bone maturation. Skeletal maturation must be monitored every six months by an X-ray of the hand and wrist (see <content styleCode="bold">
+                              <linkHtml href="#Section_3">INDICATIONS AND USAGE</linkHtml>
+                           </content>, and <content styleCode="bold">
+                              <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="c9338977-e366-499a-962f-05601ec822ce"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Endocrine and Urogenital, Female </content>– The most common side effects of androgen therapy are amenorrhea and other menstrual irregularities, inhibition of gonadotropin secretion, and virilization, including deepening of the voice and clitoral enlargement. The latter usually is not reversible after androgens are discontinued. When administered to a pregnant woman, androgens cause virilization of the external genitalia of the female fetus.<br/>
+                     <content styleCode="italics">
+                        <br/> Male </content>– Gynecomastia, and excessive frequency and duration of penile erections. Oligospermia may occur at high dosages (see <content styleCode="bold">
+                        <linkHtml href="#Section_2">CLINICAL PHARMACOLOGY</linkHtml>
+                     </content>).<br/>
+                     <content styleCode="italics">
+                        <br/> Skin and Appendages </content>– Hirsutism, male pattern baldness, and acne.<br/>
+                     <content styleCode="italics">
+                        <br/> Cardiovascular Disorders </content>– myocardial infarction, stroke<br/>
+                     <content styleCode="italics">
+                        <br/> Fluid and Electrolyte Disturbances </content>– Retention of sodium, chloride, water, potassium, calcium (see <content styleCode="bold">
+                        <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                     </content>), and inorganic phosphates.<br/>
+                     <content styleCode="italics">
+                        <br/> Gastrointestinal </content>– Nausea, cholestatic jaundice, alterations in liver function tests; rarely, hepatocellular neoplasms, peliosis hepatis (see <content styleCode="bold">
+                        <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                     </content>).<br/>
+                     <content styleCode="italics">
+                        <br/> Hematologic </content>– Suppression of clotting factors II, V, VII, and X; bleeding in patients on concomitant anticoagulant therapy; polycythemia.<br/>
+                     <content styleCode="italics">
+                        <br/> Nervous System </content>– Increased or decreased libido, headache, anxiety, depression, and generalized paresthesia.<br/>
+                     <content styleCode="italics">
+                        <br/> Metabolic </content>– Increased serum cholesterol.<br/>
+                     <content styleCode="italics">
+                        <br/> Vascular Disorders </content>– venous thromboembolism<br/>
+                     <content styleCode="italics">
+                        <br/> Miscellaneous </content>– Rarely, anaphylactoid reactions; inflammation and pain at injection site.</paragraph>
+               </text>
+               <effectiveTime value="20250315"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_8">
+               <id root="70eaaac8-cde7-4666-b587-7302d7535738"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <effectiveTime value="20250315"/>
+               <component>
+                  <section ID="Section_8.1">
+                     <id root="5a187a80-c222-481b-b229-dc73285df66d"/>
+                     <code code="34085-1" codeSystem="2.16.840.1.113883.6.1" displayName="CONTROLLED SUBSTANCE SECTION"/>
+                     <title>Controlled Substance</title>
+                     <text>
+                        <paragraph>Testosterone enanthate injection contains testosterone, a Schedule III controlled substance in the Controlled Substances Act.</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_8.2">
+                     <id root="ece04a3a-b5c4-4a83-ad9f-1bba2dd87227"/>
+                     <code code="34086-9" codeSystem="2.16.840.1.113883.6.1" displayName="ABUSE SECTION"/>
+                     <title>Abuse</title>
+                     <text>
+                        <paragraph>Drug abuse is intentional non-therapeutic use of a drug, even once, for its rewarding psychological and physiological effects. Abuse and misuse of testosterone are seen in male and female adults and adolescents. Testosterone, often in combination with other anabolic androgenic steroids (AAS), and not obtained by prescription through a pharmacy, may be abused by athletes and bodybuilders. There have been reports of misuse of men taking higher doses of legally obtained testosterone than prescribed and continuing testosterone despite adverse events or against medical advice.<br/>
+                           <content styleCode="italics">
+                              <content styleCode="underline">
+                                 <br/> Abuse-Related Adverse Reactions<br/>
+                              </content>
+                           </content>
+                           <br/> Serious adverse reactions have been reported in individuals who abuse anabolic androgenic steroids, and include cardiac arrest, myocardial infarction, hypertrophic cardiomyopathy, congestive heart failure, cerebrovascular accident, hepatotoxicity, and serious psychiatric manifestations, including major depression, mania, paranoia, psychosis, delusions, hallucinations, hostility and aggression.<br/>
+                           <br/> The following adverse reactions have also been reported in men: transient ischemic attacks, convulsions, hypomania, irritability, dyslipidemias, testicular atrophy, subfertility, and infertility.<br/>
+                           <br/> The following additional adverse reactions have been reported in women: hirsutism, virilization, deepening of voice, clitoral enlargement, breast atrophy, male-pattern baldness, and menstrual irregularities.<br/>
+                           <br/> The following adverse reactions have been reported in male and female adolescents: premature closure of bony epiphyses with termination of growth, and precocious puberty.<br/>
+                           <br/> Because these reactions are reported voluntarily from a population of uncertain size and may include abuse of other agents, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_8.3">
+                     <id root="e24a68a0-84e9-4882-b743-1168749486a7"/>
+                     <code code="34087-7" codeSystem="2.16.840.1.113883.6.1" displayName="DEPENDENCE SECTION"/>
+                     <title>Dependence</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="underline">Behaviors Associated with Addiction<br/>
+                              </content>
+                           </content>
+                           <br/> Continued abuse of testosterone and other anabolic steroids, leading to addiction is characterized by the following behaviors:<br/>
+                        </paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Taking greater dosages than prescribed</item>
+                           <item>Continued drug use despite medical and social problems due to drug use</item>
+                           <item>Spending significant time to obtain the drug when supplies of the drug are interrupted</item>
+                           <item>Giving a higher priority to drug use than other obligations</item>
+                           <item>Having difficulty in discontinuing the drug despite desires and attempts to do so</item>
+                           <item>Experiencing withdrawal symptoms upon abrupt discontinuation of use</item>
+                        </list>
+                        <paragraph>Physical dependence is characterized by withdrawal symptoms after abrupt drug discontinuation or a significant dose reduction of a drug. Individuals taking supratherapeutic doses of testosterone may experience withdrawal symptoms lasting for weeks or months which include depressed mood, major depression, fatigue, craving, restlessness, irritability, anorexia, insomnia, decreased libido and hypogonadotropic hypogonadism.<br/>
+                           <br/> Drug dependence in individuals using approved doses of testosterone for approved indications has not been documented.</paragraph>
+                     </text>
+                     <effectiveTime value="20250315"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="01ba8d00-8b7d-4da6-ba19-5d25bcc4b780"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>There have been no reports of acute overdosage with androgens.</paragraph>
+               </text>
+               <effectiveTime value="20250315"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="ae429e5d-766f-4e6a-81ee-d5d16582ca96"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Prior to initiating testosterone enanthate injection, confirm the diagnosis of hypogonadism by ensuring that serum testosterone concentrations have been measured in the morning in the morning on at least two separate days and that these serum testosterone concentrations are below the normal range.<br/>
+                     <br/> Dosage and duration of therapy with testosterone enanthate injection will depend on age, sex, diagnosis, patient’s response to treatment, and appearance of adverse effects. When properly given, injections of testosterone enanthate are well tolerated. Care should be taken to slowly inject the preparation deeply into the gluteal muscle, being sure to follow the usual precautions for intramuscular administration, such as the avoidance of intravascular injection (see <content styleCode="bold">
+                        <linkHtml href="#Section_6">PRECAUTIONS</linkHtml>
+                     </content>).<br/>
+                     <br/> In general, total doses above 400 mg per month are not required because of the prolonged action of the preparation. Injections more frequently than every two weeks are rarely indicated. NOTE: Use of a wet needle or wet syringe may cause the solution to become cloudy; however this does not affect the potency of the material. Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Testosterone enanthate injection is a clear, colorless to pale yellow color oily solution.<br/>
+                     <content styleCode="italics">
+                        <br/> Male hypogonadism</content>: As replacement therapy, i.e., for eunuchism, the suggested dosage is 50 to 400 mg every 2 to 4 weeks.<br/>
+                     <content styleCode="italics">
+                        <br/> In males with delayed puberty</content>: Various dosage regimens have been used; some call for lower dosages initially with gradual increases as puberty progresses, with or without a decrease to maintenance levels. Other regimens call for higher dosage to induce pubertal changes and lower dosage for maintenance after puberty. The chronological and skeletal ages must be taken into consideration, both in determining the initial dose and in adjusting the dose. Dosage is within the range of 50 to 200 mg every 2 to 4 weeks for a limited duration, for example, 4 to 6 months. X-rays should be taken at appropriate intervals to determine the amount of bone maturation and skeletal development (see <content styleCode="bold">
+                        <linkHtml href="#Section_3">INDICATIONS AND USAGE</linkHtml>
+                     </content>, and <content styleCode="bold">
+                        <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                     </content>).<br/>
+                     <content styleCode="italics">
+                        <br/> Palliation of inoperable mammary cancer in women</content>: A dosage of 200 to 400 mg every 2 to 4 weeks is recommended. Women with metastatic breast carcinoma must be followed closely because androgen therapy occasionally appears to accelerate the disease.</paragraph>
+               </text>
+               <effectiveTime value="20250315"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="2f10ad3c-924e-475b-9db7-01a690831559"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Testosterone enanthate injection, USP is a clear, colorless to pale yellow color oily solution and is supplied as follows:<br/>
+                     <content styleCode="bold">
+                        <content styleCode="underline">
+                           <br/> 1,000 mg per 5 mL (200 mg/mL)<br/>
+                        </content>
+                     </content>
+                     <br/> 5 mL multiple-dose vial                                                          NDC 55150-336-01<br/> packaged individually<br/>
+                     <br/>
+                     <content styleCode="bold">STORAGE</content>
+                     <br/>
+                     <br/> Testosterone enanthate injection, USP should be stored at 20º to 25ºC (68º to 77ºF) [see USP Controlled Room Temperature]. Warming and rotating the vial between the palms of the hands will redissolve any crystals that may have formed during storage at low temperatures.<br/>
+                     <br/> For Prescription Use Only<br/>
+                     <br/> The vial stopper is not made with natural rubber latex.<br/>
+                     <br/> Distributed by:<br/>
+                     <content styleCode="bold">Eugia US LLC<br/>
+                     </content>279 Princeton-Hightstown Rd.<br/>E. Windsor, NJ 08520<br/>
+                     <br/> Manufactured by:<br/>
+                     <content styleCode="bold">Eugia Pharma Specialities Limited<br/>
+                     </content>Hyderabad - 500032<br/>India<br/>
+                     <br/> Medical Inquiries:<br/>1-866-850-2876<br/>  <br/>Revised: March 2025</paragraph>
+               </text>
+               <effectiveTime value="20250315"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_17">
+               <id root="db0dbc70-36dd-4ed4-aae2-94231d959764"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 1,000 mg per 5 mL (200 mg/mL) - Container Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only                          NDC </content>55150-336-01<br/>
+                     <content styleCode="bold">Testosterone     CIII<br/>
+                     </content>
+                     <content styleCode="bold">Enanthate<br/>
+                     </content>
+                     <content styleCode="bold">Injection, USP<br/>
+                     </content>
+                     <content styleCode="bold">1,000 mg per 5 mL<br/>
+                     </content>
+                     <content styleCode="bold">(200 mg/mL)<br/>
+                     </content>
+                     <content styleCode="bold">For Intramuscular<br/>
+                     </content>
+                     <content styleCode="bold">Use Only<br/>
+                     </content>Sterile              5 mL Multiple-Dose Vial</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20250315"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL-1,000 mg per 5 mL (200 mg/mL) - Container Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="testosterone-fig1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_20">
+               <id root="c66eadc6-7b22-49b6-9ae8-4c44d651e060"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL - 1,000 mg per 5 mL (200 mg/mL) - Container-Carton (1 Vial)</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only                                                  NDC </content>55150-336-01<br/>
+                     <content styleCode="bold">Testosterone     CIII<br/>
+                     </content>
+                     <content styleCode="bold">Enanthate<br/>
+                     </content>
+                     <content styleCode="bold">Injection, USP<br/>
+                     </content>
+                     <content styleCode="bold">1,000 mg per 5 mL<br/>
+                     </content>
+                     <content styleCode="bold">(200 mg/mL)<br/>
+                     </content>
+                     <content styleCode="bold">For Intramuscular<br/>
+                     </content>
+                     <content styleCode="bold">Use Only<br/>
+                     </content>
+                     <content styleCode="bold">5 mL                  Multiple-Dose Vial<br/>
+                     </content>
+                     <content styleCode="bold">eugia<br/>
+                        <renderMultiMedia referencedObject="MM3"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250315"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PACKAGE LABEL-PRINCIPAL DISPLAY PANEL-1,000 mg per 5 mL (200 mg/mL) - Container-Carton (1 Vial)</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="testosterone-fig2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

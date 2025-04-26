@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="61b47909-14ae-4387-b89d-77cd100f58d6"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Acetazolamide Extended-Release Capsules</title>
+   <effectiveTime value="20250319"/>
+   <setId root="417b1df2-63bc-473c-9e02-5f93dd45554d"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="079516651" root="1.3.6.1.4.1.519.1"/>
+            <name>Westminster Pharmaceuticals, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="650434348" root="1.3.6.1.4.1.519.1"/>
+                        <name>USV Private Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69367-209" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69367-209" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69367-209" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="e0553f98-c918-4d69-96fb-7c1dfae6eefc"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250319"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69367-209" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Acetazolamide</name>
+                        <formCode code="C42916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE, EXTENDED RELEASE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Acetazolamide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="500" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="O3FX965V0I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETAZOLAMIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="O3FX965V0I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETAZOLAMIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="9XZ8H6N6OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROXYPROPYL CELLULOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3P3ONR6O1S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C GREEN NO. 3</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROSOFERRIC OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EX438O2MRT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE YELLOW</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SHELLAC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZH3C48M4T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="69367-209-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230420"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090779" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230420"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48329" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GREEN" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="24" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">HP120</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b9a935f9-776f-4c5d-8eab-149cf40a2fa0"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rev. 3/2025</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250319"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fe9afde4-3ba7-450c-937f-f9af5b2a2e20"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Acetazolamide Extended-Release Capsules are an inhibitor of the enzyme carbonic anhydrase.</paragraph>
+                  <paragraph>Acetazolamide is a white to faintly yellowish white crystalline, odorless powder, weakly acidic, very slightly soluble in water, and slightly soluble in alcohol. The chemical name for acetazolamide is N-(5-Sulfamoyl-1,3,4-thiadiazol-2-yl) acetamide and has the following chemical structure:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Acetazolamide Extended-Release Capsules are extended-release capsules, for oral administration, each containing 500 mg of acetazolamide and the following inactive ingredients: Microcrystalline cellulose, sodium lauryl sulfate, hydroxypropyl cellulose and talc.</paragraph>
+                  <paragraph>The ingredients in the capsule shell are FD&amp;C green # 3, FDA/E172 black iron oxide, FDA/E172 yellow iron oxide, titanium dioxide and gelatin.</paragraph>
+                  <paragraph>The ingredients in the imprinting ink are shellac, propylene glycol, potassium hydroxide and black iron oxide.</paragraph>
+               </text>
+               <effectiveTime value="20250319"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="acetazolamide-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="48c5d17d-e002-4d97-aa7f-e85f779b8179"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Acetazolamide is a potent carbonic anhydrase inhibitor, effective in the control of fluid secretion (e.g., some types of glaucoma), in the treatment of certain convulsive disorders (e.g., epilepsy), and in the promotion of diuresis in instances of abnormal fluid retention (e.g., cardiac edema).</paragraph>
+                  <paragraph>Acetazolamide is not a mercurial diuretic. Rather, it is a non-bacteriostatic sulfonamide possessing a chemical structure and pharmacological activity distinctly different from the bacteriostatic sulfonamides.</paragraph>
+                  <paragraph>Acetazolamide is an enzyme inhibitor that acts specifically on carbonic anhydrase, the enzyme that catalyzes the reversible reaction involving the hydration of carbon dioxide and the dehydration of carbonic acid. In the eye, this inhibitory action of acetazolamide decreases the secretion of aqueous humor and results in a drop in intraocular pressure, a reaction considered desirable in cases of glaucoma and even in certain non-glaucomatous conditions. Evidence seems to indicate that acetazolamide has utility as an adjuvant in treatment of certain dysfunctions of the central nervous system (e.g., epilepsy). Inhibition of carbonic anhydrase in this area appears to retard abnormal, paroxysmal, excessive discharge from central nervous system neurons. The diuretic effect of acetazolamide is due to its action in the kidney on the reversible reaction involving hydration of carbon dioxide and dehydration of carbonic acid. The result is renal loss of HCO<sub>3</sub> ion, which carries out sodium, water, and potassium. Alkalinization of the urine and promotion of diuresis are thus affected. Alteration in ammonia metabolism occurs due to increased reabsorption of ammonia by the renal tubules as a result of urinary alkalinization.</paragraph>
+                  <paragraph>Acetazolamide Extended-Release Capsules provide prolonged action to inhibit aqueous humor secretion for 18 to 24 hours after each dose, whereas tablets act for only eight to 12 hours. The prolonged continuous effect of pellets permits a reduction in dosage frequency.</paragraph>
+                  <paragraph>Plasma concentrations of acetazolamide peak from three to six hours after administration of Acetazolamide Extended-Release Capsules, compared to one to four hours with tablets. Food does not affect bioavailability of Acetazolamide Extended-Release Capsules.</paragraph>
+                  <paragraph>Placebo-controlled clinical trials have shown that prophylactic administration of acetazolamide at a dose of 250 mg every eight to 12 hours (or a 500 mg controlled release capsule once daily) before and during rapid ascent to altitude results in fewer and/or less severe symptoms of acute mountain sickness (AMS) such as headache, nausea, shortness of breath, dizziness, drowsiness, and fatigue. Pulmonary function (e.g., minute ventilation, expired vital capacity, and peak flow) is greater in the acetazolamide treated group, both in subjects with AMS and asymptomatic subjects. The acetazolamide treated climbers also had less difficulty in sleeping.</paragraph>
+               </text>
+               <effectiveTime value="20250319"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="73f83dca-c149-436e-85ff-13b4c9530187"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>For adjunctive treatment of: chronic simple (open-angle) glaucoma, secondary glaucoma, and preoperatively in acute angle-closure glaucoma where delay of surgery is desired in order to lower intraocular pressure. Acetazolamide is also indicated for the prevention or amelioration of symptoms associated with acute mountain sickness despite gradual ascent.</paragraph>
+               </text>
+               <effectiveTime value="20250319"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fd7f1db8-23cf-41dd-b2de-32684d7c9104"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Hypersensitivity to acetazolamide or any excipients in the formulation. Since acetazolamide is a sulfonamide derivative, cross sensitivity between acetazolamide, sulfonamides and other sulfonamide derivatives is possible.</paragraph>
+                  <paragraph>Acetazolamide therapy is contraindicated in situations in which sodium and/or potassium blood serum levels are depressed, in cases of marked kidney and liver disease or dysfunction, in suprarenal gland failure, and in hyperchloremic acidosis. It is contraindicated in patients with cirrhosis because of the risk of development of hepatic encephalopathy.</paragraph>
+                  <paragraph>Long-term administration of acetazolamide is contraindicated in patients with chronic non-congestive angle-closure glaucoma since it may permit organic closure of the angle to occur while the worsening glaucoma is masked by lowered intraocular pressure.</paragraph>
+               </text>
+               <effectiveTime value="20250319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="warnings">
+               <id root="bdbd5d5c-6e67-4c5a-90e5-89453b077b59"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Fatalities have occurred, although rarely, due to severe reactions to sulfonamides including Stevens-Johnson syndrome, toxic epidermal necrolysis, fulminant hepatic necrosis, anaphylaxis, agranulocytosis, aplastic anemia, and other blood dyscrasias. Sensitizations may recur when a sulfonamide is readministered irrespective of the route of administration. If signs of hypersensitivity or other serious reactions occur, discontinue use of this drug.</paragraph>
+                  <paragraph>Caution is advised for patients receiving concomitant high-dose aspirin and acetazolamide, as anorexia, tachypnea, lethargy, metabolic acidosis, coma, and death have been reported.</paragraph>
+               </text>
+               <effectiveTime value="20250319"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="af1846a5-0842-4f5c-95fe-42478fc0406e"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20250319"/>
+               <component>
+                  <section>
+                     <id root="b1bfe69e-d5ba-46e5-92af-08698a66b43c"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Increasing the dose does not increase the diuresis and may increase the incidence of drowsiness and/or paresthesia. Increasing the dose often results in a decrease in diuresis. Under certain circumstances, however, very large doses have been given in conjunction with other diuretics in order to secure diuresis in complete refractory failure.</paragraph>
+                        <paragraph>Choroidal effusion and choroidal detachment have been reported after the use of acetazolamide in the post-operative period following ophthalmic surgery. Discontinue acetazolamide if choroidal effusion and/or choroidal detachment is suspected.</paragraph>
+                     </text>
+                     <effectiveTime value="20250319"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="0145cdb0-2a51-4731-83a8-0841db557d5b"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Adverse reactions common to all sulfonamide derivatives may occur: anaphylaxis, fever, rash (including erythema multiforme, Stevens-Johnson syndrome, toxic epidermal necrolysis), crystalluria, renal calculus, bone marrow depression, thrombocytopenic purpura, hemolytic anemia, leukopenia, pancytopenia, and agranulocytosis. Caution is advised for early detection of such reactions and the drug should be discontinued and appropriate therapy instituted.</paragraph>
+                        <paragraph>In patients with pulmonary obstruction or emphysema where alveolar ventilation may be impaired, Acetazolamide which may precipitate or aggravate acidosis should be used with caution.</paragraph>
+                        <paragraph>Gradual ascent is desirable to try to avoid acute mountain sickness. If rapid ascent is undertaken and acetazolamide is used, it should be noted that such use does not obviate the need for prompt descent if severe forms of high altitude sickness occur, i.e., high altitude pulmonary edema (HAPE) or high altitude cerebral edema.</paragraph>
+                        <paragraph>Caution is advised for patients receiving concomitant high-dose aspirin and acetazolamide, as anorexia, tachypnea, lethargy, metabolic acidosis, coma, and death have been reported (<content styleCode="italics">see <content styleCode="bold">
+                                 <linkHtml href="#warnings">WARNINGS</linkHtml>
+                              </content>
+                           </content>).</paragraph>
+                        <paragraph>Both increases and decreases in blood glucose have been described in patients treated with acetazolamide. This should be taken into consideration in patients with impaired glucose tolerance or diabetes mellitus.</paragraph>
+                        <paragraph>Acetazolamide treatment may cause electrolyte imbalances, including hyponatremia and hypokalemia, as well as metabolic acidosis. Therefore, periodic monitoring of serum electrolytes is recommended. Particular caution is recommended in patients with conditions that are associated with, or predispose a patient to, electrolyte and acid/base imbalances, such as patients with impaired renal function (including elderly patients; <content styleCode="italics">see <content styleCode="bold">
+                                 <linkHtml href="#GU">PRECAUTIONS, Geriatric Use</linkHtml>
+                              </content>
+                           </content>), patients with diabetes mellitus, and patients with impaired alveolar ventilation.</paragraph>
+                        <paragraph>Some adverse reactions to acetazolamide, such as drowsiness, fatigue, and myopia, may impair the ability to drive and operate machinery.</paragraph>
+                     </text>
+                     <effectiveTime value="20250319"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="d54ed75a-6950-4c8d-b097-083f19c3ad6b"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>To monitor for hematologic reactions common to all sulfonamides, it is recommended that a baseline CBC and platelet count be obtained on patients prior to initiating acetazolamide therapy and at regular intervals during therapy. If significant changes occur, early discontinuance and institution of appropriate therapy are important. Periodic monitoring of serum electrolytes is recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20250319"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="119a035b-1fa5-4172-83d1-f41324a40fed"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Aspirin - See <content styleCode="bold italics">
+                              <linkHtml href="#warnings">WARNINGS</linkHtml>
+                           </content>
+                        </paragraph>
+                        <paragraph>Acetazolamide modifies phenytoin metabolism with increased serum levels of phenytoin. This may increase or enhance the occurrence of osteomalacia in some patients receiving chronic phenytoin therapy. Caution is advised in patients receiving chronic concomitant therapy. By decreasing the gastrointestinal absorption of primidone, Acetazolamide may decrease serum concentrations of primidone and its metabolites, with a consequent possible decrease in anticonvulsant effect. Caution is advised when beginning, discontinuing, or changing the dose of acetazolamide in patients receiving primidone.</paragraph>
+                        <paragraph>Because of possible additive effects with other carbonic anhydrase inhibitors, concomitant use is not advisable.</paragraph>
+                        <paragraph>Acetazolamide may increase the effects of other folic acid antagonists.</paragraph>
+                        <paragraph>Acetazolamide decreases urinary excretion of amphetamine and may enhance the magnitude and duration of their effect.</paragraph>
+                        <paragraph>Acetazolamide reduces urinary excretion of quinidine and may enhance its effect.</paragraph>
+                        <paragraph>Acetazolamide may prevent the urinary antiseptic effect of methenamine.</paragraph>
+                        <paragraph>Acetazolamide increases lithium excretion and the lithium may be decreased. Acetazolamide and sodium bicarbonate used concurrently increase the risk of renal calculus formation. Acetazolamide may elevate cyclosporine levels.</paragraph>
+                     </text>
+                     <effectiveTime value="20250319"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="40c1b365-2eaf-43bc-abdd-74928b174312"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/laboratory test interactions</title>
+                     <text>
+                        <paragraph>Sulfonamides may give false negative or decreased values for urinary phenolsulfonphthalein and phenol red elimination values for urinary protein, serum non-protein, and serum uric acid. Acetazolamide may produce an increased level of crystals in the urine.</paragraph>
+                        <paragraph>Acetazolamide interferes with the HPLC method of assay for theophylline. Interference with the theophylline assay by acetazolamide depends on the solvent used in the extraction; acetazolamide may not interfere with other assay methods for theophylline.</paragraph>
+                     </text>
+                     <effectiveTime value="20250319"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="80c5b853-9a31-48c2-b5d0-a3f5d0de6660"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Long-term studies in animals to evaluate the carcinogenic potential of acetazolamide have not been conducted. In a bacterial mutagenicity assay, Acetazolamide was not mutagenic when evaluated with and without metabolic activation.</paragraph>
+                        <paragraph>The drug had no effect on fertility when administered in the diet to male and female rats at a daily intake of up to 4 times the recommended human dose of 1000 mg in a 50 kg individual.</paragraph>
+                     </text>
+                     <effectiveTime value="20250319"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="61ee1705-2852-42f0-a608-e4cebc784d4a"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20250319"/>
+                     <component>
+                        <section>
+                           <id root="f6025c2e-9e43-4a26-9280-aa0d217ad36a"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic effects</title>
+                           <text>
+                              <paragraph>Acetazolamide, administered orally or parenterally, has been shown to be teratogenic (defects of the limbs) in mice, rats, hamsters, and rabbits. There are no adequate and well-controlled studies in pregnant women. Acetazolamide should be used in pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                           </text>
+                           <effectiveTime value="20250319"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="55d365f9-b56a-4143-8da6-2b285285ce59"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Because of the potential for serious adverse reactions in nursing infants from acetazolamide, a decision should be made whether to discontinue nursing or to discontinue the drug taking into account the importance of the drug to the mother. Acetazolamide should only be used by nursing women if the potential benefit justifies the potential risk to the child.</paragraph>
+                     </text>
+                     <effectiveTime value="20250319"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="3ed97e0e-813c-4221-b5d5-98af5abf8baa"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of Acetazolamide Extended-Release Capsules in pediatric patients below the age of 12 years have not been established. Growth retardation has been reported in children receiving long-term therapy, believed secondary to chronic acidosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20250319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="GU">
+                     <id root="9392c4ee-b699-46bd-92bb-a4b9136f745c"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Metabolic acidosis, which can be severe, may occur in the elderly with reduced renal function. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20250319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="616cbe0a-81fe-43f0-a1b1-33a61aa42416"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Body as a whole:</content>
+                  </paragraph>
+                  <paragraph>Headache, malaise, fatigue, fever, pain at injection site, flushing, growth retardation in children, flaccid paralysis, anaphylaxis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Digestive:</content>
+                  </paragraph>
+                  <paragraph>Gastrointestinal disturbances such as nausea, vomiting, diarrhea.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hematological/Lymphatic:</content>
+                  </paragraph>
+                  <paragraph>Blood dyscrasias such as aplastic anemia, agranulocytosis, leukopenia, thrombocytopenic purpura, melena.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hepato-biliary disorders:</content>
+                  </paragraph>
+                  <paragraph>Abnormal liver function, cholestatic jaundice, hepatic insufficiency, fulminant hepatic necrosis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metabolic/Nutritional:</content>
+                  </paragraph>
+                  <paragraph>Metabolic acidosis, electrolyte imbalance, including hypokalemia, hyponatremia, osteomalacia with long-term phenytoin therapy, loss of appetite, taste alteration, hyper/hypoglycemia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nervous:</content>
+                  </paragraph>
+                  <paragraph>Drowsiness, paresthesia (including numbness and tingling of extremities and face), depression, excitement, ataxia, confusion, convulsions, dizziness.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin:</content>
+                  </paragraph>
+                  <paragraph>Allergic skin reactions including urticaria, photosensitivity, Stevens-Johnson syndrome, toxic epidermal necrolysis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Otologic:</content>
+                  </paragraph>
+                  <paragraph>Hearing disturbances, tinnitus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Eye Disorders:</content>
+                  </paragraph>
+                  <paragraph>Choroidal effusion, choroidal detachment, transient myopia. Transient myopia is the result of forward movement of the ciliary body leading to a narrowing of the angle.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Urogenital:</content>
+                  </paragraph>
+                  <paragraph>Crystalluria, increased risk of nephrolithiasis with long-term therapy, hematuria, glycosuria, renal failure, polyuria.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Westminster Pharmaceuticals, LLC at 1-844-221-7294 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250319"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="66dffd8c-6463-4870-b6ff-733d01c0f054"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>No specific antidote is known. Treatment should be symptomatic and supportive.</paragraph>
+                  <paragraph>Electrolyte imbalance, development of an acidotic state, and central nervous system effects might be expected to occur. Serum electrolyte levels (particularly potassium) and blood pH levels should be monitored. Supportive measures are required to restore electrolyte and pH balance. The acidotic state can usually be corrected by the administration of bicarbonate.</paragraph>
+                  <paragraph>Despite its high intraerythrocytic distribution and plasma protein binding properties, Acetazolamide may be dialyzable. This may be particularly important in the management of acetazolamide overdosage when complicated by the presence of renal failure.</paragraph>
+               </text>
+               <effectiveTime value="20250319"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8d39301a-d07e-446e-b26b-6ef63160f4b4"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20250319"/>
+               <component>
+                  <section>
+                     <id root="5b7d95a5-1418-440c-84c6-a6a3e08fe7bc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Glaucoma</title>
+                     <text>
+                        <paragraph>The recommended dosage is 1 capsule (500 mg) two times a day. Usually 1 capsule is administered in the morning and 1 capsule in the evening. It may be necessary to adjust the dose, but it has usually been found that dosage in excess of 2 capsules (1 g) does not produce an increased effect. The dosage should be adjusted with careful individual attention both to symptomatology and intraocular tension. In all cases, continuous supervision by a physician is advisable.</paragraph>
+                        <paragraph>In those unusual instances where adequate control is not obtained by the twice-a-day administration of Acetazolamide Extended-Release Capsules, the desired control may be established by means of acetazolamide (tablets or parenteral). Use tablets or parenteral in accordance with the more frequent dosage schedules recommended for these dosage forms, such as 250 mg every four hours, or an initial dose of 500 mg followed by 250 mg or 125 mg every four hours, depending on the case in question.</paragraph>
+                     </text>
+                     <effectiveTime value="20250319"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="556bc3e7-1e90-474a-b9bb-4131609d2e3a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Acute Mountain Sickness</title>
+                     <text>
+                        <paragraph>Dosage is 500 mg to 1000 mg daily, in divided doses using tablets or extended-release capsules as appropriate. In circumstances of rapid ascent, such as in rescue or military operations, the higher dose level of 1000 mg is recommended. It is preferable to initiate dosing 24 to 48 hours before ascent and to continue for 48 hours while at high altitude, or longer as necessary to control symptoms.</paragraph>
+                     </text>
+                     <effectiveTime value="20250319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c280d2ef-88cc-4ecd-9054-8c195aa202d2"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Acetazolamide Extended-Release Capsules are available as 500 mg:</paragraph>
+                  <paragraph>Size '00' capsules with light green opaque body, imprinted 'HP120' in black ink on light green opaque cap. Contains white to off white pellets.</paragraph>
+                  <paragraph>Available in bottles of 100, NDC 69367-209-01</paragraph>
+               </text>
+               <effectiveTime value="20250319"/>
+               <component>
+                  <section>
+                     <id root="9e5684db-e733-43ad-95df-4c660300cc4c"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Store at 20°C to 25°C (68°F to 77°F) [See USP Controlled Room Temperature].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ef8189c1-0b0d-4f73-b40e-e27cf7e2266d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by:<br/>
+                     <content styleCode="bold">USV Private Limited</content>
+                     <br/>Daman – 396210, India</paragraph>
+                  <paragraph>Distributed by:<br/>
+                     <content styleCode="bold">Westminster Pharmaceuticals, LLC</content>
+                     <br/>Nashville, TN 37217</paragraph>
+                  <paragraph>Rev. 3/2025</paragraph>
+                  <paragraph>XXXXXXXX</paragraph>
+               </text>
+               <effectiveTime value="20250319"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="615eb0b7-c1f6-45b3-b198-09d0c445ca18"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 500 mg Capsule Bottle Label</title>
+               <text>
+                  <paragraph>NDC 69367-209-01<br/>Rx only</paragraph>
+                  <paragraph>AcetaZOLAMIDE<br/>Extended-Release<br/>Capsules</paragraph>
+                  <paragraph>500 mg</paragraph>
+                  <paragraph>100 Capsules</paragraph>
+                  <paragraph>Westminster<br/>Pharmaceuticals</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20250319"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 500 mg Capsule Bottle Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="acetazolamide-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

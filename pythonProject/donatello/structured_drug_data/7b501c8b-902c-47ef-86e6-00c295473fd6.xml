@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7b501c8b-902c-47ef-86e6-00c295473fd6"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">HALOPERIDOL INJECTION USP</content>
+      <br/>
+      <content styleCode="bold">(For Immediate Release)</content>
+   </title>
+   <effectiveTime value="20241212"/>
+   <setId root="8397a841-f240-4767-9dcd-781e6d3f7c7f"/>
+   <versionNumber value="11"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="001230762" root="1.3.6.1.4.1.519.1"/>
+            <name>Hikma Pharmaceuticals USA Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="e0374435-64c1-42ef-8860-090540b6f803"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20241212"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9502" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Haloperidol</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Haloperidol Lactate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6387S86PK3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HALOPERIDOL LACTATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="J6292F8L3D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HALOPERIDOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="1.8"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value=".2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="33X04XA5AT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9502-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" displayName="BOX" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20010619"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075858" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20010619"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9501" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Haloperidol</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Haloperidol lactate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6387S86PK3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HALOPERIDOL LACTATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="J6292F8L3D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HALOPERIDOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="1.8"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="33X04XA5AT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9501-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" displayName="BOX" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20010619"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075858" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20010619"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f51498c9-325a-4f33-a577-8a5e50c17ffa">
+               <id root="485ee3ec-b518-4e11-86e5-0fe90d4a2fe8"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <section ID="LINK_14a68b46-ca0b-4cf4-84a3-0a5dfe6b031d">
+                     <id root="495781bd-76fb-4f4d-a490-9ec714c2c016"/>
+                     <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+                     <title>WARNING</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="underline">Increased Mortality in Elderly Patients with Dementia-Related Psychosis</content> —</content>  <content styleCode="bold">Elderly</content>  <content styleCode="bold">patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Analyses of seventeen placebo-controlled trials (modal duration of 10 weeks), largely in patients taking atypical antipsychotic drugs, revealed a risk of death in drug-treated patients of between 1.6 to 1.7 times the risk of death in placebo-treated patients. Over the course of a typical 10 week controlled trial, the rate of death in drug-treated patients was about 4.5%, compared to a rate of about 2.6% in the placebo group. Although the causes of death were varied, most of the deaths appeared to be either cardiovascular (e.g., heart failure, sudden death) or infectious (e.g., pneumonia) in nature. Observational studies suggest that, similar to atypical antipsychotic drugs, treatment with conventional antipsychotic drugs may increase mortality. The extent to which the findings of increased mortality in observational studies may be attributed to the antipsychotic drug as opposed to some characteristic(s) of the patients is not clear. Haloperidol Injection is not approved for the treatment of patients with dementia-related psychosis (see <linkHtml href="#LINK_63771ec0-f9b2-49bf-a83e-120f2c752af5">WARNINGS</linkHtml>).</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_310fb978-2579-4480-8bf4-7dbc51f355f0">
+               <id root="8d4d50c0-d02b-4a74-b2ed-19047cc87d11"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Haloperidol is the first of the butyrophenone series of major antipsychotics. The chemical designation is 4-[4-(<content styleCode="italics">p</content>-chlorophenyl)-4-hydroxypiperidino]-4'-fluorobutyrophenone and it has the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>M.F. = C<sub>21</sub>H<sub>23</sub>ClFNO<sub>2           </sub>M.W. = 375.86</paragraph>
+                  <paragraph>Haloperidol Injection, USP is available as a sterile parenteral form for intramuscular injection. Each mL of Haloperidol Injection, USP contains 5 mg haloperidol (as the lactate) with 1.8 mg methylparaben, 0.2 mg propylparaben and lactic acid for pH adjustment between 3.0 to 3.8.</paragraph>
+               </text>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>structural formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="haloperidol-injection-usp-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_842a2619-f368-4674-b7cf-44326145d0dc">
+               <id root="7793a478-db82-480f-826e-e829f26930c5"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Haloperidol is an antipsychotic. The mechanism of action of haloperidol for the treatment of schizophrenia is unclear. However, its efficacy could be mediated through its activity as an antagonist at central dopamine type 2 receptors. Haloperidol also binds to alpha-1 adrenergic receptors, but with lower affinity, and displays minimal binding to muscarinic cholinergic and histaminergic (H<sub>1</sub>) receptors.</paragraph>
+               </text>
+               <effectiveTime value="20241212"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e63be387-2bc2-438b-ae81-7f8b3e54ab1e">
+               <id root="6d83f1ea-d0a4-4448-a9d1-33264762cfd3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Haloperidol is indicated for the treatment of patients with schizophrenia.</paragraph>
+               </text>
+               <effectiveTime value="20241212"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e0af5cac-e82e-4e1b-8aa6-e7108370027e">
+               <id root="2fe715fc-0fd7-4f36-8ca9-b7e091934fd4"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Haloperidol Injection is contraindicated in patients with:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Severe toxic central nervous system depression or comatose states from any cause.</item>
+                     <item>Hypersensitivity to this drug – hypersensitivity reactions have included anaphylactic reaction and angioedema (see <content styleCode="bold">
+                           <linkHtml href="#www.splportal.comLINK_21b78c83-35fc-4b91-9e36-290c1534e24b">WARNINGS, Hypersensitivity Reactions</linkHtml>
+                        </content> and <content styleCode="bold">
+                           <linkHtml href="#www.splportal.comLINK_2286bc95-35da-467e-9e27-2a38e7706cd5">ADVERSE REACTIONS</linkHtml>
+                        </content>).</item>
+                     <item>Parkinson’s disease (see <content styleCode="bold">
+                           <linkHtml href="#www.splportal.comLINK_2a227ebd-12f5-4e2b-8d95-c30e0771be0c">WARNINGS, Neurological Adverse Reactions in Patients with Parkinson’s Disease or Dementia with Lewy Bodies</linkHtml>
+                        </content>). </item>
+                     <item>Dementia with Lewy bodies (see <content styleCode="bold">
+                           <linkHtml href="#www.splportal.comLINK_2a227ebd-12f5-4e2b-8d95-c30e0771be0c">WARNINGS, Neurological Adverse Reactions in Patients with Parkinson’s Disease or Dementia with Lewy Bodies</linkHtml>
+                        </content>). </item>
+                  </list>
+               </text>
+               <effectiveTime value="20241212"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_63771ec0-f9b2-49bf-a83e-120f2c752af5">
+               <id root="c391d724-59d6-4d34-9903-0afd578684bd"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Increased Mortality in Elderly Patients with Dementia-Related Psychosis — Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death. Haloperidol Injection is not approved for the treatment of patients with dementia‑related psychosis (see <linkHtml href="#www.splportal.comLINK_14a68b46-ca0b-4cf4-84a3-0a5dfe6b031d">BOXED WARNING</linkHtml>).</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <section ID="LINK_4b2b485a-93cd-450f-8527-1b01c3a2f677">
+                     <id root="5d9c8539-55bf-4d2c-8418-b4c3fe6ea3d7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiovascular Effects</title>
+                     <text>
+                        <paragraph>Cases of sudden death, QTc interval-prolongation, and Torsades de Pointes have been reported in patients receiving haloperidol (see <content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_2286bc95-35da-467e-9e27-2a38e7706cd5">ADVERSE REACTIONS</linkHtml>
+                           </content>). Higher than recommended doses of any formulation and intravenous administration of haloperidol appear to be associated with a higher risk of QTc interval-prolongation and Torsades de Pointes. Also, a QTc interval that exceeds 500 msec is associated with an increased risk of Torsades de Pointes. Although cases have been reported even in the absence of predisposing factors, particular caution is advised in treating patients with other QTc-prolonging conditions (including electrolyte imbalance [particularly hypokalemia and hypomagnesemia], drugs known to prolong QTc, underlying cardiac abnormalities, hypothyroidism, and familial long QT-syndrome). HALOPERIDOL INJECTION IS NOT APPROVED FOR INTRAVENOUS ADMINISTRATION. If haloperidol is administered intravenously, the ECG should be monitored for QTc prolongation and arrhythmias.</paragraph>
+                        <paragraph>Tachycardia and hypotension (including orthostatic hypotension) have also been reported in occasional patients (see <content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_2286bc95-35da-467e-9e27-2a38e7706cd5">ADVERSE REACTIONS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_11cd0ba4-f8d1-4869-a64a-a3d4d755189c">
+                     <id root="f77bb0d3-8c25-495b-a125-79fa2f259faf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cerebrovascular Adverse
+Reactions</title>
+                     <text>
+                        <paragraph>In controlled trials, elderly patients with dementia-related psychosis treated with some antipsychotics had an increased risk (compared to placebo) of cerebrovascular adverse reactions (e.g., stroke, transient ischemic attack), including fatalities. The mechanism for this increased risk is not known. An increased risk cannot be excluded for haloperidol, other antipsychotics, or other patient populations. Haloperidol should be used with caution in patients with risk factors for cerebrovascular adverse reactions.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c9f93bc9-1cb7-4c9c-991f-8285a4a55477">
+                     <id root="7f0b3aab-dbea-41b2-b238-befd230f3826"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Tardive Dyskinesia</title>
+                     <text>
+                        <paragraph>A syndrome consisting of potentially irreversible, involuntary, dyskinetic movements may develop in patients treated with antipsychotic drugs (see<content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_2286bc95-35da-467e-9e27-2a38e7706cd5">ADVERSE REACTIONS</linkHtml>
+                           </content>). Although the prevalence of the syndrome appears to be highest among the elderly, especially elderly women, it is impossible to rely upon prevalence estimates to predict, at the inception of antipsychotic treatment, which patients are likely to develop the syndrome. Whether antipsychotic drug products differ in their potential to cause tardive dyskinesia is unknown.</paragraph>
+                        <paragraph>Both the risk of developing tardive dyskinesia and the likelihood that it will become irreversible are believed to increase as the duration of treatment and the total cumulative dose of antipsychotic drugs administered to the patient increase. However, the syndrome can develop, although much less commonly, after relatively brief treatment periods at low doses.</paragraph>
+                        <paragraph>Tardive dyskinesia may remit, partially or completely, if antipsychotic treatment is discontinued. Antipsychotic treatment, itself, however, may suppress (or partially suppress) the signs and symptoms of the syndrome and thereby may possibly mask the underlying process. The effect that symptomatic suppression has upon the long‑term course of the syndrome is unknown.</paragraph>
+                        <paragraph>Given these considerations, antipsychotic drugs should be prescribed in a manner that is most likely to minimize the occurrence of tardive dyskinesia. Chronic antipsychotic treatment should generally be reserved for patients who suffer from a chronic illness that, 1) is known to respond to antipsychotic drugs, and, 2) for whom alternative, equally effective, but potentially less harmful treatments are <content styleCode="bold">not </content>available or appropriate. In patients who do require chronic treatment, the smallest dose and the shortest duration of treatment producing a satisfactory clinical response should be sought. The need for continued treatment should be reassessed periodically.</paragraph>
+                        <paragraph>If signs and symptoms of tardive dyskinesia appear in a patient on antipsychotics, drug discontinuation should be considered. However, some patients may require treatment despite the presence of the syndrome.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_490609ed-3911-438c-a955-8d9b72e3c65e">
+                     <id root="4210cd70-9d6c-4635-aa77-032757169215"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Neuroleptic Malignant Syndrome (NMS)</title>
+                     <text>
+                        <paragraph>A potentially fatal symptom complex sometimes referred to as Neuroleptic Malignant Syndrome (NMS) has been reported in association with antipsychotic drugs (see <content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_2286bc95-35da-467e-9e27-2a38e7706cd5">ADVERSE REACTIONS)</linkHtml>
+                           </content>. Clinical manifestations of NMS are hyperpyrexia, muscle rigidity, altered mental status (including catatonic signs) and evidence of autonomic instability (irregular pulse or blood pressure, tachycardia, diaphoresis, and cardiac dysrhythmias). Additional signs may include elevated creatine phosphokinase, myoglobinuria (rhabdomyolysis) and acute renal failure.</paragraph>
+                        <paragraph>The diagnostic evaluation of patients with this syndrome is complicated. In arriving at a diagnosis, it is important to identify cases where the clinical presentation includes both serious medical illness (e.g., pneumonia, systemic infection, etc.) and untreated or inadequately treated extrapyramidal signs and symptoms. Other important considerations in the differential diagnosis include central anticholinergic toxicity, heat stroke, drug fever and primary central nervous system (CNS) pathology.</paragraph>
+                        <paragraph>The management of NMS should include 1) immediate discontinuation of antipsychotic drugs and other drugs not essential to concurrent therapy, 2) intensive symptomatic treatment and medical monitoring, and 3) treatment of any concomitant serious medical problems for which specific treatments are available. There is no general agreement about specific pharmacological treatment regimens for uncomplicated NMS.</paragraph>
+                        <paragraph>If a patient requires antipsychotic drug treatment after recovery from NMS, the potential reintroduction of drug therapy should be carefully considered. The patient should be carefully monitored, since recurrences of NMS have been reported. </paragraph>
+                        <paragraph>Hyperpyrexia and heat stroke, not associated with the above symptom complex, have also been reported with haloperidol.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_2a227ebd-12f5-4e2b-8d95-c30e0771be0c">
+                     <id root="84d856b4-3685-48be-bf80-86a1c1a33140"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Neurological Adverse Reactions in Patients with Parkinson’s Disease or Dementia with Lewy Bodies</title>
+                     <text>
+                        <paragraph>Patients with Parkinson’s Disease or Dementia with Lewy Bodies are reported to have an increased sensitivity to antipsychotic medication. Manifestations of this increased sensitivity with haloperidol treatment include severe extrapyramidal symptoms, confusion, sedation, and falls. In addition, haloperidol may impair the antiparkinson effects of levodopa and other dopamine agonists. Haloperidol is contraindicated in patients with Parkinson’s Disease or Dementia with Lewy Bodies (see <content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_e0af5cac-e82e-4e1b-8aa6-e7108370027e">CONTRAINDICATIONS</linkHtml>
+                           </content>). </paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_21b78c83-35fc-4b91-9e36-290c1534e24b">
+                     <id root="bd58364b-d63d-447a-bce4-b53a524ebb5a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hypersensitivity Reactions</title>
+                     <text>
+                        <paragraph>There have been postmarketing reports of hypersensitivity reactions with haloperidol. These include anaphylactic reaction, angioedema, dermatitis exfoliative, hypersensitivity vasculitis, rash, urticaria, face edema, laryngeal edema, bronchospasm, and laryngospasm (see <content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_2286bc95-35da-467e-9e27-2a38e7706cd5">ADVERSE REACTIONS</linkHtml>
+                           </content>
+                           <linkHtml href="#www.splportal.comLINK_2286bc95-35da-467e-9e27-2a38e7706cd5">)</linkHtml>. Haloperidol is contraindicated in patients with hypersensitivity to this drug (see <content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_e0af5cac-e82e-4e1b-8aa6-e7108370027e">CONTRAINDICATIONS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_8cbcd3b2-3ff6-4ac2-b7cf-23bbbd1028c4">
+                     <id root="828b86dd-f2ce-4a76-bddc-ad63f9785f12"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Falls</title>
+                     <text>
+                        <paragraph>Motor instability, somnolence, and orthostatic hypotension have been reported with the use of antipsychotics, including haloperidol, which may lead to falls and, consequently, fractures or other fall-related injuries. For patients, particularly the elderly, with diseases, conditions, or medications that could exacerbate these effects, assess the risk of falls when initiating antipsychotic treatment and recurrently for patients receiving repeated doses. </paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d39b1bb6-1021-4bcc-886d-b4eefaeba73e">
+                     <id root="afeb016a-5cf5-43ea-9cfc-4c6416002821"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Usage in Pregnancy</title>
+                     <text>
+                        <paragraph>Rats or rabbits administered oral haloperidol at doses of 0.5 to 7.5 mg/kg. which are approximately 0.2 to 7 times the maximum recommended human dose (MRHD) of 20 mg/day based on mg/m<sup>2</sup> body surface area, showed an increase in incidence of resorption, reduced fertility, delayed delivery and pup mortality. No fetal abnormalities were observed at these doses in rats or rabbits. Cleft palate has been observed in mice administered oral haloperidol at a dose of 0.5 mg/kg, which is approximately 0.1 times the MRHD based on mg/m<sup>2</sup> body surface area.</paragraph>
+                        <paragraph>There are no well controlled studies with haloperidol in pregnant women. There are reports, however, of cases of limb malformations observed following maternal use of haloperidol along with other drugs which have suspected teratogenic potential during the first trimester of pregnancy.</paragraph>
+                        <paragraph>Causal relationships were not established in these cases. Since such experience does not exclude the possibility of fetal damage due to haloperidol, this drug should be used during pregnancy or in women likely to become pregnant only if the benefit clearly justifies a potential risk to the fetus. Infants should not be nursed during drug treatment.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Non-Teratogenic Effects: </content>Neonates exposed to antipsychotic drugs (including haloperidol) during the third trimester of pregnancy are at risk for extrapyramidal and/or withdrawal symptoms following delivery. There have been reports of agitation, hypertonia, hypotonia, tremor, somnolence, respiratory distress, and feeding disorder in these neonates. These complications have varied in severity; while in some cases symptoms have been self-limited, in other cases neonates have required intensive care unit support and prolonged hospitalization.</paragraph>
+                        <paragraph>Haloperidol should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_55ecdfe8-a68c-4c16-bddc-8618e466eaf1">
+                     <id root="ff626af0-75f5-46e9-bf52-e653e900f0a5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Combined Use of Haloperidol and Lithium </title>
+                     <text>
+                        <paragraph>An encephalopathic syndrome (characterized by weakness, lethargy, fever, tremulousness and confusion, extrapyramidal symptoms, leukocytosis, elevated serum enzymes, BUN, and fasting blood sugar) followed by irreversible brain damage has occurred in a few patients treated with lithium plus haloperidol. A causal relationship between these events and the concomitant administration of lithium and haloperidol has not been established; however, patients receiving such combined therapy should be monitored closely for early evidence of neurological toxicity and treatment discontinued promptly if such signs appear.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_492deebf-2cf2-4503-8e03-69e5241611b3">
+                     <id root="0b70edc0-a371-48b0-a106-510b1662b383"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>A number of cases of bronchopneumonia, some fatal, have followed the use of antipsychotic drugs, including haloperidol. It has been postulated that lethargy and decreased sensation of thirst due to central inhibition may lead to dehydration, hemoconcentration and reduced pulmonary ventilation. Therefore, if the above signs and symptoms appear, especially in the elderly, the physician should institute remedial therapy promptly.</paragraph>
+                        <paragraph>Although not reported with haloperidol, decreased serum cholesterol and/or cutaneous and ocular changes have been reported in patients receiving chemically-related drugs.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7371f860-8647-4f61-b80b-789e6e9c2550">
+               <id root="9b1255a4-da18-4509-b937-0b7d769ad7ae"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <section ID="LINK_00bd05f0-7984-4a87-8b3f-38c9b8a54e91">
+                     <id root="c4a741d9-1d85-4692-bad3-46c3bb3f1330"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Leukopenia, Neutropenia, and Agranulocytosis</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Class Effect: </content>In clinical trial and/or postmarketing experience, events of leukopenia/neutropenia have been reported temporally related to antipsychotic agents, including haloperidol. Agranulocytosis has also been reported.</paragraph>
+                        <paragraph>Possible risk factors for leukopenia/neutropenia include pre-existing low white blood cell count (WBC) and history of drug-induced leukopenia/neutropenia. Patients with a history of a clinically significant low WBC or a drug-induced leukopenia/neutropenia should have their complete blood count (CBC) monitored frequently during the first few months of therapy and discontinuation of Haloperidol Injection should be considered at the first sign of a clinically significant decline in WBC in the absence of other causative factors.</paragraph>
+                        <paragraph>Patients with clinically significant neutropenia should be carefully monitored for fever or other symptoms or signs of infection and treated promptly if such symptoms or signs occur. Patients with severe neutropenia (absolute neutrophil count &lt;1000/mm<sup>3</sup>) should discontinue Haloperidol Injection and have their WBC followed until recovery.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f8084333-a54c-4330-a2c7-84c8aa497edb">
+                     <id root="d4c38ff9-537f-4eea-a37e-63149f71222b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Withdrawal Emergent Dyskinesia</title>
+                     <text>
+                        <paragraph>Generally, patients receiving short-term therapy experience no problems with abrupt discontinuation of antipsychotic drugs. However, some patients on maintenance treatment experience transient dyskinetic signs after abrupt withdrawal. In certain of these cases the dyskinetic movements are indistinguishable from tardive dyskinesia (see <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#www.splportal.comLINK_c9f93bc9-1cb7-4c9c-991f-8285a4a55477">WARNINGS, Tardive Dyskinesia</linkHtml>
+                              </content>
+                              <linkHtml href="#www.splportal.comLINK_c9f93bc9-1cb7-4c9c-991f-8285a4a55477">)</linkHtml>
+                           </content> except for duration. It is not known whether gradual withdrawal of antipsychotic drugs will reduce the rate of occurrence of withdrawal emergent neurological signs but until further evidence becomes available, it seems reasonable to gradually withdraw use of haloperidol (see <content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_d39b1bb6-1021-4bcc-886d-b4eefaeba73e">WARNINGS, Usage in Pregnancy</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_856733f4-d53a-4794-a148-88fa577337e2">
+                     <id root="a441d52d-ed8b-4d0d-8464-cd7c3845ef86"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other</title>
+                     <text>
+                        <paragraph>Haloperidol should be administered cautiously to patients:</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>•with severe cardiovascular disorders, because of the possibility of transient hypotension and/or precipitation of anginal pain. Should hypotension occur and a vasopressor be required, epinephrine must not be used since haloperidol may block its vasopressor activity and paradoxical further lowering of the blood pressure may occur. Instead, metaraminol, phenylephrine or norepinephrine should be used.</item>
+                           <item>•receiving anticonvulsant medications, with a history of seizures, or with EEG abnormalities, because haloperidol may lower the convulsive threshold. If indicated, adequate anticonvulsant therapy should be concomitantly maintained.</item>
+                           <item>•with known allergies, or with a history of allergic reactions to drugs.</item>
+                           <item>•receiving anticoagulants, since an isolated instance of interference occurred with the effects of one anticoagulant (phenindione).</item>
+                        </list>
+                        <paragraph>When haloperidol is used to control mania in cyclic disorders, there may be a rapid mood swing to depression.</paragraph>
+                        <paragraph>Severe neurotoxicity (rigidity, inability to walk or talk) may occur in patients with thyrotoxicosis who are also receiving antipsychotic medication, including haloperidol.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_0e06ee08-19c8-4f8a-8adf-cf4550a4fc9a">
+                     <id root="a8210a3d-d21d-40fe-8587-fc1b95b708f4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Drug-drug interactions can be pharmacodynamic (combined pharmacologic effects) or pharmacokinetic (alteration of plasma levels). The risks of using haloperidol in combination with other drugs have been evaluated as described below.</paragraph>
+                        <paragraph>Pharmacodynamic Interactions</paragraph>
+                        <paragraph>Since QTc interval-prolongation has been observed during haloperidol treatment, caution is advised when prescribing to a patient with QT-prolongation conditions or to patients receiving medications known to prolong the QTc-interval (see <content styleCode="bold">WARNINGS, Cardiovascular Effects</content>). Examples include (but are not limited to): Class 1A antiarrhythmics (e.g., procainamide, quinidine, disopyramide); Class 3 antiarrhythmics (e.g., amiodarone, sotalol); and other drugs such as citalopram, erythromycin, levofloxacin, methadone, and ziprasidone.</paragraph>
+                        <paragraph>Caution is advised when haloperidol is used in combination with drugs known to cause electrolyte imbalance (e.g., diuretics or corticosteroids because hypokalemia, hypomagnesemia, and hypocalcemia are risk factors for QT prolongation.</paragraph>
+                        <paragraph>Haloperidol may impair the antiparkinson effects of levodopa and other dopamine agonists. If concomitant antiparkinson medication is required, it may have to be continued after haloperidol is discontinued because of the difference in excretion rates. If both are discontinued simultaneously, extrapyramidal symptoms may occur. The physician should keep in mind the possible increase in intraocular pressure when anticholinergic drugs, including antiparkinson agents, are administered concomitantly with haloperidol.</paragraph>
+                        <paragraph>As with other antipsychotic agents, it should be noted that haloperidol may be capable of potentiating CNS depressants such as anesthetics, opioids and alcohol.</paragraph>
+                        <paragraph>Pharmacokinetic Interactions</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Drugs that May Increase Haloperidol Plasma Concentrations</content>
+                        </paragraph>
+                        <paragraph>Haloperidol is metabolized by several routes. The major pathways are glucuronidation and ketone reduction. The cytochrome P450 enzyme system is also involved, particularly CYP3A4 and, to a lesser extent, CYP2D6. Inhibition of these routes of metabolism by another drug or a decrease in CYP2D6 enzyme may result in increased haloperidol concentrations. The effect of CYP3A4 inhibition and of decreased CYP2D6 enzyme activity may be additive.</paragraph>
+                        <paragraph>The haloperidol plasma concentrations increased when a CYP3A4 and/or CYP2D6 inhibitor was coadministered with haloperidol. Examples include:</paragraph>
+                        <paragraph>• CYP3A4 inhibitors – alprazolam; itraconazole, ketoconazole, nefazodoneritonavir.</paragraph>
+                        <paragraph>• CYP2D6 inhibitors – chlorpromazine; promethazine; quinidine; paroxetine, sertraline, venlafaxine.</paragraph>
+                        <paragraph>• Combined CYP3A4 and CYP2D6 inhibitors – fluoxetine, fluvoxamine; ritonavir.</paragraph>
+                        <paragraph>• Buspirone.</paragraph>
+                        <paragraph>Increased haloperidol plasma concentrations may result in an increased risk of adverse events, including QTc interval prolongation (see <content styleCode="bold">WARNINGS – Cardiovascular Effects</content>). Increases in QTc have been observed when haloperidol was given with a combination of the metabolic inhibitors ketoconazole (400 mg/ day) and paroxetine (20 mg/day).</paragraph>
+                        <paragraph>It is recommended that patients who take haloperidol concomitantly with such medicinal products be monitored for signs or symptoms of increased or prolonged pharmacologic effects of haloperidol, and the haloperidol dose be decreased as deemed necessary.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Valproate</content>
+                        </paragraph>
+                        <paragraph>Sodium valproate, a drug known to inhibit glucuronidation, does not affect haloperidol plasma concentrations.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Drugs that May Decrease Haloperidol Plasma Concentrations</content>
+                        </paragraph>
+                        <paragraph>Coadministration of haloperidol with potent enzyme inducers of CYP3A4 may gradually decrease the plasma concentrations of haloperidol to such an extent that efficacy may be reduced. Examples include (but are not limited to): carbamazepine, phenobarbital, phenytoin, rifampin, St John’s Wort (<content styleCode="italics">Hypericum, perforatum</content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Rifampin</content>
+                        </paragraph>
+                        <paragraph>In a study of 12 patients with schizophrenia coadministered oral haloperidol and rifampin, plasma haloperidol levels were decreased by a mean of 70% and mean scores on the Brief Psychiatric Rating Scale were increased from baseline. In 5 other patients with schizophrenia treated with oral haloperidol and rifampin, discontinuation of rifampin produced a mean 3.3-fold increase in haloperidol concentrations.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Carbamazepine</content>
+                        </paragraph>
+                        <paragraph>In a study in 11 patients with schizophrenia coadministered haloperidol and increasing doses of carbamazepine, haloperidol plasma concentrations decreased linearly with increasing carbamazepine concentrations.</paragraph>
+                        <paragraph>During combination treatment with inducers of CYP3A4, it is recommended that patients be monitored and the haloperidol dose increased as deemed necessary. After withdrawal of the CYP3A4 inducer, the concentration of haloperidol may gradually increase and therefore it may be necessary to reduce the dose of haloperidol.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Effect of Haloperidol on Other Drugs</content>
+                        </paragraph>
+                        <paragraph>Haloperidol is an inhibitor of CYP2D6. Plasma concentrations of CYP2D6 substrates (e.g., tricyclic antidepressants such as desipramine or imipramine) may increase when they are co-administered with haloperidol.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c571429d-66a5-418d-932d-8167d2a231be">
+                     <id root="b03f3b21-bb10-4899-bcce-c5d3f4a49518"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Haloperidol may impair the mental and/or physical abilities required for the performance of hazardous tasks such as operating machinery or driving a motor vehicle. The ambulatory patient should be warned accordingly. </paragraph>
+                        <paragraph>The use of alcohol with this drug should be avoided due to possible additive effects and hypotension. </paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f7c53781-f2ca-45d9-b547-08f066251608">
+                     <id root="60424e75-1c64-4693-8460-1a3fb2c79cfc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, and
+Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No mutagenic potential of haloperidol was found in the Ames Salmonella assay. Negative or inconsistent positive findings have been obtained in <content styleCode="italics">in vitro</content> and <content styleCode="italics">in vivo</content> studies of effects of haloperidol on chromosome structure and number. The available cytogenetic evidence is considered too inconsistent to be conclusive at this time.</paragraph>
+                        <paragraph>Carcinogenicity studies using oral haloperidol were conducted in Wistar rats (dosed at up to 5 mg/kg daily for 24 months) and in Albino Swiss mice (dosed at up to 5 mg/ kg daily for 18 months). In the rat study survival was reduced in all dose groups, decreasing the number of rats at risk for developing tumors. However, although a relatively greater number of rats survived to the end of the study in high- dose male and female groups, these animals did not have a greater incidence of tumors than control animals. Therefore, although not optimal, this study does suggest the absence of a haloperidol related increase in the incidence of neoplasia in rats at doses up to approximately 2.5 times the maximum recommended human dose (MRHD) of 20 mg/day based on mg/m<sup>2</sup> body surface area.</paragraph>
+                        <paragraph>In female mice there was a statistically significant increase in mammary gland neoplasia and total tumor incidence at doses approximately 0.3 and 1.2 times the MRHD based on mg/m<sup>2</sup> body surface area and there was a statistically significant increase in pituitary gland neoplasia at approximately 1.2 times the MRHD. In male mice, no statistically significant differences in incidences of total tumors or specific tumor types were noted.</paragraph>
+                        <paragraph>Antipsychotic drugs elevate prolactin levels; the elevation persists during chronic administration. Tissue culture experiments indicate that approximately one-third of human breast cancers are prolactin dependent <content styleCode="italics">in vitro</content>, a factor of potential importance if the prescription of these drugs is contemplated in a patient with a previously detected breast cancer. Although disturbances such as galactorrhea, amenorrhea, gynecomastia, and impotence have been reported, the clinical significance of elevated serum prolactin levels is unknown for most patients.</paragraph>
+                        <paragraph>An increase in mammary neoplasms has been found in rodents after chronic administration of antipsychotic drugs.</paragraph>
+                        <paragraph>Published epidemiologic studies have shown inconsistent results when exploring the association between hyperprolactinemia and breast cancer.</paragraph>
+                        <paragraph>There are no well controlled studies with haloperidol in pregnant women. There are reports, however, of cases of limb malformations observed following maternal use of haloperidol along with other drugs which have suspected teratogenic potential during the first trimester of pregnancy. Causal relationships were not established in these cases. Since such experience does not exclude the possibility of fetal damage due to haloperidol, this drug should be used during pregnancy or in women likely to become pregnant only if the benefit clearly justifies a potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_9f2c403c-de50-482c-9ba2-df472cd4fc6e">
+                     <id root="b2b68217-53a6-48b7-92a9-c915b0100774"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Since haloperidol is excreted in human breast milk, infants should not be nursed during drug treatment with haloperidol. </paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_29c722be-1810-4bd8-b8cb-89290bf6dee0">
+                     <id root="94bfbcd5-4fbb-4203-8812-2ee372c07642"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_15041db1-3397-4b2d-b740-759fadff8c35">
+                     <id root="d8c54d59-1dd1-4e04-8188-a0a2cfdee235"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of haloperidol did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not consistently identified differences in responses between the elderly and younger patients. However, the prevalence of tardive dyskinesia appears to be highest among the elderly, especially elderly women (see <linkHtml href="#LINK_63771ec0-f9b2-49bf-a83e-120f2c752af5">WARNINGS</linkHtml>, <linkHtml href="#LINK_c9f93bc9-1cb7-4c9c-991f-8285a4a55477">Tardive Dyskinesia </linkHtml>). Also, the pharmacokinetics of haloperidol in geriatric patients generally warrants the use of lower doses (see <linkHtml href="#LINK_fb5382c1-cd51-41c8-beef-5696a789358c">DOSAGE AND ADMINISTRATION</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b92d5734-aa94-46da-9fb0-8cce725aae99">
+                     <id root="f9d0c777-8128-448c-9a39-c74fad04da3a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use in Hepatic Impairment</title>
+                     <text>
+                        <paragraph>Studies in patients with hepatic impairment have not been conducted. Haloperidol concentrations may increase in hepatically impaired patients, because it is primarily metabolized by the liver and protein binding may decrease. </paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2286bc95-35da-467e-9e27-2a38e7706cd5">
+               <id root="268439ae-e14d-4d2f-a44b-f89b4c240976"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions are discussed in more detail in other sections of the labeling: </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>
+                        <linkHtml href="#www.splportal.comLINK_14a68b46-ca0b-4cf4-84a3-0a5dfe6b031d">WARNINGS, Increased mortality in Elderly Patients with Dementia-Related Psychosis</linkHtml>
+                     </item>
+                     <item>
+                        <linkHtml href="#www.splportal.comLINK_4b2b485a-93cd-450f-8527-1b01c3a2f677">WARNINGS, Cardiovascular Effects</linkHtml>
+                     </item>
+                     <item>
+                        <linkHtml href="#www.splportal.comLINK_c9f93bc9-1cb7-4c9c-991f-8285a4a55477">WARNINGS, Tardive Dyskinesia</linkHtml>
+                     </item>
+                     <item>
+                        <linkHtml href="#www.splportal.comLINK_490609ed-3911-438c-a955-8d9b72e3c65e">WARNINGS, Neuroleptic Malignant Syndrome</linkHtml>
+                     </item>
+                     <item>
+                        <linkHtml href="#www.splportal.comLINK_21b78c83-35fc-4b91-9e36-290c1534e24b">WARNINGS, Hypersensitivity Reactions</linkHtml>
+                     </item>
+                     <item>
+                        <linkHtml href="#www.splportal.comLINK_8cbcd3b2-3ff6-4ac2-b7cf-23bbbd1028c4">WARNINGS, Falls</linkHtml>
+                     </item>
+                     <item>
+                        <linkHtml href="#www.splportal.comLINK_d39b1bb6-1021-4bcc-886d-b4eefaeba73e">WARNINGS, Usage in Pregnancy</linkHtml>
+                     </item>
+                     <item>
+                        <linkHtml href="#www.splportal.comLINK_55ecdfe8-a68c-4c16-bddc-8618e466eaf1">WARNINGS, Combined Use of Haloperidol and Lithium</linkHtml>
+                     </item>
+                     <item>
+                        <linkHtml href="#www.splportal.comLINK_492deebf-2cf2-4503-8e03-69e5241611b3">WARNINGS, General</linkHtml>
+                     </item>
+                     <item>
+                        <linkHtml href="#www.splportal.comLINK_00bd05f0-7984-4a87-8b3f-38c9b8a54e91">PRECAUTIONS, Leukopenia, Neutropenia, and Agranulocytosis</linkHtml>
+                     </item>
+                     <item>
+                        <linkHtml href="#www.splportal.comLINK_f8084333-a54c-4330-a2c7-84c8aa497edb">PRECAUTIONS, Withdrawal Emergent Dyskinesia</linkHtml>
+                     </item>
+                     <item>
+                        <linkHtml href="#www.splportal.comLINK_856733f4-d53a-4794-a148-88fa577337e2">PRECAUTIONS, Other</linkHtml>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <section ID="LINK_7a48b207-abc4-4791-80dd-1ddcb11982c9">
+                     <id root="94e81418-130a-44c5-929e-708141945e08"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Clinical Trials Experience</content>
+                     </title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug, and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>The data described below reflect exposure to haloperidol in the following:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>284 patients who participated in 3 double-blind, placebo-controlled clinical trials with haloperidol (oral formulation, 2 to 20 mg/day); two trials were in the treatment of schizophrenia and one in the treatment of bipolar disorder.</item>
+                        </list>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>1295 patients who participated in 16 double-blind, active comparator-controlled clinical trials with haloperidol (injection or oral formulation, 1 to 45 mg/day) in the treatment of schizophrenia.</item>
+                        </list>
+                        <paragraph>Based on the pooled safety data, the most common adverse reactions in haloperidol-treated patients from these double-blind placebo-controlled clinical trials (≥5%) were: extrapyramidal disorder, hyperkinesia, tremor, hypertonia, dystonia, and somnolence.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                     <component>
+                        <section ID="LINK_62d0e25e-0338-447f-b42e-5066c374fec0">
+                           <id root="b9c79b37-e653-4e2d-8523-d1ecba1897e2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Adverse Reactions Reported at
+≥1% Incidence in Double-Blind Placebo‑Controlled Clinical Trials with Oral
+Haloperidol</content>
+                           </title>
+                           <text>
+                              <paragraph>Adverse reactions occurring in ≥1% of haloperidol-treated patients and at higher rate than placebo in 3 double-blind, parallel, placebo-controlled, clinical trials with the oral formulation are shown in Table 1.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Table 1. </content>Adverse Reactions Occurring in ≥1% of Haloperidol-Treated Patients in Double-Blind, Parallel Placebo-Controlled Clinical Trials (Oral Haloperidol)</paragraph>
+                              <table cellspacing="0" cellpadding="0" border="1">
+                                 <col width="1pt"/>
+                                 <col width="72.1pt"/>
+                                 <col width="76.3pt"/>
+                                 <tbody>
+                                    <tr>
+                                       <td>
+                                          <paragraph>
+                                             <content styleCode="bold">System/Organ Class</content>
+                                          </paragraph>
+                                          <paragraph>Adverse Reaction</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>Haloperidol</paragraph>
+                                          <paragraph>(n=284)</paragraph>
+                                          <paragraph>%</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>Placebo</paragraph>
+                                          <paragraph>(n=282)</paragraph>
+                                          <paragraph>%</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td colspan="3" styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>
+                                             <content styleCode="bold">Gastrointestinal Disorders</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>Constipation</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>4.2</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>1.8</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>Dry mouth</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>1.8</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>0.4</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>Salivary hypersecretion</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>1.2</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>0.7</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td colspan="3" styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>
+                                             <content styleCode="bold">Nervous System Disorders</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>Extrapyramidal disorder a</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>50.7</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>16</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>Hyperkinesia</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>10.2</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>2.5</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>Tremor</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>8.1</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>3.6</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>Hypertonia</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>7.4</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>0.7</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>Dystonia</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>6.7</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>0.4</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>Bradykinesia</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>4.2</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>0.4</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>Somnolence</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>5.3</paragraph>
+                                       </td>
+                                       <td styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>1.1</paragraph>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>
+                                 <sup>a </sup>Represents the total reporting rate for extrapyramidal disorder (reported term) and individual symptoms of extrapyramidal disorder, including events that did not meet the threshold of ≥1% for inclusion in this table.</paragraph>
+                              <br/>
+                           </text>
+                           <effectiveTime value="20241212"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_8b7a1671-c5c2-47c5-9686-b1d869a77904">
+                           <id root="1f5d6a79-2f37-4aff-b2d2-d5863760d74c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Additional
+Adverse Reactions Reported in Double-Blind, Placebo- or Active
+Comparator-Controlled Clinical Trials with Injectable or Oral Haloperidol</content>
+                           </title>
+                           <text>
+                              <paragraph>Additional adverse reactions that are listed below were reported by haloperidol‑treated patients in double-blind, active comparator-controlled clinical trials with the injectable or oral formulation, or at &lt;1% incidence in double-blind, parallel, placebo-controlled, clinical trials with the oral formulation.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Cardiac Disorders</content>: Tachycardia</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Endocrine Disorders</content>: Hyperprolactinemia</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Eye Disorders</content>: Vision blurred</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Investigations</content>: Weight increased</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Musculoskeletal and Connective Tissue Disorders</content>: Torticollis, Trismus, Muscle rigidity, Muscle twitching</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Nervous System Disorders</content>: Akathisia, Dizziness, Dyskinesia, Hypokinesia, Neuroleptic malignant syndrome, Nystagmus, Oculogyric crisis, Parkinsonism, Sedation, Tardive dyskinesia</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Psychiatric Disorders</content>: Loss of libido, Restlessness</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Reproductive System and Breast Disorders</content>: Amenorrhea, Galactorrhea, Dysmenorrhea, Erectile dysfunction, Menorrhagia, Breast discomfort</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Skin and Subcutaneous Tissue Disorders</content>: Acneiform skin reactions</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Vascular Disorders</content>: Hypotension, Orthostatic hypotension</paragraph>
+                           </text>
+                           <effectiveTime value="20241212"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_0de764a3-a391-42af-8bd3-5e642f40e488">
+                           <id root="bd4da9a4-375c-4828-a2cb-1d1dcfb7ce05"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Adverse
+Reactions Identified in Clinical Trials with Haloperidol Decanoate</title>
+                           <text>
+                              <paragraph>The adverse reactions listed below were identified in clinical trials with haloperidol decanoate (long-acting depot formulation), and reflect exposure to the active moiety haloperidol in 410 patients who participated in 13 clinical trials with haloperidol decanoate (15 to 500 mg/month) in the treatment of schizophrenia or schizoaffective disorder. These clinical trials comprised:</paragraph>
+                              <paragraph>• 1 double-blind, active comparator-controlled trial with fluphenazine decanoate.</paragraph>
+                              <paragraph>• 2 trials comparing the decanoate formulation to oral haloperidol.</paragraph>
+                              <paragraph>• 9 open-label trials.</paragraph>
+                              <paragraph>• 1 dose-response trial.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Nervous System Disorders: </content>Akinesia, Cogwheel rigidity, Masked facies.</paragraph>
+                           </text>
+                           <effectiveTime value="20241212"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e7fc45b2-b0ff-45fa-9f8b-03b1c6a1f9ef">
+                     <id root="667d0d1b-88da-4dfc-9df7-ef15437c0ab8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Postmarketing Experience</content>
+                     </title>
+                     <text>
+                        <paragraph>The following adverse reactions relating to the active moiety haloperidol have been identified during postapproval use of haloperidol or haloperidol decanoate. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Blood and Lymphatic System      Disorders: </content>Pancytopenia, Agranulocytosis, Thrombocytopenia, Leukopenia, Neutropenia</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cardiac Disorders:</content> Ventricular fibrillation, Torsade de pointes, Ventricular tachycardia, Extrasystoles</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Endocrine Disorders: </content>Inappropriate antidiuretic hormone secretion</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Gastrointestinal Disorders: </content>Vomiting, Nausea</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">General Disorders and Administration Site Conditions: </content>Sudden death, Face edema, Edema, Hyperthermia, Hypothermia</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatobiliary Disorders: </content>Acute hepatic failure, Hepatitis, Cholestasis, Jaundice, Liver function test abnormal</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Immune System Disorders: </content>Anaphylactic reaction, Hypersensitivity</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Investigations: </content>Electrocardiogram QT prolonged, Weight decreased </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolic and Nutritional Disorders: </content>Hypoglycemia </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Musculoskeletal and Connective Tissue Disorders: </content>Rhabdomyolysis</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nervous System Disorders: </content>Convulsion, Headache, Opisthotonus, Tardive dystonia</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Pregnancy, Puerperium and Perinatal Conditions: </content>Drug withdrawal syndrome neonatal</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Psychiatric Disorders: </content>Agitation, Confusional state, Depression, Insomnia</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal and Urinary Disorders: </content>Urinary retention</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Reproductive System and Breast Disorders: </content>Priapism, Gynecomastia</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Respiratory, Thoracic and Mediastinal Disorders: </content>Laryngeal edema, Bronchospasm, Laryngospasm, Dyspnea</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Skin and Subcutaneous Tissue Disorders: </content>Angioedema<content styleCode="italics">, </content>Dermatitis exfoliative, Hypersensitivity vasculitis, Photosensitivity reaction, Urticaria, Pruritus, Rash, Hyperhidrosis</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5b0f35b0-8116-48cd-bfd3-b7f285fb84fd">
+               <id root="cc5cec95-5a7b-4eeb-bf6a-86e28accd751"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <section ID="LINK_85a0d552-9ab1-4bc8-89a0-3165316a6985">
+                     <id root="c277558c-26fe-43b7-a716-b0f17f468483"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Manifestations</title>
+                     <text>
+                        <paragraph>In general, the symptoms of overdosage would be an exaggeration of known pharmacologic effects and adverse reactions, the most prominent of which would be: 1) severe extrapyramidal reactions, 2) hypotension, or 3) sedation. The patient would appear comatose with respiratory depression and hypotension which could be severe enough to produce a shock-like state. The extrapyramidal reactions would be manifested by muscular weakness or rigidity and a generalized or localized tremor as demonstrated by the akinetic or agitans types respectively. With accidental overdosage, hypertension rather than hypotension occurred in a two-year old child. The risk of ECG changes associated with torsade de pointes should be considered. (For further information regarding torsade de pointes, please refer to <content styleCode="bold">
+                              <linkHtml href="#LINK_2286bc95-35da-467e-9e27-2a38e7706cd5">ADVERSE REACTIONS</linkHtml>
+                           </content>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f7f4af11-9e5e-467c-86a4-1c42fc7e6be1">
+                     <id root="5f177076-c45b-48ea-a418-cd98daa0d263"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment</title>
+                     <text>
+                        <paragraph>Since there is no specific antidote, treatment is primarily supportive. Dialysis is not recommended in the treatment of overdose because it removes only very small amounts of haloperidol. A patent airway must be established by use of an oropharyngeal airway or endotracheal tube or, in prolonged cases of coma, by tracheostomy.</paragraph>
+                        <paragraph>Respiratory depression may be counteracted by artificial respiration and mechanical respirators. Hypotension and circulatory collapse may be counteracted by use of intravenous fluids, plasma, or concentrated albumin, and vasopressor agents such as metaraminol, phenylephrine and norepinephrine. Epinephrine must not be used. In case of severe extrapyramidal reactions, antiparkinson medication should be administered. ECG and vital signs should be monitored especially for signs of QTc‑interval prolongation or dysrhythmias and monitoring should continue until the ECG is normal. Severe arrhythmias should be treated with appropriate anti‑arrhythmic measures.</paragraph>
+                        <paragraph>In case of an overdose, consult a Certified Poison Control Center (1-800-222-1222).</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fb5382c1-cd51-41c8-beef-5696a789358c">
+               <id root="de219ae9-cc1f-44c6-a192-41619bf42388"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>There is considerable variation from patient to patient in the amount of medication required for treatment. As with all drugs used to treat schizophrenia, dosage should be individualized according to the needs and response of each patient. Dosage adjustments, either upward or downward, should be carried out as rapidly as practicable to achieve optimum therapeutic control.</paragraph>
+                  <paragraph>To determine the initial dosage, consideration should be given to the patient's age, severity of illness, previous response to other antipsychotic drugs, and any concomitant medication or disease state. Debilitated or geriatric patients, as well as those with a history of adverse reactions to antipsychotic drugs, may require less haloperidol. The optimal response in such patients is usually obtained with more gradual dosage adjustments and at lower dosage levels.</paragraph>
+                  <paragraph>Parenteral medication, administered intramuscularly in doses of 2 to 5 mg, is utilized for prompt control of the acutely agitated schizophrenic patient with moderately severe to very severe symptoms. Depending on the response of the patient, subsequent doses may be given, administered as often as every hour, although 4 to 8 hour intervals may be satisfactory. The maximum dose is 20 mg/day.</paragraph>
+                  <paragraph>Controlled trials to establish the safety and effectiveness of intramuscular administration in children have not been conducted.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <section ID="LINK_9e4f5ac9-edb5-4a51-bbf2-8e4edfebb6f3">
+                     <id root="ef17c599-aea4-414b-8195-5243a12feb45"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Switchover Procedure</title>
+                     <text>
+                        <paragraph>An oral form should supplant the injectable as soon as practicable. In the absence of bioavailability studies establishing bioequivalence between these two dosage forms the following guidelines for dosage are suggested. For an initial approximation of the total daily dose required, the parenteral dose administered in the preceding 24 hours may be used. Since this dose is only an initial estimate, it is recommended that careful monitoring of clinical signs and symptoms, including clinical efficacy, sedation, and adverse effects, be carried out periodically for the first several days following the initiation of switchover. In this way, dosage adjustments, either upward or downward, can be quickly accomplished. Depending on the patient's clinical status, the first oral dose should be given within 12 to 24 hours following the last parenteral dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20241212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_bbb2a2f7-d8fe-481f-8f1d-2d92cf260148">
+               <id root="0b5886f8-a533-4e8d-9578-eb42d897b980"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Haloperidol Injection, USP, equivalent to 5 mg/mL haloperidol (as the lactate), is supplied as follows:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0143-9501-25 </content>- 1 mL Single-dose vial in carton of 25.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0143-9502-01 </content>- 10 mL Multiple-dose vial individually boxed.</paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature]. <content styleCode="bold">Protect from light</content>. <content styleCode="bold">Do not freeze</content>.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Hikma Pharmaceuticals USA Inc. at 1-877-845-0689, or the FDA at 1-800-FDA-1088 or <content styleCode="underline">www.fda.gov/medwatch</content>.</paragraph>
+                  <paragraph>For Product Inquiry call 1-877-845-0689.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by</content>
+                  </paragraph>
+                  <paragraph>HIKMA FARMACÊUTICA (PORTUGAL), S.A.</paragraph>
+                  <paragraph>Estrada do Rio da Mó, 8, 8A e 8B – Fervença</paragraph>
+                  <paragraph>2705-906 Terrugem SNT, PORTUGAL</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by</content>
+                  </paragraph>
+                  <paragraph>Hikma Pharmaceuticals USA Inc.</paragraph>
+                  <paragraph>Berkeley Heights, NJ 07922</paragraph>
+                  <paragraph>Revised December 2024</paragraph>
+                  <paragraph>PIN425-WES/13</paragraph>
+               </text>
+               <effectiveTime value="20241212"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9e1301e8-70d2-4305-86e2-c9c9e276880b">
+               <id root="00d00f67-2daa-4845-b197-9ea4bd842849"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>VIAL LABEL - 1 mL</title>
+               <text>
+                  <paragraph>NDC 0143-<content styleCode="bold">9501</content>-01   Rx only<br/>
+                     <content styleCode="bold">Haloperidol<br/>
+                     </content>
+                     <content styleCode="bold">Injection, USP<br/>
+                     </content>
+                     <content styleCode="bold">(For Immediate Release)<br/>
+                     </content>
+                     <content styleCode="bold">5 mg/mL<br/>For Intramuscular<br/>use ONLY<br/>1 mL Single Dose Vial</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PLB955-WES.3</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="haloperidol-injection-usp-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_50133ccf-8aa6-471b-8411-938b4122a8b8">
+               <id root="bc9bb83b-2cd6-4787-ad99-33e665d6c428"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>VIAL LABEL - 10 mL</title>
+               <text>
+                  <paragraph>NDC 0143-<content styleCode="bold">9502</content>-01    Rx only<br/>
+                     <content styleCode="bold">Haloperidol<br/>Injection, USP<br/>(For Immediate Release)<br/>50 mg per 10 mL<br/>(5 mg/mL)<br/>For Intramuscular<br/>use ONLY</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PLB956-WES.3</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="haloperidol-injection-usp-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fe408b06-cab6-41db-8d5d-67755836ff59">
+               <id root="e2e3482a-d914-4d62-9a7c-c8c51c4b775d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>CARTON LABEL - 1 mL</title>
+               <text>
+                  <paragraph>NDC 0143-<content styleCode="bold">9501</content>-25   Rx only<br/>
+                     <content styleCode="bold">Haloperidol<br/>Injection, USP<br/>(For Immediate Release)<br/>5 mg/mL<br/>For Intramuscular<br/>use ONLY<br/>
+                     </content>25 x 1 mL Single Dose Vials</paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>PLB044-WES.4</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="haloperidol-injection-usp-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_669488a3-3dd2-4fd7-97d9-f251a72d4c64">
+               <id root="ad9c0398-d968-43ae-94af-9411d895abea"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>CARTON  - 10 mL</title>
+               <text>
+                  <paragraph>NDC 0143-<content styleCode="bold">9502</content>-01     Rx only<br/>
+                     <content styleCode="bold">Haloperidol<br/>Injection, USP<br/>(For Immediate Release)<br/>50 mg per 10 mL<br/>(5 mg/mL)<br/>For Intramuscular<br/>use ONLY<br/>
+                     </content>10 mL Sterile Multiple Dose Vial</paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+                  <br/>
+               </text>
+               <effectiveTime value="20241212"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>PLB671-WES.4</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="haloperidol-injection-usp-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

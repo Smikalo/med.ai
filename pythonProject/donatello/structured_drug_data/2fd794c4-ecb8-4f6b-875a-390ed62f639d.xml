@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2fd794c4-ecb8-4f6b-875a-390ed62f639d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Clobetasol Propionate Ointment USP, 0.05%</content>
+      <br/>
+      <content styleCode="bold"> Rx only</content>
+      <br/>
+      <content styleCode="bold"> FOR TOPICAL DERMATOLOGIC USE ONLY </content>
+      <br/>
+      <content styleCode="bold"> NOT FOR OPHTHALMIC, ORAL OR INTRAVAGINAL USE.</content>
+      <br/>
+   </title>
+   <effectiveTime value="20250305"/>
+   <setId root="087c5aee-d7fd-42ce-b213-14c810292808"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="791119022" root="1.3.6.1.4.1.519.1"/>
+            <name>Preferred Pharmaceuticals Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="791119022" root="1.3.6.1.4.1.519.1"/>
+                  <name>Preferred Pharmaceuticals Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="791119022" root="1.3.6.1.4.1.519.1"/>
+                        <name>Preferred Pharmaceuticals Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68788-7963" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="94418fcc-cf9e-4290-be98-cbefe1f8705d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250305"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68788-7963" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Clobetasol Propionate</name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Clobetasol Propionate Ointment, 0.05%</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="21922-017" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0W8RRI5W5A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITAN SESQUIOLEATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.5"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="779619577M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CLOBETASOL PROPIONATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="ADN79D536H" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CLOBETASOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="15"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="68788-7963-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210719"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="68788-7963-3" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210719"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="60"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="68788-7963-6" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210719"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA211295" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210719"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="6ce3d8c7-695f-4e95-adae-165a25f3f636"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Clobetasol propionate ointment USP contains the active compound clobetasol propionate, a synthetic corticosteroid, for topical dermatologic use. Clobetasol, an analog of prednisolone, has a high degree of glucocorticoid activity and a slight degree of mineralocorticoid activity.</paragraph>
+                  <paragraph>Chemically, clobetasol propionate is (11β, 16β)-21-chloro-9-fluoro-11-hydroxy-16-methyt-17-(1-oxopropoxy)-pregna-1,4-diene-3,20-dione, and it has the following structural formula:</paragraph>
+                  <renderMultiMedia ID="id312" referencedObject="MM1"/>
+                  <paragraph>  <br/>Clobetasol propionate has the empirical formula C<sub>25</sub>H<sub>32</sub>ClFO<sub>5</sub> and a molecular weight of 467. It is a white to cream-colored crystalline powder insoluble in water.<br/>
+                     <br/>Clobetasol propionate ointment USP, 0.05% contains clobetasol propionate 0.5 mg/g in a base of propylene glycol, sorbitan sesquioleate, and white petrolatum.</paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Structure 2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="structure-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="315cef5c-928a-401b-ba9b-e82c4a2a2c9d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear. However, corticosteroids are thought to act by the induction of phospholipase  A<sub>2</sub>  inhibitory proteins, collectively called lipocortins. It is postulated that these proteins control the biosynthesis of potent mediators of inflammation such as prostaglandins  and  leukotrienes  by inhibiting the release of their common precursor, arachidonic acid. Arachidonic acid is released frommembrane phospholipids by phospholipase A<sub>2</sub>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacokinetics : </content>The extent of percutaneous absorption of topical corticosteroids is determined by many factors, including the vehicle and the integrity of the epidermal barrier. Occlusive dressing with hydrocortisone for up to 24 hours has not been demonstrated to  increase  penetration; however, occlusion of hydrocortisone for 96 hours  markedly enhances  penetration. Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease  processes in the  skin may increase percutaneous absorption. <br/> Studies performed with clobetasol propionate ointment indicate that it is in the super-high range of potency as compared with other topical  corticosteroids.</paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="cc6495cd-a19c-41fb-98b7-8c8afabb5555"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Clobetasol propionate ointment USP, 0.05% is super-high potency corticosteroid formulations indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses. Treatment beyond 2 consecutive weeks is not recommended, and the total dosage should not exceed 50 g/week because of the potential for the drug to suppress the hypothalamic-pituitary- adrenal (HPA) axis. Use in pediatric patients under 12 years of age is not recommended. <br/>
+                     <br/> As with other highly active corticosteroids, therapy should be discontinued when control has been achieved. If no improvement is seen within 2 weeks, reassessment of the diagnosis may be necessary.</paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="4a0f48e4-8e40-4fa3-88ab-9b558611e040"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Clobetasol propionate ointment is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparations.</paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="4fbcc431-cfc8-41ba-8457-690d459ce3a8"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20250305"/>
+               <component>
+                  <section ID="Section_6.1">
+                     <id root="d5f4a995-b010-4dcd-887b-7bcf1c0e2a51"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General:</title>
+                     <text>
+                        <paragraph>Clobetasol propionate ointment USP, 0.05% should not be used in the treatment of rosacea or perioral dermatitis, and should not be used on the face, groin, or axillae.<br/>
+                           <br/> Systemic absorption of topical corticosteroids can produce reversible HPA axis suppression with the potential for glucocorticosteroid insufficiency after withdrawal from treatment. Manifestations of Cushing's syndrome, hyperglycemia, and glucosuria can also be produced in some patients by systemic absorption of topical corticosteroids while on therapy.<br/>
+                           <br/> Patients applying a topical steroid to a large surface area or to areas under occlusion should be evaluated periodically for evidence of HPA axis suppression. This may be done by using the ACTH stimulation, A.M. plasma cortisol, and urinary free cortisol tests. Patients receiving super-potent corticosteroids should not be treated for more than 2 weeks at a time, and only small areas should be treated at any one time due to the increased risk of HPA suppression.<br/>
+                           <br/> Clobetasol propionate ointment produced HPA axis suppression when used at doses as low as 2 g/day for 1 week in patients with eczema.<br/>  <br/> If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or to substitute a less potent corticosteroid. Recovery of HPA axis function is generally prompt upon discontinuation of topical corticosteroids. Infrequently, signs and symptoms of glucocorticosteroid insufficiency may occur that require supplemental systemic corticosteroids. For information on systemic supplementation, see prescribing information for those products.<br/>
+                           <br/> Pediatric patients may be more susceptible to systemic toxicity from equivalent doses due to their larger skin surface to body mass ratios (see <linkHtml href="#Section_6.10">PRECAUTIONS: Pediatric Use</linkHtml>).<br/>
+                           <br/> If irritation develops, clobetasol propionate ointment should be discontinued and appropriate therapy instituted. Allergic contact dermatitis with corticosteroids is usually diagnosed by observing a<content styleCode="italics"> failure to heal</content>  rather than noting a clinical exacerbation as with most topical products not containing corticosteroids. Such an observation should be corroborated with appropriate diagnostic patch testing.<br/>
+                           <br/> If concomitant skin infections are present or develop, an appropriate antifungal or antibacterial agent should be used. If a favorable response does not occur promptly, use of clobetasol propionate ointment should be discontinued until the infection has been adequately controlled.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.2">
+                     <id root="9ad7c7f9-515c-4d3d-8f20-268a519b3bd5"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients:</title>
+                     <text>
+                        <paragraph>Patients using topical corticosteroids should receive the following information and instructions:<br/> 1. This medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes.<br/> 2. This medication should not be used for any disorder other than that for which it was prescribed.<br/> 3. The treated skin area should not be bandaged, otherwise covered, or wrapped so as to be occlusive unless directed by the physician.<br/> 4. Patients should report any signs of local adverse reactions to the physician.  </paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.3">
+                     <id root="6c9f2493-abc8-4a12-8a1a-b6944d8b8e93"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests:</title>
+                     <text>
+                        <paragraph>The following tests may be helpful in evaluating patients for HPA axis suppression: <br/> ACTH stimulation test, <br/> A.M. plasma cortisol test, <br/> Urinary free cortisol test.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.6">
+                     <id root="91dbc500-cf95-4a3a-9ef5-039eb469ccdb"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility:</title>
+                     <text>
+                        <paragraph>Long-term animal studies have not been performed to evaluate the carcinogenic potential of clobetasol propionate. Studies in the rat following subcutaneous administration at dosage levels up to 50 mcg/kg per day revealed that the females exhibited an increase in the number of resorbed embryos and a decrease in the number of living fetuses at the highest dose. Clobetasol propionate was nonmutagenic in 3 different test systems: the Ames test, the <content styleCode="italics">Saccharomyces cerevisiae</content> gene conversion assay, and the <content styleCode="italics">E. coli</content> B WP2 fluctuation test.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.7">
+                     <id root="09203ae1-6386-490f-9fb2-43db5588e0a8"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy: Teratogenic Effects:</title>
+                     <text>
+                        <paragraph>Corticosteroids have been shown to be teratogenic in laboratory animals when administered systemically at relatively low dosage levels. Some corticosteroids have been shown to be teratogenic after dermal application to laboratory animals. Clobetasol propionate has not been tested for teratogenicity when applied topically; however, it is absorbed percutaneously, and when administered subcutaneously it was a significant teratogen in both the rabbit and mouse. Clobetasol propionate has greater teratogenic potential than steroids that are less potent.<br/>
+                           <br/>Teratogenicity studies in mice using the subcutaneous route resulted in fetotoxicity at the highest dose tested (1 mg/kg) and teratogenicity at all dose levels tested down to 0.03 mg/kg. These doses are approximately 1.4 and 0.04 times, respectively, the human topical dose of clobetasol propionate ointment. Abnormalities seen included cleft palate and skeletal abnormalities.<br/> In rabbits, clobetasol propionate was teratogenic at doses of 3 and 10 mcg/kg. These doses are approximately 0.02 and 0.05 times, respectively, the human topical dose of clobetasol propionate ointment. Abnormalities seen included cleft palate, cranioschisis, and other skeletal abnormalities. There are no adequate and well-controlled studies of the teratogenic potential of clobetasol propionate in pregnant women. Clobetasol propionate ointment should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.9">
+                     <id root="91b1cbfc-b830-45f2-8bea-c74f41a897c4"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers:</title>
+                     <text>
+                        <paragraph>Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. It is not known whether topical administration of corticosteroids  could  result in sufficient systemic  absorption to produce detectable quantities in human milk. Because many drugs are excreted in human milk, caution should be exercised when either clobetasol propionate ointment is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.10">
+                     <id root="18ebc54d-c7ea-4d11-892b-583f8a626314"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use:</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of clobetasol propionate ointment in pediatric patients have not been established. Use in pediatric patients under 12 years of age is not recommended. Because of a higher ratio of skin surface area to body mass, pediatric patients are at a greater risk than adults of HPA axis suppression and Cushing's syndrome when they are treated with topical corticosteroids. They are therefore also at greater risk of adrenal insufficiency during or after withdrawal of treatment. Adverse effects including striae have been reported with inappropriate use of topical corticosteroids in infants and children.<br/>
+                           <br/> HPA axis suppression, Cushing's syndrome, linear growth retardation, delayed weight gain and intracranial hypertension have been reported in children receiving topical corticosteroids. Manifestations of adrenal suppression in children include low plasma cortisol levels, and an absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.11">
+                     <id root="343f11ae-3272-4b82-91ba-e39a807511d9"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use:</title>
+                     <text>
+                        <paragraph>A limited number of patients at or above 65 years of age have been treated with clobetasol propionate ointment (n = 101) in US and non-US clinical trials. While the number of patients is too small to permit separate analysis of efficacy and safety, the adverse reactions reported in this population were similar to those reported by younger patients. Based on available data, no adjustment of dosage of clobetasol propionate ointment in geriatric patients is warranted.</paragraph>
+                     </text>
+                     <effectiveTime value="20250305"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="1de74d39-50bb-4ca2-9e17-cff525c0e7c8"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>In controlled clinical trials, the most frequent adverse events reported for clobetasol propionate ointment were burning sensation, irritation, and itching in 0.5% of treated patients. Less frequent adverse reactions were stinging, cracking, erythema, folliculitis, numbness of fingers, skin atrophy, and telangiectasia</paragraph>
+                  <paragraph>Cushing's syndrome has been reported in infants and adults as a result of prolonged use of topical clobetasol propionate formulations.</paragraph>
+                  <paragraph>The following additional local adverse reactions have been reported with topical corticosteroids, and they may occur more frequently with the use of occlusive dressings and higher potency corticosteroids. These reactions are listed in an approximately decreasing order of occurrence: dryness, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, secondary infection, irritation, striae, and miliaria.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Encube Ethicals Private Limited at 1-833-285-4151 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="0c7071a2-66c5-4abb-b626-293dfad7b4aa"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Topically applied clobetasol propionate ointment can be absorbed in sufficient amounts to produce systemic effects (see <linkHtml href="#Section_6">PRECAUTIONS</linkHtml>).</paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="7c06ff44-3251-4393-b1d5-24d01d44cbab"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Apply a thin layer of clobetasol propionate ointment to the affected skin areas twice daily and rub in gently and completely. (See <linkHtml href="#Section_3">INDICATIONS AND USAGE</linkHtml>.) <br/>
+                     <br/> Clobetasol propionate ointment are super- high potency topical corticosteroids; therefore, <content styleCode="bold">treatment should be limited to 2 consecutive weeks , and amounts greater than 50 g per week should not be used</content>.<br/>
+                     <br/> As with other highly active corticosteroids, therapy should be discontinued when control has been achieved. If no improvement is seen within 2 weeks, reassessment of diagnosis may be necessary.<br/> Clobetasol propionate ointment should not be used with occlusive dressings<content styleCode="bold">.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Geriatric Use</content>: In studies where geriatric patients (65 years of age or older, see <linkHtml href="#Section_6">PRECAUTIONS</linkHtml>) have been treated with clobetasol propionate ointment, safety did not differ from that in younger patients; therefore, no dosage adjustment is recommended.</paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="ca68b27c-8432-43db-b96b-e0f93fe6ec6a"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Clobetasol Propionate Ointment USP, 0.05% is supplied in: <br/>15 g tube (NDC 68788-7963-1)              <br/> 30 g tube (NDC  68788-7963-3)              <br/> 60 g tube (NDC 68788-7963-6)              <br/> Store at controlled room temperature 15°-30°C (59°-86°F). DO NOT REFRIGERATE.  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Product of Italy</content>
+                     <br/>
+                     <br/>
+                     <br/>Manufactured by:<br/>
+                     <content styleCode="bold"> Encube Ethicals Pvt. Ltd.</content>
+                     <br/> Plot No. C-1, Madkaim Industrial Estate,<br/> Madkaim, Post: Mardol, <br/> Ponda, Goa - 403 404, <br/> India. <br/>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>Distributed by:<br/>
+                     <content styleCode="bold"> Encube Ethicals Inc.</content>
+                     <br/>200 Meredith Drive, Suite 202<br/>Durham, NC 27713 USA<br/> Revision. 03<br/>
+                     <br/>Jan 2024</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Relabeled By: Preferred Pharmaceuticals Inc.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_17">
+               <id root="58040fee-511b-43d4-b6d4-c381202be37f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE LABEL-PRINCIPAL DISPLAY PANEL </content>
+                  </paragraph>
+                  <paragraph>NDC 68788-7963</paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Clobetasol Propionate Ointment USP, 0.05% </content>
+                     <br/>Rx only </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For dermatologic use only. </content>
+                     <br/>
+                     <content styleCode="bold"> Not for ophthalmic use.</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>  </paragraph>
+                  <renderMultiMedia ID="id616" referencedObject="MM3"/>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250305"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Clobetasol Propionate Ointment 0.05% </text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="carton-30g.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

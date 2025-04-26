@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e4ea0c09-cdd1-4708-962c-6ba28b989df3"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Metronidazole Injection, USP </content>
+      <br/>
+      <content styleCode="bold">500 mg per 100 mL (5 mg per mL)</content>
+      <br/>
+      <content styleCode="bold">Single Dose Container</content>
+      <br/>
+      <content styleCode="bold">(For Intravenous Infusion Only) </content>
+   </title>
+   <effectiveTime value="20250318"/>
+   <setId root="e4ea0c09-cdd1-4708-962c-6ba28b989df3"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="829274633" root="1.3.6.1.4.1.519.1"/>
+            <name>WG Critical Care, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="829274633" root="1.3.6.1.4.1.519.1"/>
+                  <name>WG Critical Care, LLC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="481732753" root="1.3.6.1.4.1.519.1"/>
+                        <name>InfoRLife SA</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="44567-750" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="7062be1d-b184-43eb-a014-a5d0e77bc493"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250318"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="44567-750"/>
+                        <name>Metronidazole</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Metronidazole</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="140QMO216E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Metronidazole</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="140QMO216E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Metronidazole</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="94255I6E2T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Phosphate, Dibasic, Dihydrate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Anhydrous Citric Acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="44567-750-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="24"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="44567-750-24" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20250131"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA206191" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250131"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="f102d3ff-f2ce-4e98-ae94-0f81c5ae0fd5"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Metronidazole Injection and other antibacterial drugs, Metronidazole Injection should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria. </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="ec08d9dc-329e-4d1e-bf0c-bb4a7ba4eca2"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNING</content>
+                  </paragraph>
+                  <paragraph>Metronidazole has been shown to be carcinogenic in mice and rats (see <content styleCode="bold">
+                        <linkHtml href="#s23">PRECAUTIONS</linkHtml>
+                     </content>). Its use, therefore, should be reserved for the conditions described in the <content styleCode="bold">
+                        <linkHtml href="#s10">INDICATIONS AND USAGE</linkHtml>
+                     </content> section below. </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="7cc0404a-9751-442c-820d-4da6fa63ca8d"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34089-3" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION </title>
+               <text>
+                  <paragraph>Metronidazole Injection, USP is a sterile, parenteral dosage form of metronidazole in water. </paragraph>
+                  <paragraph>Each 100 mL of Metronidazole Injection, USP contains a sterile, nonpyrogenic, isotonic, buffered solution of Metronidazole, USP 500 mg, Sodium Chloride, USP 740 mg, Dibasic Sodium Phosphate Dihydrate, USP 75 mg and Citric Acid Anhydrous, USP 40 mg in Water for Injection, USP. Metronidazole Injection, USP has a calculated osmolality from 270 to 310 mOsmol/kg and a pH from 4.5 to 6.0. Sodium content: 13.5 mEq/container. </paragraph>
+                  <paragraph>Metronidazole is classified as a nitroimidazole antimicrobial and is administered by the intravenous route. </paragraph>
+                  <paragraph>Metronidazole, USP is chemically designated 2-methyl-5-nitroimidazole-1-ethanol (C<sub>6</sub>H<sub>9</sub>N<sub>3</sub>O<sub>3</sub>): </paragraph>
+                  <renderMultiMedia referencedObject="ID_6d41f8ab-abde-418d-8101-10cd296c121c" ID="f01"/>
+                  <paragraph>Not made with natural rubber latex. </paragraph>
+                  <paragraph>The flexible container is fabricated from a specially formulated non-plasticized, thermoplastic copolyolephine. The amount of water that can permeate from the container into the overwrap is insufficient to affect the solution significantly. Solutions in contact with the flexible container can leach out certain of the container's chemical components in very small amounts within the expiration period. The suitability of the container material has been confirmed by tests in animals according to USP biological tests for plastic containers. </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+               <component>
+                  <observationMedia ID="ID_6d41f8ab-abde-418d-8101-10cd296c121c">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="met08-0008-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="d7bc664a-9ec8-4670-a0cf-0ea9a67b6552"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY </title>
+               <text>
+                  <paragraph>Metronidazole is a synthetic antibacterial compound. Disposition of metronidazole in the body is similar for both oral and intravenous dosage forms, with an average elimination half-life in healthy humans of eight hours. </paragraph>
+                  <paragraph>The major route of elimination of metronidazole and its metabolites is via the urine (60 to 80% of the dose), with fecal excretion accounting for 6 to 15% of the dose. The metabolites that appear in the urine result primarily from side-chain oxidation (1-[<content styleCode="italics">β</content>-hydroxyethyl]-2-hydroxymethyl-5-nitroimidazole and 2-methyl-5-nitroimidazole-1-yl-acetic acid) and glucuronide conjugation, with unchanged metronidazole accounting for approximately 20% of the total. Renal clearance of metronidazole is approximately 10 mL/min/1.73 m<sup>2</sup>. </paragraph>
+                  <paragraph>Metronidazole is the major component appearing in the plasma, with lesser quantities of the 2-hydroxymethyl metabolite also being present. Less than 20% of the circulating metronidazole is bound to plasma proteins. Both the parent compound and the metabolite possess <content styleCode="italics">in vitro</content> bactericidal activity against most strains of anaerobic bacteria. </paragraph>
+                  <paragraph>Metronidazole appears in cerebrospinal fluid, saliva, and human milk in concentrations similar to those found in plasma. Bactericidal concentrations of metronidazole have also been detected in pus from hepatic abscesses. </paragraph>
+                  <paragraph>Plasma concentrations of metronidazole are proportional to the administered dose. An eight-hour intravenous infusion of 100 to 4,000 mg of metronidazole in normal subjects showed a linear relationship between dose and peak plasma concentration. </paragraph>
+                  <paragraph>In patients treated with metronidazole injection using a dosage regimen of 15 mg/kg loading dose followed six hours later by 7.5 mg/kg every six hours, peak steady-state plasma concentrations of metronidazole averaged 25 mcg per mL with trough (minimum) concentrations averaging 18 mcg per mL. </paragraph>
+                  <paragraph>Decreased renal function does not alter the single-dose pharmacokinetics of metronidazole. However, plasma clearance of metronidazole is decreased in patients with decreased liver function. </paragraph>
+                  <paragraph>In one study newborn infants appeared to demonstrate diminished capacity to eliminate metronidazole. The elimination half-life, measured during the first three days of life, was inversely related to gestational age. In infants whose gestational ages were between 28 and 40 weeks, the corresponding elimination half-lives ranged from 109 to 22.5 hours. </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+               <component>
+                  <section ID="s5">
+                     <id root="60ff4f06-755a-4937-882f-606be998bcbc"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="49489-8" displayName="MICROBIOLOGY SECTION"/>
+                     <title>Microbiology </title>
+                     <effectiveTime value="20250318"/>
+                     <component>
+                        <section ID="s6">
+                           <id root="34074851-16b1-4d0f-a146-db17270c5295"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="43679-0" displayName="MECHANISM OF ACTION SECTION"/>
+                           <title>
+                              <content styleCode="bold">Mechanism of Action </content>
+                           </title>
+                           <text>
+                              <paragraph>Metronidazole, a nitroimidazole, exerts antibacterial effects in an anaerobic environment against most obligate anaerobes. Once metronidazole enters the organism by passive diffusion and activated in the cytoplasm of susceptible anaerobic bacteria, it is reduced; this process includes intra-cellular electron transport donors such as ferredoxin and transfer of an electron to the nitro group of the metronidazole leading to formation of a short-lived nitroso free radical. Because of this alteration of the metronidazole molecule, a concentration gradient is created and maintained which promotes the drug's intracellular transport. The reduced form of metronidazole and free radicals may interact with DNA leading to inhibition of DNA synthesis, DNA degradation, and death of bacteria. The precise mechanism of action of metronidazole is unclear. </paragraph>
+                           </text>
+                           <effectiveTime value="20250318"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s7">
+                           <id root="9e265802-91ee-44c4-bfb3-ad9ac01d65af"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Drug Resistance </content>
+                           </title>
+                           <text>
+                              <paragraph>A potential for development of resistance exists against metronidazole. </paragraph>
+                              <paragraph>Resistance may be due to multiple mechanisms that include decreased uptake of the drug, altered reduction efficiency, overexpression of the efflux pumps, inactivation of the drug, and/or increased DNA damage repair. </paragraph>
+                              <paragraph>Metronidazole does not possess any clinically relevant activity against facultative anaerobes or obligate aerobes. </paragraph>
+                           </text>
+                           <effectiveTime value="20250318"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s8">
+                           <id root="d2d0fac5-7057-4204-9854-c64e98352761"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Antimicrobial Activity </content>
+                           </title>
+                           <text>
+                              <paragraph>Metronidazole has been shown to be active against most isolates of the following bacteria both <content styleCode="italics">in vitro</content> and clinical infections as described in the <content styleCode="bold">
+                                    <linkHtml href="#s10">INDICATIONS AND USAGE</linkHtml>
+                                 </content> section. </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Gram negative anaerobes</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="italics">Bacteroides fragilis</content> group <content styleCode="italics">(B. fragilis</content>, <content styleCode="italics">B. distasonis</content>, <content styleCode="italics">B. ovatus</content>, <content styleCode="italics">B. thetaiotaomicron</content>, <content styleCode="italics">B. vulgatus)</content>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="italics">Fusobacterium</content> species </item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Gram positive anaerobes</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="italics">Clostridium</content> species </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="italics">Eubacterium</content> species </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="italics">Peptococcus</content> species </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="italics">Peptostreptococcus</content> species </item>
+                              </list>
+                              <paragraph>The following <content styleCode="italics">in vitro</content> data are available, but their clinical significance is unknown: Metronidazole exhibits <content styleCode="italics">in vitro</content> minimal inhibitory concentrations (MIC's) of 8 mcg/mL or less against most (≥90%) isolates of the following bacteria; however, the safety and effectiveness of metronidazole in treating clinical infections due to these bacteria have not been established in adequate and well-controlled clinical trials. </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Gram negative anaerobes</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="italics">Bacteroides fragilis</content> group <content styleCode="italics">(B. caccae, B. uniformis)</content>
+                                 </item>
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="italics">Prevotella</content> species <content styleCode="italics">(P. bivia, P. buccae, P. disiens)</content>
+                                 </item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20250318"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="227e19f2-6046-4206-bd99-1aa92b5a7010"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Susceptibility Testing </title>
+                     <text>
+                        <paragraph>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s10">
+               <id root="e682fed2-8329-4194-badc-456c1a957d67"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE </title>
+               <text>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Metronidazole Injection and other antibacterial drugs, Metronidazole Injection should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy. </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+               <component>
+                  <section ID="s11">
+                     <id root="3be6843d-25e7-4332-957a-9ff381df097f"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment of Anaerobic Infections </title>
+                     <text>
+                        <paragraph>Metronidazole Injection is indicated in the treatment of serious infections caused by susceptible anaerobic bacteria. Indicated surgical procedures should be performed in conjunction with Metronidazole Injection therapy. In a mixed aerobic and anaerobic infection, antibiotics appropriate for the treatment of the aerobic infection should be used in addition to Metronidazole Injection. </paragraph>
+                        <paragraph>Metronidazole Injection is effective in <content styleCode="italics">Bacteroides fragilis</content> infections resistant to clindamycin, chloramphenicol, and penicillin. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Intra-Abdominal Infections</content>
+                           </content>, including peritonitis, intra-abdominal abscess, and liver abscess, caused by <content styleCode="italics">Bacteroides</content> species including the <content styleCode="italics">B. fragilis</content> group <content styleCode="italics">(B. fragilis</content>, <content styleCode="italics">B. distasonis</content>, <content styleCode="italics">B. ovatus</content>, <content styleCode="italics">B. thetaiotaomicron</content>, <content styleCode="italics">B. vulgatus)</content>, <content styleCode="italics">Clostridium</content> species, <content styleCode="italics">Eubacterium</content> species, <content styleCode="italics">Peptococcus</content> species, and <content styleCode="italics">Peptostreptococcus</content> species. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Skin and Skin Structure Infections</content>
+                           </content> caused by <content styleCode="italics">Bacteroides</content> species including the <content styleCode="italics">B. fragilis</content> group, <content styleCode="italics">Clostridium</content> species, <content styleCode="italics">Peptococcus</content> species, <content styleCode="italics">Peptostreptococcus</content> species, and <content styleCode="italics">Fusobacterium</content> species. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Gynecologic Infections</content>
+                           </content>, including endometritis, endomyometritis, tubo-ovarian abscess, and post-surgical vaginal cuff infection, caused by <content styleCode="italics">Bacteroides</content> species including the <content styleCode="italics">B. fragilis</content> group, <content styleCode="italics">Clostridium</content> species, <content styleCode="italics">Peptococcus</content> species, and <content styleCode="italics">Peptostreptococcus</content> species. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Bacterial Septicemia</content>
+                           </content> caused by <content styleCode="italics">Bacteroides</content> species including the <content styleCode="italics">B. fragilis</content> group and <content styleCode="italics">Clostridium</content> species. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Bone and Joint Infections</content>
+                           </content>, as adjunctive therapy, caused by <content styleCode="italics">Bacteroides</content> species including the <content styleCode="italics">B. fragilis</content> group. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Central Nervous System (CNS) Infections</content>
+                           </content>, including meningitis and brain abscess, caused by <content styleCode="italics">Bacteroides</content> species including the <content styleCode="italics">B. fragilis</content> group. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Lower Respiratory Tract Infections</content>
+                           </content>, including pneumonia, empyema, and lung abscess, caused by <content styleCode="italics">Bacteroides</content> species including the <content styleCode="italics">B. fragilis</content> group. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Endocarditis</content>
+                           </content> caused by <content styleCode="italics">Bacteroides</content> species including the <content styleCode="italics">B. fragilis</content> group. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="f26009cf-7681-4c70-8a89-936d2048f518"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Prophylaxis </title>
+                     <text>
+                        <paragraph>The prophylactic administration of Metronidazole Injection preoperatively, intraoperatively, and postoperatively may reduce the incidence of postoperative infection in patients undergoing elective colorectal surgery which is classified as contaminated or potentially contaminated. </paragraph>
+                        <paragraph>Prophylactic use of Metronidazole Injection should be discontinued within 12 hours after surgery. If there are signs of infection, specimens for cultures should be obtained for the identification of the causative organism(s) so that appropriate therapy may be given (see <content styleCode="bold">
+                              <linkHtml href="#s34">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>). </paragraph>
+                        <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of metronidazole and other antibacterial drugs, metronidazole should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antimicrobial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s13">
+               <id root="3a4589a5-3bb9-4d77-ab77-5aba98b3312f"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34070-3" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS </title>
+               <text>
+                  <paragraph>Metronidazole Injection is contraindicated in patients with a prior history of hypersensitivity to metronidazole or other nitroimidazole derivatives. </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+               <component>
+                  <section ID="s14">
+                     <id root="9f00248b-ba66-4b3a-ac4a-87e96295a0d4"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Psychotic Reaction with Disulfiram </title>
+                     <text>
+                        <paragraph>Use of oral metronidazole is associated with psychotic reactions in alcoholic patients who were using disulfiram concurrently. Do not administer metronidazole to patients who have taken disulfiram within the last two weeks (see <content styleCode="bold">
+                              <linkHtml href="#s23">PRECAUTIONS-Drug Interactions</linkHtml>
+                           </content>). </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="8edc6327-72c6-4b52-adcf-e64ae1867b55"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Interaction with Alcohol </title>
+                     <text>
+                        <paragraph>Use of oral metronidazole is associated with a disulfiram-like reaction to alcohol, including abdominal cramps, nausea, vomiting, headaches, and flushing. Discontinue consumption of alcohol or products containing propylene glycol during and for at least three days after therapy with metronidazole (see <content styleCode="bold">
+                              <linkHtml href="#s23">PRECAUTIONS-Drug Interactions</linkHtml>
+                           </content>). </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="bd9520d5-7bae-484c-ba82-040f1669421e"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cockayne Syndrome </title>
+                     <text>
+                        <paragraph>Metronidazole Injection is contraindicated in patients with Cockayne syndrome. Severe irreversible hepatotoxicity/acute liver failure with fatal outcomes have been reported after initiation of metronidazole in patients with Cockayne syndrome (see <content styleCode="bold">
+                              <linkHtml href="#s31">ADVERSE REACTIONS</linkHtml>
+                           </content>). </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s17">
+               <id root="18bf53e6-e25e-4aea-99b8-a4f69c9757e2"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34071-1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS </title>
+               <effectiveTime value="20250318"/>
+               <component>
+                  <section ID="ID_97dad220-c5ce-4494-aee4-827a41d65c31">
+                     <id root="a9b6f214-d864-4a22-b326-f40978817c4f"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Severe Cutaneous Adverse Reactions</content>
+                     </title>
+                     <text>
+                        <paragraph>Severe cutaneous adverse reactions (SCARs) including toxic epidermal necrolysis (TEN), Stevens-Johnson syndrome (SJS), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP) have been reported with the use of metronidazole. Symptoms can be serious and potentially life threatening. If symptoms or signs of SCARs develop, discontinue Metronidazole Injection immediately and institute appropriate therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s18">
+                     <id root="ae19c255-c531-49fe-8373-d7307a7fa263"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Central and Peripheral Nervous System Effects </title>
+                     <text>
+                        <paragraph>Convulsive seizures, encephalopathy, aseptic meningitis, optic and peripheral neuropathy, the latter characterized mainly by numbness or paresthesia of an extremity, have been reported in patients treated with metronidazole products. Since persistent peripheral neuropathy has been reported in some patients receiving prolonged oral administration of metronidazole, patients should be observed carefully. The appearance of abnormal neurologic signs demands the prompt evaluation of the benefit/risk ratio of the continuation of therapy. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s19">
+               <id root="f8c76212-452d-472b-8dd1-f8e297753f00"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42232-9" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS </title>
+               <effectiveTime value="20250318"/>
+               <component>
+                  <section ID="s20">
+                     <id root="24b57355-f2c4-4c3d-bf55-bfb45919ec86"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34072-9" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General </title>
+                     <text>
+                        <paragraph>Patients with severe hepatic disease metabolize metronidazole slowly, with resultant accumulation of metronidazole and its metabolites in the plasma. Accordingly, for such patients, doses below those usually recommended should be administered cautiously. </paragraph>
+                        <paragraph>Administration of solutions containing sodium ions may result in sodium retention. Care should be taken when administering Metronidazole Injection to patients receiving corticosteroids or to patients predisposed to edema. </paragraph>
+                        <paragraph>Known or previously unrecognized candidiasis may present more prominent symptoms during therapy with Metronidazole Injection and requires treatment with a candicidal agent. </paragraph>
+                        <paragraph>Prescribing Metronidazole Injection in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s21">
+                     <id root="f8d37f61-e231-4549-b8bd-35bfc5c3122b"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients </title>
+                     <text>
+                        <paragraph>Patients should be counseled that antibacterial drugs including Metronidazole Injection should only be used to treat bacterial infections. They do not treat viral infections (<content styleCode="italics">e.g.,</content> the common cold). When Metronidazole Injection is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by Metronidazole Injection or other antibacterial drugs in the future. </paragraph>
+                        <paragraph>Advise patients that Metronidazole Injection may increase the risk of serious and sometimes fatal dermatologic reactions, including toxic epidermal necrolysis (TEN), Stevens-Johnson syndrome (SJS), and drug reaction with eosinophilia and systemic symptoms (DRESS). Instruct the patient to be alert for skin rash, blisters, fever or other signs and symptoms of these hypersensitivity reactions. Advise patients to stop Metronidazole Injection immediately if they develop any type of rash and seek medical attention.</paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s22">
+                     <id root="e5f894b6-a421-4895-8864-e5d1c783bad2"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34075-2" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests </title>
+                     <text>
+                        <paragraph>Metronidazole is a nitroimidazole, and Metronidazole Injection should be used with caution in patients with evidence of or history of blood dyscrasia. A mild leukopenia has been observed during its administration; however, no persistent hematologic abnormalities attributable to metronidazole have been observed in clinical studies. Total and differential leukocyte counts are recommended before and after therapy. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s23">
+                     <id root="b7181078-1540-4b0a-8653-6887892d8512"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34073-7" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions </title>
+                     <text>
+                        <paragraph>Metronidazole has been reported to potentiate the anticoagulant effect of warfarin and other oral coumarin anticoagulants, resulting in a prolongation of prothrombin time. This possible drug interaction should be considered when Metronidazole Injection is prescribed for patients on this type of anticoagulant therapy. </paragraph>
+                        <paragraph>The simultaneous administration of drugs that induce microsomal liver enzymes, such as phenytoin or phenobarbital, may accelerate the elimination of metronidazole, resulting in reduced plasma levels; impaired clearance of phenytoin has also been reported. </paragraph>
+                        <paragraph>The simultaneous administration of drugs that decrease microsomal liver enzyme activity, such as cimetidine, may prolong the half-life and decrease plasma clearance of metronidazole. </paragraph>
+                        <paragraph>Alcoholic beverages should not be consumed during metronidazole therapy because abdominal cramps, nausea, vomiting, headaches, and flushing may occur. </paragraph>
+                        <paragraph>Psychotic reactions have been reported in alcoholic patients who are using metronidazole and disulfiram concurrently. Metronidazole should not be given to patients who have taken disulfiram within the last two weeks. </paragraph>
+                        <paragraph>QT prolongation has been reported, particularly when metronidazole was administered with drugs with the potential for prolonging the QT interval. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s24">
+                     <id root="c61df37a-ed78-4fd6-81de-e523ce1b4eeb"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34074-5" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions </title>
+                     <text>
+                        <paragraph>Metronidazole may interfere with certain types of determinations of serum chemistry values, such as aspartate aminotransferase (AST, SGOT), alanine aminotransferase (ALT, SGPT), lactate dehydrogenase (LDH), triglycerides, and hexokinase glucose. Values of zero may be observed. All of the assays in which interference has been reported involve enzymatic coupling of the assay to oxidation-reduction of nicotinamide adenine dinucleotide (NAD<sup>+</sup>⇄NADH). Interference is due to the similarity in absorbance peaks of NADH (340 nm) and metronidazole (322 nm) at pH 7. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s25">
+                     <id root="6104fcde-eb3a-4935-9850-4183f6023435"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility </title>
+                     <effectiveTime value="20250318"/>
+                     <component>
+                        <section ID="s26">
+                           <id root="99482637-8dd8-455a-9081-4bccdff8f2fa"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Tumorigenicity in Rodents </content>
+                           </title>
+                           <text>
+                              <paragraph>Metronidazole has shown evidence of carcinogenic activity in studies involving chronic, oral administration in mice and rats, but similar studies in the hamster gave negative results. Also, metronidazole has shown mutagenic activity in a number of <content styleCode="italics">in vitro</content> assay systems, but studies in mammals <content styleCode="italics">(in vivo)</content> failed to demonstrate a potential for genetic damage. </paragraph>
+                           </text>
+                           <effectiveTime value="20250318"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s27">
+                     <id root="c276f1c9-d183-40a1-8683-e781acdba4ba"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42228-7" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy </title>
+                     <effectiveTime value="20250318"/>
+                     <component>
+                        <section ID="s28">
+                           <id root="d0242d30-3266-4926-ad23-11a1ecd6068e"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="34077-8" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="bold">Teratogenic Effects </content>
+                           </title>
+                           <text>
+                              <paragraph>Metronidazole crosses the placental barrier and enters the fetal circulation rapidly. Reproduction studies have been performed in rats at doses up to five times the human dose and have revealed no evidence of impaired fertility or harm to the fetus due to metronidazole. Metronidazole administered intraperitoneally to pregnant mice at approximately the human dose caused fetotoxicity; administered orally to pregnant mice, no fetotoxicity was observed. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, and because metronidazole is a carcinogen in rodents, this drug should be used during pregnancy only if clearly needed (see <content styleCode="bold">
+                                    <linkHtml href="#s13">CONTRAINDICATIONS</linkHtml>
+                                 </content>). </paragraph>
+                           </text>
+                           <effectiveTime value="20250318"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s29">
+                     <id root="eac999a5-1809-4bbd-b05b-06cda1ea6c42"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34080-2" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers </title>
+                     <text>
+                        <paragraph>Metronidazole is secreted in human milk in concentrations similar to those found in plasma. Because of the potential for tumorigenicity shown for metronidazole in mouse and rat studies, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s30">
+                     <id root="e819bbb6-c281-47cb-9884-6ebab88eb548"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34081-0" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use </title>
+                     <text>
+                        <paragraph>Safety and effectiveness in children have not been established. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s31">
+               <id root="c0672a39-0795-4aaa-a97e-652a8fa80431"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34084-4" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS </title>
+               <text>
+                  <paragraph>The following are the most serious adverse reactions reported in patients treated with metronidazole and are also described elsewhere in the labeling: convulsive seizures, encephalopathy, aseptic meningitis, optic and peripheral neuropathy (characterized mainly by numbness or paresthesia of an extremity) (see <content styleCode="bold">
+                        <linkHtml href="#_Refs17">WARNINGS</linkHtml>
+                     </content>). </paragraph>
+                  <paragraph>The following adverse reactions associated with the use of metronidazole products were identified in clinical studies or postmarketing reports or published literature. Because some of these reactions were reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Gastrointestinal:</content>
+                     </content> Nausea, anorexia, vomiting, abdominal discomfort, diarrhea, an unpleasant metallic taste, epigastric distress, abdominal cramping, constipation and pancreatitis. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Mouth:</content>
+                     </content> A sharp metallic taste. Furry tongue, glossitis, and stomatitis have occurred; these may be associated with a sudden overgrowth of Candida which may occur during therapy with metronidazole. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hematopoietic:</content>
+                     </content> Reversible neutropenia (leukopenia); thrombocytopenia, eosinophilia. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hepatobiliary Disorders:</content>
+                     </content> Hepatotoxicity and liver failure especially in patients with Cockayne syndrome (see <content styleCode="bold">
+                        <linkHtml href="#s13">CONTRAINDICATIONS</linkHtml>
+                     </content>), jaundice. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Cardiovascular:</content>
+                     </content> QT prolongation has been reported, particularly when metronidazole was administered with drugs with the potential for prolonging the QT interval. Flattening of the T-wave may be seen in electrocardiographic tracings. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Skin and Subcutaneous Disorders:</content>
+                     </content> Toxic epidermal necrolysis, Stevens-Johnson syndrome, Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS), erythematous rash, bullae, pruritus, swelling face, urticaria, and hyperhidrosis. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Central Nervous System:</content>
+                     </content> Encephalopathy, aseptic meningitis, convulsive seizures, optic neuropathy, peripheral neuropathy (mainly numbness or paresthesia of an extremity), dizziness, vertigo, incoordination, ataxia, confusion, psychosis, dysarthria, irritability, depression, weakness, headache, tinnitus, hearing impairment, hearing loss, and insomnia. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Laboratory Investigations:</content>
+                     </content> Hepatic enzymes increased. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hypersensitivity:</content>
+                     </content> Toxic epidermal necrolysis (TEN), Stevens-Johnson Syndrome (SJS), drug reaction with eosinophilia and systemic symptoms (DRESS), acute generalized exanthematous pustulosis (AGEP) (see <content styleCode="bold">WARNINGS</content>), anaphylaxis, angioedema, hypotension, flushing, nasal congestion, and dryness of mouth (or vagina or vulva).  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Renal:</content>
+                     </content> Dysuria, cystitis, polyuria, incontinence, a sense of pelvic pressure, and darkened urine. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hepatic:</content>
+                     </content> Cases of severe irreversible hepatotoxicity/acute liver failure, including cases with fatal outcomes with very rapid onset after initiation of systemic use of metronidazole, have been reported in patients with Cockayne Syndrome (latency from drug start to signs of liver failure as short as 2 days) (see <content styleCode="bold">
+                        <linkHtml href="#s13">CONTRAINDICATIONS</linkHtml>
+                     </content>). </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Local Reactions:</content>
+                     </content> Thrombophlebitis after intravenous infusion. This reaction can be minimized or avoided by avoiding prolonged use of indwelling intravenous catheters. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Other:</content>
+                     </content> Fever, hiccup, proliferation of Candida in the vagina, dyspareunia, decrease of libido, proctitis, and fleeting joint pains sometimes resembling “serum sickness”. If patients receiving metronidazole drink alcoholic beverages, they may experience abdominal distress, nausea, vomiting, flushing, or headache. A modification of the taste of alcoholic beverages has also been reported. </paragraph>
+                  <paragraph>Patients with Crohn's disease are known to have an increased incidence of gastrointestinal and certain extraintestinal cancers. There have been some reports in the medical literature of breast and colon cancer in Crohn's disease patients who have been treated with metronidazole at high doses for extended periods of time. A cause and effect relationship has not been established. Crohn's disease is not an approved indication for Metronidazole Injection. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Darkened Urine:</content>
+                     </content> Instances of darkened urine have also been reported, and this manifestation has been the subject of a special investigation. Although the pigment which is probably responsible for this phenomenon has not been positively identified, it is almost certainly a metabolite of metronidazole and seems to have no clinical significance. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact WG Critical Care, LLC at 1-866-562-4708 or FDA at 1-800-FDA-1088 or <content styleCode="underline">www.fda.gov/medwatch</content>.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s32">
+               <id root="cd0e43ba-9929-4187-84dd-1099e064b9e5"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34088-5" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE </title>
+               <text>
+                  <paragraph>The use of dosages of metronidazole higher than those recommended has been reported. These include the use of 27 mg/kg three times a day for 20 days, and the use of 75 mg/kg as a single loading dose followed by 7.5 mg/kg maintenance doses. No adverse reactions were reported in either of the two cases. </paragraph>
+                  <paragraph>Single oral doses of metronidazole, up to 15 g, have been reported in suicide attempts and accidental overdoses. Symptoms reported include nausea, vomiting, and ataxia. </paragraph>
+                  <paragraph>Oral metronidazole has been studied as a radiation sensitizer in the treatment of malignant tumors. Neurotoxic effects, including seizures and peripheral neuropathy, have been reported after 5 to 7 days of doses of 6 to 10.4 g every other day. </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+               <component>
+                  <section ID="s33">
+                     <id root="47296d58-d5fe-4f58-8c70-5ee6f2ef1ca6"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment </title>
+                     <text>
+                        <paragraph>There is no specific antidote for overdose; therefore, management of the patient should consist of symptomatic and supportive therapy. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s34">
+               <id root="36bda39e-5a4c-4366-8b21-320e0aa2ece8"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION </title>
+               <text>
+                  <paragraph>In elderly patients the pharmacokinetics of metronidazole may be altered and therefore monitoring of serum levels may be necessary to adjust the metronidazole dosage accordingly. </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+               <component>
+                  <section ID="s35">
+                     <id root="61ef62fb-4802-447f-b21b-585fbde43df4"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment of Anaerobic Infections </title>
+                     <text>
+                        <paragraph>The recommended dosage schedule for <content styleCode="bold">Adults</content> is: </paragraph>
+                        <table width="100%">
+                           <col width="30%"/>
+                           <col width="68%"/>
+                           <tbody>
+                              <tr>
+                                 <td valign="top" styleCode="Rrule Botrule Lrule Toprule ">
+                                    <paragraph>Loading Dose </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode="Rrule Botrule Toprule ">
+                                    <paragraph>15 mg/kg infused over one hour (approximately 1 g for a 70-kg adult). </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode="Rrule Botrule Lrule ">
+                                    <paragraph>Maintenance Dose </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode="Rrule Botrule ">
+                                    <paragraph>7.5 mg/kg infused over one hour every six hours (approximately 500 mg for a 70-kg adult). The first maintenance dose should be instituted six hours following the initiation of the loading dose. </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Patients with severe hepatic disease metabolize metronidazole slowly, with resultant accumulation of metronidazole and its metabolites in the plasma. Accordingly, for such patients, doses below those usually recommended should be administered cautiously. Close monitoring of plasma metronidazole levels and toxicity is recommended.<sup>1</sup>
+                        </paragraph>
+                        <paragraph>In patients receiving metronidazole injection in whom gastric secretions are continuously removed by nasogastric aspiration, sufficient metronidazole may be removed in the aspirate to cause a reduction in serum levels. </paragraph>
+                        <paragraph>The dose of Metronidazole Injection should not be specifically reduced in anuric patients since accumulated metabolites may be rapidly removed by dialysis. </paragraph>
+                        <paragraph>The usual duration of therapy is 7 to 10 days; however, infections of the bone and joint, lower respiratory tract, and endocardium may require longer treatment. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s36">
+                     <id root="6e003ae0-f1dc-4fe2-9cf7-1c7e195758c1"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Prophylaxis </title>
+                     <text>
+                        <paragraph>For surgical prophylactic use, to prevent postoperative infection in contaminated or potentially contaminated colorectal surgery, the recommended dosage schedule for adults is: </paragraph>
+                        <list listType="ordered">
+                           <item>
+                              <caption>1.</caption>15 mg/kg infused over 30 to 60 minutes and completed approximately one hour before surgery, followed by: </item>
+                           <item>
+                              <caption>2.</caption>7.5 mg/kg infused over 30 to 60 minutes at 6 and 12 hours after the initial dose. </item>
+                        </list>
+                        <paragraph>It is important that (1) administration of the initial preoperative dose be completed approximately one hour before surgery so that adequate drug levels are present in the serum and tissues at the time of initial incision, and (2) Metronidazole Injection be administered, if necessary, at 6-hour intervals to maintain effective drug levels. Prophylactic use of Metronidazole Injection should be limited to the day of surgery only, following the above guidelines. </paragraph>
+                        <paragraph>Parenteral therapy may be changed to oral metronidazole when conditions warrant, based upon the severity of the disease and the response of the patient to treatment with Metronidazole Injection. The usual adult oral dosage is 7.5 mg/kg every six hours. </paragraph>
+                        <paragraph>A maximum of 4 g should not be exceeded during a 24-hour period. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Caution: Metronidazole Injection is to be administered by slow intravenous drip infusion only, either as a continuous or intermittent infusion. Intravenous admixtures containing metronidazole and other drugs should be avoided. Additives should not be introduced into this solution. If used with a primary intravenous fluid system, the primary solution should be discontinued during metronidazole infusion. DO NOT USE EQUIPMENT CONTAINING ALUMINUM (E.G., NEEDLES, CANNULAE) THAT WOULD COME IN CONTACT WITH THE DRUG SOLUTION.</content>
+                        </paragraph>
+                        <paragraph>Metronidazole Injection is a ready-to-use isotonic solution. <content styleCode="bold">NO DILUTION OR BUFFERING IS REQUIRED.</content> Do not refrigerate. Each container of Metronidazole Injection contains 13.5 mEq of sodium. </paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Do not use if cloudy or precipitated or if the container is not intact. </paragraph>
+                        <paragraph>Use sterile equipment. It is recommended that the intravenous administration apparatus be replaced at least once every 24 hours. </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s37">
+               <id root="a6f8d511-24ad-484f-8def-aceb28112e94"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED </title>
+               <text>
+                  <paragraph>Metronidazole Injection, USP is supplied in 100 mL bag, each containing an isotonic buffered solution of 500 mg metronidazole. Metronidazole Injection, USP is sterile premixed solution intended for single dose only. </paragraph>
+                  <table width="100%">
+                     <col width="24%"/>
+                     <col width="29%"/>
+                     <col width="44%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Rrule Botrule Lrule Toprule ">
+                              <paragraph>
+                                 <content styleCode="bold">NDC Configuration</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="top" styleCode="Rrule Botrule Lrule Toprule ">
+                              <paragraph>
+                                 <content styleCode="bold">Packaging Configuration</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="top" styleCode="Rrule Botrule Lrule Toprule ">
+                              <paragraph>
+                                 <content styleCode="bold">Total Strength</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Rrule Lrule Botrule ">
+                              <paragraph>44567-750-01</paragraph>
+                           </td>
+                           <td align="center" valign="top" styleCode="Rrule Lrule Toprule Botrule ">
+                              <paragraph>1 single-dose bag</paragraph>
+                           </td>
+                           <td rowspan="2" align="center" valign="middle" styleCode="Rrule Lrule Toprule Botrule ">
+                              <paragraph>500 mg per 100 mL (5 mg per mL)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Rrule Botrule Lrule Toprule ">
+                              <paragraph>44567-750-24</paragraph>
+                           </td>
+                           <td align="center" valign="top" styleCode="Rrule Botrule Lrule Toprule ">
+                              <paragraph>24 bags per carton</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20250318"/>
+               <component>
+                  <section ID="s38">
+                     <id root="539b32cc-8561-49a8-b5af-464cdadb3b96"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="44425-7" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage Conditions </title>
+                     <text>
+                        <paragraph>Store at 20° to 25°C (68° to 77°F). [See USP Controlled Room Temperature.] </paragraph>
+                        <paragraph>Exposure of pharmaceutical products to heat should be minimized. Avoid excessive heat. Protect from freezing. It is recommended that the product be stored at room temperature (25°C); however, brief exposure up to 40°C does not adversely affect the product. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Protect from light until use</content>. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Sterile, Nonpyrogenic, Preservative-free, PVC-free, DEHP-free.</content>
+                           <br/>
+                           <content styleCode="bold">The container and container closure are not made with natural rubber latex.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250318"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s39">
+               <id root="f0f5996e-07e3-4511-be6a-4edc58e16375"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34093-5" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES </title>
+               <text>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Ralph ED, Kirby WMM: Bioassay of Metronidazole With Either Anaerobic or Aerobic Incubation, J. Infect. Dis. 132:587–591 (Nov.) 1975, or Gulaid, <content styleCode="italics">et al</content>.: Determination of Metronidazole and its Major Metabolites in Biological Fluids by High Pressure Liquid Chromatography, Br. J. Clin. Pharmacol. 6:430–432, 1978. </item>
+                  </list>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WG Critical Care, LLC</content>
+                  </paragraph>
+                  <paragraph>Paramus, NJ 07652</paragraph>
+                  <paragraph>Made in Switzerland</paragraph>
+                  <paragraph>Revised: February 2025</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s40">
+               <id root="206e80c4-dbff-48fa-b6fc-d4867959ea52"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Directions for Use </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION: DO NOT ADD SUPPLEMENTARY MEDICATIONS.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For intravenous infusion only</content>
+                  </paragraph>
+                  <paragraph>Store the individual container in the aluminum overwrap until ready to use. </paragraph>
+                  <paragraph>Use sterile equipment. </paragraph>
+                  <paragraph>Before use, perform the following checks: </paragraph>
+                  <paragraph>Read the label. Ensure solution is the one ordered and is within the expiration date. </paragraph>
+                  <paragraph>Inspect the solution in good light for cloudiness, haze or particulate matter; check for minute leaks by squeezing the bag firmly. Any container which is suspect should not be used. If leaks are found, discard container as sterility may be compromised. </paragraph>
+                  <paragraph>Use only if solution is clear and the container is undamaged. </paragraph>
+                  <paragraph>Single dose plastic container. Discard unused portion. </paragraph>
+                  <paragraph>Consult Package Insert for complete product information. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Preparation for Administration</content>
+                     </content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Close flow control clamp of administration set. </item>
+                     <item>
+                        <caption>2.</caption>Caution – adding additives into the Metronidazole Injection solution bag is prohibited. If used with a primary intravenous fluid system, the primary solution should be discontinued during metronidazole infusion. Do not use equipment containing aluminum (<content styleCode="italics">e.g.,</content> needles, cannulae, etc.) that may contact the drug solution. </item>
+                     <item>
+                        <caption>3.</caption>Remove cover from port at bottom of container. </item>
+                     <item>
+                        <caption>4.</caption>Insert piercing pin of administration set into port with a twisting motion until the pin is firmly seated.</item>
+                     <item>
+                        <caption> </caption>NOTE: See full directions on administration set carton. </item>
+                     <item>
+                        <caption>5.</caption>Suspend container from hanger. </item>
+                     <item>
+                        <caption>6.</caption>Squeeze and release drip chamber to establish proper fluid level in chamber during infusion of Metronidazole Injection. </item>
+                     <item>
+                        <caption>7.</caption>Open flow control clamp to expel air from set. Close clamp. </item>
+                     <item>
+                        <caption>8.</caption>Regulate rate of administration with flow control clamp. </item>
+                  </list>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WG Critical Care, LLC</content>
+                  </paragraph>
+                  <paragraph>Paramus, NJ 07652</paragraph>
+                  <paragraph>Made in Switzerland</paragraph>
+                  <paragraph>Revised: February 2025 </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c7945e47-9461-43be-834f-5c1b19167fb5">
+               <id root="5ae9b091-968b-444a-9852-2fbc342a57b1"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel </title>
+               <text>
+                  <renderMultiMedia referencedObject="ID_5a0b7d57-1010-4e88-afbd-a96ed53f796b" ID="id1643153161"/>
+               </text>
+               <effectiveTime value="20250318"/>
+               <component>
+                  <observationMedia ID="ID_5a0b7d57-1010-4e88-afbd-a96ed53f796b">
+                     <text>Metronidazole Injection, USP 500 mg per 100 mL bag image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

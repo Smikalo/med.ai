@@ -1,0 +1,1853 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7de2fbfd-a1c3-4320-8212-bfeeff0a20a4"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Rx only</title>
+   <effectiveTime value="20250328"/>
+   <setId root="d2b4ce68-5a81-4b14-8914-21bc38f01008"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="780779901" root="1.3.6.1.4.1.519.1"/>
+            <name>Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="853181664" root="1.3.6.1.4.1.519.1"/>
+                  <name>AVET LIFESCIENCES PRIVATE LIMITED</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="315869123" root="1.3.6.1.4.1.519.1"/>
+                        <name>Siegfried Hameln GmbH</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-771" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-771" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-771" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-771" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="0b2df275-73e1-4beb-b967-7855036dff03"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL Product Data Elements Section"/>
+               <effectiveTime value="20250328"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="23155-771" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>foscarnet sodium</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>foscarnet sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="24" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="964YS0OOG1" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FOSCARNET SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="364P9RVW4X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FOSCARNET</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43172" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="23155-771-31" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20230605"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <formCode code="C43172" displayName="BOTTLE, GLASS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="23155-771-41" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20230605"/>
+                                          <high value="20230605"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA213807" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <effectiveTime>
+                              <low value="20230605"/>
+                           </effectiveTime>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230605"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID1">
+               <id root="958dfd86-4f37-4a3d-b81b-485a606189b9"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING</title>
+               <text>
+                  <paragraph ID="ID2">
+                     <content styleCode="bold">RENAL IMPAIRMENT IS THE MAJOR TOXICITY OF FOSCARNET SODIUM INJECTION. FREQUENT MONITORING OF SERUM CREATININE, WITH DOSE ADJUSTMENT FOR CHANGES IN RENAL FUNCTION, AND ADEQUATE HYDRATION WITH ADMINISTRATION OF FOSCARNET SODIUM INJECTION IS IMPERATIVE. (See ADMINISTRATION section; Hydration.)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">SEIZURES, RELATED TO ALTERATIONS IN PLASMA MINERALS AND ELECTROLYTES, HAVE BEEN ASSOCIATED WITH FOSCARNET SODIUM INJECTION TREATMENT. THEREFORE, PATIENTS MUST BE CAREFULLY MONITORED FOR SUCH CHANGES AND THEIR POTENTIAL SEQUELAE. MINERAL AND ELECTROLYTE SUPPLEMENTATION MAY BE REQUIRED.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOSCARNET SODIUM INJECTION IS INDICATED FOR USE ONLY IN IMMUNOCOMPROMISED PATIENTS WITH CMV RETINITIS AND MUCOCUTANEOUS ACYCLOVIR-RESISTANT HSV INFECTIONS. (See INDICATIONS section).</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID3">
+               <id root="a7e9f94b-09dd-4d8c-9dc0-4414b6fc012e"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph ID="ID4">The chemical name of foscarnet sodium is phosphonoformic acid, trisodium salt, hexahydrate. Foscarnet sodium is a white to almost white, crystalline powder containing 6 equivalents of water of hydration with an empirical formula of Na<sub>3</sub> CO<sub>5</sub> P•6 H<sub>2</sub>O and a molecular weight of 300.04. The structural formula is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>
+                     <content>Foscarnet sodium has the potential to chelate divalent metal ions, such as calcium and magnesium, to form stable coordination compounds. Foscarnet sodium injection is a sterile, isotonic aqueous solution for intravenous administration only. The solution is clear and colorless. Each milliliter of foscarnet sodium injection contains 24 mg of foscarnet sodium hexahydrate in Water for Injection, USP. Hydrochloric acid may have been added to adjust the pH of the solution to 7.4. Foscarnet sodium injection contains no preservatives.</content>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240117"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID7">
+               <id root="db7321ae-250c-42f8-a712-b7fa3a9de55d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>VIROLOGY</title>
+               <text>
+                  <paragraph ID="ID8">
+                     <content styleCode="bold">Mechanism of Action</content>
+                  </paragraph>
+                  <paragraph>Foscarnet exerts its antiviral activity by a selective inhibition at the pyrophosphate binding site on virus-specific DNA polymerases at concentrations that do not affect cellular DNA polymerases. Foscarnet does not require activation (phosphorylation) by thymidine kinase or other kinases.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Antiviral Activity in Cell Culture</content>
+                  </paragraph>
+                  <paragraph>The quantitative relationship between the cell culture susceptibility of human cytomegalovirus (CMV) or herpes simplex virus 1 and 2 (HSV-1 and HSV-2) to foscarnet and clinical response to therapy has not been established and virus sensitivity testing has not been standardized. Sensitivity test results, expressed as the concentration of drug required to inhibit by 50% the growth of virus in cell culture (EC<sub>50</sub>), vary greatly depending on the assay method used, cell type employed and the laboratory performing the test. A number of sensitive viruses and their EC<sub>50</sub> values are listed below (Table 1). The combination antiviral activity of foscarnet and ganciclovir or acyclovir are not antagonistic in cell culture.</paragraph>
+                  <table ID="ID9" width="638">
+                     <caption> TABLE 1 Foscarnet Inhibition of Virus Replication in Cell Culture </caption>
+                     <colgroup>
+                        <col width="417"/>
+                        <col width="221"/>
+                     </colgroup>
+                     <tfoot>
+                        <tr styleCode="First Last">
+                           <td colspan="2" align="left">
+                              <paragraph styleCode="First Footnote">*Mean = 269 µM</paragraph>
+                           </td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">Virus</td>
+                           <td styleCode="Botrule Rrule Toprule" align="left" valign="top">EC<sub>50</sub> value (µM)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">CMV<br/> Ganciclovir resistant CMV<br/> HSV-1, HSV-2<br/> HSV-TK negative mutant<br/> HSV-DNA polymerase mutants</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">50-800*<br/> 190<br/> 10-130<br/> 67<br/> 5-443</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID10">
+                     <content styleCode="bold">Antiviral Activity <content styleCode="italics">in vivo</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Statistically significant decreases in positive CMV cultures from blood and urine have been demonstrated in two studies (FOS-03 and ACTG-015/915) of subjects treated with foscarnet sodium injection. Although median time to progression of CMV retinitis was increased in subjects treated with foscarnet sodium injection, reductions in positive blood or urine cultures have not been shown to correlate with clinical efficacy in individual subjects (Table 2).</paragraph>
+                  <table ID="ID11" width="625">
+                     <caption> TABLE 2 Blood and Urine Culture Results from CMV Retinitis Patients* </caption>
+                     <colgroup>
+                        <col width="297"/>
+                        <col width="167"/>
+                        <col width="161"/>
+                     </colgroup>
+                     <tfoot>
+                        <tr>
+                           <td colspan="3" align="left">
+                              <paragraph styleCode="First Footnote">*A total of 77 subjects were treated with foscarnet sodium injection in two clinical trials (FOS-03 and ACTG-015/915). Not all subjects had blood or urine cultures done and some subjects had results from both cultures.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" align="left">
+                              <paragraph styleCode="First Footnote">†(60 mg/kg foscarnet sodium injection TID for 2 to 3 weeks).</paragraph>
+                           </td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">Blood</td>
+                           <td styleCode="Botrule Rrule Toprule" align="center" valign="top">+CMV</td>
+                           <td styleCode="Botrule Rrule Toprule" align="center" valign="top">-CMV</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">Baseline<br/> End of Induction†</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">27<br/> 1</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">34<br/> 60</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">Urine</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">+CMV</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">-CMV</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">Baseline<br/> End of Induction†</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">52<br/> 21</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">6<br/> 37</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID12">
+                     <content styleCode="bold">Resistance</content>
+                  </paragraph>
+                  <paragraph>Cell culture: CMV and HSV isolates with reduced susceptibility to foscarnet have been selected in cell culture by passage of wild type virus in the presence of increasing concentrations of the drug. All foscarnet resistant isolates are known to be generated through amino acid substitutions in the viral DNA polymerase pUL54 (CMV) or pUL30 (HSV) (Table 3).</paragraph>
+                  <table ID="ID13" width="605">
+                     <caption> TABLE 3 Summary of Foscarnet Resistance-associated DNA Polymerase Amino Acid Substitutions in Cell Culture </caption>
+                     <colgroup>
+                        <col width="66"/>
+                        <col width="539"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">CMV<br/> pUL54</td>
+                           <td styleCode="Botrule Rrule Toprule" align="left" valign="top">T419M, T552N, S585A, F595I, Q807A, M844T/V, V946L</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">HSV-1 pUL30</td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">Y577H, E597D, A605V, L702H, V714M, L774F, L788M, D780N, L782I, P797T, L802F, V813M, V817M, Y818C, T821M, R842S, S889A, F891C, V892M, D907V, A910V, SRA914-916LCV, V958L, R959H</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">HSV-2<br/> pUL30</td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">_</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID14">
+                     <content styleCode="italics">In vivo: </content>Limited clinical data are available on the development of clinical resistance to foscarnet and many pathways to resistance likely exist. Substitutions documented in the literature in treated patients as associated with foscarnet resistance, are listed in Table 4.</paragraph>
+                  <table ID="ID15" width="557">
+                     <caption> TABLE 4 Summary of Foscarnet Resistance-associated Amino Acid Substitutions Observed in Treated Patients </caption>
+                     <colgroup>
+                        <col width="66"/>
+                        <col width="491"/>
+                     </colgroup>
+                     <tfoot>
+                        <tr styleCode="First Last">
+                           <td colspan="2" align="left">
+                              <paragraph styleCode="First Footnote">Note: Many additional pathways to foscarnet resistance likely exist</paragraph>
+                           </td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">CMV pUL54</td>
+                           <td styleCode="Botrule Rrule Toprule" align="left" valign="top">N495K, Q578H/L, D588E/N, T700A, V715M, E756D/K/Q, L773V, L776M, V781I, V787L, L802M, A809V, V812L, T813S, T821I, A834P,<br/> T838A, G841A/S, del 981-982</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">HSV-1<br/> pUL30</td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">S599L, D672N, R700G, V715G, A719T/V, S724N, E798K, G841C/S,<br/> A910T, Y941H</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">HSV-2<br/> pUL30</td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">A724T, S725G, S729N, Q732R, L783M, D785N, T844I, L850I, D912V</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID16">The possibility of viral resistance should be considered in patients who show poor clinical response or experience persistent viral excretion during therapy.</paragraph>
+                  <paragraph>Cross-Resistance: The amino acid substitutions that resulted in reduced susceptibility to foscarnet and either ganciclovir, acyclovir and/or cidofovir are summarized in Tables 5 and 6.</paragraph>
+                  <table ID="ID17" width="606">
+                     <caption> TABLE 5 Summary of CMV DNA polymerase Amino Acid Substitutions Conferring Foscarnet Resistance with Cross-Resistance to Ganciclovir and/or Cidofovir </caption>
+                     <colgroup>
+                        <col width="144"/>
+                        <col width="66"/>
+                        <col width="396"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">
+                              <content styleCode="bold"> Cross-resistant to ganciclovir</content>
+                           </td>
+                           <td styleCode="Botrule Rrule Toprule" align="left" valign="top">CMV pUL54</td>
+                           <td styleCode="Botrule Rrule Toprule" align="left" valign="top">Q578H, D588N, E756K, L773V, L776M, V781I, V787L, L802M, A809V, V812L, T813S, T821I, A834P, G841A/S, del 981-982</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Cross-resistant to</content>
+                              <br/>
+                              <content styleCode="bold"> cidofovir</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">CMV<br/> pUL54</td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">Q578H, D588N, E756K, L773V, V812L, T813S, A834P,<br/> G841A, del 981-982</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table ID="ID18" width="642">
+                     <caption> TABLE 6 Summary of HSV DNA polymerase Amino Acid Substitutions Conferring Foscarnet Resistance with Cross-Resistance to Acyclovir and/or Cidofovir </caption>
+                     <colgroup>
+                        <col width="151"/>
+                        <col width="66"/>
+                        <col width="425"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" rowspan="2" align="left" valign="top">
+                              <content styleCode="bold"> Cross-resistant to acyclovir</content>
+                           </td>
+                           <td styleCode="Botrule Rrule Toprule" align="left" valign="top">HSV-1 pUL30</td>
+                           <td styleCode="Botrule Rrule Toprule" align="left" valign="top">E597D, S599L, A605V, D672N, R700G, L702H, V714M, V715G, A719T/V, S724N, L774F, L778M, D780N, L782I, P797T, E798K, L802F, V813M, V817M, Y818C, T821M, G841C/S, R842S, S889A, F891C/Y, V892M, D907V,<br/> A910V/T, SRA914-916LCV, Y941H, V958L, V959H</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">HSV-2<br/> pUL30</td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">A724T, S725G, S729N, Q732R, L783M, D785N, T844I,<br/> D912V</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Marginally</content>
+                              <br/>
+                              <content styleCode="bold"> cross-resistant to</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">HSV-1<br/> pUL30</td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">V714M, A719V, S724N, L778M, L802F, Y818C, T821M,<br/> G841S</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> cidofovir</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">HSV-2<br/> pUL30</td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">L783M</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID19">
+               <id root="0cd1802e-a570-4de3-a880-2adcba71fc16"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20240117"/>
+               <component>
+                  <section ID="ID20">
+                     <id root="cb67fb44-1839-40b7-9b01-7e2af0f6715e"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph ID="ID21">The pharmacokinetics of foscarnet has been determined after administration as an intermittent intravenous infusion during induction therapy in AIDS patients with CMV retinitis. Observed plasma foscarnet concentrations in four studies (FOS-01, ACTG-015, FP48PK, FP49PK) are summarized in Table 7:</paragraph>
+                        <table ID="ID105" width="639">
+                           <caption> TABLE 7 Foscarnet Pharmacokinetic Characteristics* </caption>
+                           <colgroup>
+                              <col width="273"/>
+                              <col width="183"/>
+                              <col width="183"/>
+                           </colgroup>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="3" align="left">
+                                    <paragraph styleCode="First Footnote">*Values expressed as mean S.D. (number of subjects studied) for each parameter</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" align="left">
+                                    <paragraph styleCode="First Footnote">†50 mg/kg Q8h for 28 days, samples taken 3 hrs after end of 1 hr infusion (Astra Report 815-04 AC025-1)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" align="left">
+                                    <paragraph styleCode="First Footnote">‡90 mg/kg Q12hr for 28 days, samples taken 1 hr after end of 2 hr infusion (Hengge et al., 1993)</paragraph>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">
+                                    <content styleCode="bold"> Parameter</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold"> 60 mg/kg Q8h</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold"> 90 mg/kg Q12h</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold"> C <sub>max</sub> at steady-state (µM)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">589 ± 192 (24)</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">623 ± 132 (19)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold"> C <sub>trough</sub> at steady-state (µM)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">114 ± 91 (24)</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">63 ± 57 (17)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold"> Volume of distribution (L/kg)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">0.41 ± 0.13 (12)</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">0.52 ± 0.20 (18)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold"> Plasma half-life (hr)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">4.0 ± 2.0 (24)</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">3.3 ± 1.4 (18)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold"> Systemic clearance (L/hr)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">6.2 ± 2.1 (24)</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">7.1 ± 2.7 (18)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold"> Renal clearance (L/hr)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">5.6 ± 1.9 (5)</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">6.4 ± 2.5 (13)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold"> CSF: plasma ratio</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">0.69 ± 0.19 (9) †</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">0.66 ± 0.11 (5) ‡</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20240117"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID23">
+                     <id root="34bb721a-9a59-41ed-8fda-5d2c3204eed8"/>
+                     <title>Distribution</title>
+                     <text>
+                        <paragraph ID="ID24">
+                           <content styleCode="italics">In vitro </content>studies have shown that 14 to 17% of foscarnet is protein bound at plasma drug concentrations of 1 to 1000 μM.</paragraph>
+                        <paragraph>The foscarnet terminal half-life determined by urinary excretion was 87.5 ± 41.8 hours, possibly due to release of foscarnet from bone. Postmortem data on several patients in European clinical trials provide evidence that foscarnet does accumulate in bone in humans; however, the extent to which this occurs has not been determined.</paragraph>
+                     </text>
+                     <effectiveTime value="20240117"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID25">
+                     <id root="b0884b10-36ec-45dc-a7f8-fe064932146e"/>
+                     <title>Special Populations</title>
+                     <text>
+                        <paragraph ID="ID26">
+                           <content styleCode="italics">Adults with Impaired Renal Function: </content>The pharmacokinetic properties of foscarnet have been determined in a small group of adult subjects with normal and impaired renal function, as summarized in Table 8:</paragraph>
+                        <table ID="ID27" width="640">
+                           <caption> TABLE 8 Pharmacokinetic Parameters (mean ± S.D.) After a Single 60 mg/kg Dose of Foscarnet Sodium Injection in 4 Groups* of Adults with Varying Degrees of Renal Function </caption>
+                           <colgroup>
+                              <col width="128"/>
+                              <col width="128"/>
+                              <col width="128"/>
+                              <col width="128"/>
+                              <col width="128"/>
+                           </colgroup>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="5" align="left">
+                                    <paragraph styleCode="First Footnote">*Group 1 patients had normal renal function defined as a creatinine clearance (CrCl) of greater than 80 mL/min, Group 2 CrCl was 50 to 80 mL/min, Group 3 CrCl was 25 to 49 mL/min and Group 4 CrCl was 10 to 24 mL/min.</paragraph>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" rowspan="2" align="left" valign="top">
+                                    <content styleCode="bold"> Parameter</content>
+                                 </td>
+                                 <td styleCode="Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold"> Group 1</content>
+                                 </td>
+                                 <td styleCode="Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold"> Group 2 </content>
+                                 </td>
+                                 <td styleCode="Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold"> Group 3 </content>
+                                 </td>
+                                 <td styleCode="Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold"> Group 4 </content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> (N=6)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> (N=6)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> (N=6)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> (N=4)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold"> Creatinine </content>
+                                    <content styleCode="bold"> clearance (mL/min)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">108 ± 16</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">68 ± 8</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">34 ± 9</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">20 ± 4</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold"> Foscarnet CL (mL/min/kg)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">2.13 ± 0.71</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">1.33 ± 0.43</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">0.46 ± 0.14</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">0.43 ± 0.26</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold"> Foscarnet half-life</content>
+                                    <br/>
+                                    <content styleCode="bold"> (hr)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">1.93 ± 0.12</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">3.35 ± 0.87</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">13.0 ± 4.05</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">25.3 ± 18.7</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph ID="ID28">Total systemic clearance (CL) of foscarnet decreased and half-life increased with diminishing renal function (as expressed by creatinine clearance). Based on these observations, it is necessary to modify the dosage of foscarnet in patients with renal impairment (see DOSAGE AND ADMINISTRATION).</paragraph>
+                     </text>
+                     <effectiveTime value="20240117"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID29">
+                     <id root="61a74afd-e250-4c34-b299-5d00d476d2d3"/>
+                     <title>Drug Interaction</title>
+                     <text>
+                        <paragraph ID="ID30">The pharmacokinetics of foscarnet and ganciclovir were not altered in 13 patients receiving either concomitant therapy or daily alternating therapy for maintenance of CMV disease.</paragraph>
+                        <paragraph>There is no clinically significant interaction with zidovudine (AZT), or probenecid.</paragraph>
+                     </text>
+                     <effectiveTime value="20240117"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID31">
+                     <id root="25094ae0-a4af-43f7-a2db-a2e00a6cb34d"/>
+                     <title>CLINICAL TRIALS</title>
+                     <text>
+                        <paragraph ID="ID32">
+                           <content styleCode="bold">CMV Retinitis</content>
+                        </paragraph>
+                        <paragraph>A prospective, randomized, controlled clinical trial (FOS-03) was conducted in 24 patients with AIDS and CMV retinitis comparing treatment with foscarnet sodium injection to no treatment. Patients received induction treatment of foscarnet sodium injection, 60 mg/kg every 8 hours for 3 weeks, followed by maintenance treatment with 90 mg/kg/day until retinitis progression (appearance of a new lesion or advancement of the border of a posterior lesion greater than 750 microns in diameter). All diagnoses and determinations of retinitis progression were made from masked reading of retinal photographs. The 13 patients randomized to treatment with foscarnet sodium injection had a significant delay in progression of CMV retinitis compared to untreated controls. Median times to retinitis progression from study entry were 93 days (range 21 to greater than 364) and 22 days (range 7 to 42), respectively.</paragraph>
+                        <paragraph>In another prospective clinical trial of CMV retinitis in patients with AIDS (ACTG-915), 33 patients were treated with two to three weeks of foscarnet sodium injection induction (60 mg/kg TID) and then randomized to either 90 mg/kg/day or 120 mg/kg/day maintenance therapy. The median times from study entry to retinitis progression were not significantly different between the treatment groups, 96 (range 14 to greater than 176) days and 140 (range 16 to greater than 233) days, respectively.</paragraph>
+                        <paragraph>In study ACTG 129/FGCRT SOCA study 107 patients with newly diagnosed CMV retinitis were randomized to treatment with foscarnet sodium injection (induction: 60 mg/kg TID for 2 weeks; maintenance: 90 mg/kg QD) and 127 were randomized to treatment with ganciclovir (induction: 5 mg/kg BID; maintenance: 5 mg/kg QD). The median time to progression on the two drugs was similar (Fos=59 and Gcv=56 days).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Relapsed CMV Retinitis</content>
+                        </paragraph>
+                        <paragraph>The CMV Retinitis Retreatment Trial (ACTG 228/SOCA CRRT) was a randomized, open-label comparison of foscarnet sodium or ganciclovir monotherapy to the combination of both drugs for the treatment of persistently active or relapsed CMV retinitis in patients with AIDS. Subjects were randomized to one of the three treatments: foscarnet sodium 90 mg/kg BID induction followed by 120 mg/kg QD maintenance (Fos); ganciclovir 5 mg/kg BID induction followed by 10 mg/kg QD maintenance (Gcv); or the combination of the two drugs, consisting of continuation of the subject's current therapy and induction dosing of the other drug (as above), followed by maintenance with foscarnet sodium 90 mg/kg QD plus ganciclovir 5 mg/kg QD (Cmb). Assessment of retinitis progression was performed by masked evaluation of retinal photographs. The median times to retinitis progression or death were 39 days for the foscarnet sodium group, 61 days for the ganciclovir group and 105 days for the combination group. For the alternative endpoint of retinitis progression (censoring on death), the median times were 39 days for the foscarnet sodium group, 61 days for the ganciclovir group and 132 days for the combination group. Due to censoring on death, the latter analysis may overestimate the treatment effect. Treatment modifications due to toxicity were more common in the combination group than in the foscarnet sodium or ganciclovir monotherapy groups (see ADVERSE REACTIONS section).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Mucocutaneous Acyclovir Resistant HSV Infections</content>
+                        </paragraph>
+                        <paragraph>In a controlled trial, patients with AIDS and mucocutaneous, acyclovir-resistant HSV infection were randomized to either foscarnet sodium (N=8) at a dose of 40 mg/kg TID or vidarabine (N=6) at a dose of 15 mg/kg per day. Eleven patients were nonrandomly assigned to receive treatment with foscarnet sodium because of prior intolerance to vidarabine. Lesions in the eight patients randomized to foscarnet sodium healed after 11 to 25 days; seven of the 11 patients nonrandomly treated with foscarnet sodium healed their lesions in 10 to 30 days. Vidarabine was discontinued because of intolerance (N=4) or poor therapeutic response (N=2). In a second trial, forty AIDS patients and three bone marrow transplant recipients with mucocutaneous, acyclovir-resistant HSV infections were randomized to receive foscarnet sodium at a dose of either 40 mg/kg BID or 40 mg/kg TID. Fifteen of the 43 patients had healing of their lesions in 11 to 72 days with no difference in response between the two treatment groups.</paragraph>
+                     </text>
+                     <effectiveTime value="20240117"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID33">
+               <id root="4d3440a1-4eee-437f-8e68-f7cd50601170"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS</title>
+               <effectiveTime value="20240117"/>
+               <component>
+                  <section ID="ID34">
+                     <id root="66b65e5c-d96f-4882-b2a0-abe64b382f42"/>
+                     <title>CMV Retinitis</title>
+                     <text>
+                        <paragraph ID="ID35">Foscarnet sodium injection is indicated for the treatment of CMV retinitis in patients with acquired immunodeficiency syndrome (AIDS). Combination therapy with foscarnet sodium and ganciclovir is indicated for patients who have relapsed after monotherapy with either drug. SAFETY AND EFFICACY OF FOSCARNET SODIUM INJETION HAVE NOT BEEN ESTABLISHED FOR TREATMENT OF OTHER CMV INFECTIONS (e.g., PNEUMONITIS, GASTROENTERITIS); CONGENITAL OR NEONATAL CMV DISEASE; OR NONIMMUNOCOMPROMISED INDIVIDUALS.</paragraph>
+                     </text>
+                     <effectiveTime value="20240117"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID36">
+                     <id root="46f42987-767d-40ce-bb50-26763bea9132"/>
+                     <title>Mucocutaneous Acyclovir Resistant HSV Infections</title>
+                     <text>
+                        <paragraph ID="ID37">Foscarnet sodium injection is indicated for the treatment of acyclovir-resistant mucocutaneous HSV infections in immunocompromised patients. SAFETY AND EFFICACY OF FOSCARNET SODIUM INJECTION HAVE NOT BEEN ESTABLISHED FOR TREATMENT OF OTHER HSV INFECTIONS (e.g., RETINITIS, ENCEPHALITIS); CONGENITAL OR NEONATAL HSV DISEASE; OR HSV IN NONIMMUNOCOMPROMISED INDIVIDUALS.</paragraph>
+                     </text>
+                     <effectiveTime value="20200820"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID38">
+               <id root="f88812e9-536d-4c24-a6f8-6be175665efa"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph ID="ID39">Foscarnet sodium injection is contraindicated in patients with clinically significant hypersensitivity to foscarnet sodium.</paragraph>
+               </text>
+               <effectiveTime value="20200820"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID40">
+               <id root="2062c3b8-feb4-48d2-8a2b-3a42dbc189e3"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20240117"/>
+               <component>
+                  <section ID="ID41">
+                     <id root="829e2464-3378-45f2-9b23-b53c151f427c"/>
+                     <title>Renal Impairment</title>
+                     <text>
+                        <paragraph ID="ID42">THE MAJOR TOXICITY OF FOSCARNET SODIUM INJECTION IS RENAL IMPAIRMENT (see ADVERSE REACTIONS section). Renal impairment is most likely to become clinically evident during the second week of induction therapy, but may occur at any time during foscarnet sodium injection treatment. Renal function should be monitored carefully during both induction and maintenance therapy (see PATIENT MONITORING section). Elevations in serum creatinine are usually, but not always, reversible following discontinuation or dose adjustment of foscarnet sodium injection. Safety and efficacy data for patients with baseline serum creatinine levels greater than 2.8 mg/dL or measured 24-hour creatinine clearances  less than 50 mL/min are limited.</paragraph>
+                        <paragraph>SINCE FOSCARNET SODIUM INJECTION HAS THE POTENTIAL TO CAUSE RENAL IMPAIRMENT, DOSE ADJUSTMENT BASED ON SERUM CREATININE IS NECESSARY. Hydration may reduce the risk of nephrotoxicity. It is recommended that 750 to 1000 mL of normal saline or 5% dextrose solution should be given prior to the first infusion of foscarnet sodium injection to establish diuresis. With subsequent infusions, 750 to 1000 mL of hydration fluid should be given with 90 to 120 mg/kg of foscarnet sodium injection, and 500 mL with 40 to 60 mg/kg of foscarnet sodium injection. Hydration fluid may need to be decreased if clinically warranted.</paragraph>
+                        <paragraph>After the first dose, the hydration fluid should be administered concurrently with each infusion of foscarnet sodium injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20240117"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID43">
+                     <id root="ef1a2250-768c-498b-b968-e9cd7848d49b"/>
+                     <title>Mineral and Electrolyte Abnormalities</title>
+                     <text>
+                        <paragraph ID="ID44">Foscarnet sodium injection has been associated with changes in serum electrolytes including hypocalcemia, hypophosphatemia, hyperphosphatemia, hypomagnesemia, and hypokalemia (see ADVERSE REACTIONS section). Foscarnet sodium injection may also be associated with a dose-related decrease in ionized serum calcium which may not be reflected in total serum calcium. This effect is likely to be related to chelation of divalent metal ions such as calcium by foscarnet. Patients should be advised to report symptoms of low ionized calcium such as perioral tingling, numbness in the extremities and paresthesias. Particular caution and careful management of serum electrolytes is advised in patients with altered calcium or other electrolyte levels before treatment and especially in those with neurologic or cardiac abnormalities and those receiving other drugs known to influence minerals and electrolytes (see PATIENT MONITORING and Drug Interactions sections). Physicians should be prepared to treat these abnormalities and their sequelae such as tetany, seizures or cardiac disturbances. The rate of foscarnet sodium injection infusion may also affect the decrease in ionized calcium. <content styleCode="bold">Therefore, an infusion pump must be used for administration to prevent rapid intravenous infusion (see DOSAGE AND ADMINISTRATION section). </content>Slowing the infusion rate may decrease or prevent symptoms.</paragraph>
+                     </text>
+                     <effectiveTime value="20200820"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID45">
+                     <id root="1e239810-be28-4bb0-a07b-6ce9b4614e8c"/>
+                     <title>Seizures</title>
+                     <text>
+                        <paragraph ID="ID46">Seizures related to mineral and electrolyte abnormalities have been associated with foscarnet sodium injection treatment (see WARNING section; Mineral and Electrolyte Abnormalities). Several cases of seizures were associated with death. Cases of status epilepticus have been reported. Risk factors associated with seizures included impaired baseline renal function, low total serum calcium, and underlying CNS conditions.</paragraph>
+                     </text>
+                     <effectiveTime value="20200820"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID47">
+                     <id root="1dc97a2d-fba6-443f-aa11-83ba800732c7"/>
+                     <title>Hypersensitivity</title>
+                     <text>
+                        <paragraph ID="ID48">Serious acute hypersensitivity reactions (e.g., anaphylactic shock, urticaria, angioedema) have been reported postmarketing in patients receiving foscarnet sodium injection (see ADVERSE REACTIONS section). If such an acute reaction occurs, therapy should be discontinued and appropriate medical therapy immediately instituted.</paragraph>
+                     </text>
+                     <effectiveTime value="20200820"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID49">
+                     <id root="83919002-8981-4582-8007-d33bc0c627ec"/>
+                     <title>QT prolongation and torsade de pointes</title>
+                     <text>
+                        <paragraph ID="ID50">Foscarnet sodium injection has been associated with prolongation of the QT interval, an ECG abnormality that has been associated with torsades de pointes, which has been reported during postmarketing surveillance for foscarnet sodium injection (see ADVERSE REACTIONS section). Some of these patients had confounding risk factors such as underlying cardiac disease, electrolyte abnormalities and other concomitant medications.</paragraph>
+                        <paragraph>Use with caution in patients who have a history of QT prolongation, in patients who are taking medications known to prolong the QT interval (see PRECAUTIONS section), in patients with electrolyte disturbances, or in patients who have other risk factors for QT prolongation. Electrocardiograms (ECGs) and measurement of electrolytes should be obtained prior to treatment initiation and periodically during treatment with foscarnet sodium injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20200820"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID51">
+               <id root="6e16e181-2993-40fc-a5a2-422f5bcce120"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20240117"/>
+               <component>
+                  <section ID="ID52">
+                     <id root="136c68cf-3929-4066-84aa-7689a9498127"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph ID="ID53">Care must be taken to infuse solutions containing foscarnet sodium only into veins with adequate blood flow to permit rapid dilution and distribution to avoid local irritation (see DOSAGE AND ADMINISTRATION). Local irritation and ulcerations of penile epithelium have been reported in male patients receiving foscarnet sodium injection, possibly related to the presence of drug in the urine. Cases of male and female genital irritation/ulceration have been reported in patients receiving foscarnet sodium injection. Adequate hydration with close attention to personal hygiene may minimize the occurrence of such events.</paragraph>
+                        <paragraph>Due to the sodium content of foscarnet sodium injection (240 micromoles (5.5 mg) of sodium per mL), avoid foscarnet sodium injection use when intravenous infusion of a large amount of sodium or water may not be tolerated (e.g. in patients with cardiomyopathy). Foscarnet sodium injection should also be avoided in patients on a controlled sodium diet.</paragraph>
+                     </text>
+                     <effectiveTime value="20240117"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID54">
+                     <id root="c0f9423e-25c5-460a-b69c-f30033566dd2"/>
+                     <title>Hematopoietic System</title>
+                     <text>
+                        <paragraph ID="ID55">Anemia has been reported in 33% of patients receiving foscarnet sodium injection in controlled studies. Granulocytopenia has been reported in 17% of patients receiving foscarnet sodium injection in controlled studies; however, only 1% (2/189) were terminated from these studies because of neutropenia.</paragraph>
+                     </text>
+                     <effectiveTime value="20200820"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID56">
+                     <id root="343da0e6-7b9f-44d7-9b0e-5c0e738d4f80"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph ID="ID57">
+                           <content styleCode="italics">CMV Retinitis: </content>Patients should be advised that foscarnet sodium injection is not a cure for CMV retinitis, and that they may continue to experience progression of retinitis during or following treatment. They should be advised to have regular ophthalmologic examinations.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Mucocutaneous Acyclovir-Resistant HSV Infections: </content>Patients should be advised that foscarnet sodium injection is not a cure for HSV infections. While complete healing is possible, relapse occurs in most patients. Because relapse may be due to acyclovir-sensitive HSV, sensitivity testing of the viral isolate is advised. In addition, repeated treatment with foscarnet sodium injection has led to the development of resistance associated with poorer response. In the case of poor therapeutic response, sensitivity testing of the viral isolate also is advised.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Effects on Ability to Drive and Use Machines: </content>Adverse effects such as dizziness and convulsions may occur during foscarnet sodium injection therapy. Patients who experience seizures, dizziness, somnolence or other adverse reactions that could result in impairment, should be advised to avoid driving or operating machinery.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">General: </content>Patients should be informed that the major toxicities of foscarnet are renal impairment, electrolyte disturbances, and seizures, and that dose modifications and possibly discontinuation may be required. The importance of close monitoring while on therapy must be emphasized. Patients should be advised of the importance of reporting to their physicians symptoms of perioral tingling, numbness in the extremities or paresthesias during or after infusion as possible symptoms of electrolyte abnormalities. Patients should also be advised to promptly report any cardiac symptoms. Should such symptoms occur, the infusion of foscarnet sodium injection should be stopped, appropriate laboratory samples for assessment of electrolyte concentrations obtained, and a physician consulted before resuming treatment. The rate of infusion must be no more than 1 mg/kg/minute. The potential for renal impairment may be minimized by accompanying foscarnet sodium injection administration with hydration adequate to establish and maintain a diuresis during dosing.</paragraph>
+                     </text>
+                     <effectiveTime value="20240117"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID58">
+                     <id root="4dfb7b28-81c1-4363-b682-90fd82cdbaeb"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph ID="ID59">
+                           <content styleCode="bold">A possible drug interaction of foscarnet sodium injection and intravenous pentamidine has been described. Concomitant treatment of four patients in the United Kingdom with foscarnet sodium injection and intravenous pentamidine may have caused hypocalcemia; one patient died with severe hypocalcemia. Toxicity associated with concomitant use of aerosolized pentamidine has not been reported. </content>Because foscarnet sodium injection can reduce serum levels of ionized calcium, extreme caution is advised when used concurrently with other drugs known to influence serum calcium levels (e.g., intravenous pentamidine). Renal impairment and symptomatic hypocalcemia have been observed during concurrent treatment with foscarnet sodium injection and intravenous pentamidine.</paragraph>
+                        <paragraph>Because of foscarnet's tendency to cause renal impairment, the use of foscarnet sodium injection should be avoided in combination with potentially nephrotoxic drugs such as aminoglycosides, amphotericin B, cyclosporine, acyclovir, methotrexate, tacrolimus and intravenous pentamidine (see above) unless the potential benefits outweigh the risks to the patient.</paragraph>
+                        <paragraph>When diuretics are indicated, thiazides are recommended over loop diuretics because the latter inhibit renal tubular secretion, and may impair elimination of foscarnet sodium injection, potentially leading to toxicity.</paragraph>
+                        <paragraph>Abnormal renal function has been observed in clinical practice during the use of foscarnet sodium and ritonavir, or foscarnet sodium, ritonavir, and saquinavir. (See DOSAGE and ADMINISTRATION.)</paragraph>
+                        <paragraph>Because of the risk of QT prolongation and the potential for torsades de pointes, the use of foscarnet sodium should be avoided in combination with agents known to prolong the QT interval including Class IA (e.g., quinidine or procainamide) or Class III (e.g., dofetilide, amiodarone, sotalol) antiarrhythmic agents, phenothiazines, tricyclic antidepressants, and certain macrolides and fluoroquinolones.</paragraph>
+                     </text>
+                     <effectiveTime value="20200820"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID60">
+                     <id root="73f70d6e-1827-4fe8-abf3-10d38295254f"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph ID="ID61">Carcinogenicity studies were conducted in rats and mice at oral doses of 500 mg/kg/day and 250 mg/kg/day. Oral bioavailability in unfasted rodents is less than 20%. No evidence of oncogenicity was reported at plasma drug levels equal to 1/3 and 1/5, respectively, of those in humans (at the maximum recommended human daily dose) as measured by the area-under-the-time/concentration curve (AUC).</paragraph>
+                        <paragraph>Foscarnet sodium injection showed genotoxic effects in the BALB/3T3 <content styleCode="italics">in vitro </content>transformation assay at concentrations greater than 0.5 mcg/mL and an increased frequency of chromosome aberrations in the sister chromatid exchange assay at 1000 mcg/mL. A high dose of foscarnet (350 mg/kg) caused an increase in micronucleated polychromatic erythrocytes <content styleCode="italics">in vivo </content>in mice at doses that produced exposures (area under curve) comparable to that anticipated clinically.</paragraph>
+                     </text>
+                     <effectiveTime value="20200820"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID62">
+                     <id root="0b55aa26-35d8-4159-95c7-1a29a0488bfe"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph ID="ID63">There are no adequate and well-controlled studies of foscarnet sodium injection in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data: </content>Foscarnet sodium injection did not adversely affect fertility and general reproductive performance in rats. The results of peri- and post-natal studies in rats were also negative. However, these studies used exposures that are inadequate to define the potential for impairment of fertility at human drug exposure levels.</paragraph>
+                        <paragraph>Daily subcutaneous doses up to 75 mg/kg administered to female rats prior to and during mating, during gestation, and 21 days post-partum caused a slight increase (less than 5%) in the number of skeletal anomalies compared with the control group. Daily subcutaneous doses up to 75 mg/kg administered to rabbits and 150 mg/kg administered to rats during gestation caused an increase in the frequency of skeletal anomalies/variations. On the basis of estimated drug exposure (as measured by AUC), the 150 mg/kg dose in rats and 75 mg/kg dose in rabbits were approximately one-eighth (rat) and one-third (rabbit) the estimated maximal daily human exposure. These studies are inadequate to define the potential teratogenicity at levels to which women will be exposed.</paragraph>
+                     </text>
+                     <effectiveTime value="20200820"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID64">
+                     <id root="9850d7bf-56ba-42ae-a92a-906e6fe51ead"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph ID="ID65">It is not known whether foscarnet sodium is excreted in human milk; however, in lactating rats administered 75 mg/kg, foscarnet sodium was excreted in maternal milk at concentrations three times higher than peak maternal blood concentrations. Because of the potential for serious adverse events in nursing infants, a decision should be made whether to discontinue nursing or discontinue drug, taking into consideration the importance of the drug to the mother. The Centers for Disease Control and Prevention recommend that HIV-infected mothers not breast-feed their infants to avoid risking postnatal transmission of HIV.</paragraph>
+                     </text>
+                     <effectiveTime value="20240117"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID66">
+                     <id root="059fe2fc-5f01-4580-89fa-83ed46656ddd"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph ID="ID67">The safety and effectiveness of foscarnet sodium injection in pediatric patients have not been established. Foscarnet sodium is deposited in teeth and bone and deposition is greater in young and growing animals. Foscarnet sodium has been demonstrated to adversely affect development of tooth enamel in mice and rats. The effects of this deposition on skeletal development have not been studied.</paragraph>
+                        <paragraph>Since deposition in human bone has also been shown to occur, it is likely that it does so to a greater degree in developing bone in pediatric patients. Administration to pediatric patients should be undertaken only after careful evaluation and only if the potential benefits for treatment outweigh the risks.</paragraph>
+                     </text>
+                     <effectiveTime value="20200820"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID68">
+                     <id root="23cb7910-5da0-438f-a670-6a9c786cd5b2"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph ID="ID69">No studies of the efficacy or safety of foscarnet sodium injection in persons 65 years of age or older have been conducted. However, foscarnet sodium injection has been used in patients age 65 years of age and older. The pattern of adverse events seen in these patients is consistent across all age groups. This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and renal function should be monitored. (See DOSAGE AND ADMINISTRATION).</paragraph>
+                     </text>
+                     <effectiveTime value="20200820"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID70">
+               <id root="aeae4341-86b6-49ce-b405-d93ff121ed6a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph ID="ID71">THE MAJOR TOXICITY OF FOSCARNET SODIUM INJECTION IS RENAL IMPAIRMENT (see WARNINGS section). Approximately 33% of 189 patients with AIDS and CMV retinitis who received foscarnet sodium injection (60 mg/kg TID), without adequate hydration, developed significant impairment of renal function (serum creatinine greater than or equal to 2.0 mg/dL). The incidence of renal impairment in subsequent clinical trials in which 1000 mL of normal saline or 5% dextrose solution was given with each infusion of foscarnet sodium injection was 12% (34/280).</paragraph>
+                  <paragraph>Foscarnet sodium injection has been associated with changes in serum electrolytes including hypocalcemia (15 to 30%), hypophosphatemia (8 to 26%) and hyperphosphatemia (6%), hypomagnesemia (15 to 30%), and hypokalemia (16 to 48%) (see WARNINGS section). The higher percentages were derived from those patients receiving hydration.</paragraph>
+                  <paragraph>Foscarnet sodium injection treatment was associated with seizures in 18/189 (10%) AIDS patients in the initial five controlled studies (see WARNINGS section). Risk factors associated with seizures included impaired baseline renal function, low total serum calcium, and underlying CNS conditions predisposing the patient to seizures. The rate of seizures did not increase with duration of treatment. Three cases were associated with overdoses of foscarnet sodium injection (see OVERDOSAGE section).</paragraph>
+                  <paragraph>In five controlled U.S. clinical trials the most frequently reported adverse events in patients with AIDS and CMV retinitis are shown in Table 9. These figures were calculated without reference to drug relationship or severity.</paragraph>
+                  <table ID="ID72" width="638">
+                     <caption> TABLE 9 Adverse Events Reported in Five Controlled US Clinical Trials </caption>
+                     <colgroup>
+                        <col width="143"/>
+                        <col width="132"/>
+                        <col width="231"/>
+                        <col width="132"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" valign="top"/>
+                           <td styleCode="Botrule Rrule Toprule" align="center" valign="top">
+                              <content styleCode="bold"> n = 189</content>
+                           </td>
+                           <td styleCode="Botrule Rrule Toprule" valign="top"/>
+                           <td styleCode="Botrule Rrule Toprule" align="center" valign="top">
+                              <content styleCode="bold"> n = 189</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Fever</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">65%</td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Abnormal Renal Function</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">27%</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Nausea</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">47%</td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Vomiting</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">26%</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Anemia</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">33%</td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Headache</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">26%</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Diarrhea</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">30%</td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Seizures</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">10%</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID73">From the same controlled studies, adverse events categorized by investigator as "severe" are shown in Table 10. Although death was specifically attributed to foscarnet sodium injection in only one case, other complications of foscarnet sodium injection (i.e., renal impairment, electrolyte abnormalities, and seizures) may have contributed to patient deaths (see WARNINGS section).</paragraph>
+                  <table ID="ID74" width="306">
+                     <caption> TABLE 10 Severe Adverse Events </caption>
+                     <colgroup>
+                        <col width="192"/>
+                        <col width="114"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" valign="top"/>
+                           <td styleCode="Botrule Rrule Toprule" align="center" valign="top">
+                              <content styleCode="bold"> n = 189</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Death</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">14%</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Abnormal Renal Function</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">14%</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Marrow Suppression</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">10%</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Anemia</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">9%</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <content styleCode="bold"> Seizures</content>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">7%</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID75">From the five initial U.S. controlled trials of foscarnet sodium injection, the following list of adverse events has been compiled regardless of causal relationship to foscarnet sodium injection. Evaluation of these reports was difficult because of the diverse manifestations of the underlying disease and because most patients received numerous concomitant medications.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Incidence of 5% or Greater</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Body as a Whole: </content>fever, fatigue, rigors, asthenia, malaise, pain, infection, sepsis, death <content styleCode="italics">Central and Peripheral Nervous System: </content>headache, paresthesia, dizziness, involuntary muscle contractions, hypoesthesia, neuropathy, seizures including grand mal seizures (see WARNINGS)</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal System: </content>anorexia, nausea, diarrhea, vomiting, abdominal pain <content styleCode="italics">Hematologic: </content>anemia, granulocytopenia, leukopenia, neutropenia (see PRECAUTIONS) <content styleCode="italics">Metabolic and Nutritional: </content>mineral and electrolyte imbalances (see WARNINGS) including hypokalemia, hypocalcemia, hypomagnesemia, hypophosphatemia, hyperphosphatemia <content styleCode="italics">Psychiatric: </content>depression, confusion, anxiety</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory System: </content>coughing, dyspnea</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin and Appendages: </content>rash, increased sweating</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Urinary System: </content>alterations in renal function including increased serum creatinine, decreased creatinine clearance, and abnormal renal function (see WARNINGS)</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Special Senses: </content>vision abnormalities</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Incidence between 1% and 5%</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Application Site: </content>injection site pain, injection site inflammation</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Body as a Whole: </content>back pain, chest pain (including reports of transient chest pain as part of infusion reactions), edema, influenza-like symptoms, bacterial infections, moniliasis, fungal infections, abscess</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular: </content>hypertension, palpitations, ECG abnormalities including sinus tachycardia, first degree AV block and non-specific ST-T segment changes, hypotension, flushing, cerebrovascular disorder (see WARNINGS)</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Central and Peripheral Nervous System: </content>tremor, ataxia, dementia, stupor, generalized spasms, sensory disturbances, meningitis, aphasia, abnormal coordination, leg cramps, EEG abnormalities (see WARNINGS)</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal: </content>constipation, dysphagia, dyspepsia, rectal hemorrhage, dry mouth, melena, flatulence, ulcerative stomatitis, pancreatitis</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hematologic: </content>thrombocytopenia, platelet abnormalities, thrombosis, white blood cell abnormalities, lymphadenopathy</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Liver and Biliary: </content>abnormal A-G ratio, abnormal hepatic function, increased SGPT, increased SGOT</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Metabolic and Nutritional: </content>hyponatremia, decreased weight, increased alkaline phosphatase, increased LDH, increased BUN, acidosis, cachexia, thirst <content styleCode="italics">Musculo-Skeletal: </content>arthralgia, myalgia</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Neoplasms: </content>lymphoma-like disorder, sarcoma</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Psychiatric: </content>insomnia, somnolence, nervousness, amnesia, agitation, aggressive reaction, hallucination</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory System: </content>pneumonia, sinusitis, pharyngitis, rhinitis, respiratory disorders, respiratory insufficiency, pulmonary infiltration, stridor, pneumothorax, hemoptysis, bronchospasm</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin and Appendages: </content>pruritus, skin ulceration, seborrhea, erythematous rash, maculo-papular rash, skin discoloration</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Special Senses: </content>taste perversions, eye abnormalities, eye pain, conjunctivitis</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Urinary System: </content>albuminuria, dysuria, polyuria, urethral disorder, urinary retention, urinary tract infections, acute renal failure, nocturia, facial edema</paragraph>
+                  <paragraph>Selected adverse events occurring at a rate of less than 1% in the five initial U.S. controlled clinical trials of foscarnet sodium injection include: syndrome of inappropriate antidiuretic hormone secretion, pancytopenia, hematuria, dehydration, hypoproteinemia, increases in amylase and creatinine phosphokinase, cardiac arrest, coma, and other cardiovascular and neurologic complications.</paragraph>
+                  <paragraph>Selected adverse event data from the Foscarnet vs. Ganciclovir CMV Retinitis Trial (FGCRT), performed by the Studies of the Ocular Complications of AIDS (SOCA) Research Group, are shown in Table 11 (see CLINICAL TRIALS section).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TABLE 11 </content>
+                     <content styleCode="bold">FGCRT: Selected Adverse Events*</content>
+                  </paragraph>
+                  <table ID="ID76" width="630">
+                     <colgroup>
+                        <col width="197"/>
+                        <col width="73"/>
+                        <col width="74"/>
+                        <col width="69"/>
+                        <col width="74"/>
+                        <col width="74"/>
+                        <col width="69"/>
+                     </colgroup>
+                     <tfoot>
+                        <tr>
+                           <td colspan="7" align="left">
+                              <paragraph styleCode="First Footnote">* Values for the treatment groups refer only to patients who completed at least one follow-up visit – i.e., 133 to 119 patients in the ganciclovir group and 93 to 100 in the foscarnet group. "Events" denotes all events observed and "patients" the number of patients with one or more of the indicated events.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="7" align="left">
+                              <paragraph styleCode="First Footnote">†Per person-year at risk</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="7" align="left">
+                              <paragraph styleCode="First Footnote">‡Final frozen SOCA I database dated October 1991</paragraph>
+                           </td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" rowspan="3" align="left" valign="top">
+                              <content styleCode="bold"> EVENT</content>
+                           </td>
+                           <td styleCode="Botrule Rrule Toprule" colspan="3" align="left" valign="top">
+                              <content styleCode="bold"> GANCICLOVIR</content>
+                           </td>
+                           <td styleCode="Botrule Rrule Toprule" colspan="3" align="left" valign="top">
+                              <content styleCode="bold"> FOSCARNET</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top">No. of</td>
+                           <td align="center" valign="top">No. of</td>
+                           <td styleCode="Rrule" align="center" valign="top">Rates†</td>
+                           <td align="center" valign="top">No. of</td>
+                           <td align="center" valign="top">No. of</td>
+                           <td styleCode="Rrule" align="center" valign="top">Rates†</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule" align="center" valign="top">Events</td>
+                           <td styleCode="Botrule" align="center" valign="top">Patients</td>
+                           <td styleCode="Botrule Rrule" valign="top"/>
+                           <td styleCode="Botrule" align="center" valign="top">Events</td>
+                           <td styleCode="Botrule" align="center" valign="top">Patients</td>
+                           <td styleCode="Botrule Rrule" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="top">Absolute neutrophil count</td>
+                           <td align="center" valign="top">63</td>
+                           <td align="center" valign="top">41</td>
+                           <td styleCode="Rrule" align="center" valign="top">1.30</td>
+                           <td align="center" valign="top">31</td>
+                           <td align="center" valign="top">17</td>
+                           <td styleCode="Rrule" align="center" valign="top">0.72</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="top">decreasing to &lt;0.50 x 10<sup>9</sup> per liter</td>
+                           <td colspan="2" valign="top"/>
+                           <td styleCode="Rrule" valign="top"/>
+                           <td valign="top"/>
+                           <td valign="top"/>
+                           <td styleCode="Rrule" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="top">Serum creatinine increasing to</td>
+                           <td align="center" valign="top">6</td>
+                           <td align="center" valign="top">4</td>
+                           <td styleCode="Rrule" align="center" valign="top">0.12</td>
+                           <td align="center" valign="top">13</td>
+                           <td align="center" valign="top">9</td>
+                           <td styleCode="Rrule" align="center" valign="top">0.30</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="top">&gt;260 µmol per liter (&gt;2.9 mg/dL)</td>
+                           <td colspan="2" valign="top"/>
+                           <td styleCode="Rrule" valign="top"/>
+                           <td valign="top"/>
+                           <td valign="top"/>
+                           <td styleCode="Rrule" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="top">Seizure ‡</td>
+                           <td align="center" valign="top">21</td>
+                           <td align="center" valign="top">13</td>
+                           <td styleCode="Rrule" align="center" valign="top">0.37</td>
+                           <td align="center" valign="top">19</td>
+                           <td align="center" valign="top">13</td>
+                           <td styleCode="Rrule" align="center" valign="top">0.37</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="top">Catheterization-related infection</td>
+                           <td align="center" valign="top">49</td>
+                           <td align="center" valign="top">27</td>
+                           <td styleCode="Rrule" align="center" valign="top">1.26</td>
+                           <td align="center" valign="top">51</td>
+                           <td align="center" valign="top">28</td>
+                           <td styleCode="Rrule" align="center" valign="top">1.46</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">Hospitalization</td>
+                           <td styleCode="Botrule" align="center" valign="top">209</td>
+                           <td styleCode="Botrule" align="center" valign="top">91</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">4.74</td>
+                           <td styleCode="Botrule" align="center" valign="top">202</td>
+                           <td styleCode="Botrule" align="center" valign="top">75</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">5.03</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID77">Selected adverse events from ACTG Study 228 (CRRT) comparing combination therapy with foscarnet sodium or ganciclovir monotherapy are shown in Table 12. The most common reason for a treatment change in patients assigned to either foscarnet sodium or ganciclovir was retinitis progression. The most frequent reason for a treatment change in the combination treatment group was toxicity.</paragraph>
+                  <table ID="ID78" width="637">
+                     <caption> TABLE 12 CRRT: Selected Adverse Events </caption>
+                     <colgroup>
+                        <col width="187"/>
+                        <col width="54"/>
+                        <col width="42"/>
+                        <col width="54"/>
+                        <col width="54"/>
+                        <col width="45"/>
+                        <col width="51"/>
+                        <col width="54"/>
+                        <col width="45"/>
+                        <col width="51"/>
+                     </colgroup>
+                     <tfoot>
+                        <tr styleCode="First Last">
+                           <td colspan="10" align="left">
+                              <paragraph styleCode="First Footnote">* Pts. = patients with event; †Rate = events/person/year; ‡ANC = absolute neutrophil count</paragraph>
+                           </td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule Toprule" rowspan="4" valign="top"/>
+                           <td styleCode="Rrule Toprule" colspan="3" align="center" valign="top">Foscarnet sodium</td>
+                           <td styleCode="Rrule Toprule" colspan="3" align="center" valign="top">Ganciclovir</td>
+                           <td styleCode="Rrule Toprule" colspan="3" align="center" valign="top">Combination</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Rrule" colspan="3" align="center" valign="top">N=88</td>
+                           <td styleCode="Botrule Rrule" colspan="3" align="center" valign="top">N=93</td>
+                           <td styleCode="Botrule Rrule" colspan="3" align="center" valign="top">N=93</td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top">No.</td>
+                           <td align="center" valign="top">No.</td>
+                           <td styleCode="Rrule" align="center" valign="top">Rate†</td>
+                           <td align="center" valign="top">No.</td>
+                           <td align="center" valign="top">No.</td>
+                           <td styleCode="Rrule" align="center" valign="top">Rate†</td>
+                           <td align="center" valign="top">No.</td>
+                           <td align="center" valign="top">No.</td>
+                           <td styleCode="Rrule" align="center" valign="top">Rate†</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule" align="center" valign="top">Events</td>
+                           <td styleCode="Botrule" align="center" valign="top">Pts.*</td>
+                           <td styleCode="Botrule Rrule" valign="top"/>
+                           <td styleCode="Botrule" align="center" valign="top">Events</td>
+                           <td styleCode="Botrule" align="center" valign="top">Pts.*</td>
+                           <td styleCode="Botrule Rrule" valign="top"/>
+                           <td styleCode="Botrule" align="center" valign="top">Events</td>
+                           <td styleCode="Botrule" align="center" valign="top">Pts.*</td>
+                           <td styleCode="Botrule Rrule" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">Anemia (Hgb &lt;70g/L)</td>
+                           <td styleCode="Botrule" align="center" valign="top">11</td>
+                           <td styleCode="Botrule" align="center" valign="top">7</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">0.20</td>
+                           <td styleCode="Botrule" align="center" valign="top">9</td>
+                           <td styleCode="Botrule" align="center" valign="top">7</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">0.14</td>
+                           <td styleCode="Botrule" align="center" valign="top">19</td>
+                           <td styleCode="Botrule" align="center" valign="top">15</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">0.33</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="top">Neutropenia‡</td>
+                           <td valign="top"/>
+                           <td valign="top"/>
+                           <td styleCode="Rrule" valign="top"/>
+                           <td styleCode="Rrule" colspan="3" valign="top"/>
+                           <td styleCode="Rrule" colspan="3" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="right" valign="top">ANC &lt;0.75 x 10<sup>9</sup> cells/L</td>
+                           <td align="center" valign="top">86</td>
+                           <td align="center" valign="top">32</td>
+                           <td styleCode="Rrule" align="center" valign="top">1.53</td>
+                           <td align="center" valign="top">95</td>
+                           <td align="center" valign="top">41</td>
+                           <td styleCode="Rrule" align="center" valign="top">1.51</td>
+                           <td align="center" valign="top">107</td>
+                           <td align="center" valign="top">51</td>
+                           <td styleCode="Rrule" align="center" valign="top">1.91</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="right" valign="top">ANC &lt;0.50 x 10<sup>9</sup> cells/L</td>
+                           <td styleCode="Botrule" align="center" valign="top">50</td>
+                           <td styleCode="Botrule" align="center" valign="top">25</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">0.91</td>
+                           <td styleCode="Botrule" align="center" valign="top">49</td>
+                           <td styleCode="Botrule" align="center" valign="top">28</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">0.80</td>
+                           <td styleCode="Botrule" align="center" valign="top">50</td>
+                           <td styleCode="Botrule" align="center" valign="top">28</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">0.85</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="top">Thrombocytopenia</td>
+                           <td valign="top"/>
+                           <td valign="top"/>
+                           <td styleCode="Rrule" valign="top"/>
+                           <td styleCode="Rrule" colspan="3" valign="top"/>
+                           <td styleCode="Rrule" colspan="3" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="top">Platelets &lt;50 x 10<sup>9</sup>/L</td>
+                           <td align="center" valign="top">28</td>
+                           <td align="center" valign="top">14</td>
+                           <td styleCode="Rrule" align="center" valign="top">0.50</td>
+                           <td align="center" valign="top">19</td>
+                           <td align="center" valign="top">8</td>
+                           <td styleCode="Rrule" align="center" valign="top">0.43</td>
+                           <td align="center" valign="top">40</td>
+                           <td align="center" valign="top">15</td>
+                           <td styleCode="Rrule" align="center" valign="top">0.56</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">Platelets &lt;20 x 10<sup>9</sup>/L</td>
+                           <td styleCode="Botrule" align="center" valign="top">1</td>
+                           <td styleCode="Botrule" align="center" valign="top">1</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">0.01</td>
+                           <td styleCode="Botrule" align="center" valign="top">6</td>
+                           <td styleCode="Botrule" align="center" valign="top">2</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">0.05</td>
+                           <td styleCode="Botrule" align="center" valign="top">7</td>
+                           <td styleCode="Botrule" align="center" valign="top">6</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">0.18</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="top">Nephrotoxicity</td>
+                           <td valign="top"/>
+                           <td valign="top"/>
+                           <td styleCode="Rrule" valign="top"/>
+                           <td styleCode="Botrule" rowspan="3" align="center" valign="top">
+                              <br/> 10</td>
+                           <td styleCode="Botrule" rowspan="3" align="center" valign="top">
+                              <br/> 7</td>
+                           <td styleCode="Botrule Rrule" rowspan="3" align="center" valign="top">
+                              <br/> 0.17</td>
+                           <td styleCode="Botrule" rowspan="3" align="center" valign="top">
+                              <br/> 11</td>
+                           <td styleCode="Botrule" rowspan="3" align="center" valign="top">
+                              <br/> 10</td>
+                           <td styleCode="Botrule Rrule" rowspan="3" align="center" valign="top">
+                              <br/> 0.20</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="top">Creatinine &gt;260 µmol/L</td>
+                           <td align="center" valign="top">9</td>
+                           <td align="center" valign="top">7</td>
+                           <td styleCode="Rrule" align="center" valign="top">0.15</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">(&gt;2.9 mg/dL)</td>
+                           <td styleCode="Botrule" valign="top"/>
+                           <td styleCode="Botrule" valign="top"/>
+                           <td styleCode="Botrule Rrule" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">Seizures</td>
+                           <td styleCode="Botrule" align="center" valign="top">6</td>
+                           <td styleCode="Botrule" align="center" valign="top">6</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">0.17</td>
+                           <td styleCode="Botrule" align="center" valign="top">7</td>
+                           <td styleCode="Botrule" align="center" valign="top">6</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">0.15</td>
+                           <td styleCode="Botrule" align="center" valign="top">10</td>
+                           <td styleCode="Botrule" align="center" valign="top">5</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">0.18</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">Hospitalizations</td>
+                           <td styleCode="Botrule" align="center" valign="top">86</td>
+                           <td styleCode="Botrule" align="center" valign="top">53</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">1.86</td>
+                           <td styleCode="Botrule" align="center" valign="top">111</td>
+                           <td styleCode="Botrule" align="center" valign="top">59</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">2.36</td>
+                           <td styleCode="Botrule" align="center" valign="top">118</td>
+                           <td styleCode="Botrule" align="center" valign="top">64</td>
+                           <td styleCode="Botrule Rrule" align="center" valign="top">2.36</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID79">Adverse events that have been reported in post-marketing surveillance include: administration site extravasation, localized edema, hypersensitivity reactions (including anaphylactic shock, urticaria and angioedema) (see WARNINGS section), gastrointestinal hemorrhage, increased lipase, glomerulonephritis, nephrotic syndrome, proteinuria, status epilepticus, ventricular arrhythmia, prolongation of QT interval, torsade de pointes (see WARNINGS section), gamma GT increased, diabetes insipidus (usually nephrogenic), renal calculus, Fanconi syndrome acquired, renal tubular acidosis, renal tubular necrosis, crystal-induced nephropathy, hypercalcemia, hypernatremia, esophageal ulceration and muscle disorders including myopathy, myositis, muscle weakness and rare cases of rhabdomyolysis. Cases of vesiculobullous eruptions including erythema multiforme, toxic epidermal necrolysis, and Stevens-Johnson syndrome have been reported. In most cases, patients were taking other medications that have been associated with toxic epidermal necrolysis or Stevens-Johnson syndrome.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Avet Pharmaceuticals Inc. at 1-866-901-DRUG (3784) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID80">
+               <id root="fb3d10fc-543e-4cc4-8588-9ae87ce2d8a7"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph ID="ID81">In controlled clinical trials performed in the United States, overdosage with foscarnet sodium injection was reported in 10 out of 189 patients. All 10 patients experienced adverse events and all except one made a complete recovery. One patient died after receiving a total daily dose of 12.5 g for three days instead of the intended 10.9 g. The patient suffered a grand mal seizure and became comatose. Three days later the patient expired with the cause of death listed as respiratory/cardiac arrest. The other nine patients received doses ranging from 1.14 times to 8 times their recommended doses with an average of 4 times their recommended doses. Overall, three patients had seizures, three patients had renal function impairment, four patients had paresthesias either in limbs or periorally, and five patients had documented electrolyte disturbances primarily involving calcium and phosphate.</paragraph>
+                  <paragraph>Overdose (up to 20 times the recommended dose) has been reported in post-marketing use of foscarnet sodium injection. Some of these post-marketing reports were relative overdoses in that the dose of foscarnet sodium injection had not been adjusted in patients with a reduced renal function. The pattern of adverse events associated with a foscarnet sodium injection overdose is consistent with the known adverse event profile of the drug.</paragraph>
+                  <paragraph>There is no specific antidote for foscarnet sodium injection overdose. Hemodialysis and hydration may be of benefit in reducing drug plasma levels in patients who receive an overdosage of foscarnet sodium injection, but the effectiveness of these interventions has not been evaluated. The patient should be observed for signs and symptoms of renal impairment and electrolyte imbalance. Medical treatment should be instituted if clinically warranted.</paragraph>
+               </text>
+               <effectiveTime value="20200820"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID82">
+               <id root="85f38dff-6ed7-41b8-96ee-38ef68f7542a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph ID="ID83">
+                     <content styleCode="bold">CAUTION - DO NOT ADMINISTER FOSCARNET SODIUM INJECTION BY RAPID OR BOLUS INTRAVENOUS INJECTION. THE TOXICITY OF FOSCARNET SODIUM INJECTION MAY BE INCREASED AS A RESULT OF EXCESSIVE PLASMA LEVELS. CARE SHOULD BE TAKEN TO AVOID UNINTENTIONAL OVERDOSE BY CAREFULLY CONTROLLING THE RATE OF INFUSION. THEREFORE, AN INFUSION PUMP MUST BE USED. IN SPITE OF THE USE OF AN INFUSION PUMP, OVERDOSES HAVE OCCURRED.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230613"/>
+               <component>
+                  <section ID="ID84">
+                     <id root="b68f18c8-fe28-48e0-8617-cf7795888efd"/>
+                     <title>ADMINISTRATION</title>
+                     <text>
+                        <paragraph ID="ID85">
+                           <content styleCode="bold">Instructions for Administration and Preparation</content>
+                        </paragraph>
+                        <paragraph>Foscarnet sodium injection is administered by controlled intravenous infusion, either by using a central venous line or by using a peripheral vein. The rate of infusion must be no more than 1 mg/kg/minute. An individualized dose of foscarnet sodium injection should be calculated on the basis of body weight (mg/kg), renal function, indication of use and dosing frequency (refer to DOSAGE subsection). <content styleCode="italics">To reduce the risk of nephrotoxicity, creatinine clearance (mL/min/kg) should be calculated even if serum creatinine is within the normal range, and doses should be adjusted accordingly.</content>
+                        </paragraph>
+                        <paragraph>An individualized dose at the required concentration (24 mg/mL or 12 mg/mL) for the route of administration (central line or peripheral line) needs to be aseptically prepared prior to dispensing. The standard 24 mg/mL solution may be used with or without dilution when using a central venous catheter for infusion. When a peripheral vein catheter is used, the 24 mg/mL injection <content styleCode="bold">must be diluted </content>to a 12 mg/mL concentration with 5% dextrose in water or with a normal saline solution prior to administration to avoid local irritation of peripheral veins.</paragraph>
+                        <paragraph>Dilutions and/or removals of excess quantities should be accomplished under aseptic conditions. Solutions thus prepared should be used within 24 hours of first entry into a sealed bottle.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Hydration</content>
+                        </paragraph>
+                        <paragraph>Hydration may reduce the risk of nephrotoxicity. Clinically dehydrated patients should have their condition corrected before initiating foscarnet sodium injection therapy. It is recommended that 750 to 1000 mL of normal saline or 5% dextrose solution should be given prior to the first infusion of foscarnet sodium injection to establish diuresis. With subsequent infusions, 750 to 1000 mL of hydration fluid should be given with 90 to 120 mg/kg of foscarnet sodium injection, and 500 mL with 40 to 60 mg/kg of foscarnet sodium injection. Hydration fluid may need to be decreased if clinically warranted. Oral rehydration with similar regimens may be considered in certain patients.</paragraph>
+                        <paragraph>After the first dose, the hydration fluid should be administered concurrently with each infusion of foscarnet sodium injection.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Compatibility With Other Solutions/Drugs</content>
+                        </paragraph>
+                        <paragraph>Other drugs and supplements can be administered to a patient receiving foscarnet sodium injection. However, care must be taken to ensure that foscarnet sodium injection is only administered with normal saline or 5% dextrose solution and that no other drug or supplement is administered concurrently via the same catheter. Foscarnet has been reported to be chemically incompatible with 30% dextrose, amphotericin B, and solutions containing calcium such as Ringer's lactate and TPN. Physical incompatibility with other IV drugs has also been reported including acyclovir sodium, ganciclovir, trimetrexate glucuronate, pentamidine isethionate, vancomycin, trimethoprim/sulfamethoxazole, diazepam, midazolam, digoxin, phenytoin, leucovorin, and proclorperazine. Because of foscarnet's chelating properties, a precipitate can potentially occur when divalent cations are administered concurrently in the same catheter.</paragraph>
+                        <paragraph>Parenteral drug products must be inspected visually for particulate matter and discoloration prior to administration whenever the solution and container permit. Solutions that are discolored or contain particulate matter should not be used.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Accidental Exposure</content>
+                        </paragraph>
+                        <paragraph>Accidental skin and eye contact with foscarnet sodium solution may cause local irritation and burning sensation. If accidental contact occurs, the exposed area should be flushed with water.</paragraph>
+                     </text>
+                     <effectiveTime value="20230613"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID86">
+                     <id root="25f45b39-7d53-4f6c-a410-8035897442c9"/>
+                     <title>DOSAGE</title>
+                     <text>
+                        <paragraph ID="ID87">
+                           <content styleCode="bold">THE RECOMMENDED DOSAGE, FREQUENCY, OR INFUSION RATES SHOULD NOT BE EXCEEDED. ALL DOSES MUST BE INDIVIDUALIZED FOR PATIENTS' RENAL FUNCTION.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Induction Treatment</content>
+                        </paragraph>
+                        <paragraph>The recommended initial dose of foscarnet sodium injection for patients with normal renal function is:</paragraph>
+                        <list listType="unordered" ID="ID88" styleCode="Disc">
+                           <item>  For CMV retinitis patients, either 90 mg/kg (1-1/2 to 2 hour infusion) every twelve hours or 60 mg/kg (minimum one hour infusion) every eight hours over 2 to 3 weeks depending on clinical response.</item>
+                           <item>  For acyclovir-resistant HSV patients, 40 mg/kg (minimum one hour infusion) either every 8 or 12 hours for 2 to 3 weeks or until healed.</item>
+                        </list>
+                        <paragraph ID="ID89">An infusion pump must be used to control the rate of infusion. Adequate hydration is recommended to establish a diuresis (see Hydration for recommendation), both prior to and during treatment to minimize renal toxicity (see WARNINGS), provided there are no clinical contraindications.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Maintenance Treatment</content>
+                        </paragraph>
+                        <paragraph>Following induction treatment the recommended maintenance dose of foscarnet sodium injection for CMV retinitis is 90 mg/kg/day to 120 mg/kg/day (individualized for renal function) given as an intravenous infusion over 2 hours. Because the superiority of the 120 mg/kg/day has not been established in controlled trials, and given the likely relationship of higher plasma foscarnet levels to toxicity, it is recommended that most patients be started on maintenance treatment with a dose of 90 mg/kg/day. Escalation to 120 mg/kg/day may be considered should early reinduction be required because of retinitis progression. Some patients who show excellent tolerance to foscarnet sodium injection may benefit from initiation of maintenance treatment at 120 mg/kg/day earlier in their treatment.</paragraph>
+                        <paragraph>An infusion pump must be used to control the rate of infusion with all doses. Again, hydration to establish diuresis both prior to and during treatment is recommended to minimize renal toxicity, provided there are no clinical contraindications (see WARNINGS).</paragraph>
+                        <paragraph>Patients who experience progression of retinitis while receiving foscarnet sodium injection maintenance therapy may be retreated with the induction and maintenance regimens given above or with a combination of foscarnet sodium and ganciclovir (see CLINICAL TRIALS section). <content styleCode="bold">Because of physical incompatibility, foscarnet sodium and ganciclovir must NOT be mixed.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Use in Patients with Abnormal Renal Function</content>
+                        </paragraph>
+                        <paragraph>Foscarnet sodium injection should be used with caution in patients with abnormal renal function because reduced plasma clearance of foscarnet will result in elevated plasma levels (see CLINICAL PHARMACOLOGY). In addition, foscarnet sodium injection has the potential to further impair renal function (see WARNINGS). Safety and efficacy data for patients with baseline serum creatinine levels greater than 2.8 mg/dL or measured 24-hour creatinine clearances less than 50 mL/min are limited.</paragraph>
+                        <paragraph>Renal function must be monitored carefully at baseline and during induction and maintenance therapy with appropriate dose adjustments for foscarnet sodium injection as outlined below (see Dose Adjustment and PATIENT MONITORING). During foscarnet sodium injection therapy if creatinine clearance falls below the limits of the dosing nomograms (0.4 mL/min/kg), foscarnet sodium injection should be discontinued, the patient hydrated, and monitored daily until resolution of renal impairment is ensured.</paragraph>
+                        <paragraph>Foscarnet sodium injection is not recommended in patients undergoing hemodialysis because dosage guidelines have not been established.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Dose Adjustment</content>
+                        </paragraph>
+                        <paragraph>Foscarnet sodium injection dosing must be individualized according to the patient's renal function status. Refer to Table 13 below for recommended doses and adjust the dose as indicated. Even patients with serum creatinine in the normal range may require dose adjustment; therefore, the dose should be calculated at baseline and frequently thereafter.</paragraph>
+                        <paragraph>To use this dosing guide, actual 24-hour creatinine clearance (mL/min) must be divided by body weight (kg), or the estimated creatinine clearance in mL/min/kg can be calculated from serum creatinine (mg/dL) using the following formula (modified Cockcroft and Gault equation):</paragraph>
+                        <table ID="ID90" width="660">
+                           <colgroup>
+                              <col width="213"/>
+                              <col width="213"/>
+                              <col width="234"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td align="left" valign="top">For males:</td>
+                                 <td align="center" valign="top">
+                                    <content styleCode="underline">140 – age</content>
+                                 </td>
+                                 <td align="left" valign="top">(x 0.85 for females) = mL/min/kg</td>
+                              </tr>
+                              <tr>
+                                 <td valign="top"/>
+                                 <td align="center" valign="top">Serum creatinine x 72</td>
+                                 <td valign="top"/>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <table ID="ID91" width="637">
+                           <caption> TABLE 13 Foscarnet Sodium Injection Dosage Guide Induction </caption>
+                           <colgroup>
+                              <col width="132"/>
+                              <col width="126"/>
+                              <col width="133"/>
+                              <col width="122"/>
+                              <col width="124"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top"/>
+                                 <td styleCode="Botrule Rrule Toprule" colspan="2" align="center" valign="top">
+                                    <content styleCode="bold"> HSV: Equivalent to</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule Toprule" colspan="3" align="center" valign="top">
+                                    <content styleCode="bold"> CMV: Equivalent to</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" rowspan="2" align="center" valign="top">
+                                    <content styleCode="bold"> CrCI</content>
+                                    <br/>
+                                    <content styleCode="bold"> (mL/min/kg)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" rowspan="2" align="left" valign="top">
+                                    <content styleCode="bold"> 80 mg/kg/day total</content>
+                                    <br/>
+                                    <content styleCode="bold"> (40 mg/kg Q12h)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" rowspan="2" align="center" valign="top">
+                                    <content styleCode="bold"> 120 mg/kg/day total</content>
+                                    <br/>
+                                    <content styleCode="bold"> (40 mg/kg Q8h)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" colspan="3" align="center" valign="top">
+                                    <content styleCode="bold"> 180 mg/kg/day total</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" colspan="2" align="center" valign="top">
+                                    <content styleCode="bold"> (60 mg/kg Q8h)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> (90 mg/kg Q12h)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">&gt;1.4</td>
+                                 <td styleCode="Rrule" align="center" valign="top">40 Q12h</td>
+                                 <td styleCode="Rrule" align="center" valign="top">40 Q8h</td>
+                                 <td styleCode="Rrule" align="center" valign="top">60 Q8h</td>
+                                 <td styleCode="Rrule" colspan="2" align="center" valign="top">90 Q12h</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">&gt;1.0 – 1.4</td>
+                                 <td styleCode="Rrule" align="center" valign="top">30 Q12h</td>
+                                 <td styleCode="Rrule" align="center" valign="top">30 Q8h</td>
+                                 <td styleCode="Rrule" align="center" valign="top">45 Q8h</td>
+                                 <td styleCode="Rrule" colspan="2" align="center" valign="top">70 Q12h</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">&gt;0.8 – 1.0</td>
+                                 <td styleCode="Rrule" align="center" valign="top">20 Q12h</td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 35 Q12h</content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 50 Q12h</content>
+                                 </td>
+                                 <td styleCode="Rrule" colspan="2" align="center" valign="top">50 Q12h</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">&gt;0.6 – 0.8</td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 35 Q24h</content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 25 Q12h</content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 40 Q12h</content>
+                                 </td>
+                                 <td styleCode="Rrule" colspan="2" align="center" valign="top">
+                                    <content styleCode="bold"> 80 Q24h</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">&gt;0.5 – 0.6</td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 25 Q24h</content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 40 Q24h</content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 60 Q24h</content>
+                                 </td>
+                                 <td styleCode="Rrule" colspan="2" align="center" valign="top">
+                                    <content styleCode="bold"> 60 Q24h</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">&gt;0.4 – 0.5</td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 20 Q24h</content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 35 Q24h</content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 50 Q24h</content>
+                                 </td>
+                                 <td styleCode="Rrule" colspan="2" align="center" valign="top">
+                                    <content styleCode="bold"> 50 Q24h</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="center" valign="top">&lt;0.4</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">Not recommended</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">Not recommended</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">Not recommended</td>
+                                 <td styleCode="Botrule Rrule" colspan="2" align="center" valign="top">Not recommended</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph ID="ID92">
+                           <content styleCode="bold">Maintenance</content>
+                        </paragraph>
+                        <table ID="ID93" width="642">
+                           <colgroup>
+                              <col width="214"/>
+                              <col width="214"/>
+                              <col width="214"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" valign="top"/>
+                                 <td styleCode="Botrule Rrule Toprule" colspan="2" align="center" valign="top">
+                                    <content styleCode="bold"> CMV: Equivalent to</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> CrCI</content>
+                                    <br/>
+                                    <content styleCode="bold"> (mL/min/kg)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold"> 90 mg/kg/day</content>
+                                    <br/>
+                                    <content styleCode="bold"> (once daily)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold"> 120 mg/kg/day</content>
+                                    <br/>
+                                    <content styleCode="bold"> (once daily)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">&gt;*1.4</td>
+                                 <td styleCode="Rrule" align="center" valign="top">90 Q24h</td>
+                                 <td styleCode="Rrule" align="center" valign="top">120 Q24h</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">&gt;*1.0 – 1.4</td>
+                                 <td styleCode="Rrule" align="center" valign="top">70 Q24h</td>
+                                 <td styleCode="Rrule" align="center" valign="top">90 Q24h</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">&gt;*0.8 – 1.0</td>
+                                 <td styleCode="Rrule" align="center" valign="top">50 Q24h</td>
+                                 <td styleCode="Rrule" align="center" valign="top">65 Q24h</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">&gt;*0.6 – 0.8</td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 80 Q48h</content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 105 Q48h</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">&gt;*0.5 – 0.6</td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 60 Q48h</content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 80 Q48h</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" align="center" valign="top">
+                                    <content styleCode="underline">&gt;</content> †0.4 – 0.5</td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 50 Q48h</content>
+                                 </td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <content styleCode="bold"> 65 Q48h</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="center" valign="top">&lt;‡0.4</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">Not recommended</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">Not recommended</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph ID="ID94">*&gt; means "greater than", †<content styleCode="underline">&gt;</content> means "greater than or equal to", ‡&lt; means "less than"</paragraph>
+                     </text>
+                     <effectiveTime value="20230613"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID95">
+               <id root="b0236b04-549b-497d-b9e6-b3c930ae3b29"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>PATIENT MONITORING</title>
+               <text>
+                  <paragraph ID="ID96">The majority of patients will experience some decrease in renal function due to foscarnet sodium injection administration. Therefore it is recommended that creatinine clearance, either measured or estimated using the modified Cockcroft and Gault equation based on serum creatinine, be determined at baseline, 2 to 3 times per week during induction therapy and once weekly during maintenance therapy, with foscarnet sodium injection dose adjusted accordingly (see Dose Adjustment). More frequent monitoring may be required for some patients. It is also recommended that a 24-hour creatinine clearance be determined at baseline and periodically thereafter to ensure correct dosing (assuming verification of an adequate collection using creatinine index). Foscarnet sodium injection should be discontinued if creatinine clearance drops below 0.4 mL/min/kg.</paragraph>
+                  <paragraph>Due to foscarnet sodium's propensity to chelate divalent metal ions and alter levels of serum electrolytes, patients must be monitored closely for such changes. It is recommended that a schedule similar to that recommended for serum creatinine (see above) be used to monitor serum calcium, magnesium, potassium and phosphorus. Particular caution is advised in patients with decreased total serum calcium or other electrolyte levels before treatment, as well as in patients with neurologic or cardiac abnormalities, and in patients receiving other drugs known to influence serum calcium levels. Any clinically significant metabolic changes should be corrected. Also, patients who experience mild (e.g., perioral numbness or paresthesias) or severe (e.g., seizures) symptoms of electrolyte abnormalities should have serum electrolyte and mineral levels assessed as close in time to the event as possible.</paragraph>
+                  <paragraph>Careful monitoring and appropriate management of electrolytes, calcium, magnesium and creatinine are of particular importance in patients with conditions that may predispose them to seizures (see WARNINGS).</paragraph>
+               </text>
+               <effectiveTime value="20200820"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID97">
+               <id root="cfe14dc4-1a28-4f45-9924-354e55984f0c"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph ID="ID98">Foscarnet Sodium Injection, 24 mg/mL for intravenous infusion, is supplied in 250 mL glass bottles containing 6,000 mg foscarnet sodium (24 mg/mL) as follows:</paragraph>
+                  <paragraph>NDC 23155-771-31 250 mL bottle, 1 bottle per carton</paragraph>
+                  <paragraph>NDC 23155-771-41 250 mL bottles, cases of 10</paragraph>
+                  <paragraph>Single-dose. Discard unused portion.</paragraph>
+                  <paragraph>Store at 20˚ to 25˚C (68˚ to 77˚F), excursions permitted between 15˚ to 30˚C (59˚ to 86˚F) [see USP Controlled Room Temperature]. Protect from excessive heat (above 40°C) and from freezing. If refrigerated or exposed to temperatures below the freezing point, precipitation may occur. By keeping the bottle at room temperature with repeated shaking, the precipitate can be brought into solution again.</paragraph>
+                  <paragraph>Foscarnet sodium injection should be used only if the bottle and seal are intact, a vacuum is present, and the solution is clear and colorless.</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Siegfried Hameln GmbH </content>
+                  </paragraph>
+                  <paragraph>Langes Feld 13, Hameln, 31789,</paragraph>
+                  <paragraph>Lower Saxony, Germany (DEU)</paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Avet Pharmaceuticals Inc.</content>
+                  </paragraph>
+                  <paragraph>East Brunswick, NJ 08816</paragraph>
+                  <paragraph>1.866.901.DRUG (3784)</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+                  <paragraph ID="ID100">
+                     <content styleCode="bold">Revised: 12/2023</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240117"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>logo</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="Avet logo.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID101">
+               <id root="a881d93a-a895-43b2-ba83-30a7ba8425b1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>  NDC 23155-771-31<br/> Foscarnet Sodium Injection <br/> 6,000 mg/250 mL <br/>(24 mg/mL)<br/> For Central Intravenous Infusion Only <br/> Must be Diluted for Peripheral <br/> Intravenous Infusion <br/> Single-dose. <br/> Discard unused portion.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="La61d3dc0-48ec-4ace-8534-b11353f0c2cb"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L6946ec96-399f-4a3d-85de-6e02493a3777"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240117"/>
+               <component>
+                  <observationMedia ID="L6946ec96-399f-4a3d-85de-6e02493a3777">
+                     <text>Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Fos carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="La61d3dc0-48ec-4ace-8534-b11353f0c2cb">
+                     <text>Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Fos Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

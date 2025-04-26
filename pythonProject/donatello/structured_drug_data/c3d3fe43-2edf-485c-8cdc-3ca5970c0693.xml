@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="c3d3fe43-2edf-485c-8cdc-3ca5970c0693"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Doxycycline Hyclate Tablets, USP</content>
+   </title>
+   <effectiveTime value="20250204"/>
+   <setId root="861b71f3-37e8-4596-838c-c8dad8ed5ff4"/>
+   <versionNumber value="101"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+            <name>Bryant Ranch Prepack</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                  <name>Bryant Ranch Prepack</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bryant Ranch Prepack</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="72162-2256"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="72162-2256"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="ea4105f1-44ab-4b69-a2ee-ea1bb8c92f1a"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20231227"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72162-2256" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Doxycycline Hyclate</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Doxycycline Hyclate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="42806-362" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="19XTS3T51U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOXYCYCLINE HYCLATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="334895S862" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOXYCYCLINE ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72162-2256-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190830"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065182" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190830"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="9" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">E;362</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="ID_306bff05-070c-4bab-a4ea-1cd2dceb7a0d">
+                     <text>structure.JPG</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="structure fornula.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_51ad4687-9546-4175-8c4a-bfdb5a1a521e">
+               <id root="ddabdea4-4f4b-46d6-ad19-5da5e14a54de"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION<content styleCode="italics"/>
+               </title>
+               <text>
+                  <paragraph>Doxycycline hyclate tablets, USP are available as a 20 mg formulation of doxycycline for oral administration.</paragraph>
+                  <paragraph>The structural formula of doxycycline hyclate is:</paragraph>
+                  <renderMultiMedia ID="id-1768301123" referencedObject="ID_306bff05-070c-4bab-a4ea-1cd2dceb7a0d"/>
+                  <paragraph>with a structural formula of (C<sub>22</sub>H<sub>24</sub>N<sub>2</sub>O<sub>8</sub>•HCl)<sub>2</sub>•C<sub>2</sub>H<sub>6</sub>O•H<sub>2</sub>O and a molecular weight of 1025.89. The chemical designation for doxycycline is 4-(dimethylamino)-1,4,4a,5,5a,6,11,12a-octahydro-3,5,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-2-naphthacenecarboxamide monohydrochloride, compound with ethyl alcohol (2:1), monohydrate.</paragraph>
+                  <paragraph>Doxycycline hyclate is a yellow to light-yellow crystalline powder which is soluble in water.</paragraph>
+                  <paragraph>Each tablet contains the following inactive ingredients: hypromellose, lactose anhydrous, magnesium stearate, microcrystalline cellulose, polyethylene glycol, polysorbate 80 and titanium dioxide.</paragraph>
+                  <paragraph>Meet USP Dissolution Test 5.</paragraph>
+               </text>
+               <effectiveTime value="20240627"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_64383ee5-b2d1-4f99-9406-9421c0e702ad">
+               <id root="244e865a-fdb0-47e7-933e-b5a28866f2af"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY </title>
+               <text>
+                  <paragraph>After oral administration, doxycycline hyclate is rapidly and nearly completely absorbed from the gastrointestinal tract. Doxycycline is eliminated with a half-life of approximately 18 hours by renal and fecal excretion of unchanged drug.</paragraph>
+               </text>
+               <effectiveTime value="20231227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_02bb734f-6b6b-4148-bcf8-300ede239cdd">
+               <id root="fcc9f7c7-26db-4a85-b0f1-cea2c8f0ccf9"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE </title>
+               <text>
+                  <paragraph>Doxycycline hyclate tablets, USP are indicated for use as an adjunct to scaling and root planing to promote attachment level gain and to reduce pocket depth in patients with adult periodontitis.</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of doxycycline hyclate tablets and other antibacterial drugs, doxycycline hyclate tablets should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture susceptibility information is available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+               </text>
+               <effectiveTime value="20231227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2f145f0b-7ab0-4294-994e-6f1fec7476cb">
+               <id root="d97329e7-502a-49d1-bf19-cabf02bd4a1f"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS </title>
+               <text>
+                  <paragraph>This drug is contraindicated in persons who have shown hypersensitivity to doxycycline or any of the other tetracyclines.</paragraph>
+               </text>
+               <effectiveTime value="20231227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f6817018-69f3-4b30-b178-2b06e69250c3">
+               <id root="5e32434f-5b5e-40c7-9bf4-cdd72f3582e1"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS </title>
+               <text>
+                  <paragraph>THE USE OF DRUGS OF THE TETRACYCLINE CLASS DURING TOOTH DEVELOPMENT (LAST HALF OF PREGNANCY, INFANCY AND CHILDHOOD TO THE AGE OF 8 YEARS) MAY CAUSE PERMANENT DISCOLORATION OF THE TEETH (YELLOW-GRAY-BROWN). This adverse reaction is more common during long-term use of the drugs but has been observed following repeated short-term courses. Enamel hypoplasia has also been reported. TETRACYCLINE DRUGS, THEREFORE, SHOULD NOT BE USED IN THIS AGE GROUP AND IN PREGNANT OR NURSING MOTHERS UNLESS THE POTENTIAL BENEFITS MAY BE ACCEPTABLE DESPITE THE POTENTIAL RISKS.</paragraph>
+                  <paragraph>All tetracyclines form a stable calcium complex in any bone forming tissue. A decrease in fibula growth rate has been observed in premature infants given oral tetracyclines in doses of 25 mg/kg every 6 hours. This reaction was shown to be reversible when the drug was discontinued.</paragraph>
+                  <paragraph>Doxycycline can cause fetal harm when administered to a pregnant woman. Results of animal studies indicate that tetracyclines cross the placenta, are found in fetal tissues, and can have toxic effects on the developing fetus (often related to retardation of skeletal development).</paragraph>
+                  <paragraph>Evidence of embryotoxicity has also been noted in animals treated early in pregnancy. If any tetracyclines are used during pregnancy, or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to the fetus.</paragraph>
+                  <paragraph>The catabolic action of the tetracyclines may cause and increase in BUN. Previous studies have not observed an increase in BUN with the use of doxycycline in patients with impaired renal function.</paragraph>
+                  <paragraph>Photosensitivity manifested by an exaggerated sunburn reaction has been observed in some individuals taking tetracyclines. Patients apt to be exposed to direct sunlight or ultraviolet light should be advised that this reaction can occur with tetracycline drugs, and treatment should be discontinued at the first evidence of skin erythema.</paragraph>
+               </text>
+               <effectiveTime value="20231227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_cd1fcede-5b3f-4f25-933d-80e76eaae7e3">
+               <id root="2f2ed2b6-4aa8-4a14-a0ba-541406a524ef"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS </title>
+               <effectiveTime value="20231227"/>
+               <component>
+                  <section ID="ID_d30f2a55-fcb1-428f-97d2-bb4254a37f4a">
+                     <id root="4186e568-dec4-47de-a1ac-0ce9fda7920d"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General </title>
+                     <text>
+                        <paragraph>Prescribing doxycycline hyclate tablets in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increase the risk of the development of drug-resistant bacteria.</paragraph>
+                        <paragraph>While no overgrowth by opportunistic microorganisms such as yeast were noted during clinical studies, as with other antimicrobials, doxycycline hyclate tablets therapy may result in overgrowth of nonsusceptible microorganisms including fungi.</paragraph>
+                        <paragraph>The use of tetracyclines may increase the incidence of vaginal candidiasis.</paragraph>
+                        <paragraph>Doxycycline hyclate tablets should be used with caution in patients with a history or predisposition to oral candidiasis. The safety and effectiveness of doxycycline hyclate tablets have not been established for the treatment of periodontitis in patients with coexistent oral candidiasis.</paragraph>
+                        <paragraph>If superinfection is suspected, appropriate measures should be taken.</paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_92171342-92ca-4dbf-ad77-57501d07ae28">
+                     <id root="fb615b32-bc96-4f0e-804e-22d943ff98f8"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients </title>
+                     <text>
+                        <paragraph>Patients should be counseled that antibacterial drugs including doxycycline hyclate tablets should only be used to treat bacterial infections. They do not treat viral infections (e.g. the common cold). When doxycycline hyclate tablets are prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by doxycycline hyclate tablets or other antibacterial drugs in the future.</paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_0df1b989-acbc-458b-8bed-a817dcf77697">
+                     <id root="dcf56844-2f0b-490f-b21d-bad463d70495"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests </title>
+                     <text>
+                        <paragraph>In long term therapy, periodic laboratory evaluations of organ systems, including hematopoietic, renal, and hepatic studies should be performed.</paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_229a4128-adff-4240-b22a-0147ab54530f">
+                     <id root="12f9d85f-aa56-4dd5-a1e4-a1b451e88b87"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions </title>
+                     <text>
+                        <paragraph>Because tetracyclines have been shown to depress plasma prothrombin activity, patients who are on anticoagulant therapy may require downward adjustment of their anticoagulant dosage.</paragraph>
+                        <paragraph>Since bacterial antibiotics, such as the tetracycline class of antibiotics, may interfere with the bactericidal action of members of the β-lactam (e.g. penicillin) class of antibiotics, it is not advisable to administer these antibiotics concomitantly.</paragraph>
+                        <paragraph>Absorption of tetracyclines is impaired by antacids containing aluminum, calcium, or magnesium, and iron-containing preparations, and by bismuth subsalicylate.</paragraph>
+                        <paragraph>Barbiturates, carbamazepine, and phenytoin decrease the half-life of doxycycline.</paragraph>
+                        <paragraph>The concurrent use of tetracycline and methoxyflurane has been reported to result in fatal renal toxicity.</paragraph>
+                        <paragraph>Concurrent use of tetracyclines may render oral contraceptives less effective.</paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_f8b0102e-b1c9-4ef3-9208-3cce7047daed">
+                     <id root="9e03a1c7-10ae-4f76-a49f-f10fbf35f295"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions </title>
+                     <text>
+                        <paragraph>False elevations of urinary catecholamine levels may occur due to interference with the fluorescence test.</paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_4c1cc000-b4da-411d-bea7-2c363569dfb0">
+                     <id root="e6edf77a-b9e7-43a8-9d6d-60a039b0919b"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility </title>
+                     <text>
+                        <paragraph>Doxycycline hyclate was assessed for potential to induce carcinogenesis in a study in which the compound was administered to Sprague-Dawley rats by gavage at dosages of 20, 75, and 200 mg/kg/day for two years. An increased incidence of uterine polyps was observed in female rats that received 200 mg/kg/day, a dosage that resulted in a systemic exposure to doxycycline approximately nine times that observed in female humans that used doxycycline hyclate tablets (exposure comparison based upon AUC values). No impact upon tumor incidence was observed in male rats at 200 mg/kg/day, or in either gender at the other dosages studied. Evidence of oncogenic activity was obtained in studies with related compounds, i.e., oxytetracycline (adrenal and pituitary tumors), and minocycline (thyroid tumors).</paragraph>
+                        <paragraph>Doxycycline hyclate demonstrated no potential to cause genetic toxicity in an in vitro point mutation study with mammalian cells (CHO/HGPRT forward mutation assay) or in an in vivo micronucleus assay conducted in CD-1 mice. However, data from an in vitro assay with CHO cells for potential to cause chromosomal aberrations suggest that doxycycline hyclate is a weak clastogen.</paragraph>
+                        <paragraph>Oral administration of doxycycline hyclate to male and female Sprague-Dawley rats adversely affected fertility and reproductive performance, as evidenced by increased time for mating to occur, reduced sperm motility, velocity, and concentration, abnormal sperm morphology, and increased pre-and post-implantation losses. Doxycycline hyclate induced reproductive toxicity at all dosages that were examined in this study, as even the lowest dosage tested (50 mg/kg/day) induced a statistically significant reduction in sperm velocity. Note that 50 mg/kg/day is approximately 10 times the amount of doxycycline hyclate contained in the recommended daily dose of doxycycline hyclate tablets for a 60 kg human when compared on the basis of body surface area estimates (mg/m<sup>2</sup>). Although doxycycline impairs the fertility of rats when administered at sufficient dosage, the effect of doxycycline hyclate tablets on human fertility is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_cd913068-93c7-48db-89ab-4b4ceb1bfc27">
+                     <id root="0c341967-ce5a-43ae-bbdc-eb233a6cf20e"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Teratogenic Effects:</content>
+                           </content> Pregnancy Category D. (See <linkHtml href="#ID_f6817018-69f3-4b30-b178-2b06e69250c3">WARNINGS</linkHtml> Section). Results from animal studies indicate that doxycycline crosses the placenta and is found in fetal tissues.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Nonteratogenic effects:</content>
+                           </content> (See <linkHtml href="#ID_f6817018-69f3-4b30-b178-2b06e69250c3">WARNINGS</linkHtml> Section).</paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_88fc3f89-ea8e-4daf-885e-f99706922f06">
+                     <id root="6215a02f-d66c-4682-9677-2bb55e3cdae4"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>The effect of tetracyclines on labor and delivery is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_ab727f2e-2e1a-4350-9643-896bbf8e0b8b">
+                     <id root="5e710f0a-ebfa-4db8-83ef-030420fb4941"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Tetracyclines are excreted in human milk. Because of the potential for serious adverse reactions in nursing infants from doxycycline, the use of doxycycline hyclate tablets in nursing mothers is contraindicated. (See <linkHtml href="#ID_f6817018-69f3-4b30-b178-2b06e69250c3">WARNINGS</linkHtml> Section).</paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_3d129c5a-cb84-444b-8b3b-074a03eab4e6">
+                     <id root="de82d552-4bc0-4b09-9151-900614b48f89"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use </title>
+                     <text>
+                        <paragraph>The use of doxycycline hyclate tablets in infancy and childhood is contraindicated. (See <linkHtml href="#ID_f6817018-69f3-4b30-b178-2b06e69250c3">WARNINGS</linkHtml> section.)</paragraph>
+                     </text>
+                     <effectiveTime value="20231227"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0fb81e4a-6270-4423-9144-5c1ec653ac00">
+               <id root="14dca518-eeab-4294-b545-d8ef922f51aa"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Adverse Reactions in Clinical Trials of a bioequivalent form of doxycycline hyclate capsules</content>
+                     </content>: In clinical trials of adult patients with periodontal disease 213 patients received 20 mg BID over a 9 to 12 month period. The most frequent adverse reactions occurring in studies involving treatment with a bioequivalent form of doxycycline hyclate capsules or placebo are listed below:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Incidence (%) of Adverse Reactions in Clinical Trials of Doxycycline Hyclate Capsules, 20 mg (Bioequivalent to Doxycycline Hyclate Tablets, 20 mg) vs. Placebo</content>
+                  </paragraph>
+                  <table styleCode="Noautorules" width="100%">
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode="Botrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Adverse Reactions</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Doxycycline Hyclate</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Capsules 20 mg BID</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">(n=213)</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Placebo</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">(n=215)</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Headache</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>55 (26%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>56 (26%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Common Cold</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>47 (22%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>46 (21%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Flu Symptoms</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>24 (11%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>40 (19%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Tooth Ache</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>14 (7%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>28 (13%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Periodontal Abscess</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>8 (4%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>21 (10%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Tooth Disorder</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>13 (6%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>19 (9%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Nausea</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>17 (8%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>12 (6%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Sinusitis</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>7 (3%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>18 (8%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Injury</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>11 (5%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>18 (8%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Dyspepsia</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>13 (6%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>5 (2%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Sore Throat</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>11 (5%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>13 (6%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Joint Pain</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>12 (6%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>8 (4%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Diarrhea</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>12 (6%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>8 (4%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Sinus Congestion</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>11 (5%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>11 (5%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Coughing</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>9 (4%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>11 (5%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Sinus Headache</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>8 (4%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>8 (4%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Rash</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>8 (4%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>6 (3%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Back Pain</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>7 (3%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>8 (4%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Back Ache</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>4 (2%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>9 (4%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Menstrual Cramp</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>9 (4%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>5 (2%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Acid Indigestion</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>8 (4%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>7 (3%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Pain</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>8 (4%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>5 (2%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Infection</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>4 (2%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>6 (3%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Gum Pain</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>1 (&lt;1%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>6 (3%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Bronchitis</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>7 (3%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Toprule Botrule " valign="top">
+                              <paragraph>5 (2%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Toprule " valign="top">
+                              <paragraph>Muscle Pain</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule " valign="top">
+                              <paragraph>2 (1%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule " valign="top">
+                              <paragraph>6 (3%)</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Note: Percentages are based on total number of study participants in each treatment group.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Adverse Reactions for Tetracyclines:</content>
+                     </content> The following adverse reactions have been observed in patients receiving tetracyclines:</paragraph>
+                  <paragraph>Gastrointestinal: anorexia, nausea, vomiting, diarrhea, glossitis, dysphagia, enterocolitis, and inflammatory lesions (with vaginal candidiasis) in the anogenital region. Hepatotoxicity has been reported rarely. Rare instances of esophagitis and esophageal ulcerations have been reported in patients receiving the capsule forms of the drugs in the tetracycline class. Most of these patients took medications immediately before going to bed. (See <linkHtml href="#ID_52b6e7e4-a0f5-4d42-8b26-afd142e066dd">DOSAGE AND ADMINISTRATION</linkHtml> Section).</paragraph>
+                  <paragraph>Skin: maculopapular and erythematous rashes. Exfoliative dermatitis has been reported but is uncommon. Photosensitivity is discussed above. (See <linkHtml href="#ID_f6817018-69f3-4b30-b178-2b06e69250c3">WARNINGS</linkHtml> Section).</paragraph>
+                  <paragraph>Renal toxicity: Rise in BUN has been reported and is apparently dose related. (See <linkHtml href="#ID_f6817018-69f3-4b30-b178-2b06e69250c3">WARNINGS</linkHtml> Section).</paragraph>
+                  <paragraph>Hypersensitivity reactions: urticaria, angioneurotic edema, anaphylaxis, anaphylactoid purpura, serum sickness, pericarditis, and exacerbation of systemic lupus erythematosus.</paragraph>
+                  <paragraph>Blood: Hemolytic anemia, thrombocytopenia, neutropenia, and eosinophilia have been reported.</paragraph>
+               </text>
+               <effectiveTime value="20231227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_63c70716-1397-45af-8357-e3a2e42d008a">
+               <id root="13e1794d-5a0f-4425-8161-a67cdd0bd6ae"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE </title>
+               <text>
+                  <paragraph>In case of overdosage, discontinue medication, treat symptomatically and institute supportive measures. Dialysis does not alter serum half-life and thus would not be of benefit in treating cases of overdose.</paragraph>
+               </text>
+               <effectiveTime value="20231227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_52b6e7e4-a0f5-4d42-8b26-afd142e066dd">
+               <id root="5618a76a-6503-48db-b1ab-d95167f38c65"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION </title>
+               <text>
+                  <paragraph>THE DOSAGE OF DOXYCYCLINE HYCLATE TABLETS DIFFERS FROM THAT OF DOXYCYCLINE USED TO TREAT INFECTIONS. EXCEEDING THE RECOMMENDED DOSAGE MAY RESULT IN AN INCREASED INCIDENCE OF SIDE EFFECTS INCLUDING THE DEVELOPMENT OF RESISTANT MICROORGANISMS.</paragraph>
+                  <paragraph>Doxycycline hyclate tablets 20 mg twice daily as an adjunct following scaling and root planing may be administered for up to 9 months. Doxycycline hyclate tablets should be taken twice daily at 12 hour intervals, usually in the morning and evening. It is recommended that if doxycycline hyclate tablets is taken close to meal times, allow at least one hour prior to or two hours after meals. Safety beyond 12 months and efficacy beyond 9 months have not been established.</paragraph>
+                  <paragraph>Administration of adequate amounts of fluid along with the tablets is recommended to wash down the drug and reduce the risk of esophageal irritation and ulceration. (See <linkHtml href="#ID_0fb81e4a-6270-4423-9144-5c1ec653ac00">ADVERSE REACTIONS</linkHtml> Section).</paragraph>
+               </text>
+               <effectiveTime value="20231227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7d53041e-dd0f-421d-a819-661e1f21d11c">
+               <id root="abea39d5-2753-4ea0-baf4-ce34d8978914"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED </title>
+               <text>
+                  <paragraph>Doxycycline hyclate tablets USP, 20 mg are round, white unscored tablet, debossed “Є” above “362” on one side and plain on the other side. They are supplied as follows:</paragraph>
+                  <list listType="unordered">
+                     <item>NDC 72162-2256-1: 100 Tablets in a BOTTLE</item>
+                  </list>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Dispense in tight, light-resistant containers as defined in the USP.</paragraph>
+                  <paragraph>KEEP THIS AND ALL DRUGS OUT OF THE REACH OF CHILDREN.</paragraph>
+                  <paragraph>Repackaged/Relabeled by:<br/>Bryant Ranch Prepack, Inc.<br/>Burbank, CA 91504</paragraph>
+               </text>
+               <effectiveTime value="20250307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a8bbd119-2215-4614-959e-5b852e54cc1e">
+               <id root="d65ceac4-911f-4020-86ab-860750b930f5"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>References </title>
+               <text>
+                  <paragraph>1. Golub L.M., Sorsa T., Lee H-M, Ciancio S., Sorbi D., Ramamurthy N.S., Gruber B., Salo T., Konttinen Y.T.: Doxycycline Inhibits Neutrophil (PMN)-type Matrix Metalloproteinases in Human Adult Periodontitis Gingiva. J. Clin. Periodontol: 1995; 22: 100-109.</paragraph>
+                  <paragraph>2. Golub L.M., Ciancio S., Ramamurthy N.S., Leung M., McNamara T.F.: Low-dose Doxycycline Therapy: Effect on Gingival and Crevicular Fluid Collagenase Activity in Humans. J. Periodont Res 1990; 25: 321-330.</paragraph>
+                  <paragraph>3. Golub L.M., Lee H.M., Greenwald R.A., Ryan M.E., Salo T., Giannobile W.V.: A Matrix Metalloproteinase Inhibitor Reduces Bone-type Collagen Degradation Fragments and Specific Collegenases in Gingival Crevicular Fluid During Adult Periodontitis. Inflammation Research 1997; 46: 310-319.</paragraph>
+                  <paragraph>4. Saivain S., Houin G.: Clinical Pharmacokinetics of Doxycycline and Minocycline. Clin. Pharmacokinetics 1988; 15: 355-366.</paragraph>
+                  <paragraph>5. Schach von Wittenau M., Twomey T.: The Disposition of Doxycycline by Man and Dog. Chemotherapy 1971; 16: 217-228.</paragraph>
+                  <paragraph>6. Campistron G., Coulais Y., Caillard C., Mosser J., Pontagnier H., Houin G.: Pharmacokinetics and Bioavailability of Doxycycline in Humans. Arzneimittel Forschung 1986; 36: 1705-1707.</paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Epic Pharma, LLC</content>
+                  </paragraph>
+                  <paragraph>Laurelton, NY 11413 USA</paragraph>
+                  <paragraph>Rev.05-2024-00</paragraph>
+                  <paragraph>MF362REV05/24E</paragraph>
+                  <paragraph>LN0017</paragraph>
+               </text>
+               <effectiveTime value="20240627"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9c94802d-c880-4e92-a522-771cb6372761"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Doxycycline Hyclate 20mg Tablet</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="mm63629"/>
+               </text>
+               <effectiveTime value="20250307"/>
+               <component>
+                  <observationMedia ID="mm63629">
+                     <text>Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl721622256.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

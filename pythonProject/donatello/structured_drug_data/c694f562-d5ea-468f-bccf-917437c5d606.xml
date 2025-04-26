@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="c694f562-d5ea-468f-bccf-917437c5d606"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Desmopressin Acetate Tablets<br/>
+      <br/>Rx only</title>
+   <effectiveTime value="20250131"/>
+   <setId root="52133714-37d1-458d-9839-f0bd206711ea"/>
+   <versionNumber value="101"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+            <name>Bryant Ranch Prepack</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                  <name>Bryant Ranch Prepack</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bryant Ranch Prepack</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="71335-2342"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="71335-2342"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="SDES">
+               <id root="ab7c8b78-0590-43ad-8c49-d0def4c4e285"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250225"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71335-2342" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Desmopressin Acetate</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Desmopressin Acetate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="69918-201" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="0.2" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XB13HYU18U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DESMOPRESSIN ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="ENR1LLB0FP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DESMOPRESSIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="J2B2A4N98G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8I089SAH3T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-2342-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240206"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA019955" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20151210"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="10" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">0;2</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="desmopressin-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM40">
+                     <text>LOGO</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="desmopressin-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="234a5e45-a9ce-43da-b9ff-7af9ed842474"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Acetate Tablets</content> (desmopressin acetate) are a synthetic analogue of the natural pituitary hormone 8-arginine vasopressin (ADH), an antidiuretic hormone affecting renal water conservation. It is chemically defined as follows: </paragraph>
+                  <paragraph>Mol. Wt. 1183.34 Empirical Formula: C<sub>46</sub>H<sub>64</sub>N<sub>14</sub>O<sub>12</sub>S<sub>2</sub>•C<sub>2</sub>H<sub>4</sub>O<sub>2</sub>•3H<sub>2</sub>O</paragraph>
+                  <table width="60%" styleCode="Noautorules">
+                     <col width="100%" align="center" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <renderMultiMedia referencedObject="MM1"/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>1-(3-mercaptopropionic acid)-8-D-arginine vasopressin monoacetate (salt) trihydrate. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Acetate Tablets</content> contain either 0.1 or 0.2 mg desmopressin acetate. Inactive ingredients include: lactose, potato starch, magnesium stearate and povidone.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CP">
+               <id root="fa2cbbca-68ae-4f87-abef-cf6963ba91fe"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Acetate Tablets</content> contain as active substance, desmopressin acetate, a synthetic analogue of the natural hormone arginine vasopressin.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <section>
+                     <id root="fb1e2c56-fa73-4a71-adfa-58a8230f647e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Central Diabetes Insipidus:</content> Dose response studies in patients with diabetes insipidus have demonstrated that oral doses of 0.025 mg to 0.4 mg produced clinically significant antidiuretic effects. In most patients, doses of 0.1 mg to 0.2 mg produced optimal antidiuretic effects lasting up to eight hours. With doses of 0.4 mg, antidiuretic effects were observed for up to 12 hours; measurements beyond 12 hours were not recorded. Increasing oral doses produced dose dependent increases in the plasma levels of desmopressin acetate.</paragraph>
+                        <paragraph>The plasma half-life of desmopressin acetate followed a monoexponential time course with t<sub>1/2</sub> values of 1.5 to 2.5 hours which was independent of dose.</paragraph>
+                        <paragraph>The bioavailability of Desmopressin Acetate oral tablets is about 5% compared to intranasal desmopressin acetate, and about 0.16% compared to intravenous desmopressin acetate. The time to reach maximum plasma desmopressin acetate levels ranged from 0.9 to 1.5 hours following oral or intranasal administration, respectively. Following administration of <content styleCode="bold">Desmopressin Acetate Tablets</content>, the onset of antidiuretic effect occurs at around 1 hour, and it reaches a maximum at about 4 to 7 hours based on the measurement of increased urine osmolality.</paragraph>
+                        <paragraph>The use of <content styleCode="bold">Desmopressin Acetate Tablets</content> in patients with an established diagnosis will result in a reduction in urinary output with an accompanying increase in urine osmolality. These effects usually will allow resumption of a more normal life style, with a decrease in urinary frequency and nocturia.</paragraph>
+                        <paragraph>There are reports of an occasional change in response to the intranasal formulations of desmopressin acetate (Desmopressin Acetate Nasal Spray and Desmopressin Acetate Rhinal Tube). Usually, the change occurred over a period of time greater than six months. This change may be due to decreased responsiveness, or to shortened duration of effect. There is no evidence that this effect is due to the development of binding antibodies, but may be due to a local inactivation of the peptide. No lessening of effect was observed in the 46 patients who were treated with <content styleCode="bold">Desmopressin Acetate Tablets</content> for 12 to 44 months and no serum antibodies to desmopressin were detected.</paragraph>
+                        <paragraph>The change in structure of arginine vasopressin to desmopressin acetate resulted in less vasopressor activity and decreased action on visceral smooth muscle relative to enhanced antidiuretic activity. Consequently, clinically effective antidiuretic doses are usually below the threshold for effects on vascular or visceral smooth muscle. In the four long-term studies of <content styleCode="bold">Desmopressin Acetate Tablets</content>, no increases in blood pressure in 46 patients receiving <content styleCode="bold">Desmopressin Acetate Tablets</content> for periods of 12 to 44 months were reported. In one study, the pharmacodynamic characteristics of <content styleCode="bold">Desmopressin Acetate Tablets</content> and intranasal formulation were compared during an 8-hour dosing interval at steady state. The doses administered to 36 hydrated (water loaded) healthy male adult volunteers every 8 hours were 0.1, 0.2, 0.4 mg orally and 0.01 mg intranasally by rhinal tube. The results are shown in the following table:</paragraph>
+                        <table width="95%">
+                           <caption>Mean Changes from Baseline (SE) in Pharmacodynamic Parameters in Normal Healthy Adult Volunteers</caption>
+                           <col width="33%" align="left" valign="top"/>
+                           <col width="34%" align="left" valign="top"/>
+                           <col width="33%" align="left" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Rrule">Treatment</th>
+                                 <th styleCode="Rrule">Total Urine Volume in mL</th>
+                                 <th>Maximum Urine Osmolality in mOsm/kg</th>
+                              </tr>
+                           </thead>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="3" align="left">(SE) = Standard error of the mean</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">0.1 mg PO q8h </td>
+                                 <td styleCode="Rrule">-3689.3 (149.6)</td>
+                                 <td>514.8 (21.9)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">0.2 mg PO q8h</td>
+                                 <td styleCode="Rrule">-4429.9 (149.6)</td>
+                                 <td>686.3 (21.9)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">0.4 mg PO q8h</td>
+                                 <td styleCode="Rrule">-4998.8 (149.6)</td>
+                                 <td>769.3 (21.9)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">0.01 mg IN q8h</td>
+                                 <td styleCode="Rrule">-4844.9 (149.6)</td>
+                                 <td>754.1 (21.9)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>With respect to the mean values of total urine volume decrease and maximum urine osmolality increase from baseline, the 90% confidence limits estimated that the 0.4 mg and 0.2 mg oral dose produced between 95% and 110% and 84% to 99% of pharmacodynamic activity, respectively, when compared to the 0.01 mg intranasal dose.</paragraph>
+                        <paragraph>While both the 0.2 mg and 0.4 mg oral doses are considered pharmacodynamically similar to the 0.01 mg intranasal dose, the pharmacodynamic data on an inter-subject basis was highly variable and, therefore, individual dosing is recommended.</paragraph>
+                        <paragraph>In another study in diabetes insipidus patients, the pharmacodynamic characteristics of <content styleCode="bold">Desmopressin Acetate Tablets</content> and intranasal formulations were compared over a 12-hour period. Ten fluid-controlled patients under age 18 were administered tablet doses of 0.2 mg and 0.4 mg, and intranasal doses of  0.01 mg and 0.02 mg.</paragraph>
+                        <table width="95%">
+                           <caption>Mean Peak Pharmacodynamic Parameters (SD) in Pediatric and Adolescent Diabetes Insipidus Patients</caption>
+                           <col width="33%" align="left" valign="top"/>
+                           <col width="34%" align="left" valign="top"/>
+                           <col width="33%" align="left" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Rrule">Treatment</th>
+                                 <th styleCode="Rrule">Urine Volume in mL/min</th>
+                                 <th>Maximum Urine Osmolality in mOsm/kg</th>
+                              </tr>
+                           </thead>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="3" align="left">(SD) = Standard Deviation</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">0.01 mg IN</td>
+                                 <td styleCode="Rrule">0.3 (0.15)</td>
+                                 <td>717.0 (224.63)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">0.02 mg IN</td>
+                                 <td styleCode="Rrule">0.3 (0.25)</td>
+                                 <td>761.8 (298.82)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">0.2 mg PO</td>
+                                 <td styleCode="Rrule">0.3 (0.12)</td>
+                                 <td>678.3 (147.91)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">0.4 mg PO</td>
+                                 <td styleCode="Rrule">0.2 (0.15)</td>
+                                 <td>787.2 (73.34)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>All four dose formulations (0.01 mg IN, 0.02 mg IN, 0.2 mg PO and 0.4 mg PO) have a similar, pronounced pharmacodynamic effect on urine volume and urine osmolality. At two hours after study drug administration, mean urine volume was 4 mL/min and urine osmolality was &gt;500 mOsm/kg. Mean plasma osmolality remained relatively constant over the time course recorded (0 to 12 hours). A statistical separation from baseline did not occur at any dose or time point. In these patients, the 0.2 mg tablets and the 0.01 mg intranasal spray exhibited similar pharmacodynamic profiles as did the 0.4 mg tablets and the 0.02 mg intranasal spray formulation. In another study of adult diabetes insipidus patients previously controlled on <content styleCode="bold">Desmopressin Acetate Intranasal Spray</content>, after one week of self-titration from spray to tablets, patients’ diuresis was controlled with 0.1 mg <content styleCode="bold">Desmopressin Acetate Tablets</content> three times a day.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="f2911bda-1ac5-407b-be34-93264518693d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Primary Nocturnal Enuresis:</content> Two double-blind, randomized, placebo-controlled studies were conducted in 340 patients with primary nocturnal enuresis. Patients were 5-17 years old, and 72% were males. A total of 329 patients were evaluated for efficacy. Patients were evaluated over a two-week baseline period in which the average number of wet nights was 10 (range 4-14). Patients were then randomized to receive 0.2, 0.4, or 0.6 mg of Desmopressin Acetate  Tablets or placebo. The pooled results after two weeks are shown in the following table:</paragraph>
+                        <table width="95%">
+                           <caption>Response to Desmopressin Acetate Tablets and Placebo at Two Weeks of Treatment Mean (SE) Number of Wet Nights/2 Weeks</caption>
+                           <col width="28%" align="left" valign="top"/>
+                           <col width="18%" align="left" valign="top"/>
+                           <col width="18%" align="left" valign="top"/>
+                           <col width="18%" align="left" valign="top"/>
+                           <col width="18%" align="left" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Rrule"/>
+                                 <th styleCode="Rrule">Placebo<br/>(n = 85)</th>
+                                 <th styleCode="Rrule">0.2 mg/day<br/>(n = 79)</th>
+                                 <th styleCode="Rrule">0.4 mg/day<br/>(n = 82)</th>
+                                 <th>0.6 mg/day<br/>(n = 83)</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">Baseline</td>
+                                 <td styleCode="Rrule">10 (0.3)</td>
+                                 <td styleCode="Rrule">11 (0.3)</td>
+                                 <td styleCode="Rrule">10 (0.3)</td>
+                                 <td>10 (0.3)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">Reduction from Baseline</td>
+                                 <td styleCode="Rrule">1 (0.3)</td>
+                                 <td styleCode="Rrule">3 (0.4)</td>
+                                 <td styleCode="Rrule">3 (0.4)</td>
+                                 <td>4 (0.4)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">Percent Reduction from Baseline</td>
+                                 <td styleCode="Rrule">10%</td>
+                                 <td styleCode="Rrule">27%</td>
+                                 <td styleCode="Rrule">30%</td>
+                                 <td>40%</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule">p-value vs placebo</td>
+                                 <td styleCode="Rrule">----</td>
+                                 <td styleCode="Rrule">&lt;0.05</td>
+                                 <td styleCode="Rrule">&lt;0.05</td>
+                                 <td>&lt;0.05</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Patients treated with <content styleCode="bold">Desmopressin Acetate Tablets</content> showed a statistically significant reduction in the number of wet nights compared to placebo-treated patients. A greater response was observed with increasing doses up to 0.6 mg.</paragraph>
+                        <paragraph>In a six month, open-label extension study, patients completing the placebo-controlled studies were started on 0.2 mg/day Desmopressin Acetate Tablets, and the dose was progressively increased until the optimal response was achieved (maximum dose 0.6 mg/day). A total of 230 patients were evaluated for efficacy; the average number of wet nights/2 weeks during the untreated baseline period was 10 (range 4-14), and the average duration (SD) of treatment was 4.2 (1.8) months. Twenty-five (25) patients (11%) achieved a complete or near complete response (≤2 wet nights/2 weeks) and did not require titration to the 0.6 mg/day dose. The majority of patients (198 of 230, 86%) were titrated to the highest dose. When all dose groups were combined, 128 (56%) showed at least a 50% reduction from baseline in the number of wet nights/2 weeks, while 87 (38%) patients achieved a complete or near complete response.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="CPHP">
+                     <id root="81b8130c-c491-491b-8e9c-bf44fc3961da"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Human Pharmacokinetics:</content> Desmopressin acetate is mainly excreted in the urine. A pharmacokinetic study conducted in healthy volunteers and patients with mild, moderate, and severe renal impairment (n=24, 6 subjects in each group) receiving single dose desmopressin acetate (2 mcg) injection demonstrated a difference in desmopressin acetate terminal half-life. Terminal half-life significantly increased from 3 hours in normal healthy patients to 9 hours in patients with severe renal impairment. (See <content styleCode="bold">
+                              <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                           </content>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="08a34254-eb29-4809-a556-8718de67ec85"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <section>
+                     <id root="1686ffeb-f43b-4cf7-80d1-1cb97693469e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Central Diabetes Insipidus: Desmopressin Acetate Tablets</content> are indicated as antidiuretic replacement therapy in the management of central diabetes insipidus and for the management of the temporary polyuria and polydipsia following head trauma or surgery in the pituitary region. Desmopressin acetate is ineffective for the treatment of nephrogenic diabetes insipidus.</paragraph>
+                        <paragraph>Patients were selected for therapy based on the diagnosis by means of the water deprivation test, the hypertonic saline infusion test, and/or response to antidiuretic hormone. Continued response to desmopressin acetate can be monitored by measuring urine volume and osmolality.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="60ae9b2d-c8b2-468d-9ca1-1250ec60019e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Primary Nocturnal Enuresis: Desmopressin Acetate Tablets</content> are indicated for the management of primary nocturnal enuresis. Desmopressin Acetate Tablets may be used alone or as an adjunct to behavioral conditioning or other non-pharmacologic intervention.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="CONTRAINDICATIONS">
+               <id root="afb9860f-874f-4871-9e91-7dabe3effd5f"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Acetate Tablets</content> are contraindicated in individuals with known hypersensitivity to desmopressin acetate or to any of the components of <content styleCode="bold">Desmopressin Acetate Tablets</content>.</paragraph>
+                  <paragraph>Desmopressin acetate is contraindicated in patients with moderate to severe renal impairment (defined as a creatinine clearance below 50 mL/min).</paragraph>
+                  <paragraph>Desmopressin acetate is contraindicated in patients with hyponatremia or a history of hyponatremia.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS">
+               <id root="e46f9dd2-419d-4593-b7da-0d851906a5ab"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>1. Very rare cases of hyponatremia have been reported from world-wide postmarketing experience in patients treated with desmopressin acetate. Desmopressin acetate is a potent antidiuretic which, when administered, may lead to water intoxication and/or hyponatremia. Unless properly diagnosed and treated hyponatremia can be fatal. Therefore, fluid restriction is recommended and should be discussed with the patient and/or guardian. Careful medical supervision is required.</paragraph>
+                  <paragraph>2. When Desmopressin Acetate Tablets are administered, in particular in pediatric and geriatric patients, fluid intake should be adjusted downward to decrease the potential occurrence of water intoxication and hyponatremia. (See <content styleCode="bold">
+                        <linkHtml href="#PRECAUTIONS">PRECAUTIONS</linkHtml>
+                     </content>, <linkHtml href="#Pediatric_Use">Pediatric Use</linkHtml>
+                      and 
+                        <linkHtml href="#Geriatric_Use">Geriatric Use</linkHtml>.) All patients receiving desmopressin acetate therapy should be observed for the following signs of symptoms associated with hyponatremia: headache, nausea/vomiting, decreased serum sodium, weight gain, restlessness, fatigue, lethargy, disorientation, depressed reflexes, loss of appetite, irritability, muscle weakness, muscle spasms or cramps and abnormal mental status such as hallucinations, decreased consciousness and confusion. Severe symptoms may include one or a combination of the following: seizure, coma and/or respiratory arrest. Particular attention should be paid to the possibility of the rare occurrence of an extreme decrease in plasma osmolality that may result in seizures which could lead to coma.</paragraph>
+                  <paragraph>3. Desmopressin acetate should be used with caution in patients with habitual or psychogenic polydipsia who may be more likely to drink excessive amounts of water, putting them at greater risk of hyponatremia.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="PRECAUTIONS">
+               <id root="8ee685e7-b030-4814-b8f5-1f0ec724025d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <section>
+                     <id root="cdab4beb-2658-4ea1-9395-fac0f143e5dc"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">General:</content> Intranasal formulations of desmopressin acetate at high doses and Desmopressin Acetate Injection have infrequently produced a slight elevation of blood pressure which disappears with a reduction of dosage. Although this effect has not been observed when single oral doses up to 0.6 mg have been administered, the drug should be used with caution in patients with coronary artery insufficiency and/or hypertensive cardiovascular disease, because of a possible rise in blood pressure.</paragraph>
+                        <paragraph>Desmopressin acetate should be used with caution in patients with conditions associated with fluid and electrolyte imbalance, such as cystic fibrosis, heart failure and renal disorders because these patients are prone to hyponatremia.</paragraph>
+                        <paragraph>Rare severe allergic reactions have been reported with desmopressin acetate. Anaphylaxis has been reported rarely with intravenous and intranasal administration of desmopressin acetate but not with <content styleCode="bold">Desmopressin Acetate Tablets</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="6c219470-2eaf-413f-bc46-a499ea3db9c1"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Laboratory Tests:</content>
+                           <content styleCode="italics"> Central Diabetes Insipidus:</content> Laboratory tests for monitoring the patient with central diabetes insipidus or post-surgical or head trauma-related polyuria and polydipsia include urine volume and osmolality. In some cases, measurements of plasma osmolality may be useful.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="c9d1bde3-e1db-40de-b5a6-f515130fb8d9"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Drug Interactions:</content> Although the pressor activity of desmopressin acetate is very low compared to its antidiuretic activity, large doses of <content styleCode="bold">Desmopressin Acetate Tablets</content> should be used with other pressor agents only with careful patient monitoring. The concomitant administration of drugs that may increase the risk of water intoxication with hyponatremia, (e.g. tricyclic antidepressants, selective serotonin re-uptake inhibitors, chlorpromazine, opiate analgesics, NSAIDs, lamotrigine and carbamazepine) should be performed with caution.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="c8e2f0a4-2b4d-4669-9668-d6146ed77d81"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Carcinogenicity, Mutagenicity, Impairment of Fertility:</content> Studies with desmopressin acetate have not been performed to evaluate carcinogenic potential, mutagenic potential or effects on fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="3e71dd28-3f25-4d87-a94e-51b010f71d63"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy:</content>
+                           <content styleCode="italics"> Category B:</content> Fertility studies have not been done. Teratology studies in rats and rabbits at doses from 0.05 to 10 mcg/ kg/day (approximately 0.1 times the maximum systemic human exposure in rats and up to 38 times the maximum systemic human exposure in rabbits based on surface area, mg/m<sup>2</sup>) revealed no harm to the fetus due to desmopressin acetate. There are, however, no adequate and well-controlled studies in pregnant women. Because animal studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                        <paragraph>Several publications where desmopressin acetate was used in the management of diabetes insipidus during pregnancy are available; these include a few anecdotal reports of congenital anomalies and low birth weight babies. However, no causal connection between these events and desmopressin acetate has been established. A fifteen year Swedish epidemiologic study of the use of desmopressin acetate in pregnant women with diabetes insipidus found the rate of birth defects to be no greater than that in the general population; however, the statistical power of this study is low. As opposed to preparations containing natural hormones, desmopressin acetate in antidiuretic doses has no uterotonic action and the physician will have to weigh the possible therapeutic advantages against the possible risks in each case.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9c8d5bec-8104-4061-9f38-75a5c026f5ba"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Nursing Mothers:</content> There have been no controlled studies in nursing mothers. A single study in postpartum women demonstrated a marked change in plasma, but little if any change in assayable desmopressin acetate in breast milk following an intranasal dose of 0.01 mg.</paragraph>
+                        <paragraph>It is not known whether the drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when desmopressin acetate is administered to nursing mothers.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Pediatric_Use">
+                     <id root="aa3f8642-bec4-425f-a4b0-69f8a37b6cd1"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Use:</content>
+                           <content styleCode="italics"> Central Diabetes Insipidus:</content>
+                           <content styleCode="bold"> Desmopressin Acetate Tablets</content> have been used safely in pediatric patients, age 4 years and older, with diabetes insipidus for periods up to 44 months. In younger pediatric patients the dose must be individually adjusted in order to prevent an excessive decrease in plasma osmolality leading to hyponatremia and possible convulsions; dosing should start at 0.05 mg (1/2 of the 0.1 mg tablet). Use of <content styleCode="bold">Desmopressin Acetate Tablets</content> in pediatric patients requires careful fluid intake restrictions to prevent possible hyponatremia and water intoxication. Fluid restriction should be discussed with the patient and/or guardian. (See <content styleCode="bold">
+                              <linkHtml href="#WARNINGS">WARNINGS</linkHtml>.)</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="bc3e1471-f9c7-481e-a165-8d00321abcd8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Primary Nocturnal Enuresis:</content>
+                           <content styleCode="bold"> Desmopressin Acetate Tablets</content> have been safely used in pediatric patients age 6 years and older with primary nocturnal enuresis for up to 6 months. Some patients respond to a dose of 0.2 mg; however, increasing responses are seen at doses of 0.4 mg and 0.6 mg. No increase in the frequency or severity of adverse reactions or decrease in efficacy was seen with an increased dose or duration. The dose should be individually adjusted to achieve the best results. Treatment with desmopressin for primary nocturnal enuresis should be interrupted during acute intercurrent illness characterized by fluid and/or electrolyte imbalance (e.g., systemic infections, fever, recurrent vomiting or diarrhea) or under conditions of extremely hot weather, vigorous exercise or other conditions associated with increased water intake.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Geriatric_Use">
+                     <id root="b16c5913-a1f4-4ad2-b690-ac01af39e3af"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold underline">Geriatric Use:</content> Clinical studies of Desmopressin Acetate Tablets did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function. Desmopressin acetate is contraindicated in patients with moderate to severe renal impairment (defined as a creatinine clearance below 50 mL/min). (See <content styleCode="bold">
+                              <linkHtml href="#CP">CLINICAL PHARMACOLOGY</linkHtml>, <linkHtml href="#CPHP">Human Pharmacokinetics</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                           </content>.)</paragraph>
+                        <paragraph>Use of Desmopressin Acetate Tablets in geriatric patients requires careful fluid intake restrictions to prevent possible hyponatremia and water intoxication. Fluid restriction should be discussed with the patient. (See <content styleCode="bold">
+                              <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                           </content>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bbc7d8be-4559-4111-a036-3a4018a690b7"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Infrequently, large doses of the intranasal formulations of desmopressin acetate and Desmopressin Acetate Injection have produced transient headache, nausea, flushing and mild abdominal cramps. These symptoms have disappeared with reduction in dosage.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <section>
+                     <id root="025374fb-ba9f-48e3-8e54-14c1a470737e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Central Diabetes Insipidus:</content> In long-term clinical studies in which patients with diabetes insipidus were followed for periods up to 44 months of <content styleCode="bold">Desmopressin Acetate Tablet</content> therapy, transient increases in AST (SGOT) no higher than 1.5 times the upper limit of normal were occasionally observed. Elevated AST (SGOT) returned to the normal range despite continued use of<content styleCode="bold"> Desmopressin Acetate Tablets</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="e313499e-1d30-4764-8118-cfbf6273e5c8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Primary Nocturnal Enuresis:</content> The only adverse event occurring in ≥3% of patients in controlled clinical trials with <content styleCode="bold">Desmopressin Acetate Tablets</content> that was probably, possibly, or remotely related to study drug was headache (4% desmopressin acetate, 3% placebo).</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="034ec462-383e-4885-b001-3e37bc6f1e3c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Other:</content> The following adverse events have been reported; however their relationship to desmopressin acetate has not been established: abnormal thinking, diarrhea, and edema-weight gain.</paragraph>
+                        <paragraph>See <content styleCode="bold">
+                              <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                           </content> for the possibility of water intoxication and hyponatremia.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="276d09b8-0f9c-43c4-98f9-6603babded55"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Post Marketing:</content> There have been rare reports of hyponatremic convulsions associated with concomitant use with the following medications: oxybutinin and imipramine.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8d4f6c58-63e8-4d43-a364-c174289eb5c1"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Signs of overdose may include confusion, drowsiness, continuing headache, problems with passing urine and rapid weight gain due to fluid retention. (See <content styleCode="bold">
+                        <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                     </content>.) In case of overdose, the dose should be reduced, frequency of administration decreased, or the drug withdrawn according to the severity of the condition. There is no known specific antidote for desmopressin acetate. The patient should be observed and treated with appropriate symptomatic therapy. An oral LD<sub>50</sub> has not been established. Oral doses up to 0.2 mg/kg/day have been administered to dogs and rats for 6 months without any significant drug-related toxicities reported. An intravenous dose of 2 mg/kg in mice demonstrated no effect.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="604a3e43-f156-4e1c-819f-cdb8279b8a5c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <section>
+                     <id root="c42eaf70-a153-449b-b767-8eb2ea812bc4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Central Diabetes Insipidus:</content> The dosage of <content styleCode="bold">Desmopressin Acetate Tablets</content> must be determined for each individual patient and adjusted according to the diurnal pattern of response. Response should be estimated by two parameters: adequate duration of sleep and adequate, not excessive, water turnover. Patients previously on intranasal desmopressin acetate therapy should begin tablet therapy twelve hours after the last intranasal dose. During the initial dose titration period, patients should be observed closely and appropriate safety parameters measured to assure adequate response. Patients should be monitored at regular intervals during the course of <content styleCode="bold">Desmopressin Acetate Tablet</content> therapy to assure adequate antidiuretic response. Modifications in dosage regimen should be implemented as necessary to assure adequate water turnover. Fluid restriction should be observed. (See <content styleCode="bold">
+                              <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                           </content>, <content styleCode="bold">
+                              <linkHtml href="#PRECAUTIONS"> PRECAUTIONS</linkHtml>,</content>
+                           <linkHtml href="#Pediatric_Use"> Pediatric Use</linkHtml> and <linkHtml href="#Geriatric_Use"> Geriatric Use</linkHtml>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                     <component>
+                        <section>
+                           <id root="ca09ce01-1f5a-4a71-b9c1-c78689b3de67"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Adults and Children:</content> It is recommended that patients be started on doses of 0.05 mg (1/2 of the 0.1 mg tablet) two times a day and individually adjusted to their optimum therapeutic dose. Most patients in clinical trials found that the optimal dosage range is 0.1 mg to 0.8 mg daily, administered in divided doses. Each dose should be separately adjusted for an adequate diurnal rhythm of water turnover. Total daily dosage should be increased or decreased in the range of 0.1 mg to 1.2 mg divided into two or three daily doses as needed to obtain adequate antidiuresis. See <content styleCode="bold">
+                                    <linkHtml href="#Pediatric_Use">Pediatric Use</linkHtml>
+                                 </content> subsection for special considerations when administering desmopressin acetate to pediatric diabetes insipidus patients.</paragraph>
+                           </text>
+                           <effectiveTime value="20241206"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="a48ba947-177d-44cc-b964-dc9499df3510"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Geriatric Use:</content> This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function. (See <content styleCode="bold">
+                              <linkHtml href="#CP">CLINICAL PHARMACOLOGY</linkHtml>
+                           </content>, <linkHtml href="#CPHP">Human Pharmacokinetics,</linkHtml>
+                           <content styleCode="bold">
+                              <linkHtml href="#CONTRAINDICATIONS"> CONTRAINDICATIONS</linkHtml>
+                           </content>, and <content styleCode="bold">
+                              <linkHtml href="#PRECAUTIONS">PRECAUTIONS</linkHtml>
+                           </content>, <linkHtml href="#Geriatric_Use">Geriatric Use</linkHtml>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="748a35fd-be8f-4677-ac0c-b7a38a043459"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Primary Nocturnal Enuresis:</content> The dosage of <content styleCode="bold">Desmopressin Acetate Tablets</content> must be determined for each individual patient and adjusted according to response. Patients previously on intranasal desmopressin acetate therapy can begin tablet therapy the night following (24 hours after) the last intranasal dose. The recommended initial dose for patients age 6 years and older is 0.2 mg at bedtime. The dose may be titrated up to 0.6 mg to achieve the desired response. Fluid restriction should be observed, and fluid intake should be limited to a minimum from 1 hour before desmopressin acetate administration, until the next morning, or at least 8 hours after administration. (See <content styleCode="bold">
+                              <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                           </content>, <content styleCode="bold">
+                              <linkHtml href="#PRECAUTIONS">PRECAUTIONS</linkHtml>
+                           </content>, <linkHtml href="#Pediatric_Use">Pediatric Use</linkHtml> and 
+                              <linkHtml href="#Geriatric_Use">Geriatric Use</linkHtml>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="028f642d-f585-413a-80a0-3da3461c59f6"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Desmopressin Acetate 0.2 mg Tablet</paragraph>
+                  <list listType="unordered">
+                     <item>NDC 71335-2342-1: 90 TABLETs in a BOTTLE</item>
+                  </list>
+                  <paragraph>Store at Controlled Room Temperature 20 to 25°C (68 to 77°F) [see USP]. Avoid exposure to excessive heat or light.</paragraph>
+                  <paragraph>This product should be dispensed in a container with a child-resistant cap.</paragraph>
+                  <paragraph>Keep out of the reach of children.</paragraph>
+                  <paragraph>Repackaged/Relabeled by:<br/>Bryant Ranch Prepack, Inc.<br/>Burbank, CA 91504</paragraph>
+               </text>
+               <effectiveTime value="20250227"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f0d6b2bf-f0b1-443f-a9e7-e0ad1fa83efa"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured for:<br/>Nordic Pharma, Inc.<br/>Berwyn, PA 19312<br/>
+                     <linkHtml href="www.nordicpharmausa.com">www.nordicpharmausa.com</linkHtml>
+                     <br/>
+                     <renderMultiMedia referencedObject="MM40"/>
+                  </paragraph>
+                  <paragraph>The Nordic Pharma Logo is a trademark of Nordic Group B.V.</paragraph>
+                  <paragraph>Origin Sweden</paragraph>
+                  <paragraph>Rev. 10/2024</paragraph>
+                  <paragraph>2009056650</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e1e118fd-47a6-4938-9c49-06a8d7706f38"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Acetate 0.2 mg Tablet</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="mm63629"/>
+               </text>
+               <effectiveTime value="20250227"/>
+               <component>
+                  <observationMedia ID="mm63629">
+                     <text>Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl713352342.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

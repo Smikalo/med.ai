@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="dabdb746-a0fb-4208-ab3c-32e638396713"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use HEPARIN SODIUM INJECTION safely and effectively. See full prescribing information for HEPARIN SODIUM INJECTION.<br/>
+      <br/>HEPARIN SODIUM injection, for intravenous or subcutaneous use<br/>Initial U.S. Approval: 1939
+</title>
+   <effectiveTime value="20250318"/>
+   <setId root="83a59e7d-63e9-4eb8-87f0-52039d6893a5"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="080548348" root="1.3.6.1.4.1.519.1"/>
+            <name>Meitheal Pharmaceuticals Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="080548348" root="1.3.6.1.4.1.519.1"/>
+                  <name>Meitheal Pharmaceuticals Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="421297554" root="1.3.6.1.4.1.519.1"/>
+                        <name>Nanjing King-Friend Biochemical Pharmaceutical Co., Ltd.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="71288-400" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="e23d20e5-0d1d-4d36-a899-ac5492106b81"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20200930"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71288-400" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Heparin Sodium</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Heparin Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="2000" unit="[USP'U]"/>
+                              <denominator value="2" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="ZZ45AB24CA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>heparin sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T2410KM04A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>heparin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sodium chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>hydrochloric acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sodium hydroxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71288-400-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="25" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="71288-400-03" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20190615"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190615"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA211005" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="8917e725-6ed8-43c6-9676-c652d1f4cc49"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250130"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <table width="100%" styleCode="Noautorules">
+                           <caption/>
+                           <tbody>
+                              <tr>
+                                 <td> Warnings and Precautions, Hyperkalemia (<linkHtml href="#La891e2ce-b231-4773-b74f-25ee9a0c914f">5.9</linkHtml>)</td>
+                                 <td align="right">
+                                    <paragraph/>
+                                    <paragraph>7/2024</paragraph>
+                                    <paragraph/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="L3e4c4e37-46de-43ae-a033-1ffbeed60433">
+               <id root="99864206-7a86-4154-97ca-b9f5e7e79b3a"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>Heparin Sodium Injection is indicated for:
+</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Prophylaxis and treatment of venous thrombosis and pulmonary embolism;
+</item>
+                     <item>Prevention of postoperative deep venous thrombosis and pulmonary embolism in patients undergoing major abdominothoracic surgery or who, for other reasons, are at risk of developing thromboembolic disease;
+</item>
+                     <item>Atrial fibrillation with embolization;
+</item>
+                     <item>Treatment of acute and chronic consumptive coagulopathies (disseminated intravascular coagulation);
+</item>
+                     <item>Prevention of clotting in arterial and cardiac surgery;
+</item>
+                     <item>Prophylaxis and treatment of peripheral arterial embolism.
+</item>
+                     <item>Anticoagulant use in blood transfusions, extracorporeal circulation, and dialysis procedures.
+</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250109"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>HEPARIN SODIUM INJECTION is an anticoagulant indicated for (<linkHtml href="#s1">1</linkHtml>)</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Prophylaxis and treatment of venous thrombosis and pulmonary embolism</item>
+                           <item>Prevention of postoperative deep venous thrombosis and pulmonary embolism in patients undergoing major abdominothoracic surgery or who, for other reasons, are at risk of developing thromboembolic disease</item>
+                           <item>Atrial fibrillation with embolization</item>
+                           <item>Treatment of acute and chronic consumptive coagulopathies (disseminated intravascular coagulation)</item>
+                           <item>Prevention of clotting in arterial and cardiac surgery</item>
+                           <item>Prophylaxis and treatment of peripheral arterial embolism</item>
+                           <item>Use as an anticoagulant in blood transfusions, extracorporeal circulation, and dialysis procedures</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="631de034-1c26-4f1f-9cd2-5ce0d72ac799"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION
+</title>
+               <effectiveTime value="20250109"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Recommended Adult Dosages:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Therapeutic Anticoagulant Effect with Full-Dose Heparin<sup>†</sup> (<linkHtml href="#s5">2.3</linkHtml>)</item>
+                        </list>
+                        <table width="100%">
+                           <colgroup>
+                              <col width="31.323%" align="left"/>
+                              <col width="27.458%" align="left"/>
+                              <col width="41.220%" align="left"/>
+                           </colgroup>
+                           <tfoot>
+                              <tr styleCode="First Last">
+                                 <td styleCode="Botrule Lrule Rrule" colspan="3" align="left" valign="top">
+                                    <paragraph styleCode="First Footnote">
+                                       <sup>†</sup> Based on 150 lb (68 kg) patient. Adjust dose based on laboratory monitoring.</paragraph>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" rowspan="2" align="left" valign="middle">Deep Subcutaneous<br/>(Intrafat)<br/>Injection<br/>
+                                    <content styleCode="italics">Use a different site</content>
+                                    <br/>
+                                    <content styleCode="italics">for each injection</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule Toprule" align="left" valign="middle">Initial Dose</td>
+                                 <td styleCode="Botrule Rrule Toprule" align="left" valign="top">5,000 units by<br/>intravenous injection followed by 10,000 to 20,000 units of a concentrated solution, subcutaneously</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="middle">Every 8 hours<br/>or<br/>
+                                    <br/>Every 12 hours</td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">8,000 to 10,000 units of a concentrated solution<br/>
+                                    <br/>15,000 to 20,000 units of a concentrated solution</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" rowspan="2" align="left" valign="middle">Intermittent<br/>Intravenous<br/>Injection</td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="middle">Initial Dose</td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">10,000 units, either<br/>undiluted or in 50 to 100 mL of 0.9% Sodium Chloride Injection, USP</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="middle">Every 4 to 6 hours</td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">5,000 to 10,000 units, either undiluted or in 50 to 100 mL of 0.9% Sodium Chloride Injection, USP</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" rowspan="2" align="left" valign="middle">Intravenous<br/>Infusion</td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="middle">Initial Dose</td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">5,000 units<br/>by intravenous injection</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="middle">Continuous</td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">20,000 to 40,000 units/24 hours in 1,000 mL of<br/>0.9% Sodium Chloride Injection, USP (or in any compatible solution)<br/>for infusion</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s3">
+                     <id root="4e763886-cae4-40af-8cf0-eb58e9bdb35d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Preparation for Administration
+</title>
+                     <text>
+                        <paragraph>Confirm the choice of the correct heparin sodium injection vial to ensure that the 1 mL vial is not confused with a “catheter lock flush” vial or other 1 mL vial of incorrect strength <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s15">5.1</linkHtml>)]</content>. Confirm the selection of the correct formulation and strength prior to administration of the drug.</paragraph>
+                        <paragraph>Inspect parenteral drug products visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Use only if solution is clear and the seal is intact. Do not use if solution is discolored or contains a precipitate.</paragraph>
+                        <paragraph>When heparin is added to an infusion solution for continuous intravenous administration, the container should be inverted at least six times to ensure adequate mixing and prevent pooling of the heparin in the solution.</paragraph>
+                        <paragraph>Administer heparin sodium by intermittent intravenous injection, intravenous infusion, or deep subcutaneous (intrafat, i.e., above the iliac crest or abdominal fat layer) injection. The intramuscular route of administration should be avoided because of the frequent occurrence of hematoma at the injection site <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#s24">6.1</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250109"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s4">
+                     <id root="4732d7be-d263-4cd7-b7ba-7938ce8f2c68"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Laboratory Monitoring for Efficacy and Safety
+</title>
+                     <text>
+                        <paragraph>Adjust the dosage of heparin sodium injection according to the patient's coagulation test results. Dosage is considered adequate when the activated partial thromboplastin time (aPTT) is 1.5 to 2 times normal or when the whole blood clotting time is elevated approximately 2.5 to 3 times the control value. When initiating treatment with heparin sodium injection by continuous intravenous infusion, determine the coagulation status (aPTT, INR, platelet count) at baseline and continue to follow aPTT approximately every 4 hours and then at appropriate intervals thereafter. When the drug is administered intermittently by intravenous injection, perform coagulation tests before each injection during the initiation of treatment and at appropriate intervals thereafter. After deep subcutaneous (intrafat) injections, tests for adequacy of dosage are best performed on samples drawn 4 to 6 hours after the injection.
+</paragraph>
+                        <paragraph>Periodically monitor platelet counts, hematocrit, and occult blood in stool during the entire course of heparin therapy, regardless of the route of administration.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5">
+                     <id root="e7147c2d-ad1e-438b-950b-d3e4ab74da20"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Therapeutic Anticoagulant Effect with Full-Dose Heparin
+</title>
+                     <text>
+                        <paragraph>The dosing recommendations in <linkHtml href="#t1">Table 1</linkHtml> are based on clinical experience. Although dosages must be adjusted for the individual patient according to the results of suitable laboratory tests, the following dosage schedules may be used as guidelines:
+</paragraph>
+                        <table ID="t1" width="100%">
+                           <caption>Table 1: Recommended Adult Full-Dose Heparin Regimens for Therapeutic Anticoagulant Effect
+</caption>
+                           <col width="32.667%" align="left"/>
+                           <col width="23.767%" align="left"/>
+                           <col width="43.567%" align="left"/>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="3" align="left" valign="top">
+                                    <paragraph styleCode="footnote">*Based on 68 kg patient
+</paragraph>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td align="left" valign="bottom" styleCode="Toprule Botrule Lrule Rrule">METHOD OF ADMINISTRATION
+</td>
+                                 <td align="left" valign="top" styleCode="Toprule Botrule Rrule">FREQUENCY
+</td>
+                                 <td align="left" valign="top" styleCode="Toprule Botrule Rrule">RECOMMENDED DOSE
+</td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" align="left" valign="top" styleCode="Botrule Lrule Rrule">Deep Subcutaneous (Intrafat) Injection<br/>
+                                    <br/>Use a different site for each injection to prevent the development of hematoma
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">Initial Dose
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">5,000 units by intravenous injection, followed by 10,000 to 20,000 units of a concentrated solution, subcutaneously
+</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">Every 8 hours<br/>or
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">8,000 to 10,000 units of a concentrated solution
+</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">Every 12 hours
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">15,000 to 20,000 units of a concentrated solution
+</td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="2" align="left" valign="top" styleCode="Botrule Lrule Rrule">Intermittent Intravenous Injection
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">Initial Dose
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">10,000 units, either undiluted or in<br/>50 to 100 mL of 0.9% Sodium Chloride Injection, USP
+</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">Every 4 to 6 hours
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">5,000 to 10,000 units, either undiluted or in 50 to 100 mL of 0.9% Sodium Chloride Injection, USP
+</td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="2" align="left" valign="top" styleCode="Botrule Lrule Rrule">Continuous Intravenous Infusion
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">Initial Dose
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">5,000 units by intravenous injection
+</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">Continuous
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">20,000 to 40,000 units/24 hours in 1,000 mL of 0.9% Sodium Chloride Injection, USP (or in any compatible solution) for infusion
+</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s6">
+                     <id root="377aaef5-9a88-4283-ad84-2ff02850e068"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4 Pediatric Dosing
+</title>
+                     <text>
+                        <paragraph>Use preservative-free heparin sodium injection in neonates and infants <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s18">5.4</linkHtml>)]</content>.</paragraph>
+                        <paragraph>
+                           <content>There are no adequate and well controlled studies on heparin use in pediatric patients. Pediatric dosing recommendations are based on clinical experience. In general, the following dosage schedule may be used as a guideline in pediatric patients:</content>
+                        </paragraph>
+                        <table width="100%">
+                           <colgroup>
+                              <col width="46.150%" align="left"/>
+                              <col width="53.850%" align="left"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" colspan="2" align="left" valign="top">Recommended Pediatric Use</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">Initial Dose</td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">75 to 100 units/kg (IV bolus over 10 minutes)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">Maintenance Dose</td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">Infants: 25 to 30 units/kg/hour;<br/>Infants &lt; 2 months have the highest requirements (average 28 units/kg/hour)<br/>
+                                    <br/>Children &gt; 1 year of age: 18 to 20 units/kg/hour;<br/>Older children may require less heparin, similar to weight-adjusted adult dosage</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="left" valign="top">Monitoring</td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">Adjust heparin to maintain aPTT of 60 to 85 seconds, assuming this reflects an anti-Factor Xa level of 0.35 to 0.70</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20250109"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s7">
+                     <id root="733c98a3-d09b-4f4b-a5ad-292b6cb72da2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.5 Cardiovascular Surgery
+</title>
+                     <text>
+                        <paragraph>Patients undergoing total body perfusion for open-heart surgery should receive an initial dose of not less than 150 units of heparin sodium per kilogram of body weight. Frequently, a dose of 300 units per kilogram is used for procedures estimated to last less than 60 minutes, or 400 units per kilogram for those estimated to last longer than 60 minutes.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s8">
+                     <id root="48fe4372-267f-445a-b6ec-3fd1f59e3cba"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.6 Low-Dose Prophylaxis of Postoperative Thromboembolism
+</title>
+                     <text>
+                        <paragraph>The most widely used dosage has been 5,000 units 2 hours before surgery and 5,000 units every 8 to 12 hours thereafter for 7 days or until the patient is fully ambulatory, whichever is longer. Administer the heparin by deep subcutaneous (intrafat, i.e., above the iliac crest or abdominal fat layer, arm, or thigh) injection with a fine (25 to 26-gauge) needle to minimize tissue trauma.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="153e9c76-0b8b-49e2-a8bb-c4e88a22ddd4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.7 Converting to Warfarin
+</title>
+                     <text>
+                        <paragraph>To ensure continuous anticoagulation when converting from heparin sodium to warfarin, continue full heparin sodium injection therapy for several days until the INR (prothrombin time) has reached  a stable therapeutic range. Heparin sodium injection therapy may then be discontinued without tapering <content styleCode="italics">[see Drug Interactions (<linkHtml href="#s26">7.1</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s10">
+                     <id root="e4e20654-59ce-4c38-b696-b1e47702e087"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.8 Converting to Oral Anticoagulants other than Warfarin
+</title>
+                     <text>
+                        <paragraph>For patients currently receiving intravenous heparin, stop intravenous infusion of heparin sodium immediately after administering the first dose of oral anticoagulant; or for intermittent intravenous administration of heparin sodium, start oral anticoagulant 0 to 2 hours before the time that the next dose of heparin was to have been administered.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="810c202f-9274-4f35-9a5b-9f2d604289d9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.9 Extracorporeal Dialysis
+</title>
+                     <text>
+                        <paragraph>Follow equipment manufacturers' operating directions carefully. A dose of 25 to 30 units/kg followed by an infusion rate of 1,500 to 2,000 units/hour is suggested based on pharmacodynamic data if specific manufacturers' recommendations are not available.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s12">
+               <id root="551ed2bd-8165-48ac-bdc8-effcd0bf60bd"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS
+</title>
+               <text>
+                  <paragraph>Heparin Sodium Injection, USP, <content styleCode="bold">preservative free</content>, is available as follows:
+</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>2,000 USP units per 2 mL, single-dose vial
+</item>
+                  </list>
+               </text>
+               <effectiveTime value="20200827"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Heparin Sodium Injection, USP (porcine), <content styleCode="bold">preservative free:</content> 2 mL single-dose vial contains 2,000 USP units
+</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s13">
+               <id root="50744454-26af-4394-89d0-371284effd9d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>The use of heparin sodium injection is contraindicated in patients with the following conditions:
+</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>History of heparin-induced thrombocytopenia and heparin-induced thrombocytopenia and thrombosis <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s17">5.3</linkHtml>)]</content>;
+</item>
+                     <item>Known hypersensitivity to heparin or pork products (e.g., anaphylactoid reactions) <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#s24">6.1</linkHtml>)];</content>
+                     </item>
+                     <item>In whom suitable blood coagulation tests, e.g., the whole blood clotting time, partial thromboplastin time, etc., cannot be performed at appropriate intervals (this contraindication refers to full-dose heparin; there is usually no need to monitor coagulation parameters in patients receiving low-dose heparin);
+</item>
+                     <item>An uncontrolled active bleeding state <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s18">5.4</linkHtml>)]</content>, except when this is due to disseminated intravascular coagulation.
+</item>
+                  </list>
+               </text>
+               <effectiveTime value="20200827"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>History of heparin-induced thrombocytopenia (HIT) or heparin-induced thrombocytopenia and thrombosis (HITTS) (<linkHtml href="#s13">4</linkHtml>)
+</item>
+                           <item>Known hypersensitivity to heparin or pork products (<linkHtml href="#s13">4</linkHtml>)
+</item>
+                           <item>In whom suitable blood coagulation tests cannot be performed at appropriate intervals (<linkHtml href="#s13">4</linkHtml>)
+</item>
+                           <item>An uncontrolled bleeding state, except when this is due to disseminated intravascular coagulation (<linkHtml href="#s13">4</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s14">
+               <id root="9aba0eff-26f0-48f2-abb9-04133c00c0c8"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS
+</title>
+               <effectiveTime value="20250107"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Fatal Medication Errors: Confirm choice of correct strength prior to administration (<linkHtml href="#s15">5.1</linkHtml>)</item>
+                           <item>Hemorrhage: Hemorrhage, including fatal events, has occurred in patients receiving heparin. Use caution in conditions with increased risk of hemorrhage (<linkHtml href="#s16">5.2</linkHtml>)</item>
+                           <item>HIT and HITTS: Monitor for signs and symptoms and discontinue if indicative of HIT and HITTS (<linkHtml href="#s17">5.3</linkHtml>)</item>
+                           <item>Benzyl Alcohol Toxicity: Use preservative-free formulation in neonates and infants</item>
+                           <item>Monitoring: Blood coagulation tests guide therapy for full-dose heparin. Periodically monitor platelet count, hematocrit, and occult blood in stool in all patients receiving heparin (<linkHtml href="#s19">5.5</linkHtml>, <linkHtml href="#s20">5.6</linkHtml>)</item>
+                           <item>Hyperkalemia: Measure blood potassium in patients at risk of hyperkalemia before starting heparin therapy and periodically in all patients. (<linkHtml href="#La891e2ce-b231-4773-b74f-25ee9a0c914f">5.9</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s15">
+                     <id root="34281673-e0db-42cc-aee6-9ba699a89ece"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Fatal Medication Errors
+</title>
+                     <text>
+                        <paragraph>Do not use heparin sodium injection as a “catheter lock flush” product. Heparin sodium injection is supplied in vials containing various strengths of heparin, including vials that contain a highly concentrated solution of 10,000 units in 1 mL. Fatal hemorrhages have occurred in pediatric patients due to medication errors in which 1 mL heparin sodium injection vials were confused with 1 mL “catheter lock flush” vials. Carefully examine all heparin sodium injection vials to confirm the correct vial choice prior to administration of the drug.</paragraph>
+                     </text>
+                     <effectiveTime value="20250107"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="ea8320eb-e159-48e7-8c2f-ae6e8af67aab"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Hemorrhage
+</title>
+                     <text>
+                        <paragraph>Avoid using heparin in the presence of major bleeding, except when the benefits of heparin therapy outweigh the potential risks.
+</paragraph>
+                        <paragraph>Hemorrhage can occur at virtually any site in patients receiving heparin. Fatal hemorrhages have occurred. Adrenal hemorrhage (with resultant acute adrenal insufficiency), ovarian hemorrhage, and retroperitoneal hemorrhage have occurred during anticoagulant therapy with heparin <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#s24">6.1</linkHtml>)]</content>. A higher incidence of bleeding has been reported in patients, particularly women, over 60 years of age <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#s47">12.3</linkHtml>)]</content>. An unexplained fall in hematocrit, fall in blood pressure or any other unexplained symptom should lead to serious consideration of a hemorrhagic event.
+</paragraph>
+                        <paragraph>Use heparin sodium with caution in disease states in which there is increased risk of hemorrhage, including:
+</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Cardiovascular - Subacute bacterial endocarditis, severe hypertension.
+</item>
+                           <item>Surgical - During and immediately following (a) spinal tap or spinal anesthesia or (b) major surgery, especially involving the brain, spinal cord, or eye.
+</item>
+                           <item>Hematologic - Conditions associated with increased bleeding tendencies, such as hemophilia, thrombocytopenia and some vascular purpuras.
+</item>
+                           <item>Patients with hereditary antithrombin III deficiency receiving concurrent antithrombin III therapy - The anticoagulant effect of heparin is enhanced by concurrent treatment with antithrombin III (human) in patients with hereditary antithrombin III deficiency. To reduce the risk of bleeding, reduce the heparin dose during concomitant treatment with antithrombin III (human).
+</item>
+                           <item>Gastrointestinal - Ulcerative lesions and continuous tube drainage of the stomach or small intestine.
+</item>
+                           <item>Other - Menstruation, liver disease with impaired hemostasis.
+</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s17">
+                     <id root="525193f7-20fe-45d0-8804-2733bc50ac64"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Heparin-Induced Thrombocytopenia and Heparin-Induced Thrombocytopenia and Thrombosis
+</title>
+                     <text>
+                        <paragraph>Heparin-induced thrombocytopenia (HIT) is a serious antibody-mediated reaction. HIT occurs in patients treated with heparin and is due to the development of antibodies to a platelet Factor 4-heparin complex that induce <content styleCode="italics">in vivo</content> platelet aggregation. HIT may progress to the development of venous and arterial thromboses, a condition referred to as heparin-induced thrombocytopenia with thrombosis (HITT). Thrombotic events may also be the initial presentation for HITT. These serious thromboembolic events include deep vein thrombosis, pulmonary embolism, cerebral vein thrombosis, limb ischemia, stroke, myocardial infarction, mesenteric thrombosis, renal arterial thrombosis, skin necrosis, gangrene of the extremities that may lead to amputation, and possibly death. If the platelet count falls below 100,000/mm<sup>3</sup> or if recurrent thrombosis develops, promptly discontinue heparin, evaluate for HIT and HITT, and, if necessary, administer an alternative anticoagulant.
+</paragraph>
+                        <paragraph>HIT or HITT can occur up to several weeks after the discontinuation of heparin therapy. Patients presenting with thrombocytopenia or thrombosis after discontinuation of heparin sodium should be evaluated for HIT or HITT.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s18">
+                     <id root="78d493fb-f438-4b71-a4dc-b66cfa988faf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Risk of Serious Adverse Reactions in Infants Due to Benzyl Alcohol Preservative
+</title>
+                     <text>
+                        <paragraph>Serious and fatal adverse reactions including “gasping syndrome” can occur in neonates and infants treated with benzyl alcohol-preserved drugs, including heparin sodium injection multiple-dose vials. The “gasping syndrome” is characterized by central nervous system depression, metabolic acidosis, and gasping respirations.
+</paragraph>
+                        <paragraph>When prescribing heparin sodium injection multiple-dose vials in infants consider the combined daily metabolic load of benzyl alcohol from all sources including heparin sodium injection multiple-dose vials and other drugs containing benzyl alcohol. The minimum amount of benzyl alcohol at which toxicity may occur is not known <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#s37">8.4</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s19">
+                     <id root="7c319ed2-ec02-4e3e-9f6b-ba2f56a043e2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Thrombocytopenia
+</title>
+                     <text>
+                        <paragraph>Thrombocytopenia in patients receiving heparin has been reported at frequencies up to 30%. It can occur 2 to 20 days (average 5 to 9) following the onset of heparin therapy. Obtain platelet counts before and periodically during heparin therapy. Monitor thrombocytopenia of any degree closely. If the count falls below 100,000/mm<sup>3</sup> or if recurrent thrombosis develops, promptly discontinue heparin, evaluate for HIT and HITT, and, if necessary, administer an alternative anticoagulant <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s17">5.3</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s20">
+                     <id root="c46314f3-4a2d-4a52-822c-d0082bf33928"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Coagulation Testing and Monitoring
+</title>
+                     <text>
+                        <paragraph>When using a full dose heparin sodium regimen, adjust the heparin sodium dose based on frequent blood coagulation tests. If the coagulation test is unduly prolonged or if hemorrhage occurs, discontinue heparin sodium promptly <content styleCode="italics">[see Overdosage (<linkHtml href="#s40">10</linkHtml>)]</content>. Periodically monitor platelet counts, hematocrit, and occult blood in stool during the entire course of heparin therapy, regardless of the route of administration <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#s4">2.2</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s21">
+                     <id root="1e882955-105d-43f3-b37d-3c4967646057"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7 Heparin Resistance
+</title>
+                     <text>
+                        <paragraph>Resistance to heparin is frequently encountered in fever, thrombosis, thrombophlebitis, infections with thrombosing tendencies, myocardial infarction, cancer, in postsurgical patients, and patients with antithrombin III deficiency. Close monitoring of coagulation tests is recommended in these cases. Adjustment of heparin doses based on anti-Factor Xa levels may be warranted.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s22">
+                     <id root="326533d0-5ebf-4bed-9c28-89cfcad0c53c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.8 Hypersensitivity
+</title>
+                     <text>
+                        <paragraph>Patients with documented hypersensitivity to heparin should be given the drug only in clearly life-threatening situations <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#s24">6.1</linkHtml>)]</content>.</paragraph>
+                        <paragraph>Because Heparin Sodium Injection is derived from animal tissue, it should be used with caution in patients with a history of allergy.</paragraph>
+                     </text>
+                     <effectiveTime value="20250107"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="La891e2ce-b231-4773-b74f-25ee9a0c914f">
+                     <id root="9ff61db7-ec5b-4c31-a606-e3f9cbbc4344"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="xmChange">5.9 Hyperkalemia</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="xmChange">Heparin can suppress adrenal secretion of aldosterone leading to hyperkalemia, particularly in patients with diabetes mellitus, chronic renal failure, pre-existing metabolic acidosis, a raised plasma potassium, or taking potassium sparing drugs. The risk of hyperkalemia appears to increase with duration of therapy but is usually reversible upon discontinuation of heparin.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">Measure blood potassium in patients at risk of hyperkalemia before starting heparin therapy and periodically in all patients treated for more than 5 days or earlier as deemed fit by the clinician.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250107"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s23">
+               <id root="1dcaf45b-67f1-4f97-a71f-05b8bad87145"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS
+</title>
+               <text>
+                  <paragraph>The following clinically significant adverse reactions are described elsewhere in the labeling:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Hemorrhage <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s16">5.2</linkHtml>)]</content>
+                     </item>
+                     <item>Heparin-Induced Thrombocytopenia and Heparin-Induced Thrombocytopenia and Thrombosis <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s17">5.3</linkHtml>)]</content>
+                     </item>
+                     <item>Risk of Serious Adverse Reactions in Infants Due to Benzyl Alcohol Preservative <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s18">5.4</linkHtml>)]</content>
+                     </item>
+                     <item>Thrombocytopenia <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s19">5.5</linkHtml>)]</content>
+                     </item>
+                     <item>Heparin Resistance <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s21">5.7</linkHtml>)]</content>
+                     </item>
+                     <item>Hypersensitivity <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s22">5.8</linkHtml>)]</content>
+                     </item>
+                     <item>Hyperkalemia<content styleCode="italics"> [see Warnings and Precautions (<linkHtml href="#La891e2ce-b231-4773-b74f-25ee9a0c914f">5.9</linkHtml>)]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20250107"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions are hemorrhage, thrombocytopenia, HIT and HITTS, injection site irritation, general hypersensitivity reactions, and elevations of aminotransferase levels. (<linkHtml href="#s24">6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Meitheal Pharmaceuticals, Inc. at 1-844-824-8426 or FDA at 1-800-FDA-1088 or </content>
+                           <content styleCode="Bold Underline">www.fda.gov/medwatch</content>
+                           <content styleCode="bold">.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s24">
+                     <id root="a169f0e0-045f-4bc4-84b5-30ce761de5b7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Postmarketing Experience
+</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post approval use of Heparin Sodium Injection. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Hemorrhage - Hemorrhage is the chief complication that may result from heparin therapy <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s16">5.2</linkHtml>)]</content>. Gastrointestinal or urinary tract bleeding during anticoagulant therapy may indicate the presence of an underlying occult lesion. Bleeding can occur at any site but certain specific hemorrhagic complications may be difficult to detect including:<list listType="unordered" styleCode="Circle">
+                                 <item>Adrenal hemorrhage, with resultant acute adrenal insufficiency, has occurred with heparin therapy, including fatal cases.</item>
+                                 <item>Ovarian (corpus luteum) hemorrhage developed in a number of women of reproductive age receiving short- or long-term heparin therapy.</item>
+                                 <item>Retroperitoneal hemorrhage</item>
+                              </list>
+                           </item>
+                           <item>HIT and HITT, including delayed onset cases <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s17">5.3</linkHtml>)]</content>.</item>
+                           <item>Local Irritation – Local irritation, erythema, mild pain, hematoma or ulceration may follow deep subcutaneous (intrafat) injection of heparin sodium. Because these complications are much more common after intramuscular use, the intramuscular route is not recommended.</item>
+                           <item>Histamine-like reactions – Such reactions have been observed at the site of injections. Necrosis of the skin has been reported at the site of subcutaneous injection of heparin, occasionally requiring skin grafting <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s17">5.3</linkHtml>)]</content>.</item>
+                           <item>Hypersensitivity - Generalized hypersensitivity reactions have been reported, with chills, fever and urticaria as the most usual manifestations, and asthma, rhinitis, lacrimation, headache, nausea and vomiting, and anaphylactoid reactions, including shock, occurring less frequently. Itching and burning, especially on the plantar side of the feet, may occur. <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s22">5.8</linkHtml>)]</content>
+                           </item>
+                           <item>Elevations of aminotransferases - Significant elevations of aspartate aminotransferase (AST) and alanine aminotransferase (ALT) levels have occurred in patients who have received heparin.</item>
+                           <item>Others - Osteoporosis following long-term administration of high doses of heparin, cutaneous necrosis after systemic administration, suppression of aldosterone synthesis, delayed transient alopecia, priapism, and rebound hyperlipemia on discontinuation of heparin sodium have also been reported.</item>
+                           <item>Metabolism and Nutrition Disorders – Hyperkalemia.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250107"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s25">
+               <id root="9f5e03a1-45b2-4d18-8c68-8814d9f8f50b"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS
+</title>
+               <effectiveTime value="20250107"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Drugs that interfere with coagulation, platelet aggregation or drugs that counteract coagulation may induce bleeding (<linkHtml href="#s27">7.2</linkHtml>)
+</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s26">
+                     <id root="50093088-4261-44b7-b4fd-1ca34e76a8e1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Oral Anticoagulants
+</title>
+                     <text>
+                        <paragraph>Heparin sodium may prolong the one-stage prothrombin time. Therefore, when heparin sodium is given with dicumarol or warfarin sodium, a period of at least 5 hours after the last intravenous dose or 24 hours after the last subcutaneous dose should elapse before blood is drawn, if a valid prothrombin time is to be obtained.</paragraph>
+                     </text>
+                     <effectiveTime value="20250107"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s27">
+                     <id root="60b30764-4d55-4284-9bdf-961bd98c5fa2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 Platelet Inhibitors
+</title>
+                     <text>
+                        <paragraph>Drugs such as NSAIDS (including salicylic acid, ibuprofen, indomethacin, and celecoxib), dextran, phenylbutazone,  thienopyridines, dipyridamole, hydroxychloroquine, glycoprotein IIb/IIIa antagonists (including abciximab, eptifibatide, and tirofiban), and others that interfere with platelet-aggregation reactions (the main hemostatic defense of heparinized patients) may induce bleeding and should be used with caution in patients receiving heparin sodium. To reduce the risk of bleeding, a reduction in the dose of antiplatelet agent or heparin is recommended.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s28">
+                     <id root="e0a4afe6-268c-43a3-accc-86cf8330cf59"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.3 Other Interactions
+</title>
+                     <text>
+                        <paragraph>Digitalis, tetracyclines, nicotine or antihistamines may partially counteract the anticoagulant action of heparin sodium. Intravenous nitroglycerin administered to heparinized patients may result in a decrease of the partial thromboplastin time with subsequent rebound effect upon discontinuation of nitroglycerin. Careful monitoring of partial thromboplastin time and adjustment of heparin dosage are recommended during coadministration of heparin and intravenous nitroglycerin.
+</paragraph>
+                        <paragraph>Antithrombin III (human) – The anticoagulant effect of heparin is enhanced by concurrent treatment with antithrombin III (human) in patients with hereditary antithrombin III deficiency. To reduce the risk of bleeding, a reduced dosage of heparin is recommended during treatment with antithrombin III (human).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s29">
+               <id root="0ff18a1a-8994-446b-afd5-e46c571ffd40"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS
+</title>
+               <effectiveTime value="20250107"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Pregnancy: Preservative-free formulation recommended. (<linkHtml href="#s30">8.1</linkHtml>)
+</item>
+                           <item>Lactation: Preservative-free formulation recommended. (<linkHtml href="#s35">8.2</linkHtml>)
+</item>
+                           <item>Pediatric Use: Use preservative-free formulation in neonates and infants. (<linkHtml href="#s37">8.4</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s30">
+                     <id root="cc9a3d4a-05a6-4318-8a68-e783ecca438c"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy
+</title>
+                     <effectiveTime value="20250107"/>
+                     <component>
+                        <section ID="s31">
+                           <id root="bc7b802a-6eec-4715-bde7-59020aa5a14c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>There are no available data on heparin sodium use in pregnant women to inform a drug-associated risk of major birth defects and miscarriage. In published reports, heparin exposure during pregnancy did not show evidence of an increased risk of adverse maternal or fetal outcomes in humans. No teratogenicity, but early embryo-fetal death was observed in animal reproduction studies with administration of heparin sodium to pregnant rats and rabbits during organogenesis at doses approximately 10 times the maximum recommended human dose (MRHD) of 45,000 units/day (<content styleCode="italics">see <linkHtml href="#s32">Data</linkHtml>
+                                 </content>). Consider the benefits and risks of heparin sodium for the mother and possible risks to the fetus when prescribing heparin sodium injection to a pregnant woman.</paragraph>
+                              <paragraph>If available, preservative-free heparin sodium injection is recommended when heparin therapy is needed during pregnancy. There are no known adverse outcomes associated with fetal exposure to the preservative benzyl alcohol through maternal drug administration; however, the preservative benzyl alcohol can cause serious adverse events and death when administered intravenously to neonates and infants <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#s37">8.4</linkHtml>)]</content>.</paragraph>
+                              <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.</paragraph>
+                           </text>
+                           <effectiveTime value="20250107"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s32">
+                           <id root="2d7b59e1-33cb-4843-97f2-fcb54c3676f1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Data</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20200827"/>
+                           <component>
+                              <section ID="s33">
+                                 <id root="30a41992-1645-470a-a031-2df2f4fd6eca"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Human Data</content>
+                                    </paragraph>
+                                    <paragraph>The maternal and fetal outcomes associated with uses of heparin via various dosing methods and administration routes during pregnancy have been investigated in numerous studies. These studies generally reported normal deliveries with no maternal or fetal bleeding and no other complications.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20200827"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="s34">
+                                 <id root="56465608-aa87-461e-bbe4-7031aea18d8d"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Animal Data</content>
+                                    </paragraph>
+                                    <paragraph>In a published study conducted in rats and rabbits, pregnant animals received heparin intravenously during organogenesis at a dose of 10,000 units/kg/day, approximately 10 times the maximum human daily dose based on body weight. The number of early resorptions increased in both species. There was no evidence of teratogenic effects.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20200827"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s35">
+                     <id root="aebc52e0-573c-409a-9b74-606f9cb62f77"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation
+</title>
+                     <effectiveTime value="20200827"/>
+                     <component>
+                        <section ID="s36">
+                           <id root="dcd8d624-ebb5-4d1c-924e-27d94a53bda6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>If available, preservative-free heparin sodium injection is recommended when heparin therapy is needed during lactation. Benzyl alcohol present in maternal serum is likely to cross into human milk and may be orally absorbed by a breastfed infant. There is no information regarding the presence of heparin sodium injection in human milk, the effects on the breastfed infant, or the effects on milk production. Due to its large molecular weight, heparin is not likely to be excreted in human milk, and any heparin in milk would not be orally absorbed by a breastfed infant. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for heparin sodium and any potential adverse effects on the breastfed infant from heparin sodium or from the underlying maternal condition <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#s37">8.4</linkHtml>)]</content>.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20200827"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s37">
+                     <id root="eea90c14-443b-4a90-ab26-3d7fa6eb8c61"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use
+</title>
+                     <text>
+                        <paragraph>There are no adequate and well controlled studies on heparin use in pediatric patients. Pediatric dosing recommendations are based on clinical experience <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#s6">2.4</linkHtml>)]</content>.
+</paragraph>
+                        <paragraph>Carefully examine all heparin sodium injection vials to confirm choice of the correct strength prior to administration of the drug. Pediatric patients, including neonates, have died as a result of medication errors in which heparin sodium injection vials have been confused with “catheter lock flush” vials <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s15">5.1</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                     <component>
+                        <section ID="s38">
+                           <id root="051efef6-ef0e-4c0b-99ed-9850e2ba6b64"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Benzyl Alcohol Toxicity</content>
+                              </paragraph>
+                              <paragraph>Use preservative-free heparin sodium injection in neonates and infants.
+</paragraph>
+                              <paragraph>Serious adverse reactions including fatal reactions and the “gasping syndrome” occurred in premature neonates and infants in the neonatal intensive care unit who received drugs containing benzyl alcohol as a preservative. In these cases, benzyl alcohol dosages of 99 to 234 mg/kg/day produced high levels of benzyl alcohol and its metabolites in the blood and urine (blood levels of benzyl alcohol were 0.61 to 1.378 mmol/L). Additional adverse reactions included gradual neurological deterioration, seizures, intracranial hemorrhage, hematologic abnormalities, skin breakdown, hepatic and renal failure, hypotension, bradycardia, and cardiovascular collapse. Preterm, low-birth weight infants may be more likely to develop these reactions because they may be less able to metabolize benzyl alcohol.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20200827"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s39">
+                     <id root="ca9927f0-2bc8-45f1-b28f-2bf6f0162c29"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use
+</title>
+                     <text>
+                        <paragraph>There are limited adequate and well-controlled studies in patients 65 years and older, however, a higher incidence of bleeding has been reported in patients, particularly women, over 60 years of age <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s16">5.2</linkHtml>)]</content>. Patients over 60 years of age may require lower doses of heparin. Lower doses of heparin may be indicated in these patients <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#s47">12.3</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s40">
+               <id root="fe7cf34b-ef7b-4a1d-9279-ca1c793e162b"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE
+</title>
+               <text>
+                  <paragraph>Bleeding is the chief sign of heparin overdosage.
+</paragraph>
+               </text>
+               <effectiveTime value="20200827"/>
+               <component>
+                  <section ID="s41">
+                     <id root="c8cfb2c8-8825-4352-ba99-e1a703b3abfe"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Neutralization of Heparin Effect</content>
+                        </paragraph>
+                        <paragraph>When clinical circumstances (bleeding) require reversal of the heparin effect, protamine sulfate (1% solution) by slow infusion will neutralize heparin sodium. <content styleCode="bold">No more than 50 mg</content> should be administered, <content styleCode="bold">very slowly</content>, in any 10-minute period. Each mg of protamine sulfate neutralizes approximately 100 USP heparin units. The amount of protamine required decreases over time as heparin is metabolized. Although the metabolism of heparin is complex, it may, for the purpose of choosing a protamine dose, be assumed to have a half-life of about 1/2 hour after intravenous injection. Because fatal reactions often resembling anaphylaxis have been reported with protamine, it should be given only when resuscitation techniques and treatment of anaphylactoid shock are readily available. For additional information consult the labeling of Protamine Sulfate Injection.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s42">
+               <id root="5f1450ee-ccbe-4205-8cbc-35b4c040866d"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Heparin is a heterogeneous group of straight-chain anionic mucopolysaccharides, called glycosaminoglycans, having anticoagulant properties. Although others may be present, the main sugars occurring in heparin are: (1) <content styleCode="italics">α</content>-L-iduronic acid 2-sulfate, (2) 2-deoxy-2-sulfamino-<content styleCode="italics">α</content>-D-glucose 6-sulfate, (3) ß-D-glucuronic acid, (4) 2-acetamido-2-deoxy-<content styleCode="italics">α</content>-D-glucose and (5) <content styleCode="italics">α</content>-L-iduronic acid. These sugars are present in decreasing amounts, usually in the order (2)&gt; (1)&gt; (4)&gt; (3)&gt; (5), and are joined by glycosidic linkages, forming polymers of varying sizes. Heparin is strongly acidic because of its content of covalently linked sulfate and carboxylic acid groups. In heparin sodium, the acidic protons of the sulfate units are partially replaced by sodium ions.</paragraph>
+                  <paragraph>Heparin Sodium Injection, USP is a sterile solution of heparin sodium derived from porcine intestinal mucosa, standardized for anticoagulant activity, in water for injection. It is to be administered by intravenous or deep subcutaneous routes. The potency is determined by a biological assay using a USP reference standard based on units of heparin activity per milligram.</paragraph>
+                  <paragraph>Structure of Heparin Sodium (representative subunits):</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lbf0c1995-a0c9-499b-b436-8f219082a7fc"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250130"/>
+               <component>
+                  <section ID="s43">
+                     <id root="6b379f85-f00f-4026-a048-60951c261ee7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Heparin Sodium Injection, USP (porcine), preservative free, is available as follows:</content>
+                        </paragraph>
+                        <paragraph>Each mL of the 1,000 units per mL preparation contains: 1,000 USP Heparin units (porcine); 9 mg sodium chloride; Water for Injection q.s. made isotonic with sodium chloride. Hydrochloric acid and/or sodium hydroxide may have been added for pH adjustment (5.0 to 7.5).</paragraph>
+                     </text>
+                     <effectiveTime value="20250130"/>
+                  </section>
+               </component>
+               <component>
+                  <observationMedia ID="Lbf0c1995-a0c9-499b-b436-8f219082a7fc">
+                     <text>Figure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="hep0b-0003-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s44">
+               <id root="e4847a0d-bdc0-4734-a3dd-70b5a7829024"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY
+</title>
+               <effectiveTime value="20200827"/>
+               <component>
+                  <section ID="s45">
+                     <id root="727f9452-8ef2-41d5-a489-6c38bcaffd69"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action
+</title>
+                     <text>
+                        <paragraph>Heparin interacts with the naturally occurring plasma protein, Antithrombin III, to induce a conformational change, which markedly enhances the serine protease activity of Antithrombin III, thereby inhibiting the activated coagulation factors involved in the clotting sequence, particularly Xa and IIa. Small amounts of heparin inhibit Factor Xa, and larger amounts inhibit thrombin (Factor IIa). Heparin also prevents the formation of a stable fibrin clot by inhibiting the activation of the fibrin stabilizing factor. Heparin does not have fibrinolytic activity; therefore, it will not lyse existing clots.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s46">
+                     <id root="224fb48c-c805-4480-8b4d-3caccfb2c430"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics
+</title>
+                     <text>
+                        <paragraph>Various times (activated clotting time, activated partial thromboplastin time, prothrombin time, whole blood clotting time) are prolonged by full therapeutic doses of heparin; in most cases, they are not measurably affected by low doses of heparin. The bleeding time is usually unaffected by heparin.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s47">
+                     <id root="d4d03d55-24c3-4328-b8c5-ce0adad2422f"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics
+</title>
+                     <effectiveTime value="20200827"/>
+                     <component>
+                        <section ID="s48">
+                           <id root="916fe360-c0b7-4630-98f0-e2ddc4f6d0ac"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Absorption</content>
+                              </paragraph>
+                              <paragraph>Heparin is not absorbed through the gastrointestinal tract and therefore administered via parenteral route. Peak plasma concentration and the onset of action are achieved immediately after intravenous administration.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20200827"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s49">
+                           <id root="2ee10274-b854-4984-bb5a-b06b84c05a8b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Distribution</content>
+                              </paragraph>
+                              <paragraph>Heparin is highly bound to antithrombin, fibrinogens, globulins, serum proteases and lipoproteins. The volume of distribution is 0.07 L/kg.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20200827"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s50">
+                           <id root="7a582005-4941-4232-a475-2d5f9e397a0e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Elimination</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20200827"/>
+                           <component>
+                              <section ID="s51">
+                                 <id root="d3d389a4-ba86-4df8-8589-612444480728"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Metabolism</content>
+                                    </paragraph>
+                                    <paragraph>Heparin does not undergo enzymatic degradation.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20200827"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="s52">
+                                 <id root="732613d6-b756-4d0c-b049-e1bb30fc5f19"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Excretion</content>
+                                    </paragraph>
+                                    <paragraph>Heparin is mainly cleared from the circulation by liver and reticuloendothelial cells mediated uptake into extravascular space. Heparin undergoes biphasic clearance, a) rapid saturable clearance (zero order process due to binding to proteins, endothelial cells and macrophage) and b) slower first order elimination. The plasma half-life is dose-dependent and it ranges from 0.5 to 2 h.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20200827"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s53">
+                           <id root="8b618177-f77c-40a5-9b12-b74f1e05bd32"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Specific Populations</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20200827"/>
+                           <component>
+                              <section ID="s54">
+                                 <id root="0a8ac69b-5ca9-42eb-ad89-915706603412"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Geriatric patients</content>
+                                    </paragraph>
+                                    <paragraph>Patients over 60 years of age, following similar doses of heparin, may have higher plasma levels of heparin and longer activated partial thromboplastin times (aPTTs) compared with patients under 60 years of age <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#s39">8.5</linkHtml>)]</content>.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20200827"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s55">
+               <id root="19d919da-c20a-4353-ab70-d62b55c547e7"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY
+</title>
+               <effectiveTime value="20200827"/>
+               <component>
+                  <section ID="s56">
+                     <id root="2424a142-7341-40a1-a1ae-6d4e84700a4d"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>No long-term studies in animals have been performed to evaluate carcinogenic potential of heparin. Also, no reproduction studies in animals have been performed concerning mutagenesis or impairment of fertility.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s57">
+               <id root="cffe56ba-50d8-470b-9119-6dcc3b851e96"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING
+</title>
+               <text>
+                  <paragraph>Heparin Sodium Injection, USP (porcine), <content styleCode="bold">preservative free</content>, is available as follows:
+</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="24.033%" align="left"/>
+                     <col width="55.967%" align="left"/>
+                     <col width="20.000%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="justify" valign="top">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                           <td align="justify" valign="top">
+                              <content styleCode="bold">Heparin Sodium Injection, USP (1,000 USP units per mL)</content>
+                           </td>
+                           <td align="justify" valign="top">
+                              <content styleCode="bold">Package Factor</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="justify" valign="top">71288-<content styleCode="bold">400</content>-03
+</td>
+                           <td align="justify" valign="top">2,000 USP units per 2 mL Single-Dose Vial
+</td>
+                           <td align="justify" valign="top">25 vials per carton
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Use only if solution is clear and seal intact. Do not use if solution is discolored or contains a precipitate.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile, Nonpyrogenic, Preservative-free.<br/>The container closure is not made with natural rubber latex.</content>
+                  </paragraph>
+                  <paragraph>Discard unused portion.
+</paragraph>
+               </text>
+               <effectiveTime value="20200827"/>
+               <component>
+                  <section ID="s58">
+                     <id root="9915158f-e167-4901-9c87-ffea1f3a0789"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">STORAGE:</content>
+                        </paragraph>
+                        <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted between 15° to 30°C (59° to 86°F). [See USP Controlled Room Temperature.]
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s59">
+               <id root="e7e9627c-7847-4e09-8530-b2c5e89b85c0"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION
+</title>
+               <effectiveTime value="20250130"/>
+               <component>
+                  <section ID="s60">
+                     <id root="497dcb17-c2e9-4ae4-9fa1-f0a5d440e557"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Hemorrhage</content>
+                        </paragraph>
+                        <paragraph>Inform patients that it may take them longer than usual to stop bleeding, that they may bruise and/or bleed more easily when they are treated with heparin, and that they should report any unusual bleeding or bruising to their physician. Hemorrhage can occur at virtually any site in patients receiving heparin. Fatal hemorrhages have occurred <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s16">5.2</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s61">
+                     <id root="e3609775-3bb6-498d-9115-ed13d4bba459"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Prior to Surgery</content>
+                        </paragraph>
+                        <paragraph>Advise patients to inform physicians and dentists that they are receiving heparin before any surgery is scheduled <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s16">5.2</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s62">
+                     <id root="65300568-1b83-4749-9ba0-532d02ecb0b9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Heparin-Induced Thrombocytopenia</content>
+                        </paragraph>
+                        <paragraph>Inform patients of the risk of heparin-induced thrombocytopenia (HIT). HIT may progress to the development of venous and arterial thromboses, a condition known as heparin-induced thrombocytopenia and thrombosis (HITT). HIT and HITT can occur up to several weeks after the discontinuation of heparin therapy <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s17">5.3</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s63">
+                     <id root="e2ee4a40-77bf-4e6c-a843-a0860f72769e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Hypersensitivity</content>
+                        </paragraph>
+                        <paragraph>Inform patients that generalized hypersensitivity reactions have been reported. Necrosis of the skin has been reported at the site of subcutaneous injection of heparin <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s22">5.8</linkHtml>), Adverse Reactions (<linkHtml href="#s24">6.1</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200827"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s64">
+                     <id root="35eedda0-d7fc-4f03-b650-f20dcb42db43"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Other Medications</content>
+                        </paragraph>
+                        <paragraph>Because of the risk of hemorrhage, advise patients to inform their physicians and dentists of all medications they are taking, including non-prescription medications, and before starting any new medication <content styleCode="italics">[see Drug Interactions (<linkHtml href="#s26">7.1</linkHtml>)]</content>.</paragraph>
+                        <paragraph>meitheal<sub>®</sub>
+                           <br/>Mfd. for Meitheal Pharmaceuticals<br/>Chicago, IL 60631 (USA)<br/>©2025 Meitheal Pharmaceuticals Inc.</paragraph>
+                        <paragraph>Mfd. by Nanjing King-Friend Biochemical Pharmaceutical Co., Ltd.<br/>Nanjing, China 210061</paragraph>
+                        <paragraph>Revised: January 2025</paragraph>
+                        <paragraph>8A6ECU9-03</paragraph>
+                     </text>
+                     <effectiveTime value="20250130"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s65">
+               <id root="4547195f-53a1-48da-bd7f-4c26c1c3fa9e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel – Heparin Sodium Injection, USP 2000 USP Units Vial Label
+</title>
+               <text>
+                  <paragraph>NDC 71288-<content styleCode="bold">400</content>-02</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>Heparin Sodium Injection, USP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2,000 USP units per 2 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(1,000 USP units per mL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="Bold Underline">NOT</content> for Lock Flush</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preservative-Free</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous or Subcutaneous Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L253ca2b8-550b-4485-bd57-e643ff11f475"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250130"/>
+               <component>
+                  <observationMedia ID="L253ca2b8-550b-4485-bd57-e643ff11f475">
+                     <text>Principal Display Panel – Heparin Sodium Injection, USP 2000 USP Units Vial Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="hep0b-0003-02-v2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s66">
+               <id root="60476270-21f0-4ccd-9113-8c914ff68d30"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel – Heparin Sodium Injection, USP 2000 USP Units Carton
+</title>
+               <text>
+                  <paragraph>NDC 71288-<content styleCode="bold">400</content>-03</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">25 x 2 mL Single-Dose Vials</content>
+                  </paragraph>
+                  <paragraph>Discard unused portion</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>Heparin Sodium Injection, USP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2,000 USP units per 2 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(1,000 USP units per mL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="Bold Underline">NOT</content> for Lock Flush</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preservative-Free</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous or Subcutaneous Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">From Porcine Intestinal Mucosa</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L216ba5c0-4938-449c-8e19-a285f65a0f7e"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250130"/>
+               <component>
+                  <observationMedia ID="L216ba5c0-4938-449c-8e19-a285f65a0f7e">
+                     <text>Principal Display Panel – Heparin Sodium Injection, USP 2000 USP Units Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="hep0b-0003-03-v2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

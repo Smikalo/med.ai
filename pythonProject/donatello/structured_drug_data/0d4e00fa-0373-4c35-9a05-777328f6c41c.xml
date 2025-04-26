@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="0d4e00fa-0373-4c35-9a05-777328f6c41c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>NP Thyroid® (THYROID TABLETS, USP)<br/>Rx Only</title>
+   <effectiveTime value="20250306"/>
+   <setId root="2eabc9b4-2d5c-44b2-bf05-eb6c3260c1bd"/>
+   <versionNumber value="15"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="825380939"/>
+            <name>Acella Pharmaceuticals, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="825380939" root="1.3.6.1.4.1.519.1"/>
+                  <name>Acella Pharmaceuticals, LLC</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3804a1df-e7e4-4948-b6a9-d730035aa172"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250305"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="42192-329" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NP Thyroid 30</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>LEVOTHYROXINE, LIOTHYRONINE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="19"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Q51BO43MG4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LEVOTHYROXINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q51BO43MG4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEVOTHYROXINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="4.5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="06LU7C9H1V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIOTHYRONINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="06LU7C9H1V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LIOTHYRONINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="T5L8T28FGP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="776XM7047L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="42192-329-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250303"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="42192-329-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20110114"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="42192-329-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250303"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20110114"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="brown" xsi:type="CE">
+                              <originalText>BROWN</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">AP;329</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="5" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1bb8bb62-49d7-482b-a782-a95853c6fad4"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>NP Thyroid<sup>®</sup> (thyroid tablets, USP) for oral use is a natural preparation derived from porcine thyroid glands. They contain both tetraiodothyronine sodium (T<sub>4</sub> levothyroxine) and triiodothyronine sodium (T<sub>3</sub> liothyronine) providing 38 mcg levothyroxine (T<sub>4</sub>) and 9 mcg liothyronine (T<sub>3</sub>) per grain of thyroid. The inactive ingredients are calcium stearate, dextrose (agglomerated) and mineral oil. Contains no ingredient made from a gluten-containing grain (wheat, barley, rye).</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d8f4c176-159e-4cdd-bf14-cc31fd638896"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>The steps in the synthesis of the thyroid hormones are controlled by thyrotropin (Thyroid Stimulating Hormone, TSH) secreted by the anterior pituitary. This hormone’s secretion is in turn controlled by a feedback mechanism effected by the thyroid hormones themselves and by thyrotropin releasing hormone (TRH), a tripeptide of hypothalamic origin. Endogenous thyroid hormone secretion is suppressed when exogenous thyroid hormones are administered to euthyroid individuals in excess of the normal gland’s secretion.</paragraph>
+                  <paragraph>The mechanisms by which thyroid hormones exert their physiologic action are not well understood. These hormones enhance oxygen consumption by most tissues of the body, increase the basal metabolic rate, and the metabolism of carbohydrates, lipids, and proteins. Thus, they exert a profound influence on every organ system in the body and are of particular importance in the development of the central nervous system.</paragraph>
+                  <paragraph>The normal thyroid gland contains approximately 200 mcg of levothyroxine (T<sub>4</sub>) per gram of gland, and 15 mcg of liothyronine (T<sub>3</sub>) per gram. The ratio of these two hormones in the circulation does not represent the ratio in the thyroid gland, since about 80 % of peripheral liothyronine (T<sub>3</sub>) comes from monodeiodination of levothyroxine. Peripheral monodeiodination of levothyroxine at the 5 position (inner ring) also results in the formation of reverse liothyronine (T<sub>3</sub>), which is calorigenically inactive.</paragraph>
+                  <paragraph>Liothyronine (T<sub>3</sub>) levels are low in the fetus and newborn, in old age, in chronic caloric deprivation, hepatic cirrhosis, renal failure, surgical stress, and chronic illnesses representing what has been called the “T<sub>3</sub> thyronine syndrome.”</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5f45669a-b8a3-4f85-af79-cf34acc157b6"/>
+               <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacokinetics</content> - Animal studies have shown that T<sub>4</sub> is only partially absorbed from the gastrointestinal tract. The degree of absorption is dependent on the vehicle used for its administration and by the character of the intestinal contents, the intestinal flora, including plasma protein, and soluble dietary factors, all of which bind thyroid and thereby make it unavailable for diffusion. Only 41% is absorbed when given in a gelatin capsule as opposed to a 74% absorption when given with an albumin carrier.</paragraph>
+                  <paragraph>Depending on other factors, absorption has varied from 48 to 79% of the administered dose. Fasting increases absorption. Malabsorption syndromes, as well as dietary factors, (children’s soybean formula, concomitant use of anionic exchange resins such as cholestyramine) cause excessive fecal loss. T<sub>3</sub> is almost totally absorbed, 95% in 4 hours. The hormones contained in the natural preparations are absorbed in a manner similar to the synthetic hormones.</paragraph>
+                  <paragraph>More than 99% of circulating hormones are bound to serum proteins, including thyroid-binding globulin (TBg), thyroid-binding prealbumin (TBPA), and albumin (TBa), whose capacities and affinities vary for the hormones. The higher affinity of levothyroxine (T<sub>4</sub>) for both TBg and TBPA as compared to triiodothyronine (T<sub>3</sub>) partially explains the higher serum levels and longer half-life of the former hormone. Both protein-bound hormones exist in reverse equilibrium with minute amounts of free hormone, the latter accounting for the metabolic activity.</paragraph>
+                  <paragraph>Deiodination of levothyroxine (T<sub>4</sub>) occurs at a number of sites, including liver, kidney, and other tissues. The conjugated hormone, in the form of glucuronide or sulfate, is found in the bile and gut where it may complete an enterohepatic circulation. Eighty-five percent of levothyroxine (T<sub>4</sub>) metabolized daily is deiodinated.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="52a6d82f-5996-44ae-b3bf-35eb353bb13d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>NP Thyroid<sup>®</sup> tablets (thyroid tablets, USP) are indicated:</paragraph>
+                  <paragraph>1. As replacement or supplemental therapy in patients with hypothyroidism of any etiology, except transient hypothyroidism during the recovery phase of subacute thyroiditis. This category includes cretinism, myxedema, and ordinary hypothyroidism in patients of any age (children, adults, the elderly), or state (including pregnancy); primary hypothyroidism resulting from functional deficiency, primary atrophy, partial or total absence of thyroid gland, or the effects of surgery, radiation, or drugs, with or without the presence of goiter; and secondary (pituitary), or tertiary (hypothalamic) hypothyroidism (See WARNINGS).</paragraph>
+                  <paragraph>2. As pituitary TSH suppressants, in the treatment or prevention of various types of euthyroid goiters, including thyroid nodules, subacute or chronic lymphocytic thyroiditis (Hashimoto’s), multinodular goiter, and in the management of thyroid cancer.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9bbe3e51-04d9-4ec7-8d4d-5487f6885241"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>Thyroid hormone preparations are generally contraindicated in patients with diagnosed but as yet uncorrected adrenal cortical insufficiency, untreated thyrotoxicosis, and apparent hypersensitivity to any of their active or extraneous constituents. There is no well-documented evidence from the literature, however, of true allergic or idiosyncratic reactions to thyroid hormone.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L171a5708-7656-431a-98ab-eca22cbcf0cb">
+               <id root="fc9f637a-bfc6-4ec6-b17e-7ac13e0d090b"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <text/>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <section ID="L83fd92e0-686e-4a6a-ae67-e4307c9b4049">
+                     <id root="f644ed46-9636-492f-838d-ded8bc0419f8"/>
+                     <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+                     <text>
+                        <paragraph>Drugs with thyroid hormone activity, alone or together with other therapeutic agents, have been used for the treatment of obesity. In euthyroid patients, doses within the range of daily hormonal requirements are ineffective for weight reduction. Larger doses may produce serious or even life-threatening manifestations of toxicity, particularly when given in association with sympathomimetic amines such as those used for their anorectic effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L2b11999e-c2ab-4320-a3a3-dc1b0c8687b9">
+               <id root="afd45a93-9707-4352-bd1e-b817adb51039"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>The use of thyroid hormones in the therapy of obesity, alone or combined with other drugs, is unjustified and has been shown to be ineffective. Neither is their use justified for the treatment of male or female infertility unless this condition is accompanied by hypothyroidism.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7835ac63-c22b-43cb-a5b1-6fae6f72ef53"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content> - Thyroid hormones should be used with great caution in a number of circumstances where the integrity of the cardiovascular system, particularly the coronary arteries, is suspected. These include patients with angina pectoris or the elderly, in whom there is a greater likelihood of occult cardiac disease. In these patients therapy should be initiated with low doses, i.e., 15-30 mg NP Thyroid<sup>®</sup>. When, in such patients, a euthyroid state can only be reached at the expense of an aggravation of the cardiovascular disease, thyroid hormone dosage should be reduced.</paragraph>
+                  <paragraph>Thyroid hormone therapy in patients with concomitant diabetes mellitus or diabetes insipidus or adrenal cortical insufficiency aggravates the intensity of their symptoms. Appropriate adjustments of the various therapeutic measures directed at these concomitant endocrine diseases are required. The therapy of myxedema coma requires simultaneous administration of glucocorticoids (See DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Hypothyroidism decreases and hyperthyroidism increases the sensitivity to oral anticoagulants. Prothrombin time should be closely monitored in thyroid-treated patients on oral anticoagulants and dosage of the latter agents adjusted on the basis of frequent prothrombin time determinations. In infants, excessive doses of thyroid hormone preparations may produce craniosynostosis.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bb690165-7627-47fb-972b-e1f8737ff59a"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Information for the Patient</content> - Patients on thyroid hormone preparations and parents of children on thyroid therapy should be informed that:</paragraph>
+                  <paragraph>1. Replacement therapy is to be taken essentially for life, with the exception of cases of transient hypothyroidism, usually associated with thyroiditis, and in those patients receiving a therapeutic trial of the drug.</paragraph>
+                  <paragraph>2. They should immediately report during the course of therapy any signs or symptoms of thyroid hormone toxicity, e.g., chest pain, increased pulse rate, palpitations, excessive sweating, heat intolerance, nervousness, or any other unusual event.</paragraph>
+                  <paragraph>3. In case of concomitant diabetes mellitus, the daily dosage of antidiabetic medication may need readjustment as thyroid hormone replacement is achieved. If thyroid medication is stopped, a downward readjustment of the dosage of insulin or oral hypoglycemic agent may be necessary to avoid hypoglycemia. At all times, close monitoring of urinary glucose levels is mandatory in such patients.</paragraph>
+                  <paragraph>4. In case of concomitant oral anticoagulant therapy, the prothrombin time should be measured frequently to determine if the dosage of oral anticoagulants is to be readjusted.</paragraph>
+                  <paragraph>5. Instruct patients to discontinue biotin or any biotin-containing supplements for at least 2 days before thyroid function testing is conducted.</paragraph>
+                  <paragraph>6. Partial loss of hair may be experienced by children in the first few months of thyroid therapy, but this is usually a transient phenomenon and later recovery is usually the rule.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="406fe979-c2dd-4279-bf01-80fa690a4c0f"/>
+               <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Laboratory Tests</content> - Treatment of patients with thyroid hormones requires the periodic assessment of thyroid status by means of appropriate laboratory tests besides the full clinical evaluation. The TSH suppression test can be used to test the effectiveness of any thyroid preparation bearing in mind the relative insensitivity of the infant pituitary to the negative feedback effect of thyroid hormones. Serum T<sub>4</sub> levels can be used to test the effectiveness of all thyroid medications except T<sub>3</sub>. When the total serum T<sub>4</sub> is low but TSH is normal, a test specific to assess unbound (free) T<sub>4</sub> levels is warranted. Specific measurements of T<sub>4</sub> and T<sub>3</sub> by competitive protein binding or radioimmunoassay are not influenced by blood levels of organic or inorganic iodine.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5f0adb48-805e-45a9-b999-d1f47fc68c5b"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Drug Interactions</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Oral Anticoagulants</content> — Thyroid hormones appear to increase catabolism of vitamin K-dependent clotting factors. If oral anticoagulants are also being given, compensatory increases in clotting factor synthesis are impaired. Patients stabilized on oral anticoagulants who are found to require thyroid replacement therapy should be watched very closely when thyroid is started. If a patient is truly hypothyroid, it is likely that a reduction in anticoagulant dosage will be required. No special precautions appear to be necessary when oral anticoagulant therapy is begun in a patient already stabilized on maintenance thyroid replacement therapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Insulin or Oral Hypoglycemics</content> — Initiating thyroid replacement therapy may cause increases in insulin or oral hypoglycemic requirements. The effects seen are poorly understood and depend upon a variety of factors such as dose and type of thyroid preparations and endocrine status of the patient. Patients receiving insulin or oral hypoglycemics should be closely watched during initiation of thyroid replacement therapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cholestyramine or Colestipo</content>l - Cholestyramine or colestipol binds both T<sub>4</sub> and T<sub>3</sub> in the intestine, thus impairing absorption of these thyroid hormones. In vitro studies indicate that the binding is not easily removed. Therefore, four to five hours should elapse between administration of cholestyramine and thyroid hormones.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Estrogen, Oral Contraceptives</content> — Estrogens tend to increase serum thyroxine-binding globulin (TBg). In a patient with a nonfunctioning thyroid gland who is receiving thyroid replacement therapy, free levothyroxine may be decreased when estrogens are started thus increasing thyroid requirements. However, if the patient’s thyroid gland has sufficient function, the decreased free levothyroxine will result in a compensatory increase in levothyroxine output by the thyroid. Therefore, patients without a functioning thyroid gland who are on thyroid replacement therapy may need to increase their thyroid dose if estrogens or estrogen-containing oral contraceptives are given.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="44d349e1-80a4-4bae-8d0e-afa90707681b"/>
+               <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Drug/Laboratory Test Interactions</content> — The following drugs or moieties are known to interfere with laboratory tests performed in patients on thyroid hormone therapy: androgens, corticosteroids, estrogens, oral contraceptives containing estrogens, iodine-containing preparations, and the numerous preparations containing salicylates.</paragraph>
+                  <paragraph>1. Changes in TBg concentration should be taken into consideration in the interpretation of T<sub>4</sub> and T<sub>3</sub> values. In such cases, the unbound (free) hormone should be measured. Pregnancy, estrogens, and estrogen-containing oral contraceptives increase TBg concentrations. TBg may also be increased during infectious hepatitis. Decreases in TBg concentrations are observed in nephrosis, acromegaly, and after androgen or corticosteroid therapy. Familial hyper- or hypothyroxine-binding-globulinemias have been described. The incidence of TBg deficiency approximates 1 in 9,000. The binding of levothyroxine by TBPA is inhibited by salicylates.</paragraph>
+                  <paragraph>2. Biotin supplementation is known to interfere with thyroid hormone immunoassays that are based on a biotin and streptavidin interaction, which may result in erroneous thyroid hormone test results. Stop biotin and biotin-containing supplements for at least 2 days prior to thyroid testing.</paragraph>
+                  <paragraph>3. Medicinal or dietary iodine interferes with all in vivo tests of radio-iodine uptake, producing low uptakes which may not be relative of a true decrease in hormone synthesis.</paragraph>
+                  <paragraph>4. The persistence of clinical and laboratory evidence of hypothyroidism in spite of adequate dosage replacement indicates either poor patient compliance, poor absorption, excessive fecal loss, or inactivity of the preparation. Intracellular resistance to thyroid hormone is quite rare.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0c384e5a-9fe3-47b9-bd82-8186d96e8f85"/>
+               <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, and Impairment of Fertility</content> — A reportedly apparent association between prolonged thyroid therapy and breast cancer has not been confirmed and patients on thyroid for established indications should not discontinue therapy. No confirmatory long-term studies in animals have been performed to evaluate carcinogenic potential, mutagenicity, or impairment of fertility in either males or females.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d8c025dc-cba2-49f7-9eeb-46aeb05e16aa"/>
+               <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy</content> — Thyroid hormones do not readily cross the placental barrier. The clinical experience to date does not indicate any adverse effect on fetuses when thyroid hormones are administered to pregnant women. On the basis of current knowledge, thyroid replacement therapy to hypothyroid women should not be discontinued during pregnancy.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fe3157ee-5a31-49a8-80cd-2f2247fba748"/>
+               <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Nursing Mothers</content> — Minimal amounts of thyroid hormones are excreted in human milk. Thyroid is not associated with serious adverse reactions and does not have a known tumorigenic potential. However, caution should be exercised when thyroid is administered to a nursing woman.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d7e78de2-dcab-4d1e-a5a9-e15d72a4f40f"/>
+               <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use</content> — Pregnant mothers provide little or no thyroid hormone to the fetus. The incidence of congenital hypothyroidism is relatively high (1:4,000) and the hypothyroid fetus would not derive any benefit from the small amounts of hormone crossing the placental barrier. Routine determinations of serum T<sub>4</sub> and/or TSH is strongly advised in neonates in view of the deleterious effects of thyroid deficiency on growth and development.</paragraph>
+                  <paragraph>Treatment should be initiated immediately upon diagnosis, and maintained for life, unless transient hypothyroidism is suspected; in which case, therapy may be interrupted for 2 to 8 weeks after the age of 3 years to reassess the condition. Cessation of therapy is justified in patients who have maintained a normal TSH during those 2 to 8 weeks.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6b6142a9-7a8a-4b2b-971c-e1a628545cae"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Adverse reactions other than those indicative of hyperthyroidism because of therapeutic overdosage, either initially or during the maintenance period, are rare (See OVERDOSAGE).</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="57950b52-6a09-402d-92e0-41dd65d22fe0"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Signs and Symptoms</content> - Excessive doses of thyroid result in a hypermetabolic state resembling in every respect the condition of endogenous origin. The condition may be self-induced.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Treatment of Overdosage</content> - Dosage should be reduced or therapy temporarily discontinued if signs and symptoms of overdosage appear. Treatment may be reinstituted at a lower dosage. In normal individuals, normal hypothalamic-pituitary-thyroid axis function is restored in 6 to 8 weeks after thyroid suppression.</paragraph>
+                  <paragraph>Treatment of acute massive thyroid hormone overdosage is aimed at reducing gastrointestinal absorption of the drugs and counteracting central and peripheral effects, mainly those of increased sympathetic activity. Vomiting may be induced initially if further gastrointestinal absorption can reasonably be prevented and barring contraindications such as coma, convulsions, or loss of the gagging reflex. Treatment is symptomatic and supportive. Oxygen may be administered and ventilation maintained. Cardiac glycosides may be indicated if congestive heart failure develops. Measures to control fever, hypoglycemia, or fluid loss should be instituted if needed. Antiadrenergic agents, particularly propranolol, have been used advantageously in the treatment of increased sympathetic activity. Propranolol may be administered intravenously at a dosage of 1 to 3 mg, over a 10-minute period or orally, 80 to 160 mg/day, initially, especially when no contraindications exist for its use.</paragraph>
+                  <paragraph>Other adjunctive measures may include administration of cholestyramine to interfere with thyroxine absorption, and glucocorticoids to inhibit conversions of T<sub>4</sub> to T<sub>3</sub>.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b7dba973-ea8c-4c7d-89df-627a03a54da5"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>The dosage of thyroid hormones is determined by the indication and must in every case be individualized according to patient response and laboratory findings.</paragraph>
+                  <paragraph>Biotin supplementation may interfere with immunoassays for TSH, T<sub>4</sub>, and T<sub>3</sub>, resulting in erroneous thyroid hormone test results. Inquire whether patients are taking biotin or biotin-containing supplements. If so, advise them to stop biotin supplementation at least 2 days before assessing TSH and/or T<sub>4</sub> levels (see PRECAUTIONS).</paragraph>
+                  <paragraph>Thyroid hormones are given orally. In acute, emergency conditions, injectable levothyroxine sodium may be given intravenously when oral administration is not feasible or desirable, as in the treatment of myxedema coma, or during total parenteral nutrition. Intramuscular administration is not advisable because of reported poor absorption.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypothyroidism</content> - Therapy is usually instituted using low doses, with increments which depend on the cardiovascular status of the patient. The usual starting dose is 30 mg NP Thyroid<sup>®</sup>, with increments of 15 mg every 2 to 3 weeks. A lower starting dosage, 15 mg/day, is recommended in patients with long standing myxedema, particularly if cardiovascular impairment is suspected, in which case extreme caution is recommended. The appearance of angina is an indication for a reduction in dosage. Most patients require 60 to 120 mg/day. Failure to respond to doses of 180 mg suggests lack of compliance or malabsorption. Maintenance dosages 60 to 120 mg/day usually result in normal serum levothyroxine (T<sub>4</sub>) and triiodothyronine (T<sub>3</sub>) levels. Adequate therapy usually results in normal TSH and T<sub>4</sub> levels after 2 to 3 weeks of therapy.</paragraph>
+                  <paragraph>Readjustment of thyroid hormone dosage should be made within the first four weeks of therapy, after proper clinical and laboratory evaluations, including serum levels of T<sub>4</sub>, bound and free, and TSH.</paragraph>
+                  <paragraph>T<sub>3</sub> may be used in preference to levothyroxine (T<sub>4</sub>) during radio-isotope scanning procedures, since induction of hypothyroidism in those cases is more abrupt and can be of shorter duration. It may also be preferred when impairment of peripheral conversion of T<sub>4</sub> and T<sub>3</sub> is suspected.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Myxedema Coma</content> - Myxedema coma is usually precipitated in the hypothyroid patient of long-standing by intercurrent illness or drugs such as sedatives and anesthetics and should be considered a medical emergency. Therapy should be directed at the correction of electrolyte disturbances and possible infection besides the administration of thyroid hormones. Corticosteroids should be administered routinely. T<sub>4</sub> and T<sub>3</sub> may be administered via a nasogastric tube but the preferred route of administration of both hormones is intravenous. Levothyroxine sodium (T<sub>4</sub>) is given at starting dose of 400 mcg (100 mcg/mL) given rapidly, and is usually well tolerated, even in the elderly. This initial dose is followed by daily supplements of 100 to 200 mcg given intravenously. Normal T<sub>4</sub> levels are achieved in 24 hours followed in 3 days by threefold elevation of T<sub>3</sub>. Oral therapy with thyroid hormone would be resumed as soon as the clinical situation has been stabilized and the patient is able to take oral medication.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Thyroid Cancer</content> - Exogenous thyroid hormone may produce regression of metastases from follicular and papillary carcinoma of the thyroid and is used as ancillary therapy of these conditions with radioactive iodine. TSH should be suppressed to low or undetectable levels. Therefore, larger amounts of thyroid hormone than those used for replacement therapy are required. Medullary carcinoma of the thyroid is usually unresponsive to this therapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Thyroid Suppression Therapy</content> - Administration of thyroid hormone in doses higher than those produced physiologically by the gland results in suppression of the production of endogenous hormone. This is the basis for the thyroid suppression test and is used as an aid in the diagnosis of patients with signs of mild hyperthyroidism in whom base line laboratory tests appear normal, or to demonstrate thyroid gland autonomy in patients with Graves ophthalmopathy. 131I uptake is determined before and after the administration of the exogenous hormone. A 50% or greater suppression of uptake indicates a normal thyroid-pituitary axis and thus rules out thyroid gland autonomy.</paragraph>
+                  <paragraph>For adults, the usual suppressive dose of levothyroxine (T<sub>4</sub>) is 1.56 mcg/kg of body weight per day given for 7 to 10 days. These doses usually yield normal serum T<sub>4</sub> and T<sub>3</sub> levels and lack of response to TSH.</paragraph>
+                  <paragraph>Thyroid hormones should be administered cautiously to patients in whom there is strong suspicion of thyroid gland autonomy, in view of the fact that the exogenous hormone effects will be additive to the endogenous source.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Dosage</content> - Pediatric dosage should follow the recommendations summarized in Table 1. In infants with congenital hypothyroidism, therapy with full doses should be instituted as soon as the diagnosis has been made.</paragraph>
+                  <table ID="i81fe8299-fb05-4dad-8c49-9b3ed88f42c9" width="612" border="12">
+                     <caption>Recommended Pediatric Dosage for Congenital Hypothyroidism</caption>
+                     <tbody>
+                        <tr>
+                           <td/>
+                           <td>
+                              <content styleCode="bold">NP Thyroid Tablets </content>
+                           </td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Age </content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Dose per day </content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Daily dose per kg of body weight </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>0 - 6 mos.</td>
+                           <td>15 - 30 mg</td>
+                           <td>4.8 - 6 mg</td>
+                        </tr>
+                        <tr>
+                           <td>6 - 12 mos.</td>
+                           <td>30 - 45 mg</td>
+                           <td>3.6 - 4.8 mg</td>
+                        </tr>
+                        <tr>
+                           <td>1 - 5 yrs.</td>
+                           <td>45 - 60 mg</td>
+                           <td>3 - 3.6 mg</td>
+                        </tr>
+                        <tr>
+                           <td>6 - 12 yrs.</td>
+                           <td>60 - 90 mg</td>
+                           <td>2.4 - 3 mg</td>
+                        </tr>
+                        <tr>
+                           <td>Over 12 yrs.</td>
+                           <td>Over 90 mg</td>
+                           <td>1.2 - 1.8 mg</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ecdb108c-ccff-430d-8249-6b75938f8488"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>NP Thyroid<sup>®</sup> tablets (thyroid tablets, USP) are available as:</paragraph>
+                  <paragraph>• 15 mg (1/4 gr)<br/>o NDC 42192-327-30 in 30-count bottle<br/>o NDC 42192-327-01 in 100-count bottle</paragraph>
+                  <paragraph>• 30 mg (1/2 gr)<br/>o NDC 42192-329-30 in 30-count bottle<br/>o NDC 42192-329-01 in 100-count bottle<br/>o NDC 42192-329-10 in 1000-count bottle</paragraph>
+                  <paragraph>• 60 mg (1 gr)<br/>o NDC 42192-330-30 in 30-count bottle<br/>o NDC 42192-330-01 in 100-count bottle<br/>o NDC 42192-330-10 in 1000-count bottle</paragraph>
+                  <paragraph>• 90 mg (1 1/2 gr)<br/>o NDC 42192-331-30 in 30-count bottle<br/>o NDC 42192-331-01 in 100-count bottle<br/>o NDC 42192-331-10 in 1000-count bottle</paragraph>
+                  <paragraph>• 120 mg (2 gr)<br/>o NDC 42192-328-30 in 30-count bottle<br/>o NDC 42192-328-01 in 100-count bottle</paragraph>
+                  <paragraph>NP Thyroid<sup>®</sup> tablets are available in the following strengths:</paragraph>
+                  <paragraph>15 mg (1/4 grain) - tan, oval-shaped tablet, debossed on one side with “AP” and “327” on the other side.<br/>30 mg (1/2 grain) – tan, round tablet, debossed on one side with “AP” and “329” on the other side.<br/>60 mg (1 grain) – tan, round tablet, debossed on one side with “AP” and “330” on the other side.<br/>90 mg (1 1/2 grain) – tan, round tablet, debossed on one side with “AP” and “331” on the other side.<br/>120 mg (2 grain) – tan, round tablet, debossed on one side with “AP” and “328” on the other side.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="319d5497-6c40-4988-8b42-5e760ace4b78"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Store in a tight container protected from light and moisture. Store between 15° - 30°C (59° - 86°F). </paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bf7f52dc-eaef-4ec9-babd-acb78f28f47a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>All prescription substitutions and/or recommendations using this product shall be made subject to state and federal statutes as applicable.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Please note: This is not an Orange Book product and has not been subjected to FDA therapeutic equivalency or other equivalency testing. No representation is made as to generic status or bioequivalency.</content> Each person recommending a prescription substitution using this product shall make such recommendations based on each such person’s professional opinion and knowledge, upon evaluating the active ingredients, excipients, inactive ingredients and chemical information provided herein.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La192391b-50c7-42dc-8705-d156bfef2acb">
+               <id root="bb459aea-56f0-425c-9d5e-117d65aa2a14"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">MANUFACTURED FOR:</content>
+                     <br/>Acella Pharmaceuticals, LLC<br/>Alpharetta, GA 30005<br/>1-800-541-4802<br/>L-0440 Rev 0924-01</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="098a3935-6447-45ad-a767-718ff3646591"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>NDC 42192-329-01</paragraph>
+                  <paragraph>NP Thyroid<sup>®</sup>
+                     <br/>(Thyroid Tablets, USP)</paragraph>
+                  <paragraph>
+                     <content>1/2 grain (30 mg)</content>
+                  </paragraph>
+                  <paragraph>Rx Only 100 Tablets</paragraph>
+                  <paragraph>EACH TABLET CONTAINS:</paragraph>
+                  <paragraph>levothyroxine (T<sub>4</sub>)...........................19 mcg <br/>liothyronine (T<sub>3</sub>)............................4.5 mcg</paragraph>
+                  <paragraph>DIRECTIONS FOR USE: See Insert.</paragraph>
+                  <paragraph>USUAL DOSE: 15 mg - 180 mg once a day.</paragraph>
+                  <paragraph>NP Thyroid is a natural product with a strong, characteristic odor.</paragraph>
+                  <paragraph>Store in a tight container protected from light and moisture. Store between 15° - 30°C (59° - 86°F).</paragraph>
+                  <paragraph>MANUFACTURED FOR: <br/>Acella Pharmaceuticals, LLC <br/>Alpharetta, GA 30009 <br/>1-800-541-4802</paragraph>
+                  <paragraph>Lot #/Exp. Date:</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4be644eb-b082-4e11-bdd1-92fd7b9b1dcb"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="TY30"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <observationMedia ID="TY30">
+                     <text>Thyroid 30</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="thyroid30.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

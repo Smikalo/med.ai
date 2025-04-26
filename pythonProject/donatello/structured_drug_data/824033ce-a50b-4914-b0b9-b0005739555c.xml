@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="824033ce-a50b-4914-b0b9-b0005739555c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title>Diclofenac Sodium Delayed-release Tablets, USP 25 mg, 50 mg and 75 mg</title>
+   <effectiveTime value="20250328"/>
+   <setId root="487fa223-f4d9-4ab1-a5af-fb0d93f2bd0e"/>
+   <versionNumber value="5"/>
+   <author>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+            <name>Bryant Ranch Prepack</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bryant Ranch Prepack</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="REPACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="71335-0456" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="RELABEL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="71335-0456" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3dca023a-7263-40d0-aabd-8ecb99c05861"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20191212"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71335-0456" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Diclofenac Sodium</name>
+                        <formCode code="C42905" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, DELAYED RELEASE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Diclofenac Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="16571-201" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="75" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="QTG126297Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DICLOFENAC SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="144O8QL0L1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DICLOFENAC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="NX76LV5T8J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHACRYLIC ACID - ETHYL ACRYLATE COPOLYMER (1:1) TYPE A</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1K09F3G675" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE RED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EX438O2MRT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE YELLOW</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-0456-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090824"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="14" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-0456-9" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090824"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-0456-6" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090824"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="40" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-0456-0" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090824"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="28" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-0456-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090824"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-0456-7" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090824"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-0456-4" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090824"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-0456-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090824"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-0456-8" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090824"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="120" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-0456-5" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090824"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA077863" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20080819"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BROWN">
+                              <originalText>Light Brown</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND">
+                              <originalText>round</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" unit="mm" value="10"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">P;75</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="rxonly">
+               <id root="fa6f218e-d082-465b-97ae-296bff2ace71"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20191212"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S_Boxed-Warning">
+               <id root="43795e49-1041-4f30-9c7c-b45ff34f5f5b"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING: RISK OF SERIOUS CARDIOVASCULAR AND GASTROINTESTINAL EVENTS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular Thrombotic Events<br/>
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Nonsteroidal anti-inflammatory drugs (NSAIDs) cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use (see <content styleCode="bold">
+                           <linkHtml href="#S_5">WARNINGS</linkHtml>
+                        </content>).</item>
+                     <item>Diclofenac sodium delayed-release tablets are contraindicated in the setting of coronary artery bypass graft (CABG) surgery (see <content styleCode="bold">
+                           <linkHtml href="#S_4">CONTRAINDICATIONS</linkHtml>
+                        </content>and <content styleCode="bold">
+                           <linkHtml href="#S_5">WARNINGS</linkHtml>
+                        </content>).<br/>
+                        <br/>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal Bleeding, Ulceration, and Perforation<br/>
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>NSAIDs cause an increased risk of serious gastrointestinal (GI) adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients and patients with a prior history of peptic ulcer disease and/or GI bleeding are at greater risk for serious GI events (see <linkHtml href="#S_5">WARNINGS</linkHtml>).</item>
+                  </list>
+               </text>
+               <effectiveTime value="20191212"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S_1">
+               <id root="13aa6333-5610-4c3b-ba53-487849b935bb"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Diclofenac sodium is a benzeneacetic acid derivative, designated chemically as 2-[(2,6-dichlorophenyl)amino] benzeneacetic acid, monosodium salt. The structural formula is:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>
+                     <content styleCode="bold">C<sub>14</sub>H<sub>10</sub>Cl<sub>2</sub>NNaO<sub>2</sub>                           M.W. 318.14</content>
+                  </paragraph>
+                  <paragraph>Diclofenac sodium is a white to off-white, hygroscopic crystalline powder. It is freely soluble in methanol, soluble in ethanol, sparingly soluble in water and practically insoluble in chloroform and in dilute acid. The n-octanol/water partition coefficient is 13.4 at pH 7.4 and 1545 at pH 5.2. Diclofenac sodium has a dissociation constant (pKa) of 4.0 ± 0.2 at 25°C in water.</paragraph>
+                  <paragraph>Each enteric-coated tablet for oral administration contains 25 mg, 50 mg, or 75 mg of diclofenac sodium. In addition, eachtablet contains the following inactive ingredients. Inactive ingredients: lactose (monohydrate), microcrystalline cellulose,croscarmellose sodium, povidone, talc, magnesium stearate, methacrylic acid copolymer, polyethylene glycol, opadry brown(Titanium dioxide, hypromellose, polyethylene glycol, iron oxide red, iron oxide yellow).</paragraph>
+               </text>
+               <effectiveTime value="20191212"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>structural formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="structural-formula.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S_2">
+               <id root="736ddeb3-ac35-4b48-aa23-b3c4c5b47287"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20191212"/>
+               <component>
+                  <section ID="S_2.1">
+                     <id root="7e3029d9-2c19-4d8e-8129-8d4b3ee57cdf"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>Mechanism of Action</title>
+                     <text>
+                        <paragraph>Diclofenac has analgesic, anti-inflammatory, and antipyretic properties.</paragraph>
+                        <paragraph>The mechanism of action of diclofenac sodium delayed-release tablets, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2).</paragraph>
+                        <paragraph>Diclofenac is a potent inhibitor of prostaglandin synthesis <content styleCode="italics">in vitro</content>. Diclofenac concentrations reached during therapy have produced <content styleCode="italics">in vivo</content> effects. Prostaglandins sensitize afferent nerves and potentiate the action of bradykinin in inducing pain in animal models. Prostaglandins are mediators of inflammation. Because diclofenac is an inhibitor of prostaglandin synthesis, its mode of action may be due to a decrease of prostaglandins in peripheral tissues.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_2.2">
+                     <id root="b1157e3a-3cb6-4757-87d9-624215ebd477"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Absorption</paragraph>
+                        <paragraph>Diclofenac is 100% absorbed after oral administration compared to IV administration as measured by urine recovery. However, due to first-pass metabolism, only about 50% of the absorbed dose is systemically available (see Table 1). Food has no significant effect on the extent of diclofenac absorption. However, there is usually a delay in the onset of absorption of 1 to 4.5 hours and a reduction in peak plasma levels of &lt;20%.</paragraph>
+                        <table cellspacing="0" cellpadding="0" border="0" width="770">
+                           <caption>Table 1. Pharmacokinetic Parameters for Diclofenac 
+			</caption>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" colspan="2" valign="middle">Normal Healthy Adults (20-48 years)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">PK Parameter</td>
+                                 <td styleCode="Rrule" valign="middle">Mean</td>
+                                 <td styleCode="Rrule" valign="middle">Coefficient of Variation (%)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Absolute Bioavailability (%)<br/>[N = 7]</td>
+                                 <td styleCode="Rrule" valign="middle">55</td>
+                                 <td styleCode="Rrule" valign="middle">40</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Tmax (hr) [N = 56]</td>
+                                 <td styleCode="Rrule" valign="middle">2.3</td>
+                                 <td styleCode="Rrule" valign="middle">69</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Oral Clearance<br/>(CL/F; mL/min) [N = 56]</td>
+                                 <td styleCode="Rrule" valign="middle">582</td>
+                                 <td styleCode="Rrule" valign="middle">23</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Renal Clearance<br/>(% unchanged drug in urine)<br/>[N = 7]</td>
+                                 <td styleCode="Rrule" valign="middle">&lt;1</td>
+                                 <td styleCode="Rrule" valign="middle">–</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Apparent Volume of Distribution (V/F; L/kg)<br/> [N = 56]</td>
+                                 <td styleCode="Rrule" valign="middle">1.4</td>
+                                 <td styleCode="Rrule" valign="middle">58</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" valign="middle">Terminal Half-life (hr)<br/>[N = 56]</td>
+                                 <td styleCode="Rrule" valign="middle">2.3</td>
+                                 <td styleCode="Rrule" valign="middle">48</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Distribution</paragraph>
+                        <paragraph>The apparent volume of distribution (V/F) of diclofenac sodium is 1.4 L/kg.</paragraph>
+                        <paragraph>Diclofenac is more than 99% bound to human serum proteins, primarily to albumin. Serum protein binding is constant over the concentration range (0.15 to 105 mcg/mL) achieved with recommended doses.</paragraph>
+                        <paragraph>Diclofenac diffuses into and out of the synovial fluid. Diffusion into the joint occurs when plasma levels are higher than those in the synovial fluid, after which the process reverses and synovial fluid levels are higher than plasma levels. It is not known whether diffusion into the joint plays a role in the effectiveness of diclofenac.</paragraph>
+                        <paragraph>Elimination</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism</content>
+                        </paragraph>
+                        <paragraph>Five diclofenac metabolites have been identified in human plasma and urine. The metabolites include 4’-hydroxy-, 5-hydroxy-,3’-hydroxy-, 4’,5-dihydroxy- and 3’-hydroxy-4’-methoxy diclofenac. The major diclofenac metabolite, 4’-hydroxy-diclofenac, has very weak pharmacologic activity. The formation of 4’-hydroxy- diclofenac is primarily mediated by CYP2C9. Both diclofenac and its oxidative metabolites undergo glucuronidation or sulfation followed by biliary excretion. Acylglucuronidation mediated by UGT2B7 and oxidation mediated by CYP2C8 may also play a role in diclofenac metabolism. CYP3A4 is responsible for the formation of minor metabolites, 5-hydroxy- and 3’-hydroxy-diclofenac. In patients with renal dysfunction, peak concentrations of metabolites 4’-hydroxy- and 5-hydroxy-diclofenac were approximately 50% and 4% of the parent compound after single oral dosing compared to 27% and 1% in normal healthy subjects.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Excretion</content>
+                        </paragraph>
+                        <paragraph>Diclofenac is eliminated through metabolism and subsequent urinary and biliary excretion of the glucuronide and the sulfate conjugates of the metabolites. Little or no free unchanged diclofenac is excreted in the urine. Approximately 65% of the dose is excreted in the urine and approximately 35% in the bile as conjugates of unchanged diclofenac plus metabolites. Because renal elimination is not a significant pathway of elimination for unchanged diclofenac, dosing adjustment in patients with mild to moderate renal dysfunction is not necessary. The terminal half-life of unchanged diclofenac is approximately 2 hours.</paragraph>
+                        <paragraph>Special Populations</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Pediatric</content>
+                        </paragraph>
+                        <paragraph>The pharmacokinetics of diclofenac sodium delayed-release tablets has not been investigated in pediatric patients.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Race</content>
+                        </paragraph>
+                        <paragraph>Pharmacokinetic differences due to race have not been identified.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatic Impairment</content>
+                        </paragraph>
+                        <paragraph>Hepatic metabolism accounts for almost 100% of diclofenac sodium delayed-release tablets elimination, so patients with hepatic disease may require reduced doses of diclofenac sodium delayed-release tablets compared to patients with normal hepatic function.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal Impairment</content>
+                        </paragraph>
+                        <paragraph>Diclofenac pharmacokinetics has been investigated in subjects with renal insufficiency. No differences in the pharmacokinetics of diclofenac have been detected in studies of patients with renal impairment. In patients with renal impairment (inulin clearance 60 to 90, 30 to 60, and &lt;30 mL/min; N=6 in each group), AUC values and elimination rate were comparable to those in healthysubjects.</paragraph>
+                        <paragraph>Drug Interactions Studies</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Voriconazole</content>
+                        </paragraph>
+                        <paragraph>When co-administered with voriconazole (inhibitor of CYP2C9, 2C19 and 3A4 enzyme), the C<sub>max</sub> and AUC of diclofenac increased by 114% and 78%, respectively (see <content styleCode="bold">
+                              <linkHtml href="#S_6.5">PRECAUTIONS: Drug Interactions</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Aspirin</content>
+                        </paragraph>
+                        <paragraph>When NSAIDs were administered with aspirin, the protein binding of NSAIDs were reduced, although the clearance of free NSAID was not altered. The clinical significance of this interaction is not known. See Table 2 for clinically significant drug interactions of NSAIDs with aspirin (see <content styleCode="bold">
+                              <linkHtml href="#S_6.5">PRECAUTIONS: Drug Interactions</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S_3">
+               <id root="b2ecc24b-0158-4c1a-ae56-27648f6b396f"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risks of diclofenac sodium delayed-release tablets and other treatment options before deciding to use diclofenac sodium delayed-release tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see <content styleCode="bold">
+                        <linkHtml href="#S_5.2">WARNINGS: Gastrointestinal Bleeding, Ulceration and Perforation</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Diclofenac sodium delayed-release tablets are indicated:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>For relief of the signs and symptoms of osteoarthritis</item>
+                     <item>For relief of the signs and symptoms of rheumatoid arthritis</item>
+                     <item>For acute or long-term use in the relief of signs and symptoms of ankylosing spondylitis</item>
+                  </list>
+               </text>
+               <effectiveTime value="20191212"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S_4">
+               <id root="69284f50-407e-45c0-a60a-5b4065d98173"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Diclofenac sodium delayed-release tablets are contraindicated in the following patients.</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Known hypersensitivity (e.g., anaphylactic reactions and serious skin reactions) to diclofenac or any components of the drug product (see <content styleCode="bold">
+                           <linkHtml href="#S_5.7">WARNINGS: Anaphylactic Reactions</linkHtml>
+                        </content>, <content styleCode="bold">
+                           <linkHtml href="#S_5.9">Serious Skin Reactions</linkHtml>
+                        </content>).</item>
+                     <item>History of asthma, urticaria, or other allergic-type reactions after taking aspirin or other NSAIDs. Severe, sometimes fatal, anaphylactic reactions to NSAIDs have been reported in such patients (see <content styleCode="bold">
+                           <linkHtml href="#S_5.7">WARNINGS: AnaphylacticReaction</linkHtml>
+                        </content>, <content styleCode="bold">
+                           <linkHtml href="#S_5.8">Exacerbation of Asthma Related to Aspirin Sensitivity</linkHtml>
+                        </content>).</item>
+                     <item>In the setting of coronary artery bypass graft (CABG) surgery (see <content styleCode="bold">
+                           <linkHtml href="#S_5.1">WARNINGS: Cardiovascular ThromboticEvents</linkHtml>).</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20191212"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S_5">
+               <id root="c6ebdb3d-8dcc-4f49-bb85-cb1191b0094a"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20191212"/>
+               <component>
+                  <section ID="S_5.1">
+                     <id root="b52f35cc-1dcd-4edc-8f05-3d13f562f697"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Cardiovascular Thrombotic Events</title>
+                     <text>
+                        <paragraph>Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, including myocardial infarction (MI), and stroke, which can be fatal. Based on available data, it is unclear that the risk for CV thrombotic events is similar for all NSAIDs. The relative increase in serious CV thrombotic events over baseline conferred by NSAID use appears to be similar in those with and without known CV disease or risk factors for CV disease. However, patients with known CV disease or risk factors had a higher absolute incidence of excess serious CV thrombotic events, due to their increased baseline rate. Some observational studies found that this increased risk of serious CV thrombotic events began as early as the first weeks of treatment. The increase in CV thrombotic risk has been observed most consistently at higher doses.</paragraph>
+                        <paragraph>To minimize the potential risk for an adverse CV event in NSAID-treated patients, use the lowest effective dose for the shortest duration possible. Physicians and patients should remain alert for the development of such events, throughout the entire treatment course, even in the absence of previous CV symptoms. Patients should be informed about the symptoms of serious CV events and the steps to take if they occur.</paragraph>
+                        <paragraph>There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID, such as diclofenac, increases the risk of serious gastrointestinal (GI) events (see <content styleCode="bold">
+                              <linkHtml href="#S_5.2">WARNINGS: Gastrointestinal Bleeding, Ulceration, and Perforation</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Status Post Coronary Artery Bypass Graft (CABG) Surgery</content>
+                        </paragraph>
+                        <paragraph>Two large, controlled clinical trials of a COX-2 selective NSAID for the treatment of pain in the first 10 to 14 days following CABG surgery found an increased incidence of myocardial infarction and stroke. NSAIDs are contraindicated in the setting of CABG (see <content styleCode="bold">
+                              <linkHtml href="#S_4">CONTRAINDICATIONS</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Post-MI Patients</content>
+                        </paragraph>
+                        <paragraph>Observational studies conducted in the Danish National Registry have demonstrated that patients treated with NSAIDs in the post-MI period were at increased risk of reinfarction, CV-related death, and all-cause mortality beginning in the first week of treatment. In this same cohort, the incidence of death in the first year post MI was 20 per 100 person years in NSAID-treated patients compared to 12 per 100 person years in non-NSAID exposed patients. Although the absolute rate of death declined somewhat after the first year post-MI, the increased relative risk of death in NSAID users persisted over at least the next four years of follow-up.</paragraph>
+                        <paragraph>Avoid the use of diclofenac in patients with a recent MI unless the benefits are expected to outweigh the risk of recurrent CV thrombotic events. If diclofenac is used in patients with a recent MI, monitor patients for signs of cardiac ischemia.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_5.2">
+                     <id root="3ffae209-4cc5-47fe-abad-d8c50e8713a8"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Gastrointestinal Bleeding, Ulceration, and Perforation</title>
+                     <text>
+                        <paragraph>NSAIDs, including diclofenac, cause serious gastrointestinal (GI) adverse events including inflammation, bleeding, ulceration, and perforation of the esophagus, stomach, small intestine, or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs. Only one in five patients, who develop a serious upper GI adverse event on NSAID therapy, is symptomatic. Upper GI ulcers, gross bleeding, or perforation caused by NSAIDs occurred in approximately 1% of patients treated for 3 to 6 months, and in about 2% to 4% of patients treated for one year. However, even short-term therapy is not without risk.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Risk Factors for GI Bleeding, Ulceration, and Perforation</content>
+                        </paragraph>
+                        <paragraph>Patients with a prior history of peptic ulcer disease and/or GI bleeding who use NSAIDs had a greater than 10-fold increased risk for developing a GI bleed compared to patients without these risk factors. Other factors that increase the risk of GI bleeding in patients treated with NSAIDs include longer duration of NSAID therapy, concomitant use of oral corticosteroids, aspirin, anticoagulants, or selective serotonin reuptake inhibitors (SSRIs);, smoking, use of alcohol, older age, and poor general health status. Most postmarketing reports of fatal GI events occurred in elderly or debilitated patients. Additionally, patients with advanced liver disease and/or coagulopathy are at increased risk for GI bleeding.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Strategies to Minimize the GI Risks in NSAID-treated patients:</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Use the lowest effective dosage for the shortest possible duration.</item>
+                           <item>Avoid administration of more than one NSAID at a time</item>
+                           <item>Avoid use in patients at higher risk unless benefits are expected to outweigh the increased risk of bleeding. For such patients, as well as those with active GI bleeding, consider alternate therapies other than NSAIDs.</item>
+                           <item>Remain alert for signs and symptoms of GI ulceration and bleeding during NSAID therapy.</item>
+                           <item>If a serious GI adverse event is suspected, promptly initiate evaluation and treatment, and discontinue diclofenac sodium delayed-release tablets until a serious GI adverse event is ruled out.</item>
+                           <item>In the setting of concomitant use of low-dose aspirin for cardiac prophylaxis, monitor patients more closely for evidence of GI bleeding (see <content styleCode="bold">
+                                 <linkHtml href="#S_6.5">PRECAUTIONS: Drug Interactions</linkHtml>
+                              </content>).</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_5.3">
+                     <id root="f952203b-7913-410d-b50b-2d3ead3ffa4f"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Hepatotoxicity</title>
+                     <text>
+                        <paragraph>In clinical trials of diclofenac- containing products, meaningful elevations (i.e., more than 3 times the ULN) of AST (SGOT) were observed in about 2% of approximately 5,700 patients at some time during diclofenac treatment (ALT was not measured in allstudies).</paragraph>
+                        <paragraph>In a large, open-label, controlled trial of 3,700 patients treated with oral diclofenac sodium for 2 to 6 months, patients were monitored first at 8 weeks and 1,200 patients were monitored again at 24 weeks. Meaningful elevations of ALT and/or AST occurred in about 4% of patients and included marked elevations (greater than 8 times the ULN) in about 1% of the 3,700 patients. In that open-label study, a higher incidence of borderline (less than 3 times the ULN), moderate (3 to 8 times the ULN), and marked (greater than 8 times the ULN) elevations of ALT or AST was observed in patients receiving diclofenac when compared to other NSAIDs. Elevations in transaminases were seen more frequently in patients with osteoarthritis than in those with rheumatoid arthritis.</paragraph>
+                        <paragraph>Almost all meaningful elevations in transaminases were detected before patients became symptomatic. Abnormal tests occurred during the first 2 months of therapy with diclofenac in 42 of the 51 patients in all trials who developed marked transaminase elevations.</paragraph>
+                        <paragraph>In postmarketing reports, cases of drug-induced hepatotoxicity have been reported in the first month, and in some cases, the first 2 months of therapy, but can occur at any time during treatment with diclofenac. Postmarketing surveillance has reported cases of severe hepatic reactions, including liver necrosis, jaundice, fulminant hepatitis with and without jaundice, and liver failure. Some of these reported cases resulted in fatalities or liver transplantation.</paragraph>
+                        <paragraph>In a European retrospective population-based, case-controlled study, 10 cases of diclofenac associated drug-induced liver injury with current use compared with non-use of diclofenac were associated with a statistically significant 4-fold adjusted odds ratio of liver injury. In this particular study, based on an overall number of 10 cases of liver injury associated with diclofenac, the adjusted odds ratio increased further with female gender, doses of 150 mg or more, and duration of use for more than 90 days.</paragraph>
+                        <paragraph>Physicians should measure transaminases at baseline and periodically in patients receiving long-term therapy with diclofenac, because severe hepatotoxicity may develop without a prodrome of distinguishing symptoms. The optimum times for making the first and subsequent transaminase measurements are not known. Based on clinical trial data and postmarketing experiences, transaminases should be monitored within 4 to 8 weeks after initiating treatment with diclofenac. However, severe hepatic reactions can occur at any time during treatment with diclofenac.<br/>If abnormal liver tests persist or worsen, if clinical signs and/or symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, abdominal pain, diarrhea, dark urine, etc.), diclofenac sodium delayed-release tablets should be discontinued immediately.</paragraph>
+                        <paragraph>Inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, diarrhea, pruritus, jaundice, right upper quadrant tenderness, and “flu-like” symptoms). If clinical signs and symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, etc.), discontinue diclofenac sodium delayed-release tablets immediately, and perform a clinical evaluation of the patient.</paragraph>
+                        <paragraph>To minimize the potential risk for an adverse liver related event in patients treated with diclofenac sodium delayed-release tablets, use the lowest effective dose for the shortest duration possible. Exercise caution when prescribing diclofenac sodium delayed-release tablets with concomitant drugs that are known to be potentially hepatotoxic (e.g., acetaminophen, antibiotics, anti-epileptics).</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_5.4">
+                     <id root="849867c7-7468-4123-bd81-fa2bc501d9e5"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Hypertension</title>
+                     <text>
+                        <paragraph>NSAIDs, including diclofenac sodium delayed-release tablets, can lead to new onset of hypertension or worsening of preexisting hypertension, either of which may contribute to the increased incidence of CV events. Patients taking angiotensin converting enzyme (ACE) inhibitors, thiazides diuretics, or loop diuretics may have impaired response to these therapies when taking NSAIDs (see <content styleCode="bold">
+                              <linkHtml href="#S_6.5">PRECAUTIONS: Drug Interactions</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Monitor blood pressure (BP) during the initiation of NSAID treatment and throughout the course of therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_5.5">
+                     <id root="1a89bf5e-69b8-496a-bef3-499d85492b39"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Heart Failure and Edema</title>
+                     <text>
+                        <paragraph>The Coxib and traditional NSAID Trialists’ Collaboration meta-analysis of randomized controlled trials demonstrated an approximately two-fold increase in hospitalization for heart failure in COX-2 selective-treated patients and nonselective NSAID-treated patients compared to placebo-treated patients. In a Danish National Registry study of patients with heart failure, NSAID use increased the risk of MI, hospitalization for heart failure, and death.</paragraph>
+                        <paragraph>Additionally, fluid retention and edema have been observed in some patients treated with NSAIDs. Use of diclofenac may blunt the CV effects of several therapeutic agents used to treat these medical conditions (e.g., diuretics, ACE inhibitors, or angiotensin receptor blockers [ARBs]) (see <content styleCode="bold">
+                              <linkHtml href="#S_6.5">PRECAUTIONS: Drug Interactions</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Avoid the use of diclofenac in patients with severe heart failure unless the benefits are expected to outweigh the risk of worsening heart failure. If diclofenac is used in patients with severe heart failure, monitor patients for signs of worsening heart failure.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_5.6">
+                     <id root="fa0152bd-527f-4127-a1e6-dd79bc037ac9"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Renal Toxicity and Hyperkalemia</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Renal Toxicity</content>
+                        </paragraph>
+                        <paragraph>Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury.<br/>Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of an NSAID may cause a dose-dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greatest risk of this reaction are those with impaired renal function, dehydration, hypovolemia, heart failure, liver dysfunction, those taking diuretics and ACE inhibitors or ARBs, and the elderly. Discontinuation of NSAID therapy is usually followed by recovery to the pretreatment state.</paragraph>
+                        <paragraph>No information is available from controlled clinical studies regarding the use of diclofenac sodium delayed-release tablets in patients with advanced renal disease. The renal effects of diclofenac sodium delayed-release tablets may hasten the progression of renal dysfunction in patients with pre-existing renal disease.</paragraph>
+                        <paragraph>Correct volume status in dehydrated or hypovolemic patients prior to initiating diclofenac sodium delayed-release tablets. Monitor renal function in patients with renal or hepatic impairment, heart failure, dehydration, or hypovolemia during use of diclofenac sodium delayed-release tablets (see <content styleCode="bold">
+                              <linkHtml href="#S_6.5">PRECAUTIONS: Drug Interactions</linkHtml>
+                           </content>).Avoid the use of diclofenac sodium delayed-release tablets in patients with advanced renal disease unless the benefits are expected to outweigh the risk of worsening renal function. If diclofenac sodium delayed-release tablets are used in patients with advanced renal disease, monitor patients for signs of worsening renal function.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hyperkalemia</content>
+                        </paragraph>
+                        <paragraph>Increases in serum potassium concentration, including hyperkalemia, have been reported with use of NSAIDs, even in some patients without renal impairment. In patients with normal renal function, these effects have been attributed to a hyporeninemic-hypoaldosteronism state.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_5.7">
+                     <id root="02a3bd57-19a0-4523-9039-84bf770e8e14"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Anaphylactic Reactions</title>
+                     <text>
+                        <paragraph>Diclofenac has been associated with anaphylactic reactions in patients with and without known hypersensitivity to diclofenac and in patients with aspirin-sensitive asthma (see <content styleCode="bold">
+                              <linkHtml href="#S_4">CONTRAINDICATIONS</linkHtml>
+                           </content>, <content styleCode="bold">
+                              <linkHtml href="#S_5.8">WARNINGS: Exacerbation of Asthma Related to Aspirin Sensitivity</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_5.8">
+                     <id root="528502bb-c5f6-4a30-b86b-4d1827145a38"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Exacerbation of Asthma Related to Aspirin Sensitivity</title>
+                     <text>
+                        <paragraph>A subpopulation of patients with asthma may have aspirin-sensitive asthma which may include chronic rhinosinusitis complicated by nasal polyps; severe, potentially fatal bronchospasm; and/or intolerance to aspirin and other NSAIDs. Because cross-reactivity between aspirin and other NSAIDs has been reported in such aspirin-sensitive patients, diclofenac sodium delayed-release tablets are contraindicated in patients with this form of aspirin sensitivity (see <content styleCode="bold">
+                              <linkHtml href="#S_4">CONTRAINDICATIONS</linkHtml>
+                           </content>). When diclofenac sodium delayed-release tablets are used in patients with preexisting asthma (without known aspirin sensitivity), monitor patients for changes in the signs and symptoms of asthma.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_5.9">
+                     <id root="c690fbd8-7d22-4356-a384-d4e0a8922c55"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Serious Skin Reactions</title>
+                     <text>
+                        <paragraph>NSAIDs, including diclofenac, can cause serious skin adverse reactions such as exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. These serious events may occur without warning. Inform patients about the signs and symptoms of serious skin reactions and to discontinue the use of diclofenac sodium delayed-release tablets at the first appearance of skin rash or any other sign of hypersensitivity. Diclofenac sodium delayed-release tablets are contraindicated in patients with previous serious skin reactions to NSAIDs (see <content styleCode="bold">
+                              <linkHtml href="#S_4">CONTRAINDICATIONS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_5.10">
+                     <id root="1a6ec3ab-4673-4deb-853f-78994b7d1dd9"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Premature Closure of Fetal Ductus Arteriosus</title>
+                     <text>
+                        <paragraph>Diclofenac may cause premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs, including diclofenac sodium delayed-release tablets, in pregnant women starting at 30 weeks of gestation (third trimester) (see <content styleCode="bold">
+                              <linkHtml href="#S_6.7">PRECAUTIONS: Pregnancy</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_5.11">
+                     <id root="57740899-3752-4773-92a9-ac3679d2f0a3"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Hematologic Toxicity</title>
+                     <text>
+                        <paragraph>Anemia has occurred in NSAID-treated patients. This may be due to occult or gross blood loss, fluid retention, or an incompletely described effect on erythropoiesis. If a patient treated with diclofenac sodium delayed-release tablets, has any signs or symptoms of anemia, monitor hemoglobin or hematocrit.</paragraph>
+                        <paragraph>NSAIDs, including diclofenac sodium delayed-release tablets, may increase the risk of bleeding events. Co-morbid conditions such as coagulation disorders, concomitant use of warfarin, other anticoagulants, antiplatelet agents (e.g., aspirin), serotonin reuptake inhibitors (SSRIs) and serotonin norepinephrine reuptake inhibitors (SNRIs) may increase this risk. Monitor these patients for signs of bleeding (see <content styleCode="bold">
+                              <linkHtml href="#S_6.5">PRECAUTIONS: Drug Interactions</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S_6">
+               <id root="58d594c8-c892-4e4d-a396-95cc1ff33907"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20191212"/>
+               <component>
+                  <section ID="S_6.1">
+                     <id root="b16c0cb3-1179-4bd4-8161-452c0e33710b"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Diclofenac sodium delayed-release tablets, cannot be expected to substitute for corticosteroids or to treat corticosteroid insufficiency. Abrupt discontinuation of corticosteroids may lead to disease exacerbation. Patients on prolonged corticosteroid therapy should have their therapy tapered slowly if a decision is made to discontinue corticosteroids and the patient should be observed closely for any evidence of adverse effects, including adrenal insufficiency and exacerbation of symptoms of arthritis.</paragraph>
+                        <paragraph>The pharmacological activity of diclofenac sodium delayed-release tablets in reducing fever and inflammation may diminish the utility of these diagnostic signs in detecting complications of presumed noninfectious, painful conditions.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_6.2">
+                     <id root="f60275eb-20e9-4c6f-9ae7-fc44f1c046ad"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Advise the patient to read the FDA-approved patient labeling (Medication Guide) that accompanies each prescription dispensed. Inform patients, families, or their caregivers of the following information before initiating therapy with diclofenac sodium delayed-release tablets and periodically during the course of ongoing therapy.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Cardiovascular Thrombotic Events</content>
+                        </paragraph>
+                        <paragraph>Advise patients to be alert for the symptoms of cardiovascular thrombotic events, including chest pain, shortness of breath, weakness, or slurring of speech, and to report any of these symptoms to their healthcare provider immediately (see <content styleCode="bold">
+                              <linkHtml href="#S_5.1">WARNINGS: Cardiovascular Thrombotic Events</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Gastrointestinal Bleeding, Ulceration, and Perforation</content>
+                        </paragraph>
+                        <paragraph>Advise patients to report symptoms of ulcerations and bleeding, including epigastric pain, dyspepsia, melena, and hematemesis to their health care provider. In the setting of concomitant use of low-dose aspirin for cardiac prophylaxis, inform patients of the increased risk for the signs and symptoms of GI bleeding (see <content styleCode="bold">
+                              <linkHtml href="#S_5.2">WARNINGS: Gastrointestinal Bleeding, Ulceration, and Perforation</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hepatotoxicity</content>
+                        </paragraph>
+                        <paragraph>Inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, diarrhea, jaundice, right upper quadrant tenderness, and “flu-like” symptoms). If these occur, instruct patients to stop diclofenac sodium delayed-release tablets and seek immediate medical therapy (see <content styleCode="bold">
+                              <linkHtml href="#S_5.3">WARNINGS: Hepatotoxicity</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Heart Failure and Edema</content>
+                        </paragraph>
+                        <paragraph>Advise patients to be alert for the symptoms of congestive heart failure including shortness of breath, unexplained weight gain, or edema and to contact their healthcare provider if such symptoms occur (see <content styleCode="bold">
+                              <linkHtml href="#S_5.5">WARNINGS: Heart Failure and Edema</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Anaphylactic Reactions</content>
+                        </paragraph>
+                        <paragraph>Inform patients of the signs of an anaphylactic reaction (e.g., difficulty breathing, swelling of the face or throat). Instruct patients to seek immediate emergency help if these occur (see <content styleCode="bold">
+                              <linkHtml href="#S_5.7">WARNINGS: Anaphylactic Reactions</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Serious Skin Reactions</content>
+                        </paragraph>
+                        <paragraph>Advise patients to stop diclofenac sodium delayed-release tablets immediately if they develop any type of rash and contact their healthcare provider as soon as possible (see <content styleCode="bold">
+                              <linkHtml href="#S_5.9">WARNINGS: Serious Skin Reactions</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Female Fertility</content>
+                        </paragraph>
+                        <paragraph>Advise females of reproductive potential who desire pregnancy that NSAIDs, including diclofenac sodium delayed-release tablets, may be associated with a reversible delay in ovulation (see <content styleCode="bold">
+                              <linkHtml href="#S_6.6">PRECAUTIONS: Carcinogenesis, Mutagenesis, Impairment of Fertility</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Fetal Toxicity</content>
+                        </paragraph>
+                        <paragraph>Inform pregnant women to avoid use of diclofenac sodium delayed-release tablets and other NSAIDs, starting at 30 weeks gestation because of the risk of the premature closure of the fetal ductus arteriosus (see <content styleCode="bold">
+                              <linkHtml href="#S_5.10">WARNINGS: Premature Closure of Fetal Ductus Arteriosus</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Avoid Concomitant Use of NSAIDs</content>
+                        </paragraph>
+                        <paragraph>Inform patients that the concomitant use of diclofenac sodium delayed-release tablets with other NSAIDs or salicylates (e.g., diflunisal, salsalate) is not recommended due to the increased risk of gastrointestinal toxicity, and little or no increase in efficacy (see <content styleCode="bold">
+                              <linkHtml href="#S_5.2">WARNINGS: Gastrointestinal Bleeding, Ulceration, and Perforation</linkHtml>
+                           </content>and <content styleCode="bold">
+                              <linkHtml href="#S_6.5">Drug Interactions</linkHtml>
+                           </content>). Alert patients that NSAIDs may be present in “over the counter” medications for treatment of colds, fever, or insomnia.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Use of NSAIDS and Low-Dose Aspirin</content>
+                        </paragraph>
+                        <paragraph>Inform patients not to use low-dose aspirin concomitantly with diclofenac sodium delayed-release tablets until they talk to their healthcare provider (see <content styleCode="bold">
+                              <linkHtml href="#S_6.5">PRECAUTIONS: Drug Interactions</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_6.3">
+                     <id root="0cfae7a9-1046-44b9-9e06-a7024ab674cb"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Masking of Inflammation and Fever</title>
+                     <text>
+                        <paragraph>The pharmacological activity of diclofenac sodium delayed-release tablets in reducing inflammation, and possibly fever, may diminish the utility of diagnostic signs in detecting infections.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_6.4">
+                     <id root="0031aa5e-5406-408a-96b4-9b47323ba48c"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Laboratory Monitoring</title>
+                     <text>
+                        <paragraph>Because serious GI bleeding, hepatotoxicity, and renal injury can occur without warning symptoms or signs, consider monitoring patients on long-term NSAID treatment with a CBC and a chemistry profile periodically (see <content styleCode="bold">
+                              <linkHtml href="#S_5.2">WARNINGS: Gastrointestinal Bleeding, Ulceration, and Perforation</linkHtml>
+                           </content>, and <content styleCode="bold">
+                              <linkHtml href="#S_5.3">Hepatotoxicity</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_6.5">
+                     <id root="19c3a83e-6cce-45d4-9324-e6f9a576ffe6"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>See Table 2 for clinically significant drug interactions with diclofenac.</paragraph>
+                        <table cellspacing="0" cellpadding="0" border="0" width="770">
+                           <caption>Table 2. Clinically Significant Drug Interactions with Diclofenac 
+			</caption>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" valign="middle">Drugs That Interfere with Hemostasis</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Clinical Impact:</td>
+                                 <td styleCode="Rrule" valign="middle">
+                                    <list listType="unordered" styleCode="disc">
+                                       <item>Diclofenac and anticoagulants such as warfarin have a synergistic effect on bleeding. The concomitant use of diclofenac and anticoagulants have an increased risk of serious bleeding compared to the use of either drug alone.</item>
+                                       <item>Serotonin release by platelets plays an important role in hemostasis. Case-control and cohort epidemiological studies showed that concomitant use of drugs that interfere with serotonin reuptake and an NSAID may potentiate the risk of bleeding more than an NSAID alone.</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Intervention:</td>
+                                 <td styleCode="Rrule" valign="middle">Monitor patients with concomitant use of diclofenac sodium delayed-release tablets with anticoagulants (e.g., warfarin), antiplatelet agents (e.g., aspirin), selective serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) for signs of bleeding (see <content styleCode="bold">
+                                       <linkHtml href="#S_5.11">WARNINGS: Hematologic Toxicity</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" valign="middle">Aspirin</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Clinical Impact:</td>
+                                 <td styleCode="Rrule" valign="middle">Controlled clinical studies showed that the concomitant use of NSAIDs and analgesic doses of aspirin does not produce any greater therapeutic effect than the use of NSAIDs alone. In a clinical study, the concomitant use of an NSAID and aspirin was associated with a significantly increased incidence of GI adverse reactions as compared to use of the NSAID alone (see <content styleCode="bold">
+                                       <linkHtml href="#S_5.2">WARNINGS: Gastrointestinal Bleeding, Ulceration, and Perforation</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Intervention:</td>
+                                 <td styleCode="Rrule" valign="middle">Concomitant use of diclofenac sodium delayed-release tablets and analgesic doses of aspirin is not generally recommended because of the increased risk of bleeding (see <content styleCode="bold">
+                                       <linkHtml href="#S_5.11">WARNINGS: Hematologic Toxicity</linkHtml>
+                                    </content>).<br/>Diclofenac sodium delayed-release tablets are not a substitute for low dose aspirin for cardiovascular protection.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" valign="middle">ACE Inhibitors, Angiotensin Receptor Blockers, and Beta-Blockers</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Clinical Impact:</td>
+                                 <td styleCode="Rrule" valign="middle">
+                                    <list listType="unordered" styleCode="disc">
+                                       <item>NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), or beta-blockers (including propranolol).</item>
+                                       <item>In patients who are elderly, volume-depleted (including those on diuretic therapy), or have renal impairment, co-administration of an NSAID with ACE inhibitors or ARBs may result in deterioration of renal function, including possible acute renal failure. These effects are usually reversible.</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Intervention:</td>
+                                 <td styleCode="Rrule" valign="middle">
+                                    <list listType="unordered" styleCode="disc">
+                                       <item>During concomitant use of diclofenac sodium delayed-release tablets and ACE-inhibitors, ARBs, or beta- blockers, monitor blood pressure to ensure that the desired blood pressure is obtained.</item>
+                                       <item>During concomitant use of diclofenac sodium delayed-release tablets and ACE-inhibitors or ARBs in patients who are elderly, volume-depleted, or have impaired renal function, monitor for signs of worsening renal function (see <content styleCode="bold">
+                                             <linkHtml href="#S_5.6">WARNINGS: Renal Toxicity and Hyperkalemia</linkHtml>
+                                          </content>).</item>
+                                       <item>When these drugs are administered concomitantly, patients should be adequately hydrated. Assess renal function at the beginning of the concomitant treatment and periodically thereafter.</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" valign="middle">Diuretics</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Clinical Impact:</td>
+                                 <td styleCode="Rrule" valign="middle">Clinical studies, as well as post-marketing observations, showed that NSAIDs reduced the natriuretic effect of loop diuretics (e.g., furosemide) and thiazide diuretics in some patients. This effect has been attributed to the NSAID inhibition of renal prostaglandin synthesis.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Intervention:</td>
+                                 <td styleCode="Rrule" valign="middle">During concomitant use of diclofenac sodium delayed-release tablets with diuretics, observe patients for signs of worsening renal function, in addition to assuring diuretic efficacy including antihypertensive effects (see  <content styleCode="bold">
+                                       <linkHtml href="#S_5.6">WARNINGS: Renal Toxicity and Hyperkalemia</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" valign="middle">Digoxin</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Clinical Impact:</td>
+                                 <td styleCode="Rrule" valign="middle">The concomitant use of diclofenac with digoxin has been reported to increase the serum concentration and prolong the half-life of digoxin.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Intervention:</td>
+                                 <td styleCode="Rrule" valign="middle">During concomitant use of diclofenac sodium delayed-release tablets and digoxin, monitor serum digoxin levels.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" valign="middle">Lithium</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Clinical Impact:</td>
+                                 <td styleCode="Rrule" valign="middle">NSAIDs have produced elevations in plasma lithium levels and reductions in renal lithium clearance. The mean minimum lithium concentration increased 15%, and the renal clearance decreased by approximately 20%. This effect has been attributed to NSAID inhibition of renal prostaglandin synthesis.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Intervention:</td>
+                                 <td styleCode="Rrule" valign="middle">During concomitant use of diclofenac sodium delayed-release tablets and lithium, monitor patients for signs of lithium toxicity.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" valign="middle">Methotrexate</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Clinical Impact:</td>
+                                 <td styleCode="Rrule" valign="middle">Concomitant use of NSAIDs and methotrexate may increase the risk for methotrexate toxicity (e.g., neutropenia, thrombocytopenia, renal dysfunction).</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Intervention:</td>
+                                 <td styleCode="Rrule" valign="middle">During concomitant use of diclofenac sodium delayed-release tablets and methotrexate, monitor patients for methotrexate toxicity.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" valign="middle">Cyclosporine</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Clinical Impact:</td>
+                                 <td styleCode="Rrule" valign="middle">Concomitant use of diclofenac sodium delayed-release tablets and cyclosporine may increase cyclosporine’s nephrotoxicity.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Intervention:</td>
+                                 <td styleCode="Rrule" valign="middle">During concomitant use of diclofenac sodium delayed-release tablets and cyclosporine, monitor patients for signs of worsening renal function.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" valign="middle">NSAIDs and Salicylates</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Clinical Impact:</td>
+                                 <td styleCode="Rrule" valign="middle">Concomitant use of diclofenac with other NSAIDs or salicylates (e.g., diflunisal, salsalate) increases the risk of GI toxicity, with little or no increase in efficacy (see <content styleCode="bold">
+                                       <linkHtml href="#S_5.2">WARNINGS: Gastrointestinal Bleeding, Ulceration, and Perforation</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Intervention:</td>
+                                 <td styleCode="Rrule" valign="middle">The concomitant use of diclofenac with other NSAIDs or salicylates is not recommended.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" valign="middle">Pemetrexed</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Clinical Impact:</td>
+                                 <td styleCode="Rrule" valign="middle">Concomitant use of diclofenac sodium delayed-release tablets and pemetrexed may increase the risk of pemetrexed- associated myelosuppression, renal, and GI toxicity (see the pemetrexed prescribing information).</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Intervention:</td>
+                                 <td styleCode="Rrule" valign="middle">During concomitant use of diclofenac sodium delayed-release tablets and pemetrexed, in patients with renal impairment whose creatinine clearance ranges from 45 to 79 mL/min, monitor for myelosuppression, renal and GI toxicity.<br/>NSAIDs with short elimination half-lives (e.g., diclofenac, indomethacin) should be avoided for a period of two days before, the day of, and two days following administration of pemetrexed. In the absence of data regarding potential interaction between pemetrexed and NSAIDs with longer half-lives (e.g., meloxicam, nabumetone), patients taking these NSAIDs should interrupt dosing for at least five days before, the day of, and two days following pemetrexed administration.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" valign="middle">CYP2C9 Inhibitors or Inducers:</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="middle">Clinical Impact:</td>
+                                 <td styleCode="Rrule" valign="middle">Diclofenac is metabolized by cytochrome P450 enzymes, predominantly by CYP2C9. Co-administration of diclofenac with CYP2C9 inhibitors (e.g. voriconazole) may enhance the exposure and toxicity of diclofenac whereas co-administration with CYP2C9 inducers (e.g. rifampin) may lead to compromised efficacy of diclofenac.</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" valign="middle">Intervention:</td>
+                                 <td styleCode="Rrule" valign="middle">A dosage adjustment may be warranted when diclofenac is administered with CYP2C9 inhibitors or inducers (see <content styleCode="bold">
+                                       <linkHtml href="#S_2.2">CLINICAL PHARMACOLOGY: Pharmacokinetics</linkHtml>
+                                    </content>).</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_6.6">
+                     <id root="35f35651-b6c5-4e19-8621-068106391bd5"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Carcinogenesis</content>
+                        </paragraph>
+                        <paragraph>Long-term carcinogenicity studies in rats given diclofenac sodium up to 2 mg/kg/day (approximately 0.1 times maximum recommended human dose (MRHD) of diclofenac sodium delayed-release tablets, 200 mg/day, based on body surface area (BSA) comparison ) have revealed no significant increases in tumor incidence. A 2-year carcinogenicity study conducted in mice employing diclofenac sodium at doses up to 0.3 mg/kg/day (approximately 0.007 times the MRHD based on BSA comparison) in males and 1 mg/kg/day (approximately 0.02 times the MRHD based on BSA comparison) in females did not reveal any oncogenic potential.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Mutagenesis</content>
+                        </paragraph>
+                        <paragraph>Diclofenac sodium did not show mutagenic activity in <content styleCode="italics">in vitro</content> point mutation assays in mammalian (mouse lymphoma) and microbial (yeast, Ames) test systems and was nonmutagenic in several mammalian <content styleCode="italics">in vitro</content> and <content styleCode="italics">in vivo</content> tests, including dominant lethal and male germinal epithelial chromosomal studies in mice, and nucleus anomaly and chromosomal aberration studies in Chinese hamsters.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Impairment of Fertility</content>
+                        </paragraph>
+                        <paragraph>Diclofenac sodium administered to male and female rats at 4 mg/kg/day (approximately 0.2 times the MRHD based on BSA comparison) did not affect fertility.</paragraph>
+                        <paragraph>Based on the mechanism of action, the use of prostaglandin-mediated NSAIDs, including diclofenac sodium delayed-release tablets, may delay or prevent rupture of ovarian follicles, which has been associated with reversible infertility in some women. Published animal studies have shown that administration of prostaglandin synthesis inhibitors has the potential to disrupt prostaglandin-mediated follicular rupture required for ovulation. Small studies in women treated with NSAIDs have also shown a reversible delay in ovulation. Consider withdrawal of NSAIDs, including diclofenac sodium delayed-release tablets, in women who have difficulties conceiving or who are undergoing investigation of infertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_6.7">
+                     <id root="2a736d06-5611-4854-9253-e74101cf7e54"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Use of NSAIDs, including diclofenac sodium delayed-release tablets, during the third trimester of pregnancy increases the risk of premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs, including diclofenac sodium delayed-release tablets, in pregnant women starting at 30 weeks of gestation (third trimester) (see <content styleCode="bold">
+                              <linkHtml href="#S_5.10">WARNINGS: Premature Closure of Fetal Ductus Arterious</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>There are no adequate and well-controlled studies of diclofenac sodium delayed-release tablets in pregnant women. Data from observational studies regarding potential embryofetal risks of NSAID use in women in the first or second trimesters of pregnancy are inconclusive. In the general U.S. population, all clinically recognized pregnancies, regardless of drug exposure, have a background rate of 2 to 4% for major malformations, and 15 to 20% for pregnancy loss. In animal reproduction studies, no evidence of teratogenicity was observed in mice, rats, or rabbits given diclofenac during the period of organogenesis at doses up to approximately 0.5, 0.5, and 1 times, respectively, the maximum recommended human dose (MRHD) of diclofenac sodium delayed-release tablets, 200 mg/day, despite the presence of maternal and fetal toxicity at these doses <content styleCode="italics">[see Data].</content>
+                        </paragraph>
+                        <paragraph>Based on animal data, prostaglandins have been shown to have an important role in endometrial vascular permeability, blastocyst implantation, and decidualization. In animal studies, administration of prostaglandin synthesis inhibitors such as diclofenac, resulted in increased pre- and post-implantation loss.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Reproductive and developmental studies in animals demonstrated that diclofenac sodium administration during organogenesis did not produce teratogenicity despite the induction of maternal toxicity and fetal toxicity in mice at oral doses up to 20 mg/kg/day (approximately 0.5 times the maximum recommended human dose [MRHD] of diclofenac sodium delayed-release tablets, 200 mg/day, based on body surface area (BSA) comparison), and in rats and rabbits at oral doses up to 10 mg/kg/day (approximately 0.5 and 1 times, respectively, the MRHD based on BSA comparison). In a study in which pregnant rats were orally administered 2 or 4 mg/kg diclofenac (0.1 and 0.2 times the MRHD based on BSA) from Gestation Day 15 through Lactation Day 21, significant maternal toxicity (peritonitis, mortality) was noted. These maternally toxic doses were associated with dystocia, prolonged gestation, reduced fetal weights and growth, and reduced fetal survival. Diclofenac has been shown to cross the placental barrier in mice, rats, and humans.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_6.8">
+                     <id root="54f33241-319f-491d-9217-5d1942280861"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Labor or Delivery</title>
+                     <text>
+                        <paragraph>There are no studies on the effects of diclofenac sodium delayed-release tablets during labor or delivery. In animal studies, NSAIDS, including diclofenac, inhibit prostaglandin synthesis, cause delayed parturition, and increase the incidence of stillbirth.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_6.9">
+                     <id root="abcd27b7-0ddd-468d-9f7b-24ecca3014be"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Based on available data, diclofenac may be present in human milk. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for diclofenac sodium delayed-release tablets and any potential adverse effects on the breastfed infant from the diclofenac sodium delayed-release tablets or from the underlying maternalcondition.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>One woman treated orally with a diclofenac salt, 150 mg/day, had a milk diclofenac level of 100 mcg/L, equivalent to an infant dose of about 0.03 mg/kg/day. Diclofenac was not detectable in breast milk in 12 women using diclofenac (after either 100 mg/day orally for 7 days or a single 50 mg intramuscular dose administered in the immediate postpartum period).</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_7">
+                     <id root="a3723982-bcda-43d0-aea7-e3fb35cae00a"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S_7.1">
+                     <id root="3ee37a78-3551-4a63-87c1-aeeea398ab0c"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Elderly patients, compared to younger patients, are at greater risk for NSAID-associated serious cardiovascular, gastrointestinal, and/or renal adverse reactions. If the anticipated benefit for the elderly patient outweighs these potential risks, start dosing at the low end of the dosing range, and monitor patients for adverse effects (see <content styleCode="bold">
+                              <linkHtml href="#S_5.1">WARNINGS: Cardiovascular Thrombotic Events</linkHtml>
+                           </content>, <content styleCode="bold">
+                              <linkHtml href="#S_5.2">Gastrointestinal Bleeding, Ulceration, and Perforation</linkHtml>
+                           </content>, <content styleCode="bold">
+                              <linkHtml href="#S_5.3">Hepatotoxicity</linkHtml>
+                           </content>, <content styleCode="bold">
+                              <linkHtml href="#S_5.6">Renal Toxicity and Hyperkalemia</linkHtml>
+                           </content>, <content styleCode="bold">
+                              <linkHtml href="#S_6.4">PRECAUTIONS: Laboratory Monitoring</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Diclofenac is known to be substantially excreted by the kidney, and the risk of adverse reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function (see <content styleCode="bold">
+                              <linkHtml href="#S_2">CLINICAL PHARMACOLOGY</linkHtml>
+                           </content>, <content styleCode="bold">
+                              <linkHtml href="#S_8">ADVERSE REACTIONS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S_8">
+               <id root="d709c93e-ffb5-43a5-8f69-0127b5833ed0"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions are discussed in greater detail in other sections of the labeling:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Cardiovascular Thrombotic Events (see <content styleCode="bold">
+                           <linkHtml href="#S_5.1">WARNINGS</linkHtml>
+                        </content>)</item>
+                     <item>GI Bleeding, Ulceration and Perforation (see <content styleCode="bold">
+                           <linkHtml href="#S_5.2">WARNINGS</linkHtml>
+                        </content>)</item>
+                     <item>Hepatotoxicity (see <content styleCode="bold">
+                           <linkHtml href="#S_5.3">WARNINGS</linkHtml>
+                        </content>)</item>
+                     <item>Hypertension (see <content styleCode="bold">
+                           <linkHtml href="#S_5.4">WARNINGS</linkHtml>
+                        </content>)</item>
+                     <item>Heart Failure and Edema (see <content styleCode="bold">
+                           <linkHtml href="#S_5.5">WARNINGS</linkHtml>
+                        </content>)</item>
+                     <item>Renal Toxicity and Hyperkalemia (see <content styleCode="bold">
+                           <linkHtml href="#S_5.6">WARNINGS</linkHtml>
+                        </content>)</item>
+                     <item>Anaphylactic Reactions (see <content styleCode="bold">
+                           <linkHtml href="#S_5.7">WARNINGS</linkHtml>
+                        </content>)</item>
+                     <item>Serious Skin Reactions (see <content styleCode="bold">
+                           <linkHtml href="#S_5.9">WARNINGS</linkHtml>
+                        </content>)</item>
+                     <item>Hematologic Toxicity (see <content styleCode="bold">
+                           <linkHtml href="#S_5.11">WARNINGS</linkHtml>
+                        </content>)</item>
+                  </list>
+               </text>
+               <effectiveTime value="20191212"/>
+               <component>
+                  <section ID="S_8.1">
+                     <id root="ca05e92e-01ba-4d28-9ad6-44887e8e56a6"/>
+                     <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+                     <title>Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>In patients taking diclofenac sodium delayed-release tablets, or other NSAIDs, the most frequently reported adverse experiences occurring in approximately 1% to 10% of patients are:</paragraph>
+                        <paragraph>Gastrointestinal experiences including: abdominal pain, constipation, diarrhea, dyspepsia, flatulence, gross bleeding/perforation, heartburn, nausea, GI ulcers (gastric/duodenal) and vomiting.</paragraph>
+                        <paragraph>Abnormal renal function, anemia, dizziness, edema, elevated liver enzymes, headaches, increased bleeding time, pruritus, rashes and tinnitus.</paragraph>
+                        <paragraph>Additional adverse experiences reported occasionally include:</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Body as a Whole</content>
+                           <br/> fever, infection, sepsis </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cardiovascular System <br/>
+                           </content>congestive heart failure, hypertension, tachycardia, syncope </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Digestive System <br/>
+                           </content>dry mouth, esophagitis, gastric/peptic ulcers, gastritis, gastrointestinal bleeding, glossitis, hematemesis, hepatitis, jaundice </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Hemic and Lymphatic System <br/>
+                           </content>ecchymosis, eosinophilia, leukopenia, melena, purpura, rectal bleeding, stomatitis, thrombocytopenia </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Metabolic and Nutritional <br/>
+                           </content>weight changes </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Nervous System<br/>
+                           </content>anxiety, asthenia, confusion, depression, dream abnormalities, drowsiness, insomnia, malaise, nervousness, paresthesia, somnolence, tremors, vertigo </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Respiratory System <br/>
+                           </content>asthma, dyspnea </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Skin and Appendages <br/>
+                           </content>alopecia, photosensitivity, sweating increased </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Special Senses <br/>
+                           </content>blurred vision </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Urogenital System <br/>
+                           </content>cystitis, dysuria, hematuria, interstitial nephritis, oliguria/polyuria, proteinuria, renal failure </paragraph>
+                        <paragraph>Other adverse reactions, which occur rarely are:</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Body as a Whole <br/>
+                           </content>anaphylactic reactions, appetite changes, death </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Cardiovascular System <br/>
+                           </content>arrhythmia, hypotension, myocardial infarction, palpitations, vasculitis </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Digestive System <br/>
+                           </content>colitis, eructation, fulminant hepatitis with and without jaundice, liver failure, liver necrosis, pancreatitis</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Hemic and Lymphatic System <br/>
+                           </content>agranulocytosis, hemolytic anemia, aplastic anemia, lymphadenopathy, pancytopenia </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Metabolic and Nutritional <br/>
+                           </content>hyperglycemia </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Nervous System <br/>
+                           </content>convulsions, coma, hallucinations, meningitis </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Respiratory System <br/>
+                           </content>respiratory depression, pneumonia </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Skin and Appendages <br/>
+                           </content>angioedema, toxic epidermal necrolysis, erythema multiforme, exfoliative dermatitis, Stevens-Johnson syndrome, urticaria </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Special Senses <br/>
+                           </content>conjunctivitis, hearing impairment</paragraph>
+                        <paragraph>To report <content styleCode="bold">SUSPECTED ADVERSE REACTIONS</content>, contact Rising Pharmaceuticals, Inc. at 1-866-562-4597 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+                     </text>
+                     <effectiveTime value="20191212"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S_9">
+               <id root="d7135cc4-ca2f-4fd5-a4b7-cbbab6813fe7"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Symptoms following acute NSAID overdosages have been typically limited to lethargy, drowsiness, nausea, vomiting, and epigastric pain, which have been generally reversible with supportive care. Gastrointestinal bleeding has occurred. Hypertension, acute renal failure, respiratory depression and coma have occurred, but were rare (see <content styleCode="bold">
+                        <linkHtml href="#S_5.1">WARNINGS: Cardiovascular Thrombotic Events</linkHtml>
+                     </content>, <content styleCode="bold">
+                        <linkHtml href="#S_5.2">Gastrointestinal Bleeding, Ulceration, and Perforation</linkHtml>
+                     </content>, <content styleCode="bold">
+                        <linkHtml href="#S_5.4">Hypertension</linkHtml>
+                     </content>, <content styleCode="bold">
+                        <linkHtml href="#S_5.6">Renal Toxicity and Hyperkalemia</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Manage patients with symptomatic and supportive care following an NSAID overdosage. There are no specific antidotes. Consider emesis and/or activated charcoal (60 to 100 grams in adults, 1 to 2 grams per kg of body weight in pediatric patients) and/or osmotic cathartic in symptomatic patients seen within four hours of ingestion or in patients with a large overdose (5 to 10 times the recommended dosage). Forced diuresis, alkalinization of urine, hemodialysis, or hemoperfusion may not be useful due to high protein binding.</paragraph>
+                  <paragraph>For additional information about overdosage treatment contact a poison control center (1-800-222‑1222).</paragraph>
+               </text>
+               <effectiveTime value="20191212"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S_9.1">
+               <id root="5dcbd2cf-4544-4ab2-837c-2100ccb94f36"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risks of diclofenac sodium delayed-release tablets and other treatment options before deciding to use diclofenac sodium delayed-release tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see <content styleCode="bold">
+                        <linkHtml href="#S_5.2">WARNINGS: Gastrointestinal Bleeding, Ulceration, and Perforation</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>After observing the response to initial therapy with diclofenac sodium delayed-release tablets, the dose and frequency should be adjusted to suit an individual patient’s needs.</paragraph>
+                  <paragraph>For the relief of osteoarthritis, the recommended dosage is 100 to 150 mg/day in divided doses (50 mg twice a day or three times a day, or 75 mg twice a day).</paragraph>
+                  <paragraph>For the relief of rheumatoid arthritis, the recommended dosage is 150 to 200 mg/day in divided doses (50 mg three times a day or four times a day, or 75 mg twice a day).</paragraph>
+                  <paragraph>For the relief of ankylosing spondylitis, the recommended dosage is 100 to 125 mg/day, administered as 25 mg four times a day, with an extra 25 mg dose at bedtime if necessary.</paragraph>
+                  <paragraph>Different formulations of diclofenac (diclofenac sodium enteric-coated tablets; diclofenac sodium extended-release tablets; diclofenac potassium immediate-release tablets) are not necessarily bioequivalent even if the milligram strength is the same.</paragraph>
+               </text>
+               <effectiveTime value="20191212"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S_10">
+               <id root="420f18ef-4052-4ac6-9465-9f726c26293a"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>75 mg: round, Light brown, enteric-coated tablets P 75 imprinted on one side in black ink and plain on the reverse side</paragraph>
+                  <paragraph/>
+                  <paragraph>Product: 71335-0456</paragraph>
+                  <paragraph>NDC: 71335-0456-0 40 TABLET, DELAYED RELEASE in a BOTTLE</paragraph>
+                  <paragraph>NDC: 71335-0456-1 28 TABLET, DELAYED RELEASE in a BOTTLE</paragraph>
+                  <paragraph>NDC: 71335-0456-2 60 TABLET, DELAYED RELEASE in a BOTTLE</paragraph>
+                  <paragraph>NDC: 71335-0456-3 20 TABLET, DELAYED RELEASE in a BOTTLE</paragraph>
+                  <paragraph>NDC: 71335-0456-4 30 TABLET, DELAYED RELEASE in a BOTTLE</paragraph>
+                  <paragraph>NDC: 71335-0456-5 120 TABLET, DELAYED RELEASE in a BOTTLE</paragraph>
+                  <paragraph>NDC: 71335-0456-6 90 TABLET, DELAYED RELEASE in a BOTTLE</paragraph>
+                  <paragraph>NDC: 71335-0456-7 100 TABLET, DELAYED RELEASE in a BOTTLE</paragraph>
+                  <paragraph>NDC: 71335-0456-8 15 TABLET, DELAYED RELEASE in a BOTTLE</paragraph>
+                  <paragraph>NDC: 71335-0456-9 14 TABLET, DELAYED RELEASE in a BOTTLE</paragraph>
+                  <paragraph>Repackaged/Relabeled by:<br/>Bryant Ranch Prepack, Inc.<br/>Burbank, CA 91504</paragraph>
+               </text>
+               <effectiveTime value="20231025"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S_11">
+               <id root="0ac98075-65ca-455b-9f04-08b28fbc6beb"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Diclofenac Sodium (dye kloe' fen ak soe' dee um) Delayed-release Tablets, USP </content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Medication Guide for Nonsteroidal Anti-inflammatory Drugs (NSAIDs)</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">NSAIDs can cause serious side effects, including:<br/>
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <br/>
+                  <list listType="unordered" styleCode="disc">
+                     <item>
+                        <content styleCode="bold">Increased risk of a heart attack or stroke that can lead to death.<br/>
+                        </content>This risk may happen early in treatment and may increase:     <list listType="unordered" styleCode="disc">
+                           <item>with increasing doses of NSAIDs</item>
+                           <item>with longer use of NSAIDs</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Do not take NSAIDs right before or after a heart surgery called a “coronary artery bypass graft (CABG).”</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Avoid taking NSAIDs after a recent heart attack, unless your healthcare provider tells you to. You may have an increased risk of another heart attack if you take NSAIDs after a recent heart attack.<br/>
+                     </content>
+                  </paragraph>
+                  <br/>
+                  <list listType="unordered" styleCode="disc">
+                     <item>
+                        <content styleCode="bold">Increased risk of bleeding, ulcers, and tears (perforation) of the esophagus (tube leading from the mouth to the stomach), stomach and intestines:</content>
+                        <list listType="unordered" styleCode="disc">
+                           <item>anytime during use</item>
+                           <item>without warning symptoms</item>
+                           <item>that may cause death</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">The risk of getting an ulcer or bleeding increases with:</content>
+                  </paragraph>
+                  <br/>
+                  <list listType="unordered" styleCode="disc">
+                     <item>past history of stomach ulcers, or stomach or intestinal bleeding with use of NSAIDs</item>
+                     <item>taking medicines called “corticosteroids”, “anticoagulants”, “SSRIs”, or “SNRIs”</item>
+                     <item>increasing doses of NSAIDs</item>
+                     <item>longer use of NSAIDs</item>
+                     <item>smoking</item>
+                     <item>drinking alcohol</item>
+                     <item>older age</item>
+                     <item>poor health</item>
+                     <item>advanced liver disease</item>
+                     <item>bleeding problems</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">NSAIDs should only be used:</content>
+                  </paragraph>
+                  <br/>
+                  <list listType="unordered" styleCode="disc">
+                     <item>exactly as prescribed</item>
+                     <item>at the lowest dose possible for your treatment</item>
+                     <item>for the shortest time needed</item>
+                  </list>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">What are NSAIDs?</content>
+                     <br/> NSAIDs are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as different types of arthritis, menstrual cramps, and other types of short-term pain.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Who should not take NSAIDs?<br/> Do not take NSAIDs:</content>
+                  </paragraph>
+                  <br/>
+                  <list listType="unordered" styleCode="disc">
+                     <item>if you had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAIDs.</item>
+                     <item>right before or after heart bypass surgery.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Before taking NSAIDs, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                  </paragraph>
+                  <br/>
+                  <list listType="unordered" styleCode="disc">
+                     <item>have liver or kidney problems</item>
+                     <item>have high blood pressure</item>
+                     <item>have asthma</item>
+                     <item>are pregnant or plan to become pregnant. Talk to your healthcare provivder if you are considering taking NSAIDs during pregnancy. <content styleCode="bold">You should not take NSAIDs after 29 weeks of pregnancy.</content>
+                     </item>
+                     <item>are breastfeeding or plan to breastfeed.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your healthcare provider about all of the medicines you take, including prescription or over-the-counter medicines, vitamins or herbal supplements.</content> NSAIDs and some other medicines can interact with each other and cause serious side effects. <content styleCode="bold">Do not start taking any new medicine without talking to your healthcare provider first.</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of NSAIDs?</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">NSAIDs can cause serious side effects, including:</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">See “What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?”</content>
+                  </paragraph>
+                  <br/>
+                  <list listType="unordered" styleCode="disc">
+                     <item>new or worse high blood pressure</item>
+                     <item>heart failure </item>
+                     <item>liver problems including liver failure</item>
+                     <item>kidney problems including kidney failure</item>
+                     <item>low red blood cells (anemia)</item>
+                     <item>life-threatening skin reactions</item>
+                     <item>life-threatening allergic reactions</item>
+                     <item>
+                        <content styleCode="bold">Other side effects of NSAIDs include:</content> stomach pain, constipation, diarrhea, gas, heartburn, nausea, vomiting, and dizziness.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Get emergency help right away if you have any of the following symptoms:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>shortness of breath or trouble breathing</item>
+                     <item>chest pain</item>
+                     <item>weakness in one part or side of your body</item>
+                     <item>slurred speech</item>
+                     <item>swelling of the face or throat</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Stop taking your NSAID and call your healthcare provider right away if you get any of the following symptoms:</content>
+                  </paragraph>
+                  <br/>
+                  <list listType="unordered" styleCode="disc">
+                     <item>nausea</item>
+                     <item>more tired or weaker than usual</item>
+                     <item>diarrhea</item>
+                     <item>itching</item>
+                     <item>your skin or eyes look yellow</item>
+                     <item>indigestion or stomach pain</item>
+                     <item>flu-like symptoms</item>
+                     <item>vomit blood</item>
+                     <item>there is blood in your bowel movement or it is black and sticky like tar</item>
+                     <item>unusual weight gain</item>
+                     <item>skin rash or blisters with fever</item>
+                     <item>swelling of the arms, legs, hands and feet</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">If you take too much of your NSAID, call your healthcare provider or get medical help right away.</content>
+                     <br/> These are not all the possible side effects of NSAIDs. For more information, ask your healthcare provider or pharmacist about NSAIDs.<br/>
+                     <br/> Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Other information about NSAIDs</content>
+                  </paragraph>
+                  <br/>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Aspirin is an NSAID medicine but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.</item>
+                     <item>Some NSAIDs are sold in lower doses without a prescription (over-the-counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days. </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">General information about the safe and effective use of NSAIDs</content>
+                     <br/> Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use NSAIDs for a condition for which it was not prescribed. Do not give NSAIDs to other people, even if they have the same symptoms that you have. It may harm them.<br/> If you would like more information about NSAIDs, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about NSAIDs that is written for health professionals.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                     <br/> Unique Pharmaceutical Laboratories<br/> (A Div. of J. B. Chemicals &amp; Pharmaceuticals Ltd.),<br/> Mumbai 400 030, India.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                     <br/> Rising<sup>®</sup>
+                     <br/> Rising Pharmaceuticals, Inc. <br/> Saddle Brook, NJ 07663<br/> 1-800-521-5340</paragraph>
+                  <br/>
+                  <paragraph>For more information, contact Rising Pharmaceuticals, Inc. at 1-866-562-4597</paragraph>
+                  <br/>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <br/>
+                  <paragraph>124090</paragraph>
+                  <br/>
+                  <paragraph>Jul. 2018</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20191212"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1a590d43-b481-43c4-8c0a-ae9b7ca429fd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Diclofenac Sodium DR 75mg Tablet</title>
+               <text>
+                  <renderMultiMedia referencedObject="lbl713350456"/>
+               </text>
+               <effectiveTime value="20200119"/>
+               <component>
+                  <observationMedia ID="lbl713350456">
+                     <text>Label Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl713350456.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

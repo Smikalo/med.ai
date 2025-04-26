@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="11d239e6-c11f-4072-a21e-1bb63593834f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Preservative-Free<br/>Midazolam Injection, USP<br/>CIV<br/>Rx Only</title>
+   <effectiveTime value="20250324"/>
+   <setId root="9e3bd5d3-36b3-471c-b8cc-ef48645700c2"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="012430880" root="1.3.6.1.4.1.519.1"/>
+            <name>Henry Schein, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="39a5dccf-e141-4c4c-9146-c6e347d478ed"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20231205"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0404-9916" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Midazolam Hydrochloride</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Midazolam Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0409-2308" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="5" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="W7TTW573JJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Midazolam Hydrochloride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="R60L0SM5BC" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Midazolam</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0404-9916-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20220117"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43215" displayName="VIAL, SINGLE-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0404-9916-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43167" displayName="BAG" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20220117"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220117"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075857" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48677" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CIV"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5b25f355-90d4-49d0-9f81-4ef7e02fd3e5"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>Boxed Warning</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Personnel and Equipment for Monitoring and Resuscitation</content>
+                     <br/>
+                     <content styleCode="bold">Adults and Pediatrics</content>
+                     <br/>
+                     <content styleCode="bold">Intravenous midazolam has been associated with respiratory depression and respiratory arrest, especially when used for sedation in noncritical care settings. In some cases, where this was not recognized promptly and treated effectively, death or hypoxic encephalopathy has resulted. Intravenous midazolam should be used only in hospital or ambulatory care settings, including physicians' and dental offices, that provide for continuous monitoring of respiratory and cardiac function, e.g, pulse oximetry. Immediate availability of resuscitative drugs and age- and size-appropriate equipment for bag/valve/mask ventilation and intubation, and personnel trained in their use and skilled in airway management should be assured (see WARNINGS). For deeply sedated pediatric patients, a dedicated individual, other than the practitioner performing the procedure, should monitor the patient throughout the procedures.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Risks From Concomitant Use With Opioids</content>
+                     <br/>
+                     <content styleCode="bold">Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death. Monitor patients for respiratory depression and sedation (see WARNINGS and PRECAUTIONS; DRUG INTERACTIONS).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Individualization of Dosage</content>
+                     <br/>
+                     <content styleCode="bold">Midazolam must never be used without individualization of dosage. The initial intravenous dose for sedation in adult patients may be as little as 1 mg, but should not exceed 2.5 mg in a normal healthy adult. Lower doses are necessary for older (over 60 years) or debilitated patients and in patients receiving concomitant narcotics or other central nervous system (CNS) depressants. The initial dose and all subsequent doses should always be titrated slowly; administer over at least 2 minutes and allow an additional 2 or more minutes to fully evaluate the sedative effect. The use of the 1 mg/mL formulation or dilution of the 1 mg/mL or 5 mg/mL formulation is recommended to facilitate slower injection. Doses of sedative medications in pediatric patients must be calculated on a mg/kg basis, and initial doses and all subsequent doses should always be titrated slowly. The initial pediatric dose of midazolam for sedation/anxiolysis/amnesia is age, procedure, and route dependent (see DOSAGE AND ADMINISTRATION for complete dosing information).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Neonates</content>
+                     <br/>
+                     <content styleCode="bold">Midazolam should not be administered by rapid injection in the neonatal population. Severe hypotension and seizures have been reported following rapid intravenous administration, particularly with concomitant use of fentanyl (see DOSAGE AND ADMINISTRATION for complete information).</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250324"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L156d68ac-d46a-4beb-aced-8d4ea24c2884">
+               <id root="f31e1c62-2eaa-4b35-bb80-459b999ea2dc"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>Description<br/>
+                  <br/>
+                  <br/>
+               </title>
+               <text>
+                  <paragraph>Midazolam hydrochloride injection is a water-soluble benzodiazepine available as a sterile, nonpyrogenic parenteral dosage form for intravenous or intramuscular injection. Each mL contains midazolam hydrochloride equivalent to 1 mg or 5 mg midazolam compounded with 0.8% sodium chloride. The pH is adjusted to approximately 3 with hydrochloric acid and, if necessary, sodium hydroxide.</paragraph>
+                  <paragraph>Midazolam is a white to light yellow crystalline compound, insoluble in water. The hydrochloride salt of midazolam, which is formed in situ, is soluble in aqueous solutions. Chemically, midazolam HCl is 8-chloro-6-(2-fluorophenyl)-1-methyl-4H-imidazo[1,5-a][1,4]benzodiazepine hydrochloride. Midazolam hydrochloride has the empirical formula C18H13ClFN3∙HCl, a calculated molecular weight of 362.25 and the following structural formula:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L1181a31f-fe05-4be0-9e61-b52ccff5e4c7"/>
+                  </paragraph>
+                  <paragraph>Under the acidic conditions required to solubilize midazolam in the product, midazolam is present as an equilibrium mixture (shown below) of the closed-ring form shown above and an open-ring structure formed by the acid-catalyzed ring opening of the 4,5-double bond of the diazepine ring. The amount of open-ring form is dependent upon the pH of the solution. At the specified pH of the product, the solution may contain up to about 25% of the open-ring compound. At the physiologic conditions under which the product is absorbed (pH of 5 to 8) into the systemic circulation, any open-ring form present reverts to the physiologically active, lipophilic, closed-ring form (midazolam) and is absorbed as such.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lec4ddff3-d73c-4627-a04e-6be964a2f343"/>
+                  </paragraph>
+                  <paragraph>The following chart plots the percentage of midazolam present as the open-ring form as a function of pH in aqueous solutions. As indicated in the graph, the amount of open-ring compound present in solution is sensitive to changes in pH over the pH range specified for the product: 3.0 to 4.0 for the 1 mg/mL concentration and 3.0 to 3.6 for the 5 mg/mL concentration. Above pH 5, at least 99% of the mixture is present in the closed-ring form.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L37a24997-e5a2-4885-83d9-6b3f3b267cd2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250324"/>
+               <component>
+                  <observationMedia ID="L1181a31f-fe05-4be0-9e61-b52ccff5e4c7">
+                     <text>Formula1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Formula1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Lec4ddff3-d73c-4627-a04e-6be964a2f343">
+                     <text>Formula2.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Formula2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L37a24997-e5a2-4885-83d9-6b3f3b267cd2">
+                     <text>Image1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L315a5f04-7472-4775-a711-ebd6882090bc">
+               <id root="87a621e8-8589-4c4d-a2db-8247560582d8"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>Clinical Pharmacology</title>
+               <text>
+                  <paragraph>Midazolam is a short-acting benzodiazepine central nervous system (CNS) depressant.</paragraph>
+                  <paragraph>Pharmacodynamics<br/>The effects of midazolam on the CNS are dependent on the dose administered, the route of administration, and the presence or absence of other medications. Onset time of sedative effects after intramuscular administration in adults is 15 minutes, with peak sedation occurring 30 to 60 minutes following injection. In one adult study, when tested the following day, 73% of the patients who received midazolam intramuscularly had no recall of memory cards shown 30 minutes following drug administration; 40% had no recall of the memory cards shown 60 minutes following drug administration. Onset time of sedative effects in the pediatric population begins within 5 minutes and peaks at 15 to 30 minutes depending upon the dose administered. In pediatric patients, up to 85% had no recall of pictures shown after receiving intramuscular midazolam compared with 5% of the placebo controls.</paragraph>
+                  <paragraph>Sedation in adult and pediatric patients is achieved within 3 to 5 minutes after intravenous injection; the time of onset is affected by total dose administered and the concurrent administration of narcotic premedication. Seventy-one percent of the adult patients in endoscopy studies had no recall of introduction of the endoscope; 82% of the patients had no recall of withdrawal of the endoscope. In one study of pediatric patients undergoing lumbar puncture or bone marrow aspiration, 88% of patients had impaired recall vs 9% of the placebo controls. In another pediatric oncology study, 91% of midazolam treated patients were amnestic compared with 35% of patients who had received fentanyl alone.</paragraph>
+                  <paragraph>When midazolam is given intravenous as an anesthetic induction agent, induction of anesthesia occurs in approximately 1.5 minutes when narcotic premedication has been administered and in 2 to 2.5 minutes without narcotic premedication or other sedative premedication. Some impairment in a test of memory was noted in 90% of the patients studied. A dose response study of pediatric patients premedicated with 1 mg/kg intramuscular meperidine found that only 4 out of 6 pediatric patients who received 600 mcg/kg intravenous midazolam lost consciousness, with eye closing at 108 ± 140 seconds. This group was compared with pediatric patients who were given thiopental 5 mg/kg intravenous; 6 out of 6 closed their eyes at 20 ± 3.2 seconds. Midazolam did not dependably induce anesthesia at this dose despite concomitant opioid administration in pediatric patients.</paragraph>
+                  <paragraph>Midazolam, used as directed, does not delay awakening from general anesthesia in adults. Gross tests of recovery after awakening (orientation, ability to stand and walk, suitability for discharge from the recovery room, return to baseline Trieger competency) usually indicate recovery within 2 hours but recovery may take up to 6 hours in some cases. When compared with patients who received thiopental, patients who received midazolam generally recovered at a slightly slower rate. Recovery from anesthesia or sedation for procedures in pediatric patients depends on the dose of midazolam administered, coadministration of other medications causing CNS depression and duration of the procedure.</paragraph>
+                  <paragraph>In patients without intracranial lesions, induction of general anesthesia with intravenous midazolam is associated with a moderate decrease in cerebrospinal fluid pressure (lumbar puncture measurements), similar to that observed following intravenous thiopental. Preliminary data in neurosurgical patients with normal intracranial pressure but decreased compliance (subarachnoid screw measurements) show comparable elevations of intracranial pressure with midazolam and with thiopental during intubation. No similar studies have been reported in pediatric patients.</paragraph>
+                  <paragraph>The usual recommended intramuscular premedicating doses of midazolam do not depress the ventilatory response to carbon dioxide stimulation to a clinically significant extent in adults. Intravenous induction doses of midazolam depress the ventilatory response to carbon dioxide stimulation for 15 minutes or more beyond the duration of ventilatory depression following administration of thiopental in adults. Impairment of ventilatory response to carbon dioxide is more marked in adult patients with chronic obstructive pulmonary disease (COPD). Sedation with intravenous midazolam does not adversely affect the mechanics of respiration (resistance, static recoil, most lung volume measurements); total lung capacity and peak expiratory flow decrease significantly but static compliance and maximum expiratory flow at 50% of awake total lung capacity (Vmax) increase. In one study of pediatric patients under general anesthesia, intramuscular midazolam (100 mcg/kg or 200 mcg/kg) was shown to depress the response to carbon dioxide in a dose-related manner.</paragraph>
+                  <paragraph>In cardiac hemodynamic studies in adults, intravenous induction of general anesthesia with midazolam was associated with a slight to moderate decrease in mean arterial pressure, cardiac output, stroke volume and systemic vascular resistance. Slow heart rates (less than 65/minute), particularly in patients taking propranolol for angina, tended to rise slightly; faster heart rates (e.g., 85/minute) tended to slow slightly. In pediatric patients, a comparison of intravenous midazolam (500 mcg/kg) with propofol (2.5 mg/kg) revealed a mean 15% decrease in systolic blood pressure in patients who had received intravenous midazolam vs a mean 25% decrease in systolic blood pressure following propofol.</paragraph>
+                  <paragraph>Pharmacokinetics<br/>Midazolam's activity is primarily due to the parent drug. Elimination of the parent drug takes place via hepatic metabolism of midazolam to hydroxylated metabolites that are conjugated and excreted in the urine. Six single-dose pharmacokinetic studies involving healthy adults yield pharmacokinetic parameters for midazolam in the following ranges: volume of distribution (Vd), 1.0 to 3.1 L/kg; elimination half-life, 1.8 to 6.4 hours (mean approximately 3 hours); total clearance (Cl), 0.25 to 0.54 L/hr/kg. In a parallel group study, there was no difference in the clearance, in subjects administered 0.15 mg/kg (n=4) and 0.3 mg/kg (n=4) intravenous doses indicating linear kinetics. The clearance was successively reduced by approximately 30% at doses of 0.45 mg/kg (n=4) and 0.6 mg/kg (n=5) indicating non-linear kinetics in this dose range.</paragraph>
+                  <paragraph>Absorption<br/>The absolute bioavailability of the intramuscular route was greater than 90% in a cross-over study in which healthy subjects (n=17) were administered a 7.5 mg intravenous or intramuscular dose. The mean peak concentration (Cmax) and time to peak (Tmax) following the intramuscular dose was 90 ng/mL (20% CV) and 0.5 hour (50% CV). Cmax for the 1-hydroxy metabolite following the intramuscular dose was 8 ng/mL (Tmax=1.0 hour).</paragraph>
+                  <paragraph>Following intramuscular administration, Cmax for midazolam and its 1-hydroxy metabolite were approximately one-half of those achieved after intravenous injection.</paragraph>
+                  <paragraph>Distribution<br/>The volume of distribution (Vd) determined from six single-dose pharmacokinetic studies involving healthy adults ranged from 1.0 to 3.1 L/kg. Female gender, old age, and obesity are associated with increased values of midazolam Vd. In humans, midazolam has been shown to cross the placenta and enter into fetal circulation and has been detected in human milk and CSF (see CLINICAL PHARMACOLOGY, SPECIAL POPULATIONS).</paragraph>
+                  <paragraph>In adults and pediatric patients older than 1 year, midazolam is approximately 97% bound to plasma protein, principally albumin and that for 1-hydroxy metabolite is about 89%.</paragraph>
+                  <paragraph>Metabolism<br/>In vitro studies with human liver microsomes indicate that the biotransformation of midazolam is mediated by cytochrome P450-3A4. This cytochrome also appears to be present in gastrointestinal tract mucosa as well as liver. Sixty to seventy percent of the biotransformation products is 1-hydroxy-midazolam (also termed alpha-hydroxy-midazolam) while 4-hydroxy-midazolam constitutes 5% or less. Small amounts of a dihydroxy derivative have also been detected but not quantified. The principal urinary excretion products are glucuronide conjugates of the hydroxylated derivatives.</paragraph>
+                  <paragraph>Drugs that inhibit the activity of cytochrome P450-3A4 may inhibit midazolam clearance and elevate steady-state midazolam concentrations.</paragraph>
+                  <paragraph>Studies of the intravenous administration of 1-hydroxy-midazolam in humans suggest that 1-hydroxy-midazolam is at least as potent as the parent compound and may contribute to the net pharmacologic activity of midazolam. In vitro studies have demonstrated that the affinities of 1- and 4-hydroxy-midazolam for the benzodiazepine receptor are approximately 20% and 7%, respectively, relative to midazolam.</paragraph>
+                  <paragraph>Excretion<br/>Clearance of midazolam is reduced in association with old age, congestive heart failure, liver disease (cirrhosis) or conditions which diminish cardiac output and hepatic blood flow.</paragraph>
+                  <paragraph>The principal urinary excretion product is 1-hydroxy-midazolam in the form of a glucuronide conjugate; smaller amounts of the glucuronide conjugates of 4-hydroxy- and dihydroxy-midazolam are detected as well. The amount of midazolam excreted unchanged in the urine after a single intravenous dose is less than 0.5% (n=5). Following a single intravenous infusion in 5 healthy volunteers, 45% to 57% of the dose was excreted in the urine as 1-hydroxymethyl midazolam conjugate.</paragraph>
+                  <paragraph>Pharmacokinetics-Continuous Infusion<br/>The pharmacokinetic profile of midazolam following continuous infusion, based on 282 adult subjects, has been shown to be similar to that following single-dose administration for subjects of comparable age, gender, body habitus and health status. However, midazolam can accumulate in peripheral tissues with continuous infusion. The effects of accumulation are greater after long-term infusions than after short-term infusions. The effects of accumulation can be reduced by maintaining the lowest midazolam infusion rate that produces satisfactory sedation.</paragraph>
+                  <paragraph>Infrequent hypotensive episodes have occurred during continuous infusion; however, neither the time to onset nor the duration of the episode appeared to be related to plasma concentrations of midazolam or alpha-hydroxy-midazolam. Further, there does not appear to be an increased chance of occurrence of a hypotensive episode with increased loading doses.</paragraph>
+                  <paragraph>Patients with renal impairment may have longer elimination half-lives for midazolam (see CLINICAL PHARMACOLOGY, SPECIAL POPULATIONS, RENAL FAILURE).</paragraph>
+                  <paragraph>Special Populations<br/>Changes in the pharmacokinetic profile of midazolam due to drug interactions, physiological variables, etc., may result in changes in the plasma concentration-time profile and pharmacological response to midazolam in these patients. For example, patients with acute renal failure appear to have a longer elimination half-life for midazolam and may experience delayed recovery (see CLINICAL PHARMACOLOGY, SPECIAL POPULATIONS, RENAL FAILURE). In other groups, the relationship between prolonged half-life and duration of effect has not been established.</paragraph>
+                  <paragraph>Pediatrics and Neonates<br/>In pediatric patients aged 1 year and older, the pharmacokinetic properties following a single dose of midazolam reported in 10 separate studies of midazolam are similar to those in adults. Weight-normalized clearance is similar or higher (0.19 to 0.80 L/hr/kg) than in adults and the terminal elimination half-life (0.78 to 3.3 hours) is similar to or shorter than in adults. The pharmacokinetic properties during and following continuous intravenous infusion in pediatric patients in the operating room as an adjunct to general anesthesia and in the intensive care environment are similar to those in adults.</paragraph>
+                  <paragraph>In seriously ill neonates, however, the terminal elimination half-life of midazolam is substantially prolonged (6.5 to 12.0 hours) and the clearance reduced (0.07 to 0.12 L/hr/kg) compared to healthy adults or other groups of pediatric patients. It cannot be determined if these differences are due to age, immature organ function or metabolic pathways, underlying illness or debility.</paragraph>
+                  <paragraph>Obese<br/>In a study comparing normals (n=20) and obese patients (n=20) the mean half-life was greater in the obese group (5.9 vs 2.3 hours). This was due to an increase of approximately 50% in the Vd corrected for total body weight. The clearance was not significantly different between groups.</paragraph>
+                  <paragraph>Geriatric<br/>In three parallel group studies, the pharmacokinetics of midazolam administered intravenously or intramuscularly were compared in young (mean age 29, n=52) and healthy elderly subjects (mean age 73, n=53). Plasma half-life was approximately two-fold higher in the elderly. The mean Vd based on total body weight increased consistently between 15% to 100% in the elderly. The mean Cl decreased approximately 25% in the elderly in two studies and was similar to that of the younger patients in the other.</paragraph>
+                  <paragraph>Congestive Heart Failure<br/>In patients suffering from congestive heart failure, there appeared to be a two-fold increase in the elimination half-life, a 25% decrease in the plasma clearance and a 40% increase in the volume of distribution of midazolam.</paragraph>
+                  <paragraph>Hepatic Impairment<br/>Midazolam pharmacokinetics were studied after an intravenous single dose (0.075 mg/kg) was administered to 7 patients with biopsy proven alcoholic cirrhosis and 8 control patients. The mean half-life of midazolam increased 2.5-fold in the alcoholic patients. Clearance was reduced by 50% and the Vd increased by 20%. In another study in 21 male patients with cirrhosis, without ascites and with normal kidney function as determined by creatinine clearance, no changes in the pharmacokinetics of midazolam or 1-hydroxy-midazolam were observed when compared to healthy individuals.</paragraph>
+                  <paragraph>Renal Impairment<br/>Patients with renal impairment may have longer elimination half-lives for midazolam and its metabolites which may result in slower recovery.</paragraph>
+                  <paragraph>Midazolam and 1-hydroxy-midazolam pharmacokinetics in 6 ICU patients who developed acute renal failure (ARF) were compared with a normal renal function control group. Midazolam was administered as an infusion (5 to 15 mg/hr). Midazolam clearance was reduced (1.9 vs 2.8 mL/min/kg) and the half-life was prolonged (7.6 vs 13 hours) in the ARF patients. The renal clearance of the 1-hydroxy-midazolam glucuronide was prolonged in the ARF group (4 vs 136 mL/min) and the half-life was prolonged (12 vs &gt;25 hours). Plasma levels accumulated in all ARF patients to about ten times that of the parent drug. The relationship between accumulating metabolite levels and prolonged sedation is unclear.</paragraph>
+                  <paragraph>In a study of chronic renal failure patients (n=15) receiving a single intravenous dose, there was a two-fold increase in the clearance and volume of distribution but the half-life remained unchanged. Metabolite levels were not studied.</paragraph>
+                  <paragraph>Plasma Concentration-Effect Relationship<br/>Concentration-effect relationships (after an intravenous dose) have been demonstrated for a variety of pharmacodynamic measures (eg, reaction time, eye movement, sedation) and are associated with extensive intersubject variability. Logistic regression analysis of sedation scores and steady-state plasma concentration indicated that at plasma concentrations greater than 100 ng/mL there was at least a 50% probability that patients would be sedated, but respond to verbal commands (sedation score=3). At 200 ng/mL there was at least a 50% probability that patients would be asleep, but respond to glabellar tap (sedation score=4).</paragraph>
+                  <paragraph>Drug Interactions<br/>For information concerning pharmacokinetic drug interactions with midazolam (see PRECAUTIONS).</paragraph>
+               </text>
+               <effectiveTime value="20220117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L67b4b1d1-610c-4e1e-a0a4-0b83c53d824c">
+               <id root="d9bffa4b-4639-493d-8a86-aa16b34d5e71"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Indications and Usage</title>
+               <text>
+                  <paragraph>Midazolam injection is indicated:</paragraph>
+                  <list listType="unordered">
+                     <item>intramuscularly or intravenously for preoperative sedation/anxiolysis/amnesia;</item>
+                     <item>intravenously as an agent for sedation/anxiolysis/amnesia prior to or during diagnostic, therapeutic or endoscopic procedures, such as bronchoscopy, gastroscopy, cystoscopy, coronary angiography, cardiac catheterization, oncology procedures, radiologic procedures, suture of lacerations and other procedures either alone or in combination with other CNS depressants;</item>
+                     <item>intravenously for induction of general anesthesia, before administration of other anesthetic agents. With the use of narcotic premedication, induction of anesthesia can be attained within a relatively narrow dose range and in a short period of time. Intravenous midazolam can also be used as a component of intravenous supplementation of nitrous oxide and oxygen (balanced anesthesia);</item>
+                     <item>continuous intravenous infusion for sedation of intubated and mechanically ventilated patients as a component of anesthesia or during treatment in a critical care setting.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20220117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld5a803d5-9d8a-4bef-82df-268d3f0b2437">
+               <id root="c36f98f1-a786-48da-90bd-a1a74550de21"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>Contraindications</title>
+               <text>
+                  <paragraph>Injectable midazolam is contraindicated in patients with a known hypersensitivity to the drug. Benzodiazepines are contraindicated in patients with acute narrow-angle glaucoma. Benzodiazepines may be used in patients with open-angle glaucoma only if they are receiving appropriate therapy. Measurements of intraocular pressure in patients without eye disease show a moderate lowering following induction with midazolam; patients with glaucoma have not been studied.</paragraph>
+               </text>
+               <effectiveTime value="20220117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6e85e5fd-6bc7-4976-9767-10063e04dfd1">
+               <id root="d25aff92-61a8-4059-9b4b-5fac89055af3"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>Personnel and Equipment for Monitoring and Resuscitation<br/>Prior to the intravenous administration of midazolam in any dose, the immediate availability of oxygen, resuscitative drugs, age- and size-appropriate equipment for bag/valve/mask ventilation and intubation, and skilled personnel for the maintenance of a patent airway and support of ventilation should be ensured. Patients should be continuously monitored for early signs of hypoventilation, airway obstruction, or apnea, with means readily available (e.g., pulse oximetry). Hypoventilation, airway obstruction, and apnea can lead to hypoxia and/or cardiac arrest unless effective countermeasures are taken immediately. The immediate availability of specific reversal agents (flumazenil) is highly recommended. Vital signs should continue to be monitored during the recovery period. Because intravenous midazolam can depress respiration (see CLINICAL PHARMACOLOGY), especially when used concomitantly with opioid agonists and other sedatives (see DOSAGE AND ADMINISTRATION), it should be used for sedation/anxiolysis/amnesia only in the presence of personnel skilled in early detection of hypoventilation, maintaining a patent airway and supporting ventilation. When used for sedation/anxiolysis/amnesia, midazolam should always be titrated slowly in adult or pediatric patients. Adverse hemodynamic events have been reported in pediatric patients with cardiovascular instability; rapid intravenous administration should also be avoided in this population (see DOSAGE AND ADMINISTRATION for complete information).</paragraph>
+                  <paragraph>Risks from Concomitant Use With Opioids<br/>Concomitant use of benzodiazepines, including midazolam, and opioids may result in profound sedation, respiratory depression, coma, and death. If a decision is made to use midazolam concomitantly with opioids, monitor patients closely for respiratory depression and sedation (see PRECAUTIONS; DRUG INTERACTIONS).</paragraph>
+                  <paragraph>Risk of Respiratory Adverse Events<br/>Serious cardiorespiratory adverse events have occurred after administration of midazolam. These have included respiratory depression, airway obstruction, oxygen desaturation, apnea, respiratory arrest and/or cardiac arrest, sometimes resulting in death or permanent neurologic injury. There have also been rare reports of hypotensive episodes requiring treatment during or after diagnostic or surgical manipulations particularly in adult or pediatric patients with hemodynamic instability. Hypotension occurred more frequently in the sedation studies in patients premedicated with a narcotic.</paragraph>
+                  <paragraph>Individualization of Dosage<br/>Midazolam must never be used without individualization of dosage particularly when used with other medications capable of producing central nervous system depression. see DOSAGE AND ADMINISTRATION for complete information.</paragraph>
+                  <paragraph>Other Adverse Events<br/>Reactions such as agitation, involuntary movements (including tonic/clonic movements and muscle tremor), hyperactivity and combativeness have been reported in both adult and pediatric patients. These reactions may be due to inadequate or excessive dosing or improper administration of midazolam; however, consideration should be given to the possibility of cerebral hypoxia or true paradoxical reactions. Should such reactions occur, the response to each dose of midazolam and all other drugs, including local anesthetics, should be evaluated before proceeding. Reversal of such responses with flumazenil has been reported in pediatric patients.</paragraph>
+                  <paragraph>Concomitant Use of Central Nervous System Depressants<br/>Concomitant use of barbiturates, alcohol or other central nervous system depressants may increase the risk of hypoventilation, airway obstruction, desaturation, or apnea and may contribute to profound and/or prolonged drug effect. Narcotic premedication also depresses the ventilatory response to carbon dioxide stimulation.</paragraph>
+                  <paragraph>Debilitation and Comorbid Considerations<br/>Higher risk adult and pediatric surgical patients, elderly patients and debilitated adult and pediatric patients require lower dosages, whether or not concomitant sedating medications have been administered. Adult or pediatric patients with COPD are unusually sensitive to the respiratory depressant effect of midazolam. Pediatric and adult patients undergoing procedures involving the upper airway such as upper endoscopy or dental care, are particularly vulnerable to episodes of desaturation and hypoventilation due to partial airway obstruction. Adult and pediatric patients with chronic renal failure and patients with congestive heart failure eliminate midazolam more slowly (see CLINICAL PHARMACOLOGY). Because elderly patients frequently have inefficient function of one or more organ systems and because dosage requirements have been shown to decrease with age, reduced initial dosage of midazolam is recommended, and the possibility of profound and/or prolonged effect should be considered. Injectable midazolam should not be administered to adult or pediatric patients in shock or coma, or in acute alcohol intoxication with depression of vital signs. Particular care should be exercised in the use of intravenous midazolam in adult or pediatric patients with uncompensated acute illnesses, such as severe fluid or electrolyte disturbances.</paragraph>
+                  <paragraph>Risk of Intra-arterial Injection<br/>There have been limited reports of intra-arterial injection of midazolam. Adverse events have included local reactions, as well as isolated reports of seizure activity in which no clear causal relationship was established. Precautions against unintended intra-arterial injection should be taken. Extravasation should also be avoided.</paragraph>
+                  <paragraph>The safety and efficacy of midazolam following nonintravenous and nonintramuscular routes of administration have not been established. Midazolam should only be administered intramuscularly or intravenously.</paragraph>
+                  <paragraph>Return to Full Cognitive Function<br/>Midazolam is associated with a high incidence of partial or complete impairment of recall for the next several hours The decision as to when patients who have received injectable midazolam, particularly on an outpatient basis, may again engage in activities requiring complete mental alertness, operate hazardous machinery or drive a motor vehicle must be individualized. Gross tests of recovery from the effects of midazolam (see CLINICAL PHARMACOLOGY) cannot be relied upon to predict reaction time under stress. It is recommended that no patient operate hazardous machinery or a motor vehicle until the effects of the drug, such as drowsiness, have subsided or until 1 full day after anesthesia and surgery, whichever is longer. For pediatric patients, particular care should be taken to assure safe ambulation.</paragraph>
+                  <paragraph>Usage in Pregnancy<br/>An increased risk of congenital malformations associated with the use of benzodiazepine drugs (diazepam and chlordiazepoxide) has been suggested in several studies. If this drug is used during pregnancy, the patient should be apprised of the potential hazard to the fetus.</paragraph>
+                  <paragraph>Withdrawal symptoms of the barbiturate type have occurred after the discontinuation of benzodiazepines (see DRUG ABUSE AND DEPENDENCE).</paragraph>
+                  <paragraph>Usage In Preterm Infants And Neonates<br/>Rapid injection should be avoided in the neonatal population. Midazolam administered rapidly as an intravenous injection (less than 2 minutes) has been associated with severe hypotension in neonates, particularly when the patient has also received fentanyl. Likewise, severe hypotension has been observed in neonates receiving a continuous infusion of midazolam who then receive a rapid intravenous injection of fentanyl. Seizures have been reported in several neonates following rapid intravenous administration.</paragraph>
+                  <paragraph>The neonate also has reduced and/or immature organ function and is also vulnerable to profound and/or prolonged respiratory effects of midazolam.</paragraph>
+                  <paragraph>Pediatric Neurotoxicity<br/>Published animal studies demonstrate that the administration of anesthetic and sedation drugs that block NMDA receptors and/or potentiate GABA activity increase neuronal apoptosis in the developing brain and result in long-term cognitive deficits when used for longer than 3 hours. The clinical significance of these findings is not clear. However, based on the available data, the window of vulnerability to these changes is believed to correlate with exposures in the third trimester of gestation through the first several months of life, but may extend out to approximately three years of age in humans (see PRECAUTIONS/ PREGNANCY and PEDIATRIC USE and ANIMAL TOXICOLOGY AND/OR PHARMCOLOGY).</paragraph>
+                  <paragraph>Some published studies in children suggest that similar deficits may occur after repeated or prolonged exposures to anesthetic agents early in life and may result in adverse cognitive or behavioral effects. These studies have substantial limitations, and it is not clear if the observed effects are due to the anesthetic/sedation drug administration or other factors such as the surgery or underlying illness.</paragraph>
+                  <paragraph>Anesthetic and sedation drugs are a necessary part of the care of children needing surgery, other procedures, or tests that cannot be delayed, and no specific medications have been shown to be safer than any other. Decisions regarding the timing of any elective procedures requiring anesthesia should take into consideration the benefits of the procedure weighed against the potential risks.</paragraph>
+               </text>
+               <effectiveTime value="20220117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0576fd63-a0fb-4c1b-b4c0-1ceb1b0ec15c">
+               <id root="043d67e7-ffdf-4713-a711-2f0538bd450e"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>Precautions</title>
+               <text>
+                  <paragraph>General<br/>Intravenous doses of midazolam should be decreased for elderly and for debilitated patients (see WARNINGS and DOSAGE AND ADMINISTRATION). These patients will also probably take longer to recover completely after midazolam administration for the induction of anesthesia.</paragraph>
+                  <paragraph>Midazolam does not protect against the increase in intracranial pressure or against the heart rate rise and/or blood pressure rise associated with endotracheal intubation under light general anesthesia.</paragraph>
+                  <paragraph>The efficacy and safety of midazolam in clinical use are functions of the dose administered, the clinical status of the individual patient, and the use of concomitant medications capable of depressing the CNS. Anticipated effects range from mild sedation to deep levels of sedation virtually equivalent to a state of general anesthesia where the patient may require external support of vital functions. Care must be taken to individualize and carefully titrate the dose of midazolam to the patient's underlying medical/surgical conditions, administer to the desired effect being certain to wait an adequate time for peak CNS effects of both midazolam and concomitant medications, and have the personnel and size-appropriate equipment and facilities available for monitoring and intervention (see BOXED WARNING, WARNINGS and DOSAGE AND ADMINISTRATION). Practitioners administering midazolam must have the skills necessary to manage reasonably foreseeable adverse effects, particularly skills in airway management. For information regarding withdrawal (see DRUG ABUSE AND DEPENDENCE).</paragraph>
+                  <paragraph>Information for Patients<br/>To assure safe and effective use of benzodiazepines, the following information and instructions should be communicated to the patient when appropriate:</paragraph>
+                  <paragraph>Inform your physician about any alcohol consumption and medicine you are now taking, especially blood pressure medication and antibiotics, including drugs you buy without a prescription. Alcohol has an increased effect when consumed with benzodiazepines; therefore, caution should be exercised regarding simultaneous ingestion of alcohol during benzodiazepine treatment.<br/>Inform your physician if you are pregnant or are planning to become pregnant.<br/>Inform your physician if you are nursing.<br/>Patients should be informed of the pharmacological effects of midazolam, such as sedation and amnesia, which in some patients may be profound. The decision as to when patients who have received injectable midazolam, particularly on an outpatient basis, may again engage in activities requiring complete mental alertness, operate hazardous machinery or drive a motor vehicle must be individualized.<br/>Patients receiving continuous infusion of midazolam in critical care settings over an extended period of time, may experience symptoms of withdrawal following abrupt discontinuation.<br/>Effect of anesthetic and sedation drugs on early brain development: Studies conducted in young animals and children suggest repeated or prolonged use of general anesthetic or sedation drugs in children younger than 3 years may have negative effects on their developing brains. Discuss with parents and caregivers the benefits, risks, and timing and duration of surgery or procedures requiring anesthetic and sedation drugs.<br/>Drug Interactions<br/>Effect of Concomitant Use of Benzodiazepines and Opioids<br/>The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at different receptor sites in the CNS that control respiration. Benzodiazepines interact at GABAA sites and opioids interact primarily at mu receptors. When benzodiazepines and opioids are combined, the potential for benzodiazepines to significantly worsen opioid-related respiratory depression exists. Monitor patients closely for respiratory depression and sedation.</paragraph>
+                  <paragraph>The sedative effect of intravenous midazolam is accentuated by any concomitantly administered medication, which depresses the central nervous system, particularly opioids (e.g., morphine, meperidine and fentanyl) and also secobarbital and droperidol. Consequently, the dosage of midazolam should be adjusted according to the type and amount of concomitant medications administered and the desired clinical response (see DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Other Drug Interactions<br/>Caution is advised when midazolam is administered concomitantly with drugs that are known to inhibit the P450-3A4 enzyme system such as cimetidine (not ranitidine), erythromycin, diltiazem, verapamil, ketoconazole and itraconazole. These drug interactions may result in prolonged sedation due to a decrease in plasma clearance of midazolam.</paragraph>
+                  <paragraph>The effect of single oral doses of 800 mg cimetidine and 300 mg ranitidine on steady-state concentrations of oral midazolam was examined in a randomized crossover study (n=8). Cimetidine increased the mean midazolam steady-state concentration from 57 to 71 ng/mL. Ranitidine increased the mean steady-state concentration to 62 ng/mL. No change in choice reaction time or sedation index was detected after dosing with the H2 receptor antagonists.</paragraph>
+                  <paragraph>In a placebo-controlled study, erythromycin administered as a 500 mg dose, three times a day, for 1 week (n=6), reduced the clearance of midazolam following a single 0.5 mg/kg intravenous dose. The half-life was approximately doubled.</paragraph>
+                  <paragraph>Caution is advised when midazolam is administered to patients receiving erythromycin since this may result in a decrease in the plasma clearance of midazolam.</paragraph>
+                  <paragraph>The effects of diltiazem (60 mg three times a day) and verapamil (80 mg three times day) on the pharmacokinetics and pharmacodynamics of midazolam were investigated in a three-way crossover study (n=9). The half-life of midazolam increased from 5 to 7 hours when midazolam was taken in conjunction with verapamil or diltiazem. No interaction was observed in healthy subjects between midazolam and nifedipine.</paragraph>
+                  <paragraph>In a placebo-controlled study, where saquinavir or placebo was administered orally as a 1200 mg dose, three times a day , for 5 days (n=12), a 56% reduction in the clearance of midazolam following a single 0.05 mg/kg intravenous dose was observed. The half-life was approximately doubled.</paragraph>
+                  <paragraph>A moderate reduction in induction dosage requirements of thiopental (about 15%) has been noted following use of intramuscular midazolam for premedication in adults.</paragraph>
+                  <paragraph>The intravenous administration of midazolam decreases the minimum alveolar concentration (MAC) of halothane required for general anesthesia. This decrease correlates with the dose of midazolam administered; no similar studies have been carried out in pediatric patients but there is no scientific reason to expect that pediatric patients would respond differently than adults.</paragraph>
+                  <paragraph>Although the possibility of minor interactive effects has not been fully studied, midazolam and pancuronium have been used together in patients without noting clinically significant changes in dosage, onset or duration in adults. Midazolam does not protect against the characteristic circulatory changes noted after administration of succinylcholine or pancuronium and does not protect against the increased intracranial pressure noted following administration of succinylcholine. Midazolam does not cause a clinically significant change in dosage, onset or duration of a single intubating dose of succinylcholine; no similar studies have been carried out in pediatric patients but there is no scientific reason to expect that pediatric patients would respond differently than adults.</paragraph>
+                  <paragraph>No significant adverse interactions with commonly used premedications or drugs used during anesthesia and surgery (including atropine, scopolamine, glycopyrrolate, diazepam, hydroxyzine, d-tubocurarine, succinylcholine and other nondepolarizing muscle relaxants) or topical local anesthetics (including lidocaine, dyclonine HCl and Cetacaine) have been observed in adults or pediatric patients. In neonates, however, severe hypotension has been reported with concomitant administration of fentanyl. This effect has been observed in neonates on an infusion of midazolam who received a rapid injection of fentanyl and in patients on an infusion of fentanyl who have received a rapid injection of midazolam.</paragraph>
+                  <paragraph>Drug/Laboratory Test Interactions<br/>Midazolam has not been shown to interfere with results obtained in clinical laboratory tests.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility<br/>Carcinogenesis<br/>Midazolam maleate was administered with diet in mice and rats for 2 years at dosages of 1, 9 and 80 mg/kg/day. In female mice in the highest dose group there was a marked increase in the incidence of hepatic tumors. In high-dose male rats there was a small but statistically significant increase in benign thyroid follicular cell tumors. Dosages of 9 mg/kg/day of midazolam maleate (4 times a human induction dose of 0.35 mg/kg based on body surface area comparison) do not increase the incidence of tumors. The pathogenesis of induction of these tumors is not known. These tumors were found after chronic administration, whereas human use will ordinarily be of single or several doses.</paragraph>
+                  <paragraph>Mutagenesis<br/>Midazolam did not have mutagenic activity in Salmonella typhimurium (5 bacterial strains), Chinese hamster lung cells (V79), human lymphocytes or in the micronucleus test in mice.</paragraph>
+                  <paragraph>Impairment of Fertility<br/>Male rats were treated orally with 1, 4, or 16 mg/kg midazolam beginning 62 days prior to mating with female rats treated with the same doses for 14 days prior to mating to Gestation Day 13 or Lactation Day 21. The high dose produced an equivalent exposure (AUC) as 4 mg/kg intravenous midazolam (1.85 times the human induction dose of 0.35 mg/kg based on body surface area comparison). There were no adverse effects on either male or female fertility noted</paragraph>
+                  <paragraph>Pregnancy:<br/>Teratogenic Effects<br/>(see WARNINGS).</paragraph>
+                  <paragraph>Published studies of in pregnant primates demonstrate that the administration of anesthetic and sedation drugs that block NMDA receptors and/or potentiate GABA activity during the period of peak brain development increases neuronal apoptosis in the developing brain of the offspring when used for longer than 3 hours. There are no data on pregnancy exposures in primates corresponding to periods prior to the third trimester in humans (see DATA).</paragraph>
+                  <paragraph>Data<br/>Animal Data<br/>Pregnant rats were treated with midazolam using intravenous doses of 0.2, 1, and 4 mg/kg/day (0.09, 0.46, and 1.85 times the human induction dose of 0.35 mg/kg based on body surface area comparisons) during the period of organogenesis (Gestation Day 7 through 15). Midazolam did not cause adverse effects to the fetus at doses of up to 1.85 times the human induction dose. All doses produced slight to moderate ataxia. The high dose produced a 5% decrease in maternal body weight gain compared to control.</paragraph>
+                  <paragraph>Pregnant rabbits were treated with midazolam using intravenous doses of 0.2, 0.6, and 2 mg/kg/day (0.09, 0.46, and 1.85 times the human induction dose of 0.35 mg/kg based on body surface area comparisons) during the period of organogenesis (Gestation Day 7 to 18). Midazolam did not cause adverse effects to the fetus at doses of up to 1.85 times the human induction dose. The high dose was associated with findings of ataxia and sedation but no evidence of maternal toxicity.</paragraph>
+                  <paragraph>Pregnant rats were administered midazolam using intravenous doses of 0.2, 1, and 4 mg/kg/day (0.09, 0.46, and 1.85 times the human induction dose of 0.35 mg/kg based on body surface area comparisons) during late gestation and through lactation (Gestation Day 15 through Lactation Day 21). All doses produced ataxia. The high dose produced a slight decrease in maternal body weight gain compared to control. There were no clear adverse effects noted in the offspring. The study included no functional assessments of the pups, such as learning and memory testing or reproductive capacity. In a published study in primates, administration of an anesthetic dose of ketamine for 24 hours on Gestation Day 122 increased neuronal apoptosis in the developing brain of the fetus. In other published studies, administration of either isoflurane or propofol for 5 hours on Gestation Day 120 resulted in increased neuronal and oligodendrocyte apoptosis in the developing brain of the offspring. With respect to brain development, this time period corresponds to the third trimester of gestation in the human. The clinical significance of these findings is not clear; however, studies in juvenile animals suggest neuroapoptosis correlates with long-term cognitive deficits (see WARNINGS/PEDIATRIC NEUROTOXICITY, PRECAUTIONS/PEDIATRIC USE and ANIMAL TOXICOLOGY AND/OR PHARMACOLOGY).</paragraph>
+                  <paragraph>Labor and Delivery<br/>In humans, measurable levels of midazolam were found in maternal venous serum, umbilical venous and arterial serum and amniotic fluid, indicating placental transfer of the drug. Following intramuscular administration of 0.05 mg/kg of midazolam, both the venous and the umbilical arterial serum concentrations were lower than maternal concentrations.</paragraph>
+                  <paragraph>The use of injectable midazolam in obstetrics has not been evaluated in clinical studies. Because midazolam is transferred transplacentally and because other benzodiazepines given in the last weeks of pregnancy have resulted in neonatal CNS depression, midazolam is not recommended for obstetrical use.</paragraph>
+                  <paragraph>Nursing Mothers<br/>Midazolam is excreted in human milk. Caution should be exercised when midazolam is administered to a nursing woman.</paragraph>
+                  <paragraph>Pediatric Use<br/>The safety and efficacy of midazolam for sedation/anxiolysis/amnesia following single dose intramuscular administration, intravenously by intermittent injections and continuous infusion have been established in pediatric and neonatal patients. For specific safety monitoring and dosage guidelines see BOXED WARNING, CLINICAL PHARMACOLOGY, INDICATIONS, WARNINGS, PRECAUTIONS, ADVERSE REACTIONS, OVERDOSAGE and DOSAGE AND ADMINISTRATION. UNLIKE ADULT PATIENTS, PEDIATRIC PATIENTS GENERALLY RECEIVE INCREMENTS OF MIDAZOLAM ON A MG/KG BASIS. As a group, pediatric patients generally require higher dosages of midazolam (mg/kg) than do adults. Younger (less than six years) pediatric patients may require higher dosages (mg/kg) than older pediatric patients, and may require closer monitoring. In obese PEDIATRIC PATIENTS, the dose should be calculated based on ideal body weight. When midazolam is given in conjunction with opioids or other sedatives, the potential for respiratory depression, airway obstruction, or hypoventilation is increased. The health care practitioner who uses this medication in pediatric patients should be aware of and follow accepted professional guidelines for pediatric sedation appropriate to their situation.</paragraph>
+                  <paragraph>Midazolam should not be administered by rapid injection in the neonatal population. Severe hypotension and seizures have been reported following rapid intravenous administration, particularly, with concomitant use of fentanyl.</paragraph>
+                  <paragraph>Animal Data<br/>Published juvenile animal studies demonstrate that the administration of anesthetic and sedation drugs, such as Midazolam Injection USP, that either block NMDA receptors or potentiate the activity of GABA during the period of rapid brain growth or synaptogenesis, results in widespread neuronal and oligodendrocyte cell loss in the developing brain and alterations in synaptic morphology and neurogenesis. Based on comparisons across species, the window of vulnerability to these changes is believed to correlate with exposures in the third trimester of gestation through the first several months of life, but may extend out to approximately 3 years of age in humans.</paragraph>
+                  <paragraph>In primates, exposure to 3 hours of ketamine that produced a light surgical plane of anesthesia did not increase neuronal cell loss, however, treatment regimens of 5 hours or longer of isoflurane increased neuronal cell loss. Data from isoflurane-treated rodents and ketamine-treated primates suggest that the neuronal and oligodendrocyte cell losses are associated with prolonged cognitive deficits in learning and memory. The clinical significance of these nonclinical findings is not known, and healthcare providers should balance the benefits of appropriate anesthesia in pregnant women, neonates, and young children who require procedures with the potential risks suggested by the nonclinical data (see WARNINGS/PEDIATRIC NEUROTOXICITY, PRECAUTIONS/PREGNANCY and ANIMAL TOXICOLOGY AND/ORPHARMACOLOGY).</paragraph>
+                  <paragraph>Geriatric Use<br/>Because geriatric patients may have altered drug distribution and diminished hepatic and/or renal function, reduced doses of midazolam are recommended. Intravenous and intramuscular doses of midazolam should be decreased for elderly and for debilitated patients (see WARNINGS and DOSAGE AND ADMINISTRATION) and subjects over 70 years of age may be particularly sensitive. These patients will also probably take longer to recover completely after midazolam administration for the induction of anesthesia. Administration of intramuscular and intravenous midazolam to elderly and/or high risk surgical patients has been associated with rare reports of death under circumstances compatible with cardiorespiratory depression. In most of these cases, the patients also received other central nervous system depressants capable of depressing respiration, especially narcotics (see DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Specific dosing and monitoring guidelines for geriatric patients are provided in the DOSAGE AND ADMINISTRATION section for premedicated patients for sedation/anxiolysis/amnesia following intravenous and intramuscular administration, for induction of anesthesia following intravenous administration and for continuous infusion.</paragraph>
+               </text>
+               <effectiveTime value="20220117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0ba7f52c-1760-4a77-9b64-76541acd36e1">
+               <id root="a0219abb-3ea7-4d5d-905f-a7ed99635b43"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions</title>
+               <text>
+                  <paragraph>see WARNINGS concerning serious cardiorespiratory events and possible paradoxical reactions. Fluctuations in vital signs were the most frequently seen findings following parenteral administration of midazolam in adults and included decreased tidal volume and/or respiratory rate decrease (23.3% of patients following intravenous and 10.8% of patients following intramuscular administration) and apnea (15.4% of patients following intravenous administration), as well as variations in blood pressure and pulse rate. The majority of serious adverse effects, particularly those associated with oxygenation and ventilation, have been reported when midazolam is administered with other medications capable of depressing the central nervous system. The incidence of such events is higher in patients undergoing procedures involving the airway without the protective effect of an endotracheal tube, (e.g., upper endoscopy and dental procedures).</paragraph>
+                  <paragraph>Adults<br/>The following additional adverse reactions were reported after intramuscular administration:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="La352bd7f-13a5-42be-8cf7-83cc8c8e552a"/>
+                  </paragraph>
+                  <paragraph>Administration of intramuscular midazolam to elderly and/or higher risk surgical patients has been associated with rare reports of death under circumstances compatible with cardiorespiratory depression. In most of these cases, the patients also received other central nervous system depressants capable of depressing respiration, especially narcotics (see DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>The following additional adverse reactions were reported subsequent to intravenous administration as a single sedative/anxiolytic/amnestic agent in adult patients:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L4dc39f39-e522-49ac-819f-e667a598c47e"/>
+                  </paragraph>
+                  <paragraph>Pediatric Patients<br/>The following adverse events related to the use of intravenous midazolam in pediatric patients were reported in the medical literature: desaturation 4.6%, apnea 2.8%, hypotension 2.7%, paradoxical reactions 2.0%, hiccough 1.2%, seizure-like activity 1.1% and nystagmus 1.1%. The majority of airway-related events occurred in patients receiving other CNS depressing medications and in patients where midazolam was not used as a single sedating agent.</paragraph>
+                  <paragraph>Neonates<br/>For information concerning hypotensive episodes and seizures following the administration of midazolam to neonates, see BOXED WARNING, CONTRAINDICATIONS, WARNINGS and PRECAUTIONS.</paragraph>
+                  <paragraph>Other adverse experiences, observed mainly following intravenous injection as a single sedative/anxiolytic/amnesia agent and occurring at an incidence of &lt;1.0% in adult and pediatric patients, are as follows:</paragraph>
+                  <paragraph>Respiratory: Laryngospasm, bronchospasm, dyspnea, hyperventilation, wheezing, shallow respirations, airway obstruction, tachypnea</paragraph>
+                  <paragraph>Cardiovascular: Bigeminy, premature ventricular contractions, vasovagal episode, bradycardia, tachycardia, nodal rhythm</paragraph>
+                  <paragraph>Gastrointestinal: Acid taste, excessive salivation, retching</paragraph>
+                  <paragraph>CNS/Neuromuscular: Retrograde amnesia, euphoria, hallucination, confusion, argumentativeness, nervousness, anxiety, grogginess, restlessness, emergence delirium or agitation, prolonged emergence from anesthesia, dreaming during emergence, sleep disturbance, insomnia, nightmares, athetoid movements, seizure-like activity, ataxia, dizziness, dysphoria, slurred speech, dysphonia, paresthesia</paragraph>
+                  <paragraph>Special Senses: Blurred vision, diplopia, nystagmus, pinpoint pupils, cyclic movements of eyelids, visual disturbance, difficulty focusing eyes, ears blocked, loss of balance, light-headedness</paragraph>
+                  <paragraph>Integumentary: Hive-like elevation at injection site, swelling or feeling of burning, warmth or coldness at injection site</paragraph>
+                  <paragraph>Hypersensitivity: Allergic reactions including anaphylactoid reactions, hives, rash, pruritus</paragraph>
+                  <paragraph>Miscellaneous: Yawning, lethargy, chills, weakness, toothache, faint feeling, hematoma</paragraph>
+               </text>
+               <effectiveTime value="20250324"/>
+               <component>
+                  <observationMedia ID="La352bd7f-13a5-42be-8cf7-83cc8c8e552a">
+                     <text>Image2.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L4dc39f39-e522-49ac-819f-e667a598c47e">
+                     <text>Image3.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L1b159f92-5444-41a9-a4dc-5290ec9ea58e">
+               <id root="8aca210e-389c-4b74-97d1-eec1526a4d89"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>Drug Use and Dependence</title>
+               <text>
+                  <paragraph>Midazolam Injection contains midazolam a Schedule IV control substance.</paragraph>
+                  <paragraph>Midazolam was actively self-administered in primate models used to assess the positive reinforcing effects of psychoactive drugs.</paragraph>
+                  <paragraph>Midazolam produced physical dependence of a mild to moderate intensity in cynomolgus monkeys after 5 to 10 weeks of administration. Available data concerning the drug abuse and dependence potential of midazolam suggest that its abuse potential is at least equivalent to that of diazepam.</paragraph>
+                  <paragraph>Withdrawal symptoms, similar in character to those noted with barbiturates and alcohol (convulsions, hallucinations, tremor, abdominal and muscle cramps, vomiting and sweating), have occurred following abrupt discontinuation of benzodiazepines, including midazolam. Abdominal distention, nausea, vomiting, and tachycardia are prominent symptoms of withdrawal in infants. The more severe withdrawal symptoms have usually been limited to those patients who had received excessive doses over an extended period of time. Generally milder withdrawal symptoms (e.g., dysphoria and insomnia) have been reported following abrupt discontinuance of benzodiazepines taken continuously at therapeutic levels for several months. Consequently, after extended therapy, abrupt discontinuation should generally be avoided and a gradual dosage tapering schedule followed. There is no consensus in the medical literature regarding tapering schedules; therefore, practitioners are advised to individualize therapy to meet patient's needs. In some case reports, patients who have had severe withdrawal reactions due to abrupt discontinuation of high-dose long-term midazolam, have been successfully weaned off of midazolam over a period of several days.</paragraph>
+               </text>
+               <effectiveTime value="20220117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2469c90e-5883-40e4-82a6-a9bed30c6f53">
+               <id root="d5d642c1-801e-4d97-9d68-583e083bc569"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>Overdosage</title>
+               <text>
+                  <paragraph>Symptoms<br/>The manifestations of midazolam overdosage reported are similar to those observed with other benzodiazepines, including sedation, somnolence, confusion, impaired coordination, diminished reflexes, coma and untoward effects on vital signs. No evidence of specific organ toxicity from midazolam overdosage has been reported.</paragraph>
+                  <paragraph>Treatment<br/>Treatment of injectable midazolam overdosage is the same as that followed for overdosage with other benzodiazepines. Respiration, pulse rate and blood pressure should be monitored and general supportive measures should be employed. Attention should be given to the maintenance of a patent airway and support of ventilation, including administration of oxygen. An intravenous infusion should be started. Should hypotension develop, treatment may include intravenous fluid therapy, repositioning, judicious use of vasopressors appropriate to the clinical situation, if indicated, and other appropriate countermeasures. There is no information as to whether peritoneal dialysis, forced diuresis or hemodialysis are of any value in the treatment of midazolam overdosage.</paragraph>
+                  <paragraph>Flumazenil, a specific benzodiazepine-receptor antagonist, is indicated for the complete or partial reversal of the sedative effects of benzodiazepines and may be used in situations when an overdose with a benzodiazepine is known or suspected. There are anecdotal reports of reversal of adverse hemodynamic responses associated with midazolam following administration of flumazenil to pediatric patients. Prior to the administration of flumazenil, necessary measures should be instituted to secure the airway, assure adequate ventilation, and establish adequate intravenous access. Flumazenil is intended as an adjunct to, not as a substitute for, proper management of benzodiazepine overdose. Patients treated with flumazenil should be monitored for resedation, respiratory depression and other residual benzodiazepine effects for an appropriate period after treatment. Flumazenil will only reverse benzodiazepine-induced effects but will not reverse the effects of other concomitant medications. The reversal of benzodiazepine effects may be associated with the onset of seizures in certain high-risk patients. The prescriber should be aware of a risk of seizure in association with flumazenil treatment, particularly in long-term benzodiazepine users and in cyclic antidepressant overdose. The complete flumazenil package insert, including CONTRAINDICATIONS, WARNINGS and PRECAUTIONS, should be consulted prior to use.</paragraph>
+               </text>
+               <effectiveTime value="20220117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Leb4262b1-7c2e-4e82-b713-7db10c6ea7f7">
+               <id root="a79a5cbc-a02b-4e6a-bebc-a9d75d9479dd"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Dosage and Administration</title>
+               <text>
+                  <paragraph>Midazolam injection is a potent sedative agent that requires slow administration and individualization of dosage. Clinical experience has shown midazolam to be 3 to 4 times as potent per mg as diazepam. BECAUSE SERIOUS AND LIFE-THREATENING CARDIORESPIRATORY ADVERSE EVENTS HAVE BEEN REPORTED, PROVISION FOR MONITORING, DETECTION AND CORRECTION OF THESE REACTIONS MUST BE MADE FOR EVERY PATIENT TO WHOM MIDAZOLAM INJECTION IS ADMINISTERED, REGARDLESS OF AGE OR HEALTH STATUS. Excessive single doses or rapid intravenous administration may result in respiratory depression, airway obstruction and/or arrest. The potential for these latter effects is increased in debilitated patients, those receiving concomitant medications capable of depressing the CNS, and patients without an endotracheal tube but undergoing a procedure involving the upper airway such as endoscopy or dental (see BOXED WARNING and WARNINGS).</paragraph>
+                  <paragraph>Reactions such as agitation, involuntary movements, hyperactivity and combativeness have been reported in adult and pediatric patients. Should such reactions occur, caution should be exercised before continuing administration of midazolam (see WARNINGS).</paragraph>
+                  <paragraph>Midazolam injection should only be administered intramuscularly or intravenously (see WARNINGS).</paragraph>
+                  <paragraph>Care should be taken to avoid intra-arterial injection or extravasation (see WARNINGS).</paragraph>
+                  <paragraph>Midazolam Injection may be mixed in the same syringe with the following frequently used premedications: morphine sulfate, meperidine, atropine sulfate or scopolamine. Midazolam, at a concentration of 0.5 mg/mL, is compatible with 5% dextrose in water and 0.9% sodium chloride for up to 24 hours and with lactated Ringer's solution for up to 4 hours. Both the 1 mg/mL and 5 mg/mL formulations of midazolam may be diluted with 0.9% sodium chloride or 5% dextrose in water.</paragraph>
+                  <paragraph>Monitoring<br/>Patient response to sedative agents, and resultant respiratory status, is variable. Regardless of the intended level of sedation or route of administration, sedation is a continuum; a patient may move easily from light to deep sedation, with potential loss of protective reflexes. This is especially true in pediatric patients. Sedative doses should be individually titrated, taking into account patient age, clinical status and concomitant use of other CNS depressants. Continuous monitoring of respiratory and cardiac function is required (i.e., pulse oximetry).</paragraph>
+                  <paragraph>Adults and Pediatrics<br/>Sedation guidelines recommend a careful presedation history to determine how a patient's underlying medical conditions or concomitant medications might affect their response to sedation/analgesia as well as a physical examination including a focused examination of the airway for abnormalities. Further recommendations include appropriate presedation fasting.</paragraph>
+                  <paragraph>Titration to effect with multiple small doses is essential for safe administration. It should be noted that adequate time to achieve peak central nervous system effect (3 to 5 minutes) for midazolam should be allowed between doses to minimize the potential for oversedation. Sufficient time must elapse between doses of concomitant sedative medications to allow the effect of each dose to be assessed before subsequent drug administration. This is an important consideration for all patients who receive intravenous midazolam.</paragraph>
+                  <paragraph>Immediate availability of resuscitative drugs and age- and size-appropriate equipment and personnel trained in their use and skilled in airway management should be assured (see WARNINGS).</paragraph>
+                  <paragraph>Pediatrics<br/>For deeply sedated pediatric patients a dedicated individual, other than the practitioner performing the procedure, should monitor the patient throughout the procedure.</paragraph>
+                  <paragraph>Intravenous access is not thought to be necessary for all pediatric patients sedated for a diagnostic or therapeutic procedure because in some cases the difficulty of gaining intravenous access would defeat the purpose of sedating the child; rather, emphasis should be placed upon having the intravenous equipment available and a practitioner skilled in establishing vascular access in pediatric patients immediately available.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="La2dea349-2654-44cd-891f-69006477e6e1"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L81aa0165-1772-444d-954c-2e4ec4a1a721"/>
+                  </paragraph>
+                  <paragraph>OBSERVER'S ASSESSMENT OF ALERTNESS/SEDATION (OAA/S)<content>FREQUENCY OF OBSERVER'S ASSESSMENT OF ALERTNESS/SEDATION COMPOSITE SCORES IN ONE STUDY OF PEDIATRIC PATIENTS UNDERGOING PROCEDURES WITH INTRAVENOUS MIDAZOLAM FOR SEDATION</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lab6a3b07-2eb1-40ad-8618-e561c0551e06"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L49ef0fa0-1884-4741-bfbf-a2966830640b"/>
+                  </paragraph>
+                  <paragraph>NOTE: Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="20250324"/>
+               <component>
+                  <observationMedia ID="La2dea349-2654-44cd-891f-69006477e6e1">
+                     <text>Image4.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L81aa0165-1772-444d-954c-2e4ec4a1a721">
+                     <text>Image5.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Lab6a3b07-2eb1-40ad-8618-e561c0551e06">
+                     <text>Image6.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L49ef0fa0-1884-4741-bfbf-a2966830640b">
+                     <text>Image7.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image7.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L1ec78ea9-0d37-4b69-92e8-db33dc917dbe">
+               <id root="3efc3df7-067e-4135-a1c2-56e2c2d72a6e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>How Supplied</title>
+               <text>
+                  <paragraph>Package configurations containing preservative-free midazolam hydrochloride equivalent to 1 mg midazolam/mL:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Le791017e-0b58-4848-a44a-280c4ba0447c"/>
+                  </paragraph>
+                  <paragraph>Package configurations containing preservative-free midazolam hydrochloride equivalent to 5 mg midazolam/mL:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L12950809-8096-4f40-9b25-ef334718df6e"/>
+                  </paragraph>
+                  <paragraph>Store at 20 to 25°C (68 to 77°F). [see USP Controlled Room Temperature.]</paragraph>
+                  <paragraph>Discard unused portion.</paragraph>
+                  <table width="100%">
+                     <caption> Product repackaged by: Henry Schein, Inc., Bastian, VA 24314</caption>
+                     <tbody>
+                        <tr>
+                           <td>From Original Manufacturer/Distributor's NDC and Unit of Sale</td>
+                           <td>To Henry Schein Repackaged Product NDC and Unit of Sale</td>
+                           <td>Total Strength/Total Volume (Concentration) per unit </td>
+                        </tr>
+                        <tr>
+                           <td>NDC 0409-2308-01<br/>Carton of 10 Single-dose Fliptop Vials</td>
+                           <td>NDC 0404-9916-01<br/>1 1 mL Single-dose Fliptop Vial in a bag<br/>(Vial bears NDC 0409-2308-21)</td>
+                           <td>5 mg/mL</td>
+                        </tr>
+                        <tr>
+                           <td>NDC 0409-2308-02<br/>Carton of 10 Single-dose Fliptop Vials</td>
+                           <td>NDC 0404-9916-02<br/>1 2 mL Single-dose Fliptop Vial in a bag<br/>(Vial bears NDC 0409-2308-22)</td>
+                           <td>10 mg/2 mL<br/>(5 mg/mL)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250324"/>
+               <component>
+                  <observationMedia ID="Le791017e-0b58-4848-a44a-280c4ba0447c">
+                     <text>Image8.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image8.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L12950809-8096-4f40-9b25-ef334718df6e">
+                     <text>Image9.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image9.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L4509e67b-7e88-4f61-b35a-4d69d3649494">
+               <id root="47134466-f27c-4cbd-a09f-c366842c0ea1"/>
+               <code code="34091-9" codeSystem="2.16.840.1.113883.6.1" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+               <title>Animal Pharmacology and/or Toxicology</title>
+               <text>
+                  <paragraph>Published studies in animals demonstrate that the use of anesthetic agents during the period of rapid brain growth or synaptogenesis results in widespread neuronal and oligodendrocyte cell loss in the developing brain and alterations in synaptic morphology and neurogenesis. Based on comparisons across species, the window of vulnerability to these changes is believed to correlate with exposures in the third trimester through the first several months of life, but may extend out to approximately 3 years of age in humans.</paragraph>
+                  <paragraph>In primates, exposure to 3 hours of an anesthetic regimen that produced a light surgical plane of anesthesia did not increase neuronal cell loss, however, treatment regimens of 5 hours or longer increased neuronal cell loss. Data in rodents and in primates suggest that the neuronal and oligodendrocyte cell losses are associated with subtle but prolonged cognitive deficits in learning and memory. The clinical significance of these nonclinical findings is not known, and healthcare providers should balance the benefits of appropriate anesthesia in neonates and young children who require procedures against the potential risks suggested by the nonclinical data (see WARNINGS/PEDIATRIC NEUROTOXICITY, PRECAUTIONS/PREGNANCY and PEDIATRIC USE).</paragraph>
+               </text>
+               <effectiveTime value="20221103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5eaf3408-bbb1-4700-b8ca-cc9c69e548b6">
+               <id root="6639044b-5c05-4442-92f3-0f8cbe6dad96"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Distributed by Hospira, Inc., Lake Forest, IL 60045 USA</paragraph>
+                  <paragraph>LAB-0849-9.0<br/>Revised: 1/2023</paragraph>
+               </text>
+               <effectiveTime value="20231205"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3bede2fe-6496-47a5-ac90-23272a580602">
+               <id root="a672aa97-1ede-4073-9448-e4260b979c07"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L2c4575c9-92bd-4075-a30c-7f61a0ad4c39"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Ldae6b190-3268-422a-b176-dc2ce87110dc"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250324"/>
+               <component>
+                  <observationMedia ID="L2c4575c9-92bd-4075-a30c-7f61a0ad4c39">
+                     <text>Label1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Label1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Ldae6b190-3268-422a-b176-dc2ce87110dc">
+                     <text>Label2.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Label2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

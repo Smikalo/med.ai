@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="30b47c4b-3c4d-d6fd-e063-6294a90a5664"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>VITAMIN D</title>
+   <effectiveTime value="20250319"/>
+   <setId root="84647b52-3c4c-31bb-e053-2991aa0a8a7e"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>DirectRX</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>DirectRX</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61919-702" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="30b493ef-e909-ab09-e063-6394a90a0463"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250319"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="61919-702" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Vitamin D</name>
+                        <formCode code="C42954" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE, LIQUID FILLED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Vitamin D</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="69452-151" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="241ATL177A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SOYBEAN OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C YELLOW NO. 10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="1.25"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="VS041H42XC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ERGOCALCIFEROL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="VS041H42XC" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ERGOCALCIFEROL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="4" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61919-702-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190319"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="8" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61919-702-08" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190319"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA080704" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190319"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48329" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="green" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">PA140</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="13" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_8473a6b9-536f-8643-e053-2991aa0aa667">
+               <id root="8473a6b9-536e-8643-e053-2991aa0aa667"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Rx only
+ </paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_8473a6b9-5375-8643-e053-2991aa0aa667">
+               <id root="8473a6b9-5374-8643-e053-2991aa0aa667"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>ERGOCALCIFEROL CAPSULES, USP, is a synthetic calcium regulator for oral administration.</paragraph>
+                  <paragraph>Ergocalciferol is a white, colorless crystal, insoluble in water, soluble in organic solvents, and slightly soluble in vegetable oils. It is affected by air and by light. Ergosterol or provitamin D2 is found in plants and yeast and has no antirachitic activity.</paragraph>
+                  <paragraph>There are more than 10 substances belonging to a group of steroid compounds, classified as having vitamin D or antirachitic activity.</paragraph>
+                  <paragraph>One USP Unit of vitamin D2 is equivalent to one International Unit (IU), and 1 mcg of vitamin D2 is equal to 40 IU.</paragraph>
+                  <paragraph>Each softgel, for oral administration, contains Ergocalciferol, USP 1.25 mg (equivalent to 50,000 USP units of Vitamin D), in an edible vegetable oil.</paragraph>
+                  <paragraph>Ergocalciferol, also called vitamin D2, is 9,10-secoergosta-5,7,10(19),22-tetraen-3-ol,(3β,5Z,7E,22E)-; (C28H44O) with a molecular weight of 396.65, and has the following structural formula:</paragraph>
+                  <paragraph>[Structure Formula]</paragraph>
+                  <paragraph>Inactive Ingredients: Refined soybean oil, gelatin, glycerin, purified water, D&amp;C Yellow #10, and FD&amp;C Blue #1.</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_8473a6b9-537b-8643-e053-2991aa0aa667">
+               <id root="8473a6b9-537a-8643-e053-2991aa0aa667"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>The in vivo synthesis of the major biologically active metabolites of vitamin D occurs in two steps. The first hydroxylation of ergocalciferol takes place in the liver (to 25-hydroxyvitamin D) and the second in the kidneys (to 1,25-dihydroxyvitamin D). Vitamin D metabolites promote the active absorption of calcium and phosphorous by the small intestine, thus elevating serum calcium and phosphate levels sufficiently to permit bone mineralization. Vitamin D metabolites also mobilize calcium and phosphate from bone and probably increase the reabsorption of calcium and perhaps also of phosphate by the renal tubules.</paragraph>
+                  <paragraph>There is a time lag of 10 to 24 hours between the administration of vitamin D and the initiation of its action in the body due to the necessity of synthesis of the active metabolites in the liver and kidneys. Parathyroid hormone is responsible for the regulation of this metabolism in the kidneys.</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_8473a6b9-537f-8643-e053-2991aa0aa667">
+               <id root="8473a6b9-537e-8643-e053-2991aa0aa667"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Ergocalciferol is indicated for use in the treatment of hypoparathyroidism, refractory rickets, also known as vitamin D resistant rickets, and familial hypophosphatemia.
+ </paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_8473affa-cc7f-1103-e053-2a91aa0a1479">
+               <id root="8473affa-cc7e-1103-e053-2a91aa0a1479"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Ergocalciferol is contraindicated in patients with hypercalcemia, malabsorption syndrome, abnormal sensitivity to the toxic effects of vitamin D, and hypervitaminosis D.
+ </paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_8473b1e9-90c5-7fa3-e053-2991aa0af6e6">
+               <id root="8473b1e9-90c4-7fa3-e053-2991aa0af6e6"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>Hypersensitivity to vitamin D may be one etiologic factor in infants with idiopathic hypercalcemia. In these cases vitamin D must be strictly restricted.</paragraph>
+                  <paragraph>Keep out of the reach of children.</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_8473affa-cc84-1103-e053-2a91aa0a1479">
+               <id root="8473affa-cc83-1103-e053-2a91aa0a1479"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>Vitamin D administration from fortified foods, dietary supplements, self-administered and prescription drug sources should be evaluated. Therapeutic dosage should be readjusted as soon as there is clinical improvement. Dosage levels must be individualized and great care exercised to prevent serious toxic effects. IN VITAMIN D RESISTANT RICKETS THE RANGE BETWEEN THERAPEUTIC AND TOXIC DOSES IS NARROW. When high therapeutic doses are used progress should be followed with frequent blood calcium determinations.</paragraph>
+                  <paragraph>In the treatment of hypoparathyroidism, intravenous calcium, parathyroid hormone, and/or dihydrotachysterol may be required.</paragraph>
+                  <paragraph>Maintenance of a normal serum phosphorous level by dietary phosphate restriction and/or administration of aluminum gels as intestinal phosphate binders in those patients with hyperphosphatemia as frequently seen in renal osteodystrophy is essential to prevent metastatis calcification.</paragraph>
+                  <paragraph>Adequate dietary calcium is necessary for clinical response to vitamin D therapy.</paragraph>
+                  <paragraph>Protect from light.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>Mineral oil interferes with the absorption of fat-soluble vitamins, including vitamin D preparations.</paragraph>
+                  <paragraph>Administration of thiazide diuretics to hypoparathyroid patients who are concurrently being treated with ergocalciferol may cause hypercalcemia.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>No long-term animal studies have been performed to evaluate the drug's potential in these areas.</paragraph>
+                  <paragraph>Pregnancy Category C</paragraph>
+                  <paragraph>Animal reproduction studies have shown fetal abnormalities in several species associated with hypervitaminosis D. These are similar to the supravalvular aortic stenosis syndrome described in infants by Black in England (1963). This syndrome was characterized by supravalvular aortic stenosis, elfin facies, and mental retardation. For the protection of the fetus, therefore, the use of vitamin D in excess of the recommended dietary allowance during normal pregnancy should be avoided unless, in the judgment of the physician, potential benefits in a specific, unique case outweigh the significant hazards involved. The safety in excess of 400 USP units of vitamin D daily during pregnancy has not been established.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>Caution should be exercised when ergocalciferol is administered to a nursing woman. In a mother given large doses of vitamin D, 25-hydroxycholecalciferol appeared in the milk and caused hypercalcemia in her child. Monitoring of the infant's serum calcium concentration is required in that case (Goldberg, 1972).</paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>Pediatric doses must be individualized (see DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>Clinical studies of Ergocalciferol capsules, USP did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. A few published reports have suggested that the absorption of orally administered vitamin D may be attenuated in elderly compared to younger individuals. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_8473b1e9-90cb-7fa3-e053-2991aa0af6e6">
+               <id root="8473b1e9-90ca-7fa3-e053-2991aa0af6e6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>Hypervitaminosis D is characterized by effects on the following organ system:</paragraph>
+                  <paragraph>Renal: Impairment of renal function with polyuria, nocturia, polydipsia, hypercalciuria, reversible azotemia, hypertension, nephrocalcinosis, generalized vascular calcification, or irreversible renal insufficiency which may result in death.</paragraph>
+                  <paragraph>CNS: Mental retardation.</paragraph>
+                  <paragraph>Soft Tissues: Widespread calcification of the soft tissues, including the heart, blood vessels, renal tubules, and lungs.</paragraph>
+                  <paragraph>Skeletal: Bone demineralization (osteoporosis) in adults occurs concomitantly.</paragraph>
+                  <paragraph>Decline in the average rate of linear growth and increased mineralization of bones in infants and children (dwarfism), vague aches, stiffness, and weakness.</paragraph>
+                  <paragraph>Gastrointestinal: Nausea, anorexia, constipation.</paragraph>
+                  <paragraph>Metabolic: Mild acidosis, anemia, weight loss.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Bionpharma at 1-888-235-2466 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_8473affa-cc86-1103-e053-2a91aa0a1479">
+               <id root="8473affa-cc85-1103-e053-2a91aa0a1479"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>The effects of administered vitamin D can persist for two or more months after cessation of treatment.</paragraph>
+                  <paragraph>Hypervitaminosis D is characterized by:</paragraph>
+                  <paragraph>Hypercalcemia with anorexia, nausea, weakness, weight loss, vague aches and stiffness, constipation, mental retardation, anemia, and mild acidosis.
+  <br/>
+Impairment of renal function with polyuria, nocturia, polydipsia, hypercalciuria, reversible azotemia, hypertension, nephrocalcinosis, generalized vascular calcification, or irreversible renal insufficiency which may result in death.
+  <br/>
+Widespread calcification of the soft tissues, including the heart, blood vessels, renal tubules, and lungs. Bone demineralization (osteoporosis) in adults occurs concomitantly.
+  <br/>
+Decline in the average rate of linear growth and increased mineralization of bones in infants and children (dwarfism).
+ </paragraph>
+                  <paragraph>The treatment of hypervitaminosis D with hypercalcemia consists in immediate withdrawal of the vitamin, a low calcium diet, generous intake of fluids, along with symptomatic and supportive treatment. Hypercalcemic crisis with dehydration, stupor, coma, and azotemia requires more vigorous treatment. The first step should be hydration of the patient. Intravenous saline may quickly and significantly increase urinary calcium excretion. A loop diuretic (furosemide or ethacrynic acid) may be given with the saline infusion to further increase renal calcium excretion. Other reported therapeutic measures include dialysis or the administration of citrates, sulfates, phosphates, corticosteroids, EDTA (ethylenediaminetetraacetic acid), and mithramycin via appropriate regimens. With appropriate therapy, recovery is the usual outcome when no permanent damage has occurred. Deaths via renal or cardiovascular failure have been reported.</paragraph>
+                  <paragraph>The LD50 in animals is unknown. The toxic oral dose of ergocalciferol in the dog is 4 mg/kg.</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_8473b1e9-90cf-7fa3-e053-2991aa0af6e6">
+               <id root="8473b1e9-90ce-7fa3-e053-2991aa0af6e6"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>THE RANGE BETWEEN THERAPEUTIC AND TOXIC DOSES IS NARROW.</paragraph>
+                  <paragraph>Vitamin D Resistant Rickets: 12,000 to 500,000 USP units daily.</paragraph>
+                  <paragraph>Hypoparathyroidism: 50,000 to 200,000 USP units daily concomitantly with calcium lactate 4 g, six times per day.</paragraph>
+                  <paragraph>DOSAGE MUST BE INDIVIDUALIZED UNDER CLOSE MEDICAL SUPERVISION.</paragraph>
+                  <paragraph>Calcium intake should be adequate. Blood calcium and phosphorous determinations must be made every 2 weeks or more frequently if necessary. X-rays of the bones should be taken every month until condition is corrected and stabilized.</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_8473affa-cc88-1103-e053-2a91aa0a1479">
+               <id root="8473affa-cc87-1103-e053-2a91aa0a1479"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Each green, oval softgel is imprinted with PA140 and contains 1.25 mg (50,000 USP units vitamin D) of ergocalciferol, USP, and is available in bottles of 100 (69452-151-20) Softgels.</paragraph>
+                  <paragraph>Store at 25° C (77° F); excursions permitted to 15° - 30° C (59° - 86 ° F) [See USP Controlled Room Temperature.]</paragraph>
+                  <paragraph>Protect from light and moisture.</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container as defined in the USP.</paragraph>
+                  <paragraph>Manufactured for:
+  <br/>
+Bionpharma Inc.
+  <br/>
+600 Alexander Road
+  <br/>
+Princeton, NJ 08540, USA
+  <br/>
+Rev. 12/2015
+ </paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_8473a6b9-536d-8643-e053-2991aa0aa667">
+               <id root="8473a6b9-536c-8643-e053-2991aa0aa667"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_8473a6b9-536b-8643-e053-2991aa0aa667"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+               <component>
+                  <observationMedia ID="img_8473a6b9-536b-8643-e053-2991aa0aa667">
+                     <text>702-04</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="702-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30b48c38-ee51-a574-e063-6394a90aa269">
+               <id root="30b48c38-ee50-a574-e063-6394a90aa269"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_30b49350-4389-a551-e063-6394a90a3cd5"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250319"/>
+               <component>
+                  <observationMedia ID="img_30b49350-4389-a551-e063-6394a90a3cd5">
+                     <text>61919-702-08</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="61919-702-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

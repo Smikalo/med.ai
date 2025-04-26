@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="809c6495-dfc8-4a9e-ab98-9a5e607075ab"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title>Thiamine Hydrochloride Injection, USP<br/>
+   </title>
+   <effectiveTime value="20250227"/>
+   <setId root="fc0265cd-d13a-477c-8c2c-8d44fd86444e"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="918601238"/>
+            <name>Gland Pharma Limited</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="858971074" root="1.3.6.1.4.1.519.1"/>
+                        <name>GLAND PHARMA LIMITED</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68083-567" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68083-567" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68083-567" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68083-567" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="0d349f1d-072b-4991-984b-9c8ef04f6894"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250227"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68083-567" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>thiamine hydrochloride<suffix/>
+                        </name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>thiamine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="200" unit="mg"/>
+                              <denominator value="2" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M572600E5P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>THIAMINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4ABT0J945J" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>THIAMINE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3X4P6271OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CHLOROBUTANOL HEMIHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="AAO1P0WSXJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MONOTHIOGLYCEROL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="25" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="68083-567-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250224"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA217800" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <effectiveTime>
+                              <low value="20000101"/>
+                           </effectiveTime>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250224"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="137f7e11-530a-4981-8671-c387ddb2c471"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Thiamine Hydrochloride Injection, USP is a sterile solution of thiamine hydrochloride in Water for Injection for intramuscular (IM) or slow intravenous (IV) administration.</paragraph>
+                  <br/>
+                  <paragraph>Each mL contains: Thiamine hydrochloride 100 mg; chlorobutanol hemihydarte 5.25%; monothioglycerol 0.5%; water for injection, q.s. Sodium hydroxide may have been added for pH adjustment (2.5 to 4.5).</paragraph>
+                  <br/>
+                  <paragraph>Thiamine hydrochloride, or vitamin B<sub>1</sub>, occurs as white crystals or crystalline powder that usually has a slight characteristic odor. Freely soluble in water; soluble in glycerin; slightly soluble in alcohol; insoluble in ether and benzene. Thiamine is rapidly destroyed in neutral or alkaline solutions but is stable in the dry state. It is reasonably stable to heat in acid solution.</paragraph>
+                  <br/>
+                  <paragraph>The chemical name of thiamine hydrochloride is thiazolium,3-[(4-amino-2-methyl-5-pyrimidinyl) methyl]-5-(2-hydroxyethyl)-4-methylchloride, monohydrochloride and it has the following structural formula:</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250227"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>thiamine-spl-structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="thiamine-spl-structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="1b11ba4e-4f08-4fe9-8da0-d6981f60fdfb"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>The water soluble vitamins are widely distributed in both plants and animals. They are absorbed in man by both diffusion and active transport mechanisms. These vitamins are structurally diverse (derivatives of sugar, pyridine, purines, pyrimidine, organic acid complexes and nucleotide complex) and act as coenzymes, as oxidation-reduction agents, possibly as mitochondrial agents. Metabolism is rapid, and the excess is excreted in the urine</paragraph>
+                  <br/>
+                  <paragraph>Thiamine is distributed in all tissues. The highest concentrations occur in liver, brain, kidney and heart. When thiamine intake is greatly in excess of need, tissue stores increase two to three times. If intake is insufficient, tissues become depleted of their vitamin content. Absorption of thiamine following IM administration is rapid and complete.</paragraph>
+                  <br/>
+                  <paragraph>Thiamine combines with adenosine triphosphate (ATP) to form thiamine pyrophosphate, also known as cocarboxylase, a coenzyme. Its role in carbohydrate metabolism is the decarboxylation of pyruvic acid in the blood and α-ketoacids to acetaldehyde and carbon dioxide. Increased levels of pyruvic acid in the blood indicate vitamin B<sub>1</sub> deficiency.</paragraph>
+                  <br/>
+                  <paragraph>The requirement for thiamine is greater when the carbohydrate content of the diet is raised. Body depletion of vitamin B<sub>1</sub> can occur after approximately three weeks of total absence of thiamine in the diet.</paragraph>
+               </text>
+               <effectiveTime value="20250227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="e5f67ecc-8e0d-43c9-9ee5-506bd4fa66e8"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Thiamine hydrochloride injection is effective for the treatment of thiamine deficiency or beriberi whether of the dry (major symptoms related to the nervous system) or wet (major symptoms related to the cardiovascular system) variety. Thiamine hydrochloride injection should be used where rapid restoration of thiamine is necessary, as in Wernicke’s encephalopathy, infantile beriberi with acute collapse, cardiovascular disease due to thiamine deficiency, or neuritis of pregnancy if vomiting is severe. It is also indicated when giving IV dextrose to individuals with marginal thiamine status to avoid precipitation of heart failure.</paragraph>
+                  <br/>
+                  <paragraph>Thiamine hydrochloride injection is also indicated in patients with established thiamine deficiency who cannot take thiamine orally due to coexisting severe anorexia, nausea, vomiting, or malabsorption. Thiamine hydrochloride injection is not usually indicated for conditions of decreased oral intake or decreased gastrointestinal absorption, because multiple vitamins should usually be given.</paragraph>
+               </text>
+               <effectiveTime value="20250227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="77c7d296-4125-49e7-9d50-d9e85e4bbc87"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>A history of sensitivity to thiamine or to any of the ingredients in this drug is a contraindication. (See <content styleCode="bold">
+                        <linkHtml href="#Section_5">WARNINGS</linkHtml> </content>for further information.)</paragraph>
+               </text>
+               <effectiveTime value="20250227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="7b55deaf-1e2f-48b6-9928-f7d2cab816ab"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>WARNING: This product contains aluminum that may be toxic. Aluminum may reach toxic levels with prolonged parenteral administration if kidney function is impaired. Premature neonates are particularly at risk because their kidneys are immature, and they require large amounts of calcium and phosphate solutions, which contain aluminum.</paragraph>
+                  <br/>
+                  <paragraph>Research indicates that patients with impaired kidney function, including premature neonates, who receive parenteral levels of aluminum at greater than 4 to 5 mcg/kg/day accumulate aluminum at levels associated with central nervous system and bone toxicity. Tissue loading may occur at even lower rates of administration.</paragraph>
+                  <br/>
+                  <paragraph>Serious hypersensitivity/anaphylactic reactions can occur, especially after repeated administration. Deaths have resulted from IV or IM administration of thiamine (see <content styleCode="bold">
+                        <linkHtml href="#Section_7">ADVERSE REACTIONS</linkHtml>
+                     </content>).</paragraph>
+                  <br/>
+                  <paragraph>Routine testing for hypersensitivity, in many cases, may not detect hypersensitivity. Nevertheless, a skin test should be performed on patients who are suspected of drug allergies or previous reactions to thiamine, and any positive responders should not receive thiamine by injection.</paragraph>
+                  <br/>
+                  <paragraph>If hypersensitivity to thiamine is suspected (based on history of drug allergy or occurrence of adverse reactions after thiamine administration), administer one-hundredth of the dose intradermally and observe for 30 minutes. If no reaction occurs, full dose can be given; the patient should be observed for at least 30 minutes after injection. Be prepared to treat anaphylactic reactions regardless of the precautions taken.</paragraph>
+                  <br/>
+                  <paragraph>Treatment of anaphylactic reactions includes maintaining a patent airway and the use of epinephrine, oxygen, vasopressors, steroids and antihistamines.</paragraph>
+               </text>
+               <effectiveTime value="20250227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="6644ab5b-b0c3-42e8-9b0a-466451539146"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20250227"/>
+               <component>
+                  <section ID="Section_6.1">
+                     <id root="9d3d6c56-2520-436b-8167-3ce28fbd3566"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">General</content>
+                     </title>
+                     <text>
+                        <paragraph>Simple vitamin B<sub>1</sub> deficiency is rare. Multiple vitamin deficiencies should be suspected in any case of dietary inadequacy.</paragraph>
+                     </text>
+                     <effectiveTime value="20250227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.2">
+                     <id root="b0003144-4aa6-4306-8f57-6e5c20bf2ae0"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Information for Patients</content>
+                        <content styleCode="italics"/>
+                     </title>
+                     <text>
+                        <paragraph>The patient should be advised as to proper dietary habits during treatment so that relapses will be less likely to occur with reduction in dosage or cessation of injection therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20250227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.7">
+                     <id root="20685cdb-1f7a-408f-b59f-85bceb19988b"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="italics">Usage in Pregnancy</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Pregnancy Category A</content>–Studies in pregnant women have not shown that thiamine hydrochloride increases the risk of fetal abnormalities if administered during pregnancy. If the drug is used during pregnancy, the possibility of fetal harm appears remote. Because studies cannot rule out the possibility of harm however, thiamine hydrochloride should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20250227"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.9">
+                     <id root="b8723891-9854-4864-8e14-c815eb014bb7"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Nursing Mothers</content>
+                     </title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when thiamine hydrochloride is administered to a nursing mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20250227"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="4a677117-744c-4ab2-87e9-d3165b538984"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Gland Pharma at 609-250-7990 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>An occasional individual may develop a hypersensitivity or life-threatening anaphylactic reaction to thiamine, especially after repeated injections. Collapse and death have been reported. A feeling of warmth, pruritus, urticaria, weakness, sweating, nausea, restlessness, tightness of the throat, angioneurotic edema, cyanosis, pulmonary edema, and hemorrhage into the gastrointestinal tract have also been reported. Some tenderness and induration may follow IM use (see <content styleCode="bold">
+                        <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20250227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="20d52226-6e72-465b-acc0-5184bca17038"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Parenteral doses of 100 to 500 mg singly have been administered without toxic effects. However, dosages exceeding 30 mg three times a day are not utilized effectively.</paragraph>
+                  <br/>
+                  <paragraph>When the body tissues are saturated with thiamine, it is excreted in the urine as pyrimidine. As the intake of thiamine is further increased, it appears unchanged in the urine.</paragraph>
+               </text>
+               <effectiveTime value="20250227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="23eee232-f3ab-4f5b-b629-7dd3196e027c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>“Wet” beriberi with myocardial failure must be treated as an emergency cardiac condition, and thiamine must be administered slowly by the IV route in this situation (see <content styleCode="bold">
+                        <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                     </content>).</paragraph>
+                  <br/>
+                  <paragraph>In the treatment of beriberi, 10 to 20 mg of thiamine hydrochloride are given IM three times daily for as long as two weeks. (See <content styleCode="bold">
+                        <linkHtml href="#Section_5">WARNINGS</linkHtml> </content>regarding repeated injections of thiamine.) An oral therapeutic multivitamin preparation containing 5 to 10 mg thiamine, administered daily for one month, is recommended to achieve body tissue saturation.</paragraph>
+                  <br/>
+                  <paragraph>Infantile beriberi that is mild may respond to oral therapy, but if collapse occurs, doses of 25 mg may cautiously be given IV.</paragraph>
+                  <br/>
+                  <paragraph>Poor dietary habits should be corrected and an abundant and well-balanced dietary intake should be prescribed.</paragraph>
+                  <br/>
+                  <paragraph>Patients with neuritis of pregnancy in whom vomiting is severe enough to preclude adequate oral therapy should receive 5 to 10 mg of thiamine hydrochloride IM daily.</paragraph>
+                  <br/>
+                  <paragraph>In the treatment of Wernicke-Korsakoff syndrome, thiamine hydrochloride has been administered IV in an initial dose of 100 mg, followed by IM doses of 50 to 100 mg daily until the patient is consuming a regular, balanced diet. (See <content styleCode="bold">
+                        <linkHtml href="#Section_5">WARNINGS</linkHtml> </content>regarding repeated injections of thiamine.)</paragraph>
+                  <br/>
+                  <paragraph>Patients with marginal thiamine status to whom dextrose is being administered should receive 100 mg thiamine hydrochloride in each of the first few liters of IV fluid to avoid precipitating heart failure.</paragraph>
+                  <br/>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="20250227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="a5f2ec9c-41e3-42c4-aa18-a514d6410282"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Thiamine Hydrochloride Injection, USP is supplied as follows: </content>
+                  </paragraph>
+                  <table cellspacing="0" cellpadding="0" border="0">
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="top">
+                              <content styleCode="bold">Unit of sale</content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold">Strength</content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold">Each</content>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="center" valign="top">NDC 68083-567-25<br/>Unit of 25<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">200 mg per 2 mL<br/>(100 mg per mL)<br/>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">NDC 68083-567-01<br/>2 mL Multiple Dose Vial<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Store at 20° to 25°C (68° to 77° F) [see USP Controlled Room Temperature].<br/>
+                     <content styleCode="bold">PROTECT FROM LIGHT</content>
+                     <br/> Use only if solution is clear and seal intact.</paragraph>
+                  <br/>
+                  <paragraph>Manufactured by:<br/> Gland Pharma Limited<br/> Hyderabad -502307, INDIA</paragraph>
+                  <br/>
+                  <paragraph>Issued: April 2023</paragraph>
+               </text>
+               <effectiveTime value="20250227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_17">
+               <id root="8b0356f9-3643-4f27-8dfb-fa9e792c8cf6"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Carton Label</content>
+                     </content>
+                     <br/> NDC 68083-567-25<br/>
+                     <content styleCode="bold">Thiamine HCl</content>
+                     <br/> Injection, USP<br/> 200 mg per 2 mL<br/> (100 mg per mL)<br/> For intramuscular or intravenous use.<br/>
+                     <content styleCode="bold">25 x 2 mL</content>                                        <content styleCode="bold">Rx only</content>
+                     <br/> Multiple Dose Vials </paragraph>
+                  <br/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold"/> <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">
+                        <content styleCode="bold">Vial Label</content>
+                     </content>
+                     <br/> NDC 68083-567-01           Rx only<br/>
+                     <content styleCode="bold">Thiamine HCl</content>
+                     <br/> Injection, USP<br/> 200 mg per 2 mL<br/> (100 mg per mL)<br/> For intramuscular or intravenous use<br/> Protect from light.<br/>
+                     <content styleCode="bold">2 mL </content>Multiple Dose Vial               </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM3"/>
+                  </paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20250227"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>thiamine-spl-carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="thiamine-spl-carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>thiamine-spl-vial</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="thiamine-spl-vial.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

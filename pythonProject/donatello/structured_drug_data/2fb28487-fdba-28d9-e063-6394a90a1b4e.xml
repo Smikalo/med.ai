@@ -1,0 +1,2086 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2fb28487-fdba-28d9-e063-6394a90a1b4e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Dihydroergotamine Mesylate</content>
+      <br/>
+      <content styleCode="bold">Nasal Spray</content>
+   </title>
+   <effectiveTime value="20250306"/>
+   <setId root="977de209-c53a-4cb4-9f3f-1e850600a9dc"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="832011691"/>
+            <name>Oceanside Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="514042399"/>
+                        <name>MIPHARM SPA</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68682-357" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2fb2ac34-d03f-3ef6-e063-6294a90a8958"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250306"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68682-357" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dihydroergotamine Mesylate</name>
+                        <formCode code="C42989" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SPRAY"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>dihydroergotamine mesylate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3G6A5W338E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CAFFEINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS DEXTROSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="142M471B3J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="4"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="81AXN7R2QT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIHYDROERGOTAMINE MESYLATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="436O5HM03C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DIHYDROERGOTAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="8" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="68682-357-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20130318"/>
+                                          <high value="20270630"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020148" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73605" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA authorized generic"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20130318"/>
+                              <high value="20270630"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38284" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NASAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_85325a48-ea34-4109-9840-b87386a36dff">
+               <id root="2fb28487-fdbb-28d9-e063-6394a90a1b4e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">The solution used in Dihydroergotamine Mesylate Nasal Spray (4 mg/mL) is intended for intranasal use and must not be injected.</content>
+                  </paragraph>
+                  <paragraph>Rx Only</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="BOX">
+               <id root="2fb28487-fdbc-28d9-e063-6394a90a1b4e"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING: PERIPHERAL ISCHEMIA FOLLOWING COADMINISTRATION 
+ <br/>  WITH POTENT CYP3A4 INHIBITORS
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Serious and/or life-threatening peripheral ischemia has been associated with the coadministration of DIHYDROERGOTAMINE with potent CYP 3A4 inhibitors including protease inhibitors and macrolide antibiotics. Because CYP 3A4 inhibition elevates the serum levels of DIHYDROERGOTAMINE, the risk for vasospasm leading to cerebral ischemia and/or ischemia of the extremities is increased. Hence, concomitant use of these medications is contraindicated.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(see
+  
+   <content styleCode="italics">
+                           <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                        </content>and
+  
+   <content styleCode="italics">
+                           <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                        </content>).
+ 
+  </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6592194d-325b-4fc5-bc53-8c849bb11f25">
+               <id root="2fb28487-fdbd-28d9-e063-6394a90a1b4e"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Dihydroergotamine mesylate is ergotamine hydrogenated in the 9,10 position as the mesylate salt. Dihydroergotamine Mesylate Nasal Spray is known chemically as ergotaman-3’, 6’, 18-trione, 9,10-dihydro-12’-hydroxy-2’-methyl-5’- (phenylmethyl)-, (5’α)-, monomethane-sulfonate. Its molecular weight is 679.78 and its empirical formula is C
+ 
+  <sub>33</sub>H
+ 
+  <sub>37</sub>N
+ 
+  <sub>5</sub>O
+ 
+  <sub>5</sub>•CH
+ 
+  <sub>4</sub>O
+ 
+  <sub>3</sub>S.
+
+ </paragraph>
+                  <paragraph>The chemical structure is:</paragraph>
+                  <renderMultiMedia ID="id237" referencedObject="MM1"/>
+                  <paragraph>Dihydroergotamine Mesylate Nasal Spray is provided for intranasal administration as a clear, colorless to light yellow aqueous solution in an amber glass vial containing:</paragraph>
+                  <table width="60%">
+                     <col width="44%"/>
+                     <col width="15%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>dihydroergotamine mesylate</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>4 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>caffeine, anhydrous</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>10 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>dextrose, anhydrous</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>50 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>carbon dioxide</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>qs</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>purified water</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>qs 1 mL</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Each milliliter contains</paragraph>
+                           </td>
+                           <td valign="top"/>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Dihydroergotamine mesylate</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>4 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>(equivalent to 3.43 mg dihydroergotamine)</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top"/>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="migranal-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7ea4d714-1bcb-4694-a9d0-673eeaeb4910">
+               <id root="2fb28487-fdbe-28d9-e063-6394a90a1b4e"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <section ID="ID_24c8704b-3c2e-4911-8d6b-89211191b5e8">
+                     <id root="2fb28487-fdbf-28d9-e063-6394a90a1b4e"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>Mechanism of Action</title>
+                     <text>
+                        <paragraph>Dihydroergotamine binds with high affinity to 5-HT
+ 
+  <sub>1Dα</sub>and 5-HT
+ 
+  <sub>1Dβ</sub>receptors. It also binds with high affinity to serotonin 5-HT
+ 
+  <sub>1A</sub>, 5-HT
+ 
+  <sub>2A</sub>, and 5-HT
+ 
+  <sub>2C</sub>receptors, noradrenaline α
+ 
+  <sub>2A</sub>, α
+ 
+  <sub>2B</sub>and α
+ 
+  <sub>1</sub>receptors, and dopamine D
+ 
+  <sub>2L</sub>and D
+ 
+  <sub>3</sub>receptors.
+
+ </paragraph>
+                        <paragraph>The therapeutic activity of dihydroergotamine in migraine is generally attributed to the agonist effect at 5-HT
+ 
+  <sub>1D</sub>receptors. Two current theories have been proposed to explain the efficacy of 5-HT
+ 
+  <sub>1D</sub>receptor agonists in migraine. One theory suggests that activation of 5-HT
+ 
+  <sub>1D</sub>receptors located on intracranial blood vessels, including those on arterio-venous anastomoses, leads to vasoconstriction, which correlates with the relief of migraine headache. The alternative hypothesis suggests that activation of 5-HT
+ 
+  <sub>1D</sub>receptors on sensory nerve endings of the trigeminal system results in the inhibition of pro-inflammatory neuropeptide release. In addition, dihydroergotamine possesses oxytocic properties.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_ca90a698-a590-468e-9305-7be73cbf88e8">
+                     <id root="2fb28487-fdc0-28d9-e063-6394a90a1b4e"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <effectiveTime value="20250306"/>
+                     <component>
+                        <section ID="ID_973b290f-63ca-4238-99f8-f305dc1997b0">
+                           <id root="2fb28487-fdc1-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Absorption</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Dihydroergotamine mesylate is poorly bioavailable following oral administration. Following intranasal administration, however, the mean bioavailability of dihydroergotamine mesylate is 32% relative to the injectable administration. Absorption is variable, probably reflecting both intersubject differences of absorption and the technique used for self-administration.</paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_9c93e6c6-f499-4334-a831-01cc25fb5a14">
+                           <id root="2fb28487-fdc2-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Distribution</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Dihydroergotamine mesylate is 93% plasma protein bound. The apparent steady-state volume of distribution is approximately 800 liters.</paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_ec58fa66-146e-4103-93c1-89016091e0d3">
+                           <id root="2fb28487-fdc3-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Metabolism</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Four dihydroergotamine mesylate metabolites have been identified in human plasma following oral administration. The major metabolite, 8’-β-hydroxydihydroergotamine, exhibits affinity equivalent to its parent for adrenergic and 5-HT receptors and demonstrates equivalent potency in several venoconstrictor activity models, in
+ 
+  <content styleCode="italics">vivo</content>and in
+ 
+  <content styleCode="italics">vitro</content>. The other metabolites, i.e., dihydrolysergic acid, dihydrolysergic amide and a metabolite formed by oxidative opening of the proline ring are of minor importance. Following nasal administration, total metabolites represent only 20%-30% of plasma AUC. The systemic clearance of dihydroergotamine mesylate following I.V. and I.M. administration is 1.5 L/min. Quantitative pharmacokinetic characterization of the four metabolites has not been performed.
+
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_a0335853-b8a2-460f-bd2c-963fb7042873">
+                           <id root="2fb28487-fdc4-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Excretion</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The major excretory route of dihydroergotamine is via the bile in the feces. After intranasal administration the urinary recovery of parent drug amounts to about 2% of the administered dose compared to 6% after I.M. administration. The total body clearance is 1.5 L/min which reflects mainly hepatic clearance. The renal clearance (0.1 L/min) is unaffected by the route of dihydroergotamine administration. The decline of plasma dihydroergotamine is biphasic with a terminal half-life of about 10 hours.</paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_0e846bb0-e09c-453e-b99b-906d2a3968cd">
+                           <id root="2fb28487-fdc5-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Subpopulations</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>No studies have been conducted on the effect of renal or hepatic impairment, gender, race, or ethnicity on dihydroergotamine pharmacokinetics. Dihydroergotamine Mesylate Nasal Spray is contraindicated in patients with severely impaired hepatic or renal function (
+ 
+  <content styleCode="italics">see
+  
+   <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                                 </content>).
+
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_7a70cbbc-8fbe-47e9-8de7-f6b9013c6723">
+                           <id root="2fb28487-fdc6-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Interactions</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The pharmacokinetics of dihydroergotamine did not appear to be significantly affected by the concomitant use of a local vasoconstrictor (e.g., fenoxazoline).</paragraph>
+                              <paragraph>Multiple oral doses of the β-adrenoceptor antagonist propranolol, used for migraine prophylaxis, had no significant influence on the Cmax, Tmax or AUC of dihydroergotamine doses up to 4 mg. Pharmacokinetic interactions have been reported in patients treated orally with other ergot alkaloids (e.g., increased levels of ergotamine) and macrolide antibiotics, principally troleandomycin, presumably due to inhibition of cytochrome P450 3A metabolism of the alkaloids by troleandomycin. Dihydroergotamine has also been shown to be an inhibitor of cytochrome P450 3A catalyzed reactions and rare reports of ergotism have been obtained from patients treated with dihydroergotamine and macrolide antibiotics (e.g., troleandomycin, clarithromycin, erythromycin), and in patients treated with dihydroergotamine and protease inhibitors (e.g. ritonavir), presumably due to inhibition of cytochrome P450 3A metabolism of ergotamine (
+ 
+  <content styleCode="italics">see
+  
+   <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                                 </content>). No pharmacokinetic interactions involving other cytochrome P450 isoenzymes are known.
+
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c93971b4-bd41-456c-a432-31525440a20a">
+               <id root="2fb28487-fdc7-28d9-e063-6394a90a1b4e"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>Clinical Trials</title>
+               <text>
+                  <paragraph>The efficacy of Dihydroergotamine Mesylate Nasal Spray for the acute treatment of migraine headaches was evaluated in four randomized, double-blind, placebo-controlled studies in the U.S. The patient population for the trials was predominantly female (87%) and Caucasian (95%) with a mean age of 39 years (range 18 to 65 years). Patients treated a single moderate to severe migraine headache with a single dose of study medication and assessed pain severity over the 24 hours following treatment. Headache response was determined 0.5, 1, 2, 3 and 4 hours after dosing and was defined as a reduction in headache severity to mild or no pain. In studies 1 and 2, a four-point pain intensity scale was utilized; in studies 3 and 4, a five-point scale was used that included both pain response and restoration of function for “severe” or “incapacitating” pain, a less clear endpoint. Although rescue medication was allowed in all four studies, patients were instructed not to use them during the four-hour observation period. In studies 3 and 4, a total dose of 2 mg was compared to placebo. In studies 1 and 2, doses of 2 and 3 mg were evaluated, and showed no advantage of the higher dose for a single treatment. In all studies, patients received a regimen consisting of 0.5 mg in each nostril, repeated in 15 minutes (and again in another 15 minutes for the 3 mg dose in studies 1 and 2).</paragraph>
+                  <paragraph>The percentage of patients achieving headache response 4 hours after treatment was significantly greater in patients receiving 2 mg doses of Dihydroergotamine Mesylate Nasal Spray compared to those receiving placebo in 3 of the 4 studies (see Tables 1 &amp; 2 and Figures 1 &amp; 2).</paragraph>
+                  <table ID="_RefID0EHKAC" width="80%">
+                     <caption>Table 1: Studies 1 and 2: Percentage of Patients with Headache Response
+  
+   <footnote ID="_Ref105671486">Headache response was defined as a reduction in headache severity to mild or no pain.  Headache response was based on pain intensity as interpreted by the patient using a four-point pain intensity scale.  </footnote>2 and 4 Hours Following a Single Treatment of Study Medication [Dihydroergotamine Mesylate Nasal Spray or Placebo]
+ 
+  </caption>
+                     <col width="15%"/>
+                     <col width="21%"/>
+                     <col width="14%"/>
+                     <col width="15%"/>
+                     <col width="15%"/>
+                     <thead>
+                        <tr>
+                           <th align="left" styleCode="Botrule Toprule " valign="top"/>
+                           <th align="left" styleCode="Botrule Toprule " valign="top"/>
+                           <th align="left" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">N</content>
+                           </th>
+                           <th align="left" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">2 hours</content>
+                           </th>
+                           <th align="left" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">4 hours</content>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>Study 1</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>Dihydroergotamine</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>105</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>61%
+     
+      <footnote ID="_Ref105671626">p value &lt; 0.001</footnote>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>70%
+     
+      <footnoteRef IDREF="_Ref105671626"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top"/>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Mesylate Nasal Spray 
+      <br/>  Placebo
+     </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>98</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>23%</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>28%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Study 2</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Dihydroergotamine</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>103</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>47%</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>56%
+     
+      <footnote ID="_Ref105671619">p value &lt; 0.01</footnote>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top"/>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Mesylate Nasal Spray 
+      <br/>  Placebo
+     </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>102</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>33%</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>35%</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table ID="_RefID0ENOAC" width="80%">
+                     <caption>Table 2: Studies 3 and 4: Percentage of Patients with Headache Response
+  
+   <footnote ID="_Ref105671755">Headache response was defined as a reduction in headache severity to mild or no pain.  Headache response was evaluated on a five-point scale that included both pain response and restoration of function for “severe” or “incapacitating” pain.</footnote>2 and 4 Hours Following a Single Treatment of Study Medication [Dihydroergotamine Mesylate Nasal Spray or Placebo]
+ 
+  </caption>
+                     <col width="15%"/>
+                     <col width="21%"/>
+                     <col width="14%"/>
+                     <col width="15%"/>
+                     <col width="15%"/>
+                     <thead>
+                        <tr>
+                           <th align="left" styleCode="Botrule Toprule " valign="top"/>
+                           <th align="left" styleCode="Botrule Toprule " valign="top"/>
+                           <th align="left" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">N</content>
+                           </th>
+                           <th align="left" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">2 hours</content>
+                           </th>
+                           <th align="left" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">4 hours</content>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>Study 3</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>Dihydroergotamine</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>50</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>32%</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>48%
+     
+      <footnote ID="_Ref105671838">p value &lt; 0.01</footnote>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top"/>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Mesylate Nasal Spray 
+      <br/>  Placebo
+     </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>50</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>20%</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>22%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Study 4</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Dihydroergotamine</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>47</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>30%</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>47%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top"/>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Mesylate Nasal Spray 
+      <br/>  Placebo
+     </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>50</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>20%</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>30%</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Comparisons of drug performance based upon results obtained in different clinical trials are never reliable. Because studies are conducted at different times, with different samples of patients, by different investigators, employing different criteria and/or different interpretations of the same criteria, under different conditions (dose, dosing regimen, etc.), quantitative estimates of treatment response and the timing of response may be expected to vary considerably from study to study.</content>
+                  </paragraph>
+                  <paragraph>The Kaplan-Meier plots below (Figures 1 &amp; 2) provides an estimate of the probability that a patient will have responded to a single 2 mg dose of Dihydroergotamine Mesylate Nasal Spray as a function of the time elapsed since initiation of treatment.</paragraph>
+                  <renderMultiMedia ID="id972562863" referencedObject="ID_710c1b7d-723b-49d2-bea8-deef17ef89b1"/>
+                  <paragraph>*The figure shows the probability over time of obtaining a response following treatment with Dihydroergotamine Mesylate Nasal Spray. Headache response was based on pain intensity as interpreted by the patient using a four-point pain intensity scale. Patients not achieving response within 4 hours were censored to 4 hours.</paragraph>
+                  <renderMultiMedia ID="id-1647346957" referencedObject="ID_2e3e570a-cd4c-48ab-8415-5d804b13716d"/>
+                  <paragraph>*The figure shows the probability over time of obtaining a response following treatment with Dihydroergotamine Mesylate Nasal Spray. Headache response was evaluated on a five-point scale that confounded pain response and restoration of function for “severe” or “incapacitating” pain. Patients not achieving response within 4 hours were censored to 4 hours.</paragraph>
+                  <paragraph>For patients with migraine-associated nausea, photophobia, and phonophobia at baseline, there was a lower incidence of these symptoms at 2 and 4 hours following administration of Dihydroergotamine Mesylate Nasal Spray compared to placebo.</paragraph>
+                  <paragraph>Patients were not allowed to use additional treatments for eight hours prior to study medication dosing and during the four-hour observation period following study treatment. Following the 4-hour observation period, patients were allowed to use additional treatments. For all studies, the estimated probability of patients using additional treatments for their migraines over the 24 hours following the single 2 mg dose of study treatment is summarized in Figure 3 below.</paragraph>
+                  <renderMultiMedia ID="id225190292" referencedObject="ID_0a30fda7-8cd0-4cbc-8a4a-d4c040b70981"/>
+                  <paragraph>*Kaplan-Meier plot based on data obtained from all studies with patients not using additional treatments censored to 24 hours. All patients received a single treatment of study medication for their migraine attack. The plot also includes patients who had no response to the initial dose.</paragraph>
+                  <paragraph>Neither age nor sex appear to affect the patient’s response to Dihydroergotamine Mesylate Nasal Spray. While patients with menstrual migraine, migraine with aura, and migraine without aura by medical history were included in the clinical evaluation of Dihydroergotamine Mesylate Nasal Spray, patients were not required to report the specific type of migraine treated with study medication. Thus, neither the effect of menses on migraine nor the presence or the absence of aura were assessed. The racial distribution of patients was insufficient to determine the effect of race on the efficacy of Dihydroergotamine Mesylate Nasal Spray.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <observationMedia ID="ID_710c1b7d-723b-49d2-bea8-deef17ef89b1">
+                     <text>figure 1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="figure 1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_2e3e570a-cd4c-48ab-8415-5d804b13716d">
+                     <text>figure 2.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="figure 2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_0a30fda7-8cd0-4cbc-8a4a-d4c040b70981">
+                     <text>figure 3.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="figure 3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="INDICATIONS">
+               <id root="2fb28487-fdc8-28d9-e063-6394a90a1b4e"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Dihydroergotamine Mesylate Nasal Spray is indicated for the acute treatment of migraine headaches with or without aura.</paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Nasal Spray is not intended for the prophylactic therapy of migraine or for the management of hemiplegic or basilar migraine.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CONTRAINDICATIONS">
+               <id root="2fb28487-fdc9-28d9-e063-6394a90a1b4e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">There have been a few reports of serious adverse events associated with the coadministration of dihydroergotamine and potent CYP 3A4 inhibitors, such as protease inhibitors and macrolide antibiotics, resulting in vasospasm that led to cerebral ischemia and/or ischemia of the extremities. The use of potent CYP 3A4 inhibitors (ritonavir, nelfinavir, indinavir, erythromycin, clarithromycin, troleandomycin, ketoconazole, itraconazole) with dihydroergotamine is, therefore contraindicated (
+  
+   <content styleCode="italics">see</content>
+                        <linkHtml href="#CYP">WARNINGS, CYP 3A4 Inhibitors</linkHtml>).
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dihydroergotamine Mesylate Nasal Spray should not be given to patients with ischemic heart disease (angina pectoris, history of myocardial infarction, or documented silent ischemia) or to patients who have clinical symptoms or findings consistent with coronary artery vasospasm including Prinzmetal’s variant angina (
+  
+   <content styleCode="italics">see</content>
+                        <linkHtml href="#WARNINGS">WARNINGS</linkHtml>).
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Because Dihydroergotamine Mesylate Nasal Spray may increase blood pressure, it should not be given to patients with uncontrolled hypertension.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dihydroergotamine Mesylate Nasal Spray, 5-HT
+  
+   <sub>1</sub>agonists (e.g., sumatriptan), ergotamine-containing or ergot-type medications or methysergide should not be used within 24 hours of each other.
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dihydroergotamine Mesylate Nasal Spray should not be administered to patients with hemiplegic or basilar migraine.</content>
+                  </paragraph>
+                  <paragraph>In addition to those conditions mentioned above, Dihydroergotamine Mesylate Nasal Spray is also contraindicated in patients with known peripheral arterial disease, sepsis, following vascular surgery, and severely impaired hepatic or renal function.</paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Nasal Spray is contraindicated in patients who have previously shown hypersensitivity to ergot alkaloids.</paragraph>
+                  <paragraph>Dihydroergotamine mesylate should not be used with peripheral and central vasoconstrictors because the combination may result in additive or synergistic elevation of blood pressure.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS">
+               <id root="2fb28487-fdca-28d9-e063-6394a90a1b4e"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dihydroergotamine Mesylate Nasal Spray should only be used where a clear diagnosis of migraine headache has been established.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <section ID="CYP">
+                     <id root="2fb28487-fdcb-28d9-e063-6394a90a1b4e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>CYP 3A4 Inhibitors (e.g., Macrolide Antibiotics and Protease Inhibitors)</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">There have been rare reports of serious adverse events in connection with the coadministration of dihydroergotamine and potent CYP 3A4 inhibitors, such as protease inhibitors and macrolide antibiotics, resulting in vasospasm that led to cerebral ischemia and/or and ischemia of the extremities. The use of potent CYP 3A4 inhibitors with dihydroergotamine should therefore be avoided (
+  
+   <content styleCode="italics">see
+   
+    <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                              </content>). Examples of some of the more potent CYP 3A4 inhibitors include: antifungals ketoconazole and itraconazole, the protease inhibitors ritonavir, nelfinavir, and indinavir, and macrolide antibiotics erythromycin, clarithromycin, and troleandomycin. Other less potent CYP 3A4 inhibitors should be administered with caution. Less potent inhibitors include saquinavir, nefazodone, fluconazole, grapefruit juice, fluoxetine, fluvoxamine, zileuton, and clotrimazole. These lists are not exhaustive, and the prescriber should consider the effects on CYP 3A4 of other agents being considered for concomitant use with dihydroergotamine.
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Fibrotic">
+                     <id root="2fb28487-fdcc-28d9-e063-6394a90a1b4e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Fibrotic Complications</title>
+                     <text>
+                        <paragraph>There have been reports of pleural and retroperitoneal fibrosis in patients following prolonged daily use of injectable dihydroergotamine mesylate. Rarely, prolonged daily use of other ergot alkaloid drugs has been associated with cardiac valvular fibrosis. Rare cases have also been reported in association with the use of injectable dihydroergotamine mesylate; however, in those cases, patients also received drugs known to be associated with cardiac valvular fibrosis.</paragraph>
+                        <paragraph>Administration of Dihydroergotamine Mesylate Nasal Spray, should not exceed the dosing guidelines and should not be used for chronic daily administration (
+ 
+  <content styleCode="italics">see</content>
+                           <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a35a706c-372a-48d9-ae20-fab211f652d9">
+                     <id root="2fb28487-fdcd-28d9-e063-6394a90a1b4e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Risk of Myocardial Ischemia and/or Infarction and Other Adverse Cardiac Events:</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Dihydroergotamine Mesylate Nasal Spray should not be used by patients with documented ischemic or vasospastic coronary artery disease (
+  
+   <content styleCode="italics">see
+   
+    <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                              </content>). It is strongly recommended that Dihydroergotamine Mesylate Nasal Spray not be given to patients in whom unrecognized coronary artery disease (CAD) is predicted by the presence of risk factors (e.g., hypertension, hypercholesterolemia, smoker, obesity, diabetes, strong family history of CAD, females who are surgically or physiologically postmenopausal, or males who are over 40 years of age) unless a cardiovascular evaluation provides satisfactory clinical evidence that the patient is reasonably free of coronary artery and ischemic myocardial disease or other significant underlying cardiovascular disease. The sensitivity of cardiac diagnostic procedures to detect cardiovascular disease or predisposition to coronary artery vasospasm is modest, at best. If, during the cardiovascular evaluation, the patient’s medical history or electrocardiographic investigations reveal findings indicative of or consistent with coronary artery vasospasm or myocardial ischemia, Dihydroergotamine Mesylate Nasal Spray should not be administered (
+  
+   <content styleCode="italics">see
+   
+    <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                              </content>).
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">For patients with risk factors predictive of CAD who are determined to have a satisfactory cardiovascular evaluation, it is strongly recommended that administration of the first dose of Dihydroergotamine Mesylate Nasal Spray take place in the setting of a physician’s office or similar medically staffed and equipped facility unless the patient has previously received dihydroergotamine mesylate. Because cardiac ischemia can occur in the absence of clinical symptoms, consideration should be given to obtaining on the first occasion of use an electrocardiogram (ECG) during the interval immediately following Dihydroergotamine Mesylate Nasal Spray, in these patients with risk factors.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">It is recommended that patients who are intermittent long-term users of Dihydroergotamine Mesylate Nasal Spray and who have or acquire risk factors predictive of CAD, as described above, undergo periodic interval cardiovascular evaluation as they continue to use Dihydroergotamine Mesylate Nasal Spray.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">The systematic approach described above is currently recommended as a method to identify patients in whom Dihydroergotamine Mesylate Nasal Spray may be used to treat migraine headaches with an acceptable margin of cardiovascular safety.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_284b812c-1551-4257-b279-18dcab64df40">
+                     <id root="2fb28487-fdce-28d9-e063-6394a90a1b4e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiac Events and Fatalities</title>
+                     <text>
+                        <paragraph>No deaths have been reported in patients using Dihydroergotamine Mesylate Nasal Spray. However, the potential for adverse cardiac events exists. Serious adverse cardiac events, including acute myocardial infarction, life-threatening disturbances of cardiac rhythm, and death have been reported to have occurred following the administration of dihydroergotamine mesylate injection (e.g., D.H.E. 45 Injection). Considering the extent of use of dihydroergotamine mesylate in patients with migraine, the incidence of these events is extremely low.</paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_376d4aff-5c27-4da1-9ae2-e179939076e9">
+                     <id root="2fb28487-fdcf-28d9-e063-6394a90a1b4e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Drug-Associated Cerebrovascular Events and Fatalities</title>
+                     <text>
+                        <paragraph>Cerebral hemorrhage, subarachnoid hemorrhage, stroke, and other cerebrovascular events have been reported in patients treated with D.H.E. 45 Injection; and some have resulted in fatalities. In a number of cases, it appears possible that the cerebrovascular events were primary, the D.H.E. 45 Injection having been administered in the incorrect belief that the symptoms experienced were a consequence of migraine, when they were not. It should be noted that patients with migraine may be at increased risk of certain cerebrovascular events (e.g., stroke, hemorrhage, transient ischemic attack).</paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_7284669a-1a56-4765-ae3a-484ceadb1a2b">
+                     <id root="2fb28487-fdd0-28d9-e063-6394a90a1b4e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other Vasospasm Related Events</title>
+                     <text>
+                        <paragraph>Dihydroergotamine Mesylate Nasal Spray, like other ergot alkaloids, may cause vasospastic reactions other than coronary artery vasospasm. Myocardial and peripheral vascular ischemia have been reported with Dihydroergotamine Mesylate Nasal Spray.</paragraph>
+                        <paragraph>Dihydroergotamine Mesylate Nasal Spray associated vasospastic phenomena may also cause muscle pains, numbness, coldness, pallor, and cyanosis of the digits. In patients with compromised circulation, persistent vasospasm may result in gangrene or death, Dihydroergotamine Mesylate Nasal Spray should be discontinued immediately if signs or symptoms of vasoconstriction develop.</paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_1a49dce2-ef17-46aa-acda-d72bb6c232dc">
+                     <id root="2fb28487-fdd1-28d9-e063-6394a90a1b4e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Increase in Blood Pressure</title>
+                     <text>
+                        <paragraph>Significant elevation in blood pressure has been reported on rare occasions in patients with and without a history of hypertension treated with Dihydroergotamine Mesylate Nasal Spray and dihydroergotamine mesylate injection. Dihydroergotamine Mesylate Nasal Spray is contraindicated in patients with uncontrolled hypertension
+ 
+  <content styleCode="italics">(see
+  
+   <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                           </content>).
+
+ </paragraph>
+                        <paragraph>An 18% increase in mean pulmonary artery pressure was seen following dosing with another 5HT
+ 
+  <sub>1</sub>agonist in a study evaluating subjects undergoing cardiac catheterization.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_99a5448f-4050-4d49-b7c0-b13b1f462d1c">
+               <id root="2fb28487-fdd2-28d9-e063-6394a90a1b4e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Local Irritation</title>
+               <text>
+                  <paragraph>Approximately 30% of patients using Dihydroergotamine Mesylate Nasal Spray (compared to 9% of placebo patients) have reported irritation in the nose, throat, and/or disturbances in taste. Irritative symptoms include congestion, burning sensation, dryness, paraesthesia, discharge, epistaxis, pain, or soreness. The symptoms were predominantly mild to moderate in severity and transient. In approximately 70% of the above mentioned cases, the symptoms resolved within four hours after dosing with Dihydroergotamine Mesylate Nasal Spray. Examinations of the nose and throat in a small subset (N = 66) of study participants treated for up to 36 months (range 1-36 months) did not reveal any clinically noticeable injury. Other than this limited number of patients, the consequences of extended and repeated use of Dihydroergotamine Mesylate Nasal Spray on the nasal and/or respiratory mucosa have not been systematically evaluated in patients.</paragraph>
+                  <paragraph>Nasal tissue in animals treated with dihydroergotamine mesylate daily at nasal cavity surface area exposures (in mg/mm
+ 
+  <sup>2</sup>) that were equal to or less than those achieved in humans receiving the maximum recommended daily dose of 0.08 mg/kg/day showed mild mucosal irritation characterized by mucous cell and transitional cell hyperplasia and squamous cell metaplasia. Changes in rat nasal mucosa at 64 weeks were less severe than at 13 weeks. Local effects on respiratory tissue after chronic intranasal dosing in animals have not been evaluated.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <section ID="ID_6b4b50fc-1642-4b69-904d-86846f5e5110">
+                     <id root="2fb28487-fdd3-28d9-e063-6394a90a1b4e"/>
+                     <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+                     <title>Medication Overuse Headache</title>
+                     <text>
+                        <paragraph>Overuse of acute migraine drugs (e.g., ergotamines, triptans, opioids, or a combination of these drugs for 10 or more days per month) may lead to exacerbation of headache (i.e., medication overuse headache). Medication overuse headache may present as migraine-like daily headaches or as a marked increase in frequency of migraine attacks. Detoxification of patients including withdrawal of the overused drugs and treatment of withdrawal symptoms (which often includes a transient worsening of headache) may be necessary.</paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_8e3d6cf4-9705-4c19-8ee9-bd55ae50bb3d">
+                     <id root="2fb28487-fdd4-28d9-e063-6394a90a1b4e"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Preterm Labor</title>
+                     <text>
+                        <paragraph>Based on the mechanism of action of dihydroergotamine and findings from the published literature, Dihydroergotamine Mesylate Nasal Spray may cause preterm labor. Avoid use of Dihydroergotamine Mesylate Nasal Spray during pregnancy (
+ 
+  <content styleCode="italics">see PRECAUTIONS</content>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PRECAUTIONS">
+               <id root="2fb28487-fdd5-28d9-e063-6394a90a1b4e"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <section ID="ID_f22aae51-c3d9-4456-9997-c21b1ca99aec">
+                     <id root="2fb28487-fdd6-28d9-e063-6394a90a1b4e"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Dihydroergotamine Mesylate Nasal Spray may cause coronary artery vasospasm; patients who experience signs or symptoms suggestive of angina following its administration should, therefore, be evaluated for the presence of CAD or a predisposition to variant angina before receiving additional doses. Similarly, patients who experience other symptoms or signs suggestive of decreased arterial flow, such as ischemic bowel syndrome or Raynaud’s syndrome following the use of any 5-HT agonist are candidates for further evaluation (
+ 
+  <content styleCode="italics">see
+  
+   <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                           </content>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                     <component>
+                        <section ID="ID_20391775-741a-4063-bf56-557da4111ad0">
+                           <id root="2fb28487-fdd7-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Fibrotic Complications:</content>
+                           </title>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">see
+  
+   <linkHtml href="#Fibrotic">WARNINGS, Fibrotic Complications</linkHtml>
+                                 </content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_496eda80-a84f-4a19-a25c-1bfb40f73c74">
+                     <id root="2fb28487-fdd8-28d9-e063-6394a90a1b4e"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>The text of a patient information sheet is printed at the end of this insert. To assure safe and effective use of Dihydroergotamine Mesylate Nasal Spray, the information and instructions provided in the patient information sheet should be discussed with patients.</paragraph>
+                        <paragraph>Once the nasal spray applicator has been prepared, it should be discarded (with any remaining drug) after 8 hours.</paragraph>
+                        <paragraph>Patients should be advised to report to the physician immediately any of the following: numbness or tingling in the fingers and toes, muscle pain in the arms and legs, weakness in the legs, pain in the chest, temporary speeding or slowing of the heart rate, swelling, or itching.</paragraph>
+                        <paragraph>Prior to the initial use of the product by a patient, the prescriber should take steps to ensure that the patient understands how to use the product as provided (see Patient Information Sheet and product packaging).</paragraph>
+                        <paragraph>Administration of Dihydroergotamine Mesylate Nasal Spray, should not exceed the dosing guidelines and should not be used for chronic daily administration (
+ 
+  <content styleCode="italics">see
+  
+   <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_d4939ec1-5d67-460b-9754-04d6ef246233">
+                     <id root="2fb28487-fdd9-28d9-e063-6394a90a1b4e"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <effectiveTime value="20250306"/>
+                     <component>
+                        <section ID="ID_67c60e12-6516-4c70-a45f-ff591cc46210">
+                           <id root="2fb28487-fdda-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Vasoconstrictors</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Dihydroergotamine Mesylate Nasal Spray should not be used with peripheral vasoconstrictors because the combination may cause synergistic elevation of blood pressure.</paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_4ab452c5-fcf9-4e5c-9593-58cc6d9ed9ca">
+                           <id root="2fb28487-fddb-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Sumatriptan</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Sumatriptan has been reported to cause coronary artery vasospasm, and its effect could be additive with Dihydroergotamine Mesylate Nasal Spray. Sumatriptan and Dihydroergotamine Mesylate Nasal Spray should not be taken within 24 hours of each other (
+ 
+  <content styleCode="italics">see
+  
+   <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                                 </content>).
+
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_a972ac9b-939c-498c-af00-d958cfee4ca5">
+                           <id root="2fb28487-fddc-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Beta-Blockers</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Although the results of a clinical study did not indicate a safety problem associated with the administration of Dihydroergotamine Mesylate Nasal Spray to subjects already receiving propranolol, there have been reports that propranolol may potentiate the vasoconstrictive action of ergotamine by blocking the vasodilating property of epinephrine.</paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_6e31d142-1209-45ff-be1c-d04dc835f7d2">
+                           <id root="2fb28487-fddd-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Nicotine</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Nicotine may provoke vasoconstriction in some patients, predisposing to a greater ischemic response to ergot therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_1ef208fb-0d2f-4478-b25c-ad1293c57cbc">
+                           <id root="2fb28487-fdde-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">CYP 3A4 Inhibitors (e.g., Macrolide Antibiotics and Protease Inhibitors)</content>
+                           </title>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">See
+  
+   <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>and
+  
+   <linkHtml href="#WARNINGS">WARNINGS.</linkHtml>
+                                 </content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_62dd3c53-120a-4933-91bc-efdc79374f76">
+                           <id root="2fb28487-fddf-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">SSRI’s</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Weakness, hyperreflexia, and incoordination have been reported rarely when 5HT
+ 
+  <sub>1</sub>agonists have been coadministered with SSRI’s (e.g., fluoxetine, fluvoxamine, paroxetine, sertraline). There have been no reported cases from spontaneous reports of drug interaction between SSRI’s and Dihydroergotamine Mesylate Nasal Spray or D.H.E. 45.
+
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_00f44fb9-275a-4b26-9714-d5d1643ebff3">
+                           <id root="2fb28487-fde0-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Oral Contraceptives</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The effect of oral contraceptives on the pharmacokinetics of Dihydroergotamine Mesylate Nasal Spray has not been studied.</paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_2cef65d2-a7fe-4f5e-ac7b-4ef00430d726">
+                     <id root="2fb28487-fde1-28d9-e063-6394a90a1b4e"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <effectiveTime value="20250306"/>
+                     <component>
+                        <section ID="ID_58e4924f-9270-4817-adda-f95ed4877faa">
+                           <id root="2fb28487-fde2-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Carcinogenesis</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>In a 2-year mouse carcinogenicity study, subcutaneous administration of dihydroergotamine mesylate (0, 0.5, 1.5 or 5 mg/kg/day) resulted in an increased incidence of fibrosarcoma at the injection sites in males and females at the high dose.</paragraph>
+                              <paragraph>In a 2-year rat carcinogenicity study, intranasal administration of dihydroergotamine mesylate (0, 0.4, 0.8 or 1.6 mg/day for 13 weeks, followed by 0, 0.08, 0.24 or 0.8 mg/day for the remainder of the study) did not result in an increase in tumors.</paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_2c23b51d-e613-4608-8e03-a39ec33b2131">
+                           <id root="2fb28487-fde3-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Mutagenesis</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Dihydroergotamine mesylate was clastogenic in two in vitro chromosomal aberration assays, the V79 Chinese hamster cell assay with metabolic activation and the cultured human peripheral blood lymphocyte assay. There was no evidence of mutagenic potential when dihydroergotamine mesylate was tested in the presence or absence of metabolic activation in two gene mutation assays (the Ames test and the in vitro mammalian Chinese hamster V79/HGPRT assay) and in an assay for DNA damage (the rat hepatocyte unscheduled DNA synthesis test). Dihydroergotamine was not clastogenic in the in vivo mouse and hamster micronucleus tests.</paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_8521532c-b16f-4978-9243-65dbd6ecbf32">
+                           <id root="2fb28487-fde4-28d9-e063-6394a90a1b4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Impairment of Fertility</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Intranasal administration of dihydroergotamine to rats at doses up to 1.6 mg/day was not associated with adverse effects on fertility.</paragraph>
+                           </text>
+                           <effectiveTime value="20250306"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a297c335-50a9-4e34-8502-7177175e4c2b">
+                     <id root="2fb28487-fde5-28d9-e063-6394a90a1b4e"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Risk Summary</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Available data from published literature indicate an increased risk of preterm delivery with Dihydroergotamine Mesylate Nasal Spray use during pregnancy. Avoid use of Dihydroergotamine Mesylate Nasal Spray during pregnancy
+ 
+  <content styleCode="italics">(see WARNINGS)</content>. Data collected over decades have shown no increased risk of major birth defects or miscarriage with the use of dihydroergotamine mesylate during pregnancy
+ 
+  <content styleCode="italics">.</content>
+                        </paragraph>
+                        <paragraph>In animal reproduction studies, adverse effects on development were observed following intranasal administration of dihydroergotamine mesylate during pregnancy (decreased fetal body weight and/or skeletal ossification) in rats and rabbits or during pregnancy and lactation in rats (decreased body weight and impaired reproductive function in the offspring) at doses that were not associated with maternal toxicity (see Data).</paragraph>
+                        <paragraph>The estimated rate of major birth defects (2.2% to 2.9%) and miscarriage (17%) among deliveries to women with migraine are similar to rates reported in women without migraine. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriages in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Data</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Intranasal administration of dihydroergotamine mesylate to pregnant rats throughout the period of organogenesis resulted in decreased fetal body weight and/or skeletal ossification at doses of 0.16 mg/day and greater. A no-effect level for adverse effects on embryofetal development was not identified in rats. Intranasal administration of dihydroergotamine mesylate to pregnant rabbits throughout organogenesis resulted in decreased skeletal ossification at 3.6 mg/day. The no-effect dose for adverse effects on embryofetal development in rabbits was 1.2 mg/day.</paragraph>
+                        <paragraph>Intranasal administration of dihydroergotamine mesylate to female rats throughout pregnancy and lactation resulted in decreased body weight and impaired reproductive function (decreased mating indices) in the offspring at doses of 0.16 mg/day or greater. A no-effect dose for adverse effects on pre- and postnatal development in rats was not established. Effects on offspring development occurred at doses below those that produced evidence of maternal toxicity in these studies. Dihydroergotamine-induced intrauterine growth retardation has been attributed to reduced uteroplacental blood flow resulting from prolonged vasoconstriction of the uterine vessels and/or increased myometrial tone.</paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_afc3e585-2511-40bd-b2cd-86b7dd3e8616">
+                     <id root="2fb28487-fde6-28d9-e063-6394a90a1b4e"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>There are no data on the presence of dihydroergotamine in human milk; however, ergotamine, a related drug, is present in human milk. There are reports of diarrhea, vomiting, weak pulse, and unstable blood pressure in breastfed infants exposed to ergotamine. Dihydroergotamine Mesylate Nasal Spray may reduce milk supply because it may decrease prolactin levels. Because of the potential for reduced milk supply and serious adverse events in the breastfed infant, including diarrhea, vomiting, weak pulse, and unstable blood pressure, advise patients not to breastfeed during treatment with Dihydroergotamine Mesylate Nasal Spray and for 3 days after the last dose. Breast milk supply during this time should be pumped and discarded.</paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_1f54f32c-2572-40fd-aa5d-3e52cc3e1296">
+                     <id root="2fb28487-fde7-28d9-e063-6394a90a1b4e"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_0b9ad6ad-b849-432d-a176-e569441f2912">
+                     <id root="2fb28487-fde8-28d9-e063-6394a90a1b4e"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Use in the Elderly</title>
+                     <text>
+                        <paragraph>There is no information about the safety and effectiveness of Dihydroergotamine Mesylate Nasal Spray in this population because patients over age 65 were excluded from the controlled clinical trials.</paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_719c68f3-aee0-4808-b588-028bed10ab47">
+               <id root="2fb28487-fde9-28d9-e063-6394a90a1b4e"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">During clinical studies and the foreign postmarketing experience with Dihydroergotamine Mesylate Nasal Spray there have been no fatalities due to cardiac events.</content>
+                  </paragraph>
+                  <paragraph>Serious cardiac events, including some that have been fatal, have occurred following use of the parenteral form of dihydroergotamine mesylate (D.H.E. 45 Injection), but are extremely rare. Events reported have included coronary artery vasospasm, transient myocardial ischemia, myocardial infarction, ventricular tachycardia, and ventricular fibrillation (
+ 
+  <content styleCode="italics">see
+  
+   <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>,
+  
+   <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                     </content>, and
+ 
+  <content styleCode="italics">
+                        <linkHtml href="#PRECAUTIONS">PRECAUTIONS</linkHtml>
+                     </content>).
+
+ </paragraph>
+                  <paragraph>Fibrotic complications have been reported in association with long term use of injectable dihydroergotamine mesylate
+ 
+  <content styleCode="italics">(see
+  
+   <linkHtml href="#Fibrotic">WARNINGS, Fibrotic Complications</linkHtml>
+                     </content>).
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <section ID="ID_1ee7c2d8-f132-4f7b-bf7b-716fe9416dc5">
+                     <id root="2fb28487-fdea-28d9-e063-6394a90a1b4e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Incidence in Controlled Clinical Trials</title>
+                     <text>
+                        <paragraph>Of the 1,796 patients and subjects treated with Dihydroergotamine Mesylate Nasal Spray doses 2 mg or less in U.S. and foreign clinical studies, 26 (1.4%) discontinued because of adverse events. The adverse events associated with discontinuation were, in decreasing order of frequency: rhinitis 13, dizziness 2, facial edema 2, and one each due to cold sweats, accidental trauma, depression, elective surgery, somnolence, allergy, vomiting, hypotension, and paraesthesia.</paragraph>
+                        <paragraph>The most commonly reported adverse events associated with the use of Dihydroergotamine Mesylate Nasal Spray during placebo-controlled, double-blind studies for the treatment of migraine headache and not reported at an equal incidence by placebo-treated patients were rhinitis, altered sense of taste, application site reactions, dizziness, nausea, and vomiting. The events cited reflect experience gained under closely monitored conditions of clinical trials in a highly selected patient population. In actual clinical practice or in other clinical trials, these frequency estimates may not apply, as the conditions of use, reporting behavior, and the kinds of patients treated may differ.</paragraph>
+                        <paragraph>Dihydroergotamine Mesylate Nasal Spray was generally well tolerated. In most instances these events were transient and self-limited and did not result in patient discontinuation from a study. The following table summarizes the incidence rates of adverse events reported by at least 1% of patients who received Dihydroergotamine Mesylate Nasal Spray for the treatment of migraine headaches during placebo-controlled, double-blind clinical studies and were more frequent than in those patients receiving placebo.</paragraph>
+                        <table ID="_RefID0E11AE" width="80%">
+                           <caption>Table 3: Adverse Reactions Reported by at least 1% of the Dihydroergotamine Mesylate Nasal Spray Treated Patients and Occurred More Frequently than in the Placebo-Group in the Migraine Placebo-Controlled Trials</caption>
+                           <col width="37%"/>
+                           <col width="22%"/>
+                           <col width="19%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" styleCode="Botrule Toprule " valign="top"/>
+                                 <th align="center" styleCode="Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Dihydroergotamine Mesylate Nasal Spray</content>
+                                    <br/>
+                                    <content styleCode="bold">N=597</content>
+                                 </th>
+                                 <th align="center" styleCode="Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Placebo</content>
+                                    <br/>
+                                    <content styleCode="bold">N=631</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Respiratory System</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Toprule " valign="top"/>
+                                 <td styleCode="Toprule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Rhinitis</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>26%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>7%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Pharyngitis</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>3%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>1%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Sinusitis</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>1%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>1%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Gastrointestinal System</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Nausea</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>10%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>4%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Vomiting</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>4%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>1%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Diarrhea</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>2%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>&lt;1%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Special Senses, Other</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Altered Sense of Taste</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>8%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>1%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Application Site</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Application Site Reaction</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>6%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>2%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Central and Peripheral Nervous System</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Dizziness</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>4%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>2%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Somnolence</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>3%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>2%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Paraesthesia</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>2%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>2%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Body as a Whole, General</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Hot Flashes</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>1%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>&lt;1%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Fatigue</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>1%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>1%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Asthenia</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>1%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>0%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Autonomic Nervous System</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>    Mouth Dry</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>1%</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>1%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Musculoskeletal System</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>    Stiffness</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>1%</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>&lt;1%</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_24e66755-2c9b-4243-b3bf-16649bf961a8">
+                     <id root="2fb28487-fdeb-28d9-e063-6394a90a1b4e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other Adverse Events During Clinical Trials</title>
+                     <text>
+                        <paragraph>In the paragraphs that follow, the frequencies of less commonly reported adverse clinical events are presented. Because the reports include events observed in open and uncontrolled studies, the role of Dihydroergotamine Mesylate Nasal Spray in their causation cannot be reliably determined. Furthermore, variability associated with adverse event reporting, the terminology used to describe adverse events, etc., limit the value of the quantitative frequency estimates provided. Event frequencies are calculated as the number of patients who used Dihydroergotamine Mesylate Nasal Spray in placebo-controlled trials and reported an event divided by the total number of patients (n=1796) exposed to Dihydroergotamine Mesylate Nasal Spray. All reported events are included except those already listed in the previous table, those too general to be informative, and those not reasonably associated with the use of the drug. Events are further classified within body system categories and enumerated in order of decreasing frequency using the following definitions: frequent adverse events are defined as those occurring in at least 1/100 patients; infrequent adverse events are those occurring in 1/100 to 1/1,000 patients; and rare adverse events are those occurring in fewer than 1/1,000 patients.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">Skin and Appendages:</content>Infrequent:
+ 
+  </content>petechia, pruritus, rash, cold clammy skin; Rare: papular rash, urticaria, herpes simplex.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">Musculoskeletal:</content>Infrequent:
+ 
+  </content>cramps, myalgia, muscular weakness, dystonia; Rare: arthralgia, involuntary muscle contractions, rigidity.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">Central and Peripheral Nervous System:</content>Infrequent:
+ 
+  </content>confusion, tremor, hypoesthesia, vertigo; Rare: speech disorder, hyperkinesia, stupor, abnormal gait, aggravated migraine.
+
+ </paragraph>
+                        <paragraph>Autonomic Nervous System:
+ 
+  <content styleCode="italics">Infrequent:</content>increased sweating.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">Special Senses:</content>Infrequent:
+ 
+  </content>sense of smell altered, photophobia, conjunctivitis, abnormal lacrimation, abnormal vision, tinnitus, earache;
+ 
+  <content styleCode="italics">Rare:</content>eye pain.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">Psychiatric:</content>Infrequent:
+ 
+  </content>nervousness, euphoria, insomnia, concentration impaired; Rare: anxiety, anorexia, depression.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">Gastrointestinal:</content>Infrequent:
+ 
+  </content>abdominal pain, dyspepsia, dysphagia, hiccup; Rare: increased salivation, esophagospasm.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">Cardiovascular:</content>Infrequent:
+ 
+  </content>edema, palpitation, tachycardia;
+ 
+  <content styleCode="italics">Rare:</content>hypotension, peripheral ischemia, angina.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">Respiratory System:</content>Infrequent:
+ 
+  </content>dyspnea, upper respiratory tract infections; Rare: bronchospasm, bronchitis, pleural pain, epistaxis.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">Urinary System:</content>Infrequent:
+ 
+  </content>increased frequency of micturition, cystitis.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">Reproductive, Female:</content>Rare:
+ 
+  </content>pelvic inflammation, vaginitis.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Body as a Whole -</content>
+                           </content>General:
+ 
+  <content styleCode="italics">Infrequent:</content>feeling cold, malaise, rigors, fever, periorbital edema; Rare: flu-like symptoms, shock, loss of voice, yawning.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">Application Site:</content>Infrequent:
+ 
+  </content>local anesthesia.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_9f2d61ed-6e1c-4950-982a-b78500946e03">
+                     <id root="2fb28487-fdec-28d9-e063-6394a90a1b4e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Post-introduction Reports</title>
+                     <text>
+                        <paragraph>Voluntary reports of adverse events temporally associated with dihydroergotamine products used in the management of migraine that have been received since the introduction of the injectable formulation are included in this section save for those already listed above. Because of their source (open and uncontrolled clinical use), whether or not events reported in association with the use of dihydroergotamine are causally related to it cannot be determined. There have been reports of pleural and retroperitoneal fibrosis in patients following prolonged daily use of injectable dihydroergotamine mesylate. Dihydroergotamine Mesylate Nasal Spray is not recommended for prolonged daily use (
+ 
+  <content styleCode="italics">see
+  
+   <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Bausch Health US, LLC at 1-800-321-4576 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7164a061-c4e1-480e-b77a-83cad6077cb8">
+               <id root="2fb28487-fded-28d9-e063-6394a90a1b4e"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <text>
+                  <paragraph>Currently available data have not demonstrated drug abuse or psychological dependence with dihydroergotamine. However, cases of drug abuse and psychological dependence in patients on other forms of ergot therapy have been reported. Thus, due to the chronicity of vascular headaches, it is imperative that patients be advised not to exceed recommended dosages.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_cc4a8ee4-00de-41c5-b144-dc5800c1e7bf">
+               <id root="2fb28487-fdee-28d9-e063-6394a90a1b4e"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>To date, there have been no reports of acute overdosage with this drug. Due to the risk of vascular spasm, exceeding the recommended dosages of Dihydroergotamine Mesylate Nasal Spray is to be avoided.</paragraph>
+                  <paragraph>Excessive doses of dihydroergotamine may result in peripheral signs and symptoms of ergotism. Treatment includes discontinuance of the drug, local application of warmth to the affected area, the administration of vasodilators, and nursing care to prevent tissue damage.</paragraph>
+                  <paragraph>In general, the symptoms of an acute Dihydroergotamine Mesylate Nasal Spray overdose are similar to those of an ergotamine overdose, although there is less pronounced nausea and vomiting with Dihydroergotamine Mesylate Nasal Spray. The symptoms of an ergotamine overdose include the following: numbness, tingling, pain, and cyanosis of the extremities associated with diminished or absent peripheral pulses; respiratory depression; an increase and/or decrease in blood pressure, usually in that order; confusion, delirium, convulsions, and coma; and/or some degree of nausea, vomiting, and abdominal pain.</paragraph>
+                  <paragraph>In laboratory animals, significant lethality occurs when dihydroergotamine is given at I.V. doses of 44 mg/kg in mice, 130 mg/kg in rats, and 37 mg/kg in rabbits.</paragraph>
+                  <paragraph>Up-to-date information about the treatment of overdosage can often be obtained from a certified Regional Poison Control Center. Telephone numbers of certified Poison Control Centers are listed in the Physicians’ Desk Reference (PDR).
+ 
+  <sup>*</sup>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DA">
+               <id root="2fb28487-fdef-28d9-e063-6394a90a1b4e"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">The solution used in Dihydroergotamine Mesylate Nasal Spray (4 mg/mL) is intended for intranasal use and must not be injected.</content>
+                  </paragraph>
+                  <paragraph>In clinical trials, Dihydroergotamine Mesylate Nasal Spray has been effective for the acute treatment of migraine headaches with or without aura. One spray (0.5 mg) of Dihydroergotamine Mesylate Nasal Spray should be administered in each nostril. Fifteen minutes later, an additional one spray (0.5 mg) of Dihydroergotamine Mesylate Nasal Spray should be administered in each nostril, for a total dosage of four sprays (2 mg) of Dihydroergotamine Mesylate Nasal Spray. Studies have shown no additional benefit from acute doses greater than 2 mg for a single migraine administration. The safety of doses greater than 3 mg in a 24-hour period and 4 mg in a 7‑day period has not been established.</paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Nasal Spray, should not be used for chronic daily administration.</paragraph>
+                  <paragraph>Prior to administration, the pump must be primed (i.e., squeeze 4 times) before use (see administration instructions). Once the nasal spray applicator has been prepared, it should be discarded (with any remaining drug in opened vial) after 8 hours.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Prior to administration, the pump must be primed (i.e., squeeze 4 times) before use (see administration instructions).</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Once the nasal spray applicator has been prepared, it should be discarded (with any remaining drug in opened vial after 8 hours).</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0c6f72b6-eeae-453b-9e7f-507e946d6edf">
+               <id root="2fb28487-fdf0-28d9-e063-6394a90a1b4e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Dihydroergotamine Mesylate Nasal Spray is available (as a clear, colorless to light yellow aqueous solution) in 3.5 mL amber glass vials containing 4 mg of dihydroergotamine mesylate.</paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Nasal Spray is provided as a package of 8 units, administration instruction sheet, and one package insert. Each unit consists of one vial and one sprayer (NDC 68682-357-10).</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <section ID="ID_b8c38967-69e1-4e3d-9403-334c53fb6182">
+                     <id root="2fb28487-fdf1-28d9-e063-6394a90a1b4e"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>Store below 25°C (77°F). Do not refrigerate or freeze.</paragraph>
+                        <paragraph>
+                           <sup>*</sup>Trademark of PDR Network, LLC
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Distributed by:</content>
+                        </paragraph>
+                        <paragraph>Oceanside Pharmaceuticals, a division of</paragraph>
+                        <paragraph>Bausch Health US, LLC</paragraph>
+                        <paragraph>Bridgewater, NJ 08807 USA</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Manufactured by:</content>
+                        </paragraph>
+                        <paragraph>Mipharm, S.p.A.</paragraph>
+                        <paragraph>Milano, Italy</paragraph>
+                        <paragraph>© 2022 Bausch Health Companies Inc. or its affiliates</paragraph>
+                        <paragraph>Rev. 09/2022</paragraph>
+                        <paragraph>9606502</paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_d0a43dc9-47f3-4318-a551-c740f7bfe94e">
+               <id root="2fb28487-fdf2-28d9-e063-6394a90a1b4e"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title>Patient Information</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Information for the Patient</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Nasal Spray</paragraph>
+                  <paragraph>The solution used in Dihydroergotamine Mesylate Nasal Spray (4 mg/mL) is intended for intranasal use and must not be injected.</paragraph>
+                  <paragraph>Please read this information carefully before using your Dihydroergotamine Mesylate Nasal Spray for the first time. Keep this information handy for future reference. This leaflet does not contain all of the information on Dihydroergotamine Mesylate Nasal Spray. Your pharmacist and/or health care provider can provide more detailed information.</paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Nasal Spray has been evaluated in a limited number of patients long term (e.g., 1 year or longer).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Purpose of your Medication</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Nasal Spray is intended to treat an active migraine headache. Do not try to use it to prevent a headache if you have no symptoms. Do not use it to treat common tension headache or a headache that is not at all typical of your usual migraine headache. Administration of Dihydroergotamine Mesylate Nasal Spray, should not exceed the dosing guidelines and should not be used for chronic daily administration. There have been reports of fibrosis (stiffening) in the lung or kidney areas in patients following prolonged daily use of injectable dihydroergotamine mesylate. Rarely, prolonged daily use of other ergot alkaloid drugs (the class of drugs to which Dihydroergotamine Mesylate Nasal Spray belongs) has been associated with heart valvular fibrosis. Rare cases have also been reported in association with the use of injectable dihydroergotamine mesylate; however, in those cases, patients also received drugs known to be associated with heart valvular fibrosis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not use Dihydroergotamine Mesylate Nasal Spray if you:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>have any disease affecting your heart, arteries, or circulation.</item>
+                     <item>are taking certain anti-HIV medications (protease inhibitors).</item>
+                     <item>are taking a macrolide antibiotic such as troleandomycin, clarithromycin or erythromycin.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Important questions to consider before using Dihydroergotamine Mesylate Nasal Spray</content>
+                  </paragraph>
+                  <paragraph>Please answer the following questions before you use your Dihydroergotamine Mesylate Nasal Spray. If you answer YES to any of these questions or are unsure of the answer, you should talk to your doctor before using Dihydroergotamine Mesylate Nasal Spray.</paragraph>
+                  <list listType="unordered">
+                     <item>Do you have high blood pressure?</item>
+                     <item>Do you have chest pain, shortness of breath, heart disease, or have you had any surgery on your heart arteries?</item>
+                     <item>Do you have risk factors for heart disease (such as high blood pressure, high cholesterol, obesity, diabetes, smoking, strong family history of heart disease, or are you postmenopausal or a male over 40)?</item>
+                     <item>Do you have any problems with blood circulation in your arms or legs, fingers, or toes?</item>
+                     <item>Are you pregnant? Do you think you might be pregnant? Are you trying to become pregnant? Are you sexually active and not using birth control?</item>
+                     <item>Dihydroergotamine Mesylate Nasal Spray may cause preterm labor. Dihydroergotamine Mesylate Nasal Spray should be avoided during pregnancy. Talk to your healthcare provider right away if you are pregnant or want to become pregnant.</item>
+                     <item>Are you breastfeeding?</item>
+                     <item>Dihydroergotamine Mesylate Nasal Spray may reduce breast milk supply and pass into your breast milk. Dihydroergotamine Mesylate Nasal Spray may be harmful to your baby. Do not breastfeed your baby while taking Dihydroergotamine Mesylate Nasal Spray and for 3 days after you use Dihydroergotamine Mesylate Nasal Spray. Talk with your healthcare provider about the best way to feed your baby if you take Dihydroergotamine Mesylate Nasal Spray.</item>
+                     <item>Have you ever had to stop taking this or any other medication because of an allergy or bad reaction?</item>
+                     <item>Are you taking any other migraine medications, erythromycin or other antibiotics, or medications for blood pressure prescribed by your doctor, or other medicines obtained from your drugstore without a doctor’s prescription?</item>
+                     <item>Do you smoke?</item>
+                     <item>Have you had, or do you have, any disease of the liver or kidney?</item>
+                     <item>Is this headache different from your usual migraine attacks?</item>
+                     <item>Are you using Dihydroergotamine Mesylate Nasal Spray or other dihydroergotamine mesylate containing drugs on a daily basis?</item>
+                     <item>Are you taking a protease inhibitor for HIV therapy?</item>
+                     <item>Are you taking a macrolide class of antibiotic?</item>
+                  </list>
+                  <paragraph>Serious or potentially life-threatening reductions in blood flow to the brain or extremities have been reported rarely due to interactions between Dihydroergotamine Mesylate Nasal Spray and protease inhibitors or macrolide antibiotics.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">REMEMBER TO TELL YOUR DOCTOR IF YOU HAVE ANSWERED YES TO ANY OF THESE QUESTIONS BEFORE YOU USE DIHYDROERGOTAMINE MESYLATE NASAL SPRAY.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Side Effects To Watch Out For</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>In clinical trials, most migraine patients have used Dihydroergotamine Mesylate Nasal Spray without serious side effects. You may experience some nasal congestion or irritation, altered sense of taste, sore throat, nausea, vomiting, dizziness, and fatigue after using Dihydroergotamine Mesylate Nasal Spray. These side effects are temporary and usually do not require you to stop using Dihydroergotamine Mesylate Nasal Spray. Although the following reactions rarely occur, they can be serious and should be reported to your physician immediately:</paragraph>
+                  <list listType="unordered">
+                     <item>Numbness or tingling in your fingers and toes</item>
+                     <item>Pain, tightness, or discomfort in your chest</item>
+                     <item>Muscle pain or cramps in your arms and legs</item>
+                     <item>Weakness in your legs</item>
+                     <item>Temporary speeding or slowing of your heart rate</item>
+                     <item>Swelling or itching</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Dosing Information</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Each vial contains one complete dose of Dihydroergotamine Mesylate Nasal Spray, which is 1 spray in each nostril followed in 15 minutes by an additional spray in each nostril, for a total of 4 sprays.</item>
+                     <item>Studies have shown no benefit from acute doses greater than 2 mg (4 sprays) for a single administration. The safety of doses greater than 3 mg in a 24 hour period has not been established.</item>
+                     <item>The safety of doses greater than 4 mg in a 7-day period has not been established.</item>
+                     <item>Dihydroergotamine Mesylate Nasal Spray, should not be used for chronic daily administration.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Learn what to do in case of an Overdose</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>If you have used more medication than you have been instructed, contact your doctor, hospital emergency department, or nearest poison control center immediately.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How to use the Dihydroergotamine Mesylate Nasal Spray</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>Use available training materials.</item>
+                     <item>Read and follow the instructions in the administration instructions which are provided with the Dihydroergotamine Mesylate Nasal Spray package before attempting to use the product.</item>
+                     <item>If there are any questions concerning the use of your Dihydroergotamine Mesylate Nasal Spray, ask your doctor or pharmacist, or contact Bausch Health US, LLC at 1-800-321-4576.</item>
+                     <item>Check the contents of the package:</item>
+                     <item>8 Nasal Spray Vials</item>
+                     <item>8 Nasal Sprayers</item>
+                     <item>Administration Instructions</item>
+                     <item>Package Insert</item>
+                     <item>Assemble the sprayer: 
+   <br/>
+                        <content styleCode="bold">Assemble your nasal sprayer only when you are ready to use it.</content>
+                     </item>
+                     <item>Lift tab to bend back blue cover. In one piece, completely remove the blue cover and metal seal in a circular motion. Keeping the vial upright, remove rubber stopper. Set vial aside.</item>
+                     <item>Remove plastic cover from the bottom of pump unit. Insert spray pump into vial and turn clockwise until securely fastened.</item>
+                     <item>Using the sprayer:</item>
+                     <item>Remove cap from spray unit. Holding the vial upright, point nasal sprayer away from face and pump 4 times before using. DO NOT PUMP MORE THAN 4 TIMES. (Although some medication will spray out, there is enough medication in each vial to allow you to prepare your nasal spray pump properly and still receive a full treatment of Dihydroergotamine Mesylate Nasal Spray.)</item>
+                     <item>Spray once into each nostril.
+  
+   <content styleCode="underline">Do not tilt head back or sniff through your nose while spraying or immediately after.</content>Wait 15 minutes. Spray once again into each nostril.
+ 
+  </item>
+                     <item>After completing these instructions:</item>
+                     <item>Carefully dispose of the nasal spray pump with the vial.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Important Notes:</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Once a Dihydroergotamine Mesylate Nasal Spray vial has been opened, it must be thrown away after 8 hours.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Storing Dihydroergotamine Mesylate Nasal Spray</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Keep medication in a safe place away from children</item>
+                     <item>Keep Dihydroergotamine Mesylate Nasal Spray away from heat and light.</item>
+                     <item>Do not expose Dihydroergotamine Mesylate Nasal Spray to temperatures over 77°F.</item>
+                     <item>Never refrigerate or freeze Dihydroergotamine Mesylate Nasal Spray.</item>
+                     <item>Do not keep an opened Dihydroergotamine Mesylate Nasal Spray vial for more than 8 hours.</item>
+                     <item>
+                        <content styleCode="bold">Check the expiration date printed on the vial containing medication. If the expiration date has passed, do not use it.</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Answers to patients’ questions about Dihydroergotamine Mesylate Nasal Spray</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What if I need help in using my Dihydroergotamine Mesylate Nasal Spray?</content>
+                  </paragraph>
+                  <paragraph>If you have any questions or if you need help in opening, putting together, or using Dihydroergotamine Mesylate Nasal Spray, speak to your doctor or pharmacist, or contact Bausch Health US, LLC at 1-800-321-4576.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">How much medication should I use and how often?</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Each vial contains one complete dose of Dihydroergotamine Mesylate Nasal Spray, which is 1 spray in each nostril, followed by an additional spray in each nostril 15 minutes later for a total of 4 sprays. Do not use more than this amount unless instructed to do so by your doctor. Dihydroergotamine Mesylate Nasal Spray is not intended for chronic daily use.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Why do I have to prime or pump the Nasal Sprayer 4 times before using? Am I wasting the medication?</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>You have to prime the Nasal Sprayer 4 times to make sure that you get the proper amount of medication when you use it. Although you will see some medication spray out, there is still enough medication in each vial to allow you to prepare your sprayer properly and still receive a full dose of Dihydroergotamine Mesylate Nasal Spray.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Can I assemble the medication vial and the Nasal Sprayer so it is ready before I need to use it?</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>No. The brown (amber) glass vial containing your medication must remain unopened until you are ready to use it. It may not be fully effective if opened and not used within 8 hours.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Can I reuse my Dihydroergotamine Mesylate Nasal Sprayer?</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>No. After completing the full dose, you must carefully dispose of your Dihydroergotamine Mesylate Nasal Sprayer and the opened vial. You should use a new unit for your next migraine attack. Each Unit contains a new Nasal Sprayer, and a vial of Dihydroergotamine Mesylate Nasal Spray medication.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Can I use Dihydroergotamine Mesylate Nasal Spray if I have a stuffy nose, cold, or allergies?</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Yes. Dihydroergotamine Mesylate Nasal Spray can be used if you have a stuffy nose, cold, or allergies. However, if you are taking any medications for your cold, or allergies, even those you can buy without a doctor’s prescription, speak with your doctor before using Dihydroergotamine Mesylate Nasal Spray.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Do I need to sniff the medication when I spray it in my nostril?</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>No, you should not sniff because Dihydroergotamine Mesylate Nasal Spray should remain in the nose so that it can be absorbed into the bloodstream through the lining of the nose.</paragraph>
+                  <paragraph>If you have any other unanswered questions about Dihydroergotamine Mesylate Nasal Spray, consult your doctor or pharmacist.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_80cd24aa-4800-4928-85c5-bc8a7d9d9908">
+               <id root="2fb28487-fdf3-28d9-e063-6394a90a1b4e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                  </paragraph>
+                  <paragraph>Oceanside Pharmaceuticals, a division of</paragraph>
+                  <paragraph>Bausch Health US, LLC</paragraph>
+                  <paragraph>Bridgewater, NJ 08807 USA</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                  </paragraph>
+                  <paragraph>Mipharm, S.p.A.</paragraph>
+                  <paragraph>Milano, Italy</paragraph>
+                  <paragraph>© 2022 Bausch Health Companies Inc. or its affiliates</paragraph>
+                  <paragraph>Rev. 09/2022</paragraph>
+                  <paragraph>9606502</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_cab0387c-7e47-4c49-9dd8-941755907a1c">
+               <id root="2fb28487-fdf4-28d9-e063-6394a90a1b4e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 4 mg/mL Vial Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content>68682-357-10 
+  <br/>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dihydroergotamine Mesylate</content>
+                     <br/>
+                     <content styleCode="bold">NASAL SPRAY</content>
+                  </paragraph>
+                  <paragraph>This Kit Contains:</paragraph>
+                  <list listType="unordered">
+                     <item>8 Dihydroergotamine Mesylate Vials</item>
+                     <item>8 Dihydroergotamine Mesylate Nasal Sprayers</item>
+                     <item>Administration Instructions</item>
+                     <item>Package Insert</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">FOR NASAL USE ONLY-NOT FOR INJECTION</content>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">4mg/mL (1 mL/Vial)</content>
+                  </paragraph>
+                  <paragraph>9613302</paragraph>
+                  <renderMultiMedia ID="id157504962" referencedObject="ID_77adcdc1-6572-40de-9390-1c4fab897e36"/>
+               </text>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <observationMedia ID="ID_77adcdc1-6572-40de-9390-1c4fab897e36">
+                     <text>carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
