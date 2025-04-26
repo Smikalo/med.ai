@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1ab953e6-830e-4845-8cca-9864f8002cdf"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Rx only</title>
+   <effectiveTime value="20250320"/>
+   <setId root="0c687cbe-ce40-4bc0-b880-5166b5be7a80"/>
+   <versionNumber value="24"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="050052943" root="1.3.6.1.4.1.519.1"/>
+            <name>NCS HealthCare of KY, LLC dba Vangard Labs</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="050052943" root="1.3.6.1.4.1.519.1"/>
+                        <name>NCS HealthCare of KY, LLC dba Vangard Labs</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0615-8082" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0615-8564" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0615-8563" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="0eabbd14-3ef5-41a8-a415-d1f7058ad9ea"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20250320"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0615-8082" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Hydroxyzine hydrochloride</name>
+                        <formCode code="C42998" displayName="TABLET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Hydroxyzine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="23155-501" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="25"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="76755771U3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROXYZINE DIHYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="30S50YM8OG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROXYZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2S7830E561" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0615-8082-39" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20161220"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="15"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0615-8082-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20221028"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="28"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0615-8082-28" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240328"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA204279" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140820"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="white" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">H;501</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="7" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0615-8564" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Hydroxyzine hydrochloride</name>
+                        <formCode code="C42998" displayName="TABLET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Hydroxyzine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="23155-502" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="50"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="76755771U3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROXYZINE DIHYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="30S50YM8OG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROXYZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2S7830E561" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0615-8564-39" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250206"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA204279" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140820"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="white" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">H;502</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="9" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0615-8563" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Hydroxyzine hydrochloride</name>
+                        <formCode code="C42998" displayName="TABLET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Hydroxyzine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="23155-500" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="76755771U3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROXYZINE DIHYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="30S50YM8OG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROXYZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2S7830E561" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0615-8563-39" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250319"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA204279" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140820"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="white" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">H;500</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="7" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b0e42b8e-a857-46af-a307-b1e70b812767">
+               <id root="613266be-79e1-4a5c-9554-4cf0441d6fd6"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Hydroxyzine hydrochloride, USP has the chemical name of (±)-2-[2-[4-(<content styleCode="italics">p</content>-Chloro-α-phenylbenzyl)-1-piperazinyl]ethoxy]ethanol dihydrochloride.</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Molecular Formula: C<sub>21</sub>H<sub>27</sub>ClN<sub>2</sub>O<sub>2</sub> · 2HCl Molecular Weight:  447.83</paragraph>
+                  <paragraph>Hydroxyzine hydrochloride, USP occurs as a white, odorless powder which is very soluble in water.</paragraph>
+                  <paragraph>Each tablet for oral administration contains 10 mg, 25 mg, or 50 mg hydroxyzine hydrochloride, USP. Inactive ingredients include anhydrous lactose, colloidal silicon dioxide, crospovidone, hypromellose, magnesium stearate, microcrystalline cellulose, polyethylene glycol, polysorbate and titanium dioxide.</paragraph>
+               </text>
+               <effectiveTime value="20240329"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>stucture</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="hydroxyzine-tabs-8563-8082-8564-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_dec3693f-6d79-485c-8285-37fbe463c016">
+               <id root="dbdc2836-c397-42d1-a565-d6775fdbebcc"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Hydroxyzine hydrochloride is unrelated chemically to the phenothiazines, reserpine, meprobamate or the benzodiazepines. Hydroxyzine is not a cortical depressant, but its action may be due to a suppression of activity in certain key regions of the subcortical area of the central nervous system.</paragraph>
+                  <paragraph>Primary skeletal muscle relaxation has been demonstrated experimentally. Bronchodilator activity, and antihistaminic and analgesic effects have been demonstrated experimentally and confirmed clinically. An antiemetic effect, both by the apomorphine test and the veriloid test, has been demonstrated.</paragraph>
+                  <paragraph>Pharmacological and clinical studies indicate that hydroxyzine in therapeutic dosage does not increase gastric secretion or acidity and in most cases has mild antisecretory activity.</paragraph>
+                  <paragraph>Hydroxyzine is rapidly absorbed from the gastrointestinal tract and hydroxyzine's clinical effects are usually noted within 15 to 30 minutes after oral administration.</paragraph>
+               </text>
+               <effectiveTime value="20180605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c6f14567-80b8-4837-bb96-290d74bc801b">
+               <id root="20b2eb23-928e-4c18-80b5-04923779777c"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>For symptomatic relief of anxiety and tension associated with psychoneurosis and as an adjunct in organic disease states in which anxiety is manifested.</paragraph>
+                  <paragraph>Useful in the management of pruritus due to allergic conditions such as chronic urticaria and atopic and contact dermatoses and in histamine-mediated pruritus.</paragraph>
+                  <paragraph>As a sedative when used as a premedication and following general anesthesia, <content styleCode="bold">hydroxyzine may potentiate meperidine and barbiturates,</content> so their use in pre-anesthetic adjunctive therapy should be modified on an individual basis. Atropine and other belladonna alkaloids are not affected by the drug. Hydroxyzine is not known to interfere with the action of digitalis in any way and it may be used concurrently with this agent.</paragraph>
+                  <paragraph>The effectiveness of hydroxyzine as an antianxiety agent for long term use, that is more than 4 months, has not been assessed by systematic clinical studies. The physician should reassess periodically the usefulness of the drug for the individual patient.</paragraph>
+               </text>
+               <effectiveTime value="20180605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_6dc3f631-5e06-4fc3-9829-95ef802209b8">
+               <id root="565398ca-bf85-4407-9ae1-f1f1195f7da2"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Oral hydroxyzine hydrochloride is contraindicated in patients with known hypersensitivity to hydroxyzine hydrochloride products, and in patients with known hypersensitivity to cetirizine hydrochloride or levocetirizine hydrochloride.</paragraph>
+                  <paragraph>Hydroxyzine is contraindicated in patients with a prolonged QT interval.</paragraph>
+                  <paragraph>Hydroxyzine, when administered to the pregnant mouse, rat, and rabbit induced fetal abnormalities in the rat and mouse at doses substantially above the human therapeutic range. Clinical data in human beings are inadequate to establish safety in early pregnancy. Until such data are available, hydroxyzine is contraindicated in early pregnancy.</paragraph>
+                  <paragraph>Hydroxyzine is contraindicated for patients who have shown a previous hypersensitivity to any component of this medication.</paragraph>
+               </text>
+               <effectiveTime value="20180605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7ddb4492-4cbb-4976-8493-d77ed449c2bf">
+               <id root="d508142f-a277-47f0-9e9e-45e97454a3e1"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Nursing Mothers</content>
+                  </paragraph>
+                  <paragraph>It is not known whether this drug is excreted in human milk. Since many drugs are so excreted, hydroxyzine should not be given to nursing mothers.</paragraph>
+               </text>
+               <effectiveTime value="20180605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_705f310c-df35-45ce-9203-4d79508ae23a">
+               <id root="d6ba6fbf-14bd-4e30-b94b-9f939d512938"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.</paragraph>
+                  <paragraph>QT Prolongation/Torsade de Pointes (TdP): Cases of QT prolongation and Torsade de Pointes have been reported during post-marketing use of hydroxyzine. The majority of reports occurred in patients with other risk factors for QT prolongation/TdP (pre-existing heart disease, electrolyte imbalances or concomitant arrhythmogenic drug use). Therefore, hydroxyzine should be used with caution in patients with risk factors for QT prolongation, congenital long QT syndrome, a family history of long QT syndrome, other conditions that predispose to QT prolongation and ventricular arrhythmia, as well as recent myocardial infarction, uncompensated heart failure, and bradyarrhythmias.</paragraph>
+                  <paragraph>Caution is recommended during the concomitant use of drugs known to prolong the QT interval. These include Class 1A (e.g., quinidine, procainamide) or Class III (e.g., amiodarone, sotalol) antiarrhythmics, certain antipsychotics (e.g., ziprasidone, iloperidone, clozapine, quetiapine, chlorpromazine), certain antidepressants (e.g., citalopram, fluoxetine), certain antibiotics (e.g., azithromycin, erythromycin, clarithromycin, gatifloxacin, moxifloxacin); and others (e.g., pentamidine, methadone, ondansetron, droperidol).</paragraph>
+                  <paragraph>Since drowsiness may occur with use of this drug, patients should be warned of this possibility and cautioned against driving a car or operating dangerous machinery while taking hydroxyzine. Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Acute Generalized Exanthematous Pustulosis (AGEP)</content>
+                  </paragraph>
+                  <paragraph>Hydroxyzine may rarely cause acute generalized exanthematous pustulosis (AGEP), a serious skin reaction characterized by fever and numerous small, superficial, non-follicular, sterile pustules, arising within large areas of edematous erythema. Inform patients about the signs of AGEP, and discontinue hydroxyzine at the first appearance of a skin rash, worsening of pre-existing skin reactions which hydroxyzine may be used to treat, or any other sign of hypersensitivity. If signs or symptoms suggest AGEP, use of hydroxyzine should not be resumed and alternative therapy should be considered. Avoid cetirizine or levocetirizine in patients who have experienced AGEP or other hypersensitivity reactions with hydroxyzine, due to the risk of cross-sensitivity.</paragraph>
+               </text>
+               <effectiveTime value="20180605"/>
+               <component>
+                  <section ID="LINK_db4c843e-e029-4f08-ad70-9296628325b4">
+                     <id root="9246fc63-32f2-439c-981d-d3e6c71af0e2"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>A determination has not been made whether controlled clinical studies of hydroxyzine included sufficient numbers of subjects aged 65 and over to define a difference in response from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>The extent of renal excretion of hydroxyzine has not been determined. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selections.</paragraph>
+                        <paragraph>Sedating drugs may cause confusion and over sedation in the elderly; elderly patients generally should be started on low doses of hydroxyzine and observed closely.</paragraph>
+                     </text>
+                     <effectiveTime value="20180605"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4711d009-2773-44de-bb16-d04f82b67a5a">
+               <id root="5510e446-e393-4275-a44a-6c92fcf8f45d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Skin and Appendages:</content> Oral hydroxyzine hydrochloride is associated with <content styleCode="underline">Acute Generalized Exanthematous Pustulosis (AGEP) and</content> fixed drug eruptions in post marketing reports.</paragraph>
+                  <paragraph>Side effects reported with the administration of hydroxyzine hydrochloride are usually mild and transitory in nature.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Anticholinergic</content>: Dry mouth.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Central Nervous System</content>: Drowsiness is usually transitory and may disappear in a few days of continued therapy or upon reduction of dose. Involuntary motor activity including rare instances of tremor and convulsions have been reported, usually with doses considerably higher than those recommended. Clinically significant respiratory depression has not been reported at recommended doses.</paragraph>
+                  <paragraph>In post-marketing experience, the following additional undesirable effects have been reported:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiac System:</content> QT prolongation, Torsade de Pointes. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Body as a Whole:</content> Allergic reaction.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nervous System</content>: Headache.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Psychiatric</content>: Hallucination.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin and Appendages</content>: Pruritus, rash, urticaria.</paragraph>
+               </text>
+               <effectiveTime value="20180605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_419675e8-a917-4fd6-a63c-1cbd09a94547">
+               <id root="b0f2198d-6391-4ab2-aecb-3b2e826da01a"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>The most common manifestation of hydroxyzine overdosage is hypersedation. Other reported signs and symptoms were convulsions, stupor, nausea and vomiting. As in the management of overdosage with any drug, it should be borne in mind that multiple agents may have been taken.</paragraph>
+                  <paragraph>If vomiting has not occurred spontaneously, it should be induced. Immediate gastric lavage is also recommended. General supportive care, including frequent monitoring of the vital signs and close observation of the patient, is indicated. Hypotension, though unlikely, may be controlled with intravenous fluids and levarterenol or metaraminol. Do not use epinephrine as hydroxyzine counteracts its pressor action.</paragraph>
+                  <paragraph>Hydroxyzine overdose may cause QT prolongation and Torsade de Pointes. ECG monitoring is recommended in cases of hydroxyzine overdose.</paragraph>
+                  <paragraph>There is no specific antidote. It is doubtful that hemodialysis would be of any value in the treatment of overdosage with hydroxyzine. However, if other agents such as barbiturates have been ingested concomitantly, hemodialysis may be indicated. There is no practical method to quantitate hydroxyzine in body fluids or tissue after its ingestion or administration.</paragraph>
+               </text>
+               <effectiveTime value="20180605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8667be0a-dc11-4a01-a375-c2966039ee30">
+               <id root="6ce5d2bf-db0a-4872-b345-905c882d760a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>For symptomatic relief of anxiety and tension associated with psychoneurosis and as an adjunct in organic disease states in which anxiety is manifested: adults, 50 to 100 mg q.i.d.; children under 6 years, 50 mg daily in divided doses; children over 6 years, 50 to 100 mg daily in divided doses.</paragraph>
+                  <paragraph>For use in the management of pruritus due to allergic conditions such as chronic urticaria and atopic and contact dermatoses and in histamine-mediated pruritus: adults, 25 mg t.i.d. or q.i.d.; children under 6 years, 50 mg daily in divided doses; children over 6 years, 50 to 100 mg daily in divided doses.</paragraph>
+                  <paragraph>As a sedative when used as a premedication and following general anesthesia: 50 to 100 mg for adults and 0.6 mg/kg of body weight in children.</paragraph>
+                  <paragraph>When treatment is initiated by the intramuscular route of administration, subsequent doses may be administered orally.</paragraph>
+                  <paragraph>As with all potent medication, the dosage should be adjusted according to the patient's response to therapy.</paragraph>
+               </text>
+               <effectiveTime value="20180605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b07d7659-0fb9-4af7-aa30-8af5698b436d">
+               <id root="fe3244d5-1e6e-4b45-8738-61d9effe3a04"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Hydroxyzine Hydrochloride Tablets, USP are available as follows:</paragraph>
+                  <paragraph>10 mg tablets: round, film coated white tablets. Debossed <content styleCode="bold">H</content> on one side and <content styleCode="bold">500 </content>on the reverse side. They are available as follows:</paragraph>
+                  <paragraph>Blistercards of 30: NDC 0615-8563-39</paragraph>
+                  <paragraph>25 mg tablets: round, film coated white tablets. Debossed <content styleCode="bold">H</content> over <content styleCode="bold">501</content> on one side and plain on the reverse side. They are available as follows:</paragraph>
+                  <paragraph>Blistercards of 30: NDC 0615-8082-39</paragraph>
+                  <paragraph>Blistercards of 28: NDC 0615-8082-28</paragraph>
+                  <paragraph>Blistercards of 15: NDC 0615-8082-05</paragraph>
+                  <paragraph>50 mg tablets: round, film coated white tablets. Debossed <content styleCode="bold">H </content>over <content styleCode="bold">502 </content>on one side and plain on the reverse side. They are available as follows:</paragraph>
+                  <paragraph>Blistercards of 30: NDC 0615-8564-39</paragraph>
+                  <paragraph>Dispense in a tight container as defined in the USP, with a child-resistant closure (as required).</paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature].</paragraph>
+                  <paragraph>KEEP THIS AND ALL MEDICATIONS OUT OF THE REACH OF CHILDREN.</paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Avet Pharmaceuticals Inc.</content>
+                  </paragraph>
+                  <paragraph>East Brunswick, NJ 08816</paragraph>
+                  <paragraph>1.866.901.DRUG (3784)</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph>51U000000193US08</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rev. 09/2021</content>
+                  </paragraph>
+                  <paragraph>OR</paragraph>
+                  <paragraph>Manufactured by:<br/>
+                     <content styleCode="bold">Emcure Pharmaceuticals Ltd.,</content>
+                     <br/>
+Kadu, Surendranagar - 382775, India</paragraph>
+                  <paragraph>Manufactured for:<br/>
+                     <content styleCode="bold">Avet Pharmaceuticals Inc.</content>
+                     <br/>
+East Brunswick, NJ 08816<br/>
+1.866.901.DRUG (3784)</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph>510490427US01</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Revised: 06/2023</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>logo</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="hydroxyzine-tabs-8563-8082-8564-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>logo</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="hydroxyzine-tabs-8563-8082-8564-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_33b7627f-5318-4472-a7b7-37964a3bed6c">
+               <id root="89aa176a-5c9b-4fcd-83ab-388eaf63bcd6"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL PRINCIPAL DISPLAY PANEL - 10 MG</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>PRINCIPAL DISPLAY PANEL</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="hydroxyzine-tabs-8563-8082-8564-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3e5bf77f-29cb-480b-b436-c7c4e68503ed">
+               <id root="1162cbe0-743d-49dc-85ab-13b777379b2b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL PRINCIPAL DISPLAY PANEL - 25 MG</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM5"/>
+               </text>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>PRINCIPAL DISPLAY PANEL</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="hydroxyzine-tabs-8563-8082-8564-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2c03fed0-3ce5-497e-8156-e119a93e05e1">
+               <id root="d066eab2-739f-4355-8b3b-77f52c3e655c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL PRINCIPAL DISPLAY PANEL - 50 MG</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM6"/>
+               </text>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>PRINCIPAL DISPLAY PANEL</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="hydroxyzine-tabs-8563-8082-8564-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

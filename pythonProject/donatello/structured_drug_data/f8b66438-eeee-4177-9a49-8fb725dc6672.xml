@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f8b66438-eeee-4177-9a49-8fb725dc6672"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Ampicillin and Sulbactam for Injection, USP<br/>(For Intramuscular or Intravenous Use)
+</title>
+   <effectiveTime value="20250320"/>
+   <setId root="e6cf14a8-3ed9-4a7a-ba69-be0b794cbdc4"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="080548348" root="1.3.6.1.4.1.519.1"/>
+            <name>Meitheal Pharmaceuticals Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="28fd2c4d-7d11-42da-8705-bc728f5a6dcb"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20221216"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71288-031" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ampicillin and Sulbactam</name>
+                        <formCode code="C42974" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ampicillin sodium and Sulbactam sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="1" unit="g"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="JFN36L5S8K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ampicillin sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7C782967RD" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ampicillin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="0.5" unit="g"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="DKQ4T82YE6" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sulbactam sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S4TF6I2330" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>sulbactam</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71288-031-20" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="71288-031-21" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20051129"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20051129"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065222" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71288-032" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ampicillin and Sulbactam</name>
+                        <formCode code="C42974" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ampicillin sodium and Sulbactam sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="2" unit="g"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="JFN36L5S8K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ampicillin sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7C782967RD" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ampicillin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="1" unit="g"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="DKQ4T82YE6" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sulbactam sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S4TF6I2330" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>sulbactam</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71288-032-20" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="71288-032-21" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20051129"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20051129"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065222" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="c7d3d8b4-454e-4f05-8566-8dca9229003f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content>Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L6948b852-b933-48b2-9fc2-5c07bd06bb61"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To reduce the development of drug-resistant bacteria and maintain the effectiveness of Ampicillin and Sulbactam for Injection, USP and other antibacterial drugs, ampicillin and sulbactam for injection should be used only to treat infections that are proven or strongly suspected to be caused by bacteria.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <observationMedia ID="L6948b852-b933-48b2-9fc2-5c07bd06bb61">
+                     <text>Meitheal Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="amplogo-00.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="0584938f-7673-4a18-afbf-16035b009c05"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Ampicillin and Sulbactam for Injection, USP is an injectable antibacterial combination consisting of the semisynthetic antibacterial ampicillin sodium and the beta-lactamase inhibitor sulbactam sodium for intravenous and intramuscular administration.</paragraph>
+                  <paragraph>Ampicillin sodium is derived from the penicillin nucleus, 6-aminopenicillanic acid. Chemically, it is monosodium (2S, 5R, 6R)-6-[(R)-2-amino-2-phenylacetamido]-3, 3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylate and has a molecular weight of 371.39. Its chemical formula is C<sub>16</sub>H<sub>18</sub>N<sub>3</sub>NaO<sub>4</sub>S. The structural formula is:</paragraph>
+                  <paragraph>
+                     <content>
+                        <renderMultiMedia referencedObject="Lc971643f-9015-41aa-9f9d-d120a1474c0f"/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content>Sulbactam sodium is a derivative of the basic penicillin nucleus. Chemically, sulbactam sodium is sodium penicillinate sulfone; sodium (2S, 5R)-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo [3.2.0] heptane-2-carboxylate 4,4-dioxide. Its chemical formula is C</content>
+                     <sub>8</sub>
+                     <content>H</content>
+                     <sub>10</sub>
+                     <content>NNaO</content>
+                     <sub>5</sub>
+                     <content>S with a molecular weight of 255.22. The structural formula is:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content>
+                        <renderMultiMedia referencedObject="L4fe12001-f3e3-4da6-a65f-b61289bf2118"/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content>Ampicillin and Sulbactam for Injection, USP, ampicillin sodium/sulbactam sodium parenteral combination, is available as a white to off-white dry powder for reconstitution. Ampicillin and Sulbactam for Injection, USP dry powder is freely soluble in aqueous diluents to yield pale yellow to yellow solutions containing ampicillin sodium and sulbactam sodium equivalent to 250 mg ampicillin per mL and 125 mg sulbactam per mL. The pH of the solutions is between 8.0 and 10.0.</content>
+                  </paragraph>
+                  <paragraph>Dilute solutions (up to 30 mg ampicillin and 15 mg sulbactam per mL) are essentially colorless to pale yellow. The pH of dilute solutions remains the same.</paragraph>
+                  <paragraph>1.5 g of Ampicillin and Sulbactam for Injection, USP (1 g ampicillin as the sodium salt plus 0.5 g sulbactam as the sodium salt) parenteral contains approximately 115 mg (5 mEq) of sodium.</paragraph>
+                  <paragraph>3 g of Ampicillin and Sulbactam for Injection, USP (2 g ampicillin as the sodium salt plus 1 g sulbactam as the sodium salt) parenteral contains approximately 230 mg (10 mEq) of sodium.</paragraph>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <observationMedia ID="Lc971643f-9015-41aa-9f9d-d120a1474c0f">
+                     <text>Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ampstruc-00.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L4fe12001-f3e3-4da6-a65f-b61289bf2118">
+                     <text>Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ampstruc2-00.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="0e04fe25-1d70-4ccb-a5e2-f7cb7cacf177"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY
+</title>
+               <effectiveTime value="20231129"/>
+               <component>
+                  <section ID="s4">
+                     <id root="7b5f50c6-f4a4-47b4-b02e-15a586c45cb2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>General
+</title>
+                     <text>
+                        <paragraph>Immediately after completion of a 15-minute intravenous infusion of ampicillin and sulbactam for injection, peak serum concentrations of ampicillin and sulbactam are attained. Ampicillin serum levels are similar to those produced by the administration of equivalent amounts of ampicillin alone. Peak ampicillin serum levels ranging from 109 to 150 mcg/mL are attained after administration of 2000 mg of ampicillin plus 1000 mg sulbactam and 40 to 71 mcg/mL after administration of 1000 mg ampicillin plus 500 mg sulbactam. The corresponding mean peak serum levels for sulbactam range from 48 to 88 mcg/mL and 21 to 40 mcg/mL, respectively. After an intramuscular injection of 1000 mg ampicillin plus 500 mg sulbactam, peak ampicillin serum levels ranging from 8 to 37 mcg/mL and peak sulbactam serum levels ranging from 6 to 24 mcg/mL are attained.</paragraph>
+                        <paragraph>The mean serum half-life of both drugs is approximately 1 hour in healthy volunteers.</paragraph>
+                        <paragraph>Approximately 75 to 85% of both ampicillin and sulbactam are excreted unchanged in the urine during the first 8 hours after administration of ampicillin and sulbactam for injection to individuals with normal renal function. Somewhat higher and more prolonged serum levels of ampicillin and sulbactam can be achieved with the concurrent administration of probenecid.</paragraph>
+                        <paragraph>In patients with impaired renal function the elimination kinetics of ampicillin and sulbactam are similarly affected, hence the ratio of one to the other will remain constant whatever the renal function. The dose of ampicillin and sulbactam for injection in such patients should be administered less frequently in accordance with the usual practice for ampicillin (see <content styleCode="bold">
+                              <linkHtml href="#s34">DOSAGE </linkHtml>
+                           </content>
+                           <linkHtml href="#s34">and</linkHtml>
+                           <content styleCode="bold">
+                              <linkHtml href="#s34"> ADMINISTRATION</linkHtml>
+                           </content> section).</paragraph>
+                        <paragraph>Ampicillin has been found to be approximately 28% reversibly bound to human serum protein and sulbactam approximately 38% reversibly bound.</paragraph>
+                        <paragraph>The following average levels of ampicillin and sulbactam were measured in the tissues and fluids listed:</paragraph>
+                        <table ID="t1" width="100%" styleCode="Noautorules">
+                           <caption>TABLE 1 </caption>
+                           <colgroup>
+                              <col width="36.900%" align="left"/>
+                              <col width="31.333%" align="left"/>
+                              <col width="31.767%" align="left"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td colspan="3" align="center" valign="bottom">
+                                    <content styleCode="bold">Concentration of Ampicillin and Sulbactam for Injection in Various Body Tissues and Fluids</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="bottom">
+                                    <br/>
+                                    <content styleCode="bold">Fluid or Tissue</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">Dose</content>
+                                    <br/>
+                                    <content styleCode="bold">(grams) <br/>Ampicillin/Sulbactam</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">Concentration</content>
+                                    <br/>
+                                    <content styleCode="bold">(mcg/mL or mcg/g)</content>
+                                    <br/>
+                                    <content styleCode="bold">Ampicillin/Sulbactam</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">Peritoneal Fluid</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">0.5/0.5 IV</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">7/14</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">Blister Fluid (Cantharides)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">0.5/0.5 IV</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">8/20</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">Tissue Fluid</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">1/0.5 IV</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">8/4</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">Intestinal Mucosa</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">0.5/0.5 IV</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">11/18</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">Appendix</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">2/1 IV</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">3/40</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Penetration of both ampicillin and sulbactam into cerebrospinal fluid in the presence of inflamed meninges has been demonstrated after IV administration of ampicillin and sulbactam for injection.</paragraph>
+                        <paragraph>The pharmacokinetics of ampicillin and sulbactam in pediatric patients receiving ampicillin and sulbactam for injection are similar to those observed in adults. Immediately after a 15-minute infusion of 50 to 75 mg ampicillin and sulbactam for injection /kg body weight, peak serum and plasma concentrations of 82 to 446 mcg ampicillin/mL and 44 to 203 mcg sulbactam/mL were obtained. Mean half-life values were approximately 1 hour.</paragraph>
+                     </text>
+                     <effectiveTime value="20231129"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="78fa33eb-4141-415e-8d04-029d4257e39b"/>
+               <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+               <title>MICROBIOLOGY
+</title>
+               <text>
+                  <paragraph>Ampicillin is similar to benzyl penicillin in its bactericidal action against susceptible organisms during the stage of active multiplication. It acts through the inhibition of cell wall mucopeptide biosynthesis. Ampicillin has a broad spectrum of bactericidal activity against many gram-positive and gram-negative aerobic and anaerobic bacteria. (Ampicillin is, however, degraded by beta-lactamases and therefore the spectrum of activity does not normally include organisms which produce these enzymes).</paragraph>
+                  <paragraph>A wide range of beta-lactamases found in microorganisms resistant to penicillins and cephalosporins have been shown in biochemical studies with cell free bacterial systems to be irreversibly inhibited by sulbactam. Although sulbactam alone possesses little useful antibacterial activity except against the <content styleCode="italics">Neisseriaceae</content>, whole organism studies have shown that sulbactam restores ampicillin activity against beta-lactamase producing strains. In particular, sulbactam has good inhibitory activity against the clinically important plasmid mediated beta-lactamases most frequently responsible for transferred drug resistance. Sulbactam has no effect on the activity of ampicillin against ampicillin susceptible strains.</paragraph>
+                  <paragraph>The presence of sulbactam in the ampicillin and sulbactam for injection formulation effectively extends the antibacterial spectrum of ampicillin to include many bacteria normally resistant to it and to other beta-lactam antibacterials. Thus, ampicillin and sulbactam for injection possesses the properties of a broad-spectrum antibacterial and a beta-lactamase inhibitor.</paragraph>
+                  <paragraph>While <content styleCode="italics">in vitro</content> studies have demonstrated the susceptibility of most strains of the following organisms, clinical efficacy for infections other than those included in the <content styleCode="bold">INDICATIONS </content>and<content styleCode="bold"> USAGE</content> section has not been documented.</paragraph>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <section ID="s6">
+                     <id root="f134ebfb-b6a3-472b-bf14-a453369e6c36"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gram-Positive Bacteria
+</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Staphylococcus aureus</content> (beta-lactamase and non-beta-lactamase producing), <content styleCode="italics">Staphylococcus epidermidis</content> (beta-lactamase and non-beta-lactamase producing), <content styleCode="italics">Staphylococcus saprophyticus</content> (beta-lactamase and non-beta-lactamase producing), <content styleCode="italics">Streptococcus faecalis</content>
+                           <sup>†</sup> (Enterococcus), <content styleCode="italics">Streptococcus pneumoniae</content>
+                           <sup>†</sup> (formerly <content styleCode="italics">D. pneumoniae</content>), <content styleCode="italics">Streptococcus pyogenes</content>
+                           <sup>†</sup>, <content styleCode="italics">Streptococcus viridans</content>
+                           <sup>†</sup>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250320"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s7">
+                     <id root="533ba15a-5d8f-405a-b3e6-4b076715ba0e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gram-Negative Bacteria
+</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Hemophilus influenzae</content> (beta-lactamase and non-beta-lactamase producing), <content styleCode="italics">Moraxella </content>(<content styleCode="italics">Branhamella</content>)<content styleCode="italics"> catarrhalis</content> (beta-lactamase and non-beta-lactamase producing), <content styleCode="italics">Escherichia coli</content> (beta-lactamase and non-beta-lactamase producing), <content styleCode="italics">Klebsiella </content>species (all known strains are beta-lactamase producing), <content styleCode="italics">Proteus mirabilis</content> (beta-lactamase and non-beta-lactamase producing), <content styleCode="italics">Proteus vulgaris</content>
+                           <content styleCode="italics">, </content>
+                           <content styleCode="italics">Providencia rettgeri</content>
+                           <content styleCode="italics">, </content>
+                           <content styleCode="italics">Providencia stuartii</content>
+                           <content styleCode="italics">, </content>
+                           <content styleCode="italics">Morganella morganii</content>, and <content styleCode="italics">Neisseria gonorrhoeae</content> (beta-lactamase and non-beta-lactamase producing).</paragraph>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s8">
+                     <id root="227627a0-72a4-4332-a163-8cab732e96a7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Anaerobes
+</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Clostridium</content> species,<sup>† </sup>
+                           <content styleCode="italics">Peptococcus</content> species,<sup>† </sup>
+                           <content styleCode="italics">Peptostreptococcus</content> species, <content styleCode="italics">Bacteroides</content> species, including <content styleCode="italics">B. fragilis</content>.</paragraph>
+                        <paragraph>
+                           <sup>† </sup>These are not beta-lactamase producing strains and, therefore, are susceptible to ampicillin alone.</paragraph>
+                     </text>
+                     <effectiveTime value="20221216"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="b6580c64-15a1-4ef1-9574-93eeca80fa7a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Susceptibility Testing</title>
+                     <text>
+                        <paragraph>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.</paragraph>
+                     </text>
+                     <effectiveTime value="20221216"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s10">
+               <id root="53b917be-8b90-4704-a4d8-16511ff1a0d2"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>Ampicillin and sulbactam for injection is indicated for the treatment of infections due to susceptible strains of the designated microorganisms in the conditions listed below.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin and Skin Structure Infections</content> caused by beta-lactamase producing strains of <content styleCode="italics">Staphylococcus aureus</content>
+                     <content styleCode="italics">, </content>
+                     <content styleCode="italics">Escherichia coli</content>
+                     <content styleCode="italics">,* </content>
+                     <content styleCode="italics">Klebsiella </content>spp.<content styleCode="italics">*</content> (including <content styleCode="italics">K. pneumoniae</content>*), <content styleCode="italics">Proteus mirabilis</content>
+                     <content styleCode="italics">,* </content>
+                     <content styleCode="italics">Bacteroides fragilis</content>
+                     <content styleCode="italics">,* </content>
+                     <content styleCode="italics">Enterobacter </content>spp.,<content styleCode="italics">*</content> and <content styleCode="italics">Acinetobacter calcoaceticus</content>.*</paragraph>
+                  <paragraph>NOTE: For information on use in pediatric patients (see <content styleCode="bold">
+                        <linkHtml href="#s26">PRECAUTIONS-Pediatric Use</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#s32">CLINICAL STUDIES</linkHtml>
+                     </content> sections).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Intra-Abdominal Infections</content> caused by beta-lactamase producing strains of <content styleCode="italics">Escherichia coli</content>, <content styleCode="italics">Klebsiella </content>spp. (including <content styleCode="italics">K. pneumoniae</content>*), <content styleCode="italics">Bacteroides </content>spp. (including <content styleCode="italics">B. fragilis</content>), and <content styleCode="italics">Enterobacter </content>spp.*</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gynecological Infections</content> caused by beta-lactamase producing strains of <content styleCode="italics">Escherichia coli</content>,* and <content styleCode="italics">Bacteroides </content>spp.<content styleCode="italics">*</content> (including <content styleCode="italics">B. fragilis</content>*).</paragraph>
+                  <paragraph>* Efficacy for this organism in this organ system was studied in fewer than 10 infections.</paragraph>
+                  <paragraph>While ampicillin and sulbactam for injection is indicated only for the conditions listed above, infections caused by ampicillin-susceptible organisms are also amenable to treatment with ampicillin and sulbactam for injection due to its ampicillin content. Therefore, mixed infections caused by ampicillin-susceptible organisms and beta-lactamase producing organisms susceptible to ampicillin and sulbactam for injection should not require the addition of another antibacterial.</paragraph>
+                  <paragraph>Appropriate culture and susceptibility tests should be performed before treatment in order to isolate and identify the organisms causing infection and to determine their susceptibility to ampicillin and sulbactam for injection.</paragraph>
+                  <paragraph>Therapy may be instituted prior to obtaining the results from bacteriological and susceptibility studies when there is reason to believe the infection may involve any of the beta-lactamase producing organisms listed above in the indicated organ systems. Once the results are known, therapy should be adjusted if appropriate.</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain effectiveness of ampicillin and sulbactam for injection and other antibacterial drugs, ampicillin and sulbactam for injection should be used only to treat infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+               </text>
+               <effectiveTime value="20250214"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s11">
+               <id root="d742825f-9f2f-4ad9-9c9b-583a9aa0d5da"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>The use of ampicillin and sulbactam for injection is contraindicated in individuals with a history of serious hypersensitivity reactions (e.g., anaphylaxis or Stevens-Johnson syndrome) to ampicillin, sulbactam or to other beta-lactam antibacterial drugs (e.g., penicillins and cephalosporins).</paragraph>
+                  <paragraph>Ampicillin and sulbactam for injection is contraindicated in patients with a previous history of cholestatic jaundice/hepatic dysfunction associated with ampicillin and sulbactam for injection.</paragraph>
+               </text>
+               <effectiveTime value="20230206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s12">
+               <id root="b0097ac7-7019-4c98-9de2-3ce05d856585"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS
+</title>
+               <effectiveTime value="20250214"/>
+               <component>
+                  <section ID="s13">
+                     <id root="db48b4da-827d-46d2-b820-c66154131f4d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hypersensitivity
+</title>
+                     <text>
+                        <paragraph>Serious and occasionally fatal hypersensitivity (anaphylactic) reactions have been reported in patients on penicillin therapy. These reactions are more apt to occur in individuals with a history of penicillin hypersensitivity and/or hypersensitivity reactions to multiple allergens. There have been reports of individuals with a history of penicillin hypersensitivity who have experienced severe reactions when treated with cephalosporins. Before therapy with a penicillin, careful inquiry should be made concerning previous hypersensitivity reactions to penicillins, cephalosporins, and other allergens. If an allergic reaction occurs, ampicillin and sulbactam for injection should be discontinued and the appropriate therapy instituted.</paragraph>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s14">
+                     <id root="c4b6e4d3-57bf-4905-93c3-19d9f3fe716f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hepatotoxicity
+</title>
+                     <text>
+                        <paragraph>Hepatic dysfunction, including hepatitis and cholestatic jaundice has been associated with the use of ampicillin and sulbactam for injection. Hepatic toxicity is usually reversible; however, deaths have been reported. Hepatic function should be monitored at regular intervals in patients with hepatic impairment.</paragraph>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="b9bef340-28a0-4174-a138-83863d92b006"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Severe Cutaneous Adverse Reactions
+</title>
+                     <text>
+                        <paragraph>Ampicillin and sulbactam for injection may cause severe skin reactions, such as toxic epidermal necrolysis (TEN), Stevens-Johnson syndrome (SJS), dermatitis exfoliative, erythema multiforme, and Acute generalized exanthematous pustulosis (AGEP). If patients develop a skin rash they should be monitored closely and ampicillin and sulbactam for injection discontinued if lesions progress (see <content styleCode="bold">
+                              <linkHtml href="#s11">CONTRAINDICATIONS</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#s27">ADVERSE REACTIONS</linkHtml>
+                           </content> sections).</paragraph>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="0e2ffbe2-0427-448f-8fa9-e4279fead6d7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Clostridium difficile</content>-Associated Diarrhea
+</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Clostridium difficile</content> associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including ampicillin and sulbactam for injection, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C.</content>
+                           <content styleCode="italics"> difficile</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">C.</content>
+                           <content styleCode="italics"> difficile</content> produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C.</content>
+                           <content styleCode="italics"> difficile</content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial drug use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.</paragraph>
+                        <paragraph>If CDAD is suspected or confirmed, ongoing antibacterial drug use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibacterial treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s17">
+               <id root="4bf699ab-66f9-4d7f-8b25-bdaa23d68c42"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS
+</title>
+               <effectiveTime value="20250214"/>
+               <component>
+                  <section ID="s18">
+                     <id root="6679f832-9c2f-4072-8cd2-e43c9cec9d57"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General
+</title>
+                     <text>
+                        <paragraph>A high percentage of patients with mononucleosis who receive ampicillin develop a skin rash. Thus, ampicillin class antibacterials should not be administered to patients with mononucleosis. In patients treated with ampicillin and sulbactam for injection the possibility of superinfections with mycotic or bacterial pathogens should be kept in mind during therapy. If superinfections occur (usually involving <content styleCode="italics">Pseudomonas</content> or <content styleCode="italics">Candida</content>), the drug should be discontinued and/or appropriate therapy instituted.</paragraph>
+                        <paragraph>Prescribing ampicillin and sulbactam for injection in the absence of proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s19">
+                     <id root="95a284bf-f0f3-448c-9f03-4b59b2a3ecad"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients
+</title>
+                     <text>
+                        <paragraph>Patients should be counseled that antibacterial drugs including ampicillin and sulbactam for injection should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When ampicillin and sulbactam for injection is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by ampicillin and sulbactam for injection or other antibacterial drugs in the future.</paragraph>
+                        <paragraph>Diarrhea is a common problem caused by antibacterials which usually ends when the antibacterial is discontinued. Sometimes after starting treatment with antibacterials, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibacterial. If this occurs, patients should contact their physician as soon as possible.</paragraph>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s20">
+                     <id root="80c6fb13-934f-4f1d-8910-1cece4f5011d"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions
+</title>
+                     <text>
+                        <paragraph>Probenecid decreases the renal tubular secretion of ampicillin and sulbactam. Concurrent use of probenecid with ampicillin and sulbactam for injection may result in increased and prolonged blood levels of ampicillin and sulbactam. The concurrent administration of allopurinol and ampicillin increases substantially the incidence of rashes in patients receiving both drugs as compared to patients receiving ampicillin alone. It is not known whether this potentiation of ampicillin rashes is due to allopurinol or the hyperuricemia present in these patients. There are no data with ampicillin and sulbactam for injection and allopurinol administered concurrently. Ampicillin and sulbactam for injection and aminoglycosides should not be reconstituted together due to the <content styleCode="italics">in vitro</content> inactivation of aminoglycosides by the ampicillin component of ampicillin and sulbactam for injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20230206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s21">
+                     <id root="74702c5a-1e71-4ce3-9dfa-6a9bc7b47602"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions
+</title>
+                     <text>
+                        <paragraph>Administration of ampicillin and sulbactam for injection will result in high urine concentration of ampicillin. High urine concentrations of ampicillin may result in false positive reactions when testing for the presence of glucose in urine using Clinitest™, Benedict's Solution or Fehling's Solution. It is recommended that glucose tests based on enzymatic glucose oxidase reactions (such as Clinistix™ or Testape™) be used. Following administration of ampicillin to pregnant women, a transient decrease in plasma concentration of total conjugated estriol, estriol-glucuronide, conjugated estrone and estradiol has been noted. This effect may also occur with ampicillin and sulbactam for injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20230206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s22">
+                     <id root="77279175-0143-40d1-a06a-3c8bf9f14fbf"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>Long-term studies in animals have not been performed to evaluate carcinogenic or mutagenic potential.</paragraph>
+                     </text>
+                     <effectiveTime value="20230206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s23">
+                     <id root="a2716f46-a5d3-4def-9b99-1da431c86497"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy
+</title>
+                     <text>
+                        <paragraph>Reproduction studies have been performed in mice, rats, and rabbits at doses up to ten (10) times the human dose and have revealed no evidence of impaired fertility or harm to the fetus due to ampicillin and sulbactam for injection. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed (see <content styleCode="bold">
+                              <linkHtml href="#s21">PRECAUTIONS Drug/Laboratory Test Interactions</linkHtml>
+                           </content> section).</paragraph>
+                     </text>
+                     <effectiveTime value="20230206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s24">
+                     <id root="ddee9aec-5e5b-465b-9854-f3402205a0c0"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery
+</title>
+                     <text>
+                        <paragraph>Studies in guinea pigs have shown that intravenous administration of ampicillin decreased the uterine tone, frequency of contractions, height of contractions, and duration of contractions. However, it is not known whether the use of ampicillin and sulbactam for injection in humans during labor or delivery has immediate or delayed adverse effects on the fetus, prolongs the duration of labor, or increases the likelihood that forceps delivery or other obstetrical intervention or resuscitation of the newborn will be necessary.</paragraph>
+                     </text>
+                     <effectiveTime value="20230206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s25">
+                     <id root="35d85f6a-defa-49f4-9978-3013deb6a953"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers
+</title>
+                     <text>
+                        <paragraph>Low concentrations of ampicillin and sulbactam are excreted in the milk; therefore, caution should be exercised when ampicillin and sulbactam for injection is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20230206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s26">
+                     <id root="3200688b-758d-48af-ab81-fa89f38a4619"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use
+</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of ampicillin and sulbactam for injection have been established for pediatric patients one year of age and older for skin and skin structure infections as approved in adults. Use of ampicillin and sulbactam for injection in pediatric patients is supported by evidence from adequate and well-controlled studies in adults with additional data from pediatric pharmacokinetic studies, a controlled clinical trial conducted in pediatric patients and post-marketing adverse events surveillance (see <content styleCode="bold">
+                              <linkHtml href="#s3">CLINICAL PHARMACOLOGY</linkHtml>, <linkHtml href="#s10">INDICATIONS AND USAGE</linkHtml>, <linkHtml href="#s27">ADVERSE REACTIONS</linkHtml>, <linkHtml href="#s34">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>, and <content styleCode="bold">
+                              <linkHtml href="#s32">CLINICAL STUDIES</linkHtml>
+                           </content> sections).</paragraph>
+                        <paragraph>The safety and effectiveness of ampicillin and sulbactam for injection have not been established for pediatric patients for intra-abdominal infections.</paragraph>
+                     </text>
+                     <effectiveTime value="20231117"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s27">
+               <id root="4f58d47e-7755-4c3c-912a-450992635c78"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS
+</title>
+               <effectiveTime value="20250214"/>
+               <component>
+                  <section ID="s28">
+                     <id root="924f945f-4979-498c-95ea-b90547f73a6a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Adult Patients
+</title>
+                     <text>
+                        <paragraph>Ampicillin and sulbactam for injection is generally well tolerated. The following adverse reactions have been reported in clinical trials.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Local Adverse Reactions</content>
+                        </paragraph>
+                        <paragraph>Pain at IM injection site – 16%</paragraph>
+                        <paragraph>Pain at IV injection site – 3%</paragraph>
+                        <paragraph>Thrombophlebitis – 3%</paragraph>
+                        <paragraph>Phlebitis – 1.2%</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Systemic Adverse Reactions</content>
+                        </paragraph>
+                        <paragraph>The most frequently reported adverse reactions were diarrhea in 3% of the patients and rash in less than 2% of the patients.</paragraph>
+                        <paragraph>Additional systemic reactions reported in less than 1% of the patients were: itching, nausea, vomiting, candidiasis, fatigue, malaise, headache, chest pain, flatulence, abdominal distension, glossitis, urine retention, dysuria, edema, facial swelling, erythema, chills, tightness in throat, substernal pain, epistaxis and mucosal bleeding.</paragraph>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s29">
+                     <id root="4c842ffe-c28d-4ee8-9304-e9531c8ce36e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pediatric Patients
+</title>
+                     <text>
+                        <paragraph>Available safety data for pediatric patients treated with ampicillin and sulbactam for injection demonstrate a similar adverse events profile to those observed in adult patients. Additionally, atypical lymphocytosis has been observed in one pediatric patient receiving ampicillin and sulbactam for injection.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Adverse Laboratory Changes</content>
+                        </paragraph>
+                        <paragraph>Adverse laboratory changes without regard to drug relationship that were reported during clinical trials were:</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatic</content>: Increased AST (SGOT), ALT (SGPT), alkaline phosphatase, and LDH.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hematologic</content>: Decreased hemoglobin, hematocrit, RBC, WBC, neutrophils, lymphocytes, platelets and increased lymphocytes, monocytes, basophils, eosinophils, and platelets.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Blood Chemistry</content>: Decreased serum albumin and total proteins.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal</content>: Increased BUN and creatinine.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Urinalysis</content>: Presence of RBC's and hyaline casts in urine.</paragraph>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s30">
+                     <id root="8d4ed116-26c5-4238-961d-e3746a2e4509"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Postmarketing Experience
+</title>
+                     <text>
+                        <paragraph>In addition to adverse reactions reported from clinical trials, the following have been identified during post-marketing use of ampicillin sodium/sulbactam sodium or other products containing ampicillin. Because they are reported voluntarily from a population of unknown size, estimates of frequency cannot be made. These events have been chosen for inclusion due to a combination of their seriousness, frequency, or potential causal connection to ampicillin sodium/sulbactam sodium.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Blood and Lymphatic System Disorders</content>
+                        </paragraph>
+                        <paragraph>Hemolytic anemia, thrombocytopenic purpura, and agranulocytosis have been reported. These reactions are usually reversible on discontinuation of therapy and are believed to be hypersensitivity phenomena. Some individuals have developed positive direct Coombs Tests during treatment with ampicillin and sulbactam for injection, as with other beta-lactam antibacterials.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Gastrointestinal Disorders</content>
+                        </paragraph>
+                        <paragraph>Abdominal pain, cholestatic hepatitis, cholestasis, hyperbilirubinemia, jaundice, abnormal hepatic function, melena, gastritis, stomatitis, dyspepsia, black “hairy” tongue, and <content styleCode="italics">Clostridium </content>
+                           <content styleCode="italics">difficile</content> associated diarrhea (see <content styleCode="bold">
+                              <linkHtml href="#s11">CONTRAINDICATIONS</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#s12">WARNINGS</linkHtml>
+                           </content> sections).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">General Disorders and Administration Site Conditions</content>
+                        </paragraph>
+                        <paragraph>Injection site reaction</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Immune System Disorders</content>
+                        </paragraph>
+                        <paragraph>Serious and fatal hypersensitivity (anaphylactic) reactions (see <content styleCode="bold">
+                              <linkHtml href="#s12">WARNINGS</linkHtml>
+                           </content> section), Acute myocardial ischemia with or without myocardial infarction may occur as part of an allergic reaction.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Nervous System Disorders</content>
+                        </paragraph>
+                        <paragraph>Convulsion and dizziness</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Renal and Urinary Disorders</content>
+                        </paragraph>
+                        <paragraph>Tubulointerstitial nephritis</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Respiratory, Thoracic and Mediastinal Disorders</content>
+                        </paragraph>
+                        <paragraph>Dyspnea</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Skin and Subcutaneous Tissue Disorders</content>
+                        </paragraph>
+                        <paragraph>Toxic epidermal necrolysis, Stevens-Johnson syndrome, angioedema, Acute generalized exanthematous pustulosis (AGEP), erythema multiforme, exfoliative dermatitis, urticaria (see <content styleCode="bold">
+                              <linkHtml href="#s11">CONTRAINDICATIONS</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#s12">WARNINGS</linkHtml>
+                           </content> sections), and linear IgA bullous dermatosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s31">
+               <id root="da76dac6-857d-4934-8239-3e3f8a96b188"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE
+</title>
+               <text>
+                  <paragraph>Neurological adverse reactions, including convulsions, may occur with the attainment of high CSF levels of beta-lactams. Ampicillin may be removed from circulation by hemodialysis. The molecular weight, degree of protein binding and pharmacokinetics profile of sulbactam suggest that this compound may also be removed by hemodialysis.</paragraph>
+               </text>
+               <effectiveTime value="20230206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s32">
+               <id root="fbcc3cec-4f44-4f14-b71a-4d089cab2585"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL STUDIES
+</title>
+               <effectiveTime value="20231117"/>
+               <component>
+                  <section ID="s33">
+                     <id root="bb7381ea-519f-46e9-a982-686e4dde7648"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Skin and Skin Structure Infections in Pediatric Patients
+</title>
+                     <text>
+                        <paragraph>Data from a controlled clinical trial conducted in pediatric patients provided evidence supporting the safety and efficacy of ampicillin and sulbactam for injection for the treatment of skin and skin structure infections. Of 99 pediatric patients evaluable for clinical efficacy, 60 patients received a regimen containing intravenous ampicillin and sulbactam for injection, and 39 patients received a regimen containing intravenous cefuroxime. This trial demonstrated similar outcomes (assessed at an appropriate interval after discontinuation of all antimicrobial therapy) for ampicillin and sulbactam for injection- and cefuroxime-treated patients:</paragraph>
+                        <table ID="t4" width="100%" styleCode="Noautorules">
+                           <caption> TABLE 2 </caption>
+                           <colgroup>
+                              <col width="33.400%" align="left"/>
+                              <col width="33.300%" align="left"/>
+                              <col width="33.300%" align="left"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">
+                                    <content styleCode="bold">Therapeutic Regimen</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">Clinical Success</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">Clinical Failure</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left">Ampicillin and Sulbactam for Injection, USP</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">51/60 (85%)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">9/60 (15%)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top">Cefuroxime</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">34/39 (87%)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">5/39 (13%)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Most patients received a course of oral antimicrobials following initial treatment with intravenous administration of parenteral antimicrobials. The study protocol required that the following three criteria be met prior to transition from intravenous to oral antimicrobial therapy: (1) receipt of a minimum of 72 hours of intravenous therapy; (2) no documented fever for prior 24 hours; and (3) improvement or resolution of the signs and symptoms of infection.</paragraph>
+                        <paragraph>The choice of oral antimicrobial agent used in this trial was determined by susceptibility testing of the original pathogen, if isolated, to oral agents available. The course of oral antimicrobial therapy should not routinely exceed 14 days.</paragraph>
+                     </text>
+                     <effectiveTime value="20231117"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s34">
+               <id root="ca62ca2e-d28b-4e89-b836-26047d3a35e9"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION
+</title>
+               <text>
+                  <paragraph>Ampicillin and sulbactam for injection may be administered by either the IV or the IM routes.</paragraph>
+                  <paragraph>For IV administration, the dose can be given by slow intravenous injection over at least 10-15 minutes or can also be delivered in greater dilutions with 50-100 mL of a compatible diluent as an intravenous infusion over 15-30 minutes.</paragraph>
+                  <paragraph>Ampicillin and sulbactam for injection may be administered by deep intramuscular injection (see <content styleCode="bold">
+                        <linkHtml href="#s40">DIRECTIONS FOR USE-Preparation for Intramuscular Injection</linkHtml>
+                     </content> section).</paragraph>
+                  <paragraph>The recommended adult dosage of ampicillin and sulbactam for injection is 1.5 g (1 g ampicillin as the sodium salt plus 0.5 g sulbactam as the sodium salt) to 3 g (2 g ampicillin as the sodium salt plus 1 g sulbactam as the sodium salt) every six hours. This 1.5 to 3 g range represents the total of ampicillin content plus the sulbactam content of ampicillin and sulbactam for injection, and corresponds to a range of 1 g ampicillin/0.5 g sulbactam to 2 g ampicillin/1 g sulbactam. The total dose of sulbactam should not exceed 4 grams per day.</paragraph>
+               </text>
+               <effectiveTime value="20250214"/>
+               <component>
+                  <section ID="s35">
+                     <id root="17e7ac41-53dc-4116-93a3-30cd806fc488"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pediatric Patients 1 Year of Age or Older
+</title>
+                     <text>
+                        <paragraph>The recommended daily dose of ampicillin and sulbactam for injection in pediatric patients is 300 mg per kg of body weight administered via intravenous infusion in equally divided doses every 6 hours. This 300 mg/kg/day dosage represents the total ampicillin content plus the sulbactam content of ampicillin and sulbactam for injection, and corresponds to 200 mg ampicillin/100 mg sulbactam per kg per day. The safety and efficacy of ampicillin and sulbactam for injection administered via intramuscular injection in pediatric patients have not been established. Pediatric patients weighing 40 kg or more should be dosed according to adult recommendations, and the total dose of sulbactam should not exceed 4 grams per day. The course of intravenous therapy should not routinely exceed 14 days. In clinical trials, most children received a course of oral antimicrobials following initial treatment with intravenous ampicillin and sulbactam for injection (see <content styleCode="bold">
+                              <linkHtml href="#s32">CLINICAL STUDIES</linkHtml>
+                           </content> section).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Impaired Renal Function</content>
+                        </paragraph>
+                        <paragraph>In patients with impairment of renal function the elimination kinetics of ampicillin and sulbactam are similarly affected, hence the ratio of one to the other will remain constant whatever the renal function. The dose of ampicillin and sulbactam for injection in such patients should be administered less frequently in accordance with the usual practice for ampicillin and according to the following recommendations:</paragraph>
+                        <table ID="t5" width="100%">
+                           <caption>TABLE 3 </caption>
+                           <colgroup>
+                              <col width="33.333%" align="left"/>
+                              <col width="33.367%" align="left"/>
+                              <col width="33.300%" align="left"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule" colspan="3" align="center" valign="bottom">
+                                    <content styleCode="bold">Ampicillin and Sulbactam for Injection</content>
+                                    <br/>
+                                    <content styleCode="bold">Dosage Guide for Patients with Renal Impairment</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                                    <content styleCode="bold">Creatinine Clearance<br/>(mL/min/1.73m</content>
+                                    <content styleCode="bold">
+                                       <sup>2</sup>
+                                    </content>
+                                    <content styleCode="bold">)</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                                    <content styleCode="bold">Ampicillin/Sulbactam<br/>Half-Life (Hours)</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">
+                                    <content styleCode="bold">Recommended<br/>Ampicillin and Sulbactam<br/>for Injection Dosage</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">≥30</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1.5-3 g q 6h-q 8h</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">15-29</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">5</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1.5-3 g q 12h</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">5-14</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">9</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center">1.5-3 g q 24h</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>When only serum creatinine is available, the following formula (based on sex, weight, and age of the patient) may be used to convert this value into creatinine clearance. The serum creatinine should represent a steady state of renal function.</paragraph>
+                        <paragraph/>
+                        <table width="100%">
+                           <caption/>
+                           <tbody>
+                              <tr>
+                                 <td> Males</td>
+                                 <td>
+                                    <content styleCode="underline">weight (kg) x (140 - age)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td/>
+                                 <td>72 x serum creatinine</td>
+                              </tr>
+                              <tr>
+                                 <td> Females</td>
+                                 <td>0.85 x above value</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s36">
+               <id root="20ba2f47-e7d7-43a9-a6b9-4ba92498280a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>COMPATIBILITY, RECONSTITUTION AND STABILITY
+</title>
+               <text>
+                  <paragraph>Ampicillin and sulbactam for injection sterile powder is to be stored at or below 30°C (86°F) prior to reconstitution.</paragraph>
+                  <paragraph>When concomitant therapy with aminoglycosides is indicated, ampicillin and sulbactam for injection and aminoglycosides should be reconstituted and administered separately, due to the <content styleCode="italics">in vitro</content> inactivation of aminoglycosides by any of the aminopenicillins.</paragraph>
+               </text>
+               <effectiveTime value="20250214"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s37">
+               <id root="53509d35-533c-463a-aa9b-35945876c24a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DIRECTIONS FOR USE
+</title>
+               <effectiveTime value="20250214"/>
+               <component>
+                  <section ID="s38">
+                     <id root="d305c2b3-5f18-4fa2-ae4c-2a81e14ed216"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>General Dissolution Procedures
+</title>
+                     <text>
+                        <paragraph>Ampicillin and sulbactam for injection sterile powder for intravenous and intramuscular use may be reconstituted with any of the compatible diluents described in this insert. Solutions should be allowed to stand after dissolution to allow any foaming to dissipate in order to permit visual inspection for complete solubilization.</paragraph>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s39">
+                     <id root="844f1020-1951-47cc-97e1-6bff371c6ddc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preparation for Intravenous Use
+</title>
+                     <text>
+                        <paragraph>
+                           <content>1.5 g and 3.0 g Bottles: ampicillin and sulbactam for injection sterile powder in piggyback units may be reconstituted directly to the desired concentrations using any of the following parenteral diluents. Reconstitution of ampicillin and sulbactam for injection, at the specified concentrations, with these diluents provide stable solutions for the time periods indicated in the following table: (After the indicated time periods, any unused portions of solutions should be discarded).</content>
+                        </paragraph>
+                        <table ID="t6" width="100%">
+                           <caption>TABLE 4 </caption>
+                           <colgroup>
+                              <col width="32.000%" align="left"/>
+                              <col width="48.000%" align="left"/>
+                              <col width="20.000%" align="left"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <br/>
+                                    <content styleCode="bold">Diluent</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">Maximum Concentration (mg per mL)</content>
+                                    <br/>
+                                    <content styleCode="bold">Ampicillin and Sulbactam for Injection</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <br/>
+                                    <content styleCode="bold">Use Periods</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" align="left" valign="top">Sterile Water for Injection</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="bottom">45 (30/15)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="bottom">8 hrs at 25°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">45 (30/15)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">48 hrs at 4°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">30 (20/10)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">72 hrs at 4°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" align="left" valign="top">0.9% Sodium Chloride Injection</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">45 (30/15)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="bottom">8 hrs at 25°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">45 (30/15)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">48 hrs at 4°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">30 (20/10)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">72 hrs at 4°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" align="left" valign="top">5% Dextrose Injection</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">30 (20/10)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="bottom">2 hrs at 25°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">30 (20/10)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">4 hrs at 4°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">3 (2/1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">4 hrs at 25°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td rowspan="2" align="left" valign="top">Lactated Ringer's Injection</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">45 (30/15)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="bottom">8 hrs at 25°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">45 (30/15)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">24 hrs at 4°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td rowspan="2" align="left" valign="top">M/6 Sodium Lactate Injection</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">45 (30/15)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">8 hrs at 25°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">45 (30/15)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="bottom">8 hrs at 4°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td rowspan="2" align="left" valign="top">5% Dextrose in 0.45% Saline</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">3 (2/1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">4 hrs at 25°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">15 (10/5)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">4 hrs at 4°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top"/>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule" rowspan="2" align="left" valign="top">10% Invert Sugar</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">3 (2/1)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="bottom">4 hrs at 25°C</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">30 (20/10)</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">3 hrs at 4°C</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>If piggyback bottles are unavailable, standard vials of ampicillin and sulbactam for injection sterile powder may be used. Initially, the vials may be reconstituted with Sterile Water for Injection to yield solutions containing 375 mg ampicillin and sulbactam for injection per mL (250 mg ampicillin/125 mg sulbactam per mL). An appropriate volume should then be immediately diluted with a suitable parenteral diluent to yield solutions containing 3 to 45 mg ampicillin and sulbactam for injection per mL (2 to 30 mg ampicillin/1 to 15 mg sulbactam per mL).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">In 0.9% Sodium Chloride Injection, USP</content>
+                           <br/>The final diluted solution of ampicillin and sulbactam for injection should be completely administered <content styleCode="italics">within 8 hours</content> in order to assure proper potency.</paragraph>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s40">
+               <id root="3d304de7-9fc3-405f-81e9-eb5e6491ed4f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Preparation for Intramuscular Injection
+</title>
+               <effectiveTime value="20250214"/>
+               <component>
+                  <section ID="s41">
+                     <id root="31be795a-20c8-4455-bf5a-cb0cb14410ef"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>1.5 g and 3.0 g Standard Vials</title>
+                     <text>
+                        <paragraph>Vials for intramuscular use may be reconstituted with Sterile Water for Injection USP, 0.5% Lidocaine Hydrochloride Injection USP or 2% Lidocaine Hydrochloride Injection USP. Consult the following table for recommended volumes to be added to obtain solutions containing 375 mg ampicillin and sulbactam for injection per mL (250 mg ampicillin/125 mg sulbactam per mL). Note: <content styleCode="italics">Use only freshly prepared solutions and administer within one hour after preparation.</content>
+                        </paragraph>
+                        <table ID="t8" width="100%">
+                           <caption>TABLE 6</caption>
+                           <colgroup>
+                              <col width="43.133%" align="left"/>
+                              <col width="27.133%" align="left"/>
+                              <col width="29.733%" align="left"/>
+                           </colgroup>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="3" align="left" valign="top">
+                                    <paragraph styleCode="First Footnote">*There is sufficient excess present to allow withdrawal and administration of the stated volumes.</paragraph>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <br/>
+                                    <content styleCode="bold">Ampicillin and Sulbactam</content>
+                                    <br/>
+                                    <content styleCode="bold">for Injection</content>
+                                    <br/>
+                                    <content styleCode="bold">Vial Size</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <br/>
+                                    <br/>
+                                    <content styleCode="bold">Volume of Diluent</content>
+                                    <br/>
+                                    <content styleCode="bold">to be Added</content>
+                                 </td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">
+                                    <br/>
+                                    <br/>
+                                    <content styleCode="bold">Withdrawal</content>
+                                    <br/>
+                                    <content styleCode="bold">Volume*</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">1.5 g</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">3.2 mL</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">4.0 mL</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">3.0 g</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">6.4 mL</td>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="top">8.0 mL</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20250214"/>
+                     <component>
+                        <section ID="s42">
+                           <id root="50bdc812-6de0-4bd0-999a-099053d186eb"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Animal Pharmacology</content>
+                              </paragraph>
+                              <paragraph>While reversible glycogenosis was observed in laboratory animals, this phenomenon was dose-and time-dependent and is not expected to develop at the therapeutic doses and corresponding plasma levels attained during the relatively short periods of combined ampicillin/sulbactam therapy in man.</paragraph>
+                           </text>
+                           <effectiveTime value="20250214"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s43">
+               <id root="cacb7d2e-f017-413f-9620-99f907a9d868"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED
+</title>
+               <text>
+                  <paragraph>Ampicillin and Sulbactam for Injection, USP (ampicillin sodium/sulbactam sodium) is a sterile white to off-white dry powder and is supplied in 20 mL glass vials as follows:</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <colgroup>
+                        <col width="26.833%" align="left"/>
+                        <col width="47.333%" align="left"/>
+                        <col width="25.833%" align="left"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Ampicillin and Sulbactam for Injection, USP</content>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Package Factor</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top">71288-<content styleCode="bold">031</content>-21</td>
+                           <td align="left" valign="top">1.5 gram equivalent</td>
+                           <td align="left" valign="top">10 vials per tray</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top">(1 g ampicillin as the sodium salt plus 0.5 g</td>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top">sulbactam as the sodium salt) in a Single-Dose Vial</td>
+                           <td align="left" valign="top"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="100%" styleCode="Noautorules">
+                     <colgroup>
+                        <col width="26.833%" align="left"/>
+                        <col width="47.333%" align="left"/>
+                        <col width="25.833%" align="left"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td align="left" valign="top">71288-<content styleCode="bold">032</content>-21</td>
+                           <td align="left" valign="top">3 gram equivalent</td>
+                           <td align="left" valign="top">10 vials per tray</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top">(2 g ampicillin as the sodium salt plus 1 g</td>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top">sulbactam as the sodium salt) in a Single-Dose Vial</td>
+                           <td align="left" valign="top"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <section ID="s44">
+                     <id root="152d7814-cbda-4817-a5c3-8f11994cbaf8"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content>Ampicillin and Sulbactam for Injection, USP powder should be stored at or below 86ºF (30ºC), prior to reconstitution.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Sterile, Nonpyrogenic, Preservative-free.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">The container closure is not made with natural rubber latex.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">For medical information about Ampicillin and Sulbactam for Injection, USP, please visit www.meithealpharma.com or call 1-844-824-8426.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Meitheal Pharmaceuticals Inc. at 1-844-824-8426 or FDA at 1-800-FDA-1088 or <content styleCode="underline">www.fda.gov/medwatch.</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>This product’s labeling may have been updated. For the most recent prescribing information, please visit www.meithealpharma.com.</paragraph>
+                        <paragraph>Brands listed are the trademarks of their respective owners.</paragraph>
+                        <paragraph>
+                           <content>
+                              <renderMultiMedia referencedObject="L6948b852-b933-48b2-9fc2-5c07bd06bb61"/>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content>Mfd. for Meitheal Pharmaceuticals</content>
+                        </paragraph>
+                        <paragraph>
+                           <content>Chicago, IL 60631 (USA)</content>
+                        </paragraph>
+                        <paragraph>©2024 Meitheal Pharmaceuticals Inc.</paragraph>
+                        <paragraph>Mfd. by Istituto Biochimico Italiano<br/>Aprilia, Italy 04011</paragraph>
+                        <paragraph>Revised: December 2024</paragraph>
+                        <paragraph>860603/02</paragraph>
+                     </text>
+                     <effectiveTime value="20250320"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s45">
+               <id root="0451f598-8bbc-4857-8095-a95042da2038"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel – Ampicillin and Sulbactam for Injection, USP 1.5 gram Vial Label
+</title>
+               <text>
+                  <paragraph>NDC 71288-<content styleCode="bold">031</content>-20</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ampicillin and Sulbactam for Injection, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1.5 grams* per vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intramuscular or Intravenous Use</content>
+                  </paragraph>
+                  <paragraph>Single-Dose Vial</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Le47dd4ed-a726-419f-b5c9-ab3e94cdb220"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <observationMedia ID="Le47dd4ed-a726-419f-b5c9-ab3e94cdb220">
+                     <text>Principal Display Panel – Ampicillin and Sulbactam for Injection, USP 1.5 gram Vial Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="amp1gvial-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s46">
+               <id root="1583c68a-1dc4-4cd6-9cb9-c373f333afbb"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - Ampicillin and Sulbactam for Injection, USP 1.5 gram Carton
+</title>
+               <text>
+                  <paragraph>NDC 71288-<content styleCode="bold">031</content>-21</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ampicillin and Sulbactam for Injection, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1.5 grams* per vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intramuscular or Intravenous Use</content>
+                  </paragraph>
+                  <paragraph>10 Vials                           10 x 1.5 Grams<br/>Sterile                             Single-Dose Vials</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L20adbcaf-fdad-4c25-93d1-615944c787e2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <observationMedia ID="L20adbcaf-fdad-4c25-93d1-615944c787e2">
+                     <text>Principal Display Panel - Ampicillin and Sulbactam for Injection, USP 1.5 gram Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="amp1gcarton-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s47">
+               <id root="6e67b175-7cd1-4023-bfdb-5dfd9853271d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel – Ampicillin and Sulbactam for Injection, USP 3 gram Vial Label
+</title>
+               <text>
+                  <paragraph>NDC 71288-<content styleCode="bold">032</content>-20</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ampicillin and Sulbactam for Injection, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3 grams* per vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intramuscular or Intravenous Use</content>
+                  </paragraph>
+                  <paragraph>Single-Dose Vial</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L6b4e48fd-f067-4db2-9774-2936ca9beeab"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <observationMedia ID="L6b4e48fd-f067-4db2-9774-2936ca9beeab">
+                     <text>Principal Display Panel – Ampicillin and Sulbactam for Injection, USP 3 gram Vial Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="amp3gvial-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s48">
+               <id root="b2f43aab-5bf2-4af2-b11b-512de9ed6fe4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel – Ampicillin and Sulbactam for Injection, USP 3 gram Carton
+</title>
+               <text>
+                  <paragraph>NDC 71288-<content styleCode="bold">032</content>-21</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ampicillin and Sulbactam for Injection, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3 grams* per vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intramuscular or Intravenous Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content>10 Vials                               10 x 3 Grams</content>
+                  </paragraph>
+                  <paragraph>Sterile                                 Single-Dose Vials</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L4c81c02c-a866-4426-8d81-97dd1ad02496"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250320"/>
+               <component>
+                  <observationMedia ID="L4c81c02c-a866-4426-8d81-97dd1ad02496">
+                     <text>Principal Display Panel – Ampicillin and Sulbactam for Injection, USP 3 gram Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="amp3gcarton-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

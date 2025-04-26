@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="300661cb-a5d8-4edc-a191-72284744e1eb"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Acetazolamide for Injection, USP<br/> Rx only</content>
+   </title>
+   <effectiveTime value="20250217"/>
+   <setId root="521838b0-a10d-495f-a014-f9ff25a6b6f3"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="790384502" root="1.3.6.1.4.1.519.1"/>
+            <name>Mylan Institutional LLC</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9fd8e578-9722-4e72-9b34-ed59f97e03fe"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20180926"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67457-853" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Acetazolamide</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>acetazolamide sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="mL" value="5"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="429ZT169UH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>acetazolamide sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="O3FX965V0I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>acetazolamide</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sodium hydroxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>hydrochloric acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67457-853-50" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20180913"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA200880" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180913"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_B806F142-4255-4509-B671-9499A1932830">
+               <id root="1be0d1e5-3cfd-4f46-8db6-c9a27e41df89"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION<content styleCode="italics"/>
+               </title>
+               <text>
+                  <paragraph>Acetazolamide, an inhibitor of the enzyme carbonic anhydrase is a white to faintly yellowish white, crystalline powder, sparingly soluble in practically boiling water, very slightly soluble in water and slightly soluble in alcohol. The chemical name for acetazolamide is <content styleCode="italics">N</content>-(5-Sulamoyl-1,3,4-thiadiazol-2-yl) acetamide and has the following chemical structure:</paragraph>
+                  <renderMultiMedia ID="id925691354" referencedObject="F6D8069D-771F-4A27-9133-3F311FA69D01"/>
+                  <paragraph>Acetazolamide for injection, USP is available for intravenous use, and is supplied as a sterile, white or almost white to faintly yellowish white lyophilized powder or plug requiring reconstitution. Each vial contains an amount of acetazolamide sodium equivalent to 500 mg of acetazolamide, USP. The bulk solution is adjusted to pH 9.2 using sodium hydroxide and, if necessary, hydrochloric acid prior to lyophilization.</paragraph>
+               </text>
+               <effectiveTime value="20250217"/>
+               <component>
+                  <observationMedia ID="F6D8069D-771F-4A27-9133-3F311FA69D01">
+                     <text>Acetazolamide Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_A7B224DD-EC75-4312-897E-CE3554A490BC">
+               <id root="3e738291-5ab2-4c96-b434-3773950b4593"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY </title>
+               <text>
+                  <paragraph>Acetazolamide is a potent carbonic anhydrase inhibitor, effective in the control of fluid secretion (e.g., some types of glaucoma), in the treatment of certain convulsive disorders (e.g., epilepsy) and in the promotion of diuresis in instances of abnormal fluid retention (e.g., cardiac edema).</paragraph>
+                  <paragraph>Acetazolamide is not a mercurial diuretic. Rather, it is a nonbacteriostatic sulfonamide possessing a chemical structure and pharmacological activity distinctly different from the bacteriostatic sulfonamides.</paragraph>
+                  <paragraph>Acetazolamide is an enzyme inhibitor that acts specifically on carbonic anhydrase, the enzyme that catalyzes the reversible reaction involving the hydration of carbon dioxide and the dehydration of carbonic acid. In the eye, this inhibitory action of acetazolamide decreases the secretion of aqueous humor and results in a drop in intraocular pressure, a reaction considered desirable in cases of glaucoma and even in certain nonglaucomatous conditions. Evidence seems to indicate that acetazolamide has utility as an adjuvant in the treatment of certain dysfunctions of the central nervous system (e.g, epilepsy). Inhibition of carbonic anhydrase in this area appears to retard abnormal, paroxysmal, excessive discharge from central nervous system neurons. The diuretic effect of acetazolamide is due to its action in the kidney on the reversible reaction involving hydration of carbon dioxide and dehydration of carbonic acid. The result is renal loss of HCO<sub>3</sub> ion, which carries out sodium, water, and potassium. Alkalinization of the urine and promotion of diuresis are thus affected. Alteration in ammonia metabolism occurs due to increased reabsorption of ammonia by the renal tubules as a result of urinary alkalinization.</paragraph>
+                  <paragraph>Placebo-controlled clinical trials have shown that prophylactic administration of acetazolamide at a dose of 250 mg every eight to 12 hours (or a 500 mg controlled-release capsule once daily) before and during rapid ascent to altitude results in fewer and/or less severe symptoms (such as headache, nausea, shortness of breath, dizziness, drowsiness, and fatigue) of acute mountain sickness (AMS). Pulmonary function (e.g., minute ventilation, expired vital capacity, and peak flow) is greater in the acetazolamide treated group, both in subjects with AMS and asymptomatic subjects. The acetazolamide treated climbers also had less difficulty in sleeping.</paragraph>
+               </text>
+               <effectiveTime value="20250217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_17ADCB68-D786-40E8-B340-5EDA60EFD80F">
+               <id root="566ae8d4-b2de-4dab-b5be-d9dc6d05443d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE </title>
+               <text>
+                  <paragraph>For adjunctive treatment of: edema due to congestive heart failure; drug-induced edema; centrencephalic epilepsies (petit mal, unlocalized seizures); chronic simple (open-angle) glaucoma, secondary glaucoma, and preoperatively in acute angle-closure glaucoma where delay of surgery is desired in order to lower intraocular pressure. </paragraph>
+               </text>
+               <effectiveTime value="20250217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_E7D92BB0-D443-425C-A504-346196AB996D">
+               <id root="e12a6ebd-7606-4c10-b679-1d870d08af3d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS </title>
+               <text>
+                  <paragraph>Hypersensitivity to acetazolamide or any excipients in the formulation. Since acetazolamide is a sulfonamide derivative, cross sensitivity between acetazolamide, sulfonamides and other sulfonamide derivatives is possible. </paragraph>
+                  <paragraph>Acetazolamide therapy is contraindicated in situations in which sodium and/or potassium blood serum levels are depressed, in cases of marked kidney and liver disease or dysfunction, in suprarenal gland failure, and in hyperchloremic acidosis. It is contraindicated in patients with cirrhosis because of the risk of development of hepatic encephalopathy.</paragraph>
+                  <paragraph>Long-term administration of acetazolamide is contraindicated in patients with chronic noncongestive angle-closure glaucoma since it may permit organic closure of the angle to occur while the worsening glaucoma is masked by lowered intraocular pressure.</paragraph>
+               </text>
+               <effectiveTime value="20250217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_575D5D21-70BB-4715-813E-B69952446336">
+               <id root="79b383bc-e01a-4bbe-85b6-956fa9a4b4a9"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS </title>
+               <text>
+                  <paragraph>Fatalities have occurred, although rarely, due to severe reactions to sulfonamides including Stevens-Johnson syndrome, toxic epidermal necrolysis, fulminant hepatic necrosis, agranulocytosis, aplastic anemia, and other blood dyscrasias, and anaphylaxis. Sensitizations may recur when a sulfonamide is readministered irrespective of the route of administration. If signs of hypersensitivity or other serious reactions occur, discontinue use of this drug.</paragraph>
+                  <paragraph>Caution is advised for patients receiving concomitant high-dose aspirin and acetazolamide, as anorexia, tachypnea, lethargy, metabolic acidosis, coma, and death have been reported.</paragraph>
+               </text>
+               <effectiveTime value="20250217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_40567D30-DEA7-41F5-B0E5-5E295F97B9C9">
+               <id root="249e878c-8b6e-4819-8cbb-6a7257e38633"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS </title>
+               <effectiveTime value="20250217"/>
+               <component>
+                  <section ID="ID_6130A86F-7312-4FC7-BC10-69FA89456E2F">
+                     <id root="973c41e1-88ce-40be-be3f-caaa582522b3"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General </title>
+                     <text>
+                        <paragraph>Increasing the dose does not increase the diuresis and may increase the incidence of drowsiness and/or paresthesia. Increasing the dose often results in a decrease in diuresis. Under certain circumstances, however, very large doses have been given in conjunction with other diuretics in order to secure diuresis in complete refractory failure.</paragraph>
+                        <paragraph>Choroidal effusion and choroidal detachment have been reported after the use of acetazolamide in the post-operative period following ophthalmic surgery. Discontinue Acetazolamide if choroidal effusion and/or choroidal detachment is suspected.</paragraph>
+                     </text>
+                     <effectiveTime value="20250217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_0799DA91-F07C-4F42-A481-B13432CD2E7B">
+                     <id root="e284136b-b060-4ff1-8aba-4ebe8a74ef60"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients </title>
+                     <text>
+                        <paragraph>Adverse reactions common to all sulfonamide derivatives may occur: anaphylaxis, fever, rash (including erythema multiforme, Stevens-Johnson syndrome, toxic epidermal necrolysis), crystalluria, renal calculus, bone marrow depression, thrombocytopenic purpura, hemolytic anemia, leukopenia, pancytopenia, and agranulocytosis. Caution is advised for early detection of such reactions and the drug should be discontinued and appropriate therapy instituted. </paragraph>
+                        <paragraph>In patients with pulmonary obstruction or emphysema where alveolar ventilation may be impaired, acetazolamide, which may precipitate or aggravate acidosis, should be used with caution.</paragraph>
+                        <paragraph>Gradual ascent is desirable to try to avoid acute mountain sickness. If rapid ascent is undertaken and acetazolamide is used, it should be noted that such use does not obviate the need for prompt descent if severe forms of high altitude sickness occur, i.e., high altitude pulmonary edema (HAPE) or high altitude cerebral edema.</paragraph>
+                        <paragraph>Caution is advised for patients receiving concomitant high-dose aspirin and acetazolamide, as anorexia, tachypnea, lethargy, metabolic acidosis, coma, and death have been reported (see <content styleCode="bold">
+                              <linkHtml href="#ID_575D5D21-70BB-4715-813E-B69952446336">WARNINGS</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Both increases and decreases in blood glucose levels have been described in patients treated with acetazolamide. This should be taken into consideration in patients with impaired glucose tolerance or diabetes mellitus. </paragraph>
+                        <paragraph>Acetazolamide treatment may cause electrolyte imbalances, including hyponatremia and hypokalemia, as well as metabolic acidosis. Therefore, periodic monitoring of serum electrolytes is recommended. Particular caution is recommended in patients with conditions that are associated with, or predispose a patient to, electrolyte and acid/base imbalances, such as patients with impaired renal function (including elderly patients; see <content styleCode="bold">
+                              <linkHtml href="#ID_D028EF02-5F68-45AA-B8AD-275B4409CB62">PRECAUTIONS, Geriatric Use</linkHtml>
+                           </content>), patients with diabetes mellitus, and patients with impaired alveolar ventilation. </paragraph>
+                        <paragraph>Some adverse reactions to acetazolamide, such as drowsiness, fatigue, and myopia, may impair the ability to drive and operate machinery.</paragraph>
+                     </text>
+                     <effectiveTime value="20250217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_11159345-7C66-4399-B947-2C7B3825FE0E">
+                     <id root="638666de-3739-4117-890c-8ba46e508339"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests </title>
+                     <text>
+                        <paragraph>To monitor for hematologic reactions common to all sulfonamides, it is recommended that a baseline CBC and platelet count be obtained on patients prior to initiating acetazolamide therapy and at regular intervals during therapy. If significant changes occur, early discontinuance and institution of appropriate therapy are important. Periodic monitoring of serum electrolytes is recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20250217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_B8FA6E8B-4655-4A76-84ED-9DC16A4C500E">
+                     <id root="760f0da9-8dc8-4ee0-9da8-5225598e1813"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions </title>
+                     <text>
+                        <paragraph>Aspirin – See <content styleCode="bold">
+                              <linkHtml href="#ID_575D5D21-70BB-4715-813E-B69952446336">WARNINGS</linkHtml>
+                           </content>.</paragraph>
+                        <paragraph>Acetazolamide modifies phenytoin metabolism with increased serum levels of phenytoin. This may increase or enhance the occurrence of osteomalacia in some patients receiving chronic phenytoin therapy. Caution is advised in patients receiving chronic concomitant therapy.</paragraph>
+                        <paragraph>By decreasing the gastrointestinal absorption of primidone, acetazolamide may decrease serum concentrations of primidone and its metabolites, with a consequent possible decrease in anticonvulsant effect. Caution is advised when beginning, discontinuing, or changing the dose of acetazolamide in patients receiving primidone. </paragraph>
+                        <paragraph>Because of possible additive effects with other carbonic anhydrase inhibitors, concomitant use is not advisable.</paragraph>
+                        <paragraph>Acetazolamide may increase the effects of other folic acid antagonists.</paragraph>
+                        <paragraph>Acetazolamide may increase or decrease blood glucose levels. Consideration should be taken in patients being treated with antidiabetic agents.</paragraph>
+                        <paragraph>Acetazolamide decreases urinary excretion of amphetamine and may enhance the magnitude and duration of their effect.</paragraph>
+                        <paragraph>Acetazolamide reduces urinary excretion of quinidine and may enhance its effect.</paragraph>
+                        <paragraph>Acetazolamide may prevent the urinary antiseptic effect of methenamine.</paragraph>
+                        <paragraph>Acetazolamide increases lithium excretion and the lithium may be decreased.</paragraph>
+                        <paragraph>Acetazolamide and sodium bicarbonate used concurrently increases the risk of renal calculus formation.</paragraph>
+                        <paragraph>Acetazolamide may elevate cyclosporine levels.</paragraph>
+                     </text>
+                     <effectiveTime value="20250217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_64159C23-045C-4A2D-AB2A-280350C74CDF">
+                     <id root="57b1dbaf-6b58-4750-bceb-ea69da0c8bbf"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility </title>
+                     <text>
+                        <paragraph>Long-term studies in animals to evaluate the carcinogenic potential of acetazolamide have not been conducted. In a bacterial mutagenicity assay, acetazolamide was not mutagenic when evaluated with and without metabolic activation.</paragraph>
+                        <paragraph>The drug had no effect on fertility when administered in the diet to male and female rats at a daily intake of up to 4 times the recommended human dose of 1000 mg in a 50 kg individual.</paragraph>
+                     </text>
+                     <effectiveTime value="20250217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_D2EB4C8A-B9A4-4F03-B63B-34FA50C257A3">
+                     <id root="4f6ed679-a657-49cf-b5f7-b09903c8cde4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pregnancy: Teratogenic effects</title>
+                     <text>
+                        <paragraph>Acetazolamide, administered orally or parenterally, has been shown to be teratogenic (defects of the limbs) in mice, rats, hamsters, and rabbits. There are no adequate and well-controlled studies in pregnant women. Acetazolamide should be used in pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20250217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_F6505F12-BD7F-4A69-809D-80E06DB87DBB">
+                     <id root="18ec2758-96b2-4985-a5d5-de7b67b3347e"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Because of the potential for serious adverse reactions in nursing infants from acetazolamide, a decision should be made whether to discontinue nursing or to discontinue the drug taking into account the importance of the drug to the mother. Acetazolamide should only be used by nursing women if the potential benefit justifies the potential risk to the child.</paragraph>
+                     </text>
+                     <effectiveTime value="20250217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_F9B22EBD-4FFF-40CF-8680-524E0BE2749E">
+                     <id root="82631f6d-680e-4433-b7c1-c36262df25fc"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use </title>
+                     <text>
+                        <paragraph>The safety and effectiveness of acetazolamide in pediatric patients have not been established. </paragraph>
+                        <paragraph>Growth retardation has been reported in children receiving long-term therapy, believed secondary to chronic acidosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20250217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_D028EF02-5F68-45AA-B8AD-275B4409CB62">
+                     <id root="ccf688e1-81e6-4391-8c7d-3e8049fc7c7e"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use </title>
+                     <text>
+                        <paragraph>Metabolic acidosis, which can be severe, may occur in the elderly with reduced renal function. </paragraph>
+                        <paragraph>Clinical studies of acetazolamide did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20250217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_AD9D34DE-DF2D-4CC1-95C0-C50A65A6982F">
+               <id root="a00ae095-fd41-4c39-b4a1-4fb6f7b42d8f"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Body as a whole: </content>Headache, malaise, fatigue, fever, pain at injection site, flushing, growth retardation in children, flaccid paralysis, anaphylaxis</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Digestive: </content>Gastrointestinal disturbances such as nausea, vomiting, diarrhea</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hematological/Lymphatic:</content> Blood dyscrasias such as aplastic anemia, agranulocytosis, leukopenia, thrombocytopenia, thrombocytopenic purpura, melena</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hepato-biliary disorders:</content> Abnormal liver function, cholestatic jaundice, hepatic insufficiency, fulminant hepatic necrosis</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Metabolic/Nutritional: </content>Metabolic acidosis, electrolyte imbalance, including hypokalemia, hyponatremia, osteomalacia with long-term phenytoin therapy, loss of appetite, taste alteration, hyper/hypoglycemia</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Nervous:</content> Drowsiness, paraesthesia (including numbness and tingling of extremities and face), depression, excitement, ataxia, confusion, convulsions, dizziness</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin:</content> Allergic skin reactions including urticaria, photosensitivity, Stevens-Johnson syndrome, toxic epidermal necrolysis</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Otologic</content>: Hearing disturbances, tinnitus</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Eye Disorders: </content>choroidal effusion, choroidal detachment, transient myopia. Transient myopia is the result of forward movement of the ciliary body leading to a narrowing of the angle.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Urogenital:</content> Crystalluria, increased risk of nephrolithiasis with long-term therapy, hematuria, glycosuria, renal failure, polyuria</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Mylan at 1-877-446-3679 (1-877-4-INFO-RX) or FDA at 1-800-FDA-1088 or <content styleCode="underline">www.fda.gov/medwatch</content>.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_669D521F-FC5A-4AFB-9EDE-9D554BE5E734">
+               <id root="10c2ece5-99d2-47c2-be47-2cb78a5e174e"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE </title>
+               <text>
+                  <paragraph>No specific antidote is known. Treatment should be symptomatic and supportive. Electrolyte imbalance, development of an acidotic state, and central nervous effects might be expected to occur. Serum electrolyte levels (particularly potassium) and blood pH levels should be monitored.</paragraph>
+                  <paragraph>Supportive measures are required to restore electrolyte and pH balance. The acidotic state can usually be corrected by the administration of bicarbonate.</paragraph>
+                  <paragraph>Despite its high intraerythrocytic distribution and plasma protein binding properties, acetazolamide is dialyzable. This may be particularly important in the management of acetazolamide overdosage when complicated by the presence of renal failure.</paragraph>
+               </text>
+               <effectiveTime value="20250217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_34367D44-8694-42F4-BA5A-129FE57169BB">
+               <id root="eb1da1f5-1a42-4ad8-8baa-856388209aa0"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION </title>
+               <effectiveTime value="20250217"/>
+               <component>
+                  <section ID="ID_b45ebff9-f9a8-4357-8b06-482ce6df0a77">
+                     <id root="b6925cd8-c6d5-46a0-a799-bd296c4a6a59"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preparation and Storage of Parenteral Solution </title>
+                     <text>
+                        <paragraph>Each 500 mg vial containing Acetazolamide for Injection should be reconstituted with at least 5 mL of Sterile Water for Injection prior to use. Reconstituted solutions retain their physical and chemical properties for 3 days under refrigeration at 2° to 8°C (36° to 46°F), or 12 hours at room temperature 20°C to 25°C (68° to 77°F). CONTAINS NO PRESERVATIVE. The direct intravenous route of administration is preferred. Intramuscular administration is not recommended.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Glaucoma: </content>Acetazolamide for injection should be used as an adjunct to the usual therapy. The dosage employed in the treatment of <content styleCode="italics">chronic simple (open-angle) glaucoma </content>ranges from 250 mg to 1 g of acetazolamide for injection per 24 hours, usually in divided doses for amounts over 250 mg. It has usually been found that a dosage in excess of 1 g per 24 hours does not produce an increased effect. In all cases, the dosage should be adjusted with careful individual attention both to symptomatology and ocular tension. Continuous supervision by a physician is advisable.</paragraph>
+                        <paragraph>In treatment of secondary glaucoma and in the preoperative treatment of some cases of <content styleCode="italics">acute congestive (closed-angle) glaucoma</content>, the preferred dosage is 250 mg every four hours, although some cases have responded to 250 mg twice daily on short-term therapy. In some acute cases, it may be more satisfactory to administer an initial dose of 500 mg followed by 125 mg or 250 mg every four hours depending on the individual case. Intravenous therapy may be used for rapid relief of ocular tension in acute cases. A complementary effect has been noted when acetazolamide for injection has been used in conjunction with miotics or mydriatics as the case demanded.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Epilepsy: </content>It is not clearly known whether the beneficial effects observed in epilepsy are due to direct inhibition of carbonic anhydrase in the central nervous system or whether they are due to the slight degree of acidosis produced by the divided dosage. The best results to date have been seen in petit mal in pediatric patients. Good results, however, have been seen in patients, both pediatric patients and adult, in other types of seizures such as grand mal, mixed seizure patterns, myoclonic jerk patterns, etc. The suggested total daily dose is 8 mg to 30 mg per kg in divided doses. Although some patients respond to a low dose, the optimum range appears to be from 375 mg to 1000 mg daily. However, some investigators feel that daily doses in excess of 1 g do not produce any better results than a 1 g dose. When acetazolamide for injection is given in combination with other anticonvulsants, it is suggested that the starting dose should be 250 mg once daily in addition to the existing medications. This can be increased to levels as indicated above.</paragraph>
+                        <paragraph>The change from other medications to acetazolamide for injection should be gradual and in accordance with usual practice in epilepsy therapy.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Congestive Heart Failure: </content>For diuresis in congestive heart failure, the starting dose is usually 250 mg to 375 mg once daily in the morning (5 mg/kg). If, after an initial response, the patient fails to continue to lose edema fluid, do not increase the dose but allow for kidney recovery by skipping medication for a day. Acetazolamide for injection yields best diuretic results when given on alternate days, or for two days alternating with a day of rest.</paragraph>
+                        <paragraph>Failures in therapy may be due to overdosage or too frequent dosage. The use of acetazolamide for injection does not eliminate the need for other therapy such as digitalis, bed rest, and salt restriction.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Drug-Induced Edema: </content>Recommended dosage is 250 mg to 375 mg of acetazolamide for injection once a day for one or two days, alternating with a day of rest.</paragraph>
+                        <paragraph>Note: The dosage recommendations for glaucoma and epilepsy differ considerably from those for congestive heart failure, since the first two conditions are not dependent upon carbonic anhydrase inhibition in the kidney which requires intermittent dosage if it is to recover from the inhibitory effect of the therapeutic agent.</paragraph>
+                     </text>
+                     <effectiveTime value="20250217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_57f1c919-48c7-4e28-a144-5c5d60a8c9f7">
+                     <id root="bc7bf1af-d7ea-46a3-86d7-a4aaea381cce"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Interference with Laboratory Tests </title>
+                     <text>
+                        <paragraph>Sulfonamides may give false negative or decreased values for urinary phenolsulfonphthalein and phenol red elimination values for urinary protein, serum non-protein and for serum uric acid. Acetazolamide may produce an increased level of crystals in the urine. </paragraph>
+                        <paragraph>Acetazolamide interferes with the HPLC method of assay for theophylline. Interference with the theophylline assay by acetazolamide depends on the solvent used in the extraction; acetazolamide may not interfere with other assay methods for theophylline.</paragraph>
+                     </text>
+                     <effectiveTime value="20250217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7339D607-B55A-44B8-ABCA-9D74C4233BF2">
+               <id root="933ec92f-c143-4bae-9fff-68490c956e24"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED </title>
+               <text>
+                  <paragraph>Acetazolamide for injection, USP (lyophilized) powder is supplied as follows:</paragraph>
+                  <table styleCode="Noautorules" width="100%">
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>NDC</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>Strength</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>Package Factor</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>67457-853-50</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>500 mg/vial</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>1 vial per carton</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Store drug product at 20° to 25°C (68° to 77°F). [See USP Controlled Room Temperature.] </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store reconstituted solution in a refrigerator between 2° and 8°C (36° and 46°F). </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use within 12 hours of reconstitution. Discard unused portion. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile, Nonpyrogenic, Preservative-free. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The container closure is not made with natural rubber latex.</content>
+                  </paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                  <paragraph>Manufactured for:<br/>
+                     <content styleCode="bold">Mylan Institutional LLC</content>
+                     <br/>Morgantown, WV 26505 U.S.A.</paragraph>
+                  <paragraph>Manufactured by:<br/>
+                     <content styleCode="bold">Mylan Laboratories Limited</content>
+                     <br/>Bangalore, India</paragraph>
+                  <paragraph>FEBRUARY 2025</paragraph>
+                  <paragraph>50103682   </paragraph>
+               </text>
+               <effectiveTime value="20250217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_005D7782-6892-4BD4-A653-944EAF1F487A">
+               <id root="823b3388-66aa-4da2-93a5-c3b56456ac00"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL – 500 mg </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 67457-853-50</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">AcetaZOLAMIDE <br/>for Injection, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">500 mg*</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Use<br/>Sterile</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mylan<sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">One Vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nonpyrogenic,<br/>Preservative-free.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The container closure is not<br/>made with natural rubber latex.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">*Each vial contains:</content>
+                     <br/>acetazolamide sodium equivalent<br/>to 500 mg acetazolamide, USP<br/>and pH adjusted to approximately <br/>9.6 with sodium hydroxide and, if<br/>necessary, hydrochloric acid.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Dosage:</content> See package<br/>insert for dosage information.</paragraph>
+                  <paragraph>Must be reconstituted. See<br/>package insert.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store drug product at 20º to<br/>25ºC (68º to 77ºF). [See USP <br/>Controlled Room Temperature.]</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store reconstituted solution in<br/>a refrigerator between 2º and<br/>8ºC (36º and 46ºF).</content>
+                  </paragraph>
+                  <paragraph>Use within 12 hours of<br/>reconstitution.</paragraph>
+                  <paragraph>Discard unused portion.</paragraph>
+                  <paragraph>Manufactured for:<br/>
+                     <content styleCode="bold">Mylan Institutional LLC</content>
+                     <br/>Morgantown, WV 26505 U.S.A.</paragraph>
+                  <paragraph>Made in India</paragraph>
+                  <paragraph>Code No.: KR/DRUGS/KTK/28/384/2009</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mylan.com</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id626435966" referencedObject="AE3C180A-3C6B-4F64-81D3-54F9C6597117"/>
+               </text>
+               <effectiveTime value="20250217"/>
+               <component>
+                  <observationMedia ID="AE3C180A-3C6B-4F64-81D3-54F9C6597117">
+                     <text>Acetazolamide for Injection 500 mg Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

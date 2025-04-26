@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="68c19eb0-a013-4521-9c98-7198f72c767e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold"/>
+   </title>
+   <effectiveTime value="20170504"/>
+   <setId root="886f889b-f3cf-4197-b307-6cfa88c89436"/>
+   <versionNumber value="11"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="005083209" root="1.3.6.1.4.1.519.1"/>
+            <name>Baxter Healthcare Company</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="059140764" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Healthcare Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0047" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0047" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0047" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0047" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STERILIZE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0047" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="194684502" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Healthcare Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0047" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="49570d3b-f8dd-4089-96b6-b2899b8f4fe4"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20140728"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0338-0047" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sodium Chloride</name>
+                        <formCode code="C42947" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="IRRIGANT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sodium Chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="900"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1000"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="14"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0338-0047-44" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19800530"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="2000"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="6"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0338-0047-46" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19800530"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="3000"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="4"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0338-0047-47" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19800530"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA017867" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19800530"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38281" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="IRRIGATION"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_inv-a582d97e-1c46-4bb9-b1d0-e6693a2b35a1">
+               <id root="5b4c9ebf-4c92-4ea8-a58d-7168ae96b0d7"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Directions for Use of Flexible Plastic Irrigation Containers</content>
+                  </paragraph>
+                  <paragraph>If desired, warm in overwrap to near body temperature in a water bath or oven heated to not more than 45°C.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="19970804"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_inv-d5eb3b48-e5d6-4036-aa71-51f886800d84">
+               <id root="c432355f-1bdc-4b03-9651-61690312e9d1"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DIRECTIONS FOR USE</title>
+               <text>
+                  <paragraph>Tear overwrap down side at slit and remove solution container. Visually inspect the container. If the outlet port protector is damaged, detached, or not present, discard container as solution path sterility may be impaired. Some opacity of the plastic due to moisture absorption during the sterilization process may be observed.  This is normal and does not affect the solution quality or safety.  The opacity will diminish gradually.  Check for minute leaks by squeezing bag firmly.  If leaks are found, discard solution as sterility may be impaired.</paragraph>
+                  <paragraph>Use Aseptic Technique.</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Suspend container using hanger hole.</item>
+                     <item>
+                        <caption>2.</caption>Remove plastic protector from outlet port at bottom of container.</item>
+                     <item>
+                        <caption>3.</caption>Attach irrigation set. Refer to complete directions accompanying set.</item>
+                  </list>
+                  <paragraph>Exposure of pharmaceutical products to heat should be minimized. Avoid excessive heat. It is recommended the product be stored at room temperature (25°C): brief exposure up to 40°C does not adversely affect the product.</paragraph>
+               </text>
+               <effectiveTime value="20170504"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_89b86c9e-b81d-4a6e-a878-a6f92eb55e4f">
+               <id root="8dbcc3a2-c976-4e7a-a481-4013914a410d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Baxter Healthcare Corporation<br/>
+                     </content>Deerfield, IL 60015 USA</paragraph>
+                  <paragraph>Printed in Mexico</paragraph>
+                  <paragraph>©Copyright 1980, 1984, 1989, Baxter Healthcare Corporation.<br/>All rights reserved.</paragraph>
+                  <paragraph>Rev. May 2017</paragraph>
+                  <paragraph>88-80-31-833</paragraph>
+               </text>
+               <effectiveTime value="20170504"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_bd0e8316-b264-4126-8e62-41a537ddf9e5">
+               <id root="e80df487-efcf-44eb-a1f0-22bb9ac0c616"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - PACKAGING LABELING</title>
+               <text>
+                  <renderMultiMedia ID="id284" referencedObject="id_946a8ed5-4b36-4c02-8e47-def47cbbc61e"/>
+                  <paragraph>3000 mL<br/>2B77127<br/>NDC 0338-0047-47</paragraph>
+                  <paragraph>NOT FOR INJECTION</paragraph>
+                  <paragraph>0.9%<br/>SODIUM CHLORIDE<br/>
+                     <content styleCode="italics">Irrigation USP</content>
+                  </paragraph>
+                  <paragraph>Each 100 mL contains 900 mg Sodium <br/>Chloride USP No antimicrobial agent has <br/>been added pH 5.5 (4.5 to 7.0) mEq/L <br/>Sodium 154 Chloride 154 Osmolarity 308 <br/>mOsmol/L (calc) Sterile Nonpyrogenic <br/>Single dose container</paragraph>
+                  <paragraph>Do not use unless solution is clear Discard <br/>unused portion </paragraph>
+                  <paragraph>Cautions Squeeze and inspect inner bag <br/>which maintains product sterility Discard if <br/>leaks are found <content styleCode="bold">Rx Only</content> Store unit in <br/>moisture barrier overwrap at room <br/>temperature (25°C) until ready to use Avoid <br/>excessive heat See insert</paragraph>
+                  <paragraph>0.9%</paragraph>
+                  <paragraph>Sodium Chloride<br/>NaCl<br/>Irrigation USP</paragraph>
+                  <paragraph>UROMATIC container</paragraph>
+                  <paragraph>PL 146 plastic</paragraph>
+                  <paragraph>BAXTER UROMATIC and PL 146 are <br/>trademarks of Baxter International Inc</paragraph>
+                  <paragraph>For product information <br/>1-800-933-0303</paragraph>
+                  <paragraph>Baxter Logo<br/>Baxter Healthcare Corporation<br/>Deerfield, IL 60015 USA</paragraph>
+                  <paragraph>Made in Mexico</paragraph>
+                  <paragraph>2700</paragraph>
+                  <paragraph>2400</paragraph>
+                  <paragraph>2100</paragraph>
+                  <paragraph>1800</paragraph>
+                  <paragraph>1500</paragraph>
+                  <paragraph>1200</paragraph>
+                  <paragraph>900</paragraph>
+                  <paragraph>600</paragraph>
+                  <paragraph>300</paragraph>
+               </text>
+               <effectiveTime value="20170504"/>
+               <component>
+                  <observationMedia ID="id_946a8ed5-4b36-4c02-8e47-def47cbbc61e">
+                     <text>Representative Container Label 0338-0047-44</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

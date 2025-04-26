@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3007ada4-1d51-9c9c-e063-6294a90ae81f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">EXTRANEAL Peritoneal Dialysis Solution with 7.5% icodextrin</content>
+   </title>
+   <effectiveTime value="20250310"/>
+   <setId root="5bf31b49-24c8-4021-98da-33a151f2fcbe"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="119181963"/>
+            <name>Vantive US Healthcare LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="599464843"/>
+                        <name>Vantive Manufacturing Pte. Ltd.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0941-0707" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0941-0707" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0941-0707" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0941-0707" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" displayName="sterilize" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0941-0707" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3007bd88-cd92-460d-e063-6394a90a8a61"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250310"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0941-0707" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>EXTRANEAL</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>icodextrin, sodium chloride, sodium lactate, calcium chloride, magnesium chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="7.5"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2NX48Z0A9G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ICODEXTRIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2NX48Z0A9G" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ICODEXTRIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="538"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="448"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TU7HW0W0QT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LACTATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="33X04XA5AT" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LACTIC ACID, UNSPECIFIED FORM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="25.7"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M4I0D6VV5M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2M83C4R6ZB" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CALCIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5.08"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="02F3473H9O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T6V3LHY838" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MAGNESIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0941-0707-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="6" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0941-0707-06" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20241023"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20241023"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38258" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAPERITONEAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6548cafe-1a4c-4dde-9c7f-cf4f8a851504">
+               <id root="3007ada4-1d52-9c9c-e063-6294a90ae81f"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <title>Health Care Provider Letter</title>
+               <text>
+                  <renderMultiMedia ID="id1503478339" referencedObject="ID_8761b651-fdd6-4cf3-a10c-41114d27d434"/>
+                  <renderMultiMedia ID="id1515727246" referencedObject="d0b5c332-e96f-4f45-bae7-6f389b42d0c2"/>
+                  <renderMultiMedia ID="id-985088748" referencedObject="daa4fca7-24c5-4137-a85a-f4d5321785ae"/>
+                  <renderMultiMedia ID="id-496732155" referencedObject="ID_71862b75-3e16-4443-b70d-b0b1ecf7600f"/>
+                  <renderMultiMedia ID="id1443025252" referencedObject="ID_85d5b2bd-b564-416e-993d-010a25fa9754"/>
+                  <renderMultiMedia ID="id255256799" referencedObject="ID_75d57098-b650-4af3-895a-c72ad6227e40"/>
+               </text>
+               <effectiveTime value="20241024"/>
+               <component>
+                  <observationMedia ID="ID_8761b651-fdd6-4cf3-a10c-41114d27d434">
+                     <text>Extraneal DHCP Letter1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="d0b5c332-e96f-4f45-bae7-6f389b42d0c2">
+                     <text>Extraneal DHCP Letter2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="daa4fca7-24c5-4137-a85a-f4d5321785ae">
+                     <text>Extraneal DHCP Letter 3</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_71862b75-3e16-4443-b70d-b0b1ecf7600f">
+                     <text>Extraneal DHCP Letter4</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_85d5b2bd-b564-416e-993d-010a25fa9754">
+                     <text>Extraneal DHCP Letter5</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_75d57098-b650-4af3-895a-c72ad6227e40">
+                     <text>Extraneal DHCP Letter6</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_EDFF685E-6C85-462D-BEEB-92BCC67F1405">
+               <id root="3007ada4-1d53-9c9c-e063-6294a90ae81f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <renderMultiMedia ID="id825174704" referencedObject="ID_53db78e4-a128-415f-8ca7-ab98702a9ada"/>
+                  <paragraph>FNB4984 
+  <br/>  2000 mL 
+  <br/>  (APPROX 80 mL EXCESS)
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Baxter</content>Logo
+
+ </paragraph>
+                  <paragraph>EXTRANEAL Peritoneal Dialysis Solution with 7.5% Icodextrin</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">EACH 100 mL CONTAINS</content>
+                     <br/>  7.5 G ICODEXTRIN 538 mg SODIUM CHLORIDE USP 448 mg SODIUM LACTATE 
+  <br/>  25.7 mg CALCIUM CHLORIDE USP 5.08 mg MAGNESIUM CHLORIDE USP pH 5.2 (5.0 to 6.0) 
+  <br/>
+                     <content styleCode="bold">mmol/L</content>SODIUM 132 CALCIUM 1.75 MAGNESIUM 0.25 CHLORIDE 96 LACTATE 40 
+  <br/>
+                     <content styleCode="bold">OSMOLARITY</content>284 mOsmol/L (CALC) 
+  <br/>  STERILE NONPYROGENIC STORE BELOW 30°C SEE INSERT 
+  <br/>  FOR INRAPERITONEAL ADMINISTRATION ONLY NOT FOR INTRAVENOUS USE 
+  <br/>  CAUTIONS SQUEEZE AND INSPECT INNER BAG WHICH MAINTAINS PRODUCT STERILITY 
+  <br/>  DISCARD IF LEAKS ARE FOUND DO NOT USE UNLESS SOLUTION IS CLEAR 
+  <br/>  DISCARD UNUSED PORTION KEEP OUT OF REACH OF CHILDREN
+
+ </paragraph>
+                  <paragraph>MANUFACTURED BY 
+  <br/>
+                     <content styleCode="bold">BAXTER HEALTHCARE SA, SINGAPORE BRANCH</content>
+                     <br/>  2 WOODLANDS INDUSTRIAL PARK D STREET 2 SINGAPORE 737778 
+  <br/>  (AN AFFILIATE OF BAXTER HEALTHCARE CORPORATION USA) 
+  <br/>  DIRECTION TO BE USED AS DIRECTED BY PHYSICIAN 
+  <br/>  FOR HONG KONG ONLY: PRESCRIPTION DRUG 
+  <br/>  IMPORTED BY
+ 
+  <content styleCode="bold">BAXTER HEALTHCARE (THAILAND) CO., LTD., BANGKOK</content>
+                     <br/>  FOR INDONESIA ONLY: HARUS DENGAN RESEP DOKTER 
+  <br/>  IMPORTED &amp; MARKETED BY
+ 
+  <content styleCode="bold">PT KALBE FARMA TBK, BEKSAI – INDONESIA</content>
+                     <br/>  FOR MALAYSIA ONLY: CONTROLLED MEDICINE. JAUHI DARIPADA KANAK-KANAK 
+  <br/>  PRODUCT REGISTRATION HOLDER:
+ 
+  <content styleCode="bold">BAXTER HEALTHCARE (MALAYSIA) SDN. BHD., 
+   <br/>
+                     </content>B-21-3A, THE ASCENT, PARADIGM, 1, JLN SS7/26A, 47301 PJ SELANGOR, MALAYSIA
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ULTRABAG</content>CONTAINER PL-146 
+  <br/>
+                     <content styleCode="bold">SIN11220P MAL06021264AZ 
+   <br/>  HK-46627 BRU15011744P 
+   <br/>  INDONESIA DKI 0915600242A1 
+   <br/>  THAI REG. NO. 2C 16/51 (N)
+  </content>
+                  </paragraph>
+                  <paragraph>30</paragraph>
+                  <paragraph>023687</paragraph>
+                  <paragraph>2 95 28</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">EXTRANEAL, UL-TRABAG and PL-146</content>are trademarks of Baxter International Inc.
+
+ </paragraph>
+                  <renderMultiMedia ID="id2019966417" referencedObject="ID_299b71c5-e159-405d-a01f-29f2518b1712"/>
+                  <paragraph>3A-00004</paragraph>
+                  <paragraph>FNB4984SG 
+  <br/>  barcode 
+  <br/>  Lot: 
+  <br/>  barcode
+ </paragraph>
+                  <paragraph>7.5% ICODEXTRIN 
+  <br/>  EXTRANEAL 
+  <br/>  6 X 2000 ML 
+  <br/>  ULTRABAG MAL 06021264AZ
+ </paragraph>
+                  <paragraph>023687</paragraph>
+                  <paragraph>Barcode 
+  <br/>  18806466008418
+ </paragraph>
+                  <paragraph>LOT: S24A12345 
+  <br/>  EXP: 12.12.2024
+ </paragraph>
+               </text>
+               <effectiveTime value="20241024"/>
+               <component>
+                  <observationMedia ID="ID_53db78e4-a128-415f-8ca7-ab98702a9ada">
+                     <text>Representative Extraneal Container Label - FNB4984SG - 0941-0707</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_299b71c5-e159-405d-a01f-29f2518b1712">
+                     <text>Representative Extraneal Carton Label - FNB4984SG - 0941-0707</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

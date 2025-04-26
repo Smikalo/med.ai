@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f3d2f709-6e2e-4c25-8069-52661dc76e2d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title>Albuterol Tablets, USP<br/>
+      <br/> Rx only</title>
+   <effectiveTime value="20250306"/>
+   <setId root="40f3cdbc-c9ee-4a3c-8061-a44b9a1d035c"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="116880195" root="1.3.6.1.4.1.519.1"/>
+            <name>Rising Pharma Holdings, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="078510186" root="1.3.6.1.4.1.519.1"/>
+                        <name>APPCO PHARMA LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64980-442" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64980-443" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="0d7d4ee6-1ef8-4a83-96f2-6ec2367c35b4"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20220203"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="64980-442" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Albuterol</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>albuterol</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="2" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="021SEF3731" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALBUTEROL SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="QF8SVZ843E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALBUTEROL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="J2B2A4N98G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64980-442-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180629"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64980-442-50" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180629"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207046" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180629"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND">
+                              <originalText>ROUND</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" unit="mm" value="6"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="2"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">AC;2</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="64980-443" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Albuterol</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>albuterol</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="4" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="021SEF3731" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALBUTEROL SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="QF8SVZ843E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALBUTEROL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="J2B2A4N98G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64980-443-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180629"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64980-443-50" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180629"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207046" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180629"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND">
+                              <originalText>ROUND</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" unit="mm" value="9"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="2"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">AC;4</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="67eed014-b940-45ab-a04d-b5241d770330"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Albuterol Tablets, USP contain albuterol sulfate, USP the racemic form of albuterol and a relatively selective beta2-adrenergic bronchodilator.</paragraph>
+                  <paragraph>Albuterol sulfate has the chemical name 4-hydroxy- 3-hydroxymethyl-α-[(tert-butylamino) methyl]benzyl alcohol, sulfate and the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L801b9423-cda1-40d7-884c-a57c47f4a1a4"/>
+                  </paragraph>
+                  <paragraph>
+                     <content>The molecular weight of albuterol sulfate is 576, and the molecular formula is (C13 H21N O3 )2• H2S O4. Albuterol sulfate is a white or practically white powder, freely soluble in water and slightly soluble in alcohol, in chloroform, and ether.</content>
+                  </paragraph>
+                  <paragraph>The World Health Organization recommended name for albuterol base is salbutamol.</paragraph>
+                  <paragraph>Each Albuterol tablet for oral administration contains 2 or 4 mg of albuterol as 2.4 mg or 4.8 mg of albuterol sulfate, USP respectively.</paragraph>
+                  <paragraph>The inactive ingredients for albuterol tablets, 2 mg and 4 mg include: co-processed starch, lactose hydrate, magnesium stearate, partially pregelatinized maize starch and sodium lauryl sulfate.</paragraph>
+               </text>
+               <effectiveTime value="20250324"/>
+               <component>
+                  <observationMedia ID="L801b9423-cda1-40d7-884c-a57c47f4a1a4">
+                     <text>albuterol-struc</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="albuterol-struc.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="ce3528cc-1bac-467a-85dc-a7ca9cbe9763"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">In vitro</content> studies and <content styleCode="italics">in vivo</content> pharmacologic studies have demonstrated that albuterol has a preferential effect on beta<sub>2</sub>-adrenergic receptors compared with isoproterenol. While it is recognized that beta<sub>2</sub>-adrenergic receptors are the predominant receptors in bronchial smooth muscle, data indicate that there is a population of beta<sub>2</sub>-receptors in the human heart existing in a concentration between 10% and 50%. The precise function of these receptors has not been established (see WARNINGS).<br/>
+                     <br/> The pharmacologic effects of beta-adrenergic agonist drugs, including albuterol tablets, are at least in part attributable to stimulation through beta-adrenergic receptors of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3',5'- adenosine monophosphate (cyclic AMP). Increased cyclic AMP levels are associated with relaxation of bronchial smooth muscle and inhibition of release of mediators of immediate hypersensitivity from cells, especially from mast cells.<br/> Albuterol tablets have been shown in most controlled clinical trials to have more effect on the respiratory tract, in the form of bronchial smooth muscle relaxation, than isoproterenol at comparable doses while producing fewer cardiovascular effects.</paragraph>
+                  <paragraph>Albuterol is longer acting than isoproterenol in most patients by any route of administration because it is not a substrate for the cellular uptake processes for catecholamines nor for catechol- <content styleCode="italics">O</content>-methyl transferase.</paragraph>
+               </text>
+               <effectiveTime value="20250307"/>
+               <component>
+                  <section ID="Section_2.1">
+                     <id root="84a7c723-57d2-4af5-a4b5-7588f8191bb6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Preclinical</title>
+                     <text>
+                        <paragraph>Intravenous studies in rats with albuterol sulfate have demonstrated that albuterol crosses the blood brain barrier and reaches brain concentrations amounting to approximately 5% of the plasma concentrations. In structures outside the brain barrier (pineal and pituitary glands), albuterol concentrations were found to be 100 times those in the whole brain.</paragraph>
+                        <paragraph/>
+                        <paragraph>Studies in laboratory animals (minipigs, rodents, and dogs) have demonstrated the occurrence of cardiac arrhythmias and sudden death (with histologic evidence of myocardial necrosis) when beta-agonists and methylxanthines are administered concurrently. The clinical significance of these findings is unknown.</paragraph>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20250307"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_2.2">
+                     <id root="4022d9f0-ee33-4d28-abf1-d2dc7e8db763"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Albuterol tablets are rapidly absorbed after oral administration of one 4 mg albuterol tablet in normal volunteers. Maximum plasma concentrations of about 18 ng/mL of albuterol are achieved within 2 hours, and the drug is eliminated with a half-life of about 5 hours.</paragraph>
+                        <paragraph>In other studies, the analysis of urine samples of patients given 8 mg of tritiated albuterol tablets orally showed that 76% of the dose was excreted over 3 days, with the majority of the dose being excreted within the first 24 hours. Sixty percent of this radioactivity was shown to be the metabolite. Feces collected over this period contained 4% of the administered dose.</paragraph>
+                        <paragraph>
+                           <br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250307"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_2.3">
+                     <id root="aa7d1702-ce63-4759-8d90-7877d5c7a59b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Clinical Trials</title>
+                     <text>
+                        <paragraph>In controlled clinical trials in patients with asthma, the onset of improvement in pulmonary function, as measured by maximum midexpiratory flow rate (MMEF), was noted within 30 minutes after a dose of Albuterol tablets, with peak improvement occurring between 2 and 3 hours. In controlled clinical trials in which measurements were conducted for 6 hours, clinically significant improvement (defined as maintaining a 15% or more increase in forced expiratory volume in 1 second [FEV<sub>1</sub>] and a 20% or more increase in MMEF over baseline values) was observed in 60% of patients at 4 hours and in 40% at 6 hours. In other single-dose, controlled clinical trials, clinically significant improvement was observed in at least 40% of the patients at 8 hours. No decrease in the effectiveness of albuterol tablets was reported in patients who received long-term treatment with the drug in uncontrolled studies for periods up to 6 months.</paragraph>
+                     </text>
+                     <effectiveTime value="20250307"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="edfcf1eb-b979-45bd-8bd8-3399f19517c3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS &amp; USAGE</title>
+               <text>
+                  <paragraph>Albuterol tablets are indicated for the relief of bronchospasm in adults and children 6 years of age and older with reversible obstructive airway disease.</paragraph>
+               </text>
+               <effectiveTime value="20220203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="111ab752-1a48-4e2e-9d30-9d7ca9d21f33"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Albuterol tablets are contraindicated in patients with a history of hypersensitivity to albuterol, or any of its components.</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="20d7e331-0502-467c-b800-d9fdc0b948f2"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Paradoxical Bronchospasm</content>
+                  </paragraph>
+                  <paragraph>Albuterol tablets can produce paradoxical bronchospasm, which may be life threatening. If paradoxical bronchospasm occurs, albuterol tablets should be discontinued immediately and alternative therapy instituted.<br/>
+                     <br/>
+                     <content styleCode="bold">Cardiovascular Effects</content>
+                     <br/> Albuterol tablets, like all other beta-adrenergic agonists, can produce a clinically significant cardiovascular effect in some patients as measured by pulse rate, blood pressure, and/or symptoms. Although such effects are uncommon after administration of albuterol tablets at recommended doses, if they occur, the drug may need to be discontinued. In addition, beta-agonists have been reported to produce electrocardiogram (ECG) changes, such as flattening of the T wave, prolongation of the QTc interval, and ST segment depression. The clinical significance of these findings is unknown. Therefore, albuterol tablets, like all sympathomimetic amines, should be used with caution in patients with cardiovascular disorders, especially coronary insufficiency, cardiac arrhythmias, and hypertension.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Deterioration of Asthma</content>
+                  </paragraph>
+                  <paragraph>Asthma may deteriorate acutely over a period of hours, or chronically over several days or longer. If the patient needs more doses of albuterol tablets than usual, this may be a marker of destabilization of asthma and requires reevaluation of the patient and the treatment regimen, giving special consideration to the possible need for anti-inflammatory treatment, e.g.,  corticosteroids.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Use of Anti-Inflammatory Agents</content>
+                  </paragraph>
+                  <paragraph>The use of beta-adrenergic agonist bronchodilators alone may not be adequate to control asthma in many patients. Early consideration should be given to adding anti-inflammatory agents, e.g., corticosteroids.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Immediate Hypersensitivity Reactions</content>
+                  </paragraph>
+                  <paragraph>Immediate hypersensitivity reactions may occur after administration of albuterol tablets, as demonstrated by rare cases of urticaria, angioedema, rash, bronchospasm and oropharyngeal edema. Albuterol tablets, like other beta-adrenergic agonists, can produce a significant cardiovascular effect in some patients, as measured by pulse rate, blood pressure, symptoms, and/or electrocardiographic changes.<br/>
+                     <br/> Rarely, erythema multiforme and Stevens-Johnson syndrome have been associated with the administration of oral albuterol sulfate in children.</paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="1d6b179b-f6a5-4be1-b286-32c404d1b3f6"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                  </paragraph>
+                  <paragraph>Albuterol tablets, as with all sympathomimetic amines, should be used with caution in patients with cardiovascular disorders, especially coronary insufficiency, cardiac arrhythmias, and hypertension; in patients with convulsive disorders, hyperthyroidism, or diabetes mellitus; and in patients who are unusually responsive to sympathomimetic amines. Clinically significant changes in systolic and diastolic blood pressure have been seen in individual patients and could be expected to occur in some patients after use of any beta-adrenergic bronchodilator.<br/>
+                     <br/> Large doses of intravenous albuterol have been reported to aggravate preexisting diabetes mellitus and ketoacidosis. As with other beta-agonists, albuterol may produce significant hypokalemia in some patients, possibly through intracellular shunting, which has the potential to produce adverse cardiovascular effects. The decrease is usually transient, not requiring supplementation.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information for patients</content>
+                  </paragraph>
+                  <paragraph>The action of albuterol tablets may last up to 8 hours or longer. Albuterol tablets should not be taken more frequently than recommended. Do not increase the dose or frequency of albuterol tablets without consulting your physician. If you find that treatment with albuterol tablets becomes less effective for symptomatic relief, your symptoms get worse, and/or you need to take the product more frequently than usual, you should seek medical attention immediately. While you are taking albuterol tablets, other asthma medications and inhaled drugs should be taken only as directed by your physician. Common adverse effects include palpitations, chest pain, rapid heart rate, and tremor or nervousness. If you are pregnant or nursing, contact your physician about use of albuterol tablets. Effective and safe use of albuterol tablets includes an understanding of the way that it should be administered.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug interactions</content>
+                  </paragraph>
+                  <paragraph>The concomitant use of albuterol tablets and other oral sympathomimetic agents is not recommended since such combined use may lead to deleterious cardiovascular effects. This recommendation does not preclude the judicious use of an aerosol bronchodilator of the adrenergic stimulant type in patients receiving albuterol tablets. Such concomitant use, however, should be individualized and not given on a routine basis. If regular coadministration is required, then alternative therapy should be considered.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Monamine Oxidase Inhibitors or Tricyclic Antidepressants</content>
+                     </content>
+                     <br/> Albuterol tablets should be administered with extreme caution to patients being treated with monoamine oxidase inhibitors or tricyclic antidepressants, or within 2 weeks of discontinuation of such agents, because the action of albuterol tablets on the vascular system may be potentiated.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Beta-Blockers</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Beta-adrenergic receptor blocking agents not only block the pulmonary effect of beta-agonists, such as albuterol tablets, but may produce severe bronchospasm in asthmatic patients. Therefore, patients with asthma should not normally be treated with beta-blockers. However, under certain circumstances, e.g., as prophylaxis after myocardial infarction, there may be no acceptable alternatives to the use of beta-adrenergic blocking agents in patients with asthma. In this setting, cardioselective beta-blockers could be considered, although they should be administered with caution.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Diuretics</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>The ECG changes and/or hypokalemia that may result from the administration of nonpotassium-sparing diuretics (such as loop or thiazide diuretics) can be acutely worsened by beta-agonists, especially when the recommended dose of the beta-agonist is exceeded. Although the clinical significance of these effects is not known, caution is advised in the coadministration of beta-agonists with nonpotassium-sparing diuretics.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Digoxin</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Mean decreases of 16% to 22% in serum digoxin levels were demonstrated after single-dose intravenous and oral administration of albuterol, respectively, to normal volunteers who had received digoxin for 10 days. The clinical significance of these findings for patients with obstructive airway disease who are receiving albuterol and digoxin on a chronic basis is unclear. Nevertheless, it would be prudent to carefully evaluate the serum digoxin levels in patients who are currently receiving digoxin and albuterol.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>In a 2-year study in Sprague-Dawley rats, albuterol sulfate caused a significant dose-related increase in the incidence of benign leiomyomas of the mesovarium at dietary doses of 2, 10, and 50 mg/kg (approximately 1/2 , 3, and 15 times, respectively, the maximum recommended daily oral dose for adults on a mg/m<sup>2</sup> basis, or, 2/5 , 2 and 10 times, respectively, the maximum recommended daily oral dose for children on a mg/m<sup>2 </sup>basis). In another study this effect was blocked by the coadministration of propranolol, a non-selective beta-adrenergic antagonist.</paragraph>
+                  <paragraph/>
+                  <paragraph>In an 18-month study in CD-1 mice albuterol sulfate showed no evidence of tumorigenicity at dietary doses of up to 500 mg/kg, (approximately 65 times the maximum recommended daily oral dose for adults on an mg/m<sup>2</sup> basis, or, approximately 50 times the maximum recommended daily oral dose for children on an mg/m<sup>2</sup> basis). In a 22-month study in the Golden hamster, albuterol sulfate showed no evidence of tumorigenicity at dietary doses of up to 50 mg/kg, (approximately 8 times the maximum recommended daily oral dose for adults on a mg/m<sup>2</sup> basis, or, approximately 7 times the maximum recommended daily oral dose for children on a mg/m<sup>2</sup> basis).</paragraph>
+                  <paragraph/>
+                  <paragraph>Albuterol sulfate was not mutagenic in the Ames test with or without metabolic activation using tester strains <content styleCode="italics">S. typhimurium</content> TA1537, TA1538, and TA98 or <content styleCode="italics">E. Coli</content> WP2, WP2uvrA, and WP67. No forward mutation was seen in yeast strain <content styleCode="italics">S. cerevisiae</content> S9 nor any mitotic gene conversion in yeast strain <content styleCode="italics">S. cerevisiae</content> JD1 with or without metabolic activation. Fluctuation assays in <content styleCode="italics">S. typhimurium</content> TA98 and <content styleCode="italics">E. Coli</content> WP2, both with metabolic activation, were negative. Albuterol sulfate was not clastogenic in a human peripheral lymphocyte assay or in an AH1 strain mouse micronucleus assay at intraperitoneal doses of up to 200 mg/kg. <br/>
+                     <br/> Reproduction studies in rats demonstrated no evidence of impaired fertility at oral doses up to 50 mg/kg (approximately 15 times the maximum recommended daily oral dose for adults on a mg/m<sup>2</sup> basis).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Teratogenic Effects</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Albuterol tablets have been shown to be teratogenic in mice. A study in CD-1 mice at subcutaneous (sc) doses of  0.025, 0.25, and 2.5 mg/kg (approximately 3/1000, 3/100, and 3/10 times, respectively, the maximum recommended daily oral dose for adults on a mg/m<sup>2</sup> basis), showed cleft palate formation in 5 of 111 (4.5%) fetuses at 0.25 mg/kg and in 10 of 108 (9.3%) fetuses at 2.5 mg/kg. The drug did not induce cleft palate formation at the lowest, 0.025 mg/kg. Cleft palate also occurred in 22 of 72 (30.5%) fetuses from females treated with 2.5 mg/kg of isoproterenol (positive control) subcutaneously (approximately 3/10 times the maximum recommended daily oral dose for adults on a mg/m<sup>2</sup> basis).</paragraph>
+                  <paragraph>A reproduction study in Stride Dutch rabbits revealed cranioschisis in 7 of 19 (37%) fetuses when albuterol tablets were administered orally at a 50 mg/kg dose (approximately 25 times the maximum recommended daily oral dose for adults on a mg/m<sup>2</sup> basis).</paragraph>
+                  <paragraph>There are no adequate and well-controlled studies in pregnant women. Albuterol tablets should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.<br/>
+                     <br/> During worldwide marketing experience, various congenital anomalies, including cleft palate and limb defects, have been rarely reported in the offspring of patients being treated with albuterol tablets. Some of the mothers were taking multiple medications during their pregnancies. No consistent pattern of defects can be discerned and a relationship between albuterol tablets use and congenital anomalies has not been established.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use in Labor and Delivery</content>
+                  </paragraph>
+                  <paragraph>Because of the potential for beta-agonist interference with uterine contractility, use of albuterol tablets for relief of bronchospasm during labor should be restricted to those patients in whom the benefits clearly outweigh the risk.<br/>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Tocolysis</content>
+                     </content>
+                     <br/> Albuterol tablets have not been approved for the management of preterm labor. The benefit: risk ratio when albuterol tablets are administered for tocolysis has not been established. Serious adverse reactions, including maternal pulmonary edema, have been reported during or following treatment of premature labor with beta<sub>2</sub>-agonists, including albuterol tablets.<br/>
+                     <br/>
+                     <content styleCode="bold">Nursing Mothers</content>
+                     <br/> It is not known whether this drug is excreted in human milk. Because of the potential for tumorigenicity shown for albuterol tablets in some animal studies, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.<br/>
+                     <br/>
+                     <content styleCode="bold">Pediatric Use</content>
+                     <br/> Safety and effectiveness in children below 6 years of age have not been established.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250320"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="97781bcd-331f-4bd3-bd29-91ae0f4fad6a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>In clinical trials, the most frequent adverse reactions to albuterol tablets were:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Percent Incidence of Adverse Reactions</content>
+                  </paragraph>
+                  <table width="629.622" cellspacing="0" cellpadding="0">
+                     <colgroup>
+                        <col width="49.4296577946768%"/>
+                        <col width="50.5703422053232%"/>
+                     </colgroup>
+                     <tbody>
+                        <tr styleCode="Botrule First">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">
+                              <content styleCode="bold">Reaction Incidence</content>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold">Percent </content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="2" align="justify" valign="top">Central nervous system</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Nervousness</td>
+                           <td styleCode="Rrule" align="center" valign="top">20%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Tremor</td>
+                           <td styleCode="Rrule" align="center" valign="top">20%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Headache</td>
+                           <td styleCode="Rrule" align="center" valign="top">7%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Sleeplessness</td>
+                           <td styleCode="Rrule" align="center" valign="top">2%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Weakness</td>
+                           <td styleCode="Rrule" align="center" valign="top">2%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Dizziness</td>
+                           <td styleCode="Rrule" align="center" valign="top">2%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" valign="top">Drowsiness</td>
+                           <td styleCode="Rrule" align="center" valign="top">&lt;1%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Restlessness</td>
+                           <td styleCode="Rrule" align="center" valign="top">&lt;1%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Irritability</td>
+                           <td styleCode="Rrule" align="center" valign="top">&lt;1%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="2" align="justify" valign="top">Cardiovascular</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Tachycardia</td>
+                           <td styleCode="Rrule" align="center" valign="top">5%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Palpitations</td>
+                           <td styleCode="Rrule" align="center" valign="top">5%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Chest discomfort</td>
+                           <td styleCode="Rrule" align="center" valign="top">&lt;1%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Flushing</td>
+                           <td styleCode="Rrule" align="center" valign="top">&lt;1%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="2" align="justify" valign="top">Musculoskeletal</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Muscle cramps</td>
+                           <td styleCode="Rrule" align="center" valign="top">3%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="2" align="justify" valign="top">Gastrointestinal</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Nausea</td>
+                           <td styleCode="Rrule" align="center" valign="top">2%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="2" align="justify" valign="top">Genitourinary</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Difficulty in micturition</td>
+                           <td styleCode="Rrule" align="center" valign="top">&lt;1%</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph>Rare cases of urticaria, angioedema, rash, bronchospasm and oropharyngeal edema have been reported after the use of albuterol tablets.</paragraph>
+                  <paragraph>In addition, albuterol tablets, like other sympathomimetic agents, can cause adverse reactions such as hypertension, angina, vomiting, vertigo, central nervous system stimulation, unusual taste, and drying or irritation of the oropharynx.<br/>
+                     <br/> The reactions are generally transient in nature, and it is usually not necessary to discontinue treatment with albuterol tablets. In selected cases, however, dosage may be reduced temporarily; after the reaction has subsided, dosage should be increased in small increments to the optimal dosage.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Rising Pharma Holdings, Inc. at 1-844-874-7464 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="9bd3c958-21b5-476c-9023-e506a7b25081"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>The expected symptoms with overdosage are those of excessive beta-adrenergic stimulation and/or occurrence or exaggeration of any of the symptoms listed under ADVERSE REACTIONS, e.g., seizures, angina, hypertension or hypotension, tachycardia with rates up to 200 beats/min, arrhythmias, nervousness, headache, tremor, dry mouth, palpitation, nausea, dizziness, fatigue, malaise, and sleeplessness. Hypokalemia may also occur. As with all sympathomimetic medications, cardiac arrest and even death may be associated with abuse of albuterol tablets. Treatment consists of discontinuation of albuterol tablets together with appropriate symptomatic therapy. The judicious use of a cardioselective beta-receptor blocker may be considered, bearing in mind that such medication can produce bronchospasm. There is insufficient evidence to determine if dialysis is beneficial for overdosage of albuterol tablets. <content>The oral median lethal dose of albuterol sulfate in mice is greater than 2000 mg/kg (approximately 250 times the maximum recommended daily oral dose for adults on a mg/m</content>
+                     <sup>2</sup>
+                     <content> basis, or, approximately 200 times the maximum recommended daily oral dose for children on a mg/m</content>
+                     <sup>2</sup>
+                     <content> basis). In mature rats, the subcutaneous (sc) median lethal dose of albuterol sulfate is approximately 450 mg/kg (approximately 110 times the maximum recommended daily oral dose for adults on a mg/m</content>
+                     <sup>2</sup>
+                     <content> basis, and approximately 90 times the maximum recommended daily oral dose for children on a mg/m</content>
+                     <sup>2</sup>
+                     <content> basis). In small young rats, the subcutaneous median lethal dose is approximately 2000 mg/kg (approximately 500 times the maximum recommended daily oral dose for adults on a mg/m</content>
+                     <sup>2</sup>
+                     <content> basis, or, approximately 400 times the maximum recommended daily oral dose for children on a mg/m</content>
+                     <sup>2</sup>
+                     <content> basis).</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250321"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="a8da483e-123a-4276-a1eb-35a04cdaeb2b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE &amp; ADMINISTRATION</title>
+               <text>
+                  <paragraph>The following dosages of albuterol tablets are expressed in terms of albuterol base.<br/>
+                     <br/>
+                     <content styleCode="bold">Usual Dosage</content>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Adults and Children Over 12 Years of Age</content>
+                     </content>
+                     <br/> The usual starting dosage for adults and children 12 years and older is 2 or 4 mg three or four times a day.<br/>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Children 6 to 12 Years of Age:</content>
+                     </content>
+                     <br/> The usual starting dosage for children 6 to 12 years age is 2 mg three or four times a day.<br/>
+                     <br/>
+                     <content styleCode="bold">Dosage Adjustment</content>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Adults and Children Over 12 Years of Age</content>
+                     </content>
+                     <br/> For adults and children 12 years and older, a dosage above 4 mg four times a day should be used <content styleCode="italics">only</content> when the patient fails to respond. If a favorable response does not occur with the 4 mg initial dosage, it should be cautiously increased stepwise up to a maximum of 8 mg four times a day as tolerated.<br/>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Children 6 to 12 Years of Age Who Fail to Respond to the Initial Starting Dosage of 2 mg Four Times a Day</content>
+                     </content>
+                     <br/> For children from 6 to 12 years of age who fail to respond to the initial starting dosage of 2 mg four times a day, the dosage may be cautiously increased stepwise, but not to exceed 24 mg/day (given in divided doses).<br/>
+                     <br/>
+                     <content styleCode="bold">Elderly Patients and Those Sensitive to Beta-adrenergic Stimulators</content>
+                     <br/> An initial dosage of 2 mg three or four times a day is recommended for elderly patients and for those with a history of unusual sensitivity to beta-adrenergic stimulators. If adequate bronchodilation is not obtained, dosage may be increased gradually to as much as 8 mg three or four times a day.<br/>
+                     <br/> The total daily dose should not exceed 32 mg in adults and children over 12 years and older.</paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="b4a5629f-8290-4370-9dff-e6bccf754337"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Albuterol Tablets, USP for oral administration contains 2 mg or 4 mg albuterol as 2.4 mg or 4.8 mg of albuterol sulfate, USP respectively. <br/>
+                     <br/> Albuterol Tablets, USP containing 2 mg albuterol as the sulfate are white, round shaped, scored tablets debossed with “AC 2” on one side and plain on other side. They are available as follows:<br/>
+                     <br/> NDC 64980-442-01<br/> Bottles of 100 tablets<br/>
+                     <br/> NDC 64980-442-50<br/> Bottles of 500 tablets<br/>
+                     <br/> Albuterol Tablets, USP containing 4 mg albuterol as the sulfate are white, round shaped, scored tablets debossed with “AC 4” on one side and plain on other side. They are available as follows:<br/>
+                     <br/> NDC 64980-443-01<br/> Bottles of 100 tablets<br/>
+                     <br/> NDC 64980-443-50<br/> Bottles of 500 tablets<br/>
+                     <br/>
+                     <content styleCode="bold">Store Albuterol Tablets, USP at 20° to 25°C (68° to 77°F). [See USP for Controlled Room Temperature.]</content>
+                     <br/>
+                     <content styleCode="bold">Protect from light.</content>
+                     <br/>
+                     <br/> Dispense in a tight, light-resistant container as defined in the USP using a child-resistant closure.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                     <br/> Appco Pharma LLC.<br/> Piscataway, New Jersey 08854</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:</content>
+                     <br/>Rising Pharma Holdings, Inc.<br/>East Brunswick, NJ 08816<br/>
+                     <br/>
+                     <content styleCode="bold">Revised</content>: 03/2025<br/>
+                     <br/> 200229<br/> PIR44350-01</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_17">
+               <id root="4a8a87f0-5bf2-4579-b6ac-34927483adfa"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <effectiveTime value="20250324"/>
+               <component>
+                  <section ID="Section_17.1">
+                     <id root="6b12b8a6-3799-4f86-8e61-830e30d3b1af"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL-2 MG-100'S COUNT</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Rising NDC 64980-442-01</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Albuterol</content>
+                           <content styleCode="bold">Tablets, USP</content>
+                           <br/>
+                           <content styleCode="bold">2 mg </content>
+                           <content styleCode="bold">100 Tablets </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Rx only</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <renderMultiMedia referencedObject="L9e29fdf5-dd3a-4ffb-9b84-a942bf677b89"/>
+                           </content>
+                        </paragraph>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20250324"/>
+                     <component>
+                        <observationMedia ID="L9e29fdf5-dd3a-4ffb-9b84-a942bf677b89">
+                           <text>2 mg-100s-Count-Container-Label</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="2 mg-100's Count Container Label.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_17.3">
+                     <id root="5b2f29f2-a2cd-4367-8a25-b2df36ce8e1f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL-2 MG-500'S COUNT</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Rising NDC 64980-442-50</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Albuterol </content>
+                           <content styleCode="bold">Tablets, USP</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">2 mg </content>
+                           <content styleCode="bold">500 Tablets </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Rx only</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <renderMultiMedia referencedObject="Ld0d6ca9d-5824-4296-b73d-ff65e70d1997"/>
+                           </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250324"/>
+                     <component>
+                        <observationMedia ID="Ld0d6ca9d-5824-4296-b73d-ff65e70d1997">
+                           <text>2 mg-500s-Count-Container-Label</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="2 mg-500's Count Container Label.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_17.4">
+                     <id root="6c11978b-e8f3-448e-ae55-79f083db4197"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL-4 MG-100'S COUNT</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Rising NDC 64980-443-01 </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Albuterol Tablets, USP</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">4 mg 100 Tablets </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Rx only</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <renderMultiMedia referencedObject="Ld57c6cac-865f-4be0-9b4c-c8afebd0076c"/>
+                           </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250324"/>
+                     <component>
+                        <observationMedia ID="Ld57c6cac-865f-4be0-9b4c-c8afebd0076c">
+                           <text>4 mg-100s-Count-Container-Label</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="4 mg-100's Count Container Label.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_17.5">
+                     <id root="977ffef1-38d1-49e8-86f2-920951812ecf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL-4 MG-500'S COUNT</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Rising NDC 64980-443-50</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Albuterol Tablets, USP</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">4 mg  <content>500 Tablets</content>
+                           </content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content>Rx only</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content>
+                                 <renderMultiMedia referencedObject="L30aa7698-1ced-44ef-80aa-b67e4ed9628a"/>
+                              </content>
+                           </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250324"/>
+                     <component>
+                        <observationMedia ID="L30aa7698-1ced-44ef-80aa-b67e4ed9628a">
+                           <text>4 mg-500s-Count-Container-Label</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="4 mg-500's Count Container Label.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

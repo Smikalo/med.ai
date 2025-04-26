@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="30a2ed14-dcdb-f972-e063-6294a90a417c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Gabapentin</title>
+   <effectiveTime value="20250318"/>
+   <setId root="30a2ed14-dcda-f972-e063-6294a90a417c"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>Direct_Rx</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                  <name>Direct_Rx</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>Direct_Rx</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72189-619" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="30a39240-2a92-ce80-e063-6294a90a7e19"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250318"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72189-619" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Gabapentin</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Gabapentin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="67877-429" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TUF2IVW3M2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLOXAMER 407</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="RFW2ET671P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROXYPROPYL CELLULOSE (1600000 WAMW)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="D9C330MD8B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>COPOVIDONE K25-31</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="800"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6CW7F3G59X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GABAPENTIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="6CW7F3G59X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GABAPENTIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="120" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-619-72" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250318"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA206402" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250318"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="19" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">G8</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText>elliptical</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a3408f-0f24-747c-e063-6294a90a28e6">
+               <id root="30a3408f-0f23-747c-e063-6294a90a28e6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Gabapentin is indicated for:</paragraph>
+                  <paragraph>Management of postherpetic neuralgia in adults
+  <br/>
+Adjunctive therapy in the treatment of partial onset seizures, with and without secondary generalization, in adults and pediatric patients 3 years and older with epilepsy
+ </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a34285-1417-d3a8-e063-6394a90a098c">
+               <id root="30a34285-1416-d3a8-e063-6394a90a098c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>2.1 Dosage for Postherpetic Neuralgia</paragraph>
+                  <paragraph>In adults with postherpetic neuralgia, gabapentin may be initiated on Day 1 as a single 300 mg dose, on Day 2 as 600 mg/day (300 mg two times a day), and on Day 3 as 900 mg/day (300 mg three times a day). The dose can subsequently be titrated up as needed for pain relief to a dose of 1,800 mg/day (600 mg three times a day). In clinical studies, efficacy was demonstrated over a range of doses from 1,800 mg/day to 3,600 mg/day with comparable effects across the dose range; however, in these clinical studies, the additional benefit of using doses greater than 1,800 mg/day was not demonstrated.</paragraph>
+                  <paragraph>2.2 Dosage for Epilepsy with Partial Onset Seizures</paragraph>
+                  <paragraph>Patients 12 Years of Age and Above</paragraph>
+                  <paragraph>The starting dose is 300 mg three times a day. The recommended maintenance dose of gabapentin is 300 mg to 600 mg three times a day. Dosages up to 2,400 mg/day have been administered in long-term clinical studies. Doses of 3,600 mg/day have also been administered to a small number of patients for a relatively short duration. Administer gabapentin three times a day using 600 mg or 800 mg tablets. The maximum time between doses should not exceed 12 hours.</paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Pediatric Patients Age 3 to 11 Years</paragraph>
+                  <paragraph>The starting dose range is 10 mg/kg/day to 15 mg/kg/day, given in three divided doses, and the recommended maintenance dose reached by upward titration over a period of approximately 3 days. The recommended maintenance dose of gabapentin in patients 3 to 4 years of age is 40 mg/kg/day, given in three divided doses. The recommended maintenance dose of gabapentin in patients 5 to 11 years of age is 25 mg/kg/day to 35 mg/kg/day, given in three divided doses. Gabapentin may be administered as the oral tablet. Dosages up to 50 mg/kg/day have been administered in a long-term clinical study. The maximum time interval between doses should not exceed 12 hours.</paragraph>
+                  <paragraph>2.3 Dosage Adjustment in Patients with Renal Impairment</paragraph>
+                  <paragraph>Dosage adjustment in patients 12 years of age and older with renal impairment or undergoing hemodialysis is recommended, as follows (see dosing recommendations above for effective doses in each indication):
+  <br/>
+                     <br/>
+TABLE 1. Gabapentin Dosage Based on Renal Function
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Renal Function Creatinine Clearance (mL/min)
+  <br/>
+Total Daily Dose Range (mg/day)
+  <br/>
+Dose Regimen (mg)
+  <br/>
+≥ 60
+  <br/>
+900 to 3,600
+  <br/>
+300 TID
+  <br/>
+400 TID
+  <br/>
+600 TID
+  <br/>
+800 TID
+  <br/>
+1,200 TID
+  <br/>
+&gt;30 to 59
+  <br/>
+400 to 1,400
+  <br/>
+200 BID
+  <br/>
+300 BID
+  <br/>
+400 BID
+  <br/>
+500 BID
+  <br/>
+700 BID
+  <br/>
+&gt;15 to 29
+  <br/>
+200 to 700
+  <br/>
+200 QD
+  <br/>
+300 QD
+  <br/>
+400 QD
+  <br/>
+500 QD
+  <br/>
+700 QD
+  <br/>
+15a
+  <br/>
+100 to 300
+  <br/>
+100 QD
+  <br/>
+125 QD
+  <br/>
+150 QD
+  <br/>
+200 QD
+  <br/>
+300 QD
+  <br/>
+                     <br/>
+                     <br/>
+Post-Hemodialysis Supplemental Dose (mg)b
+  <br/>
+Hemodialysis
+  <br/>
+                     <br/>
+125b
+  <br/>
+150b
+  <br/>
+200b
+  <br/>
+250b
+  <br/>
+350b
+  <br/>
+TID = Three times a day; BID = Two times a day; QD = Single daily dose
+  <br/>
+                     <br/>
+aFor patients with creatinine clearance &lt;15 mL/min, reduce daily dose in proportion to creatinine clearance (e.g., patients with a creatinine clearance of 7.5 mL/min should receive one-half the daily dose that patients with a creatinine clearance of 15 mL/min receive).
+  <br/>
+                     <br/>
+bPatients on hemodialysis should receive maintenance doses based on estimates of creatinine clearance as indicated in the upper portion of the table and a supplemental post-hemodialysis dose administered after each 4 hours of hemodialysis as indicated in the lower portion of the table.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Creatinine clearance (CLCr) is difficult to measure in outpatients. In patients with stable renal function, creatinine clearance can be reasonably well estimated using the equation of Cockcroft and Gault:</paragraph>
+                  <paragraph>
+                     <br/>
+[Gabapentin Equation]
+ </paragraph>
+                  <paragraph>The use of gabapentin in patients less than 12 years of age with compromised renal function has not been studied.</paragraph>
+                  <paragraph>2.4 Dosage in Elderly</paragraph>
+                  <paragraph>Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and dose should be adjusted based on creatinine clearance values in these patients.</paragraph>
+                  <paragraph>2.5 Administration Information</paragraph>
+                  <paragraph>Administer gabapentin orally with or without food.</paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Inform patients that, should they divide the scored 600 mg or 800 mg gabapentin tablet in order to administer a half-tablet, they should take the unused half-tablet as the next dose. Half-tablets not used within 28 days of dividing the scored tablet should be discarded.
+  <br/>
+If the gabapentin dose is reduced, discontinued, or substituted with an alternative medication, this should be done gradually over a minimum of 1 week (a longer period may be needed at the discretion of the prescriber).
+ </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a343cc-caa7-d417-e063-6394a90ad77b">
+               <id root="30a343cc-caa6-d417-e063-6394a90ad77b"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <text>
+                  <paragraph>Tablets</paragraph>
+                  <paragraph/>
+                  <paragraph>600 mg: White to off white elliptical film coated tablets with "G/6" debossed on one side and scored on both sides
+  <br/>
+800 mg: White to off white elliptical film coated tablets with "G/8" debossed on one side and scored on both sides
+ </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a33424-5530-7151-e063-6294a90acb8c">
+               <id root="30a33424-552f-7151-e063-6294a90acb8c"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Gabapentin is contraindicated in patients who have demonstrated hypersensitivity to the drug or its ingredients.</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a34953-9ea7-da63-e063-6394a90a1ab1">
+               <id root="30a34953-9ea6-da63-e063-6394a90a1ab1"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>5.1 Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)/Multiorgan Hypersensitivity</paragraph>
+                  <paragraph>Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS), also known as multiorgan hypersensitivity, has occurred with gabapentin. Some of these reactions have been fatal or life-threatening. DRESS typically, although not exclusively, presents with fever, rash, and/or lymphadenopathy, in association with other organ system involvement, such as hepatitis, nephritis, hematological abnormalities, myocarditis, or myositis sometimes resembling an acute viral infection. Eosinophilia is often present. This disorder is variable in its expression, and other organ systems not noted here may be involved.</paragraph>
+                  <paragraph/>
+                  <paragraph>It is important to note that early manifestations of hypersensitivity, such as fever or lymphadenopathy, may be present even though rash is not evident. If such signs or symptoms are present, the patient should be evaluated immediately. Gabapentin should be discontinued if an alternative etiology for the signs or symptoms cannot be established.</paragraph>
+                  <paragraph>5.2 Anaphylaxis and Angioedema</paragraph>
+                  <paragraph>Gabapentin can cause anaphylaxis and angioedema after the first dose or at any time during treatment. Signs and symptoms in reported cases have included difficulty breathing, swelling of the lips, throat, and tongue, and hypotension requiring emergency treatment. Patients should be instructed to discontinue gabapentin and seek immediate medical care should they experience signs or symptoms of anaphylaxis or angioedema.</paragraph>
+                  <paragraph>5.3 Effects on Driving and Operating Heavy Machinery</paragraph>
+                  <paragraph>Patients taking gabapentin should not drive until they have gained sufficient experience to assess whether gabapentin impairs their ability to drive. Driving performance studies conducted with a prodrug of gabapentin (gabapentin enacarbil tablet, extended-release) indicate that gabapentin may cause significant driving impairment. Prescribers and patients should be aware that patients’ ability to assess their own driving competence, as well as their ability to assess the degree of somnolence caused by gabapentin, can be imperfect. The duration of driving impairment after starting therapy with gabapentin is unknown. Whether the impairment is related to somnolence [see Warnings and Precautions (5.4 )] or other effects of gabapentin is unknown.</paragraph>
+                  <paragraph/>
+                  <paragraph>Moreover, because gabapentin causes somnolence and dizziness [see Warnings and Precautions (5.4)], patients should be advised not to operate complex machinery until they have gained sufficient experience on gabapentin to assess whether gabapentin impairs their ability to perform such tasks.</paragraph>
+                  <paragraph>5.4 Somnolence/Sedation and Dizziness</paragraph>
+                  <paragraph>During the controlled epilepsy trials in patients older than 12 years of age receiving doses of gabapentin up to 1800 mg daily, somnolence, dizziness, and ataxia were reported at a greater rate in patients receiving gabapentin compared to placebo: i.e., 19% in drug versus 9% in placebo for somnolence, 17% in drug versus 7% in placebo for dizziness, and 13% in drug versus 6% in placebo for ataxia. In these trials somnolence, ataxia and fatigue were common adverse reactions leading to discontinuation of gabapentin in patients older than 12 years of age, with 1.2%, 0.8% and 0.6% discontinuing for these events, respectively.</paragraph>
+                  <paragraph/>
+                  <paragraph>During the controlled trials in patients with post-herpetic neuralgia, somnolence, and dizziness were reported at a greater rate compared to placebo in patients receiving gabapentin, in dosages up to 3600 mg per day: i.e., 21% in gabapentin -treated patients versus 5% in placebo-treated patients for somnolence and 28% in gabapentin -treated patients versus 8% in placebo-treated patients for dizziness. Dizziness and somnolence were among the most common adverse reactions leading to discontinuation of gabapentin.</paragraph>
+                  <paragraph/>
+                  <paragraph>Patients should be carefully observed for signs of central nervous system (CNS) depression, such as somnolence and sedation, when gabapentin is used with other drugs with sedative properties because of potential synergy. In addition, patients who require concomitant treatment with morphine may experience increases in gabapentin concentrations and may require dose adjustment [see Drug Interactions (7.1)].</paragraph>
+                  <paragraph>5.5 Withdrawal Precipitated Seizure, Status Epilepticus</paragraph>
+                  <paragraph>Antiepileptic drugs should not be abruptly discontinued because of the possibility of increasing seizure frequency.</paragraph>
+                  <paragraph>In the placebo-controlled epilepsy studies in patients &gt;12 years of age, the incidence of status epilepticus in patients receiving gabapentin was 0.6% (3 of 543) versus 0.5% in patients receiving placebo (2 of 378). Among the 2,074 patients &gt;12 years of age treated with gabapentin across all epilepsy studies (controlled and uncontrolled), 31 (1.5%) had status epilepticus. Of these, 14 patients had no prior history of status epilepticus either before treatment or while on other medications. Because adequate historical data are not available, it is impossible to say whether or not treatment with gabapentin is associated with a higher or lower rate of status epilepticus than would be expected to occur in a similar population not treated with gabapentin.</paragraph>
+                  <paragraph>5.6 Suicidal Behavior and Ideation</paragraph>
+                  <paragraph>Antiepileptic drugs (AEDs), including gabapentin, increase the risk of suicidal thoughts or behavior in patients taking these drugs for any indication. Patients treated with any AED for any indication should be monitored for the emergence or worsening of depression, suicidal thoughts or behavior, and/or any unusual changes in mood or behavior.</paragraph>
+                  <paragraph/>
+                  <paragraph>Pooled analyses of 199 placebo-controlled clinical trials (mono- and adjunctive therapy) of 11 different AEDs showed that patients randomized to one of the AEDs had approximately twice the risk (adjusted Relative Risk 1.8, 95% CI:1.2, 2.7) of suicidal thinking or behavior compared to patients randomized to placebo. In these trials, which had a median treatment duration of 12 weeks, the estimated incidence rate of suicidal behavior or ideation among 27,863 AED-treated patients was 0.43%, compared to 0.24% among 16,029 placebo-treated patients, representing an increase of approximately one case of suicidal thinking or behavior for every 530 patients treated. There were four suicides in drug-treated patients in the trials and none in placebo-treated patients, but the number is too small to allow any conclusion about drug effect on suicide.</paragraph>
+                  <paragraph/>
+                  <paragraph>The increased risk of suicidal thoughts or behavior with AEDs was observed as early as one week after starting drug treatment with AEDs and persisted for the duration of treatment assessed. Because most trials included in the analysis did not extend beyond 24 weeks, the risk of suicidal thoughts or behavior beyond 24 weeks could not be assessed.</paragraph>
+                  <paragraph/>
+                  <paragraph>The risk of suicidal thoughts or behavior was generally consistent among drugs in the data analyzed. The finding of increased risk with AEDs of varying mechanisms of action and across a range of indications suggests that the risk applies to all AEDs used for any indication. The risk did not vary substantially by age (5 to 100 years) in the clinical trials analyzed. Table 2 shows absolute and relative risk by indication for all evaluated AEDs.</paragraph>
+                  <paragraph>TABLE 2.Risk by Indication for Antiepileptic Drugs in the Pooled Analysis</paragraph>
+                  <paragraph>Indication
+  <br/>
+Placebo Patients with Events Per 1,000 Patients
+  <br/>
+Drug Patients with Events Per 1,000 Patients
+  <br/>
+Relative Risk: Incidence of Events in Drug Patients/Incidence in Placebo Patients
+  <br/>
+Risk Difference: Additional Drug Patients with Events Per 1,000 Patients
+  <br/>
+Epilepsy
+  <br/>
+1.0
+  <br/>
+3.4
+  <br/>
+3.5
+  <br/>
+2.4
+  <br/>
+Psychiatric
+  <br/>
+5.7
+  <br/>
+8.5
+  <br/>
+1.5
+  <br/>
+2.9
+  <br/>
+Other
+  <br/>
+1.0
+  <br/>
+1.8
+  <br/>
+1.9
+  <br/>
+0.9
+  <br/>
+Total
+  <br/>
+2.4
+  <br/>
+4.3
+  <br/>
+1.8
+  <br/>
+1.9
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>The relative risk for suicidal thoughts or behavior was higher in clinical trials for epilepsy than in clinical trials for psychiatric or other conditions, but the absolute risk differences were similar for the epilepsy and psychiatric indications.</paragraph>
+                  <paragraph/>
+                  <paragraph>Anyone considering prescribing gabapentin or any other AED must balance the risk of suicidal thoughts or behavior with the risk of untreated illness. Epilepsy and many other illnesses for which AEDs are prescribed are themselves associated with morbidity and mortality and an increased risk of suicidal thoughts and behavior. Should suicidal thoughts and behavior emerge during treatment, the prescriber needs to consider whether the emergence of these symptoms in any given patient may be related to the illness being treated.</paragraph>
+                  <paragraph/>
+                  <paragraph>Patients, their caregivers, and families should be informed that AEDs increase the risk of suicidal thoughts and behavior and should be advised of the need to be alert for the emergence or worsening of the signs and symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal thoughts, behavior, or thoughts about self-harm. Behaviors of concern should be reported immediately to healthcare providers.</paragraph>
+                  <paragraph>5.7 Respiratory Depression</paragraph>
+                  <paragraph>There is evidence from case reports, human studies, and animal studies associating gabapentin with serious, life-threatening, or fatal respiratory depression when coadministered with CNS depressants, including opioids, or in the setting of underlying respiratory impairment. When the decision is made to co-prescribe gabapentin with another CNS depressant, particularly an opioid, or to prescribe gabapentin to patients with underlying respiratory impairment, monitor patients for symptoms of respiratory depression and sedation, and consider initiating gabapentin at a low dose. The management of respiratory depression may include close observation, supportive measures, and reduction or withdrawal of CNS depressants (including gabapentin).</paragraph>
+                  <paragraph>5.8 Neuropsychiatric Adverse Reactions (Pediatric Patients 3 to 12 Years of Age)</paragraph>
+                  <paragraph>Gabapentin use in pediatric patients with epilepsy 3 to 12 years of age is associated with the occurrence of CNS related adverse reactions. The most significant of these can be classified into the following categories: 1) emotional lability (primarily behavioral problems), 2) hostility, including aggressive behaviors, 3) thought disorder, including concentration problems and change in school performance, and 4) hyperkinesia (primarily restlessness and hyperactivity). Among the gabapentin-treated patients, most of the reactions were mild to moderate in intensity.</paragraph>
+                  <paragraph/>
+                  <paragraph>In controlled clinical epilepsy trials in pediatric patients 3 to 12 years of age, the incidence of these adverse reactions was: emotional lability 6% (gabapentin-treated patients) versus 1.3% (placebo-treated patients); hostility 5.2% versus 1.3%; hyperkinesia 4.7% versus 2.9%; and thought disorder 1.7% versus 0%. One of these reactions, a report of hostility, was considered serious. Discontinuation of gabapentin treatment occurred in 1.3% of patients reporting emotional lability and hyperkinesia and 0.9% of gabapentin-treated patients reporting hostility and thought disorder. One placebo-treated patient (0.4%) withdrew due to emotional lability.</paragraph>
+                  <paragraph>5.9 Tumorigenic Potential</paragraph>
+                  <paragraph>In an oral carcinogenicity study, gabapentin increased the incidence of pancreatic acinar cell tumors in rats [see Nonclinical Toxicology (13.1)]. The clinical significance of this finding is unknown. Clinical experience during gabapentin’s premarketing development provides no direct means to assess its potential for inducing tumors in humans.</paragraph>
+                  <paragraph/>
+                  <paragraph>In clinical studies in adjunctive therapy in epilepsy comprising 2,085 patient-years of exposure in patients &gt;12 years of age, new tumors were reported in 10 patients (2 breast, 3 brain, 2 lung, 1 adrenal, 1 non-Hodgkin’s lymphoma, 1 endometrial carcinoma in situ), and preexisting tumors worsened in 11 patients (9 brain, 1 breast, 1 prostate) during or up to 2 years following discontinuation of gabapentin. Without knowledge of the background incidence and recurrence in a similar population not treated with gabapentin, it is impossible to know whether the incidence seen in this cohort is or is not affected by treatment.</paragraph>
+                  <paragraph>5.10 Sudden and Unexplained Death in Patients with Epilepsy</paragraph>
+                  <paragraph>During the course of premarketing development of gabapentin, 8 sudden and unexplained deaths were recorded among a cohort of 2,203 epilepsy patients treated (2,103 patient-years of exposure) with gabapentin.</paragraph>
+                  <paragraph/>
+                  <paragraph>Some of these could represent seizure-related deaths in which the seizure was not observed, e.g., at night. This represents an incidence of 0.0038 deaths per patient-year. Although this rate exceeds that expected in a healthy population matched for age and sex, it is within the range of estimates for the incidence of sudden unexplained deaths in patients with epilepsy not receiving gabapentin (ranging from 0.0005 for the general population of epileptics to 0.003 for a clinical trial population similar to that in the gabapentin program, to 0.005 for patients with refractory epilepsy). Consequently, whether these figures are reassuring or raise further concern depends on comparability of the populations reported upon to the gabapentin cohort and the accuracy of the estimates provided.</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a34953-9ea9-da63-e063-6394a90a1ab1">
+               <id root="30a34953-9ea8-da63-e063-6394a90a1ab1"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>The following serious adverse reactions are discussed in greater detail in other sections:</paragraph>
+                  <paragraph/>
+                  <paragraph> Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)/Multiorgan Hypersensitivity [see Warnings and Precautions (5.1)]
+  <br/>
+Anaphylaxis and Angioedema [see Warnings and Precautions (5.2)]
+  <br/>
+ Somnolence/Sedation and Dizziness [see Warnings and Precautions (5.4)]
+  <br/>
+ Withdrawal Precipitated Seizure, Status Epilepticus [see Warnings and Precautions (5.5)]
+  <br/>
+Suicidal Behavior and Ideation [see Warnings and Precautions (5.6)] 
+  <br/>
+Respiratory  Depression  [see Warnings and Precautions (5.7)] 
+  <br/>
+Neuropsychiatric Adverse Reactions (Pediatric Patients 3 to 12 Years of Age) [see Warnings and Precautions (5.8)]
+  <br/>
+ Sudden and Unexplained Death in Patients with Epilepsy [see Warnings and Precautions (5.10)]
+ </paragraph>
+                  <paragraph>6.1 Clinical Trials Experience</paragraph>
+                  <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                  <paragraph/>
+                  <paragraph>Postherpetic Neuralgia</paragraph>
+                  <paragraph>The most common adverse reactions associated with the use of gabapentin in adults, not seen at an equivalent frequency among placebo-treated patients, were dizziness, somnolence, and peripheral edema.</paragraph>
+                  <paragraph/>
+                  <paragraph>In the 2 controlled trials in postherpetic neuralgia, 16% of the 336 patients who received gabapentin and 9% of the 227 patients who received placebo discontinued treatment because of an adverse reaction. The adverse reactions that most frequently led to withdrawal in gabapentin -treated patients were dizziness, somnolence, and nausea.</paragraph>
+                  <paragraph/>
+                  <paragraph>Table 3 lists adverse reactions that occurred in at least 1% of gabapentin -treated patients with postherpetic neuralgia participating in placebo-controlled trials and that were numerically more frequent in the gabapentin group than in the placebo group.</paragraph>
+                  <paragraph>TABLE 3. Adverse Reactions in Pooled Placebo-Controlled Trials in Postherpetic Neuralgia</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Gabapentin 
+  <br/>
+N=336
+  <br/>
+Placebo
+  <br/>
+N=227
+  <br/>
+                     <br/>
+%
+  <br/>
+%
+  <br/>
+                     <br/>
+Body as a Whole  
+  <br/>
+                     <br/>
+                     <br/>
+Asthenia 6
+  <br/>
+5
+  <br/>
+                     <br/>
+Infection 5
+  <br/>
+4
+  <br/>
+                     <br/>
+Accidental injury 3
+  <br/>
+1
+  <br/>
+                     <br/>
+Digestive System  
+  <br/>
+                     <br/>
+                     <br/>
+Diarrhea 6
+  <br/>
+3
+  <br/>
+                     <br/>
+Dry mouth 5
+  <br/>
+1
+  <br/>
+                     <br/>
+Constipation 4
+  <br/>
+2
+  <br/>
+                     <br/>
+Nausea 4
+  <br/>
+3
+  <br/>
+                     <br/>
+Vomiting 3
+  <br/>
+2
+  <br/>
+                     <br/>
+Metabolic and Nutritional Disorders  
+  <br/>
+                     <br/>
+                     <br/>
+Peripheral edema 8
+  <br/>
+2
+  <br/>
+                     <br/>
+Weight gain 2
+  <br/>
+0
+  <br/>
+                     <br/>
+Hyperglycemia 1
+  <br/>
+0
+  <br/>
+                     <br/>
+Nervous System  
+  <br/>
+                     <br/>
+                     <br/>
+Dizziness 28
+  <br/>
+8
+  <br/>
+                     <br/>
+Somnolence 21
+  <br/>
+5
+  <br/>
+                     <br/>
+Ataxia 3
+  <br/>
+0
+  <br/>
+                     <br/>
+Abnormal thinking 3
+  <br/>
+0
+  <br/>
+                     <br/>
+Abnormal gait 2
+  <br/>
+0
+  <br/>
+                     <br/>
+Incoordination 2
+  <br/>
+0
+  <br/>
+                     <br/>
+Respiratory System  
+  <br/>
+                     <br/>
+                     <br/>
+Pharyngitis 1
+  <br/>
+0
+  <br/>
+                     <br/>
+Special Senses  
+  <br/>
+                     <br/>
+                     <br/>
+Amblyopiaa 3
+  <br/>
+1
+  <br/>
+                     <br/>
+Conjunctivitis 1
+  <br/>
+0
+  <br/>
+                     <br/>
+Diplopia 1
+  <br/>
+0
+  <br/>
+                     <br/>
+Otitis media 1
+  <br/>
+0
+  <br/>
+                     <br/>
+a Reported as blurred vision
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Other reactions in more than 1% of patients but equally or more frequent in the placebo group included pain, tremor, neuralgia, back pain, dyspepsia, dyspnea, and flu syndrome.</paragraph>
+                  <paragraph/>
+                  <paragraph>There were no clinically important differences between men and women in the types and incidence of adverse reactions. Because there were few patients whose race was reported as other than white, there are insufficient data to support a statement regarding the distribution of adverse reactions by race.</paragraph>
+                  <paragraph/>
+                  <paragraph>Epilepsy with Partial Onset Seizures (Adjunctive Therapy)
+  <br/>
+The most common adverse reactions with gabapentin in combination with other antiepileptic drugs in patients &gt;12 years of age, not seen at an equivalent frequency among placebo-treated patients, were somnolence, dizziness, ataxia, fatigue, and nystagmus. The most common adverse reactions with gabapentin in combination with other antiepileptic drugs in pediatric patients 3 to 12 years of age, not seen at an equal frequency among placebo-treated patients, were viral infection, fever, nausea and/or vomiting, somnolence, and hostility [see Warnings and Precautions (5.8)].
+  <br/>
+                     <br/>
+Approximately 7% of the 2074 patients &gt;12 years of age and approximately 7% of the 449 pediatric patients 3 to 12 years of age who received gabapentin in premarketing clinical trials discontinued treatment because of an adverse reaction. The adverse reactions most commonly associated with withdrawal in patients &gt;12 years of age were somnolence (1.2%), ataxia (0.8%), fatigue (0.6%), nausea and/or vomiting (0.6%), and dizziness (0.6%). The adverse reactions most commonly associated with withdrawal in pediatric patients were emotional lability (1.6%), hostility (1.3%), and hyperkinesia (1.1%).
+  <br/>
+                     <br/>
+Table 4 lists adverse reactions that occurred in at least 1% of gabapentin-treated patients &gt;12 years of age with epilepsy participating in placebo-controlled trials and were numerically more common in the gabapentin group. In these studies, either gabapentin or placebo was added to the patient’s current antiepileptic drug therapy.
+  <br/>
+                     <br/>
+TABLE 4. Adverse Reactions in Pooled Placebo-Controlled Add-On Trials in Epilepsy Patients &gt;12 Years of Age
+  <br/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Gabapentina
+  <br/>
+Placeboa
+  <br/>
+N=543
+  <br/>
+N=378
+  <br/>
+%
+  <br/>
+%
+  <br/>
+                     <br/>
+Body as a Whole
+  <br/>
+Fatigue  11
+  <br/>
+5
+  <br/>
+                     <br/>
+Increased weight 3
+  <br/>
+2
+  <br/>
+                     <br/>
+Back pain 2
+  <br/>
+1
+  <br/>
+                     <br/>
+Peripheral edema 2
+  <br/>
+1
+  <br/>
+                     <br/>
+Cardiovascular
+  <br/>
+Vasodilatation  1
+  <br/>
+0
+  <br/>
+                     <br/>
+Digestive System
+  <br/>
+Dyspepsia 2
+  <br/>
+1
+  <br/>
+                     <br/>
+Dry mouth or throat 2
+  <br/>
+1
+  <br/>
+                     <br/>
+Constipation 2
+  <br/>
+1
+  <br/>
+                     <br/>
+Dental abnormalities 2
+  <br/>
+0
+  <br/>
+                     <br/>
+Nervous System
+  <br/>
+Somnolence 19
+  <br/>
+9
+  <br/>
+                     <br/>
+Dizziness 17
+  <br/>
+7
+  <br/>
+                     <br/>
+Ataxia 13
+  <br/>
+6
+  <br/>
+                     <br/>
+Nystagmus 8
+  <br/>
+4
+  <br/>
+                     <br/>
+Tremor 7
+  <br/>
+3
+  <br/>
+                     <br/>
+Dysarthria 2
+  <br/>
+1
+  <br/>
+                     <br/>
+Amnesia 2
+  <br/>
+0
+  <br/>
+                     <br/>
+Depression 2
+  <br/>
+1
+  <br/>
+                     <br/>
+Abnormal thinking 2
+  <br/>
+1
+  <br/>
+                     <br/>
+Abnormal coordination 1
+  <br/>
+0
+  <br/>
+                     <br/>
+Respiratory System  
+  <br/>
+                     <br/>
+                     <br/>
+Pharyngitis 3
+  <br/>
+2
+  <br/>
+                     <br/>
+Coughing 2
+  <br/>
+1
+  <br/>
+                     <br/>
+Skin and Appendages
+  <br/>
+Abrasion 1
+  <br/>
+0
+  <br/>
+                     <br/>
+Urogenital System 
+  <br/>
+Impotence 2
+  <br/>
+1
+  <br/>
+                     <br/>
+Special Senses
+  <br/>
+Diplopia 6
+  <br/>
+2
+  <br/>
+                     <br/>
+Amblyopiab 4
+  <br/>
+1
+  <br/>
+                     <br/>
+aPlus background antiepileptic drug therapy
+  <br/>
+bAmblyopia was often described as blurred vision.
+ </paragraph>
+                  <paragraph>Among the adverse reactions occurring at an incidence of at least 10% in gabapentin-treated patients, somnolence and ataxia appeared to exhibit a positive dose-response relationship.</paragraph>
+                  <paragraph>The overall incidence of adverse reactions and the types of adverse reactions seen were similar among men and women treated with gabapentin. The incidence of adverse reactions increased slightly with increasing age in patients treated with either gabapentin or placebo. Because only 3% of patients (28/921) in placebo-controlled studies were identified as nonwhite (black or other), there are insufficient data to support a statement regarding the distribution of adverse reactions by race.
+  <br/>
+Table 5 lists adverse reactions that occurred in at least 2% of gabapentin-treated patients, age 3 to 12 years of age with epilepsy participating in placebo-controlled trials, and which were numerically more common in the gabapentin group.
+  <br/>
+                     <br/>
+TABLE 5. Adverse Reactions in a Placebo-Controlled Add-On Trial in Pediatric Epilepsy Patients Age 3 to 12 Years
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>  Gabapentina
+  <br/>
+N=119
+  <br/>
+Placeboa
+  <br/>
+N=128
+  <br/>
+                     <br/>
+%
+  <br/>
+%
+  <br/>
+                     <br/>
+Body as a Whole  
+  <br/>
+                     <br/>
+                     <br/>
+Viral infection 11
+  <br/>
+3
+  <br/>
+                     <br/>
+Fever 10
+  <br/>
+3
+  <br/>
+                     <br/>
+Increased weight 3
+  <br/>
+1
+  <br/>
+                     <br/>
+Fatigue 3
+  <br/>
+2
+  <br/>
+                     <br/>
+Digestive System  
+  <br/>
+                     <br/>
+                     <br/>
+Nausea and/or vomiting 8
+  <br/>
+7
+  <br/>
+                     <br/>
+Nervous System   
+  <br/>
+                     <br/>
+                     <br/>
+Somnolence 8
+  <br/>
+5
+  <br/>
+                     <br/>
+Hostility 8
+  <br/>
+2
+  <br/>
+                     <br/>
+Emotional lability 4
+  <br/>
+2
+  <br/>
+                     <br/>
+Dizziness 3
+  <br/>
+2
+  <br/>
+                     <br/>
+Hyperkinesia 3
+  <br/>
+1
+  <br/>
+                     <br/>
+Respiratory System  
+  <br/>
+                     <br/>
+                     <br/>
+Bronchitis 3
+  <br/>
+1
+  <br/>
+                     <br/>
+Respiratory infection 3
+  <br/>
+1
+  <br/>
+                     <br/>
+aPlus background antiepileptic drug therapy
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Other reactions in more than 2% of pediatric patients 3 to 12 years of age but equally or more frequent in the placebo group included: pharyngitis, upper respiratory infection, headache, rhinitis, convulsions, diarrhea, anorexia, coughing, and otitis media.</paragraph>
+                  <paragraph>6.2 Postmarketing Experience</paragraph>
+                  <paragraph> The following adverse reactions have been identified during postmarketing use of gabapentin. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>Hepatobiliary Disorders: jaundice</paragraph>
+                  <paragraph>Investigations: elevated creatine kinase, elevated liver function tests</paragraph>
+                  <paragraph>Metabolism and Nutrition Disorders: hyponatremia</paragraph>
+                  <paragraph>Musculoskeletal and Connective Tissue Disorder: rhabdomyolysis</paragraph>
+                  <paragraph>Nervous System Disorders: movement disorder</paragraph>
+                  <paragraph>Psychiatric Disorders: agitation</paragraph>
+                  <paragraph>Reproductive System and Breast Disorders: breast enlargement, changes in libido, ejaculation disorders and anorgasmia</paragraph>
+                  <paragraph>Skin and Subcutaneous Tissue Disorders: angioedema [see Warnings and Precautions (5.2)], bullous pemphigoid, erythema multiforme,</paragraph>
+                  <paragraph>Stevens-Johnson syndrome.</paragraph>
+                  <paragraph>There are postmarketing reports of life-threatening or fatal respiratory depression in patients taking gabapentin with opioids or other CNS depressants, or in the setting of underlying respiratory impairment [see Warnings and Precautions (5.7)].</paragraph>
+                  <paragraph>Adverse reactions following the abrupt discontinuation of gabapentin have also been reported. The most frequently reported reactions were anxiety, insomnia, nausea, pain, and sweating.</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a347ce-acf0-7f4a-e063-6294a90af1f0">
+               <id root="30a347ce-acef-7f4a-e063-6294a90af1f0"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <text>
+                  <paragraph>7.1 Opioids</paragraph>
+                  <paragraph>Respiratory depression and sedation, sometimes resulting in death, have been reported following coadministration of gabapentin with opioids (e.g., morphine, hydrocodone, oxycodone, buprenorphine) [see Warnings and Precautions (5.7)].</paragraph>
+                  <paragraph/>
+                  <paragraph>Hydrocodone</paragraph>
+                  <paragraph>Coadministration of gabapentin with hydrocodone decreases hydrocodone exposure [see Clinical Pharmacology (12.3)]. The potential for alteration in hydrocodone exposure and effect should be considered when gabapentin is started or discontinued in a patient taking hydrocodone.</paragraph>
+                  <paragraph/>
+                  <paragraph>Morphine</paragraph>
+                  <paragraph>When gabapentin is administered with morphine, patients should be observed for signs of CNS depression, such as somnolence, sedation and respiratory depression [see Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>7.2 Other Antiepileptic Drugs</paragraph>
+                  <paragraph>Gabapentin is not appreciably metabolized nor does it interfere with the metabolism of commonly coadministered antiepileptic drugs [see Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>7.3 Maalox®(aluminum hydroxide, magnesium hydroxide)</paragraph>
+                  <paragraph>The mean bioavailability of gabapentin was reduced by about 20% with concomitant use of an antacid (Maalox®) containing magnesium and aluminum hydroxides. It is recommended that gabapentin be taken at least 2 hours following Maalox administration [see Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>7.4 Drug/Laboratory Test Interactions</paragraph>
+                  <paragraph>Because false positive readings were reported with the Ames N-Multistix SG® dipstick test for urinary protein when gabapentin was added to other antiepileptic drugs, the more specific sulfosalicylic acid precipitation procedure is recommended to determine the presence of urine protein.</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a3521c-27c7-8610-e063-6294a90a2378">
+               <id root="30a3521c-27c6-8610-e063-6294a90a2378"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <text>
+                  <paragraph>8.1 Pregnancy</paragraph>
+                  <paragraph>Pregnancy Exposure Registry</paragraph>
+                  <paragraph>There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to antiepileptic drugs (AEDs), such as gabapentin, during pregnancy. Encourage women who are taking gabapentin during pregnancy to enroll in the North American Antiepileptic Drug (NAAED) Pregnancy Registry by calling the toll-free number 1-888-233-2334 or visiting http://www.aedpregnancyregistry.org/.</paragraph>
+                  <paragraph>Risk Summary</paragraph>
+                  <paragraph>The totality of available data from published prospective and retrospective cohort studies pertaining to gabapentin use during pregnancy has not indicated an increased risk of major birth defects or miscarriage. There are important methodological limitations hindering interpretation of these studies [see Data].</paragraph>
+                  <paragraph> In nonclinical studies in mice, rats, and rabbits, gabapentin was developmentally toxic (increased fetal skeletal and visceral abnormalities, and increased embryofetal mortality) when administered to pregnant animals at doses similar to or lower than those used clinically [see Data].</paragraph>
+                  <paragraph>The background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively. </paragraph>
+                  <paragraph>Data</paragraph>
+                  <paragraph/>
+                  <paragraph>Human Data</paragraph>
+                  <paragraph>An observational study based on routinely collected data from administrative and medical registers in Denmark, Finland, Norway, and Sweden, compared the prevalence of major congenital malformations in approximately 1,500 pregnancies exposed to gabapentin monotherapy in the first trimester to pregnancies unexposed to antiepileptics (n=2,995,816) and pregnancies exposed to lamotrigine monotherapy in the first trimester (n=7,582). The adjusted prevalence ratios in a pooled analysis were 1.00 (95% CI: 0.80-1.24) compared to pregnancies unexposed to antiepileptics and 1.29 (95% CI: 1.00-1.67) compared to pregnancies exposed to lamotrigine monotherapy in the first trimester.</paragraph>
+                  <paragraph>Data from another observational study in the US based on Medicaid data, which compared the risk for major congenital malformations in more than 4,600 pregnancies exposed to gabapentin during the first trimester to unexposed pregnancies (n=1,753,865), estimated an adjusted relative risk of 1.07 (95% CI: 0.94-1.21).</paragraph>
+                  <paragraph>The data from these observational studies should be interpreted with caution due to the potential for exposure misclassification, outcome misclassification, and residual confounding, including by underlying disease.</paragraph>
+                  <paragraph/>
+                  <paragraph>Animal Data
+  <br/>
+When pregnant mice received oral doses of gabapentin (500, 1,000, or 3,000 mg/kg/day) during the period of organogenesis, embryofetal toxicity (increased incidences of skeletal variations) was observed at the two highest doses. The no-effect dose for embryofetal developmental toxicity in mice (500 mg/kg/day) is less than the maximum recommended human dose (MRHD) of 3,600 mg on a body surface area (mg/m2) basis.
+ </paragraph>
+                  <paragraph>In studies in which rats received oral doses of gabapentin (500 to 2,000 mg/kg/day) during pregnancy, adverse effect on offspring development (increased incidences of hydroureter and/or hydronephrosis) were observed at all doses. The lowest dose tested is similar to the MRHD on a mg/m2 basis.</paragraph>
+                  <paragraph>When pregnant rabbits were treated with gabapentin during the period of organogenesis, an increase in embryofetal mortality was observed at all doses tested (60, 300, or 1,500 mg/kg). The lowest dose tested is less than the MRHD on a mg/m2 basis.</paragraph>
+                  <paragraph>In a published study, gabapentin (400 mg/kg/day) was administered by intraperitoneal injection to neonatal mice during the first postnatal week, a period of synaptogenesis in rodents (corresponding to the last trimester of pregnancy in humans). Gabapentin caused a marked decrease in neuronal synapse formation in brains of intact mice and abnormal neuronal synapse formation in a mouse model of synaptic repair. Gabapentin has been shown in vitro to interfere with activity of the α2δ subunit of voltage-activated calcium channels, a receptor involved in neuronal synaptogenesis. The clinical significance of these findings is unknown.</paragraph>
+                  <paragraph>8.2 Lactation</paragraph>
+                  <paragraph>Risk Summary  </paragraph>
+                  <paragraph>Gabapentin is secreted in human milk following oral administration. The effects on the breastfed infant and on milk production are unknown. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for gabapentin and any potential adverse effects on the breastfed infant from gabapentin or from the underlying maternal condition.</paragraph>
+                  <paragraph>8.4 Pediatric Use</paragraph>
+                  <paragraph>Safety and effectiveness of gabapentin in the management of postherpetic neuralgia in pediatric patients have not been established.
+  <br/>
+Safety and effectiveness as adjunctive therapy in the treatment of partial seizures in pediatric patients below the age of 3 years has not been established
+ </paragraph>
+                  <paragraph>[see Clinical Studies (14.2)].</paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>The total number of patients treated with gabapentin in controlled clinical trials in patients with postherpetic neuralgia was 336, of which 102 (30%) were 65 to 74 years of age, and 168 (50%) were 75 years of age and older. There was a larger treatment effect in patients 75 years of age and older compared to younger patients who received the same dosage. Since gabapentin is almost exclusively eliminated by renal excretion, the larger treatment effect observed in patients ≥75 years may be a consequence of increased gabapentin exposure for a given dose that results from an age-related decrease in renal function. However, other factors cannot be excluded. The types and incidence of adverse reactions were similar across age groups except for peripheral edema and ataxia, which tended to increase in incidence with age.</paragraph>
+                  <paragraph>Clinical studies of gabapentin in epilepsy did not include sufficient numbers of subjects aged 65 and over to determine whether they responded differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                  <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and dose should be adjusted based on creatinine clearance values in these patients [see Dosage and Administration (2.4), Adverse Reactions (6), and Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>8.6 Renal Impairment</paragraph>
+                  <paragraph>Dosage adjustment in adult patients with compromised renal function is necessary [see Dosage and Administration (2.3) and Clinical Pharmacology (12.3)]. Pediatric patients with renal insufficiency have not been studied.</paragraph>
+                  <paragraph/>
+                  <paragraph>Dosage adjustment in patients undergoing hemodialysis is necessary [see Dosage and Administration (2.3) and Clinical Pharmacology (12.3)].</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a343cc-cac9-d417-e063-6394a90ad77b">
+               <id root="30a343cc-cac8-d417-e063-6394a90ad77b"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <text>
+                  <paragraph>9.1 Controlled Substance</paragraph>
+                  <paragraph>Gabapentin is not a scheduled drug.</paragraph>
+                  <paragraph>9.2 Abuse</paragraph>
+                  <paragraph>Abuse is the intentional, non-therapeutic use of a drug, even once, for its desirable psychological or physiological effects. Misuse is the intentional use, for therapeutic purposes, of a drug by an individual in a way other than prescribed by a health care provider or for whom it was not prescribed.</paragraph>
+                  <paragraph/>
+                  <paragraph>Gabapentin does not exhibit affinity for benzodiazepine, opioid (mu, delta or kappa), or cannabinoid 1 receptor sites. Gabapentin misuse and abuse have been reported in the postmarketing setting and published literature. Most of the individuals described in these reports had a history of polysubstance abuse. Some of these individuals were taking higher than recommended doses of gabapentin for unapproved uses. When prescribing gabapentin, carefully evaluate patients for a history of drug abuse and observe them for signs and symptoms of gabapentin misuse or abuse (e.g., self-dose escalation and drug-seeking behavior). The abuse potential of gabapentin has not been evaluated in human studies.</paragraph>
+                  <paragraph>9.3 Dependence</paragraph>
+                  <paragraph>Physical dependence is a state that develops as a result of physiological adaptation in response to repeated drug use, manifested by withdrawal signs and symptoms after abrupt discontinuation or a significant dose reduction of a drug. There are rare postmarketing reports of individuals experiencing withdrawal symptoms shortly after discontinuing higher than recommended doses of gabapentin used to treat illnesses for which the drug is not approved. Such symptoms included agitation, disorientation and confusion after suddenly discontinuing gabapentin that resolved after restarting gabapentin. The dependence potential of gabapentin has not been evaluated in human studies.</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a3521c-27cb-8610-e063-6294a90a2378">
+               <id root="30a3521c-27ca-8610-e063-6294a90a2378"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>Signs of acute toxicity in animals included ataxia, labored breathing, ptosis, sedation, hypoactivity, or excitation.</paragraph>
+                  <paragraph>Acute oral overdoses of gabapentin have been reported. Symptoms have included double vision, tremor, slurred speech, drowsiness, altered mental status, dizziness, lethargy, and diarrhea. Fatal respiratory depression has been reported with gabapentin overdose, alone and in combination with other CNS depressants.</paragraph>
+                  <paragraph>Gabapentin can be removed by hemodialysis.</paragraph>
+                  <paragraph>If overexposure occurs, call your poison control center at 1-800-222-1222.</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a358f2-b5bd-db89-e063-6394a90ad5d4">
+               <id root="30a358f2-b5bc-db89-e063-6394a90ad5d4"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>The active ingredient in gabapentin tablets is gabapentin USP, which has the chemical name 1-(aminomethyl)cyclohexaneacetic acid. The molecular formula of gabapentin is C9H17NO2 and the molecular weight is 171.24. The structural formula of gabapentin is:</paragraph>
+                  <paragraph>
+                     <br/>
+[gabapentin-structure]
+ </paragraph>
+                  <paragraph>Gabapentin is a white to off-white crystalline solid with a pKa1 of 3.7 and a pKa2 of 10.7. It is freely soluble in water and both basic and acidic aqueous solutions. The log of the partition coefficient (n-octanol/0.05M phosphate buffer) at pH 7.4 is –1.25.</paragraph>
+                  <paragraph/>
+                  <paragraph>Each gabapentin tablet, USP contains 600 mg or 800 mg of gabapentin and the following inactive ingredients: Maize Starch, Poloxamer 407, Copovidone, Ethanol absolute, Hydroxy Propyl Cellulose, Magnesium Stearate, Hydroxy Propyl cellulose, Talc and Purified Water.</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a35aab-21b3-796f-e063-6294a90afbe9">
+               <id root="30a35aab-21b2-796f-e063-6294a90afbe9"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>12.1 Mechanism of Action</paragraph>
+                  <paragraph>The precise mechanisms by which gabapentin produces its analgesic and antiepileptic actions are unknown.
+  <br/>
+                     <br/>
+Gabapentin is structurally related to the neurotransmitter gamma-aminobutyric acid (GABA) but has no effect on GABA binding, uptake, or degradation. In vitro studies have shown that gabapentin binds with high-affinity to the α2δ subunit of voltage-activated calcium channels; however, the relationship of this binding to the therapeutic effects of gabapentin is unknown.
+ </paragraph>
+                  <paragraph>12.3 Pharmacokinetics</paragraph>
+                  <paragraph>All pharmacological actions following gabapentin administration are due to the activity of the parent compound; gabapentin is not appreciably metabolized in humans.</paragraph>
+                  <paragraph/>
+                  <paragraph>Oral Bioavailability</paragraph>
+                  <paragraph>Gabapentin bioavailability is not dose proportional; i.e., as dose is increased, bioavailability decreases. Bioavailability of gabapentin is approximately 60%, 47%, 34%, 33%, and 27% following 900, 1,200, 2,400, 3,600, and 4,800 mg/day given in 3 divided doses, respectively. Food has only a slight effect on the rate and extent of absorption of gabapentin (14% increase in AUC and Cmax).</paragraph>
+                  <paragraph/>
+                  <paragraph>Distribution</paragraph>
+                  <paragraph>Less than 3% of gabapentin circulates bound to plasma protein. The apparent volume of distribution of gabapentin after 150 mg intravenous administration is 58±6 L (mean ±SD). In patients with epilepsy, steady-state predose (Cmin) concentrations of gabapentin in cerebrospinal fluid were approximately 20% of the corresponding plasma concentrations.</paragraph>
+                  <paragraph>Elimination</paragraph>
+                  <paragraph>Gabapentin is eliminated from the systemic circulation by renal excretion as unchanged drug. Gabapentin is not appreciably metabolized in humans.</paragraph>
+                  <paragraph/>
+                  <paragraph>Gabapentin elimination half-life is 5 to 7 hours and is unaltered by dose or following multiple dosing. Gabapentin elimination rate constant, plasma clearance, and renal clearance are directly proportional to creatinine clearance. In elderly patients, and in patients with impaired renal function, gabapentin plasma clearance is reduced. Gabapentin can be removed from plasma by hemodialysis.</paragraph>
+                  <paragraph>Specific Populations
+  <br/>
+Age
+  <br/>
+The effect of age was studied in subjects 20 to 80 years of age. Apparent oral clearance (CL/F) of gabapentin decreased as age increased, from about 225 mL/min in those under 30 years of age to about 125 mL/min in those over 70 years of age. Renal clearance (CLr) and CLr adjusted for body surface area also declined with age; however, the decline in the renal clearance of gabapentin with age can largely be explained by the decline in renal function. [see Dosage and Administration (2.4) and Use in Specific Populations (8.5)].
+  <br/>
+Gender
+  <br/>
+Although no formal study has been conducted to compare the pharmacokinetics of gabapentin in men and women, it appears that the pharmacokinetic parameters for males and females are similar and there are no significant gender differences.
+  <br/>
+Race
+  <br/>
+Pharmacokinetic differences due to race have not been studied. Because gabapentin is primarily renally excreted and there are no important racial differences in creatinine clearance, pharmacokinetic differences due to race are not expected.
+  <br/>
+                     <br/>
+Pediatric
+  <br/>
+Gabapentin pharmacokinetics were determined in 48 pediatric subjects between the ages of 1 month and 12 years following a dose of approximately 10 mg/kg. Peak plasma concentrations were similar across the entire age group and occurred 2 to 3 hours postdose. In general, pediatric subjects between 1 month and &lt;5 years of age achieved approximately 30% lower exposure (AUC) than that observed in those 5 years of age and older. Accordingly, oral clearance normalized per body weight was higher in the younger children. Apparent oral clearance of gabapentin was directly proportional to creatinine clearance. Gabapentin elimination half-life averaged 4.7 hours and was similar across the age groups studied.
+  <br/>
+                     <br/>
+A population pharmacokinetic analysis was performed in 253 pediatric subjects between 1 month and 13 years of age. Patients received 10 to 65 mg/kg/day given three times a day. Apparent oral clearance (CL/F) was directly proportional to creatinine clearance and this relationship was similar following a single dose and at steady-state. Higher oral clearance values were observed in children &lt;5 years of age compared to those observed in children 5 years of age and older, when normalized per body weight. The clearance was highly variable in infants &lt;1 year of age. The normalized CL/F values observed in pediatric patients 5 years of age and older were consistent with values observed in adults after a single dose. The oral volume of distribution normalized per body weight was constant across the age range.
+  <br/>
+                     <br/>
+These pharmacokinetic data indicate that the effective daily dose in pediatric patients with epilepsy ages 3 and 4 years should be 40 mg/kg/day to achieve average plasma concentrations similar to those achieved in patients 5 years of age and older receiving gabapentin at 30 mg/kg/day [see Dosage and Administration (2.2)].
+  <br/>
+                     <br/>
+Adult Patients with Renal Impairment
+  <br/>
+Subjects (N=60) with renal impairment (mean creatinine clearance ranging from 13 to 114 mL/min) were administered single 400 mg oral doses of gabapentin. The mean gabapentin half-life ranged from about 6.5 hours (patients with creatinine clearance &gt;60 mL/min) to 52 hours (creatinine clearance &lt;30 mL/min) and gabapentin renal clearance from about 90 mL/min (&gt;60 mL/min group) to about 10 mL/min (&lt;30 mL/min). Mean plasma clearance (CL/F) decreased from approximately 190 mL/min to 20 mL/min [see Dosage and Administration (2.3) and Use in Specific Populations (8.6)]. Pediatric patients with renal insufficiency have not been studied.
+  <br/>
+                     <br/>
+Hemodialysis
+  <br/>
+In a study in anuric adult subjects (N=11), the apparent elimination half-life of gabapentin on nondialysis days was about 132 hours; during dialysis the apparent half-life of gabapentin was reduced to 3.8 hours. Hemodialysis thus has a significant effect on gabapentin elimination in anuric subjects [see Dosage and Administration (2.3) and Use in Specific Populations (8.6)].
+  <br/>
+                     <br/>
+Hepatic Disease
+  <br/>
+Because gabapentin is not metabolized, no study was performed in patients with hepatic impairment.
+  <br/>
+Drug Interactions
+ </paragraph>
+                  <paragraph>•  In Vitro Studies</paragraph>
+                  <paragraph>In vitro studies were conducted to investigate the potential of gabapentin to inhibit the major cytochrome P450 enzymes (CYP1A2, CYP2A6, CYP2C9, CYP2C19, CYP2D6, CYP2E1, and CYP3A4) that mediate drug and xenobiotic metabolism using isoform selective marker substrates and human liver microsomal preparations. Only at the highest concentration tested (171 mcg/mL; 1 mM) was a slight degree of inhibition (14% to 30%) of isoform CYP2A6 observed. No inhibition of any of the other isoforms tested was observed at gabapentin concentrations up to 171 mcg/mL (approximately 15 times the Cmax at 3,600 mg/day).
+  <br/>
+                     <br/>
+•  In Vivo Studies
+  <br/>
+The drug interaction data described in this section were obtained from studies involving healthy adults and adult patients with epilepsy.
+  <br/>
+                     <br/>
+Phenytoin
+  <br/>
+In a single (400 mg) and multiple dose (400 mg three times a day) study of gabapentin in epileptic patients (N=8) maintained on phenytoin monotherapy for at least 2 months, gabapentin had no effect on the steady-state trough plasma concentrations of phenytoin and phenytoin had no effect on gabapentin pharmacokinetics.
+ </paragraph>
+                  <paragraph>Carbamazepine</paragraph>
+                  <paragraph>Steady-state trough plasma carbamazepine and carbamazepine 10, 11 epoxide concentrations were not affected by concomitant gabapentin (400 mg three times a day; N=12) administration. Likewise, gabapentin pharmacokinetics were unaltered by carbamazepine administration.</paragraph>
+                  <paragraph/>
+                  <paragraph>Valproic Acid</paragraph>
+                  <paragraph>The mean steady-state trough serum valproic acid concentrations prior to and during concomitant gabapentin administration (400 mg three times a day; N=17) were not different and neither were gabapentin pharmacokinetic parameters affected by valproic acid.</paragraph>
+                  <paragraph/>
+                  <paragraph>Phenobarbital</paragraph>
+                  <paragraph>Estimates of steady-state pharmacokinetic parameters for phenobarbital or gabapentin (300 mg three times a day; N=12) are identical whether the drugs are administered alone or together.</paragraph>
+                  <paragraph/>
+                  <paragraph>Naproxen</paragraph>
+                  <paragraph>Coadministration (N=18) of naproxen sodium capsules (250 mg) with gabapentin (125 mg) appears to increase the amount of gabapentin absorbed by 12% to 15%. Gabapentin had no effect on naproxen pharmacokinetic parameters. These doses are lower than the therapeutic doses for both drugs. The magnitude of interaction within the recommended dose ranges of either drug is not known.</paragraph>
+                  <paragraph/>
+                  <paragraph>Hydrocodone</paragraph>
+                  <paragraph>Coadministration of gabapentin (125 to 500 mg; N=48) decreases hydrocodone (10 mg; N=50) Cmax and AUC values in a dose-dependent manner relative to administration of hydrocodone alone; Cmax and AUC values are 3% to 4% lower, respectively, after administration of 125 mg gabapentin and 21% to 22% lower, respectively, after administration of 500 mg gabapentin. The mechanism for this interaction is unknown. Hydrocodone increases gabapentin AUC values by 14%. The magnitude of interaction at other doses is not known.</paragraph>
+                  <paragraph/>
+                  <paragraph>Morphine </paragraph>
+                  <paragraph>A literature article reported that when a 60 mg controlled-release morphine capsule was administered 2 hours prior to a 600 mg gabapentin capsule (N=12), mean gabapentin AUC increased by 44% compared to gabapentin administered without morphine. Morphine pharmacokinetic parameter values were not affected by administration of gabapentin 2 hours after morphine. The magnitude of interaction at other doses is not known.</paragraph>
+                  <paragraph/>
+                  <paragraph>Cimetidine</paragraph>
+                  <paragraph>In the presence of cimetidine at 300 mg four times a day (N=12), the mean apparent oral clearance of gabapentin fell by 14% and creatinine clearance fell by 10%. Thus, cimetidine appeared to alter the renal excretion of both gabapentin and creatinine, an endogenous marker of renal function. This decrease in excretion of gabapentin by cimetidine is not expected to be of clinical importance. The effect of gabapentin on cimetidine was not evaluated.</paragraph>
+                  <paragraph/>
+                  <paragraph>Oral Contraceptive</paragraph>
+                  <paragraph>Based on AUC and half-life, multiple-dose pharmacokinetic profiles of norethindrone and ethinyl estradiol following administration of tablets containing 2.5 mg of norethindrone acetate and 50 mcg of ethinyl estradiol were similar with and without coadministration of gabapentin (400 mg three times a day; N=13). The Cmax of norethindrone was 13% higher when it was coadministered with gabapentin; this interaction is not expected to be of clinical importance.</paragraph>
+                  <paragraph/>
+                  <paragraph>Antacid (Maalox®) (aluminum hydroxide, magnesium hydroxide)</paragraph>
+                  <paragraph>Antacid (Maalox®) containing magnesium and aluminum hydroxides reduced the mean bioavailability of gabapentin (N=16) by about 20%. This decrease in bioavailability was about 10% when gabapentin was administered 2 hours after Maalox.</paragraph>
+                  <paragraph>Probenecid</paragraph>
+                  <paragraph>Probenecid is a blocker of renal tubular secretion. Gabapentin pharmacokinetic parameters without and with probenecid were comparable. This indicates that gabapentin does not undergo renal tubular secretion by the pathway that is blocked by probenecid.</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a35c3e-d23d-8e4b-e063-6294a90a1ffe">
+               <id root="30a35c3e-d23c-8e4b-e063-6294a90a1ffe"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <text>
+                  <paragraph>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>Carcinogenesis
+  <br/>
+Gabapentin was administered orally to mice and rats in 2-year carcinogenicity studies. No evidence of drug-related carcinogenicity was observed in mice treated at doses up to 2,000 mg/kg/day. At 2,000 mg/kg, the plasma gabapentin exposure (AUC) in mice was approximately 2 times that in humans at the MRHD of 3,600 mg/day. In rats, increases in the incidence of pancreatic acinar cell adenoma and carcinoma were found in male rats receiving the highest dose (2,000 mg/kg), but not at doses of 250 or 1,000 mg/kg/day. At 1,000 mg/kg, the plasma gabapentin exposure (AUC) in rats was approximately 5 times that in humans at the MRHD.
+ </paragraph>
+                  <paragraph>Studies designed to investigate the mechanism of gabapentin-induced pancreatic carcinogenesis in rats indicate that gabapentin stimulates DNA synthesis in rat pancreatic acinar cells in vitro and, thus, may be acting as a tumor promoter by enhancing mitogenic activity. It is not known whether gabapentin has the ability to increase cell proliferation in other cell types or in other species, including humans.</paragraph>
+                  <paragraph>Mutagenesis
+  <br/>
+Gabapentin did not demonstrate mutagenic or genotoxic potential in in vitro (Ames test, HGPRT forward mutation assay in Chinese hamster lung cells) and in vivo (chromosomal aberration and micronucleus test in Chinese hamster bone marrow, mouse micronucleus, unscheduled DNA synthesis in rat hepatocytes) assays.
+ </paragraph>
+                  <paragraph>Impairment of Fertility
+  <br/>
+No adverse effects on fertility or reproduction were observed in rats at doses up to 2,000 mg/kg. At 2,000 mg/kg, the plasma gabapentin exposure (AUC) in rats is approximately 8 times that in humans at the MRHD.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a3521c-27cd-8610-e063-6294a90a2378">
+               <id root="30a3521c-27cc-8610-e063-6294a90a2378"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <text>
+                  <paragraph>14.1 Postherpetic Neuralgia</paragraph>
+                  <paragraph>Gabapentin was evaluated for the management of postherpetic neuralgia (PHN) in two randomized, double-blind, placebo-controlled, multicenter studies. The intent-to-treat (ITT) population consisted of a total of 563 patients with pain for more than 3 months after healing of the herpes zoster skin rash (Table 6).</paragraph>
+                  <paragraph>TABLE 6. Controlled PHN Studies: Duration, Dosages, and Number of Patients</paragraph>
+                  <paragraph>Study  Study Duration  Gabapentin (mg/day)a Target Dose  Patients Receiving Gabapentin   Patients Receiving Placebo 
+  <br/>
+ 1  8 weeks  3,600  113  116
+  <br/>
+ 2  7 weeks  1,800, 2,400  223  111
+  <br/>
+ Total  336  227
+ </paragraph>
+                  <paragraph>aGiven in 3 divided doses (TID)
+  <br/>
+Each study included a 7- or 8-week double-blind phase (3 or 4 weeks of titration and 4 weeks of fixed dose). Patients initiated treatment with titration to a maximum of 900 mg/day gabapentin over 3 days. Dosages were then to be titrated in 600 to 1,200 mg/day increments at 3- to 7-day intervals to the target dose over 3 to 4 weeks. Patients recorded their pain in a daily diary using an 11-point numeric pain rating scale ranging from 0 (no pain) to 10 (worst possible pain). A mean pain score during baseline of at least 4 was required for randomization. Analyses were conducted using the ITT population (all randomized patients who received at least one dose of study medication).
+ </paragraph>
+                  <paragraph>Both studies demonstrated efficacy compared to placebo at all doses tested.</paragraph>
+                  <paragraph>The reduction in weekly mean pain scores was seen by Week 1 in both studies, and were maintained to the end of treatment. Comparable treatment effects were observed in all active treatment arms. Pharmacokinetic/pharmacodynamic modeling provided confirmatory evidence of efficacy across all doses. Figures 1 and 2 show pain intensity scores over time for Studies 1 and 2.</paragraph>
+                  <paragraph/>
+                  <paragraph>Figure 1. Weekly Mean Pain Scores (Observed Cases in ITT Population): Study 1</paragraph>
+                  <paragraph>
+                     <br/>
+                     <br/>
+[gabapentin-fig1]
+ </paragraph>
+                  <paragraph>Figure 2. Weekly Mean Pain Scores (Observed Cases in ITT Population): Study 2</paragraph>
+                  <paragraph>
+                     <br/>
+                     <br/>
+[gabapentin-fig2]
+ </paragraph>
+                  <paragraph>The proportion of responders (those patients reporting at least 50% improvement in endpoint pain score compared to baseline) was calculated for each study (Figure 3).</paragraph>
+                  <paragraph/>
+                  <paragraph>Figure 3. Proportion of Responders (patients with ≥ 50% reduction in pain score) at Endpoint: Controlled PHN Studies</paragraph>
+                  <paragraph>
+                     <br/>
+                     <br/>
+[gabapentin-fig3]
+ </paragraph>
+                  <paragraph>14.2 Epilepsy for Partial Onset Seizures (Adjunctive Therapy)</paragraph>
+                  <paragraph>The effectiveness of gabapentin as adjunctive therapy (added to other antiepileptic drugs) was established in multicenter placebo-controlled, double-blind, parallel-group clinical trials in adult and pediatric patients (3 years and older) with refractory partial seizures.</paragraph>
+                  <paragraph/>
+                  <paragraph>Evidence of effectiveness was obtained in three trials conducted in 705 patients (age 12 years and above) and one trial conducted in 247 pediatric patients (3 to 12 years of age). The patients enrolled had a history of at least 4 partial seizures per month in spite of receiving one or more antiepileptic drugs at therapeutic levels and were observed on their established antiepileptic drug regimen during a 12-week baseline period (6 weeks in the study of pediatric patients). In patients continuing to have at least 2 (or 4 in some studies) seizures per month, gabapentin or placebo was then added on to the existing therapy during a 12-week treatment period. Effectiveness was assessed primarily on the basis of the percent of patients with a 50% or greater reduction in seizure frequency from baseline to treatment (the “responder rate”) and a derived measure called response ratio, a measure of change defined as (T - B)/(T + B), in which B is the patient’s baseline seizure frequency and T is the patient’s seizure frequency during treatment. Response ratio is distributed within the range -1 to +1. A zero value indicates no change while complete elimination of seizures would give a value of -1; increased seizure rates would give positive values. A response ratio of -0.33 corresponds to a 50% reduction in seizure frequency. The results given below are for all partial seizures in the intent-to-treat (all patients who received any doses of treatment) population in each study, unless otherwise indicated.
+  <br/>
+                  </paragraph>
+                  <paragraph>One study compared gabapentin 1,200 mg/day, in three divided doses with placebo. Responder rate was 23% (14/61) in the gabapentin group and 9% (6/66) in the placebo group; the difference between groups was statistically significant. Response ratio was also better in the gabapentin group (-0.199) than in the placebo group (-0.044), a difference that also achieved statistical significance.</paragraph>
+                  <paragraph>
+                     <br/>
+A second study compared primarily gabapentin 1,200 mg/day, in three divided doses (N=101), with placebo (N=98). Additional smaller gabapentin dosage groups (600 mg/day, N=53; 1,800 mg/day, N=54) were also studied for information regarding dose response. Responder rate was higher in the gabapentin 1,200 mg/day group (16%) than in the placebo group (8%), but the difference was not statistically significant. The responder rate at 600 mg (17%) was also not significantly higher than in the placebo, but the responder rate in the 1,800 mg group (26%) was statistically significantly superior to the placebo rate. Response ratio was better in the gabapentin 1,200 mg/day group (-0.103) than in the placebo group (-0.022); but this difference was also not statistically significant (p = 0.224). A better response was seen in the gabapentin 600 mg/day group (-0.105) and 1,800 mg/day group (-0.222) than in the 1,200 mg/day group, with the 1,800 mg/day group achieving statistical significance compared to the placebo group.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>A third study compared gabapentin 900 mg/day, in three divided doses (N=111), and placebo (N=109). An additional gabapentin 1,200 mg/day dosage group (N=52) provided dose-response data. A statistically significant difference in responder rate was seen in the gabapentin 900 mg/day group (22%) compared to that in the placebo group (10%). Response ratio was also statistically significantly superior in the gabapentin 900 mg/day group (-0.119) compared to that in the placebo group (-0.027), as was response ratio in 1,200 mg/day gabapentin (-0.184) compared to placebo.</paragraph>
+                  <paragraph/>
+                  <paragraph>Analyses were also performed in each study to examine the effect of gabapentin on preventing secondarily generalized tonic-clonic seizures. Patients who experienced a secondarily generalized tonic-clonic seizure in either the baseline or in the treatment period in all three placebo-controlled studies were included in these analyses. There were several response ratio comparisons that showed a statistically significant advantage for gabapentin compared to placebo and favorable trends for almost all comparisons.</paragraph>
+                  <paragraph/>
+                  <paragraph>Analysis of responder rate using combined data from all three studies and all doses (N=162, gabapentin; N=89, placebo) also showed a significant advantage for gabapentin over placebo in reducing the frequency of secondarily generalized tonic-clonic seizures.</paragraph>
+                  <paragraph/>
+                  <paragraph>In two of the three controlled studies, more than one dose of gabapentin was used. Within each study, the results did not show a consistently increased response to dose. However, looking across studies, a trend toward increasing efficacy with increasing dose is evident (see Figure 4).</paragraph>
+                  <paragraph>Figure 4. Responder Rate in Patients Receiving Gabapentin Expressed as a Difference from Placebo by</paragraph>
+                  <paragraph>Dose and Study: Adjunctive Therapy Studies in Patients ≥12 Years of Age with Partial Seizures</paragraph>
+                  <paragraph>
+                     <br/>
+                     <br/>
+[gabapentin-fig4]
+  <br/>
+                  </paragraph>
+                  <paragraph>In the figure, treatment effect magnitude, measured on the Y axis in terms of the difference in the proportion of gabapentin and placebo-assigned patients attaining a 50% or greater reduction in seizure frequency from baseline, is plotted against the daily dose of gabapentin administered (X axis).</paragraph>
+                  <paragraph/>
+                  <paragraph>Although no formal analysis by gender has been performed, estimates of response (Response Ratio) derived from clinical trials (398 men, 307 women) indicate no important gender differences exist. There was no consistent pattern indicating that age had any effect on the response to gabapentin . There were insufficient numbers of patients of races other than Caucasian to permit a comparison of efficacy among racial groups.</paragraph>
+                  <paragraph/>
+                  <paragraph>A fourth study in pediatric patients age 3 to 12 years compared 25 to 35 mg/kg/day gabapentin (N=118) with placebo (N=127). For all partial seizures in the intent-to-treat population, the response ratio was statistically significantly better for the gabapentin group (-0.146) than for the placebo group (-0.079). For the same population, the responder rate for gabapentin (21%) was not significantly different from placebo (18%).</paragraph>
+                  <paragraph/>
+                  <paragraph>A study in pediatric patients age 1 month to 3 years compared 40 mg/kg/day gabapentin (N=38) with placebo (N=38) in patients who were receiving at least one marketed antiepileptic drug and had at least one partial seizure during the screening period (within 2 weeks prior to baseline). Patients had up to 48 hours of baseline and up to 72 hours of double-blind video EEG monitoring to record and count the occurrence of seizures. There were no statistically significant differences between treatments in either the response ratio or responder rate.</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a34fc3-dba5-df44-e063-6394a90ad0da">
+               <id root="30a34fc3-dba4-df44-e063-6394a90ad0da"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Gabapentin tablets, USP are supplied as follows:</paragraph>
+                  <paragraph/>
+                  <paragraph>600 mg tablets:</paragraph>
+                  <paragraph>White to off white elliptical film coated tablets with "G/6" debossed on one side and scored on both sides, available in:</paragraph>
+                  <paragraph>Bottles of 100: NDC 67877-428-01</paragraph>
+                  <paragraph>Bottles of 500: NDC 67877-428-05</paragraph>
+                  <paragraph>Bottles of 1000: NDC 67877-428-10</paragraph>
+                  <paragraph>One Carton of 100 (10 x 10 Unit-dose Tablets): NDC 67877-428-38</paragraph>
+                  <paragraph>800 mg tablets:</paragraph>
+                  <paragraph>White to off white elliptical film coated tablets with "G/8" debossed on one side and scored on both sides, available in:</paragraph>
+                  <paragraph>Bottles of 120: NDC 72189-619-72</paragraph>
+                  <paragraph>Bottles of 500: NDC 67877-429-05</paragraph>
+                  <paragraph>Bottles of 1000: NDC 67877-429-10</paragraph>
+                  <paragraph>One Carton of 100 (10 x 10 Unit-dose Tablets): NDC 67877-429-38</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a36630-36d0-9dd5-e063-6294a90adbc0">
+               <id root="30a36630-36cf-9dd5-e063-6294a90adbc0"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Store at 20º to 25ºC (68º to 77ºF); excursions permitted to 15° to 30°C (59° to 86°F) [See USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a36630-36d4-9dd5-e063-6294a90adbc0">
+               <id root="30a36630-36d3-9dd5-e063-6294a90adbc0"/>
+               <code code="88436-1" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT COUNSELING INFORMATION"/>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Medication Guide).</paragraph>
+                  <paragraph/>
+                  <paragraph>Administration Information Inform patients that gabapentin is taken orally with or without food. Inform patients that, should they divide the scored 600 mg or 800 mg tablet in order to administer a half-tablet, they should take the unused half-tablet as the next dose. Advise patients to discard half-tablets not used within 28 days of dividing the scored tablet. </paragraph>
+                  <paragraph>Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)/Multiorgan Hypersensitivity</paragraph>
+                  <paragraph>Prior to initiation of treatment with gabapentin, instruct patients that a rash or other signs or symptoms of hypersensitivity (such as fever or lymphadenopathy) may herald a serious medical event and that the patient should report any such occurrence to a physician immediately [see Warnings and Precautions (5.1)].</paragraph>
+                  <paragraph>Anaphylaxis and Angioedema Advise patients to discontinue gabapentin and seek medical care if they develop signs or symptoms of anaphylaxis or angioedema [see Warnings and Precautions (5.2)].</paragraph>
+                  <paragraph>Dizziness and Somnolence and Effects on Driving and Operating Heavy Machinery</paragraph>
+                  <paragraph>Advise patients that gabapentin may cause dizziness, somnolence, and other symptoms and signs of CNS depression. Other drugs with sedative properties may increase these symptoms. Accordingly, although patients’ ability to determine their level of impairment can be unreliable, advise them neither to drive a car nor to operate other complex machinery until they have gained sufficient experience on gabapentin to gauge whether or not it affects their mental and/or motor performance adversely. Inform patients that it is not known how long this effect lasts [see Warnings and Precautions (5.3) and Warnings and Precautions (5.4)].</paragraph>
+                  <paragraph>Suicidal Thinking and Behavior </paragraph>
+                  <paragraph>Counsel the patient, their caregivers, and families that AEDs, including gabapentin, may increase the risk of suicidal thoughts and behavior. Advise patients of the need to be alert for the emergence or worsening of symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal thoughts, behavior, or thoughts about self-harm. Instruct patients to report behaviors of concern immediately to healthcare providers [see Warnings and Precautions (5.6)].</paragraph>
+                  <paragraph>Respiratory Depression</paragraph>
+                  <paragraph>Inform patients about the risk of respiratory depression. Include information that the risk is greatest for those using concomitant CNS depressants (such as opioid analgesics) or those with underlying respiratory impairment. Teach patients how to recognize respiratory depression and advise them to seek medical attention immediately if it occurs [see Warnings and Precautions (5.7)].</paragraph>
+                  <paragraph/>
+                  <paragraph>Use in Pregnancy </paragraph>
+                  <paragraph>Instruct patients to notify their physician if they become pregnant or intend to become pregnant during therapy, and to notify their physician if they are breast feeding or intend to breast feed during therapy [see Use in Specific Populations (8.1) and (8.2)].</paragraph>
+                  <paragraph/>
+                  <paragraph>Encourage patients to enroll in the NAAED Pregnancy Registry if they become pregnant. This registry is collecting information about the safety of antiepileptic drugs during pregnancy. To enroll, patients can call the toll-free number 1-888-233-2334 [see Use in Specific Populations (8.1)].</paragraph>
+                  <paragraph/>
+                  <paragraph>For Medication Guide, please visit:
+  <br/>
+http://www.ascendlaboratories.com/mg/gabapentintab.pdf
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>Alkem Laboratories Ltd.,</paragraph>
+                  <paragraph>INDIA.</paragraph>
+                  <paragraph/>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>Ascend Laboratories, LLC</paragraph>
+                  <paragraph>Parsippany, NJ 07054</paragraph>
+                  <paragraph/>
+                  <paragraph>Trademarks are the property of their respective owners.</paragraph>
+                  <paragraph>Revised: September, 2024</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a36630-36d6-9dd5-e063-6294a90adbc0">
+               <id root="30a36630-36d5-9dd5-e063-6294a90adbc0"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <paragraph>Gabapentin Tablets, USP</paragraph>
+                  <paragraph>(GA ba PEN tin)</paragraph>
+                  <paragraph/>
+                  <paragraph>What is the most important information I should know about gabapentin?</paragraph>
+                  <paragraph>Do not stop taking gabapentin without first talking to your healthcare provider.</paragraph>
+                  <paragraph>Stopping gabapentin suddenly can cause serious problems.</paragraph>
+                  <paragraph/>
+                  <paragraph>Gabapentin can cause serious side effects including:</paragraph>
+                  <paragraph>1.         Suicidal Thoughts. Like other antiepileptic drugs, gabapentin may cause suicidal thoughts or actions in a very small number of people, about 1 in 500.</paragraph>
+                  <paragraph>Call a healthcare provider right away if you have any of these symptoms, especially if they are new, worse, or worry you:</paragraph>
+                  <paragraph>thoughts about suicide or dying
+  <br/>
+attempts to commit suicide
+  <br/>
+new or worse depression
+  <br/>
+new or worse anxiety
+  <br/>
+feeling agitated or restless
+  <br/>
+panic attacks
+  <br/>
+trouble sleeping (insomnia)
+  <br/>
+new or worse irritability
+  <br/>
+acting aggressive, being angry, or violent
+  <br/>
+acting on dangerous impulses
+  <br/>
+an extreme increase in activity and talking (mania)
+  <br/>
+other unusual changes in behavior or mood
+ </paragraph>
+                  <paragraph>How can I watch for early symptoms of suicidal thoughts and actions?</paragraph>
+                  <paragraph>Pay attention to any changes, especially sudden changes, in mood, behaviors, thoughts, or feelings.
+  <br/>
+Keep all follow-up visits with your healthcare provider as scheduled.
+ </paragraph>
+                  <paragraph>Call your healthcare provider between visits as needed, especially if you are worried about symptoms.</paragraph>
+                  <paragraph>Do not stop taking gabapentin without first talking to a healthcare provider.</paragraph>
+                  <paragraph>Stopping gabapentin suddenly can cause serious problems. Stopping a seizure medicine suddenly in a person who has epilepsy can cause seizures that will not stop (status epilepticus).
+  <br/>
+Suicidal thoughts or actions can be caused by things other than medicines. If you have suicidal thoughts or actions, your healthcare provider may check for other causes.
+ </paragraph>
+                  <paragraph>2.  Changes in behavior and thinking. Using gabapentin in children 3 to 12 years of age can cause emotional changes, aggressive behavior, problems with concentration, changes in school performance, restlessness, and hyperactivity.      </paragraph>
+                  <paragraph>3.  Gabapentin may cause serious or life-threatening allergic reactions that may affect your skin or other parts of your body such as your liver or blood cells.  This may cause you to be hospitalized or to stop gabapentin. You may or may not have a rash with an allergic reaction caused by gabapentin. Call a healthcare provider right away if you have any of the following symptoms:</paragraph>
+                  <paragraph>skin rash
+  <br/>
+hives
+  <br/>
+difficulty breathing
+  <br/>
+fever
+  <br/>
+swollen glands that do not go away
+  <br/>
+swelling of your face, lips, throat, or tongue
+  <br/>
+yellowing of your skin or of the whites of the eyes
+  <br/>
+unusual bruising or bleeding
+  <br/>
+severe fatigue or weakness
+  <br/>
+unexpected muscle pain
+  <br/>
+frequent infections
+ </paragraph>
+                  <paragraph>These symptoms may be the first signs of a serious reaction. A healthcare provider should examine you to decide if you should continue taking gabapentin.</paragraph>
+                  <paragraph>4. Serious breathing problems. Serious breathing problems can happen when gabapentin is taken with other medicines (such as opioid pain medicines) that can cause severe sleepiness or decreased awareness, or when it is taken by someone who already has breathing problems. Call your healthcare provider or get medical help right away if you have any of the following symptoms:</paragraph>
+                  <paragraph>feel short of breath</paragraph>
+                  <paragraph>feel very tired</paragraph>
+                  <paragraph>dizziness</paragraph>
+                  <paragraph>breathing slower than normal</paragraph>
+                  <paragraph>confusion</paragraph>
+                  <paragraph>headache</paragraph>
+                  <paragraph>Be sure that your caregiver or family members know which symptoms may be serious so they can call your healthcare provider or get medical help if you are unable to seek treatment on your own.</paragraph>
+                  <paragraph>Your healthcare provider may lower your dose or stop your treatment with gabapentin if you have serious breathing problems.</paragraph>
+                  <paragraph>What is gabapentin?</paragraph>
+                  <paragraph>Gabapentin is a prescription medicine used to treat:</paragraph>
+                  <paragraph>pain from damaged nerves (postherpetic pain) that follows healing of shingles (a painful rash that comes after a herpes zoster infection) in adults.
+  <br/>
+partial seizures when taken together with other medicines in adults and children 3 years of age and older with seizures.
+ </paragraph>
+                  <paragraph>It is not known if gabapentin is safe and effective to treat:</paragraph>
+                  <paragraph>children with pain from damaged nerves from a painful rash caused by the chicken pox virus.
+  <br/>
+partial seizures in children under 3 years of age.
+ </paragraph>
+                  <paragraph>Do not take gabapentin if you:</paragraph>
+                  <paragraph>are allergic to gabapentin or any of the other ingredients in gabapentin. See the end of this Medication Guide for a complete list of ingredients in gabapentin.</paragraph>
+                  <paragraph>Before taking gabapentin, tell your healthcare provider about all of your medical conditions including if you:</paragraph>
+                  <paragraph>have or have had kidney problems or are on hemodialysis.
+  <br/>
+have or have had depression, mood problems, or suicidal thoughts or behavior.
+  <br/>
+have a history of drug abuse.
+  <br/>
+have diabetes.
+  <br/>
+have breathing problems.
+  <br/>
+are pregnant or plan to become pregnant. It is not known if gabapentin can harm your unborn baby. Tell your healthcare provider right away if you become pregnant while taking gabapentin. You and your healthcare provider will decide if you should take gabapentin while you are pregnant.   
+ </paragraph>
+                  <paragraph>Pregnancy Registry: If you become pregnant while taking gabapentin, talk to your healthcare provider about registering with the North American Antiepileptic Drug (NAAED) Pregnancy Registry. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. You can enroll in this registry by calling 1-888-233-2334 or visiting http://www.aedpregnancyregistry.org/.</paragraph>
+                  <paragraph>are breastfeeding or plan to breastfeed. Gabapentin can pass into breast milk. You and your healthcare provider should decide how you will feed your baby while you take gabapentin.</paragraph>
+                  <paragraph>Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements.</paragraph>
+                  <paragraph>Especially tell your healthcare provider if you take:</paragraph>
+                  <paragraph> any opioid pain medicine such as morphine, hydrocodone, oxycodone, or buprenorphine.
+  <br/>
+any medicines for anxiety (such as lorazepam) or insomnia (such as zolpidem), or any medicines that make you sleepy. You may have a higher chance for dizziness, sleepiness, or breathing problems if these medicines are taken with gabapentin.
+ </paragraph>
+                  <paragraph>Taking gabapentin with certain other medicines can cause side effects or affect how well they work. Do not start or stop other medicines without talking to your healthcare provider.</paragraph>
+                  <paragraph>Know the medicines you take. Keep a list of them and show it to your healthcare provider and pharmacist when you get a new medicine.</paragraph>
+                  <paragraph>How should I take gabapentin?</paragraph>
+                  <paragraph>Take gabapentin exactly as prescribed. Your healthcare provider will tell you how much gabapentin to take.
+  <br/>
+Do not change your dose of gabapentin without talking to your healthcare provider.
+  <br/>
+Gabapentin can be taken with or without food.
+  <br/>
+If you take gabapentin tablets and break a tablet in half, the unused half of the tablet should be taken at your next scheduled dose. Half tablets not used within 28 days of breaking should be thrown away.
+  <br/>
+If you take an antacid containing aluminum and magnesium, such as Maalox, Mylanta, Gelusil, Gaviscon, or Di-Gel, you should wait at least 2 hours before taking your next dose of gabapentin.
+  <br/>
+In case of overdose, get medical help or contact a live Poison Center expert right away at 1-800-222-1222.Advice is also available online at poisonhelp. org.  
+ </paragraph>
+                  <paragraph>What should I avoid while taking gabapentin?</paragraph>
+                  <paragraph>Do not drink alcohol or take other medicines that make you sleepy or dizzy while taking gabapentin without first talking with your healthcare provider. Taking gabapentin with alcohol or drugs that cause sleepiness or dizziness may make your sleepiness or dizziness worse.
+  <br/>
+Do not drive, operate heavy machinery, or do other dangerous activities until you know how gabapentin affects you. Gabapentin can slow your thinking and motor skills.
+ </paragraph>
+                  <paragraph>What are the possible side effects of gabapentin?</paragraph>
+                  <paragraph>Gabapentin may cause serious side effects, including:</paragraph>
+                  <paragraph>See “What is the most important information I should know about gabapentin?”</paragraph>
+                  <paragraph>problems driving while using gabapentin. See “What should I avoid while taking gabapentin?”
+  <br/>
+sleepiness and dizziness, which could increase your chance of having an accidental injury, including falls.
+ </paragraph>
+                  <paragraph>The most common side effects of gabapentin include:</paragraph>
+                  <paragraph>lack of coordination
+  <br/>
+viral infection
+  <br/>
+feeling drowsy
+  <br/>
+nausea and vomiting
+  <br/>
+difficulty with speaking
+  <br/>
+tremor
+  <br/>
+swelling, usually of legs and feet
+  <br/>
+feeling tired
+  <br/>
+fever
+  <br/>
+jerky movements
+  <br/>
+difficulty with coordination
+  <br/>
+double vision
+  <br/>
+unusual eye movement
+ </paragraph>
+                  <paragraph>Tell your healthcare provider if you have any side effect that bothers you or that does not go away.</paragraph>
+                  <paragraph>These are not all the possible side effects of gabapentin. For more information, ask your healthcare provider or pharmacist.</paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph>How should I store gabapentin tablets, USP?</paragraph>
+                  <paragraph>Store gabapentin tablets, USP at room temperature between 68°F to 77°F (20°C to 25°C).</paragraph>
+                  <paragraph>Keep gabapentin and all medicines out of the reach of children.</paragraph>
+                  <paragraph>General information about the safe and effective use of gabapentin.</paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use gabapentin for a condition for which it was not prescribed. Do not give gabapentin to other people, even if they have the same symptoms that you have. It may harm them. You can ask your pharmacist or healthcare provider for information about gabapentin that is written for health professionals.</paragraph>
+                  <paragraph/>
+                  <paragraph>What are the ingredients in gabapentin tablets, USP?</paragraph>
+                  <paragraph>Active ingredient: Gabapentin USP</paragraph>
+                  <paragraph/>
+                  <paragraph>Inactive ingredients in the tablets: Maize Starch, Poloxamer 407, Copovidone, Ethanol absolute, Hydroxy Propyl Cellulose, Magnesium Stearate, Hydroxy Propyl cellulose, Talc and Purified Water.</paragraph>
+                  <paragraph/>
+                  <paragraph>For Medication Guide, please visit:
+  <br/>
+http://www.ascendlaboratories.com/mg/gabapentintab.pdf
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>Alkem Laboratories Ltd.,</paragraph>
+                  <paragraph>INDIA.</paragraph>
+                  <paragraph/>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>Ascend Laboratories, LLC</paragraph>
+                  <paragraph>Parsippany, NJ 07054</paragraph>
+                  <paragraph/>
+                  <paragraph>Trademarks are the property of their respective owners.</paragraph>
+                  <paragraph/>
+                  <paragraph>For more information go to http://www.ascendlaboratories.com or call 1-877-272-7901.</paragraph>
+                  <paragraph/>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph/>
+                  <paragraph>Revised: September, 2024</paragraph>
+                  <paragraph>PT2149-09</paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_30a37391-0727-fc77-e063-6394a90a9218">
+               <id root="30a37391-0726-fc77-e063-6394a90a9218"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_30a36e34-cb7a-95dd-e063-6294a90a7821"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250318"/>
+               <component>
+                  <observationMedia ID="img_30a36e34-cb7a-95dd-e063-6294a90a7821">
+                     <text>72189-619-72</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72189-619-72.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

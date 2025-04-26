@@ -1,0 +1,2263 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="30905104-4d85-a4dc-e063-6394a90a120d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250317"/>
+   <setId root="63187a94-9ac7-4320-ac70-0631e08c2b8d"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079391286"/>
+            <name>ScieGen Pharmaceuticals, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079674526"/>
+                  <name>AiPing Pharmaceutical, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="080225262"/>
+                        <name>A&amp;Z Pharmaceutical Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50228-228" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50228-229" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50228-230" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50228-231" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3090e5c8-1b98-f32e-e063-6394a90aad77"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250317"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50228-228" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ENALAPRIL MALEATE</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ENALAPRIL MALEATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H92E6QA4FV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ZINC STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="2.5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9O25354EPJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ENALAPRIL MALEATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q508Q118JM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ENALAPRILAT ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50228-228-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250212"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50228-228-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250212"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075178" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250212"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText>biconvex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="6" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">333</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50228-229" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ENALAPRIL MALEATE</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ENALAPRIL MALEATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H92E6QA4FV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ZINC STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9O25354EPJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ENALAPRIL MALEATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q508Q118JM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ENALAPRILAT ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50228-229-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250212"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50228-229-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250212"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075178" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250212"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText>biconvex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="8" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">334</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50228-230" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ENALAPRIL MALEATE</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ENALAPRIL MALEATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H92E6QA4FV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ZINC STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9O25354EPJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ENALAPRIL MALEATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q508Q118JM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ENALAPRILAT ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50228-230-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250212"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50228-230-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250212"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075178" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250212"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText>biconvex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="8" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">335</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50228-231" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ENALAPRIL MALEATE</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ENALAPRIL MALEATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H92E6QA4FV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ZINC STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9O25354EPJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ENALAPRIL MALEATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q508Q118JM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ENALAPRILAT ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50228-231-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250212"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50228-231-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250212"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075178" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250212"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText>biconvex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="8" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">336</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb941cf8c-b302-4da2-850f-b26c6714eb69">
+               <id root="30905104-4d86-a4dc-e063-6394a90a120d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Rx only</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L28d46e36-781a-4cf4-b390-df9c02392086">
+               <id root="30905104-4d87-a4dc-e063-6394a90a120d"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: FETAL TOXICITY</content>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="bold">See full prescribing information for complete boxed warning.</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold"> When pregnancy is detected, discontinue enalapril as soon as possible.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Drugs that act directly on the renin-angiotensin system can cause injury and death to the developing fetus. (See WARNINGS, Fetal Toxicity.)</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L87e5f5a3-4876-4b91-8559-e7d1a3ab8d18">
+               <id root="30905104-4d88-a4dc-e063-6394a90a120d"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Enalapril maleate, USP is the maleate salt of enalapril, the ethyl ester of a long-acting angiotensin-converting enzyme inhibitor, enalaprilat. 
+  <br/>  Enalapril maleate is chemically described as (S)-1-[
+ 
+  <content styleCode="italics">N</content>-[1-(ethoxycarbonyl)-3-phenylpropyl]-L-alanyl]-L-proline, (
+ 
+  <content styleCode="italics">Z</content>)-2-butenedioate salt (1:1). Its molecular formula is C
+ 
+  <sub>20</sub>H
+ 
+  <sub>28</sub>N
+ 
+  <sub>2</sub>O
+ 
+  <sub>5</sub>•C
+ 
+  <sub>4</sub>H
+ 
+  <sub>4</sub>O
+ 
+  <sub>4</sub>, and its structural formula is:
+ 
+  <renderMultiMedia referencedObject="L08925b16-b55a-4a73-ad06-2737e028077a"/>
+                  </paragraph>
+                  <paragraph>Enalapril maleate, USP is a white to off-white, crystalline powder with molecular weight of 492.53 g/mol. It is sparingly soluble in water, soluble in ethanol, and freely soluble in methanol.</paragraph>
+                  <paragraph>
+                     <br/>  Enalapril is a pro-drug; following oral administration, it is bioactivated by hydrolysis of the ethyl ester to enalaprilat, which is the active angiotensin-converting enzyme inhibitor.
+ </paragraph>
+                  <paragraph>
+                     <br/>  Enalapril maleate is supplied as 2.5 mg, 5 mg, 10 mg, and 20 mg tablets for oral administration. In addition to the active ingredient enalapril maleate, each tablet contains the following inactive ingredients: anhydrous lactose and zinc stearate.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+               <component>
+                  <observationMedia ID="L08925b16-b55a-4a73-ad06-2737e028077a">
+                     <text>enalapril-structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Enalapril-structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbc9bb9a1-3e05-4cfb-935e-87816a0a811a">
+               <id root="30905104-4d89-a4dc-e063-6394a90a120d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Mechanism of Action</content>
+                  </paragraph>
+                  <paragraph>Enalapril, after hydrolysis to enalaprilat, inhibits angiotensinconverting enzyme (ACE) in human subjects and animals. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex. The beneficial effects of enalapril in hypertension and heart failure appear to result primarily from suppression of the renin-angiotensin-aldosterone system. Inhibition of ACE results in decreased plasma angiotensin II, which leads to decreased vasopressor activity and to decreased aldosterone secretion. Although the latter decrease is small, it results in small increases of serum potassium. In hypertensive patients treated with enalapril maleate alone for up to 48 weeks, mean increases in serum potassium of approximately 0.2 mEq/L were observed. In patients treated with enalapril maleate plus a thiazide diuretic, there was essentially no change in serum potassium (see
+ 
+  <content styleCode="bold">PRECAUTIONS</content>). Removal of angiotensin II negative feedback on renin secretion leads to increased plasma renin activity.
+
+ </paragraph>
+                  <paragraph>ACE is identical to kininase, an enzyme that degrades bradykinin. Whether increased levels of bradykinin, a potent vasodepressor peptide, play a role in the therapeutic effects of enalapril maleate remains to be elucidated. </paragraph>
+                  <paragraph>
+                     <br/>  While the mechanism through which enalapril maleate lowers blood pressure is believed to be primarily suppression of the reninangiotensin-aldosterone system, enalapril maleate is antihypertensive even in patients with low-renin hypertension. Although enalapril maleate was antihypertensive in all races studied, black hypertensive patients (usually a low-renin hypertensive population) had a smaller average response to enalapril monotherapy than non-black patients.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacokinetics and Metabolism</content>
+                  </paragraph>
+                  <paragraph>Following oral administration of enalapril maleate, peak serum concentrations of enalapril occur within about one hour. Based on urinary recovery, the extent of absorption of enalapril is approximately 60 percent. Enalapril absorption is not influenced by the presence of food in the gastrointestinal tract. Following absorption, enalapril is hydrolyzed to enalaprilat, which is a more potent angiotensin-converting enzyme inhibitor than enalapril; enalaprilat is poorly absorbed when administered orally. Peak serum concentrations of enalaprilat occur three to four hours after an oral dose of enalapril maleate. Excretion of enalapril maleate is primarily renal. Approximately 94 percent of the dose is recovered in the urine and feces as enalaprilat or enalapril. The principal components in urine are enalaprilat, accounting for about 40 percent of the dose, and intact enalapril. There is no evidence of metabolites of enalapril, other than enalaprilat. </paragraph>
+                  <paragraph/>
+                  <paragraph>The serum concentration profile of enalaprilat exhibits a prolonged terminal phase, apparently representing a small fraction of the administered dose that has been bound to ACE. The amount bound does not increase with dose, indicating a saturable site of binding. The effective half-life for accumulation of enalaprilat following multiple doses of enalapril maleate is 11 hours. The disposition of enalapril and enalaprilat in patients with renal insufficiency is similar to that in patients with normal renal function until the glomerular filtration rate is 30 mL/min or less. With glomerular filtration rate ≤30 mL/min, peak and trough enalaprilat levels increase, time to peak concentration increases and time to steady state may be delayed. The effective half-life of enalaprilat following multiple doses of enalapril maleate is prolonged at this level of renal insufficiency (see
+ 
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>). Enalaprilat is dialyzable at the rate of 62 mL/min.
+
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Studies in dogs indicate that enalapril crosses the blood-brain barrier poorly, if at all; enalaprilat does not enter the brain. Multiple doses of enalapril maleate in rats do not result in accumulation in any tissues. Milk of lactating rats contains radioactivity following administration of 
+ 
+  <sup>14</sup>C-enalapril maleate. Radioactivity was found to cross the placenta following administration of labeled drug to pregnant hamsters.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Pharmacodynamics and Clinical Effects</content>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Hypertension</content>
+                     </content>
+                     <br/>  Administration of enalapril maleate to patients with hypertension of severity ranging from mild to severe results in a reduction of both supine and standing blood pressure usually with no orthostatic component. Symptomatic postural hypotension is therefore infrequent, although it might be anticipated in volume-depleted patients (see
+ 
+  <content styleCode="bold">WARNINGS, Hypotension</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  In most patients studied, after oral administration of a single dose of enalapril, onset of antihypertensive activity was seen at one hour with peak reduction of blood pressure achieved by four to six hours.
+ </paragraph>
+                  <paragraph>At recommended doses, antihypertensive effects have been maintained for at least 24 hours. In some patients the effects may diminish toward the end of the dosing interval (see
+ 
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION, Hypertension</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  In some patients achievement of optimal blood pressure reduction may require several weeks of therapy.
+ </paragraph>
+                  <paragraph>
+                     <br/>  The antihypertensive effects of enalapril maleate have continued during long-term therapy. Abrupt withdrawal of enalapril maleate has not been associated with a rapid increase in blood pressure.
+ </paragraph>
+                  <paragraph>
+                     <br/>  In hemodynamic studies in patients with essential hypertension, blood pressure reduction was accompanied by a reduction in peripheral arterial resistance with an increase in cardiac output and little or no change in heart rate. Following administration of enalapril maleate, there is an increase in renal blood flow; glomerular filtration rate is usually unchanged. The effects appear to be similar in patients with renovascular hypertension.
+ </paragraph>
+                  <paragraph>
+                     <br/>  When given together with thiazide-type diuretics, the blood pressure lowering effects of enalapril maleate are approximately additive.
+ </paragraph>
+                  <paragraph>
+                     <br/>  In a clinical pharmacology study, indomethacin or sulindac was administered to hypertensive patients receiving enalapril maleate. In this study there was no evidence of a blunting of the antihypertensive action of enalapril maleate (see
+ 
+  <content styleCode="bold">PRECAUTIONS, Drug Interactions</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Heart Failure</content>
+                     </content>
+                     <br/>  In trials in patients treated with digitalis and diuretics, treatment with enalapril resulted in decreased systemic vascular resistance, blood pressure, pulmonary capillary wedge pressure and heart size, and increased cardiac output and exercise tolerance. Heart rate was unchanged or slightly reduced, and mean ejection fraction was unchanged or increased. There was a beneficial effect on severity of heart failure as measured by the New York Heart Association (NYHA) classification and on symptoms of dyspnea and fatigue. Hemodynamic effects were observed after the first dose and appeared to be maintained in uncontrolled studies lasting as long as four months. Effects on exercise tolerance, heart size, and severity and symptoms of heart failure were observed in placebo-controlled studies lasting from eight weeks to over one year.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L48c8b444-e7f1-4558-ad57-59c0a692665a">
+               <id root="30905104-4d8a-a4dc-e063-6394a90a120d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Heart Failure, Mortality Trials</content>
+                     </content>
+                     <br/>  In a multicenter, placebo-controlled clinical trial, 2,569 patients with all degrees of symptomatic heart failure and ejection fraction ≤35 percent were randomized to placebo or enalapril and followed for up to 55 months (SOLVD-Treatment). Use of enalapril was associated with an 11 percent reduction in all-cause mortality and a 30 percent reduction in hospitalization for heart failure. Diseases that excluded patients from enrollment in the study included severe stable angina (&gt;2 attacks/day), hemodynamically significant valvular or outflow tract obstruction,renal failure (creatinine &gt;2.5 mg/dL), cerebrovascular disease (e.g., significant carotid artery disease), advanced pulmonary disease, malignancies, active myocarditis and constrictive pericarditis. The mortality benefit associated with enalapril does not appear to depend upon digitalis being present.
+
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>A second multicenter trial used the SOLVD protocol for study of asymptomatic or minimally symptomatic patients. SOLVD-Prevention patients, who had left ventricular ejection fraction ≤35% and no history of symptomatic heart failure, were randomized to placebo (n=2117) or enalapril (n=2111) and followed for up to 5 years. The majority of patients in the SOLVD-Prevention trial had a history of ischemic heart disease. A history of myocardial infarction was present in 80 percent of patients, current angina pectoris in 34 percent, and a history of hypertension in 37 percent. No statistically significant mortality effect was demonstrated in this population. Enalapril-treated subjects had 32% fewer first hospitalizations for heart failure, and 32% fewer total heart failure hospitalizations. Compared to placebo, 32 percent fewer patients receiving enalapril developed symptoms of overt heart failure. Hospitalizations for cardiovascular reasons were also reduced. There was an insignificant reduction in hospitalizations for any cause in the enalapril treatment group (for enalapril vs. placebo, respectively, 1166 vs. 1201 first hospitalizations, 2649 vs. 2840 total hospitalizations), although the study was not powered to look for such an effect.</paragraph>
+                  <paragraph>The SOLVD-Prevention trial was not designed to determine whether treatment of asymptomatic patients with low ejection fraction would be superior, with respect to preventing hospitalization, to closer followup and use of enalapril at the earliest sign of heart failure. However, under the conditions of follow-up in the SOLVD-Prevention trial (every 4 months at the study clinic; personal physician as needed), 68% of patients on placebo who were hospitalized for heart failure had no prior symptoms recorded which would have signaled initiation of treatment.</paragraph>
+                  <paragraph>
+                     <br/>  The SOLVD-Prevention trial was also not designed to show whether enalapril modified the progression of underlying heart disease.
+ </paragraph>
+                  <paragraph>
+                     <br/>  In another multicenter, placebo-controlled trial (CONSENSUS) limited to patients with NYHA Class IV congestive heart failure and radiographic evidence of cardiomegaly, use of enalapril was associated with improved survival. The results are shown in the following table.
+ </paragraph>
+                  <table width="100%" border="5">
+                     <caption/>
+                     <tbody>
+                        <tr>
+                           <td/>
+                           <td colspan="2" align="center">
+                              <content styleCode="bold">SURVIVAL (%)</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td align="center">
+                              <content styleCode="bold">Six Months</content>
+                           </td>
+                           <td align="center">
+                              <content styleCode="bold">One Year</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Enalapril maleate (n=127)</td>
+                           <td align="center">74</td>
+                           <td align="center">64</td>
+                        </tr>
+                        <tr>
+                           <td>Placebo (n=126)</td>
+                           <td align="center">56</td>
+                           <td align="center">48</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>In both CONSENSUS and SOLVD-Treatment trials, patients were also usually receiving digitalis, diuretics or both.</paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Clinical Pharmacology in Pediatric Patients</content>
+                  </paragraph>
+                  <paragraph>
+                     <br/>  A multiple dose pharmacokinetic study was conducted in 40 hypertensive male and female pediatric patients aged 2 months to ≤16 years following daily oral administration of 0.07 to 0.14 mg/kg enalapril maleate. At steady state, the mean effective half-life for accumulation of enalaprilat was 14 hours, and the mean urinary recovery of total enalapril and enalaprilat in 24 hours was 68% of the administered dose. Conversion of enalapril to enalaprilat was in the range of 63 to 76%. The overall results of this study indicate that the pharmacokinetics of enalapril in hypertensive children aged 2 months to ≤16 years are consistent across the studied age groups and consistent with pharmacokinetic historic data in healthy adults.
+ </paragraph>
+                  <paragraph>
+                     <br/>  In a clinical study involving 110 hypertensive pediatric patients 6 to 16 years of age, patients who weighed &lt;50 kg received either 0.625, 2.5 or 20 mg of enalapril daily and patients who weighed ≥50 kg received either 1.25, 5, or 40 mg of enalapril daily. Enalapril administered once daily lowered trough blood pressure in a dose-dependent manner. The dose-dependent antihypertensive efficacy of enalapril was consistent across all subgroups (age, Tanner stage, gender, race). However, the lowest doses studied, 0.625 mg and 1.25 mg, corresponding to an average of 0.02 mg/kg once daily, did not appear to offer consistent antihypertensive efficacy. In this study, enalapril maleate was generally well tolerated.
+ </paragraph>
+                  <paragraph>
+                     <br/>  In the above pediatric studies, enalapril maleate was given as enalapril maleate tablets and for those children and infants who were unable to swallow tablets or who required a lower dose than is available in tablet form, enalapril was administered in a suspension formulation (see 
+ 
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION, Preparation of Suspensio</content>n).
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250211"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lfae63d0d-4f32-4f97-ae4f-6a9c7a0df87e">
+               <id root="30905104-4d8b-a4dc-e063-6394a90a120d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Hypertension</content>
+                     <br/>  Enalapril maleate tablets, USP are indicated for the treatment of hypertension.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  Enalapril maleate tablets, USP are effective alone or in combination with other antihypertensive agents, especially thiazide-type diuretics. The blood pressure lowering effects of enalapril maleate tablets, USP and thiazides are approximately additive.
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Heart Failure</content>
+                     <br/>  Enalapril maleate tablets, USP are indicated for the treatment of symptomatic congestive heart failure, usually in combination with diuretics and digitalis. In these patients enalapril maleate tablets, USP improve symptoms, increase survival, and decrease the frequency of hospitalization (see
+ 
+  <content styleCode="bold">CLINICAL PHARMACOLOGY, Heart Failure, Mortality Trials</content>for details and limitations of survival trials).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Asymptomatic Left Ventricular Dysfunction</content>
+                     <br/>  In clinically stable asymptomatic patients with left ventricular dysfunction (ejection fraction ≤35 percent), enalapril maleate tablets, USP decrease the rate of development of overt heart failure and decrease the incidence of hospitalization for heart failure (see 
+ 
+  <content styleCode="bold">CLINICAL PHARMACOLOGY, Heart Failure, Mortality Trials</content>for details and limitations of survival trials).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  In using enalapril maleate tablets, USP consideration should be given to the fact that another angiotensin-converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients with renal impairment or collagen vascular disease, and that available data are insufficient to show that enalapril maleate tablets, USP do not have a similar risk (see
+ 
+  <content styleCode="bold">WARNINGS, Neutropenia/Agranulocytosis</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  In considering use of enalapril maleate tablets, USP, it should be noted that in controlled clinical trials ACE inhibitors have an effect on blood pressure that is less in black patients than in non-blacks. In addition, it should be noted that black patients receiving ACE inhibitors have been reported to have a higher incidence of angioedema compared to nonblacks (see
+ 
+  <content styleCode="bold">WARNINGS, Head and Neck Angioedema</content>). 
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld885b620-a403-49bb-8537-c5573607eb10">
+               <id root="30905104-4d8c-a4dc-e063-6394a90a120d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>Enalapril maleate is contraindicated in patients who are hypersensitive to this product and in patients with a history of angioedema related to previous treatment with an angiotensin-converting enzyme inhibitor and in patients with hereditary or idiopathic angioedema.</paragraph>
+                  <paragraph>
+                     <br/>  Do not coadminister aliskiren with enalapril maleate in patients with diabetes (see
+ 
+  <content styleCode="bold">PRECAUTIONS, Drug Interactions</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  Enalapril maleate is contraindicated in combination with a neprilysin inhibitor (e.g., sacubitril). Do not administer enalapril maleate within 36 hours of switching to or from sacubitril/valsartan, a neprilysin inhibitor (see
+ 
+  <content styleCode="bold">WARNINGS, Head and Neck Angioedema</content>).
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250211"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6a7fd830-f5db-4a48-a48b-bbf42fca3907">
+               <id root="30905104-4d8d-a4dc-e063-6394a90a120d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Anaphylactoid and Possibly Related Reactions</content>
+                  </paragraph>
+                  <paragraph>Presumably because angiotensin-converting enzyme inhibitors affect the metabolism of eicosanoids and polypeptides, including endogenous bradykinin, patients receiving ACE inhibitors (including enalapril maleate) may be subject to a variety of adverse reactions, some of them serious.</paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Head and Neck Angioedema</content>
+                     <br/>  Angioedema of the face, extremities, lips, tongue, glottis and/or larynx has been reported in patients treated with angiotensin-converting enzyme inhibitors, including enalapril maleate. This may occur at any time during treatment. In such cases enalapril maleate should be promptly discontinued and appropriate therapy and monitoring should be provided until complete and sustained resolution of signs and symptoms has occurred. In instances where swelling has been confined to the face and lips the condition has generally resolved without treatment, although antihistamines have been useful in relieving symptoms. Angioedema associated with laryngeal edema may be fatal.
+ 
+  <content styleCode="bold">Where there is involvement of the tongue, glottis or larynx, likely to cause airway obstruction, appropriate therapy, e.g., subcutaneous epinephrine solution 1:1000 (0.3 mL to 0.5 mL) and/or measures </content>
+                     <content styleCode="bold">necessary to ensure a patent airway, should be promptly provide</content>d (see
+ 
+  <content styleCode="bold">ADVERSE REACTIONS</content>).
+
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Patients receiving coadministration of ACE inhibitor and mTOR (mammalian target of rapamycin) inhibitor (e.g., temsirolimus, sirolimus, everolimus) therapy or a neprilysin inhibitor may be at increased risk for angioedema (see
+ 
+  <content styleCode="bold">PRECAUTIONS</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Intestinal Angioedema:</content>
+                     </content>Intestinal angioedema has been reported in patients treated with ACE inhibitors. These patients presented with abdominal pain (with or without nausea or vomiting); in some cases there was no prior history of facial angioedema and C1 esterase levels were normal. The angioedema was diagnosed by procedures including abdominal CT scan or ultrasound, or at surgery, and symptoms resolved after stopping the ACE inhibitor. Intestinal angioedema should be included in the differential diagnosis of patients on ACE inhibitors presenting with abdominal pain.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  Patients with a history of angioedema unrelated to ACE inhibitor therapy may be at increased risk of angioedema while receiving an ACE inhibitor (see
+ 
+  <content styleCode="bold">INDICATIONS AND USAGE and CONTRAINDICATIONS</content>).
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ldb00ebe5-876b-419e-ba68-3ee3c4a68119">
+               <id root="30905104-4d8e-a4dc-e063-6394a90a120d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Anaphylactoid Reactions during Desensitization</content>
+                     <br/>  Two patients undergoing desensitizing treatment with hymenoptera venom while receiving ACE inhibitors sustained life-threatening anaphylactoid reactions. In the same patients, these reactions were avoided when ACE inhibitors were temporarily withheld, but they reappeared upon inadvertent rechallenge.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Anaphylactoid Reactions during Membrane Exposure</content>
+                     <br/>  Anaphylactoid reactions have been reported in patients dialyzed with high-flux membranes and treated concomitantly with an ACE inhibitor. Anaphylactoid reactions have also been reported in patients undergoing low-density lipoprotein apheresis with dextran sulfate absorption.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypotension</content>
+                     <br/>  Excessive hypotension is rare in uncomplicated hypertensive patients treated with enalapril maleate alone. Patients with heart failure given enalapril maleate commonly have some reduction in blood pressure, especially with the first dose, but discontinuation of therapy for continuing symptomatic hypotension usually is not necessary when dosing instructions are followed; caution should be observed when initiating therapy (see
+ 
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>). Patients at risk for excessive hypotension, sometimes associated with oliguria and/or progressive azotemia, and rarely with acute renal failure and/ or death, include those with the following conditions or characteristics: heart failure, hyponatremia, high-dose diuretic therapy, recent intensive diuresis or increase in diuretic dose, renal dialysis, or severe volume and/or salt depletion of any etiology. It may be advisable to eliminate the diuretic (except in patients with heart failure), reduce the diuretic dose or increase salt intake cautiously before initiating therapy with enalapril maleate in patients at risk for excessive hypotension who are able to tolerate such adjustments (see
+ 
+  <content styleCode="bold">PRECAUTIONS, Drug Interactions</content>and 
+ 
+  <content styleCode="bold">ADVERSE REACTIONS</content>). In patients at risk for excessive hypotension, therapy should be started under very close medical supervision and such patients should be followed closely for the first two weeks of treatment and whenever the dose of enalapril and/or diuretic is increased. Similar considerations may apply to patients with ischemic heart or cerebrovascular disease, in whom an excessive fall in blood pressure could result in a myocardial infarction or cerebrovascular accident.
+
+ </paragraph>
+                  <paragraph>If excessive hypotension occurs, the patient should be placed in the supine position and, if necessary, receive an intravenous infusion of normal saline. A transient hypotensive response is not a contraindication to further doses of enalapril maleate, which usually can be given without difficulty once the blood pressure has stabilized. If symptomatic hypotension develops, a dose reduction or discontinuation of enalapril maleate or concomitant diuretic may be necessary.</paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Neutropenia/Agranulocytosis</content>
+                     <br/>  Another angiotensin-converting enzyme inhibitor, captopril, has been shown to cause agranulocytosis and bone marrow depression, rarely in uncomplicated patients but more frequently in patients with renal impairment, especially if they also have a collagen vascular disease. Available data from clinical trials of enalapril are insufficient to show that enalapril does not cause agranulocytosis at similar rates. Marketing experience has revealed cases of neutropenia or agranulocytosis in which a causal relationship to enalapril cannot be excluded. Periodic monitoring of white blood cell counts in patients with collagen vascular disease and renal disease should be considered.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Hepatic Failure</content>
+                     <br/>  Rarely, ACE inhibitors have been associated with a syndrome that starts with cholestatic jaundice and progresses to fulminant hepatic necrosis, and (sometimes) death. The mechanism of this syndrome is not understood. Patients receiving ACE inhibitors who develop jaundice or marked elevations of hepatic enzymes should discontinue the ACE inhibitor and receive appropriate medical follow-up.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Fetal Toxicity</content>
+                     <br/>  Use of drugs that act on the renin-angiotensin system during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. Resulting oligohydramnios can be associated with fetal lung hypoplasia and skeletal deformations. Potential neonatal adverse effects include skull hypoplasia, anuria, hypotension, renal failure, and death. When pregnancy is detected, discontinue enalapril maleate as soon as possible. These adverse outcomes are usually associated with use of these drugs in the second and third trimester of pregnancy. Most epidemiologic studies examining fetal abnormalities after exposure to antihypertensive use in the first trimester have not distinguished drugs affecting the renin-angiotensin system from other antihypertensive agents. Appropriate management of maternal hypertension during pregnancy is important to optimize outcomes for both mother and fetus.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  In the unusual case that there is no appropriate alternative to therapy with drugs affecting the renin-angiotensin system for a particular patient, apprise the mother of the potential risk to the fetus. Perform serial ultrasound examinations to assess the intra-amniotic environment. If oligohydramnios is observed, discontinue enalapril maleate, unless it is considered lifesaving for the mother. Fetal testing may be appropriate, based on the week of pregnancy. Patients and physicians should be aware, however, that oligohydramnios may not appear until after the fetus has sustained irreversible injury. Closely observe infants with histories of
+ 
+  <content styleCode="italics">in utero</content>exposure to enalapril maleate for hypotension, oliguria, and hyperkalemia (see P
+ 
+  <content styleCode="bold">RECAUTIONS, Pediatric use</content>). 
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  No teratogenic effects of enalapril were seen in studies of pregnant rats and rabbits. On a body surface area basis, the doses used were 57 times and 12 times, respectively, the maximum recommended human daily dose (MRHDD).
+ </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L65bfb761-b60a-4909-84ab-b3bd507aa678">
+               <id root="30905104-4d8f-a4dc-e063-6394a90a120d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Aortic Stenosis/Hypertrophic Cardiomyopathy</content>
+                     </content>
+                     <br/>  As with all vasodilators, enalapril should be given with caution to patients with obstruction in the outflow tract of the left ventricle.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Impaired Renal Function</content>
+                     </content>
+                     <br/>  As a consequence of inhibiting the renin-angiotensin-aldosterone system, changes in renal function may be anticipated in susceptible individuals. In patients with severe heart failure whose renal function may depend on the activity of the renin-angiotensin-aldosterone system, treatment with angiotensin-converting enzyme inhibitors, including enalapril maleate, may be associated with oliguria and/or progressive azotemia and rarely with acute renal failure and/or death (see
+ 
+  <content styleCode="bold">PRECAUTIONS, Drug Interactions</content>).
+
+ </paragraph>
+                  <paragraph>In clinical studies in hypertensive patients with unilateral or bilateral renal artery stenosis, increases in blood urea nitrogen and serum creatinine were observed in 20 percent of patients. These increases were almost always reversible upon discontinuation of enalapril and/ or diuretic therapy. In such patients renal function should be monitored during the first few weeks of therapy.</paragraph>
+                  <paragraph>
+                     <br/>  Some patients with hypertension or heart failure with no apparent preexisting renal vascular disease have developed increases in blood urea and serum creatinine, usually minor and transient, especially when enalapril maleate has been given concomitantly with a diuretic. This is more likely to occur in patients with pre-existing renal impairment. Dosage reduction and/or discontinuation of the diuretic and/or enalapril maleate may be required.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Evaluation of patients with hypertension or heart failure should always include assessment of renal function (</content>see
+ 
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION).</content>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Hyperkalemia</content>
+                     </content>
+                     <br/>  Elevated serum potassium (greater than 5.7 mEq/L) was observed in approximately one percent of hypertensive patients in clinical trials. In most cases these were isolated values which resolved despite continued therapy. Hyperkalemia was a cause of discontinuation of therapy in 0.28 percent of hypertensive patients. In clinical trials in heart failure, hyperkalemia was observed in 3.8 percent of patients but was not a cause for discontinuation.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  Risk factors for the development of hyperkalemia include renal insufficiency, diabetes mellitus, and the concomitant use of potassiumsparing diuretics, potassium supplements and/or potassium-containing salt substitutes, which should be used cautiously, if at all, with enalapril maleate (see
+ 
+  <content styleCode="bold">Drug Interactions</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Cough</content>
+                     </content>
+                     <br/>  Presumably due to the inhibition of the degradation of endogenous bradykinin, persistent nonproductive cough has been reported with all ACE inhibitors, always resolving after discontinuation of therapy. ACE inhibitor-induced cough should be considered in the differential diagnosis of cough.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Surgery/Anesthesia</content>
+                     </content>
+                     <br/>  In patients undergoing major surgery or during anesthesia with agents that produce hypotension, enalapril may block angiotensin II formation secondary to compensatory renin release. If hypotension occurs and is considered to be due to this mechanism, it can be corrected by volume expansion.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information for Patients</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Angioedema</content>
+                     </content>
+                     <br/>  Angioedema, including laryngeal edema, may occur at any time during treatment with angiotensin-converting enzyme inhibitors, including enalapril. Patients should be so advised and told to report immediately any signs or symptoms suggesting angioedema (swelling of face, extremities, eyes, lips, tongue, difficulty in swallowing or breathing) and to take no more drug until they have consulted with the prescribing physician.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Hypotension</content>
+                     </content>
+                     <br/>  Patients should be cautioned to report lightheadedness, especially during the first few days of therapy. If actual syncope occurs, the patients should be told to discontinue the drug until they have consulted with the prescribing physician. All patients should be cautioned that excessive  perspiration and dehydration may lead to an excessive fall in blood pressure because of reduction in fluid volume. Other causes of volume depletion such as vomiting or diarrhea may also lead to a fall in blood pressure; patients should be advised to consult with the physician.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Hyperkalemia</content>
+                     </content>
+                     <br/>  Patients should be told not to use salt substitutes containing potassium without consulting their physician.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Neutropenia</content>
+                     </content>
+                     <br/>  Patients should be told to report promptly any indication of infection (e.g., sore throat, fever) which may be a sign of neutropenia.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Pregnancy</content>
+                     </content>
+                     <br/>  Female patients of childbearing age should be told about the consequences of exposure to enalapril maleate during pregnancy. Discuss treatment options with women planning to become pregnant. Patients should be asked to report pregnancies to their physicians as soon as possible.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  NOTE: As with many other drugs, certain advice to patients being treated with enalapril is warranted. This information is intended to aid in the safe and effective use of this medication. It is not a disclosure of all possible adverse or intended effects.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf1acf820-da43-4a97-ad76-9dd911470cd3">
+               <id root="30905104-4d90-a4dc-e063-6394a90a120d"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">Drug Interactions</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">
+                        <content styleCode="italics">Neprilysin Inhibitors</content>
+                     </content>
+                     <br/>  Patients taking concomitant neprilysin inhibitors may be at increased risk for angioedema (see
+ 
+  <content styleCode="bold">WARNINGS</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Dual Blockade of the Renin-Angiotensin System (RAS)</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Dual blockade of the RAS with angiotensin receptor blockers, ACE inhibitors, or aliskiren is associated with increased risks of hypotension, hyperkalemia, and changes in renal function (including acute renal failure) compared to monotherapy. Most patients receiving the combination of two RAS inhibitors do not obtain any additional benefit compared to monotherapy. In general, avoid combined use of RAS inhibitors. Closely monitor blood pressure, renal function, and electrolytes in patients on enalapril maleate and other agents that affect the RAS.</paragraph>
+                  <paragraph>
+                     <br/>  Do not coadminister aliskiren with enalapril maleate in patients with diabetes. Avoid use of aliskiren with enalapril maleate in patients with renal impairment (GFR &lt;60 mL/min).
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Hypotension — Patients on Diuretic Therapy</content>
+                     </content>
+                     <br/>  Patients on diuretics and especially those in whom diuretic therapy was recently instituted, may occasionally experience an excessive reduction of blood pressure after initiation of therapy with enalapril. The possibility of hypotensive effects with enalapril can be minimized by either discontinuing the diuretic or increasing the salt intake prior to initiation of treatment with enalapril. If it is necessary to continue the diuretic, provide close medical supervision after the initial dose for at least two hours and until blood pressure has stabilized for at least an additional hour (see
+ 
+  <content styleCode="bold">WARNINGS, Hypotension</content>and
+ 
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Agents Causing Renin Release</content>
+                     </content>
+                     <br/>  The antihypertensive effect of enalapril maleate is augmented by antihypertensive agents that cause renin release (e.g., diuretics).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Nonsteroidal Anti-Inflammatory Agents Including Selective Cyclooxygenase-2 Inhibitors (COX-2 Inhibitors)</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>In patients who are elderly, volume-depleted (including those on diuretic therapy), or with compromised renal function, coadministration of NSAIDs, including selective COX-2 inhibitors, with ACE inhibitors, including enalapril, may result in deterioration of renal function, including possible acute renal failure. These effects are usually reversible. Monitor renal function periodically in patients receiving enalapril and NSAID therapy.</paragraph>
+                  <paragraph>
+                     <br/>  In a clinical pharmacology study, indomethacin or sulindac was administered to hypertensive patients receiving enalapril maleate. In this study there was no evidence of a blunting of the antihypertensive action of enalapril maleate. However, reports suggest that NSAIDs may diminish the antihypertensive effect of ACE inhibitors.
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Other Cardiovascular Agents</content>
+                     </content>
+                     <br/>  Enalapril maleate has been used concomitantly with beta adrenergicblocking agents, methyldopa, nitrates, calcium-blocking agents, hydralazine, prazosin and digoxin without evidence of clinically significant adverse interactions.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Agents Increasing Serum Potassium</content>
+                     </content>
+                     <br/>  Enalapril maleate attenuates potassium loss caused by thiazide-type diuretics. Potassium-sparing diuretics (e.g., spironolactone, triamterene, or amiloride), potassium supplements, or potassium-containing salt substitutes may lead to significant increases in serum potassium. Therefore, if concomitant use of these agents is indicated because of demonstrated hypokalemia, they should be used with caution and with frequent monitoring of serum potassium. Potassium-sparing agents should generally not be used in patients with heart failure receiving enalapril maleate.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Lithium</content>
+                     </content>
+                     <br/>  Lithium toxicity has been reported in patients receiving lithium concomitantly with drugs which cause elimination of sodium, including ACE inhibitors. A few cases of lithium toxicity have been reported in patients receiving concomitant enalapril maleate and lithium and were reversible upon discontinuation of both drugs. It is recommended that serum lithium levels be monitored frequently if enalapril is administered concomitantly with lithium.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Gold</content>
+                     </content>
+                     <br/>  Nitritoid reactions (symptoms include facial flushing, nausea, vomiting and hypotension) have been reported rarely in patients on therapy with injectable gold (sodium aurothiomalate) and concomitant ACE inhibitor therapy including enalapril maleate.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="underline">mTOR (Mammalian Target of Rapamycin) Inhibitors</content>
+                     </content>
+                     <br/>  Patients receiving coadministration of ACE inhibitor and mTOR inhibitor (e.g., temsirolimus, sirolimus, everolimus) therapy may be at increased risk for angioedema (see
+ 
+  <content styleCode="bold">WARNINGS, Head and Neck Angioedema</content>).
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc825bd90-95e2-49a0-950b-69bf0dd60942">
+               <id root="30905104-4d91-a4dc-e063-6394a90a120d"/>
+               <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+               <title>
+                  <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+               </title>
+               <text>
+                  <paragraph>There was no evidence of a tumorigenic effect when enalapril was administered for 106 weeks to male and female rats at doses up to 90 mg/kg/day or for 94 weeks to male and female mice at doses up to 90 and 180 mg/kg/day, respectively. These doses are 26 times (in rats and female mice) and 13 times (in male mice) the maximum recommended human daily dose (MRHDD) when compared on a body surface area basis.</paragraph>
+                  <paragraph>Neither enalapril maleate nor the active diacid was mutagenic in the Ames microbial mutagen test with or without metabolic activation. Enalapril was also negative in the following genotoxicity studies: recassay, reverse mutation assay with
+ 
+  <content styleCode="italics">E. coli</content>, sister chromatid exchange with cultured mammalian cells, and the micronucleus test with mice, as well as in an
+ 
+  <content styleCode="italics">in vivo</content>cytogenic study using mouse bone marrow.
+
+ </paragraph>
+                  <paragraph>There were no adverse effects on reproductive performance of male and female rats treated with up to 90 mg/kg/day of enalapril (26 times the MRHDD when compared on a body surface area basis).</paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ldca3138f-3d03-4ae7-b982-6c8e8b182194">
+               <id root="30905104-4d92-a4dc-e063-6394a90a120d"/>
+               <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+               <title>
+                  <content styleCode="bold">Pregnancy</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Nursing Mothers</content>
+                     </content>
+                     <br/>  Enalapril and enalaprilat have been detected in human breast milk. Because of the potential for serious adverse reactions in nursing infants from enalapril, a decision should be made whether to discontinue nursing or to discontinue enalapril maleate, taking into account the importance of the drug to the mother.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Pediatric Use</content>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Neonates with a History of In Utero Exposure to enalapril maleate</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>If oliguria or hypotension occurs, direct attention toward support of blood pressure and renal perfusion. Exchange transfusions or dialysis may be required as a means of reversing hypotension and/or substituting for disordered renal function. Enalapril, which crosses the placenta, has been removed from neonatal circulation by peritoneal dialysis with some clinical benefit, and theoretically may be removed by exchange transfusion, although there is no experience with the latter procedure.</paragraph>
+                  <paragraph>
+                     <br/>  Antihypertensive effects of enalapril maleate have been established in hypertensive pediatric patients age 1 month to 16 years. Use of enalapril maleate in these age groups is supported by evidence from adequate and well-controlled studies of enalapril maleate in pediatric and adult patients as well as by published literature in pediatric patients (see 
+ 
+  <content styleCode="bold">CLINICAL PHARMACOLOGY, Clinical Pharmacology in Pediatric Patients</content>and
+ 
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  Enalapril maleate is not recommended in neonates and in pediatric patients with glomerular filtration rate &lt;30 mL/min/1.73 m
+ 
+  <sup>2</sup>, as no data are available.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lcfe2bca4-1db0-43a5-a0d6-c8d5b74c4c4a">
+               <id root="30905104-4d93-a4dc-e063-6394a90a120d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Enalapril maleate has been evaluated for safety in more than 10,000 patients, including over 1000 patients treated for one year or more. Enalapril maleate has been found to be generally well tolerated in controlled clinical trials involving 2987 patients. For the most part, adverse experiences were mild and transient in nature. In clinical trials, discontinuation of therapy due to clinical adverse experiences was required in 3.3 percent of patients with hypertension and in 5.7 percent of patients with heart failure. The frequency of adverse experiences was not related to total daily dosage within the usual dosage ranges. In patients with hypertension the overall percentage of patients treated with enalapril maleate reporting adverse experiences was comparable to placebo.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypertension</content>
+                  </paragraph>
+                  <paragraph>Adverse experiences occurring in greater than one percent of patients with hypertension treated with enalapril maleate in controlled clinical trials are shown below. In patients treated with enalapril maleate, the maximum duration of therapy was three years; in placebo-treated patients the maximum duration of therapy was 12 weeks. </paragraph>
+                  <table width="100%" border="4">
+                     <tbody>
+                        <tr>
+                           <td/>
+                           <td>
+                              <paragraph>
+                                 <content styleCode="bold">Enalapril Maleate</content>
+                                 <br/>
+                                 <content styleCode="bold">(n = 2314)</content>
+                                 <br/>
+                                 <content styleCode="bold">Incidence</content>
+                                 <br/>
+                                 <content styleCode="bold">(discontinuation)</content>
+                              </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>
+                                 <content styleCode="bold">Placebo</content>
+                                 <br/>
+                                 <content styleCode="bold">(n = 230)</content>
+                                 <br/>
+                                 <content styleCode="bold">Incidence</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>
+                                 <content styleCode="italics"> Body As A Whole</content>
+                              </paragraph>
+                              <paragraph>  Fatigue </paragraph>  Orthostatic Effects 
+    
+     <paragraph>  Asthenia  </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>3.0 (&lt;0.1) 
+      <br/>  1.2 (&lt;0.1) 
+      <br/>  1.1 (0.1)
+     </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>2.6 
+      <br/>  0.0 
+      <br/>  0.9
+     </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="italics">Digestive</content>
+                              <paragraph> Diarrhea 
+      <br/>   Nausea
+     </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>1.4 (&lt;0.1) 
+      <br/>  1.4 (0.2)
+     </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>1.7 
+      <br/>  1.7
+     </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="italics">
+                                 <content styleCode="italics">Nervous/Psychiatric</content>
+                              </content>
+                              <paragraph> Headache 
+      <br/>   Dizziness
+     </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>5.2 (0.3) 
+      <br/>  4.3 (0.4)
+     </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>9.1 
+      <br/>  4.3
+     </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="italics">
+                                 <content styleCode="italics">Respiratory 
+       <br/>   Cough
+      </content>
+                              </content>
+                           </td>
+                           <td> 1.3 (0.1)</td>
+                           <td> 0.9</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="italics">Skin</content>
+                              <paragraph> Rash</paragraph>
+                           </td>
+                           <td> 1.4 (0.4)</td>
+                           <td>
+                              <paragraph>0.4</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Heart Failure</content>
+                     <br/>  Adverse experiences occurring in greater than one percent of patients with heart failure treated with enalapril maleate are shown below. The incidences represent the experiences from both controlled and uncontrolled clinical trials (maximum duration of therapy was approximately one year). In the placebo-treated patients, the incidences reported are from the controlled trials (maximum duration of therapy is 12 weeks). The percentage of patients with severe heart failure (NYHA Class IV) was 29 percent and 43 percent for patients treated with enalapril maleate and placebo, respectively.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8e23b098-dfef-4eeb-8f4d-2f26b969d282">
+               <id root="30905104-4d94-a4dc-e063-6394a90a120d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph/>
+                  <table width="100%" border="6">
+                     <tbody>
+                        <tr>
+                           <td/>
+                           <td>
+                              <content styleCode="bold">Enalapril Maleate</content>
+                              <br/>
+                              <content styleCode="bold">(n = 673)</content>
+                              <br/>
+                              <content styleCode="bold">Incidence</content>
+                              <br/>
+                              <content styleCode="bold">(discontinuation)</content>
+                           </td>
+                           <td>
+                              <paragraph>
+                                 <content styleCode="bold">Placebo</content>
+                                 <br/>
+                                 <content styleCode="bold">(n = 339)</content>
+                                 <br/>
+                                 <content styleCode="bold">Incidence</content>
+                              </paragraph>
+                           </td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="italics">Body As A Whole</content>
+                              <br/>   Orthostatic Effects   
+     <br/>   Syncope   
+     <br/>   Chest Pain   
+     <br/>   Fatigue  
+     <br/>   Abdominal Pain  
+     <br/>   Asthenia  
+   
+    </td>
+                           <td>2.2 (0.1) 
+     <br/>  2.2 (0.1) 
+     <br/>  2.1 (0.0) 
+     <br/>  1.8 (0.0) 
+     <br/>  1.6 (0.4) 
+     <br/>  1.6 (0.1)
+    </td>
+                           <td>
+                              <paragraph>0.3 
+      <br/>  0.9 
+      <br/>  2.1 
+      <br/>  1.8 
+      <br/>  2.1 
+      <br/>  0.3
+     </paragraph>
+                           </td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="italics">Cardiovascular</content>
+                              <br/>   Hypotension  
+     <br/>   Orthostatic Hypotension   
+     <br/>   Angina Pectoris  
+     <br/>   Myocardial Infarction 
+   
+    </td>
+                           <td>6.7 (1.9) 
+     <br/>  1.6 (0.1) 
+     <br/>  1.5 (0.1) 
+     <br/>  1.2 (0.3)
+    </td>
+                           <td>
+                              <paragraph>0.6 
+      <br/>  0.3 
+      <br/>  1.8 
+      <br/>  1.8
+     </paragraph>
+                           </td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="italics">Digestive</content>
+                              <br/>   Diarrhea  
+     <br/>   Nausea  
+     <br/>   Vomiting 
+   
+    </td>
+                           <td>2.1 (0.1) 
+     <br/>  1.3 (0.1) 
+     <br/>  1.3 (0.0)
+    </td>
+                           <td>
+                              <paragraph>1.2 
+      <br/>  0.6 
+      <br/>  0.9 
+     </paragraph>
+                           </td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="italics">Nervous/Psychiatric</content>
+                              <br/>   Dizziness   
+     <br/>   Headache   
+     <br/>   Vertigo 
+   
+    </td>
+                           <td>7.9 (0.6) 
+     <br/>  1.8 (0.1) 
+     <br/>  1.6 (0.1)
+    </td>
+                           <td>
+                              <paragraph>0.6 
+      <br/>  0.9 
+      <br/>  1.2
+     </paragraph>
+                           </td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="italics">Respiratory</content>
+                              <br/>   Cough  
+     <br/>   Bronchitis  
+     <br/>   Dyspnea   
+     <br/>   Pneumonia 
+   
+    </td>
+                           <td>2.2 (0.0) 
+     <br/>  1.3 (0.0) 
+     <br/>  1.3 (0.1) 
+     <br/>  1.0 (0.0)
+    </td>
+                           <td>
+                              <paragraph>0.6 
+      <br/>  0.9 
+      <br/>  0.4 
+      <br/>  2.4 
+     </paragraph>
+                           </td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td align="left">
+                              <content styleCode="italics">Skin</content>
+                              <br/>   Rash 
+   
+    </td>
+                           <td align="left"> 1.3 (0.0)</td>
+                           <td align="left"> 2.4</td>
+                           <td align="left"/>
+                        </tr>
+                        <tr>
+                           <td align="left">
+                              <content styleCode="italics">Urogenital</content>
+                              <br/>   Urinary Tract Infection  
+   
+    </td>
+                           <td align="left"> 1.3 (0.0)</td>
+                           <td align="left">2.4 </td>
+                           <td align="left"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Other serious clinical adverse experiences occurring since the drug was marketed or adverse experiences occurring in 0.5 to 1.0 percent of patients with hypertension or heart failure in clinical trials are listed below and, within each category, are in order of decreasing severity.</paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Body As A Whole:</content>Anaphylactoid reactions (see
+ 
+  <content styleCode="bold">WARNINGS, Anaphylactoid and Possibly Related Reactions</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Cardiovascular:</content>Cardiac arrest; myocardial infarction or cerebrovascular accident, possibly secondary to excessive hypotension in high risk patients (see
+ 
+  <content styleCode="bold">WARNINGS, Hypotension</content>); pulmonary embolism and infarction; pulmonary edema; rhythm disturbances including atrial tachycardia and bradycardia; atrial fibrillation; palpitation, Raynauds phenomenon.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Digestive:</content>Ileus, pancreatitis, hepatic failure, hepatitis (hepatocellular [proven on rechallenge] or cholestatic jaundice) (see 
+ 
+  <content styleCode="bold">WARNINGS, Hepatic Failure</content>), melena, anorexia, dyspepsia, constipation, glossitis, stomatitis, dry mouth.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Hematologic</content>: Rare cases of neutropenia, thrombocytopenia and bone marrow depression.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Musculoskeletal:</content>Muscle cramps.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Nervous/Psychiatric:</content>Depression, confusion, ataxia, somnolence, insomnia, nervousness, peripheral neuropathy (e.g., paresthesia, dysesthesia), dream abnormality.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Respiratory:</content>Bronchospasm, rhinorrhea, sore throat and hoarseness, asthma, upper respiratory infection, pulmonary infiltrates, eosinophilic pneumonitis.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Skin:</content>Exfoliative dermatitis, toxic epidermal necrolysis, Stevens-Johnson syndrome, pemphigus, herpes zoster, erythema multiforme, urticaria, pruritus, alopecia, flushing, diaphoresis, photosensitivity.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Special Senses:</content>Blurred vision, taste alteration, anosmia, tinnitus, conjunctivitis, dry eyes, tearing.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Urogenital:</content>Renal failure, oliguria, renal dysfunction (see
+ 
+  <content styleCode="bold">PRECAUTIONS </content>and
+ 
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>), flank pain, gynecomastia, impotence.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Miscellaneous:</content>A symptom complex has been reported which may include some or all of the following: a positive ANA, an elevated erythrocyte sedimentation rate, arthralgia/arthritis, myalgia/myositis, fever, serositis, vasculitis, leukocytosis, eosinophilia, photosensitivity, rash and other dermatologic manifestations.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Angioedema:</content>Angioedema has been reported in patients receiving enalapril maleate, with an incidence higher in black than in non-black patients. Angioedema associated with laryngeal edema may be fatal. If angioedema of the face, extremities, lips, tongue, glottis and/or larynx occurs, treatment with enalapril maleate should be discontinued and appropriate therapy instituted immediately (see
+ 
+  <content styleCode="bold">WARNINGS</content>,
+ 
+  <content styleCode="bold">Head and Neck Angioedema</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Hypotension:</content>In the hypertensive patients, hypotension occurred in 0.9 percent and syncope occurred in 0.5 percent of patients following the initial dose or during extended therapy. Hypotension or syncope was a cause for discontinuation of therapy in 0.1 percent of hypertensive patients. In heart failure patients, hypotension occurred in 6.7 percent and syncope occurred in 2.2 percent of patients. Hypotension or syncope was a cause for discontinuation of therapy in 1.9 percent of patients with heart failure (see
+ 
+  <content styleCode="bold">WARNINGS, Hypotension</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Cough: </content>See P
+ 
+  <content styleCode="bold">RECAUTIONS, Cough</content>.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lcb6b209a-cb82-4e52-9f19-0b21993e3440">
+               <id root="30905104-4d95-a4dc-e063-6394a90a120d"/>
+               <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+               <title>
+                  <content styleCode="bold">Pediatric Patients</content>
+               </title>
+               <text>
+                  <paragraph>The adverse experience profile for pediatric patients appears to be similar to that seen in adult patients.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Clinical Laboratory Test Findings</content>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Serum Electrolytes</content>
+                     </content>
+                     <br/>  Hyperkalemia (see P
+ 
+  <content styleCode="bold">RECAUTIONS, Hyperkalemia</content>), hyponatremia.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Creatinine, Blood Urea Nitrogen</content>
+                     </content>
+                     <br/>  In controlled clinical trials minor increases in blood urea nitrogen and serum creatinine, reversible upon discontinuation of therapy, were observed in about 0.2 percent of patients with essential hypertension treated with enalapril maleate alone. Increases are more likely to occur in patients receiving concomitant diuretics or in patients with renal artery stenosis (see
+ 
+  <content styleCode="bold">PRECAUTIONS, Impaired Renal Function</content>). In patients with heart failure who were also receiving diuretics with or without digitalis, increases in blood urea nitrogen or serum creatinine, usually reversible upon discontinuation of enalapril maleate and/or other concomitant diuretic therapy, were observed in about 11 percent of patients. Increases in blood urea nitrogen or creatinine were a cause for discontinuation in 1.2 percent of patients.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Hematology</content>
+                     </content>
+                     <br/>  Small decreases in hemoglobin and hematocrit (mean decreases of approximately 0.3 g percent and 1.0 vol percent, respectively) occur frequently in either hypertension or congestive heart failure patients treated with enalapril maleate but are rarely of clinical importance unless another cause of anemia coexists. In clinical trials, less than 0.1 percent of patients discontinued therapy due to anemia. Hemolytic anemia, including cases of hemolysis in patients with G6PD deficiency, has been reported; a causal relationship to enalapril cannot be excluded.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Liver Function Tests </content>
+                     </content>
+                     <br/>  Elevations of liver enzymes and/or serum bilirubin have occurred (see 
+ 
+  <content styleCode="bold">WARNINGS, Hepatic Failure</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  To report SUSPECTED ADVERSE REACTIONS, contact ScieGen Pharmaceutical, Inc. at 1-855-724-3436 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250211"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld4ee5e4e-bac1-41a6-850f-78ff732d60c8">
+               <id root="30905104-4d96-a4dc-e063-6394a90a120d"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>Limited data are available in regard to overdosage in humans.</paragraph>
+                  <paragraph>
+                     <br/>  Single oral doses of enalapril above 1,000 mg/kg and ≥1,775 mg/kg were associated with lethality in mice and rats, respectively.
+ </paragraph>
+                  <paragraph>
+                     <br/>  The most likely manifestation of overdosage would be hypotension, for which the usual treatment would be intravenous infusion of normal saline solution.
+ </paragraph>
+                  <paragraph>
+                     <br/>  Enalaprilat may be removed from general circulation by hemodialysis and has been removed from neonatal circulation by peritoneal dialysis (see
+ 
+  <content styleCode="bold">WARNINGS, Anaphylactoid Reactions During Membrane Exposure</content>).
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250211"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb584ad6b-7cb2-4d08-80e5-baac6aad0073">
+               <id root="30905104-4d97-a4dc-e063-6394a90a120d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Hypertension</content>
+                     <br/>  In patients who are currently being treated with a diuretic, symptomatic hypotension occasionally may occur following the initial dose of enalapril maleate. The diuretic should, if possible, be discontinued for two to three days before beginning therapy with enalapril maleate to reduce the likelihood of hypotension (see
+ 
+  <content styleCode="bold">WARNINGS, Hypotension</content>). If the patients blood pressure is not controlled with enalapril maleate alone, diuretic therapy may be resumed. 
+
+ </paragraph>
+                  <paragraph>If the diuretic cannot be discontinued an initial dose of 2.5 mg should be used under medical supervision for at least two hours and until blood pressure has stabilized for at least an additional hour (see
+ 
+  <content styleCode="bold">WARNINGS, Hypotension</content>and
+ 
+  <content styleCode="bold">PRECAUTIONS, Drug Interactions</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  The recommended initial dose in patients not on diuretics is 5 mg once a day. Dosage should be adjusted according to blood pressure response. The usual dosage range is 10 to 40 mg per day administered in a single dose or two divided doses. In some patients treated once daily, the antihypertensive effect may diminish toward the end of the dosing interval. In such patients, an increase in dosage or twice daily administration should be considered. If blood pressure is not controlled with enalapril maleate alone, a diuretic may be added. Concomitant administration of enalapril maleate with potassium supplements, potassium salt substitutes, or potassium-sparing diuretics may lead to increases of serum potassium (see
+ 
+  <content styleCode="bold">PRECAUTIONS</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Dosage Adjustment in Hypertensive Patients with Renal Impairment </content>
+                  </paragraph>
+                  <paragraph>The usual dose of enalapril is recommended for patients with a creatinine clearance more than 30 mL/min (serum creatinine of up to approximately 3 mg/dL). For patients with creatinine clearance less than or equal to 30 mL/min (serum creatinine more than or equal to 3 mg/dL), the first dose is 2.5 mg once daily. The dosage may be titrated upward until blood pressure is controlled or to a maximum of 40 mg daily.</paragraph>
+                  <table width="100%" border="5">
+                     <caption/>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Renal Status</content>
+                           </td>
+                           <td align="center">
+                              <content styleCode="bold">Creatinine Clearance mL/min</content>
+                           </td>
+                           <td align="center">
+                              <content styleCode="bold">Initial Dose mg/day</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Normal Renal Function</td>
+                           <td align="center">&gt;80 mL/min</td>
+                           <td align="center">5 mg</td>
+                        </tr>
+                        <tr>
+                           <td> Mild Impairment </td>
+                           <td align="center">≤80 &gt;30 mL/min</td>
+                           <td align="center">5 mg</td>
+                        </tr>
+                        <tr>
+                           <td> Moderate to Severe Impairment </td>
+                           <td align="center">≤30 mL/min</td>
+                           <td align="center">2.5 mg</td>
+                        </tr>
+                        <tr>
+                           <td>Dialysis Patients
+    
+     <sup>1</sup>
+                           </td>
+                           <td align="center">-</td>
+                           <td align="center">
+                              <paragraph>2.5 mg on dialysis</paragraph>
+                              <paragraph>days
+     
+      <sup>2</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <sup>1</sup>See
+ 
+  <content styleCode="bold">WARNINGS, Anaphylactoid Reactions during membrane exposure.</content>
+                  </paragraph>
+                  <paragraph>
+                     <sup>2</sup>Dosage on nondialysis days should be adjusted depending on the blood pressure response.
+
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Heart Failure</content>
+                  </paragraph>
+                  <paragraph>Enalapril maleate is indicated for the treatment of symptomatic heart failure, usually in combination with diuretics and digitalis. In the placebocontrolled studies that demonstrated improved survival, patients were titrated as tolerated up to 40 mg, administered in two divided doses. </paragraph>
+                  <paragraph>The recommended initial dose is 2.5 mg. The recommended dosing range is 2.5 to 20 mg given twice a day. Doses should be titrated upward, as tolerated, over a period of a few days or weeks. The maximum daily dose administered in clinical trials was 40 mg in divided doses.</paragraph>
+                  <paragraph>
+                     <br/>  After the initial dose of enalapril maleate, the patient should be observed under medical supervision for at least two hours and until blood pressure has stabilized for at least an additional hour (see
+ 
+  <content styleCode="bold">WARNINGS </content>and
+ 
+  <content styleCode="bold">PRECAUTIONS, Drug Interactions</content>). If possible, the dose of any concomitant diuretic should be reduced which may diminish the likelihood of hypotension. The appearance of hypotension after the initial dose of enalapril maleate does not preclude subsequent careful dose titration with the drug, following effective management of the hypotension.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Asymptomatic Left Ventricular Dysfunction</content>
+                     <br/>  In the trial that demonstrated efficacy, patients were started on 2.5 mg twice daily and were titrated as tolerated to the targeted daily dose of 20 mg (in divided doses).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  After the initial dose of enalapril maleate, the patient should be observed under medical supervision for at least two hours and until blood pressure has stabilized for at least an additional hour (see
+ 
+  <content styleCode="bold">WARNINGS </content>and
+ 
+  <content styleCode="bold">PRECAUTIONS, Drug Interactions</content>). If possible, the dose of any concomitant diuretic should be reduced which may diminish the likelihood of hypotension. The appearance of hypotension after the initial dose of enalapril maleate does not preclude subsequent careful dose titration with the drug, following effective management of the hypotension.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Dosage Adjustment in Patients with Heart Failure and Renal Impairment or Hyponatremia</content>
+                  </paragraph>
+                  <paragraph>In patients with heart failure who have hyponatremia (serum sodium less than 130 mEq/L) or with serum creatinine greater than 1.6 mg/dL, therapy should be initiated at 2.5 mg daily under close medical supervision (see
+ 
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION, Heart Failure, WARNINGS</content>and
+ 
+  <content styleCode="bold">PRECAUTIONS, Drug Interactions</content>). The dose may be increased to 2.5 mg b.i.d., then 5 mg b.i.d. and higher as needed, usually at intervals of four days or more if at the time of dosage adjustment there is not excessive hypotension or significant deterioration of renal function. The maximum daily dose is 40 mg.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Pediatric Hypertensive Patients</content>
+                     <br/>  The usual recommended starting dose is 0.08 mg/kg (up to 5 mg) once daily. Dosage should be adjusted according to blood pressure response. Doses above 0.58 mg/kg (or in excess of 40 mg) have not been studied in pediatric patients (see
+ 
+  <content styleCode="bold">C</content>
+                     <content styleCode="bold">LINICAL PHARMACOLOGY, Clinical Pharmacology in Pediatric Patients</content>).
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  Enalapril maleate is not recommended in neonates and in pediatric patients with glomerular filtration rate less than 30 mL/min/1.73 m
+ 
+  <sup>2</sup>, as no data are available.
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Preparation of Suspension (for 200 mL of a 1.0 mg/mL suspension)</content>
+                  </paragraph>
+                  <paragraph>Add 50 mL of sodium citrate and citric acid oral solution, USP to a polyethylene terephthalate (PET) bottle containing ten 20 mg enalapril maleate tablets and shake for at least 2 minutes. Let concentrate stand for 60 minutes. Following the 60-minute hold time, shake the concentrate for an additional minute. Add 150 mL of Ora-Sweet SF to the concentrate in the PET bottle and shake the suspension to disperse the ingredients. The suspension should be refrigerated at 2°C to 8°C (36°F to 46°F) and can be stored for up to 30 days. Shake the suspension before each use. </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc3de2e1c-7afe-4eaf-a2df-8d9864157af0">
+               <id root="30905104-4d98-a4dc-e063-6394a90a120d"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>Enalapril maleate tablets, USP are supplied as follows:</paragraph>
+                  <paragraph>
+                     <br/>  2.5 mg tablets: 
+  <br/>  White, round, biconvex tablet, debossed with “333” on one side and plain with a bisect on the other side; supplied in 
+ </paragraph>
+                  <paragraph>Bottles of 100: NDC 50228-228-01 
+  <br/>  Bottles of 1000: NDC 50228-228-10
+ </paragraph>
+                  <paragraph>
+                     <br/>  5 mg tablets: 
+  <br/>  White, round, biconvex tablet, debossed with “334” on one side and plain with a bisect on the other side; supplied in 
+ </paragraph>
+                  <paragraph>Bottles of 100: NDC 50228-229-01 
+  <br/>  Bottles of 1000: NDC 50228-229-10
+ </paragraph>
+                  <paragraph>
+                     <br/>  10 mg tablets: 
+  <br/>  White, round, biconvex tablet, debossed with “335” on one side and plain with a bisect on the other side; supplied in 
+  <br/>  Bottles of 100: NDC 50228-230-01 
+  <br/>  Bottles of 1000: NDC 50228-230-10
+ </paragraph>
+                  <paragraph>20 mg tablets: 
+  <br/>  White, round, biconvex tablet, debossed with “336” on one side and plain with a bisect on the other side; supplied in 
+  <br/>  Bottles of 100: NDC 50228-231-01 
+  <br/>  Bottles of 1000: NDC 50228-231-10
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage</content>
+                     <br/>  Store at 20°C to 25°C (68°F to 77°F); excursions permitted from 15°C to 30°C (59°F to 86°F) [see USP Controlled Room Temperature].
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  Keep container tightly closed. Protect from moisture.
+ </paragraph>
+                  <paragraph>
+                     <br/>  Dispense in a tight container as per USP, if product package is subdivided.
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Dispense the Prescribing Information at: https://sciegenpharm.com/medication-guide/</content>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Manufactured by</content>
+                     <br/>  A&amp;Z Pharmaceutical, Inc., 
+  <br/>  180 Oser Ave. Suite 300 
+  <br/>  Hauppauge, NY 11788
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Manufactured for</content>
+                     <br/>  ScieGen Pharmaceuticals, Inc. 
+  <br/>  Hauppauge, NY 11788
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250211"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L81c57d4e-1ea2-404f-90ba-2ea035553943">
+               <id root="30905104-4d99-a4dc-e063-6394a90a120d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">Enalapril Maleate Tablets USP 2.5 mg-Container Label</content>
+               </title>
+               <text>
+                  <paragraph>Each tablet contains: 2.5 mg enalapril maleate.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:</content>
+                     <br/>  ScieGen Pharmaceuticals, Inc.
+
+ </paragraph>
+                  <paragraph>Hauppauge, NY 11788 
+  <br/>
+                     <renderMultiMedia referencedObject="L3e94eea6-9dd0-46da-8587-a4a1a170596f"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L0f8ac11a-367d-4409-aa34-f04305040d97"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+               <component>
+                  <observationMedia ID="L3e94eea6-9dd0-46da-8587-a4a1a170596f">
+                     <text>2-5mg-label-100s</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label-2-5mg-100s.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L0f8ac11a-367d-4409-aa34-f04305040d97">
+                     <text>2-5mg-label-1000s</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label-2-5mg-1000s.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc8074a8c-98e0-4ea9-9505-04e02a72ada3">
+               <id root="30905104-4d9a-a4dc-e063-6394a90a120d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">Enalapril Maleate Tablets USP 5 mg-Container Label</content>
+               </title>
+               <text>
+                  <paragraph>Each tablet contains: 5 mg enalapril maleate.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:</content>
+                     <br/>  ScieGen Pharmaceuticals, Inc. 
+  <br/>  Hauppauge, NY 11788
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L3d425e53-a042-4c0c-a8f4-f100bbcbc323"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L42581cc5-f23a-4a3f-bfab-88d423c450f3"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+               <component>
+                  <observationMedia ID="L3d425e53-a042-4c0c-a8f4-f100bbcbc323">
+                     <text>5mg-label-100</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label-5mg-100s.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L42581cc5-f23a-4a3f-bfab-88d423c450f3">
+                     <text>5mg-label-1000</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label-5mg-1000s.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L77187b2f-1e39-47a2-8875-5afb7f1e5695">
+               <id root="30905104-4d9b-a4dc-e063-6394a90a120d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">Enalapril Maleate Tablets USP 10 mg-Container Label</content>
+               </title>
+               <text>
+                  <paragraph>Each tablet contains: 10 mg enalapril maleate.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:</content>
+                     <br/>  ScieGen Pharmaceuticals, Inc. 
+  <br/>  Hauppauge, NY 11788
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L655c0c61-2183-402b-b3d2-ddf6f03d8f0a"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L2f4e044b-ac85-41b5-b285-8d31a77c246e"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250317"/>
+               <component>
+                  <observationMedia ID="L655c0c61-2183-402b-b3d2-ddf6f03d8f0a">
+                     <text>10mg-label-100</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label-10mg-100s.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L2f4e044b-ac85-41b5-b285-8d31a77c246e">
+                     <text>10mg-label-1000</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label-10mg-1000s.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L0faac465-b458-4ee3-810d-0a5139e913f2">
+               <id root="30905104-4d9c-a4dc-e063-6394a90a120d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">Enalapril Maleate Tablets USP 20 mg-Container Label</content>
+               </title>
+               <text>
+                  <paragraph>Each tablet contains:20 mg enalapril maleate.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:</content>
+                     <br/>  ScieGen Pharmaceuticals, Inc. 
+  <br/>  Hauppauge, NY 11788
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L8055cb91-e472-4053-b622-ee892cab7576"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L7724b412-d797-460a-82bd-c03783003222"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250219"/>
+               <component>
+                  <observationMedia ID="L8055cb91-e472-4053-b622-ee892cab7576">
+                     <text>20mg-label-100</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label-20mg-100s.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L7724b412-d797-460a-82bd-c03783003222">
+                     <text>20mg-label-1000</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label-20mg-1000s.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

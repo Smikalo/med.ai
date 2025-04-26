@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="313ea16d-d9b2-654d-e063-6294a90aa6ed"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>PHENOBARBITAL TABLETS, USP CIV
+ <br/>
+      <br/>
+Rx Only
+ <br/>
+      <br/>
+Rev. Jan 2022
+</title>
+   <effectiveTime value="20250326"/>
+   <setId root="313eab52-56fa-2a20-e063-6294a90a612f"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="119003108"/>
+            <name>Coupler LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="119003108"/>
+                        <name>Coupler LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="67046-1543" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="313ee13c-cab4-81d4-e063-6394a90a5115"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250326"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67046-1543" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Phenobarbital</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Phenobarbital</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="75826-142" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="97.2"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="YQE403BP4D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENOBARBITAL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="YQE403BP4D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENOBARBITAL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67046-1543-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250326"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250326"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="10" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">W;L;142</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48677" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CIV"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="313ea16d-d9b3-654d-e063-6294a90aa6ed"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text/>
+               <effectiveTime value="20220125"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DESCRIPTION">
+               <id root="313ee051-b38d-87cf-e063-6294a90a8c14"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>The barbiturates are nonselective central nervous system (CNS) depressants primarily used as sedative-hypnotics. In subhypnotic doses, they are also used as anticonvulsants. The barbiturates and their sodium salts are subject to control under the Federal Controlled Substances Act.</paragraph>
+                  <paragraph>Phenobarbital is a barbituric acid derivative for oral administration and occurs as a white, odorless, slightly bitter powder that is soluble in chloroform, freely soluble in alcohol or ether, and slightly soluble in water. Its saturated solution has a pH of about 5.6. Chemically, it is 5-ethyl-5-phenylbarbituric acid with the molecular formula C 
+  <sub>12</sub>H 
+  <sub>12</sub>N 
+  <sub>2</sub>O 
+  <sub>3</sub>(232.24).
+ </paragraph>
+                  <paragraph>The structural formula is as follows:</paragraph>
+                  <paragraph/>
+                  <paragraph>Each Phenobarbital Tablet, USP contains 15 mg, 16.2 mg, 30 mg, 32.4 mg, 60 mg, 64.8 mg, 97.2 mg, or 100 mg of phenobarbital, USP.</paragraph>
+                  <paragraph>Inactive ingredients are as follows:</paragraph>
+                  <paragraph>Microcrystalline Cellulose; Lactose Monohydrate; Sodium Starch Glycolate, Type-A; Colloidal Silicon Dioxide; Magnesium Stearate</paragraph>
+               </text>
+               <effectiveTime value="20180920"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CP">
+               <id root="313ea16d-d9b5-654d-e063-6294a90aa6ed"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Phenobarbital, a long-acting barbiturate, is a central nervous system depressant. In ordinary doses, the drug acts as a sedative and anticonvulsant. Its onset of action occurs within 30 minutes, and the duration of action ranges from 5 to 6 hours. It is detoxified in the liver.</paragraph>
+               </text>
+               <effectiveTime value="20180920"/>
+            </section>
+         </component>
+         <component>
+            <section ID="IU">
+               <id root="313ea16d-d9b6-654d-e063-6294a90aa6ed"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Phenobarbital Tablets, USP are indicated for use as a sedative or anticonvulsant.</paragraph>
+               </text>
+               <effectiveTime value="20180920"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CONTRAINDICATIONS">
+               <id root="313ea16d-d9b7-654d-e063-6294a90aa6ed"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Phenobarbital is contraindicated in patients who are hypersensitive to barbiturates. In such patients, severe hepatic damage can occur from ordinary doses and is usually associated with dermatitis and involvement of parenchymatous organs. A personal or familial history of acute intermittent porphyria represents one of the few absolute contraindications to the use of barbiturates. Phenobarbital is also contraindicated in patients with marked impairment of liver function, or respiratory disease in which dyspnea or obstruction is evident. It should not be administered to persons with known previous addiction to the sedative/hypnotic group, since ordinary doses may be ineffectual and may contribute to further addiction.</paragraph>
+               </text>
+               <effectiveTime value="20180920"/>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS">
+               <id root="313ea16d-d9b8-654d-e063-6294a90aa6ed"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>In small doses, the barbiturates may increase the reaction to painful stimuli. Taken by themselves, the barbiturates cannot be relied upon to relieve pain or even to produce sedation or sleep in the presence of severe pain.</paragraph>
+               </text>
+               <effectiveTime value="20180920"/>
+            </section>
+         </component>
+         <component>
+            <section ID="PRECAUTIONS">
+               <id root="313ea16d-d9b9-654d-e063-6294a90aa6ed"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20180920"/>
+               <component>
+                  <section>
+                     <id root="313ea16d-d9ba-654d-e063-6294a90aa6ed"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General Precautions</title>
+                     <text>
+                        <paragraph>Barbiturates induce liver microsomal enzyme activity. This accelerates the biotransformation of various drugs and is probably part of the mechanism of the tolerance encountered with barbiturates.</paragraph>
+                        <paragraph>Phenobarbital, therefore, should be used with caution in patients with decreased liver function. This drug should also be administered cautiously to patients with a history of drug dependence or abuse (see
+ 
+  <content styleCode="bold">
+                              <linkHtml href="#ABUSE">DRUG ABUSE AND DEPENDENCE</linkHtml>
+                           </content>).
+
+ </paragraph>
+                        <paragraph>Phenobarbital may decrease the potency of coumarin anticoagulants; therefore, patients receiving such concomitant therapy should have more frequent prothrombin determinations. As with other sedatives and hypnotics, elderly or debilitated patients may react to barbiturates with marked excitement, depression, or confusion.</paragraph>
+                        <paragraph>The systemic effects of exogenous hydrocortisone and endogenous hydrocortisone (cortisol) may be diminished by phenobarbital. Thus, this product should be administered with caution to patients with borderline hypoadrenal function, regardless of whether it is of pituitary or of primary adrenal origin.</paragraph>
+                     </text>
+                     <effectiveTime value="20180920"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="313ea16d-d9bb-654d-e063-6294a90aa6ed"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Phenobarbital may impair the mental and/or physical abilities required for the performance of potentially hazardous tasks, such as driving a car or operating machinery. The patient should be cautioned accordingly.</paragraph>
+                     </text>
+                     <effectiveTime value="20180920"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="313ea16d-d9bc-654d-e063-6294a90aa6ed"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Phenobarbital in combination with alcohol, tranquilizers, and other central nervous system depressants has additive depressant effects, and the patient should be so advised. Patients taking this drug should be warned not to exceed the dosage recommended by their physician. Toxic effects and fatalities have occurred following overdoses of phenobarbital alone and in combination with other central nervous system depressants. Caution should be exercised in prescribing unnecessarily large amounts of phenobarbital for patients who have a history of emotional disturbances or suicidal ideation or who have misused alcohol and other CNS drugs (see
+ 
+  <content styleCode="bold">
+                              <linkHtml href="#OVERDOSAGE">OVERDOSAGE</linkHtml>
+                           </content>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180920"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="313ea16d-d9bd-654d-e063-6294a90aa6ed"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Usage in Pregnancy</title>
+                     <effectiveTime value="20180920"/>
+                     <component>
+                        <section>
+                           <id root="313ea16d-d9be-654d-e063-6294a90aa6ed"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Pregnancy Category B</title>
+                           <text>
+                              <paragraph>Reproduction studies have been performed in animals and have revealed no evidence of impaired fertility or harm to the fetus due to phenobarbital. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed and under the supervision of a physician .</paragraph>
+                           </text>
+                           <effectiveTime value="20180920"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="313ea16d-d9bf-654d-e063-6294a90aa6ed"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Caution should be exercised when phenobarbital is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20180920"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="AR">
+               <id root="313ea16d-d9c0-654d-e063-6294a90aa6ed"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions have been reported:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CNS Depression:</content>
+                  </paragraph>
+                  <paragraph>Residual sedation or "hangover," drowsiness, lethargy, and vertigo. Emotional disturbances and phobias may be accentuated. In some persons, barbiturates such as phenobarbital repeatedly produce excitement rather than depression, and the patient may appear to be inebriated. Like other nonanalgesic hypnotic drugs, barbiturates, such as phenobarbital, when given in the presence of pain, may cause restlessness, excitement, and even delirium. Rarely, the use of barbiturates results in localized or diffused myalgic, neuralgic, or arthritic pain, especially in psychoneurotic patients with insomnia. The pain may appear in paroxysms, is most intense in the early morning hours, and is most frequently located in the region of the neck, shoulder girdle, and upper limbs. Symptoms may last for days after the drug is discontinued.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory/Circulatory:</content>
+                  </paragraph>
+                  <paragraph>Respiratory depression, apnea, circulatory collapse.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Allergic:</content>
+                  </paragraph>
+                  <paragraph>Acquired hypersensitivity to barbiturates consists chiefly in allergic reactions that occur especially in persons who tend to have asthma, urticaria, angioedema, and similar conditions. Hypersensitivity reactions in this category include localized swelling, particularly of the eyelids, cheeks, or lips, and erythematous dermatitis. Rarely, exfoliative dermatitis (e.g., Stevens-Johnson syndrome and toxic epidermal necrolysis) may be caused by phenobarbital and can prove fatal. The skin eruption may be associated with fever, delirium, and marked degenerative changes in the liver and other parenchymatous organs. In a few cases, megaloblastic anemia has been associated with the chronic use of phenobarbital.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other:</content>
+                  </paragraph>
+                  <paragraph>Nausea and vomiting; headache.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Winder Laboratories, LLC at 1-770-307-0703, or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220125"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ABUSE">
+               <id root="313ea16d-d9c1-654d-e063-6294a90aa6ed"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <effectiveTime value="20180920"/>
+               <component>
+                  <section>
+                     <id root="313ea16d-d9c2-654d-e063-6294a90aa6ed"/>
+                     <code code="34085-1" codeSystem="2.16.840.1.113883.6.1" displayName="CONTROLLED SUBSTANCE SECTION"/>
+                     <title>Controlled Substance</title>
+                     <text>
+                        <paragraph>Phenobarbital is a Schedule IV drug.</paragraph>
+                     </text>
+                     <effectiveTime value="20180920"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="313ea16d-d9c3-654d-e063-6294a90aa6ed"/>
+                     <code code="34087-7" codeSystem="2.16.840.1.113883.6.1" displayName="DEPENDENCE SECTION"/>
+                     <title>Dependence</title>
+                     <text>
+                        <paragraph>Prolonged, uninterrupted use of barbiturates (particularly the short-acting drugs), even in therapeutic doses, may result in psychic and physical dependence. Withdrawal symptoms due to physical dependence following chronic use of large doses of barbiturates may include delirium, convulsions, and death.</paragraph>
+                     </text>
+                     <effectiveTime value="20180920"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="OVERDOSAGE">
+               <id root="313ea16d-d9c4-654d-e063-6294a90aa6ed"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>The signs and symptoms of barbiturate poisoning are referable especially to the central nervous system and the cardiovascular system. Moderate intoxication resembles alcoholic inebriation. In severe intoxication, the patient is comatose, the level of reflex activity conforming in a general way to the intensity of the central depression. The deep reflexes may persist for some time despite coexistent coma. The Babinski sign is often positive. The EEG may be of the "burst-suppression" type, with brief periods of electrical silence. The pupils may be constricted and react to light, but late in the course of barbiturate poisoning they may show hypoxic paralytic dilatation. Respiration is affected early.</paragraph>
+                  <paragraph>Breathing may be either slow or rapid and shallow; Cheyne-Stokes rhythm may be present. Respiratory minute volume is diminished, and hypoxia and respiratory acidosis may develop. The blood pressure falls, owing partly to depression of medullary vasomotor centers; partly to a direct action of the drug on the myocardium, sympathetic ganglia, and vascular smooth muscle; partly to hypoxia.</paragraph>
+                  <paragraph>The patient thus develops a typical shock syndrome, with a weak and rapid pulse, cold and clammy skin, and a rise in the hematocrit. Respiratory complications (atelectasis, pulmonary edema, and bronchopneumonia) and renal failure are much dreaded and not infrequent concomitant of severe barbiturate poisoning. There is usually hypothermia, sometimes with temperatures as low as 32°C.</paragraph>
+               </text>
+               <effectiveTime value="20180920"/>
+               <component>
+                  <section>
+                     <id root="313ea16d-d9c5-654d-e063-6294a90aa6ed"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment</title>
+                     <text>
+                        <paragraph>General management should consist of symptomatic and supportive therapy, including gastric lavage, administration of intravenous fluids, and maintenance of blood pressure, body temperature and adequate respiratory exchange. Dialysis will increase the rate of removal of barbiturates from the body fluids. Antibiotics may be required to control pulmonary complications.</paragraph>
+                     </text>
+                     <effectiveTime value="20180920"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="DA">
+               <id root="313ea16d-d9c6-654d-e063-6294a90aa6ed"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Oral Sedative Dose, Adults:</content>30 to 120 mg daily in 2 or 3 divided doses.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Children:</content>6 mg/kg of body weight daily in 3 divided doses.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Oral Hypnotic Dose, Adults:</content>100 to 320 mg.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Oral Anticonvulsant Dose, Adults:</content>50 to 100 mg 2 or 3 times daily.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Children:</content>15 to 50 mg 2 or 3 times daily.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20220125"/>
+            </section>
+         </component>
+         <component>
+            <section ID="HS">
+               <id root="313ea16d-d9c7-654d-e063-6294a90aa6ed"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Phenobarbital Tablets, USP 15 mg:</paragraph>
+                  <paragraph>White, Round Tablet; Debossed WL on one side and 136 on the other side.</paragraph>
+                  <table width="50%" styleCode="Noautorules">
+                     <col align="left" valign="top" width="50%"/>
+                     <col align="left" valign="top" width="50%"/>
+                     <tbody>
+                        <tr>
+                           <td>Bottles of 90 tablets</td>
+                           <td>NDC 75826-136-90</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 100 tablets</td>
+                           <td>NDC 75826-136-10</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 500 tablets</td>
+                           <td>NDC 75826-136-50</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 1000 tablets</td>
+                           <td>NDC 75826-136-00</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Phenobarbital Tablets, USP 16.2 mg (¼ grain):</paragraph>
+                  <paragraph>White, Round, Scored Tablet; Debossed WL on one side and 137 on the other side.</paragraph>
+                  <table width="50%" styleCode="Noautorules">
+                     <col align="left" valign="top" width="50%"/>
+                     <col align="left" valign="top" width="50%"/>
+                     <tbody>
+                        <tr>
+                           <td>Bottles of 90 tablets</td>
+                           <td>NDC 75826-137-90</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 100 tablets</td>
+                           <td>NDC 75826-137-10</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 500 tablets</td>
+                           <td>NDC 75826-137-50</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 1000 tablets</td>
+                           <td>NDC 75826-137-00</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Phenobarbital Tablets, USP 30 mg:</paragraph>
+                  <paragraph>White, Round, Scored Tablet; Debossed WL on one side and 138 on the other side.</paragraph>
+                  <table width="50%" styleCode="Noautorules">
+                     <col align="left" valign="top" width="50%"/>
+                     <col align="left" valign="top" width="50%"/>
+                     <tbody>
+                        <tr>
+                           <td>Bottles of 90 tablets</td>
+                           <td>NDC 75826-138-90</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 100 tablets</td>
+                           <td>NDC 75826-138-10</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 500 tablets</td>
+                           <td>NDC 75826-138-50</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 1000 tablets</td>
+                           <td>NDC 75826-138-00</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Phenobarbital Tablets, USP 32.4 mg (½ grain):</paragraph>
+                  <paragraph>White, Round, Scored Tablet; Debossed WL on one side and 139 on the other side.</paragraph>
+                  <table width="50%" styleCode="Noautorules">
+                     <col align="left" valign="top" width="50%"/>
+                     <col align="left" valign="top" width="50%"/>
+                     <tbody>
+                        <tr>
+                           <td>Bottles of 90 tablets</td>
+                           <td>NDC 75826-139-90</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 100 tablets</td>
+                           <td>NDC 75826-139-10</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 500 tablets</td>
+                           <td>NDC 75826-139-50</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 1000 tablets</td>
+                           <td>NDC 75826-139-00</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Phenobarbital Tablets, USP 60 mg:</paragraph>
+                  <paragraph>White, Round Tablet; Debossed WL on one side and 140 on the other side.</paragraph>
+                  <table width="50%" styleCode="Noautorules">
+                     <col align="left" valign="top" width="50%"/>
+                     <col align="left" valign="top" width="50%"/>
+                     <tbody>
+                        <tr>
+                           <td>Bottles of 90 tablets</td>
+                           <td>NDC 75826-140-90</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 100 tablets</td>
+                           <td>NDC 75826-140-10</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 500 tablets</td>
+                           <td>NDC 75826-140-50</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 1000 tablets</td>
+                           <td>NDC 75826-140-00</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Phenobarbital Tablets, USP 64.8 mg (1 grain):</paragraph>
+                  <paragraph>White, Round, Scored Tablet; Debossed WL on one side and 141 on the other side.</paragraph>
+                  <table width="50%" styleCode="Noautorules">
+                     <col align="left" valign="top" width="50%"/>
+                     <col align="left" valign="top" width="50%"/>
+                     <tbody>
+                        <tr>
+                           <td>Bottles of 90 tablets</td>
+                           <td>NDC 75826-141-90</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 100 tablets</td>
+                           <td>NDC 75826-141-10</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 500 tablets</td>
+                           <td>NDC 75826-141-50</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 1000 tablets</td>
+                           <td>NDC 75826-141-00</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Phenobarbital Tablets, USP 97.2 mg (1½ grain):</paragraph>
+                  <paragraph>White, Round, Scored Tablet; Debossed WL on one side and 142 on the other side.</paragraph>
+                  <table width="50%" styleCode="Noautorules">
+                     <col align="left" valign="top" width="50%"/>
+                     <col align="left" valign="top" width="50%"/>
+                     <tbody>
+                        <tr>
+                           <td>Bottles of 90 tablets</td>
+                           <td>NDC 75826-142-90</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 100 tablets</td>
+                           <td>NDC 75826-142-10</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 500 tablets</td>
+                           <td>NDC 75826-142-50</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 1000 tablets</td>
+                           <td>NDC 75826-142-00</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Phenobarbital Tablets, USP 100 mg:</paragraph>
+                  <paragraph>White, Round, Scored Tablet; Debossed WL on one side and 143 on the other side.</paragraph>
+                  <table width="50%" styleCode="Noautorules">
+                     <col align="left" valign="top" width="50%"/>
+                     <col align="left" valign="top" width="50%"/>
+                     <tbody>
+                        <tr>
+                           <td>Bottles of 90 tablets</td>
+                           <td>NDC 75826-143-90</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 100 tablets</td>
+                           <td>NDC 75826-143-10</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 500 tablets</td>
+                           <td>NDC 75826-143-50</td>
+                        </tr>
+                        <tr>
+                           <td>Bottles of 1000 tablets</td>
+                           <td>NDC 75826-143-00</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20180920"/>
+               <component>
+                  <section>
+                     <id root="313ea16d-d9c8-654d-e063-6294a90aa6ed"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature]. Protect from light and moisture.</paragraph>
+                        <paragraph>Dispense in a tight, light-resistant container as defined in the USP using a child-resistant closure.</paragraph>
+                     </text>
+                     <effectiveTime value="20180920"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="313ea16d-d9c9-654d-e063-6294a90aa6ed"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Manufactured by: 
+  <br/>  Winder Laboratories, LLC. 
+  <br/>  Winder, GA 30680 
+  <br/>
+                     <br/>  RLS.135.99-1.0 
+  <br/>  Updated: Jan 2022
+ </paragraph>
+               </text>
+               <effectiveTime value="20220125"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_313eda42-819d-7889-e063-6394a90a6105">
+               <id root="313ee051-b38c-87cf-e063-6294a90a8c14"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_313ed8ef-1da1-7d31-e063-6394a90af898"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250326"/>
+               <component>
+                  <observationMedia ID="img_313ed8ef-1da1-7d31-e063-6394a90af898">
+                     <text>label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="75826-142-10 PHENOBARBITAL 97.2MG_67046-1543-30.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

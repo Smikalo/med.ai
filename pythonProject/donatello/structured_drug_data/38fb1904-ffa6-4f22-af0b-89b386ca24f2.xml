@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="38fb1904-ffa6-4f22-af0b-89b386ca24f2"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Timolol Maleate Ophthalmic Solution, USP<br/>0.25% and 0.5%</title>
+   <effectiveTime value="20250320"/>
+   <setId root="16323b0e-78ae-40e5-be93-04f698dd672b"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="079843051" root="1.3.6.1.4.1.519.1"/>
+            <name>Nordic Pharma, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="343390324" root="1.3.6.1.4.1.519.1"/>
+                        <name>Holopack Verpackungstechnik GmbH</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69918-602" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69918-601" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69918-602" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69918-601" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="361aa43a-da2f-4d61-848c-5b2f337fe8cf"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250320"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69918-602" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Timoptic in Ocudose</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Timolol Maleate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="2.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="P8Y54F701R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TIMOLOL MALEATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5JKY92S7BR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TIMOLOL ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3980JIH2SW" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, MONOBASIC, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="GR686LBA74" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="0.3"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="60"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="69918-602-60" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="completed"/>
+                                             <effectiveTime>
+                                                <low value="20220226"/>
+                                                <high value="20241215"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA212592" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20220226"/>
+                              <high value="20241215"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69918-601" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Timoptic in Ocudose</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Timolol Maleate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="P8Y54F701R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TIMOLOL MALEATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5JKY92S7BR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TIMOLOL ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3980JIH2SW" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, MONOBASIC, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="GR686LBA74" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="0.3"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="60"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="69918-601-60" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20220226"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA212592" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220226"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_57fcc278-2afe-44e7-84d6-3294b8c38c51">
+               <id root="98769b92-18f7-4b40-8d69-3e2bb9d2698b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>PRESERVATIVE-FREE STERILE OPHTHALMIC SOLUTION in a Sterile Ophthalmic <br/>Single-Dose Vial</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5ab6d32f-2d77-4280-9d64-a4a4fad264a2">
+               <id root="06d0b02c-ef41-4b0c-aa85-2433882999da"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Timolol maleate USP is a non-selective beta-adrenergic receptor blocking agent. Its chemical name is (-)-1-(tert-butylamino)-3-[(4-morpholino-1,2,5-thiadiazol-3-yl)oxy]-2-propanol maleate (1:1) (salt). Timolol maleate possesses an asymmetric carbon atom in its structure and is provided as the levo-isomer. The optical rotation of timolol maleate is:</paragraph>
+                  <table styleCode="Noautorules" width="65.84%">
+                     <col width="6%"/>
+                     <col width="10%"/>
+                     <col width="49%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="top">
+                              <paragraph>
+                                 <br/>[α]</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>25°<br/>
+                                 <br/>405 nm</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <br/>in 1.0N HCl (C = 5%) = -12.2° (-11.7° to -12.5°)</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Its molecular formula is C<sub>13</sub>H<sub>24</sub>N<sub>4</sub>O<sub>3</sub>S•C<sub>4</sub>H<sub>4</sub>O<sub>4</sub> and its structural formula is:</paragraph>
+                  <renderMultiMedia ID="id-1295913297" referencedObject="FC5D8BB3-4EBE-46EF-AF66-0ABF46D964EE"/>
+                  <paragraph>Timolol maleate has a molecular weight of 432.50. It is a white, odorless, crystalline powder which is soluble in water, methanol, and alcohol. Timolol maleate is stable at room temperature.</paragraph>
+                  <paragraph>Timolol maleate ophthalmic solution is supplied in two formulations: timolol maleate ophthalmic solution, which contains the preservative benzalkonium chloride; and timolol maleate ophthalmic solution, the preservative-free formulation.</paragraph>
+                  <paragraph>Preservative-free timolol maleate ophthalmic solution, USP is supplied in a single-dose vial, as a sterile, isotonic, buffered, aqueous solution of timolol maleate in two dosage strengths: Each mL of preservative-free timolol maleate ophthalmic solution USP 0.25% contains 2.5 mg of timolol (3.4 mg of timolol maleate). The pH of the solution is approximately 7.0, and the osmolarity is 252-328 mOsm. Each mL of Preservative-free timolol maleate ophthalmic solution USP 0.5% contains 5 mg of timolol (6.8 mg of timolol maleate). Inactive ingredients: monobasic and dibasic sodium phosphate, sodium hydroxide to adjust pH, and water for injection.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <observationMedia ID="FC5D8BB3-4EBE-46EF-AF66-0ABF46D964EE">
+                     <text>formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_cbef055e-a771-420c-b268-0c40b07930d6">
+               <id root="8d24d72c-0d95-4622-9a07-e8d5c8acaddb"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Mechanism of Action</content>
+                  </paragraph>
+                  <paragraph>Timolol maleate USP is a beta<sub>1</sub> and beta<sub>2 </sub>(non-selective) adrenergic receptor blocking agent that does not have significant intrinsic sympathomimetic, direct myocardial depressant, or local anesthetic (membrane-stabilizing) activity.</paragraph>
+                  <paragraph>Beta-adrenergic receptor blockade reduces cardiac output in both healthy subjects and patients with heart disease. In patients with severe impairment of myocardial function, beta-adrenergic receptor blockade may inhibit the stimulatory effect of the sympathetic nervous system necessary to maintain adequate cardiac function.</paragraph>
+                  <paragraph>Beta-adrenergic receptor blockade in the bronchi and bronchioles results in increased airway resistance from unopposed parasympathetic activity. Such an effect in patients with asthma or other bronchospastic conditions is potentially dangerous.</paragraph>
+                  <paragraph>Timolol maleate ophthalmic solution USP, when applied topically on the eye, has the action of reducing elevated as well as normal intraocular pressure, whether or not accompanied by glaucoma. Elevated intraocular pressure is a major risk factor in the pathogenesis of glaucomatous visual field loss. The higher the level of intraocular pressure, the greater the likelihood of glaucomatous visual field loss and optic nerve damage.</paragraph>
+                  <paragraph>The onset of reduction in intraocular pressure following administration of timolol maleate ophthalmic solution USP can usually be detected within one-half hour after a single dose. The maximum effect usually occurs in one to two hours and significant lowering of intraocular pressure can be maintained for periods as long as 24 hours with a single dose. Repeated observations over a period of one year indicate that the intraocular pressure-lowering effect of timolol maleate ophthalmic solution USP is well maintained.</paragraph>
+                  <paragraph>The precise mechanism of the ocular hypotensive action of timolol maleate ophthalmic solution USP is not clearly established at this time. Tonography and fluorophotometry studies in man suggest that its predominant action may be related to reduced aqueous formation. However, in some studies a slight increase in outflow facility was also observed.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Pharmacokinetics</content>
+                  </paragraph>
+                  <paragraph>In a study of plasma drug concentration in six subjects, the systemic exposure to timolol was determined following twice daily administration of timolol maleate ophthalmic solution USP 0.5%. The mean peak plasma concentration following morning dosing was 0.46 ng/mL and following afternoon dosing was 0.35 ng/mL.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Clinical Studies</content>
+                  </paragraph>
+                  <paragraph>In controlled multiclinic studies in patients with untreated intraocular pressures of 22 mmHg or greater, timolol maleate ophthalmic solution USP 0.25% or 0.5% administered twice a day produced a greater reduction in intraocular pressure than 1, 2, 3, or 4% pilocarpine solution administered four times a day or 0.5, 1, or 2% epinephrine hydrochloride solution administered twice a day.</paragraph>
+                  <paragraph>In these studies, timolol maleate ophthalmic solution USP was generally well tolerated and produced fewer and less severe side effects than either pilocarpine or epinephrine. A slight reduction of resting heart rate in some patients receiving timolol maleate ophthalmic solution USP (mean reduction 2.9 beats/minute standard deviation 10.2) was observed.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a5c9d682-e548-4c0e-aa6e-9d7e60b2a099">
+               <id root="5cdf2dae-d36d-4aa0-b131-d958713f760b"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Preservative-free timolol maleate ophthalmic solution USP in the unit dose vial is indicated in the treatment of elevated intraocular pressure in patients with ocular hypertension or open-angle glaucoma.</paragraph>
+                  <paragraph>Preservative-free timolol maleate ophthalmic solution USP in the unit dose vial may be used when a patient is sensitive to the preservative in timolol maleate ophthalmic solution USP, benzalkonium chloride, or when use of a preservative-free topical medication is advisable.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_393eb57c-bd71-493e-9a72-5454bed2a35b">
+               <id root="e784adef-0a16-4c35-8069-e8187205d95e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Preservative-free timolol maleate ophthalmic solution USP in the unit dose vial is contraindicated in patients with (1) bronchial asthma; (2) a history of bronchial asthma; (3) severe chronic obstructive pulmonary disease (see <linkHtml href="#ID_693cb00c-fe05-4d78-a80f-5d351f03f91e" title="WARNINGS">WARNINGS</linkHtml>); (4) sinus bradycardia; (5) second or third degree atrioventricular block; (6) overt cardiac failure (see <linkHtml href="#ID_693cb00c-fe05-4d78-a80f-5d351f03f91e" title="WARNINGS">WARNINGS</linkHtml>); (7) cardiogenic shock; or (8) hypersensitivity to any component of this product.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_693cb00c-fe05-4d78-a80f-5d351f03f91e">
+               <id root="775bda90-d3d7-4c25-9c09-291511ab794f"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>As with many topically applied ophthalmic drugs, this drug is absorbed systemically.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The same adverse reactions found with systemic administration of beta-adrenergic blocking agents may occur with topical administration. For example, severe respiratory reactions and cardiac reactions, including death due to bronchospasm in patients with asthma, and rarely death in association with cardiac failure, have been reported following systemic or ophthalmic administration of timolol maleate USP <content styleCode="bold"> (see </content>
+                        <content styleCode="bold">
+                           <linkHtml href="#ID_393eb57c-bd71-493e-9a72-5454bed2a35b">CONTRAINDICATIONS</linkHtml>
+                        </content>
+                        <content styleCode="bold">).</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiac Failure</content>
+                  </paragraph>
+                  <paragraph>Sympathetic stimulation may be essential for support of the circulation in individuals with diminished myocardial contractility, and its inhibition by beta-adrenergic receptor blockade may precipitate more severe failure.</paragraph>
+                  <paragraph>In Patients without a History of Cardiac Failure continued depression of the myocardium with beta-blocking agents over a period of time can, in some cases, lead to cardiac failure. At the first sign or symptom of cardiac failure, preservative-free timolol maleate ophthalmic solution USP in unit dose vial should be discontinued.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Obstructive Pulmonary Disease</content>
+                  </paragraph>
+                  <paragraph>Patients with chronic obstructive pulmonary disease (e.g., chronic bronchitis, emphysema) of mild or moderate severity, bronchospastic disease, or a history of bronchospastic disease (other than bronchial asthma or a history of bronchial asthma, in which timolol maleate ophthalmic solution USP is contraindicated [see <linkHtml href="#ID_393eb57c-bd71-493e-9a72-5454bed2a35b" title="CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>]) should, in general, not receive beta-blockers, including preservative-free timolol maleate ophthalmic solution USP in the unit dose vial.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Major Surgery</content>
+                  </paragraph>
+                  <paragraph>The necessity or desirability of withdrawal of beta-adrenergic blocking agents prior to major surgery is controversial. Beta-adrenergic receptor blockade impairs the ability of the heart to respond to beta-adrenergically mediated reflex stimuli. This may augment the risk of general anesthesia in surgical procedures. Some patients receiving beta-adrenergic receptor blocking agents have experienced protracted severe hypotension during anesthesia. Difficulty in restarting and maintaining the heartbeat has also been reported. For these reasons, in patients undergoing elective surgery, some authorities recommend gradual withdrawal of beta-adrenergic receptor blocking agents.</paragraph>
+                  <paragraph> If necessary during surgery, the effects of beta-adrenergic blocking agents may be reversed by sufficient doses of adrenergic agonists.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Diabetes Mellitus</content>
+                  </paragraph>
+                  <paragraph>Beta-adrenergic blocking agents should be administered with caution in patients subject to spontaneous hypoglycemia or to diabetic patients (especially those with labile diabetes) who are receiving insulin or oral hypoglycemic agents. Beta-adrenergic receptor blocking agents may mask the signs and symptoms of acute hypoglycemia.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Thyrotoxicosis</content>
+                  </paragraph>
+                  <paragraph>Beta-adrenergic blocking agents may mask certain clinical signs (e.g., tachycardia) of hyperthyroidism. Patients suspected of developing thyrotoxicosis should be managed carefully to avoid abrupt withdrawal of beta-adrenergic blocking agents that might precipitate a thyroid storm.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b14cc34b-3262-4480-b9d1-edb0e089beb6">
+               <id root="78c10f9e-56b7-4603-8679-c4f73528756d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <section ID="ID_ac87bd1f-11ee-4c8b-b148-f174f904e296">
+                     <id root="32f14d42-8bfb-4e7c-8cde-d2b8d386ef1d"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">General</content>
+                        </paragraph>
+                        <paragraph>Because of potential effects of beta-adrenergic blocking agents on blood pressure and pulse, these agents should be used with caution in patients with cerebrovascular insufficiency. If signs or symptoms suggesting reduced cerebral blood flow develop following initiation of therapy with preservative-free timolol maleate ophthalmic solution USP in the unit dose vial, alternative therapy should be considered.</paragraph>
+                        <paragraph>Choroidal detachment after filtration procedures has been reported with the administration of aqueous suppressant therapy (e.g. timolol).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Angle-closure glaucoma</content>: In patients with angle-closure glaucoma, the immediate objective of treatment is to reopen the angle. This requires constricting the pupil. Timolol maleate USP has little or no effect on the pupil. Timolol maleate ophthalmic solution USP in the unit dose vial should not be used alone in the treatment of angle-closure glaucoma.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Anaphylaxis</content>: While taking beta-blockers, patients with a history of atopy or a history of severe anaphylactic reactions to a variety of allergens may be more reactive to repeated accidental, diagnostic, or therapeutic challenge with such allergens. Such patients may be unresponsive to the usual doses of epinephrine used to treat anaphylactic reactions.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Muscle Weakness</content>: Beta-adrenergic blockade has been reported to potentiate muscle weakness consistent with certain myasthenic symptoms (e.g., diplopia, ptosis, and generalized weakness). Timolol has been reported rarely to increase muscle weakness in some patients with myasthenia gravis or myasthenic symptoms.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_1eadb647-07df-48d6-b35f-6d1bd3b88bbb">
+                     <id root="4e7ac783-38e5-4f23-8136-4e39654330e3"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Information for Patients</content>
+                        </paragraph>
+                        <paragraph>Patients should be instructed about the use of preservative-free timolol maleate ophthalmic solution USP in the unit dose vial.</paragraph>
+                        <paragraph>Since sterility cannot be maintained after the individual unit is opened, patients should be instructed to use the product immediately after opening, and to discard the individual unit and any remaining contents immediately after use.</paragraph>
+                        <paragraph>Patients with bronchial asthma, a history of bronchial asthma, severe chronic obstructive pulmonary disease, sinus bradycardia, second or third degree atrioventricular block, or cardiac failure should be advised not to take this product. <br/>(See<linkHtml href="#ID_393eb57c-bd71-493e-9a72-5454bed2a35b"> CONTRAINDICATIONS</linkHtml>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_635e7116-8e19-48d2-a3a9-7b715c109e71">
+                     <id root="c8c3812e-a14d-4ff3-ac55-8dfaacf5d9de"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>Although timolol maleate ophthalmic solution USP used alone has little or no effect on pupil size, mydriasis resulting from concomitant therapy with timolol maleate ophthalmic solution USP and epinephrine has been reported occasionally.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Beta-adrenergic blocking agents</content>: Patients who are receiving a beta-adrenergic blocking agent orally and preservative-free timolol maleate ophthalmic solution USP in the unit dose vial should be observed for potential additive effects of beta-blockade, both systemic and on intraocular pressure. The concomitant use of two topical beta-adrenergic blocking agents is not recommended.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Calcium antagonists</content>: Caution should be used in the coadministration of beta-adrenergic blocking agents, such as preservative-free timolol maleate ophthalmic solution USP in the unit dose vial, and oral or intravenous calcium antagonists, because of possible atrioventricular conduction disturbances, left ventricular failure, and hypotension. In patients with impaired cardiac function, coadministration should be avoided.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Catecholamine-depleting drugs</content>: Close observation of the patient is recommended when a beta blocker is administered to patients receiving catecholamine-depleting drugs such as reserpine, because of possible additive effects and the production of hypotension and/or marked bradycardia, which may result in vertigo, syncope, or postural hypotension.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Digitalis and calcium antagonists</content>: The concomitant use of beta-adrenergic blocking agents with digitalis and calcium antagonists may have additive effects in prolonging atrioventricular conduction time.<br/>
+                           <br/>
+                           <content styleCode="italics">CYP2D6 inhibitors</content>: Potentiated systemic beta-blockade (e.g., decreased heart rate, depression) has been reported during combined treatment with CYP2D6 inhibitors (e.g., quinidine, SSRIs) and timolol.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Clonidine</content>: Oral beta-adrenergic blocking agents may exacerbate the rebound hypertension which can follow the withdrawal of clonidine. There have been no reports of exacerbation of rebound hypertension with ophthalmic timolol maleate.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Injectable epinephrine</content>: (See <linkHtml href="#ID_b14cc34b-3262-4480-b9d1-edb0e089beb6" title="PRECAUTIONS">PRECAUTIONS, General, Anaphylaxis</linkHtml>)</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c36d8116-81cd-4931-85e0-62d932d9c29d">
+                     <id root="4ed12501-e406-4351-984e-bae970721bfc"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                        </paragraph>
+                        <paragraph>In a two-year study of timolol maleate USP administered orally to rats, there was a statistically significant increase in the incidence of adrenal pheochromocytomas in male rats administered 300 mg/kg/day (approximately 42,000 times the systemic exposure following the maximum recommended human ophthalmic dose). Similar differences were not observed in rats administered oral doses equivalent to approximately 14,000 times the maximum recommended human ophthalmic dose.</paragraph>
+                        <paragraph>In a lifetime oral study in mice, there were statistically significant increases in the incidence of benign and malignant pulmonary tumors, benign uterine polyps and mammary adenocarcinomas in female mice at 500 mg/kg/day (approximately 71,000 times the systemic exposure following the maximum recommended human ophthalmic dose), but not at 5 or 50 mg/kg/day (approximately 700 or 7,000 times, respectively, the systemic exposure following the maximum recommended human ophthalmic dose). In a subsequent study in female mice, in which post-mortem examinations were limited to the uterus and the lungs, a statistically significant increase in the incidence of pulmonary tumors was again observed at 500 mg/kg/day.</paragraph>
+                        <paragraph>The increased occurrence of mammary adenocarcinomas was associated with elevations in serum prolactin which occurred in female mice administered oral timolol at 500 mg/kg/day, but not at doses of 5 or 50 mg/kg/day. An increased incidence of mammary adenocarcinomas in rodents has been associated with administration of several other therapeutic agents that elevate serum prolactin, but no correlation between serum prolactin levels and mammary tumors has been established in humans.</paragraph>
+                        <paragraph>Furthermore, in adult human female subjects who received oral dosages of up to 60 mg of timolol maleate USP (the maximum recommended human oral dosage), there were no clinically meaningful changes in serum prolactin.</paragraph>
+                        <paragraph>Timolol maleate USP was devoid of mutagenic potential when tested <content styleCode="italics">in vivo </content>(mouse) in the micronucleus test and cytogenetic assay (doses up to 800 mg/kg) and <content styleCode="italics">in vitro </content>in a neoplastic cell transformation assay (up to 100 mcg/mL). In Ames tests the highest concentrations of timolol employed, 5,000 or 10,000 mcg/plate, were associated with statistically significant elevations of revertants observed with tester strain TA100 (in seven replicate assays), but not in the remaining three strains. In the assays with tester strain TA100, no consistent dose response relationship was observed, and the ratio of test to control revertants did not reach 2. A ratio of 2 is usually considered the criterion for a positive Ames test.</paragraph>
+                        <paragraph>Reproduction and fertility studies in rats demonstrated no adverse effect on male or female fertility at doses up to 21,000 times the systemic exposure following the maximum recommended human ophthalmic dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_ffaf4ede-9a87-471c-bc08-ebccba996892">
+                     <id root="54da6f5c-eda1-4a41-8f74-745f5422de9d"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Pregnancy</content>:</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Teratogenic Effects</content>: Teratogenicity studies with timolol in mice, rats and rabbits at oral doses up to 50 mg/kg/day (7,000 times the systemic exposure following the maximum recommended human ophthalmic dose) demonstrated no evidence of fetal malformations. Although delayed fetal ossification was observed at this dose in rats, there were no adverse effects on postnatal development of offspring. Doses of 1,000 mg/kg/day (142,000 times the systemic exposure following the maximum recommended human ophthalmic dose) were maternotoxic in mice and resulted in an increased number of fetal resorptions. Increased fetal resorptions were also seen in rabbits at doses of 14,000 times the systemic exposure following the maximum recommended human ophthalmic dose, in this case without apparent maternotoxicity.</paragraph>
+                        <paragraph>There are no adequate and well-controlled studies in pregnant women. Preservative-free timolol maleate ophthalmic solution USP should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_de39261e-6833-4da2-b996-9d2cc70c4e84">
+                     <id root="725f857e-baf6-4b0a-9d11-7d8343010adc"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Nursing Mothers</content>
+                        </paragraph>
+                        <paragraph>Timolol maleate USP has been detected in human milk following oral and ophthalmic drug administration. Because of the potential for serious adverse reactions from timolol in nursing infants, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_889996ce-ecd2-4c46-99de-8bc3027f40f4">
+                     <id root="2e1701b7-3478-4f48-bab5-e067d9f9eef2"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Pediatric Use</content>
+                        </paragraph>
+                        <paragraph>Safety and effectiveness of timolol maleate ophthalmic solution USP have been established when administered in pediatric patients aged 2 years and older. Use of timolol maleate ophthalmic solution USP in these children is supported by evidence from adequate and well- controlled studies in children and adults. Safety and efficacy in pediatric patients below the age of 2 years have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_9bd35214-1b9a-4ef3-bb93-c55d572da2fa">
+                     <id root="e3b0626a-8f85-444d-9664-5e6d4ae90ab3"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Geriatric Use</content>
+                        </paragraph>
+                        <paragraph>No overall differences in safety or effectiveness have been observed between elderly and younger patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20241206"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a4376edb-a523-4085-8c67-dd75f974f38e">
+               <id root="3aceb3b0-e95a-4c88-8ca2-1e488959c6e4"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The most frequently reported adverse experiences have been burning and stinging upon instillation (approximately one in eight patients).</paragraph>
+                  <paragraph>The following additional adverse experiences have been reported less frequently with ocular administration of this or other timolol maleate USP formulations:</paragraph>
+                  <paragraph>BODY AS A WHOLE</paragraph>
+                  <paragraph>Headache, asthenia/fatigue, and chest pain.</paragraph>
+                  <paragraph>CARDIOVASCULAR</paragraph>
+                  <paragraph>Bradycardia, arrhythmia, hypotension, hypertension, syncope, heart block, cerebral vascular accident, cerebral ischemia, cardiac failure, worsening of angina pectoris, palpitation, cardiac arrest, pulmonary edema, edema, claudication, Raynaud’s phenomenon, and cold hands and feet.</paragraph>
+                  <paragraph>DIGESTIVE</paragraph>
+                  <paragraph>Nausea, diarrhea, dyspepsia, anorexia, and dry mouth.</paragraph>
+                  <paragraph>IMMUNOLOGIC</paragraph>
+                  <paragraph>Systemic lupus erythematosus.</paragraph>
+                  <paragraph>NERVOUS SYSTEM/PSYCHIATRIC</paragraph>
+                  <paragraph>Dizziness, increase in signs and symptoms of myasthenia gravis, paresthesia, somnolence, insomnia, nightmares, behavioral changes and psychic disturbances including depression, confusion, hallucinations, anxiety, disorientation, nervousness, and memory loss. </paragraph>
+                  <paragraph>SKIN</paragraph>
+                  <paragraph>Alopecia and psoriasiform rash or exacerbation of psoriasis.</paragraph>
+                  <paragraph>HYPERSENSITIVITY</paragraph>
+                  <paragraph>Signs and symptoms of systemic allergic reactions including anaphylaxis, angioedema, urticaria, and localized and generalized rash.</paragraph>
+                  <paragraph>RESPIRATORY</paragraph>
+                  <paragraph>Bronchospasm (predominantly in patients with pre-existing bronchospastic disease), respiratory failure, dyspnea, nasal congestion, cough and upper respiratory infections.</paragraph>
+                  <paragraph>ENDOCRINE</paragraph>
+                  <paragraph>Masked symptoms of hypoglycemia in diabetic patients (see <linkHtml href="#ID_693cb00c-fe05-4d78-a80f-5d351f03f91e" title="WARNINGS">WARNINGS</linkHtml>).</paragraph>
+                  <paragraph>SPECIAL SENSES</paragraph>
+                  <paragraph>Signs and symptoms of ocular irritation including conjunctivitis, blepharitis, keratitis, ocular pain, discharge (e.g., crusting), foreign body sensation, itching and tearing, and dry eyes; ptosis; decreased corneal sensitivity; cystoid macular edema; visual disturbances including refractive changes and diplopia; pseudopemphigoid; choroidal detachment following filtration surgery (see <linkHtml href="#ID_b14cc34b-3262-4480-b9d1-edb0e089beb6" title="PRECAUTIONS">PRECAUTIONS, General</linkHtml>); and tinnitus. <br/>
+                  </paragraph>
+                  <paragraph>UROGENITAL</paragraph>
+                  <paragraph>Retroperitoneal fibrosis, decreased libido, impotence, and Peyronie’s disease.</paragraph>
+                  <paragraph>The following additional adverse effects have been reported in clinical experience with ORAL timolol maleate USP or other ORAL beta blocking agents, and may be considered potential effects of ophthalmic timolol maleate USP: <content styleCode="italics">Allergic</content>: Erythematous rash, fever combined with aching and sore throat, laryngospasm with respiratory distress; <content styleCode="italics">Body as a Whole</content>: Extremity pain, decreased exercise tolerance, weight loss; <content styleCode="italics">Cardiovascular</content>: Worsening of arterial insufficiency, vasodilatation; <content styleCode="italics">Digestive</content>: Gastrointestinal pain, hepatomegaly, vomiting, mesenteric arterial thrombosis, ischemic colitis; <content styleCode="italics">Hematologic</content>: Nonthrombocytopenic purpura; thrombocytopenic purpura; agranulocytosis; <content styleCode="italics">Endocrine</content>: Hyperglycemia, hypoglycemia; <content styleCode="italics">Skin</content>: Pruritus, skin irritation, increased pigmentation, sweating; <content styleCode="italics">Musculoskeletal</content>: Arthralgia; <content styleCode="italics">Nervous System/Psychiatric</content>: Vertigo, local weakness, diminished concentration, reversible mental depression progressing to catatonia, an acute reversible syndrome characterized by disorientation for time and place, emotional lability, slightly clouded sensorium, and decreased performance on neuropsychometrics; <content styleCode="italics">Respiratory</content>: Rales, bronchial obstruction; <content styleCode="italics">Urogenital</content>: Urination difficulties.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Nordic Pharma, Inc. at 1-844-267-4641 or FDA at 1-800-FDA-1088 or <linkHtml href="www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0cfa29d4-fd7d-4077-b424-63fd4a997897">
+               <id root="ab2503b1-8311-454c-b96e-b180f9b72bbe"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>There have been reports of inadvertent overdosage with timolol maleate ophthalmic solution USP resulting in systemic effects similar to those seen with systemic beta-adrenergic blocking agents such as dizziness, headache, shortness of breath, bradycardia, bronchospasm, and cardiac arrest (see also <linkHtml href="#ID_a4376edb-a523-4085-8c67-dd75f974f38e">ADVERSE REACTIONS</linkHtml>).</paragraph>
+                  <paragraph>Overdosage has been reported with timolol maleate USP tablets. A 30 year old female ingested 650 mg of timolol maleate USP tablets (maximum recommended oral daily dose is 60 mg) and experienced second and third degree heart block. She recovered without treatment but approximately two months later developed irregular heartbeat, hypertension, dizziness, tinnitus, faintness, increased pulse rate, and borderline first degree heart block.</paragraph>
+                  <paragraph>An <content styleCode="italics">in vitro </content>hemodialysis study, using <sup>14</sup>C timolol added to human plasma or whole blood, showed that timolol was readily dialyzed from these fluids; however, a study of patients with renal failure showed that timolol did not dialyze readily.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8ff18abc-6027-4481-bb03-261fe2442fc3">
+               <id root="bdc62c90-8198-4502-9b5a-09fee9b3ab6b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Preservative-free timolol maleate ophthalmic solution USP in the unit dose vial is a sterile solution that does not contain a preservative. The solution from one individual unit is to be used immediately after opening for administration to one or both eyes. Since sterility cannot be guaranteed after the individual unit is opened, the remaining contents should be discarded immediately after administration.</paragraph>
+                  <paragraph>Preservative-free timolol maleate ophthalmic solution in the unit dose vial is available in concentrations of 0.25% and 0.5%. The usual starting dose is one drop of 0.25% preservative-free timolol maleate ophthalmic solution in the unit dose vial in the affected eye(s) administered twice a day. Apply enough gentle pressure on the individual vial to obtain a single drop of solution. If the clinical response is not adequate, the dosage may be changed to one drop of 0.5% solution in the affected eye(s) administered twice a day.</paragraph>
+                  <paragraph>Since in some patients the pressure-lowering response to preservative-free timolol maleate ophthalmic solution in the unit dose vial may require a few weeks to stabilize, evaluation should include a determination of intraocular pressure after approximately 4 weeks of treatment with preservative-free timolol maleate ophthalmic solution in the unit dose vial.</paragraph>
+                  <paragraph>If the intraocular pressure is maintained at satisfactory levels, the dosage schedule may be changed to one drop once a day in the affected eye(s). Because of diurnal variations in intraocular pressure, satisfactory response to the once-a-day dose is best determined by measuring the intraocular pressure at different times during the day.</paragraph>
+                  <paragraph>Dosages above one drop of 0.5% timolol maleate ophthalmic solution twice a day generally have not been shown to produce further reduction in intraocular pressure. If the patient’s intraocular pressure is still not at a satisfactory level on this regimen, concomitant therapy with other agent(s) for lowering intraocular pressure can be instituted taking into consideration that the preparation(s) used concomitantly may contain one or more preservatives.</paragraph>
+                  <paragraph>The concomitant use of two topical beta-adrenergic blocking agents is not recommended. (See <linkHtml href="#ID_b14cc34b-3262-4480-b9d1-edb0e089beb6" title="PRECAUTIONS">PRECAUTIONS</linkHtml>, <content styleCode="italics">
+                        <linkHtml href="#ID_635e7116-8e19-48d2-a3a9-7b715c109e71" title="Drug Interactions">Drug Interactions, Beta-adrenergic blocking agents</linkHtml>
+                     </content>.)</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_83884e7a-4083-40d0-bc72-eec7cacce209">
+               <id root="bf780c93-e8c2-428b-be6c-e4a8a91a6c1f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Preservative-free Timolol Maleate Ophthalmic Solution USP is a clear, colorless to light yellow solution.</paragraph>
+                  <paragraph>Preservative-free Timolol Maleate Ophthalmic Solution USP, 0.25% timolol equivalent, is supplied in a clear low density polyethylene vial. Each individual unit contains 0.3 mL of solution, and is available in 2 blocks of 5 vials in a sealed aluminum pouch; six pouches per carton.</paragraph>
+                  <paragraph>NDC 69918-602-60; 0.3 mL Single-dose vials in a carton of 60.</paragraph>
+                  <paragraph>Preservative-free Timolol Maleate Ophthalmic Solution, 0.5% timolol equivalent, is supplied in a clear low density polyethylene vial. Each individual unit contains 0.3 mL of solution, and is available in 2 blocks of 5 vials in a sealed aluminum pouch; six pouches per carton.</paragraph>
+                  <paragraph>NDC 69918-601-60; 0.3 mL Single-dose vials in a carton of 60.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Storage</content>
+                  </paragraph>
+                  <paragraph>Store at room temperature, 15 to 30°C (59 to 86°F). Protect from freezing. Protect from light.</paragraph>
+                  <paragraph>Because evaporation can occur through the unprotected polyethylene unit dose vial and prolonged exposure to direct light can modify the product, the unit dose vial should be kept in the protective foil overwrap and used within one month after the foil package has been opened.</paragraph>
+                  <paragraph>Keep out of Reach of Children.</paragraph>
+                  <paragraph>Manufactured for:<br/>Nordic Pharma, Inc.<br/>Berwyn, PA 19312<br/>
+                     <content styleCode="underline">
+                        <linkHtml href="www.nordicpharmausa.com">www.nordicpharmausa.com</linkHtml>
+                     </content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia ID="label1" referencedObject="nordic"/>
+                  </paragraph>
+                  <paragraph>The Nordic Pharma Logo is a trademark of Nordic Group B.V.</paragraph>
+                  <paragraph>Manufactured by:<br/>Holopack Verpackungstechnik GmbH,<br/>Bahnhofstrasse 18, 74429 Sulzbach-Laufen, Germany</paragraph>
+                  <paragraph>Origin Germany</paragraph>
+                  <paragraph>Rev. April 2024</paragraph>
+                  <paragraph>006-00423</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <observationMedia ID="nordic">
+                     <text>label1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="nordic.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c9371dc3-e204-41b1-894a-c4285625c285">
+               <id root="dcaafec3-a53c-4b36-aa39-8930dcc56a68"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content> 69918<content styleCode="bold">-602-</content>60<br/>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Timolol Maleate<br/>Ophthalmic Solution, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">0.25%<sup>*</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Topical Application In The Eye</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preservative-Free Sterile Ophthalmic Solution</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">60 x 0.3 mL Single-dose Vials</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id-870071632" referencedObject="ID_88c4a728-223f-4fc0-bb83-e12b99a1173b"/>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE/LABEL PRINCIPAL DISPLAY PANEL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content> 69918<content styleCode="bold">-602-</content>60<br/>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Timolol Maleate<br/>Ophthalmic Solution, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">0.25%<sup>*</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Topical Application In The Eye</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preservative-Free Sterile Ophthalmic Solution</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">10 x 0.3 mL Single-dose Vials</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="Fig1"/>
+               </text>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <observationMedia ID="ID_88c4a728-223f-4fc0-bb83-e12b99a1173b">
+                     <text>timo 0.5% carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="05carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Fig1">
+                     <text>timo 0.5% Foil</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="05Foil.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2150f1dd-6e38-4478-b584-a66f02a8dd0f">
+               <id root="28394a99-c1bb-4a69-aa6d-9d93eeb1f168"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content> 69918<content styleCode="bold">-601-</content>60<br/>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Timolol Maleate<br/>Ophthalmic Solution, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">0.5%<sup>*</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Topical Application In The Eye</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preservative-Free Sterile Ophthalmic Solution</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">60 x 0.3 mL Single-dose Vials</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id899025713" referencedObject="ID_41ea26e2-663a-4f11-a55c-885863217ed0"/>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE/LABEL PRINCIPAL DISPLAY PANEL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content> 69918<content styleCode="bold">-601-</content>60<br/>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Timolol Maleate<br/>Ophthalmic Solution, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">0.5%<sup>*</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Topical Application In The Eye</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preservative-Free Sterile Ophthalmic Solution</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">10 x 0.3 mL Single-dose Vials</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="Fig2"/>
+               </text>
+               <effectiveTime value="20241206"/>
+               <component>
+                  <observationMedia ID="ID_41ea26e2-663a-4f11-a55c-885863217ed0">
+                     <text>timo carton .25</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="25carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Fig2">
+                     <text>timo Foil .25</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="25Foil.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

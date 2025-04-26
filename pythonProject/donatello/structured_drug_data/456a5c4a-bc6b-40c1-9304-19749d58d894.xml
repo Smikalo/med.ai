@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="456a5c4a-bc6b-40c1-9304-19749d58d894"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold"/>
+   </title>
+   <effectiveTime value="20210714"/>
+   <setId root="f108e431-f8d3-4442-8a60-bfc1d8a7bafc"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="790384502" root="1.3.6.1.4.1.519.1"/>
+            <name>Mylan Institutional LLC</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9440bcd1-9998-4438-94f5-12918cdbfd18"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20210714"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67457-297" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ethacrynic Sodium</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ethacrynic sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="50"/>
+                              <denominator unit="mL" value="50"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="K41MYV7MPM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ETHACRYNATE SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="M5DP350VZV" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ETHACRYNIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="62.5"/>
+                              <denominator unit="mL" value="50"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67457-297-50" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20160831"/>
+                                          <high value="20250930"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA204634" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20160831"/>
+                              <high value="20250930"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_2e721f64-996c-4304-b9b8-e66c2912f839">
+               <id root="af22c594-69de-4d43-b179-02cea51fc757"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Ethacrynic acid is a potent diuretic which, if given in excessive amounts, may lead to profound diuresis with water and electrolyte depletion. Therefore, careful medical supervision is required, and dose and dose schedule must be adjusted to the individual patient's needs (see <linkHtml href="#i4i_dosage_admin_id_9e9f19f6-925c-475b-8fe4-97066320b684">DOSAGE AND ADMINISTRATION</linkHtml>).</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140115"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_1fddb80e-6471-4f55-a21a-c084ffce1218">
+               <id root="58eccb9f-b909-4b56-8ae5-1f83dfbd414f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Ethacrynic acid is an unsaturated ketone derivative of an aryloxyacetic acid. It is designated chemically as [2,3-dichloro-4-(2-methylene-1-oxobutyl)phenoxy] acetic acid, and has a molecular weight of 303.14. Ethacrynic acid is a white, or practically white, crystalline powder, very slightly soluble in water, but soluble in most organic solvents such as alcohols, chloroform, and benzene. Its molecular formula is C<sub>13</sub>H<sub>12</sub>Cl<sub>2</sub>O<sub>4</sub> and its structural formula is:</paragraph>
+                  <renderMultiMedia ID="id231" referencedObject="F458B1AF-C6EF-4C86-8B25-2EB0BFDBEFBD"/>
+                  <paragraph>Ethacrynate sodium, the sodium salt of ethacrynic acid, is soluble in water at 25°C to the extent of about 7 percent. Solutions of the sodium salt are relatively stable at about pH 7 at room temperature for short periods, but as the pH or temperature increases the solutions are less stable. The molecular weight of ethacrynate sodium is 325.12. Its molecular formula is C<sub>13</sub>H<sub>11</sub>Cl<sub>2</sub>NaO<sub>4</sub> and its structural formula is:</paragraph>
+                  <renderMultiMedia ID="id237" referencedObject="ID_1aed68b1-e6eb-4177-b1f0-31fca01b97e2"/>
+                  <paragraph>Intravenous ethacrynate sodium for injection is a sterile freeze-dried powder and is supplied in a vial containing ethacrynate sodium equivalent to ethacrynic acid 50 mg. The inactive ingredient is mannitol, 62.5 mg.</paragraph>
+               </text>
+               <effectiveTime value="20140115"/>
+               <component>
+                  <observationMedia ID="F458B1AF-C6EF-4C86-8B25-2EB0BFDBEFBD">
+                     <text>Ethacrynic acid Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bc4b4fc2-15b8-4eed-96f2-ab50edada3f6-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_1aed68b1-e6eb-4177-b1f0-31fca01b97e2">
+                     <text>Ethacryante sodium Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bc4b4fc2-15b8-4eed-96f2-ab50edada3f6-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_3b87661a-4a42-4b8a-b891-f6e18d0c4ac5">
+               <id root="928dcb2b-0a07-4a8c-b2d2-a56414dc783a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20140115"/>
+               <component>
+                  <section ID="i4i_section_id_468f592a-f584-41cc-a225-91bdb31b22f2">
+                     <id root="d34def3d-4477-4533-9d46-5ea1ccd2763b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacokinetics and Metabolism</title>
+                     <text>
+                        <paragraph>Ethacrynic acid acts on the ascending limb of the loop of Henle and on the proximal and distal tubules. Urinary output is usually dose dependent and related to the magnitude of fluid accumulation. Water and electrolyte excretion may be increased several times over that observed with thiazide diuretics, since ethacrynic acid inhibits reabsorption of a much greater proportion of filtered sodium than most other diuretic agents. Therefore, ethacrynic acid is effective in many patients who have significant degrees of renal insufficiency (see <linkHtml href="#i4i_warnings_id_396f5106-f364-433b-8652-eee0673d3f8e">WARNINGS</linkHtml> concerning deafness). Ethacrynic acid has little or no effect on glomerular filtration or on renal blood flow, except following pronounced reductions in plasma volume when associated with rapid diuresis.</paragraph>
+                        <paragraph>The electrolyte excretion pattern of ethacrynic acid varies from that of the thiazides and mercurial diuretics. Initial sodium and chloride excretion is usually substantial and chloride loss exceeds that of sodium. With prolonged administration, chloride excretion declines, and potassium and hydrogen ion excretion may increase. Ethacrynic acid is effective whether or not there is clinical acidosis or alkalosis.</paragraph>
+                        <paragraph>Although ethacrynic acid, in carefully controlled studies in animals and experimental subjects, produces a more favorable sodium/potassium excretion ratio than the thiazides, in patients with increased diuresis excessive amounts of potassium may be excreted.</paragraph>
+                        <paragraph>Onset of action is rapid, usually within 30 minutes after an oral dose of ethacrynic acid or within 5 minutes after an intravenous injection of ethacrynate sodium for injection. After oral use, diuresis peaks in about 2 hours and lasts about 6 to 8 hours.</paragraph>
+                        <paragraph>The sulfhydryl binding propensity of ethacrynic acid differs somewhat from that of the organomercurials. Its mode of action is not by carbonic anhydrase inhibition.</paragraph>
+                        <paragraph>Ethacrynic acid does not cross the blood-brain barrier.</paragraph>
+                     </text>
+                     <effectiveTime value="20140115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_654dbf33-cc09-4b9c-9d41-43b13a5dc9a4">
+               <id root="9d03af08-317c-41b8-8ee7-0c8466547ba8"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Ethacrynic acid is indicated for treatment of edema when an agent with greater diuretic potential than those commonly employed is required. </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Treatment of the edema associated with congestive heart failure, cirrhosis of the liver, and renal disease, including the nephrotic syndrome.</item>
+                     <item>
+                        <caption>2.</caption>Short-term management of ascites due to malignancy, idiopathic edema, and lymphedema.</item>
+                     <item>
+                        <caption>3.</caption>Short-term management of hospitalized pediatric patients, other than infants, with congenital heart disease or the nephrotic syndrome.</item>
+                     <item>
+                        <caption>4.</caption>Intravenous ethacrynate sodium for injection is indicated when a rapid onset of diuresis is desired, e.g., in acute pulmonary edema, or when gastrointestinal absorption is impaired or oral medication is not practicable.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20140115"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_45c569a2-1a42-4d69-9704-f4512da26b27">
+               <id root="1dee4332-cf52-44a3-a09c-b810e97e1532"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>All diuretics, including ethacrynic acid, are contraindicated in anuria. If increasing electrolyte imbalance, azotemia, and/or oliguria occur during treatment of severe, progressive renal disease, the diuretic should be discontinued.</paragraph>
+                  <paragraph>In a few patients this diuretic has produced severe, watery diarrhea. If this occurs, it should be discontinued and not used again.</paragraph>
+                  <paragraph>Until further experience in infants is accumulated, therapy with oral and parenteral ethacrynic acid is contraindicated.</paragraph>
+                  <paragraph>Hypersensitivity to any component of this product.</paragraph>
+               </text>
+               <effectiveTime value="20140115"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_396f5106-f364-433b-8652-eee0673d3f8e">
+               <id root="10ab17ab-a6e4-4228-a7eb-3f379a008aab"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>The effects of ethacrynic acid on electrolytes are related to its renal pharmacologic activity and are dose dependent. The possibility of profound electrolyte and water loss may be avoided by weighing the patient throughout the treatment period, by careful adjustment of dosage, by initiating treatment with small doses, and by using the drug on an intermittent schedule when possible. When excessive diuresis occurs, the drug should be withdrawn until homeostasis is restored. When excessive electrolyte loss occurs, the dosage should be reduced or the drug temporarily withdrawn.</paragraph>
+                  <paragraph>Initiation of diuretic therapy with ethacrynic acid in the cirrhotic patient with ascites is best carried out in the hospital. When maintenance therapy has been established, the individual can be satisfactorily followed as an outpatient.</paragraph>
+                  <paragraph>Ethacrynic acid should be given with caution to patients with advanced cirrhosis of the liver, particularly those with a history of previous episodes of electrolyte imbalance or hepatic encephalopathy. Like other diuretics it may precipitate hepatic coma and death.</paragraph>
+                  <paragraph>Too vigorous a diuresis, as evidenced by rapid and excessive weight loss, may induce an acute hypotensive episode. In elderly cardiac patients, rapid contraction of plasma volume and the resultant hemoconcentration should be avoided to prevent the development of thromboembolic episodes, such as cerebral vascular thromboses and pulmonary emboli which may be fatal. Excessive loss of potassium in patients receiving digitalis glycosides may precipitate digitalis toxicity. Care should also be exercised in patients receiving potassium-depleting steroids.</paragraph>
+                  <paragraph>A number of possibly drug-related deaths have occurred in critically ill patients refractory to other diuretics. These generally have fallen into two categories: (1) patients with severe myocardial disease who have been receiving digitalis and presumably developed acute hypokalemia with fatal arrhythmia; (2) patients with severely decompensated hepatic cirrhosis with ascites, with or without accompanying encephalopathy, who were in electrolyte imbalance and died because of intensification of the electrolyte defect.</paragraph>
+                  <paragraph>Deafness, tinnitus, and vertigo with a sense of fullness in the ears have occurred, most frequently in patients with severe impairment of renal function. These symptoms have been associated most often with intravenous administration and with doses in excess of those recommended. The deafness has usually been reversible and of short duration (1 to 24 hours). However, in some patients the hearing loss has been permanent. A number of these patients were also receiving drugs known to be ototoxic. Ethacrynic acid may increase the ototoxic potential of other drugs (see <linkHtml href="#i4i_interactions_id_10d35644-a229-462d-8ecb-cc31ab7afa78">PRECAUTIONS: Drug Interactions</linkHtml>).</paragraph>
+                  <paragraph>Lithium generally should not be given with diuretics (see <linkHtml href="#i4i_interactions_id_10d35644-a229-462d-8ecb-cc31ab7afa78">PRECAUTIONS: Drug Interactions</linkHtml>).</paragraph>
+               </text>
+               <effectiveTime value="20140115"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_737ee1e1-1cac-4d66-9522-baa7c80310f9">
+               <id root="9a74a268-7e26-46bd-a857-8ced2db68760"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20210714"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_3640edc0-94b4-4668-9f68-09923e89847d">
+                     <id root="39552d4a-0511-436a-a9a2-4ba5cfe5b4f4"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Weakness, muscle cramps, paresthesias, thirst, anorexia, and signs of hyponatremia, hypokalemia, and/or hypochloremic alkalosis may occur following vigorous or excessive diuresis and these may be accentuated by rigid salt restriction. Rarely, tetany has been reported following vigorous diuresis. <content styleCode="italics">During therapy with ethacrynic acid, liberalization of salt intake and supplementary potassium chloride are often necessary.</content>
+                        </paragraph>
+                        <paragraph>When a metabolic alkalosis may be anticipated, e.g., in cirrhosis with ascites, the use of potassium chloride or a potassium-sparing agent before and during therapy with ethacrynic acid may mitigate or prevent the hypokalemia.</paragraph>
+                        <paragraph>Loop diuretics have been shown to increase the urinary excretion of magnesium; this may result in hypomagnesemia.</paragraph>
+                        <paragraph>The safety and efficacy of ethacrynic acid in hypertension have not been established. However, the dosage of coadministered antihypertensive agents may require adjustment.</paragraph>
+                        <paragraph>Orthostatic hypotension may occur in patients receiving other antihypertensive agents when given ethacrynic acid.</paragraph>
+                        <paragraph>Ethacrynic acid has little or no effect on glomerular filtration or on renal blood flow, except following pronounced reductions in plasma volume when associated with rapid diuresis. A transient increase in serum urea nitrogen may occur. Usually, this is readily reversible when the drug is discontinued.</paragraph>
+                        <paragraph>As with other diuretics used in the treatment of renal edema, hypoproteinemia may reduce responsiveness to ethacrynic acid and the use of salt-poor albumin should be considered.</paragraph>
+                        <paragraph>A number of drugs, including ethacrynic acid, have been shown to displace warfarin from plasma protein; a reduction in the usual anticoagulant dosage may be required in patients receiving both drugs.</paragraph>
+                        <paragraph>Ethacrynic acid may increase the risk of gastric hemorrhage associated with corticosteroid treatment.</paragraph>
+                     </text>
+                     <effectiveTime value="20140115"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_lab_tests_id_148a72c0-a4a1-43ff-9e72-54ba4ee214d5">
+                     <id root="068a2a8b-586b-48f6-887f-d7e0b183e98a"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Frequent serum electrolyte, CO<sub>2</sub> and BUN determinations should be performed early in therapy and periodically thereafter during active diuresis. Any electrolyte abnormalities should be corrected or the drug temporarily withdrawn.</paragraph>
+                        <paragraph>Increases in blood glucose and alterations in glucose tolerance tests have been observed in patients receiving ethacrynic acid.</paragraph>
+                     </text>
+                     <effectiveTime value="20140115"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_interactions_id_10d35644-a229-462d-8ecb-cc31ab7afa78">
+                     <id root="fac64e80-3672-4d47-93c1-b9b2c56ef462"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Lithium generally should not be given with diuretics because they reduce its renal clearance and add a high risk of lithium toxicity. Read circulars for lithium preparations before use of such concomitant therapy.</paragraph>
+                        <paragraph>Ethacrynic acid may increase the ototoxic potential of other drugs such as aminoglycoside and some cephalosporin antibiotics. Their concurrent use should be avoided.</paragraph>
+                        <paragraph>A number of drugs, including ethacrynic acid, have been shown to displace warfarin from plasma protein; a reduction in the usual anticoagulant dosage may be required in patients receiving both drugs.</paragraph>
+                        <paragraph>In some patients, the administration of a non-steroidal anti-inflammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing and thiazide diuretics. Therefore, when ethacrynic acid and non-steroidal anti-inflammatory agents are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained.</paragraph>
+                     </text>
+                     <effectiveTime value="20140115"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_5e51452d-6ddb-4e5b-96a9-b26f173316f1">
+                     <id root="25c26f7c-51b0-49f2-a5ad-f0eccc39bca0"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>There was no evidence of a tumorigenic effect in a 79-week oral chronic toxicity study in rats at doses up to 45 times the human dose.</paragraph>
+                        <paragraph>Ethacrynic acid had no effect on fertility in a two-litter study in rats or a two-generation study in mice at 10 times the human dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20140115"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_537e588a-2d0c-4668-8c54-990c2590aace">
+                     <id root="28846d09-cc50-4b72-93c4-393dc0f880fe"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>Reproduction studies in the mouse and rabbit at doses up to 50 times the human dose showed no evidence of external abnormalities of the fetus due to ethacrynic acid.</paragraph>
+                        <paragraph>In a two-litter study in the dog and rat, oral doses of 5 or 20 mg/kg/day (2½ or 10 times the human dose), respectively, did not interfere with pregnancy or with growth and development of the pups. Although there was reduction in the mean body weights of the fetuses in a teratogenic study in the rat at a dose level of 100 mg/kg (50 times the human dose), there was no effect on mortality or postnatal development. Functional and morphologic abnormalities were not observed.</paragraph>
+                        <paragraph>There are, however, no adequate and well controlled studies in pregnant women. Since animal reproduction studies are not always predictive of human response, ethacrynic acid should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20210714"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_e8286d67-154e-49a0-b756-4298ccce1eb9">
+                     <id root="c2a29ea6-b793-48c0-9f4c-225402061b31"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from ethacrynic acid, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20140115"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_f85b0f88-9fe3-4620-92c1-3b6b904877a3">
+                     <id root="363434af-7897-437e-9872-fe3e688f0589"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>There are no well controlled clinical trials in pediatric patients. The information on oral dosing in pediatric patients, other than infants, is supported by evidence from empiric use in this age group.</paragraph>
+                        <paragraph>For information on oral use in pediatric patients, other than infants, see <linkHtml href="#i4i_indications_id_654dbf33-cc09-4b9c-9d41-43b13a5dc9a4">INDICATIONS AND USAGE</linkHtml> and <linkHtml href="#i4i_dosage_admin_id_9e9f19f6-925c-475b-8fe4-97066320b684">DOSAGE AND ADMINISTRATION</linkHtml>.</paragraph>
+                        <paragraph>Safety and effectiveness of oral and parenteral use in infants have not been established (see <linkHtml href="#i4i_contraindications_id_45c569a2-1a42-4d69-9704-f4512da26b27">CONTRAINDICATIONS</linkHtml>).</paragraph>
+                        <paragraph>Safety and effectiveness of intravenous use in pediatric patients have not been established (see <linkHtml href="#i4i_section_id_e2f82ff8-3b3d-432a-8000-1bfdc1c3a35b">DOSAGE AND ADMINISTRATION: Intravenous Use</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20140115"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_geriatric_use_id_e8b9d1cd-dd5a-499d-af7d-390d647ba3bb">
+                     <id root="9d095be2-725c-4135-ac58-de290b60abd5"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Of the total number of subjects in clinical studies of ethacrynic acid, approximately 224 patients (21%) were 65 to 74 years of age, while approximately 100 patients (9%) were 75 years of age and over. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out. (See <linkHtml href="#i4i_warnings_id_396f5106-f364-433b-8652-eee0673d3f8e">WARNINGS</linkHtml>.)</paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function. (See <linkHtml href="#i4i_contraindications_id_45c569a2-1a42-4d69-9704-f4512da26b27">CONTRAINDICATIONS</linkHtml>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20140115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_cf6c7382-01e7-4910-a4ee-5742eb8edc41">
+               <id root="df5796ff-4a5b-49aa-b027-99ca8597d324"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal: </content>Anorexia, malaise, abdominal discomfort or pain, dysphagia, nausea, vomiting, and diarrhea have occurred. These are more frequent with large doses or after one to three months of continuous therapy. A few patients have had sudden onset of profuse, watery diarrhea. Discontinue ethacrynic acid if diarrhea is severe and do not give it again. Gastrointestinal bleeding has occurred in some patients. Rarely, acute pancreatitis has been reported.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metabolic: </content>Reversible hyperuricemia and acute gout have been reported. Acute symptomatic hypoglycemia with convulsions occurred in two uremic patients who received doses above those recommended. Hyperglycemia has been reported. Rarely, jaundice and abnormal liver function tests have been reported in seriously ill patients receiving multiple drug therapy, including ethacrynic acid.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hematologic: </content>Agranulocytosis or severe neutropenia has been reported in a few critically ill patients also receiving agents known to produce this effect. Thrombocytopenia has been reported rarely. Henoch-Schönlein purpura has been reported rarely in patients with rheumatic heart disease receiving multiple drug therapy, including ethacrynic acid.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Senses: </content>(See WARNINGS.) Deafness, tinnitus and vertigo with a sense of fullness in the ears, and blurred vision have occurred.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Central Nervous System: </content>Headache, fatigue, apprehension, confusion.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Miscellaneous: </content>Skin rash, fever, chills, hematuria.</paragraph>
+                  <paragraph>Ethacrynate sodium for injection occasionally has caused local irritation and pain after intravenous use.</paragraph>
+               </text>
+               <effectiveTime value="20140115"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_ce30c1e5-8522-4912-aa74-e4b96bc3166e">
+               <id root="3949a9bf-914f-4ab5-a2a9-dedabb9c0d4d"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdosage may lead to excessive diuresis with electrolyte depletion and dehydration.</paragraph>
+                  <paragraph>In the event of overdosage, symptomatic and supportive measures should be employed. Emesis should be induced or gastric lavage performed. Correct dehydration, electrolyte imbalance, hepatic coma, and hypotension by established procedures. If required, give oxygen or artificial respiration for respiratory impairment.</paragraph>
+                  <paragraph>In the mouse, the oral LD<sub>50</sub> of ethacrynic acid is 627 mg/kg and the intravenous LD<sub>50</sub> of ethacrynate sodium is 175 mg/kg.</paragraph>
+               </text>
+               <effectiveTime value="20140115"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_9e9f19f6-925c-475b-8fe4-97066320b684">
+               <id root="65659f8e-abbf-4284-9f44-449f9f895fba"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dosage must be regulated carefully to prevent a more rapid or substantial loss of fluid or electrolyte than is indicated or necessary.</content> The magnitude of diuresis and natriuresis is largely dependent on the degree of fluid accumulation present in the patient. Similarly, the extent of potassium excretion is determined in large measure by the presence and magnitude of aldosteronism.</paragraph>
+               </text>
+               <effectiveTime value="20140115"/>
+               <component>
+                  <section ID="ID_ad672fe6-4dc4-4dc8-835b-d434830b59d4">
+                     <id root="24567bda-0cf1-4aaa-a698-85d9a580fe8f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Oral Use</title>
+                     <text>
+                        <paragraph>Ethacrynic acid is available for oral use as 25 mg tablets.</paragraph>
+                     </text>
+                     <effectiveTime value="20140115"/>
+                     <component>
+                        <section ID="ID_cf7dc4b5-ca3c-43a4-abb5-a7e8a0c954e0">
+                           <id root="d0aedebf-3d9f-4300-b336-6ef52b12c49e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Dosage to Initiate Diuresis</content>
+                              </content>
+                           </title>
+                           <effectiveTime value="20140115"/>
+                           <component>
+                              <section ID="ID_5c4ac6fa-bd6f-42cc-ace2-09abac4f3af2">
+                                 <id root="27d3d894-9f1a-4489-9441-126035183530"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>In Adults</title>
+                                 <text>
+                                    <paragraph>The smallest dose required to produce gradual weight loss (about 1 to 2 pounds per day) is recommended. Onset of diuresis usually occurs at 50 mg to 100 mg for adults. After diuresis has been achieved, the minimally effective dose (usually from 50 mg to 200 mg daily) may be given on a continuous or intermittent dosage schedule. Dosage adjustments are usually in 25 mg to 50 mg increments to avoid derangement of water and electrolyte excretion.</paragraph>
+                                    <paragraph>The patient should be weighed under standard conditions before and during the institution of diuretic therapy with this compound. Small alterations in dose should effectively prevent a massive diuretic response. The following schedule may be helpful in determining the smallest effective dose.</paragraph>
+                                    <paragraph>Day 1 – 50 mg once daily after a meal</paragraph>
+                                    <paragraph>Day 2 – 50 mg twice daily after meals, if necessary</paragraph>
+                                    <paragraph>Day 3 – 100 mg in the morning and 50 mg to 100 mg following the afternoon or evening meal, depending upon response to the morning dose.</paragraph>
+                                    <paragraph>A few patients may require initial and maintenance doses as high as 200 mg twice daily. These higher doses, which should be achieved gradually, are most often required in patients with severe, refractory edema.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20140115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="ID_95d04740-d63f-4365-9968-28a3fe02d405">
+                                 <id root="02a1f929-df1e-4f04-8b06-8bc825ae3165"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>In Pediatric Patients</title>
+                                 <text>
+                                    <paragraph>(excluding infants, see <linkHtml href="#i4i_contraindications_id_45c569a2-1a42-4d69-9704-f4512da26b27">CONTRAINDICATIONS</linkHtml>)</paragraph>
+                                    <paragraph>The initial dose should be 25 mg. Careful stepwise increments in dosage of 25 mg should be made to achieve effective maintenance.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20140115"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_b2814d94-c758-4661-ad66-ac7caa32b917">
+                           <id root="1d4b0b6b-102a-4183-b5b7-822e81ff1c96"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Maintenance Therapy</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>It is usually possible to reduce the dosage and frequency of administration once dry weight has been achieved.</paragraph>
+                              <paragraph>Ethacrynic acid may be given intermittently after an effective diuresis is obtained with the regimen outlined above.Dosage may be on an alternate daily schedule or more prolonged periods of diuretic therapy may be interspersed with rest periods. Such an intermittent dosage schedule allows time for correction of any electrolyte imbalance and may provide a more efficient diuretic response.</paragraph>
+                              <paragraph>The chloruretic effect of this agent may give rise to retention of bicarbonate and a metabolic alkalosis. This may be corrected by giving chloride (ammonium chloride or arginine chloride). Ammonium chloride should not be given to cirrhotic patients. </paragraph>
+                              <paragraph>Ethacrynic acid has additive effects when used with other diuretics. For example, a patient who is on maintenance dosage of an oral diuretic may require additional intermittent diuretic therapy, such as an organomercurial, for the maintenance of basal weight. The intermittent use of ethacrynic acid orally may eliminate the need for injections of organomercurials. Small doses of ethacrynic acid may be added to existing diuretic regimens to maintain basal weight. This drug may potentiate the action of carbonic anhydrase inhibitors, with augmentation of natriuresis and kaliuresis. Therefore, when adding ethacrynic acid, the initial dose and changes of dose should be in 25 mg increments, to avoid electrolyte depletion. Rarely, patients who failed to respond to ethacrynic acid have responded to older established agents.</paragraph>
+                              <paragraph>While many patients do not require supplemental potassium, the use of potassium chloride or potassium-sparing agents, or both, during treatment with ethacrynic acid is advisable, especially in cirrhotic or nephrotic patients and in patients receiving digitalis.</paragraph>
+                              <paragraph>Salt liberalization usually prevents the development of hyponatremia and hypochloremia. During treatment with ethacrynic acid, salt may be liberalized to a greater extent than with other diuretics. Cirrhotic patients, however, usually require at least moderate salt restriction concomitant with diuretic therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20140115"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_e2f82ff8-3b3d-432a-8000-1bfdc1c3a35b">
+                     <id root="df83e883-ff01-4e50-90a9-1820185b42fb"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Intravenous Use</content>
+                     </title>
+                     <text>
+                        <paragraph>Intravenous ethacrynate sodium for injection is for intravenous use when oral intake is impractical or in urgent conditions, such as acute pulmonary edema.</paragraph>
+                        <paragraph>The usual intravenous dose for the average sized adult is 50 mg, or 0.5 mg to 1 mg per kg of body weight. Usually only one dose has been necessary; occasionally a second dose at a new injection site, to avoid possible thrombophlebitis, may be required. A single intravenous dose not exceeding 100 mg has been used in critical situations.</paragraph>
+                        <paragraph>Insufficient pediatric experience precludes recommendation for this age group.</paragraph>
+                        <paragraph>To reconstitute the dry material, add 50 mL of 5 percent Dextrose Injection, or Sodium Chloride Injection to the vial. Occasionally, some 5 percent Dextrose Injection solutions may have a low pH (below 5). The resulting solution with such a diluent may be hazy or opalescent. Intravenous use of such a solution is not recommended. Inspect the vial containing intravenous ethacrynate sodium for injection for particulate matter and discoloration before use.</paragraph>
+                        <paragraph>The solution may be given slowly through the tubing of a running infusion or by direct intravenous injection over a period of several minutes. Do not mix this solution with whole blood or its derivatives. Discard unused reconstituted solution after 24 hours.</paragraph>
+                        <paragraph>Ethacrynate sodium for injection should not be given subcutaneously or intramuscularly because of local pain and irritation.</paragraph>
+                     </text>
+                     <effectiveTime value="20140115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_9872c5ca-1318-4568-b475-246408e71155">
+               <id root="6f756659-ffad-4651-8c46-a177d8187aba"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Ethacrynate Sodium for Injection, USP is a dry white material either in a plug form or as a powder. It is supplied in vials containing ethacrynate sodium equivalent to 50 mg of ethacrynic acid.</paragraph>
+                  <paragraph>NDC 67457-297-50<br/>carton containing one single-dose vial</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage: Store at 20° to 25°C (68° to 77°F). [See USP Controlled Room Temperature.]</content>
+                  </paragraph>
+                  <paragraph>Manufactured for:<br/>
+                     <content styleCode="bold">Mylan Institutional LLC</content>
+                     <br/>Morgantown, WV 26505 U.S.A.</paragraph>
+                  <paragraph>Manufactured by:<br/>
+                     <content styleCode="bold">Gland Pharma Ltd</content>
+                     <br/>Hyderabad 500 043<br/>India<br/>Code No.: AP/DRUGS/103/97</paragraph>
+                  <paragraph>PSLEA-019556-01</paragraph>
+                  <paragraph>Revised: 7/2021<br/>MI:ETHAIJ:R2</paragraph>
+               </text>
+               <effectiveTime value="20210714"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7308b468-2b25-4376-931e-067cb7017c52">
+               <id root="40952c7a-04f2-4191-9c99-0cf8b21a005a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL – 50 mg </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 67457-297-50    50 mg</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ethacrynate</content>
+                     <br/>
+                     <content styleCode="bold">Sodium</content>
+                     <br/>
+                     <content styleCode="bold">for Injection, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">50 mg</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ethacrynic Acid Equivalent</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR THE PREPARATION OF</content>
+                     <br/>
+                     <content styleCode="bold">INTRAVENOUS SOLUTIONS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only      Single-Dose Vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each vial contains:</content> ethacrynate<br/>sodium equivalent to 50 mg of<br/>ethacrynic acid. Inactive<br/>ingredient: 62.5 mg of mannitol.</paragraph>
+                  <paragraph>To reconstitute, add 50 mL of 5%<br/>Dextrose Injection or Sodium<br/>Chloride Injection for slow<br/>intravenous injection.</paragraph>
+                  <paragraph>Discard unused solution after 24<br/>hours.</paragraph>
+                  <paragraph>Filled into container as a true<br/>solution, then cryodesiccated.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Adult Dosage:</content> 0.5 mg to<br/>1 mg of ethacrynic acid per kg of<br/>body weight.</paragraph>
+                  <paragraph>See accompanying prescribing<br/>information.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20° to 25°C (68° to</content>
+                     <br/>
+                     <content styleCode="bold">77°F). [See USP Controlled Room</content>
+                     <br/>
+                     <content styleCode="bold">Temperature.]</content>
+                  </paragraph>
+                  <paragraph>Manufactured for:<br/>
+                     <content styleCode="bold">Mylan Institutional LLC</content>
+                     <br/>Morgantown, WV 26505 U.S.A.</paragraph>
+                  <paragraph>Made in India</paragraph>
+                  <paragraph>Code No.: AP/DRUGS/103/97</paragraph>
+                  <paragraph>Mylan.com</paragraph>
+                  <paragraph>MI:297:1C:R3</paragraph>
+                  <renderMultiMedia ID="id-1068651467" referencedObject="C6C26AC7-0181-443F-9511-CB10E6AC6164"/>
+               </text>
+               <effectiveTime value="20210714"/>
+               <component>
+                  <observationMedia ID="C6C26AC7-0181-443F-9511-CB10E6AC6164">
+                     <text>Ethacrynate Sodium Injection 50 mg Bottle Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

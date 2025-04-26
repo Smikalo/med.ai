@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2fc08cca-6fb1-5bd3-e063-6294a90a3da8"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Triamcinolone Acetonide Ointment USP
+  <br/>
+         <br/>
+FOR EXTERNAL USE ONLY.
+  <br/>
+NOT FOR OPHTHALMIC USE.
+  <br/>
+         <br/>
+Rx Only
+ </content>
+   </title>
+   <effectiveTime value="20250307"/>
+   <setId root="2fc08cae-77e2-5e67-e063-6294a90aa593"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="828374897"/>
+            <name>RedpharmDrug</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="828374897"/>
+                        <name>Redpharm Drug</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="67296-1927" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2fc0ab3c-044e-eabd-e063-6394a90adc91"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250307"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67296-1927" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Triamcinolone Acetonide</name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Triamcinolone Acetonide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0713-0228" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="N6K5787QVP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIGHT MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="1"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F446C597KA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRIAMCINOLONE ACETONIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="F446C597KA" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRIAMCINOLONE ACETONIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67296-1927-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20150910"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA089796" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150910"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_82AF3DCB-3BA0-71EC-52E9-BEF05556C358">
+               <id root="2fc07d21-7fdd-d43f-e063-6394a90ad07c"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>The topical corticosteroids constitute a class of primarily synthetic steroids used as anti-inflammatory and antipruritic agents. Triamcinolone acetonide is designated chemically as pregna-1,4-diene-3,20-dione, 9-fluoro-11,21-dihydroxy-16,17-[(1-methylethylidene)bis(oxy)]-,(11ß,16ą)-. C
+ 
+  <sub>24</sub>H
+ 
+  <sub>31</sub>FO
+ 
+  <sub>6</sub>,  M.W. 434.51; CAS Reg. No. 76-25-5. 
+  <br/>
+                     <br/>
+                     <renderMultiMedia referencedObject="MM101"/>
+                  </paragraph>
+                  <paragraph>Each gram of Triamcinolone Acetonide Ointment USP, 0.025% or 0.1% contains 0.25 mg or 1 mg triamcinolone acetonide USP, respectively, in an ointment base consisting of light mineral oil NF and white petrolatum USP.</paragraph>
+               </text>
+               <effectiveTime value="20241204"/>
+               <component>
+                  <observationMedia ID="MM101">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="triamcinolone acetonide ointment-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5F97C022-96EC-D592-0ED4-CB0C47FCAD43">
+               <id root="2fc07d21-7fde-d43f-e063-6394a90ad07c"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Topical corticosteroids share anti-inflammatory, anti-pruritic and vasoconstrictive actions. The mechanism of anti-inflammatory activity of the topical corticosteroids is unclear. Various laboratory methods, including vasoconstrictor assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between vasoconstrictor potency and therapeutic efficacy in man.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacokinetics</content>
+                     <br/>  The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle, the integrity of the epidermal barrier, and the use of occlusive dressings. Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin increase percutaneous absorption. Occlusive dressings substantially increase the percutaneous absorption of topical corticosteroids. Thus, occlusive dressings may be a valuable therapeutic adjunct for treatment of resistant dermatoses (see
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#ID_FD95333D-7E63-E3B6-0F04-0FCC0B179216">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>). Once absorbed through the skin, topical corticosteroids are handled through pharmacokinetic pathways similar to systemically administered corticosteroids. Corticosteroids are bound to plasma proteins in varying degrees. Corticosteroids are metabolized primarily in the liver and are then excreted by the kidneys. Some of the topical corticosteroids and their metabolites are also excreted into the bile.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20241204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_FE55F6D7-3047-1525-87A2-220403B1B940">
+               <id root="2fc07d21-7fdf-d43f-e063-6394a90ad07c"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS  AND USAGE</title>
+               <text>
+                  <paragraph>Topical corticosteroids are indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid responsive dermatoses.</paragraph>
+               </text>
+               <effectiveTime value="20241204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_9818CAB4-6A2E-B7CD-D784-24F51BE5BAEA">
+               <id root="2fc07d21-7fe0-d43f-e063-6394a90ad07c"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Topical corticosteroids are contraindicated in those patients with a history of hypersensitivity to any of the components of the preparations.</paragraph>
+               </text>
+               <effectiveTime value="20241204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_F3EA1827-E137-578A-0F7D-B2F4E9415CBC">
+               <id root="2fc07d21-7fe1-d43f-e063-6394a90ad07c"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                     <br/>  Systemic absorption of topical corticosteroids has produced reversible hypothalamic-pituitary-adrenal (HPA) axis suppression, manifestations of Cushing's syndrome, hyperglycemia, and glucosuria in some patients. 
+  <br/>
+                     <br/>  Conditions which augment systemic absorption include the application of the more potent steroids, use over large surface areas, prolonged use, and the addition of occlusive dressings. Therefore, patients receiving a large dose of a potent topical steroid applied to a large surface area or under an occlusive dressing should be evaluated periodically for evidence of HPA axis suppression by using the urinary free cortisol and ACTH stimulation tests. If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or to substitute a less potent steroid. 
+  <br/>
+                     <br/>  Recovery of HPA axis function is generally prompt and complete upon discontinuation of the drug. Infrequently, signs and symptoms of steroid withdrawal may occur, requiring supplemental systemic corticosteroids. 
+  <br/>
+                     <br/>  Children may absorb proportionally larger amounts of topical corticosteroids and thus be more susceptible to systemic toxicity (see
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#ID_F3EA1827-E137-578A-0F7D-B2F4E9415CBC">PRECAUTIONS-Pediatric Use</linkHtml>
+                     </content>). 
+  <br/>
+                     <br/>  If irritation develops, topical corticosteroids should be discontinued and appropriate therapy instituted. In the presence of dermatological infections, the use of an appropriate antifungal or antibacterial agent should be instituted. If a favorable response does not occur promptly, the corticosteroid should be discontinued until the infection has been adequately controlled.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information for </content>
+                     <content styleCode="bold">Patients</content>
+                     <br/>  Patients using topical corticosteroids should receive the following information and instructions:
+
+ </paragraph>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>This medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes.</item>
+                     <item>Patients should be advised not to use this medication for any disorder other than for which it was prescribed.</item>
+                     <item>The treated skin area should not be bandaged or otherwise covered or wrapped as to be occlusive unless directed by the physician.</item>
+                     <item>Patients should report any signs of local adverse reactions especially under occlusive dressing.</item>
+                     <item>Parents of pediatric patients should be advised not to use tight-fitting diapers or plastic pants on a child being treated in the diaper area, as these garments may constitute occlusive dressings.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Laboratory Tests</content>
+                     <br/>  The following tests may be helpful in evaluating the HPA axis suppression: urinary free cortisol test and ACTH stimulation test.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, and Impairment of Fertility</content>
+                     <br/>  Long-term animal studies have not been performed to evaluate the carcinogenic potential or the effect on fertility of topical corticosteroids. Studies to determine mutagenicity with prednisolone and hydrocortisone have revealed negative results.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy: Teratogenic Effects -</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                     <content styleCode="italics">Pregnancy Category C</content>
+                     <br/>  Corticosteroids are generally teratogenic in laboratory animals when administered systemically at relatively low dosage levels. The more potent corticosteroids have been shown to be teratogenic after dermal application in laboratory animals. There are no adequate and well-controlled studies in pregnant women on the teratogenic effects from topically applied corticosteroids. Therefore, topical corticosteroids should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Drugs of this class should not be used extensively on pregnant patients, in large amounts, or for prolonged periods of time.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nursing Mothers</content>
+                     <br/>  It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in breast milk. Systemically administered corticosteroids are secreted into breast milk in quantities
+ 
+  <content styleCode="italics">not</content>likely to have a deleterious effect on the infant. Nevertheless, caution should be exercised when topical corticosteroids are administered to a nursing woman.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use</content>
+                     <br/>  Pediatric patients may demonstrate greater susceptibility to topical corticosteroid-induced HPA axis suppression and Cushing's syndrome than mature patients because of a larger skin surface area to body weight ratio. 
+  <br/>
+                     <br/>  Hypothalamic-pituitary-adrenal (HPA) axis suppression, Cushing's syndrome and intracranial hypertension have been reported in children receiving topical corticosteroids. Manifestations of adrenal suppression in children include linear growth retardation, delayed weight gain, low plasma cortisol levels, and absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema. 
+  <br/>
+                     <br/>  Administration of topical corticosteroids to children should be limited to the least amount compatible with an effective therapeutic regimen. Chronic corticosteroid therapy may interfere with the growth and development of children.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20241204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_19F821F2-6D36-CFB6-4073-FFDEDB30DFDF">
+               <id root="2fc07d21-7fe2-d43f-e063-6394a90ad07c"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria. 
+  <br/>
+                     <br/>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Cosette Pharmaceuticals, Inc. at 1-800-922-1038 or FDA at 1-800-FDA-1088 or</content>
+                     <content styleCode="bold">
+                        <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">.</content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_389BD38C-113C-6AF5-F56D-6E68BA8A1C5E">
+               <id root="2fc07d21-7fe3-d43f-e063-6394a90ad07c"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Topically applied corticosteroids can be absorbed in sufficient amounts to produce systemic effects (see
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#ID_F3EA1827-E137-578A-0F7D-B2F4E9415CBC">PRECAUTIONS</linkHtml>
+                     </content>).
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20241204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_FD95333D-7E63-E3B6-0F04-0FCC0B179216">
+               <id root="2fc07d21-7fe4-d43f-e063-6394a90ad07c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE  AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Apply Triamcinolone Acetonide Ointment USP 0.025% to the affected area two to four times daily. Rub in gently. 
+  <br/>
+                     <br/>  Apply Triamcinolone Acetonide Ointment USP 0.1% to the affected area two to three times daily. Rub in gently. 
+  <br/>
+                     <br/>  Occlusive dressing may be used for the management of psoriasis or recalcitrant conditions. If an infection develops, the use of occlusive dressing should be discontinued and appropriate antimicrobial therapy instituted.
+ </paragraph>
+               </text>
+               <effectiveTime value="20241204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_EF518C59-3515-B4A7-2A69-8E87EB9AC0FA">
+               <id root="2fc07d21-7fe5-d43f-e063-6394a90ad07c"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Triamcinolone Acetonide Ointment USP, 0.025% is available as follows: 
+  <br/>  15 g tube (NDC 0713-0229-15) 
+  <br/>  80 g tube (NDC 0713-0229-80) 
+  <br/>
+                     <br/>  Triamcinolone Acetonide Ointment USP, 0.1% is available as follows: 
+  <br/>  15 g tube (NDC 0713-0228-15) 
+  <br/>  30 g tube (NDC 0713-0228-31) 
+  <br/>  80 g tube (NDC 0713-0228-80)
+ </paragraph>
+               </text>
+               <effectiveTime value="20241204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_B952FBD8-E1F3-D902-820F-2B0FD352164C">
+               <id root="2fc07d21-7fe6-d43f-e063-6394a90ad07c"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20-25°C (68-77°F) [see USP Controlled Room Temperature].</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">Distributed by:</content>
+                     <br/>  Cosette Pharmaceuticals, Inc. 
+  <br/>  South Plainfield, NJ 07080
+
+ </paragraph>
+                  <paragraph>
+                     <br/>  Rev. 07/2024 
+  <br/>  8-TRIAOICPLNC3   VC7777
+ </paragraph>
+               </text>
+               <effectiveTime value="20241204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_44A636F2-C9ED-4B19-60D0-BE84CBBE2AF3">
+               <id root="2fc07d21-7fe7-d43f-e063-6394a90ad07c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRINICIPAL DISPLAY PANEL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0713-0228-15</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Triamcinolone Acetonide Ointment, USP 0.1%</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">15 g</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR EXTERNAL USE ONLY. NOT FOR OPHTHALMIC USE.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cosette Pharmaceuticals, Inc.</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM102"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0713-0228-31</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Triamcinolone Acetonide Ointment, USP 0.1%</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">30 g</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR EXTERNAL USE ONLY. NOT FOR OPHTHALMIC USE.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cosette Pharmaceuticals, Inc.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="Ld2026038-2f3d-464f-a352-143e3d06994d"/>
+                     </content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0713-0228-80</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Triamcinolone Acetonide Ointment, USP 0.1%</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">80 g</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR EXTERNAL USE ONLY. NOT FOR OPHTHALMIC USE.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cosette Pharmaceuticals, Inc.</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM104"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0713-0229-15</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Triamcinolone Acetonide Ointment, USP 0.025%</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">15 g</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR EXTERNAL USE ONLY. NOT FOR OPHTHALMIC USE.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cosette Pharmaceuticals, Inc.</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM106"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0713-0229-80</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Triamcinolone Acetonide Ointment, USP 0.025%</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">80 g</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR EXTERNAL USE ONLY. NOT FOR OPHTHALMIC USE.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cosette Pharmaceuticals, Inc.</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM108"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241204"/>
+               <component>
+                  <observationMedia ID="MM102">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="triamcinolone acetonide ointment-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Ld2026038-2f3d-464f-a352-143e3d06994d">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="triamcinolone acetonide ointment-9.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM104">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="triamcinolone acetonide ointment-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM106">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="triamcinolone acetonide ointment-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM108">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="triamcinolone acetonide ointment-8.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

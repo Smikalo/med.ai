@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="31188305-60b5-bf7f-e063-6294a90ac7f4"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use DICYCLOMINE HYDROCHLORIDE INJECTION safely and effectively. See Full Prescribing Information for DICYCLOMINE HYDROCHLORIDE INJECTION.
+ <br/>
+DICYCLOMINE HYDROCHLORIDE injection, for intramuscular use.
+ <br/>
+Initial U.S. Approval: 1950
+</title>
+   <effectiveTime value="20250324"/>
+   <setId root="be216fa1-e509-4ae5-a62a-550881d090ae"/>
+   <versionNumber value="14"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="620714787"/>
+            <name>Nexus Pharmaceuticals LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="620714787"/>
+                        <name>Nexus Pharmaceuticals LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="14789-010" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3118bd1e-3320-6629-e063-6394a90a8049"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250324"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="14789-010" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dicyclomine HCl</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Dicyclomine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="CQ903KQA31" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DICYCLOMINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4KV4X8IF6V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DICYCLOMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="14789-010-07" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="14789-010-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20190218"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA206468" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20190218"/>
+                              <high value="20251001"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="23981f6c-aa3d-ce25-e063-6394a90a5fda"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Dicyclomine hydrochloride injection is indicated for the treatment of patients with functional bowel/irritable bowel syndrome.</paragraph>
+               </text>
+               <effectiveTime value="20241002"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Dicyclomine Hydrochloride Injection, USP is an antispasmodic and anticholinergic (antimuscarinic) agent indicated for the treatment of functional bowel/irritable bowel syndrome (
+ 
+    <linkHtml href="#s1">1</linkHtml>)
+
+   </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="23981f6c-aa3e-ce25-e063-6394a90a5fda"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Dosage must be adjusted to individual patient needs.</paragraph>
+               </text>
+               <effectiveTime value="20180131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Dosage for dicyclomine hydrochloride must be adjusted to individual patient needs (
+ 
+    <linkHtml href="#s2">2</linkHtml>).
+
+   </paragraph>
+                        <paragraph>If a dose is missed, patients should continue the normal dosing schedule (
+ 
+    <linkHtml href="#s2">2</linkHtml>).
+
+   </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Intramuscular in adults (
+  
+     <linkHtml href="#s3">2.2</linkHtml>):
+ 
+    </content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Intramuscular administration recommended no longer than 1 or 2 days when patients cannot take oral administration</item>
+                           <item>Intramuscular administration recommended no longer than 1 or 2 days when patients cannot take oral administration</item>
+                           <item>Recommended dose: 10 mg to 20 mg four times a day</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s3">
+                     <id root="23981f6c-aa3f-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Intramuscular Dosage and Administration in Adults</title>
+                     <text>
+                        <paragraph>Dicyclomine Hydrochloride Intramuscular Injection must be administered via
+ 
+  <content styleCode="italics">intramuscular</content>route only. Do not administer by any other route.
+
+ </paragraph>
+                        <paragraph>The recommended intramuscular dose is 10 mg to 20 mg four times a day
+ 
+  <content styleCode="italics">[</content>
+                           <content styleCode="italics">
+                              <content styleCode="underline">see Clinical Pharmacology (
+   
+    <linkHtml href="#s37">12</linkHtml>)]
+  
+   </content>
+                           </content>.
+
+ </paragraph>
+                        <paragraph>The intramuscular injection is to be used only for 1 or 2 days when the patient cannot take oral medication.</paragraph>
+                        <paragraph>Intramuscular injection is about twice as bioavailable as oral dosage forms.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s4">
+                     <id root="23981f6c-aa40-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Preparation for Intramuscular Administration</title>
+                     <text>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                        <paragraph>Aspirate the syringe before injecting to avoid intravascular injection, since thrombosis may occur if the drug is inadvertently injected intravascularly.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="23981f6c-aa41-ce25-e063-6394a90a5fda"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Dicyclomine Hydrochloride Injection, USP 20 mg/2 mL (10 mg/mL)</paragraph>
+               </text>
+               <effectiveTime value="20180131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Dicyclomine Hydrochloride Injection, USP 20 mg/2 mL (10 mg/mL) (
+  
+     <linkHtml href="#s5">3</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="23981f6c-aa42-ce25-e063-6394a90a5fda"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Dicyclomine hydrochloride is contraindicated in infants less than 6 months of age
+ 
+  <content styleCode="italics">[see Use in Specific Populations(
+  
+   <linkHtml href="#s31">8.4</linkHtml>)]
+ 
+  </content>, nursing mothers
+ 
+  <content styleCode="italics">[see Use in Specific Populations (
+  
+   <linkHtml href="#s30">8.3</linkHtml>)]
+ 
+  </content>, and in patients with:
+
+ </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>unstable cardiovascular status in acute hemorrhage</item>
+                     <item>myasthenia gravis
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#s11">5.4</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>glaucoma
+  
+   <content styleCode="italics">[see Adverse Reactions (
+   
+    <linkHtml href="#s20">6.3</linkHtml>) and Drug Interactions (
+   
+    <linkHtml href="#s22">7.1</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>obstructive uropathy
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#s15">5.8</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>obstructive disease of the gastrointestinal tract
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#s12">5.5</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>severe ulcerative colitis
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#s14">5.7</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>reflux esophagitis</item>
+                  </list>
+               </text>
+               <effectiveTime value="20180131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Infants less than 6 months of age (
+  
+     <linkHtml href="#s6">4</linkHtml>)
+ 
+    </item>
+                           <item>Glaucoma (
+  
+     <linkHtml href="#s6">4</linkHtml>)
+ 
+    </item>
+                           <item>Nursing mothers (
+  
+     <linkHtml href="#s6">4</linkHtml>)
+ 
+    </item>
+                           <item>Obstructive uropathy (
+  
+     <linkHtml href="#s6">4</linkHtml>)
+ 
+    </item>
+                           <item>Unstable cardiovascular status in acute hemorrhage (
+  
+     <linkHtml href="#s6">4</linkHtml>)
+ 
+    </item>
+                           <item>Obstructive disease of the gastrointestinal tract (
+  
+     <linkHtml href="#s6">4</linkHtml>)
+ 
+    </item>
+                           <item>Myasthenia gravis (
+  
+     <linkHtml href="#s6">4</linkHtml>)
+ 
+    </item>
+                           <item>Severe ulcerative colitis (
+  
+     <linkHtml href="#s6">4</linkHtml>)
+ 
+    </item>
+                           <item>Reflux esophagitis (
+  
+     <linkHtml href="#s6">4</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="23981f6c-aa43-ce25-e063-6394a90a5fda"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20180131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>For Intramuscular injection only; should not be administered by any other route. Intravenous injection may result in thrombosis or thrombophlebitis and injection site reactions (
+  
+     <linkHtml href="#s8">5.1</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Cardiovascular conditions</content>: worsening of conditions (
+  
+     <linkHtml href="#s9">5.2</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Peripheral and central nervous system</content>: heat prostration can occur with drug use (fever and heat stroke due to decreased sweating); drug should be discontinued and supportive measures instituted (
+  
+     <linkHtml href="#s10">5.3</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Psychosis and delirium have been reported in patients sensitive to anticholinergic drugs (such as elderly patients and/or in patients with mental illness)</content>: signs and symptoms resolve within 12 to 24 hours after discontinuation of dicyclomine hydrochloride (
+  
+     <linkHtml href="#s10">5.3</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Myasthenia Gravis</content>: overdose may lead to muscular weakness and paralysis. Dicyclomine hydrochloride should be given to patients with myasthenia gravis only to reduce adverse muscarinic effects of an anticholinesterase (
+  
+     <linkHtml href="#s11">5.4</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Incomplete intestinal obstruction</content>: diarrhea may be an early symptom especially in patients with ileostomy or colostomy. Treatment with dicyclomine hydrochloride would be inappropriate and possibly fatal (
+  
+     <linkHtml href="#s12">5.5</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Salmonella dysenteric patients</content>: due to risk of toxic megacolon (
+  
+     <linkHtml href="#s13">5.6</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Ulcerative colitis</content>: dicyclomine hydrochloride should be used with caution in these patients; large doses may suppress intestinal motility or aggravate the serious complications of toxic megacolon (
+  
+     <linkHtml href="#s14">5.7</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Prostatic hypertrophy</content>: dicyclomine hydrochloride should be used with caution in these patients; may lead to urinary retention (
+  
+     <linkHtml href="#s15">5.8</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Hepatic and renal disease</content>: should be used with caution (
+  
+     <linkHtml href="#s16">5.9</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Geriatric</content>: use with caution in elderly who may be more susceptible to dicyclomine hydrochloride's adverse events (
+  
+     <linkHtml href="#s17">5.10</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s8">
+                     <id root="23981f6c-aa44-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Inadvertent Intravenous Administration</title>
+                     <text>
+                        <paragraph>Dicyclomine hydrochloride solution is for intramuscular administration only. Do not administer by any other route. Inadvertent intravenous administration may result in thrombosis, thrombophlebitis, and injection site reactions such as pain, edema, skin color change, and reflex sympathetic dystrophy syndrome
+ 
+  <content styleCode="italics">[see Adverse Reactions (
+  
+   <linkHtml href="#s19">6.2</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="23981f6c-aa45-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Cardiovascular Conditions</title>
+                     <text>
+                        <paragraph>Dicyclomine hydrochloride needs to be used with caution in conditions characterized by tachyarrhythmia such as thyrotoxicosis, congestive heart failure and in cardiac surgery, where they may further accelerate the heart rate. Investigate any tachycardia before administration of dicyclomine hydrochloride. Care is required in patients with coronary heart disease, as ischemia and infarction may be worsened, and in patients with hypertension
+ 
+  <content styleCode="italics">[see Adverse Reactions (
+  
+   <linkHtml href="#s20">6.3</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s10">
+                     <id root="23981f6c-aa46-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Peripheral and Central Nervous System</title>
+                     <text>
+                        <paragraph>The peripheral effects of dicyclomine hydrochloride are a consequence of their inhibitory effect on muscarinic receptors of the autonomic nervous system. They include dryness of the mouth with difficulty in swallowing and talking, thirst, reduced bronchial secretions, dilatation of the pupils (mydriasis) with loss of accommodation (cycloplegia) and photophobia, flushing and dryness of the skin, transient bradycardia followed by tachycardia, with palpitations and arrhythmias, and difficulty in micturition, as well as reduction in the tone and motility of the gastrointestinal tract leading to constipation
+ 
+  <content styleCode="italics">[see Adverse Reactions (
+  
+   <linkHtml href="#s18">6</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                        <paragraph>In the presence of high environmental temperature heat prostration can occur with drug use (fever and heat stroke due to decreased sweating). It should also be used cautiously in patients with fever. If symptoms occur, the drug should be discontinued and supportive measures instituted. Because of the inhibitory effect on muscarinic receptors within the autonomic nervous system, caution should be taken in patients with autonomic neuropathy.</paragraph>
+                        <paragraph>Central nervous system (CNS) signs and symptoms include confusional state, disorientation, amnesia, hallucinations, dysarthria, ataxia, coma, euphoria, fatigue, insomnia, agitation and mannerisms, and inappropriate affect.</paragraph>
+                        <paragraph>Psychosis and delirium have been reported in sensitive individuals (such as elderly patients and/or in patients with mental illness) given anticholinergic drugs. These CNS signs and symptoms usually resolve within 12 to 24 hours after discontinuation of the drug.</paragraph>
+                        <paragraph>Dicyclomine hydrochloride may produce drowsiness, dizziness or blurred vision. The patient should be warned not to engage in activities requiring mental alertness, such as operating a motor vehicle or other machinery or performing hazardous work while taking dicyclomine hydrochloride.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="23981f6c-aa47-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Myasthenia Gravis</title>
+                     <text>
+                        <paragraph>With overdosage, a curare-like action may occur (i.e., neuromuscular blockade leading to muscular weakness and possible paralysis). It should not be given to patients with myasthenia gravis except to reduce adverse muscarinic effects of an anticholinesterase
+ 
+  <content styleCode="italics">[see Contraindications (
+  
+   <linkHtml href="#s6">4</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="23981f6c-aa48-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Intestinal Obstruction</title>
+                     <text>
+                        <paragraph>Diarrhea may be an early symptom of incomplete intestinal obstruction, especially in patients with ileostomy or colostomy. In this instance, treatment with this drug would be inappropriate and possibly harmful
+ 
+  <content styleCode="italics">[see Contraindications (
+  
+   <linkHtml href="#s6">4</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>Rarely development of Ogilvie's syndrome (colonic pseudo-obstruction) has been reported. Ogilvie's syndrome is a clinical disorder with signs, symptoms, and radiographic appearance of an acute large bowel obstruction but with no evidence of distal colonic obstruction.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="23981f6c-aa49-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Toxic Dilatation of Intestinemegacolon</title>
+                     <text>
+                        <paragraph>Toxic dilatation of intestine and intestinal perforation is possible when anticholinergic agents are administered in patients with Salmonella dysentery.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s14">
+                     <id root="23981f6c-aa4a-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7 Ulcerative Colitis</title>
+                     <text>
+                        <paragraph>Caution should be taken in patients with ulcerative colitis. Large doses may suppress intestinal motility to the point of producing a paralytic ileus and the use of this drug may precipitate or aggravate the serious complication of toxic megacolon
+ 
+  <content styleCode="italics">[see Adverse Reactions (
+  
+   <linkHtml href="#s20">6.3</linkHtml>)]
+ 
+  </content>. Dicyclomine is contraindicated in patients with severe ulcerative colitis
+ 
+  <content styleCode="italics">[see Contraindications (
+  
+   <linkHtml href="#s6">4</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="23981f6c-aa4b-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.8 Prostatic Hypertrophy</title>
+                     <text>
+                        <paragraph>Dicyclomine hydrochloride should be used with caution in patients with known or suspected prostatic enlargement, in whom prostatic enlargement may lead to urinary retention
+ 
+  <content styleCode="italics">[see Adverse Reactions (
+  
+   <linkHtml href="#s20">6.3</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="23981f6c-aa4c-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.9 Hepatic and Renal Disease</title>
+                     <text>
+                        <paragraph>Dicyclomine hydrochloride should be used with caution in patients with known hepatic and renal impairment.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s17">
+                     <id root="23981f6c-aa4d-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.10 Geriatric Population</title>
+                     <text>
+                        <paragraph>Dicyclomine hydrochloride should be used with caution in elderly who may be more susceptible to its adverse effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s18">
+               <id root="23981f6c-aa4e-ce25-e063-6394a90a5fda"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The pattern of adverse effects seen with dicylomine is mostly related to its pharmacological actions at muscarinic receptors
+ 
+  <content styleCode="italics">[see Clinical Pharmacology (
+  
+   <linkHtml href="#s37">12</linkHtml>)]
+ 
+  </content>. They are a consequence of the inhibitory effect on muscarinic receptors within the autonomic nervous system. These effects are dose-related and are usually reversible when treatment is discontinued.
+
+ </paragraph>
+                  <paragraph>The most serious adverse reactions reported with dicyclomine hydrochloride include cardiovascular and central nervous system symptoms
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#s9">5.2</linkHtml>,
+  
+   <linkHtml href="#s10">5.3</linkHtml>)].
+ 
+  </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20180131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most serious adverse reactions include cardiovascular and central nervous system symptoms. The most common adverse reactions (&gt; 5% of patients) are dizziness, dry mouth, vision blurred, nausea, somnolence, asthenia and nervousness (
+ 
+    <linkHtml href="#s18">6</linkHtml>)
+
+   </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS contact Lambda Therapeutics Limited (Toll Free Number: 1-855-642-2594 or by email: safety.nexuspharma@lambda-cro.com) or the FDA (Toll Free Number: 1-800-FDA-1088 or by the MedWatch website at www.fda.gov/safety/MedWatch/).</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="e19">
+                     <id root="23981f6c-aa4f-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>The data described below reflect exposure in controlled clinical trials involving over 100 patients treated for functional bowel/irritable bowel syndrome with dicyclomine hydrochloride at initial doses of 160 mg daily (40 mg four times a day).</paragraph>
+                        <paragraph>In these trials most of the side effects were typically anticholinergic in nature and were reported by 61% of the patients.
+ 
+  <linkHtml href="#t1">Table 1</linkHtml>presents adverse reactions (
+ 
+  <content styleCode="italics">MedDRA 13.0</content>preferred terms) by decreasing order of frequency in a side-by-side comparison with placebo.
+
+ </paragraph>
+                        <table ID="t1" width="100%">
+                           <caption>Table 1: Adverse Reactions Experienced in Controlled Clinical Trials with Decreasing Order of Frequency</caption>
+                           <col width="28.100%" align="left"/>
+                           <col width="53.600%" align="left"/>
+                           <col width="18.300%" align="left"/>
+                           <tbody>
+                              <tr>
+                                 <td align="left" styleCode="Toprule Botrule Lrule Rrule" valign="top">
+                                    <content styleCode="bold">MedDRA Preferred Term</content>
+                                 </td>
+                                 <td align="left" styleCode="Toprule Botrule Rrule" valign="top">
+                                    <content styleCode="bold">Dicyclomine Hydrochloride (40 mg four times a day) %</content>
+                                 </td>
+                                 <td align="left" styleCode="Toprule Botrule Rrule" valign="top">
+                                    <content styleCode="bold">Placebo %</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" styleCode="Botrule Lrule Rrule" valign="top">Dry Mouth</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">33</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">5</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" styleCode="Botrule Lrule Rrule" valign="top">Dizziness</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">40</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">5</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" styleCode="Botrule Lrule Rrule" valign="top">Vision Blurred</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">27</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">2</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" styleCode="Botrule Lrule Rrule" valign="top">Nausea</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">14</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">6</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" styleCode="Botrule Lrule Rrule" valign="top">Somnolence</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">9</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">1</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" styleCode="Botrule Lrule Rrule" valign="top">Asthenia</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">7</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">1</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" styleCode="Botrule Lrule Rrule" valign="top">Nervousness</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">6</td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">2</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Nine percent (9%) of patients were discontinued from dicyclomine hydrochloride because of one or more of these side effects (compared with 2% in the placebo group). In 41% of the patients with side effects, side effects disappeared or were tolerated at the 160 mg daily dose without reduction. A dose reduction from 160 mg daily to an average daily dose of 90 mg was required in 46% of the patients with side effects who then continued to experience a favorable clinical response; their side effects either disappeared or were tolerated.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s19">
+                     <id root="23981f6c-aa50-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2 Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions, presented by system organ class in alphabetical order, have been identified during post approval use of dicyclomine hydrochloride. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="italics">Cardiac disorders</content>: palpitations, tachyarrhythmias
+ 
+  </item>
+                           <item>
+                              <content styleCode="italics">Eye disorders</content>: cycloplegia, mydriasis, vision blurred
+ 
+  </item>
+                           <item>
+                              <content styleCode="italics">Gastrointestinal disorders</content>: abdominal distension, abdominal pain, constipation, dry mouth, dyspepsia, nausea, vomiting
+ 
+  </item>
+                           <item>
+                              <content styleCode="italics">General disorders and administration site conditions</content>: fatigue, malaise
+ 
+  </item>
+                           <item>
+                              <content styleCode="italics">Immune System Disorders:</content>drug hypersensitivity including face edema, angioedema, anaphylactic shock
+ 
+  </item>
+                           <item>
+                              <content styleCode="italics">Nervous system disorders</content>: dizziness, headache, somnolence, syncope
+ 
+  </item>
+                           <item>
+                              <content styleCode="italics">Psychiatric disorders</content>: As with the other anti-cholinergic drugs, cases of delirium or symptoms of delirium such as amnesia (or transient global amnesia), agitation, confusional state, delusion, disorientation, hallucination (including visual hallucination) as well as mania, mood altered and pseudodementia, have been reported with use of dicyclomine hydrochloride. Nervousness and insomnia have also been reported.
+ 
+  </item>
+                           <item>
+                              <content styleCode="italics">Reproductive system and breast disorders:</content>suppressed lactation
+ 
+  </item>
+                           <item>
+                              <content styleCode="italics">Respiratory, thoracic and mediastinal disorders</content>: dyspnoea, nasal congestion
+ 
+  </item>
+                           <item>
+                              <content styleCode="italics">Skin and subcutaneous tissue disorder</content>: dermatitis allergic, erythema, rash
+ 
+  </item>
+                        </list>
+                        <paragraph>Cases of thrombosis, thrombophlebitis and injection site reactions such as local pain, edema, skin color change and even reflex sympathetic dystrophy syndrome have been reported following inadvertent IV injection of dicyclomine.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s20">
+                     <id root="23981f6c-aa51-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.3 Adverse Reactions Reported with Similar Drugs with Anticholinergic/Antispasmodic Action</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Gastrointestinal:</content>anorexia,
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Central Nervous System:</content>tingling, numbness, dyskinesia, speech disturbance, insomnia
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Peripheral Nervous System:</content>With overdosage, a curare-like action may occur (i.e., neuromuscular blockade leading to muscular weakness and possible paralysis).
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Ophthalmologic:</content>diplopia, increased ocular tension
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Dermatologic/Allergic:</content>urticaria, itching, and other dermal manifestations
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Genitourinary:</content>urinary hesitancy, urinary retention in patients with prostatic hypertrophy
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cardiovascular:</content>hypertension
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Respiratory:</content>apnea
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Other:</content>decreased sweating, sneezing, throat congestion, impotence. With the injectable form, there may be temporary sensation of light-headedness. Some local irritation and focal coagulation necrosis may occur following the intramuscular injection of dicyclomine hydrochloride.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s21">
+               <id root="23981f6c-aa52-ce25-e063-6394a90a5fda"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20180131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Antiglaucoma agents</content>: anticholinergics antagonize antiglaucoma agents and may increase intraoccular pressure (
+  
+     <linkHtml href="#s21">7</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Anticholinergic agents</content>: may affect the gastrointestinal absorption of various drugs; may also increase certain actions or side effects of other anticholinergic drugs (
+  
+     <linkHtml href="#s21">7</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Antacids</content>: interfere with the absorption of anticholinergic agents (
+  
+     <linkHtml href="#s21">7</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s22">
+                     <id root="23981f6c-aa53-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Antiglaucoma Agents</title>
+                     <text>
+                        <paragraph>Anticholinergics antagonize the effects of antiglaucoma agents. Anticholinergic drugs in the presence of increased intraocular pressure may be hazardous when taken concurrently with agents such as corticosteroids. Use of dicyclomine hydrochloride in patients with glaucoma is not recommended
+ 
+  <content styleCode="italics">[see Contraindications (
+  
+   <linkHtml href="#s6">4</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s23">
+                     <id root="23981f6c-aa54-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 Other Drugs with Anticholinergic Activity</title>
+                     <text>
+                        <paragraph>The following agents may increase certain actions or side effects of anticholinergic drugs including dicyclomine hydrochloride: amantadine, antiarrhythmic agents of Class I (e.g., quinidine), antihistamines, antipsychotic agents (e.g., phenothiazines), benzodiazepines, MAO inhibitors, narcotic analgesics (e.g., meperidine), nitrates and nitrites, sympathomimetic agents, tricyclic antidepressants, and other drugs having anticholinergic activity.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s24">
+                     <id root="23981f6c-aa55-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.3 Other Gastrointestinal Motility Drugs</title>
+                     <text>
+                        <paragraph>Interaction with other gastrointestinal motility drugs may antagonize the effects of drugs that alter gastrointestinal motility, such as metoclopramide.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s25">
+                     <id root="23981f6c-aa56-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.4 Effect of Antacids</title>
+                     <text>
+                        <paragraph>Because antacids may interfere with the absorption of anticholinergic agents including dicyclomine hydrochloride, simultaneous use of these drugs should be avoided.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s26">
+                     <id root="23981f6c-aa57-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.5 Effect on Absorption of Other Drugs</title>
+                     <text>
+                        <paragraph>Anticholinergic agents may affect gastrointestinal absorption of various drugs by affecting on gastrointestinal motility, such as slowly dissolving dosage forms of digoxin; increased serum digoxin concentration may result.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s27">
+                     <id root="23981f6c-aa58-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.6 Effect on Gastric Acid Secretion</title>
+                     <text>
+                        <paragraph>The inhibiting effects of anticholinergic drugs on gastric hydrochloric acid secretion are antagonized by agents used to treat achlorhydria and those used to test gastric secretion.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s28">
+               <id root="23981f6c-aa59-ce25-e063-6394a90a5fda"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20180131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Pregnancy:</content>use only if clearly needed (
+  
+     <linkHtml href="#s29">8.1</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Pediatric Use</content>: Safety and effectiveness not established (
+  
+     <linkHtml href="#s31">8.4</linkHtml>)
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Hepatic and renal impairment</content>: caution must be taken with patients with significantly impaired hepatic and renal function (
+  
+     <linkHtml href="#s33">8.6</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s29">
+                     <id root="23981f6c-aa5a-ce25-e063-6394a90a5fda"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>Pregnancy Category B</paragraph>
+                        <paragraph>Adequate and well-controlled studies have not been conducted with dicyclomine hydrochloride in pregnant women at the recommended doses of 80 to 160 mg/day. However, epidemiologic studies did not show an increased risk of structural malformations among babies born to women who took products containing dicyclomine hydrochloride at doses up to 40 mg/day during the first trimester of pregnancy. Reproduction studies have been performed in rats and rabbits at doses up to 33 times the maximum recommended human dose based on 160 mg/day (3 mg/kg) and have revealed no evidence of harm to the fetus due to dicyclomine hydrochloride. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s30">
+                     <id root="23981f6c-aa5b-ce25-e063-6394a90a5fda"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>8.3 Nursing Mothers</title>
+                     <text>
+                        <paragraph>Dicyclomine hydrochloride is contraindicated in women who are breastfeeding. Dicyclomine hydrochloride is excreted in human milk. Because of the potential for serious adverse reactions in breast-fed infants from dicyclomine hydrochloride, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother
+ 
+  <content styleCode="italics">[see Use in Specific Populations (
+  
+   <linkHtml href="#s31">8.4</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s31">
+                     <id root="23981f6c-aa5c-ce25-e063-6394a90a5fda"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                        <paragraph>Dicyclomine hydrochloride is contraindicated in infants less than 6 months of age
+ 
+  <content styleCode="italics">[see Contraindications (
+  
+   <linkHtml href="#s6">4</linkHtml>)]
+ 
+  </content>. There are published cases reporting that the administration of dicyclomine hydrochloride to infants has been followed by serious respiratory symptoms (dyspnea, shortness of breath, breathlessness, respiratory collapse, apnea and asphyxia), seizures, syncope, pulse rate fluctuations, muscular hypotonia, and coma, and death, however; no causal relationship has been established.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s32">
+                     <id root="23981f6c-aa5d-ce25-e063-6394a90a5fda"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of dicyclomine hydrochloride did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range in adults, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s33">
+                     <id root="23981f6c-aa5e-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.6 Renal Impairment</title>
+                     <text>
+                        <paragraph>Effects of renal impairment on PK, safety and efficacy of dicyclomine hydrochloride have not been studied. Dicyclomine hydrochloride drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Dicyclomine hydrochloride should be administered with caution in patients with renal impairment.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s34">
+                     <id root="23981f6c-aa5f-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.7 Hepatic Impairment</title>
+                     <text>
+                        <paragraph>Effects of renal impairment on PK, safety and efficacy of dicyclomine hydrochloride have not been studied. Dicyclomine hydrochloride should be administered with caution in patients with hepatic impairment.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s35">
+               <id root="23981f6c-aa60-ce25-e063-6394a90a5fda"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>In case of an overdose, patients should contact a physician, poison control center (1-800-222-1222), or emergency room.</paragraph>
+                  <paragraph>The signs and symptoms of overdosage include: headache; nausea; vomiting; blurred vision; dilated pupils; hot, dry skin; dizziness; dryness of the mouth; difficulty in swallowing; and CNS stimulation including convulsion. A curare-like action may occur (i.e., neuromuscular blockade leading to muscular weakness and possible paralysis).</paragraph>
+                  <paragraph>One reported event included a 37-year-old who reported numbness on the left side, cold fingertips, blurred vision, abdominal and flank pain, decreased appetite, dry mouth, and nervousness following ingestion of 320 mg daily (four 20 mg tablets four times daily). These events resolved after discontinuing the dicyclomine hydrochloride.</paragraph>
+                  <paragraph>The acute oral LD50 of the drug is 625 mg/kg in mice.</paragraph>
+                  <paragraph>The amount of drug in a single dose that is ordinarily associated with symptoms of overdosage or that is likely to be life-threatening, has not been defined. The maximum human oral dose recorded was 600 mg by mouth in a 10-month-old child and approximately 1500 mg in an adult, each of whom survived. In three of the infants who died following administration of dicyclomine hydrochloride
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#s8">5.1</linkHtml>)], t
+ 
+  </content>he blood concentrations of drug were 200, 220, and 505 ng/mL.
+
+ </paragraph>
+                  <paragraph>It is not known if dicyclomine hydrochloride is dialyzable.</paragraph>
+                  <paragraph>Treatment should consist of gastric lavage, emetics, and activated charcoal. Sedatives (e.g., short- acting barbiturates, benzodiazepines) may be used for management of overt signs of excitement. If indicated, an appropriate parenteral cholinergic agent may be used as an antidote.</paragraph>
+               </text>
+               <effectiveTime value="20180131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s36">
+               <id root="23981f6c-aa75-ce25-e063-6394a90a5fda"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Dicyclomine hydrochloride is an antispasmodic and anticholinergic (antimuscarinic) agent.</paragraph>
+                  <paragraph>Dicyclomine Hydrochloride Injection, USP is a sterile, pyrogen-free, aqueous solution for intramuscular injection ( 
+  <content styleCode="bold">NOT FOR INTRAVENOUS USE</content>). Each mL contains 10 mg dicyclomine hydrochloride USP in sterile water for injection, made isotonic with sodium chloride.
+ </paragraph>
+                  <paragraph>Dicyclomine hydrochloride is [bicyclohexyl]-1-carboxylic acid, 2-(diethylamino) ethyl ester, hydrochloride, with a molecular formula of C 
+  <sub>19</sub>H 
+  <sub>35</sub>NO 
+  <sub>2</sub>•HCl and the following structural formula:
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_23982a38-7305-cee5-e063-6394a90a905c"/>
+                  </paragraph>
+                  <paragraph>Molecular weight: 345.95</paragraph>
+                  <paragraph>Dicyclomine hydrochloride occurs as a fine, white, crystalline, practically odorless powder with a bitter taste. It is soluble in water, freely soluble in alcohol and chloroform, and very slightly soluble in ether.</paragraph>
+               </text>
+               <effectiveTime value="20221130"/>
+               <component>
+                  <observationMedia ID="img_23982a38-7305-cee5-e063-6394a90a905c">
+                     <text>Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dic07-0008-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s37">
+               <id root="23981f6c-aa62-ce25-e063-6394a90a5fda"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20180131"/>
+               <component>
+                  <section ID="s38">
+                     <id root="23981f6c-aa63-ce25-e063-6394a90a5fda"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Dicyclomine hydrochloride relieves smooth muscle spasm of the gastrointestinal tract. Animal studies indicate that this action is achieved via a dual mechanism:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>a specific anticholinergic effect (antimuscarinic) at the acetylcholine-receptor sites with approximately 1/8 the milligram potency of atropine (
+  
+   <content styleCode="italics">in vitro</content>, guinea pig ileum); and
+ 
+  </item>
+                           <item>a direct effect upon smooth muscle (musculotropic) as evidenced by dicyclomine hydrochloride's antagonism of bradykinin- and histamine-induced spasms of the isolated guinea pig ileum.</item>
+                        </list>
+                        <paragraph>Atropine did not affect responses to these two agonists.
+ 
+  <content styleCode="italics">In vivo</content>studies in cats and dogs showed dicyclomine hydrochloride to be equally potent against acetylcholine (ACh)- or barium chloride (BaCl2)-induced intestinal spasm while atropine was at least 200 times more potent against effects of ACh than BaCl2. Tests for mydriatic effects in mice showed that dicyclomine hydrochloride was approximately 1/500 as potent as atropine; antisialagogue tests in rabbits showed dicyclomine hydrochloride to be 1/300 as potent as atropine.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s39">
+                     <id root="23981f6c-aa64-ce25-e063-6394a90a5fda"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Dicyclomine hydrochloride can inhibit the secretion of saliva and sweat, decrease gastrointestinal secretions and motility, cause drowsiness, dilate the pupils, increase heart rate, and depress motor function.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s40">
+                     <id root="23981f6c-aa65-ce25-e063-6394a90a5fda"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <effectiveTime value="20180131"/>
+                     <component>
+                        <section ID="s41">
+                           <id root="23981f6c-aa66-ce25-e063-6394a90a5fda"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Absorption and Distribution</content>
+                              </paragraph>
+                              <paragraph>In man, dicyclomine hydrochloride is rapidly absorbed after oral administration, reaching peak values within 60 to 90 minutes. Mean volume of distribution for a 20 mg oral dose is approximately 3.65 L/kg suggesting extensive distribution in tissues.</paragraph>
+                           </text>
+                           <effectiveTime value="20180131"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s42">
+                           <id root="23981f6c-aa67-ce25-e063-6394a90a5fda"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Elimination</content>
+                              </paragraph>
+                              <paragraph>The metabolism of dicyclomine hydrochloride was not studied. The principal route of excretion is via the urine (79.5% of the dose). Excretion also occurs in the feces, but to a lesser extent (8.4%). Mean half-life of plasma elimination in one study was determined to be approximately 1.8 hours when plasma concentrations were measured for 9 hours after a single dose. In subsequent studies, plasma concentrations were followed for up to 24 hours after a single dose, showing a secondary phase of elimination with a somewhat longer half-life.</paragraph>
+                           </text>
+                           <effectiveTime value="20180131"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s43">
+               <id root="23981f6c-aa68-ce25-e063-6394a90a5fda"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20180131"/>
+               <component>
+                  <section ID="s44">
+                     <id root="23981f6c-aa69-ce25-e063-6394a90a5fda"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Long-term animal studies have not been conducted to evaluate the carcinogenic potential of dicyclomine hydrochloride. In studies in rats at doses of up to 100 mg/kg/day, dicyclomine hydrochloride produced no deleterious effects on breeding, conception, or parturition.</paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s45">
+               <id root="23981f6c-aa6a-ce25-e063-6394a90a5fda"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>In controlled clinical trials involving over 100 patients who received drug, 82% of patients treated for functional bowel/irritable bowel syndrome with dicyclomine hydrochloride at initial doses of 160 mg daily (40 mg four times daily) demonstrated a favorable clinical response compared with 55% treated with placebo (p&lt;0.05).</paragraph>
+               </text>
+               <effectiveTime value="20180131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s46">
+               <id root="23981f6c-aa6b-ce25-e063-6394a90a5fda"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>Dicyclomine Hydrochloride Injection, USP, 20 mg/2 mL (10 mg/mL) single dose vials, (
+ 
+  <content styleCode="bold">for IM use only, NOT FOR IV USE</content>) is supplied as follows:
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 14789-010-02</content>: boxes of 5 vials
+
+ </paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature].
+ 
+  <content styleCode="bold">Protect from freezing.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20180131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s47">
+               <id root="23981f6c-aa6c-ce25-e063-6394a90a5fda"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <effectiveTime value="20221130"/>
+               <component>
+                  <section ID="s48">
+                     <id root="23981f6c-aa6d-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.1 Inadvertent Intravenous Administration</title>
+                     <text>
+                        <paragraph>Dicyclomine Hydrochloride Injection is for intramuscular administration only. Do not administer by any other route. Inadvertent administration may result in thrombosis or thrombophlebitis, and injection site such as pain, edema, skin color change and even reflex sympathetic dystrophy syndrome
+ 
+  <content styleCode="italics">[see Adverse Reactions (
+  
+   <linkHtml href="#s19">6.2</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s49">
+                     <id root="23981f6c-aa6e-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.2 Use in Infants</title>
+                     <text>
+                        <paragraph>Inform parents and caregivers not to administer dicyclomine hydrochloride in infants less than 6 months of age
+ 
+  <content styleCode="italics">[see Use in Specific Populations (
+  
+   <linkHtml href="#s31">8.4</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s50">
+                     <id root="23981f6c-aa6f-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.3 Use in Nursing Mothers</title>
+                     <text>
+                        <paragraph>Advise lactating women that dicyclomine hydrochloride should not be used while breastfeeding their infants
+ 
+  <content styleCode="italics">[see Use in Specific Populations (
+  
+   <linkHtml href="#s30">8.3</linkHtml>,
+  
+   <linkHtml href="#s31">8.4</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s51">
+                     <id root="23981f6c-aa70-ce25-e063-6394a90a5fda"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>17.4 Peripheral and Central Nervous System</title>
+                     <text>
+                        <paragraph>In the presence of a high environmental temperature, heat prostration can occur with dicyclomine hydrochloride use (fever and heat stroke due to decreased sweating). If symptoms occur, the drug should be discontinued and a physician contacted. Dicyclomine hydrochloride may produce drowsiness or blurred vision. The patient should be warned not to engage in activities requiring mental alertness, such as operating a motor vehicle or other machinery or to perform hazardous work while taking dicyclomine hydrochloride
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#s10">5.3</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>The container closure is not made with natural rubber latex.</paragraph>
+                        <paragraph>Manufactured in the USA by: 
+  <br/>  Nexus Pharmaceuticals 
+  <br/>  Lincolnshire, IL 60069 USA
+ </paragraph>
+                        <paragraph>DCMPI01R02</paragraph>
+                        <paragraph>NEXUS 
+  <br/>  PHARMACEUTICALS 
+  <br/>  Revised: 11/2022
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20221130"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s52">
+               <id root="23981407-933c-cf2a-e063-6394a90aa030"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Principal Display Panel - Dicyclomine HCl Injection Carton Label</content>
+                  </paragraph>
+                  <paragraph>NEXUS
+  <br/>
+PHARMACEUTICALS
+ </paragraph>
+                  <paragraph>NDC 14789-010-02</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dicyclomine HCl Injection, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">20 mg/2 mL (10 mg/mL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intramuscular Injection Only</content>
+                  </paragraph>
+                  <paragraph>5 X 2 mL Single-dose vials</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_23983228-0cc6-cf12-e063-6394a90affb7"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20221130"/>
+               <component>
+                  <observationMedia ID="img_23983228-0cc6-cf12-e063-6394a90affb7">
+                     <text>Principal Display Panel - Dicyclomine HCl Injection Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dic07-0008-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s53">
+               <id root="239824ab-9fde-ce1c-e063-6394a90a10ef"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Principal Display Panel - Dicyclomine HCl Injection Vial Label</content>
+                  </paragraph>
+                  <paragraph>NDC 14789-010-07</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dicyclomine HCl Injection, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">20 mg/2 mL (10 mg/mL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR INTRAMUSCULAR USE ONLY</content>
+                  </paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">One 2 mL Single-dose Vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_239824ab-9fdd-ce1c-e063-6394a90a10ef"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20221130"/>
+               <component>
+                  <observationMedia ID="img_239824ab-9fdd-ce1c-e063-6394a90a10ef">
+                     <text>Principal Display Panel - Dicyclomine HCl Injection Vial Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="dic07-0008-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

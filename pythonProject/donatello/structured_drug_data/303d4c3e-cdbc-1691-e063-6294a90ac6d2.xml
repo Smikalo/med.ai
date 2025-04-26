@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="303d4c3e-cdbc-1691-e063-6294a90ac6d2"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Folic Acid Tablets, USP</content>
+   </title>
+   <effectiveTime value="20250313"/>
+   <setId root="726bb436-69e3-452f-9f28-153b58bf3ca5"/>
+   <versionNumber value="13"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="156893695"/>
+            <name>PD-Rx Pharmaceuticals, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="156893695"/>
+                  <name>PD-Rx Pharmaceuticals, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="156893695"/>
+                        <name>PD-Rx Pharmaceuticals, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43063-791" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="303d5710-09a9-4175-e063-6394a90a6af8"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250313"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="43063-791" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FOLIC ACID</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>folic acid</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="11534-165" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="1"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="935E97BOY8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FOLIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="935E97BOY8" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FOLIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-791-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20171002"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-791-90" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20171018"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA204418" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150804"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">N;8</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="8" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2b396658-c854-4d36-e063-6394a90afe02"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241203"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2b396658-c855-4d36-e063-6394a90afe02"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Folic acid, USP, N-[p-[[(2-amino-4- hydroxy-6-pteridinyl) methyl]- amino] benzoyl]-Lglutamic acid, is a B complex vitamin containing a pteridine moiety linked by a methylene bridge to
+ 
+  <content styleCode="italics">para</content>-aminobenzoic acid, which is joined by a peptide linkage to glutamic acid. Conjugates of folic acid, USP are present in a wide variety of foods, particularly liver, kidneys, yeast, and leafy green vegetables. Commercially available folic acid, USP is prepared synthetically. Folic acid, USP occurs as a yellow or yellowish-orange crystalline powder and is very slightly soluble in water and insoluble in alcohol. Folic acid, USP is readily soluble in dilute solutions of alkali hydroxides and carbonates, and solutions of the drug may be prepared with the aid of sodium hydroxide or sodium carbonate, thereby forming the soluble sodium salt of folic acid, USP (sodium folate). Aqueous solutions of folic acid, USP are heat sensitive and rapidly decompose in the presence of light and/or riboflavin; solutions should be stored in a cool place protected from light.
+
+ </paragraph>
+                  <paragraph>The structural formula of folic acid, USP is as follows:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                     <br/>
+                  </paragraph>
+                  <paragraph>C
+ 
+  <sub>19</sub>H
+ 
+  <sub>19</sub>N
+ 
+  <sub>7</sub>O
+ 
+  <sub>6</sub>                                       M.W. 441.40
+
+ </paragraph>
+                  <paragraph>Each tablet, for oral administration, contains 1 mg folic acid, USP.</paragraph>
+                  <paragraph>Folic acid tablets, USP 1 mg contain the following inactive ingredients: lactose monohydrate, microcrystalline cellulose, sodium starch glycolate and stearic acid.</paragraph>
+               </text>
+               <effectiveTime value="20141031"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>52ed30a7-figure-01</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="52ed30a7-figure-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2b396658-c856-4d36-e063-6394a90afe02"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>Folic acid acts on megaloblastic bone marrow to produce a normoblastic marrow.</paragraph>
+                  <paragraph>In man, an exogenous source of folate is required for nucleoprotein synthesis and the maintenance of normal erythropoiesis. Folic acid is the precursor of tetrahydrofolic acid, which is involved as a cofactor for transformylation reactions in the biosynthesis of purines and thymidylates of nucleic acids. Impairment of thymidylate synthesis in patients with folic acid deficiency is thought to account for the defective deoxyribonucleic acid (DNA) synthesis that leads to megaloblast formation and megaloblastic and macrocytic anemias.</paragraph>
+                  <paragraph>Folic acid is absorbed rapidly from the small intestine, primarily from the proximal portion. Naturally occurring conjugated folates are reduced enzymatically to folic acid in the gastrointestinal tract prior to absorption. Folic acid appears in the plasma approximately 15 to 30 minutes after an oral dose; peak levels are generally reached within 1 hour. After intravenous administration, the drug is rapidly cleared from the plasma. Cerebrospinal fluid levels of folic acid are several times greater than serum levels of the drug. Folic acid is metabolized in the liver to 7,8-dihydrofolic acid and eventually to 5,6,7,8-tetrahydrofolic acid with the aid of reduced diphosphopyridine nucleotide (DPNH) and folate reductases. Tetrahydrofolic acid is linked in the N
+ 
+  <sup>5</sup>or N
+ 
+  <sup>10</sup>positions with formyl, hydroxymethyl, methyl, or formimino groups. N
+ 
+  <sup>5</sup>-formyltetrahydrofolic acid is leucovorin. Tetrahydrofolic acid derivatives are distributed to all body tissues but are stored primarily in the liver. Normal serum levels of total folate have been reported to be 5 to 15 ng/mL; normal cerebrospinal fluid levels are approximately 16 to 21 ng/mL. Normal erythrocyte folate levels have been reported to range from 175 to 316 ng/mL. In general, folate serum levels below 5 ng/mL indicate folate deficiency, and levels below 2 ng/mL usually result in megaloblastic anemia.
+
+ </paragraph>
+                  <paragraph>After a single oral dose of 100 mcg of folic acid in a limited number of normal adults, only a trace amount of the drug appeared in the urine. An oral dose of 5 mg in 1 study and a dose of 40 mcg/kg of body weight in another study resulted in approximately 50% of the dose appearing in the urine. After a single oral dose of 15 mg, up to 90% of the dose was recovered in the urine. A majority of the metabolic products appeared in the urine after 6 hours; excretion was generally complete within 24 hours. Small amounts of orally administered folic acid have also been recovered in the feces. Folic acid is also excreted in the milk of lactating mothers.</paragraph>
+               </text>
+               <effectiveTime value="20141031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="be266d09-05d1-4862-b254-a351da8be3ac">
+               <id root="2b396658-c857-4d36-e063-6394a90afe02"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>Folic acid, USP is effective in the treatment of megaloblastic anemias due to a deficiency of folic acid, USP (as may be seen in tropical or nontropical sprue) and in anemias of nutritional origin, pregnancy, infancy, or childhood.</paragraph>
+               </text>
+               <effectiveTime value="20141031"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2b396658-c858-4d36-e063-6394a90afe02"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>Folic acid, USP is contraindicated in patients who have shown previous intolerance to the drug.</paragraph>
+               </text>
+               <effectiveTime value="20141031"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2b396658-c859-4d36-e063-6394a90afe02"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <text>
+                  <paragraph>Administration of folic acid alone is improper therapy for pernicious anemia and other megaloblastic anemias in which vitamin B
+ 
+  <sub>12</sub>is deficient.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20141031"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2b396658-c85a-4d36-e063-6394a90afe02"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <effectiveTime value="20141031"/>
+               <component>
+                  <section>
+                     <id root="2b396658-c85b-4d36-e063-6394a90afe02"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">General</content>
+                     </title>
+                     <text>
+                        <paragraph>Folic acid in doses above 0.1 mg daily may obscure pernicious anemia in that hematologic remission can occur while neurologic manifestations remain progressive.</paragraph>
+                        <paragraph>There is a potential danger in administering folic acid to patients with undiagnosed anemia, since folic acid may obscure the diagnosis of pernicious anemia by alleviating the hematologic manifestations of the disease while allowing the neurologic complications to progress. This may result in severe nervous system damage before the correct diagnosis is made. Adequate doses of vitamin B
+ 
+  <sub>12</sub>may prevent, halt, or improve the neurologic changes caused by pernicious anemia.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20141031"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="2b396658-c85c-4d36-e063-6394a90afe02"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Drug Interactions</content>
+                     </title>
+                     <text>
+                        <paragraph>There is evidence that the anticonvulsant action of phenytoin is antagonized by folic acid. A patient whose epilepsy is completely controlled by phenytoin may require increased doses to prevent convulsions if folic acid is given.</paragraph>
+                        <paragraph>Folate deficiency may result from increased loss of folate, as in renal dialysis and/or interference with metabolism (e.g., folic acid antagonists such as methotrexate); the administration of anticonvulsants, such as diphenylhydantoin, primidone, and barbiturates; alcohol consumption and, especially, alcoholic cirrhosis; and the administration of pyrimethamine and nitrofurantoin.</paragraph>
+                        <paragraph>False low serum and red cell folate levels may occur if the patient has been taking antibiotics, such as tetracycline, which suppress the growth of
+ 
+  <content styleCode="italics">Lactobacillus casei.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20141031"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="2b396658-c85d-4d36-e063-6394a90afe02"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </title>
+                     <text>
+                        <paragraph>Long-term studies in animals to evaluate carcinogenic potential and studies to evaluate the mutagenic potential or effect on fertility have not been conducted.</paragraph>
+                     </text>
+                     <effectiveTime value="20141031"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="2b396658-c85e-4d36-e063-6394a90afe02"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pregnancy</content>
+                     </title>
+                     <effectiveTime value="20141031"/>
+                     <component>
+                        <section>
+                           <id root="2b396658-c85f-4d36-e063-6394a90afe02"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects</title>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Pregnancy Category A</content>
+                              </paragraph>
+                              <paragraph>Folic acid is usually indicated in the treatment of megaloblastic anemias of pregnancy. Folic acid requirements are markedly increased during pregnancy, and deficiency will result in fetal damage (see
+ 
+  <content styleCode="bold">
+                                    <linkHtml href="#be266d09-05d1-4862-b254-a351da8be3ac">INDICATIONS AND USAGE</linkHtml>
+                                 </content>).
+
+ </paragraph>
+                              <paragraph>Studies in pregnant women have not shown that folic acid increases the risk of fetal abnormalities if administered during pregnancy. If the drug is used during pregnancy, the possibility of fetal harm appears remote. Because studies cannot rule out the possibility of harm, however, folic acid should be used during pregnancy only if clearly needed.</paragraph>
+                           </text>
+                           <effectiveTime value="20141031"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="2b396658-c860-4d36-e063-6394a90afe02"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Nursing Mothers</content>
+                     </title>
+                     <text>
+                        <paragraph>Folic acid is excreted in the milk of lactating mothers. During lactation, folic acid requirements are markedly increased; however, amounts present in human milk are adequate to fulfill infant requirements, although supplementation may be needed in low- birth- weight infants, in those who are breast-fed by mothers with folic acid deficiency (50 mcg daily), or in those with infections or prolonged diarrhea.</paragraph>
+                     </text>
+                     <effectiveTime value="20141031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2b396658-c861-4d36-e063-6394a90afe02"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Allergic sensitization has been reported following both oral and parenteral administration of folic acid.</paragraph>
+                  <paragraph>Folic acid is relatively nontoxic in man. Rare instances of allergic responses to folic acid preparations have been reported and have included erythema, skin rash, itching, general malaise, and respiratory difficulty due to bronchospasm. One patient experienced symptoms suggesting anaphylaxis following injection of the drug. Gastrointestinal side effects, including anorexia, nausea, abdominal distention, flatulence, and a bitter or bad taste, have been reported in patients receiving 15 mg folic acid daily for 1 month. Other side effects reported in patients receiving 15 mg daily include altered sleep patterns, difficulty in concentrating, irritability, overactivity, excitement, mental depression, confusion, and impaired judgment. Decreased vitamin B
+ 
+  <sub>12</sub>serum levels may occur in patients receiving prolonged folic acid therapy. In an uncontrolled study, orally administered folic acid was reported to increase the incidence of seizures in some epileptic patients receiving phenobarbital, primidone, or diphenylhydantoin. Another investigator reported decreased diphenylhydantoin serum levels in folate-deficient patients receiving diphenylhydantoin who were treated with 5 mg or 15 mg of folic acid daily.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20141031"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2b396658-c862-4d36-e063-6394a90afe02"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>Except during pregnancy and lactation, folic acid should not be given in therapeutic doses greater than 0.4 mg daily until pernicious anemia has been ruled out. Patients with pernicious anemia receiving more than 0.4 mg of folic acid daily who are inadequately treated with vitamin B
+ 
+  <sub>12</sub>may show reversion of the hematologic parameters to normal, but neurologic manifestations due to vitamin B
+ 
+  <sub>12</sub>deficiency will progress. Doses of folic acid exceeding the Recommended Dietary Allowance (RDA) should not be included in multivitamin preparations; if therapeutic amounts are necessary, folic acid should be given separately.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20141031"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2b396658-c863-4d36-e063-6394a90afe02"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>Oral administration is preferred. Although most patients with malabsorption cannot absorb food folates, they are able to absorb folic acid, USP given orally. Parenteral administration is not advocated but may be necessary in some individuals (e.g., patients receiving parenteral or enteral alimentation). Doses greater than 0.1 mg should not be used unless anemia due to vitamin B
+ 
+  <sub>12</sub>deficiency has been ruled out or is being adequately treated with a cobalamin. Daily doses greater than 1 mg do not enhance the hematologic effect, and most of the excess is excreted unchanged in the urine.
+
+ </paragraph>
+                  <paragraph>The usual therapeutic dosage in adults and children (regardless of age) is up to 1 mg daily. Resistant cases may require larger doses.</paragraph>
+                  <paragraph>When clinical symptoms have subsided and the blood picture has become normal, a daily maintenance level should be used, i.e., 0.1 mg for infants and up to 0.3 mg for children under 4 years of age, 0.4 mg for adults and children 4 or more years of age, and 0.8 mg for pregnant and lactating women, but never less than 0.1 mg/day. Patients should be kept under close supervision and adjustment of the maintenance level made if relapse appears imminent.</paragraph>
+                  <paragraph>In the presence of alcoholism, hemolytic anemia, anticonvulsant therapy, or chronic infection, the maintenance level may need to be increased.</paragraph>
+               </text>
+               <effectiveTime value="20141031"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2b396658-c864-4d36-e063-6394a90afe02"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>Folic Acid Tablets, USP
+ 
+  <content styleCode="bold">1 mg,</content>are round, yellow tablets debossed “N8”on one side and bisected on other side and supplied in bottles of:
+
+ </paragraph>
+                  <paragraph>30 (NDC 43063-791-30)</paragraph>
+                  <paragraph>90 (NDC 43063-791-90)</paragraph>
+                  <paragraph>Dispense in well-closed container with child-resistant closure.</paragraph>
+                  <paragraph>Store at controlled room temperature 20°-25°C (68°-77°F) [See USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20241203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_303d496d-1f87-104b-e063-6294a90a5cd7">
+               <id root="303d496d-1f86-104b-e063-6294a90a5cd7"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_303d4f9d-cb3d-1bfa-e063-6294a90a16aa"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170929"/>
+               <component>
+                  <observationMedia ID="img_303d4f9d-cb3d-1bfa-e063-6294a90a16aa">
+                     <text>image</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="43063455.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

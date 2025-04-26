@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="0e3225ea-1c36-4122-80a5-0f472a4d99d2"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">METHYLPREDNISOLONE TABLETS, USP</content>
+   </title>
+   <effectiveTime value="20250318"/>
+   <setId root="3885151c-963e-4d22-b5b4-58968503ad8c"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="191427277" root="1.3.6.1.4.1.519.1"/>
+            <name>Major Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="c7a42aee-220f-4455-8481-2e519caa8c10"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20240729"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0904-6914" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>methylprednisolone</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>methylprednisolone</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="68382-916" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="4"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="X4W7ZR7023" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPREDNISOLONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="X4W7ZR7023" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHYLPREDNISOLONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="100"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0904-6914-61" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20180501"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA206751" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180501"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText>WHITE TO OFF-WHITE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="8" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText>OVAL</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="4" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">916</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID163">
+               <id root="b5890596-0018-4e8f-81cc-4d7017549245"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Methylprednisolone tablets contain methylprednisolone which is a glucocorticoid. Glucocorticoids are adrenocortical steroids, both naturally occurring and synthetic, which are readily absorbed from the gastrointestinal tract. Methylprednisolone, USP occurs as a white to practically white, odorless, crystalline powder. It melts at about 240°C, with some decomposition. It is practically insoluble in water, sparingly soluble in ethanol   (96 %), in dioxane, in methanol and slightly soluble in acetone, in methylene chloride and in chloroform, very slightly soluble in ether.</paragraph>
+                  <paragraph>The chemical name for methylprednisolone is pregna-1,4-diene-3,20-dione, 11, 17, 21-trihydroxy-6-methyl-,(6α,11β)- and the molecular weight is 374.48. The structural formula is represented below:</paragraph>
+                  <renderMultiMedia ID="id786" referencedObject="MM1"/>
+                  <paragraph>C<sub>22</sub>H<sub>30</sub>O<sub>5</sub>
+                  </paragraph>
+                  <paragraph>Each methylprednisolone tablet USP, contains 4 mg, 8 mg, 16 mg or 32 mg of methylprednisolone. In addition each tablet contains the following inactive ingredients: lactose monohydrate, magnesium stearate, microcrystalline cellulose, pregelatinized starch, and sodium starch glycolate.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ACTIONS</content>
+                  </paragraph>
+                  <paragraph>Naturally occurring glucocorticoids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs are primarily used for their potent anti-inflammatory effects in disorders of many organ systems.</paragraph>
+                  <paragraph>Glucocorticoids cause profound and varied metabolic effects. In addition, they modify the body's immune responses to diverse stimuli.</paragraph>
+               </text>
+               <effectiveTime value="20240729"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>methylpredisolone</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="e5430a41-a43d-4592-9266-253567d03a08-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID167">
+               <id root="dafe763e-7159-41b0-8fd1-b9abde26c4cf"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Methylprednisolone tablets are indicated in the following conditions: </paragraph>
+               </text>
+               <effectiveTime value="20190808"/>
+               <component>
+                  <section ID="ID169">
+                     <id root="96aa518c-3593-4aa3-b67c-7ee60c4dc158"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>1.Endocrine Disorders</title>
+                     <text>
+                        <paragraph>Primary or secondary adrenocortical insufficiency (hydrocortisone or cortisone is the first choice; synthetic analogs may be used in conjunction with mineralocorticoids where applicable; in infancy mineralocorticoid supplementation is of particular importance).</paragraph>
+                        <paragraph>Congenital adrenal hyperplasia</paragraph>
+                        <paragraph>Nonsuppurative thyroiditis</paragraph>
+                        <paragraph>Hypercalcemia associated with cancer</paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID171">
+                     <id root="68125d86-a8f5-4820-ad5b-5c040affad21"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.Rheumatic Disorders</title>
+                     <text>
+                        <paragraph>As adjunctive therapy for short-term administration (to tide the patient over an acute episode or exacerbation) in:</paragraph>
+                        <paragraph>Rheumatoid arthritis, including juvenile rheumatoid arthritis (selected cases may require low-dose maintenance therapy)</paragraph>
+                        <paragraph>Ankylosing spondylitis</paragraph>
+                        <paragraph>Acute and subacute bursitis</paragraph>
+                        <paragraph>Synovitis of osteoarthritis</paragraph>
+                        <paragraph>Acute nonspecific tenosynovitis</paragraph>
+                        <paragraph>Post-traumatic osteoarthritis</paragraph>
+                        <paragraph>Psoriatic arthritis</paragraph>
+                        <paragraph>Epicondylitis</paragraph>
+                        <paragraph>Acute gouty arthritis</paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID173">
+                     <id root="07eb8c78-4fa7-470c-82d3-aa59858b4620"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>3.Collagen Diseases</title>
+                     <text>
+                        <paragraph>During an exacerbation or as maintenance therapy in selected cases of:</paragraph>
+                        <paragraph>Systemic lupus erythematosus</paragraph>
+                        <paragraph>Systemic dermatomyositis (polymyositis)</paragraph>
+                        <paragraph>Acute rheumatic carditis</paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID175">
+                     <id root="52720f82-e1d8-47e8-9fc3-fd38b29a3e59"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>4.Dermatologic Diseases</title>
+                     <text>
+                        <paragraph>Bullous dermatitis herpetiformis</paragraph>
+                        <paragraph>Severe erythema multiforme (Stevens-Johnson syndrome)</paragraph>
+                        <paragraph>Severe seborrheic dermatitis</paragraph>
+                        <paragraph>Exfoliative dermatitis</paragraph>
+                        <paragraph>Mycosis fungoides</paragraph>
+                        <paragraph>Pemphigus</paragraph>
+                        <paragraph>Severe psoriasis</paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID177">
+                     <id root="82d06688-42ab-45b6-a578-6ebc8d5382a5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.Allergic States</title>
+                     <text>
+                        <paragraph>Control of severe or incapacitating allergic conditions intractable to adequate trials of conventional treatment:</paragraph>
+                        <paragraph>Seasonal or perennial allergic rhinitis</paragraph>
+                        <paragraph>Drug hypersensitivity reactions</paragraph>
+                        <paragraph>Serum sickness</paragraph>
+                        <paragraph>Contact dermatitis</paragraph>
+                        <paragraph>Bronchial asthma</paragraph>
+                        <paragraph>Atopic dermatitis </paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID179">
+                     <id root="31113791-7e3d-41d5-9698-1dbf0ea24340"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.Ophthalmic Diseases</title>
+                     <text>
+                        <paragraph>Severe acute and chronic allergic and inflammatory processes involving the eye and its adnexa such as:</paragraph>
+                        <paragraph>Allergic corneal marginal ulcers</paragraph>
+                        <paragraph>Herpes zoster ophthalmicus</paragraph>
+                        <paragraph>Anterior segment inflammation</paragraph>
+                        <paragraph>Diffuse posterior uveitis and choroiditis</paragraph>
+                        <paragraph>Sympathetic ophthalmia</paragraph>
+                        <paragraph>Keratitis</paragraph>
+                        <paragraph>Optic neuritis</paragraph>
+                        <paragraph>Allergic conjunctivitis</paragraph>
+                        <paragraph>Chorioretinitis</paragraph>
+                        <paragraph>Iritis and iridocyclitis</paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID181">
+                     <id root="0a5a893f-a16f-45c2-ad6e-e76c0af87733"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.Respiratory Diseases</title>
+                     <text>
+                        <paragraph>Symptomatic sarcoidosis</paragraph>
+                        <paragraph>Berylliosis</paragraph>
+                        <paragraph>Loeffler's syndrome not manageable by other means</paragraph>
+                        <paragraph>Fulminating or disseminated pulmonary tuberculosis when used concurrently with appropriate antituberculous chemotherapy</paragraph>
+                        <paragraph>Aspiration pneumonitis</paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID183">
+                     <id root="266a65c3-13b4-43b3-af0c-5bbbabbf0c48"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.Hematologic Disorders</title>
+                     <text>
+                        <paragraph>Idiopathic thrombocytopenic purpura in adults</paragraph>
+                        <paragraph>Secondary thrombocytopenia in adults</paragraph>
+                        <paragraph>Acquired (autoimmune) hemolytic anemia</paragraph>
+                        <paragraph>Erythroblastopenia (RBC anemia)</paragraph>
+                        <paragraph>Congenital (erythroid) hypoplastic anemia</paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID185">
+                     <id root="bbf32028-a007-4967-92ac-a4f3e81c1cff"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>9.Neoplastic Diseases</title>
+                     <text>
+                        <paragraph>For palliative management of:</paragraph>
+                        <paragraph>Leukemias and lymphomas in adults</paragraph>
+                        <paragraph>Acute leukemia of childhood</paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID187">
+                     <id root="0024c8aa-1dee-4a6b-bfb3-1a06ee6b23e5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>10.Edematous States</title>
+                     <text>
+                        <paragraph>To induce a diuresis or remission of proteinuria in the nephrotic syndrome, without uremia, of the idiopathic type or that due to lupus erythematosus.</paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID189">
+                     <id root="905a324e-1973-46c2-82ed-b0a43ac82ac7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>11.Gastrointestinal Diseases</title>
+                     <text>
+                        <paragraph>To tide the patient over a critical period of the disease in:</paragraph>
+                        <paragraph>Ulcerative colitis</paragraph>
+                        <paragraph>Regional enteritis</paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID191">
+                     <id root="ddd1248f-7d2b-4851-a68e-9df5046a3936"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>12.Nervous System</title>
+                     <text>
+                        <paragraph>Acute exacerbations of multiple sclerosis </paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID193">
+                     <id root="100afa34-4375-4166-9a7a-5fa8658e7817"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>13.Miscellaneous</title>
+                     <text>
+                        <paragraph>Tuberculous meningitis with subarachnoid block or impending block when used concurrently with appropriate antituberculous chemotherapy.</paragraph>
+                        <paragraph>Trichinosis with neurologic or myocardial involvement.</paragraph>
+                     </text>
+                     <effectiveTime value="20190808"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID195">
+               <id root="38f6bd7d-d87a-44ae-af4c-635ebba510a6"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Systemic fungal infections and known hypersensitivity to components.</paragraph>
+               </text>
+               <effectiveTime value="20190808"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID197">
+               <id root="e51928d0-3292-4206-bd2b-9bbf054ccd59"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>In patients on corticosteroid therapy subjected to unusual stress, increased dosage of rapidly acting corticosteroids before, during, and after the stressful situation is indicated.</paragraph>
+               </text>
+               <effectiveTime value="20240729"/>
+               <component>
+                  <section ID="ID246">
+                     <id root="a8414432-52dd-4e39-9a05-5d54e498e25a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Immunosuppression and Increased Risk of Infection</title>
+                     <text>
+                        <paragraph>Corticosteroids including methylprednisolone suppress the immune system and increase the risk of infection with any pathogen, including viral, bacterial, fungal, protozoan or helminthic pathogens. Corticosteroids can:</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Reduce resistance to new infections</item>
+                           <item>
+                              <caption>•</caption>Exacerbate existing infections</item>
+                           <item>
+                              <caption>•</caption>Increase the risk of disseminated infections</item>
+                           <item>
+                              <caption>•</caption>Increase the risk of reactivation or exacerbation of latent infections</item>
+                           <item>
+                              <caption>•</caption>Mask some signs of infection</item>
+                        </list>
+                        <paragraph>Corticosteroid-associated infections can be mild but can be severe and at times fatal. The rate of infectious complications increases with increasing corticosteroid dosages. </paragraph>
+                        <paragraph>Monitor for the development of infection and consider methylprednisolone withdrawal or dosage reduction as needed. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Tuberculosis </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>If methylprednisolone is used to treat a condition in patients with latent tuberculosis or tuberculin reactivity, reactivation of tuberculosis may occur. Closely monitor such patients for reactivation. During prolonged methylprednisolone therapy, patients with latent tuberculosis or tuberculin reactivity should receive chemoprophylaxis. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Varicella Zoster and Measles Viral Infections </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Varicella and measles can have a serious or even fatal course in non-immune patients taking corticosteroids, including methylprednisolone. In corticosteroid-treated patients who have not had these diseases or are non-immune, particular care should be taken to avoid exposure to varicella and measles: </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>If a methylprednisolone-treated patient is exposed to varicella, prophylaxis with varicella zoster immune globulin may be indicated. If varicella develops, treatment with antiviral agents may be considered.</item>
+                           <item>
+                              <caption>•</caption>If a methylprednisolone-treated patient is exposed to measles, prophylaxis with immunoglobulin may be indicated.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Hepatitis B Virus Reactivation </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Hepatitis B virus reactivation can occur in patients who are hepatitis B carriers treated with immunosuppressive dosages of corticosteroids, including methylprednisolone. Reactivation can also occur infrequently in corticosteroid-treated patients who appear to have resolved hepatitis B infection. </paragraph>
+                        <paragraph>Screen patients for hepatitis B infection before initiating immunosuppressive (e.g., prolonged) treatment with methylprednisolone. For patients who show evidence of hepatitis B infection, recommend consultation with physicians with expertise in managing hepatitis B regarding monitoring and consideration for hepatitis B antiviral therapy. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Fungal Infections </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Corticosteroids, including methylprednisolone, may exacerbate systemic fungal infections; therefore, avoid methylprednisolone use in the presence of such infections unless methylprednisolone is needed to control drug reactions. For patients on chronic methylprednisolone therapy who develop systemic fungal infections, methylprednisolone withdrawal or dosage reduction is recommended. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Amebiasis </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Corticosteroids, including methylprednisolone, may activate latent amebiasis. Therefore, it is recommended that latent amebiasis or active amebiasis be ruled out before initiating methylprednisolone in patients who have spent time in the tropics or patients with unexplained diarrhea.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Strongyloides Infestation </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Corticosteroids, including methylprednisolone, should be used with great care in patients with  known or suspected Strongyloides (threadworm) infestation. In such patients, corticosteroid-induced immunosuppression may lead to Strongyloides hyperinfection and dissemination with widespread larval migration, often accompanied by severe enterocolitis and potentially fatal gram-negative septicemia. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Cerebral Malaria </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Avoid corticosteroids, including methylprednisolone, in patients with cerebral malaria. </paragraph>
+                     </text>
+                     <effectiveTime value="20240729"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID253">
+                     <id root="6e73ad50-031b-4c08-9149-d6be6e4a152a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Ophthalmic Effects</title>
+                     <text>
+                        <paragraph>Prolonged use of corticosteroids may produce posterior subcapsular cataracts, glaucoma with possible damage to the optic nerves and may enhance the establishment of secondary ocular infections due to fungi or viruses. </paragraph>
+                     </text>
+                     <effectiveTime value="20240729"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID255">
+                     <id root="235d9b70-3746-4a98-af16-3926d1b65df6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Kaposi’s Sarcoma</title>
+                     <text>
+                        <paragraph>Kaposi's sarcoma has been reported to occur in patients receiving corticosteroid therapy, most often for chronic conditions. Discontinuation of corticosteroids may result in clinical improvement of Kaposi's sarcoma. </paragraph>
+                     </text>
+                     <effectiveTime value="20240729"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID257">
+                     <id root="cc084173-3da2-497b-a3f0-5f7d9ae2685c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hypertension, Volume Overload and Hypokalemia</title>
+                     <text>
+                        <paragraph>Average and large doses of hydrocortisone or cortisone can cause elevation of blood pressure, salt and water retention and increased excretion of potassium. These effects are less likely to occur with the synthetic derivatives except when used in large doses. Dietary salt restriction and potassium supplementation may be necessary. All corticosteroids increase calcium excretion. </paragraph>
+                     </text>
+                     <effectiveTime value="20240729"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID259">
+                     <id root="cdff073a-f3c3-4b70-82e9-8ceac42183b3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Vaccination</title>
+                     <text>
+                        <paragraph>Administration of live or live, attenuated vaccines is contraindicated in patients receiving immunosuppressive doses of corticosteroids. Killed or inactivated vaccines may be administered to patients receiving immunosuppressive doses of corticosteroids; however, the response to such vaccines may be diminished. Indicated immunization procedures may be undertaken in patients receiving nonimmunosuppressive doses of corticosteroids. </paragraph>
+                     </text>
+                     <effectiveTime value="20240729"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID199">
+                     <id root="59586e51-078c-4eb7-85a1-476f11f2ba1b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Usage in Pregnancy</title>
+                     <text>
+                        <paragraph>Since adequate human reproduction studies have not been done with corticosteroids, the use of these drugs in pregnancy, nursing mothers or women of child-bearing potential requires that the possible benefits of the drug be weighed against the potential hazards to the mother and embryo or fetus. Infants born of mothers who have received substantial doses of corticosteroids during pregnancy, should be carefully observed for signs of hypoadrenalism.</paragraph>
+                     </text>
+                     <effectiveTime value="20240729"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID201">
+               <id root="d0d96179-4c1e-445e-899f-9659595bcf3b"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20240729"/>
+               <component>
+                  <section ID="ID202">
+                     <id root="56b2e0b7-6e48-469a-9353-7971bffa20dc"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General Precautions</title>
+                     <text>
+                        <paragraph>Drug-induced secondary adrenocortical insufficiency may be minimized by gradual reduction of dosage. This type of relative insufficiency may persist for months after discontinuation of therapy; therefore, in any situation of stress occurring during that period, hormone therapy should be reinstituted. Since mineralocorticoid secretion may be impaired, salt and/or a mineralocorticoid should be administered concurrently. </paragraph>
+                        <paragraph>There is an enhanced effect of corticosteroids on patients with hypothyroidism and in those with cirrhosis. </paragraph>
+                        <paragraph>Corticosteroids should be used cautiously in patients with ocular herpes simplex because of possible corneal perforation. </paragraph>
+                        <paragraph>The lowest possible dose of corticosteroid should be used to control the condition under treatment, and when reduction in dosage is possible, the reduction should be gradual. </paragraph>
+                        <paragraph>Psychic derangements may appear when corticosteroids are used, ranging from euphoria, insomnia, mood swings, personality changes, and severe depression, to frank psychotic manifestations. Also, existing emotional instability or psychotic tendencies may be aggravated by corticosteroids. </paragraph>
+                        <paragraph>Caution is required in patients with systemic sclerosis because an increased incidence of scleroderma renal crisis has been observed with corticosteroids, including methylprednisolone. </paragraph>
+                        <paragraph>Steroids should be used with caution in nonspecific ulcerative colitis, if there is a probability of impending perforation, abscess or other pyogenic infection; diverticulitis; fresh intestinal anastomoses; active or latent peptic ulcer; renal insufficiency; hypertension; osteoporosis; and myasthenia gravis. </paragraph>
+                        <paragraph>Growth and development of infants and children on prolonged corticosteroid therapy should be carefully observed. </paragraph>
+                        <paragraph>Although controlled clinical trials have shown corticosteroids to be effective in speeding the resolution of acute exacerbations of multiple sclerosis, they do not show that corticosteroids affect the ultimate outcome or natural history of the disease. The studies do show that relatively high doses of corticosteroids are necessary to demonstrate a significant effect. (see DOSAGE AND ADMINISTRATION.) </paragraph>
+                        <paragraph>Since complications of treatment with glucocorticoids are dependent on the size of the dose and the duration of treatment, a risk/benefit decision must be made in each individual case as to dose and duration of treatment and as to whether daily or intermittent therapy should be used. </paragraph>
+                        <paragraph>In post marketing experience, tumor lysis syndrome (TLS) has been reported in patients with malignancies, including hematological malignancies and solid tumors, following the use of systemic corticosteroids alone or in combination with other chemotherapeutic agents. Patients at high risk of TLS, such as patients with tumors that have a high proliferative rate, high tumor burden and high sensitivity to cytotoxic agents, should be monitored closely and appropriate precautions should be taken.</paragraph>
+                     </text>
+                     <effectiveTime value="20240729"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID204">
+               <id root="579813c8-617e-459e-b532-fcbf514da0bc"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>The pharmacokinetic interactions listed below are potentially clinically important. Mutual inhibition of metabolism occurs with concurrent use of cyclosporin and methylprednisolone; therefore, it is possible that adverse events associated with the individual use of either drug may be more apt to occur. Convulsions have been reported with concurrent use of methylprednisolone and cyclosporin. Drugs that induce hepatic enzymes such as phenobarbital, phenytoin and rifampin may increase the clearance of methylprednisolone and may require increases in methylprednisolone dose to achieve the desired response. Drugs such as troleandomycin and ketoconazole may inhibit the metabolism of methylprednisolone and thus decrease its clearance. Therefore, the dose of methylprednisolone should be titrated to avoid steroid toxicity.</paragraph>
+                  <paragraph>Methylprednisolone may increase the clearance of chronic high dose aspirin. This could lead to decreased salicylate serum levels or increase the risk of salicylate toxicity when methylprednisolone is withdrawn. Aspirin should be used cautiously in conjunction with corticosteroids in patients suffering from hypoprothrombinemia.</paragraph>
+                  <paragraph>The effect of methylprednisolone on oral anticoagulants is variable. There are reports of enhanced as well as diminished effects of anticoagulant when given concurrently with corticosteroids. Therefore, coagulation indices should be monitored to maintain the desired anticoagulant effect.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information for the Patient </content>
+                  </paragraph>
+                  <paragraph>Persons who are on immunosuppressant doses of corticosteroids should be warned to avoid exposure to chickenpox or measles. Patients should also be advised that if they are exposed, medical advice should be sought without delay.</paragraph>
+               </text>
+               <effectiveTime value="20190808"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID206">
+               <id root="9ed2cc5d-1edf-40a7-93a3-67d9b46596a6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Fluid and Electrolyte Disturbances </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>  Sodium retention </item>
+                     <item>
+                        <caption>•</caption>  Congestive heart failure in susceptible patients </item>
+                     <item>
+                        <caption>•</caption>  Hypertension</item>
+                     <item>
+                        <caption>•</caption>  Fluid retention</item>
+                     <item>
+                        <caption>•</caption>  Potassium loss</item>
+                     <item>
+                        <caption>•</caption>  Hypokalemic alkalosis </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="italics">Musculoskeletal </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>  Muscle weakness</item>
+                     <item>
+                        <caption>•</caption>  Loss of muscle mass</item>
+                     <item>
+                        <caption>•</caption>  Steroid myopathy</item>
+                     <item>
+                        <caption>•</caption>  Osteoporosis</item>
+                     <item>
+                        <caption>•</caption>  Tendon rupture, particularly of the Achilles tendon</item>
+                     <item>
+                        <caption>•</caption>  Vertebral compression fractures</item>
+                     <item>
+                        <caption>•</caption>  Aseptic necrosis of femoral and humeral heads</item>
+                     <item>
+                        <caption>•</caption>  Pathologic fracture of long bones </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>  Peptic ulcer with possible perforation and hemorrhage</item>
+                     <item>
+                        <caption>•</caption>  Pancreatitis</item>
+                     <item>
+                        <caption>•</caption>  Abdominal distention</item>
+                     <item>
+                        <caption>•</caption>  Ulcerative esophagitis </item>
+                  </list>
+                  <paragraph>Increases in alanine transaminase (ALT, SGPT), aspartate transaminase (AST, SGOT), and alkaline phosphatase have been observed following corticosteroid treatment. These changes are usually small, not associated with any clinical syndrome and are reversible upon discontinuation.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Dermatologic</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>  Impaired wound healing</item>
+                     <item>
+                        <caption>•</caption>  Petechiae and ecchymoses</item>
+                     <item>
+                        <caption>•</caption>  May suppress reactions to skin tests</item>
+                     <item>
+                        <caption>•</caption>  Thin fragile skin</item>
+                     <item>
+                        <caption>•</caption>  Facial erythema</item>
+                     <item>
+                        <caption>•</caption>  Increased sweating </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="italics">Neurological </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>  Increased intracranial pressure with papilledema (pseudo-tumor cerebri) usually after treatment</item>
+                     <item>
+                        <caption>•</caption>  Convulsions</item>
+                     <item>
+                        <caption>•</caption>  Vertigo</item>
+                     <item>
+                        <caption>•</caption>  Headache</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="italics">Endocrine </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>  Development of Cushingoid state</item>
+                     <item>
+                        <caption>•</caption>  Suppression of growth in children</item>
+                     <item>
+                        <caption>•</caption>  Secondary adrenocortical and pituitary unresponsiveness, particularly in times of stress, as in trauma, surgery or illness </item>
+                     <item>
+                        <caption>•</caption>  Menstrual irregularities </item>
+                     <item>
+                        <caption>•</caption>  Decreased carbohydrate tolerance </item>
+                     <item>
+                        <caption>•</caption>  Manifestations of latent diabetes mellitus </item>
+                     <item>
+                        <caption>•</caption>  Increased requirements of insulin or oral hypoglycemic agents in diabetics </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="italics">Ophthalmic </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>  Posterior subcapsular cataracts </item>
+                     <item>
+                        <caption>•</caption>  Increased intraocular pressure </item>
+                     <item>
+                        <caption>•</caption>  Glaucoma </item>
+                     <item>
+                        <caption>•</caption>  Exophthalmos </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="italics">Metabolic </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>  Negative nitrogen balance due to protein catabolism </item>
+                  </list>
+                  <paragraph>The following additional reactions have been reported following oral as well as parenteral therapy: </paragraph>
+                  <paragraph>Urticaria and other allergic, anaphylactic or hypersensitivity reactions.</paragraph>
+               </text>
+               <effectiveTime value="20190808"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID224">
+               <id root="9f5b1731-0c6a-4b00-9c66-ae11c1fc9b41"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The initial dosage of methylprednisolone tablets may vary from 4 mg to 48 mg of methylprednisolone per day depending on the specific disease entity being treated. In situations of less severity lower doses will generally suffice while in selected patients higher initial doses may be required. The initial dosage should be maintained or adjusted until a satisfactory response is noted. If after a reasonable period of time there is a lack of satisfactory clinical response, methylprednisolone should be discontinued and the patient transferred to other appropriate therapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">IT SHOULD BE EMPHASIZED THAT DOSAGE REQUIREMENTS ARE VARIABLE AND MUST BE INDIVIDUALIZED ON THE BASIS OF THE DISEASE UNDER TREATMENT AND THE RESPONSE OF THE PATIENT. </content>After a favorable response is noted, the proper maintenance dosage should be determined by decreasing the initial drug dosage in small decrements at appropriate time intervals until the lowest dosage which will maintain an adequate clinical response is reached. It should be kept in mind that constant monitoring is needed in regard to drug dosage. Included in the situations which may make dosage adjustments necessary are changes in clinical status secondary to remissions or exacerbations in the disease process, the patient's individual drug responsiveness, and the effect of patient exposure to stressful situations not directly related to the disease entity under treatment; in this latter situation it may be necessary to increase the dosage of methylprednisolone for a period of time consistent with the patient's condition. If after long-term therapy the drug is to be stopped, it is recommended that it be withdrawn gradually rather than abruptly.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Multiple Sclerosis</content>
+                  </paragraph>
+                  <paragraph>In treatment of acute exacerbations of multiple sclerosis daily doses of 200 mg of prednisolone for a week followed by 80 mg every other day for 1 month have been shown to be effective (4 mg of methylprednisolone is equivalent to 5 mg of prednisolone).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ADT<sup>®</sup> (Alternate Day Therapy)</content>
+                  </paragraph>
+                  <paragraph>Alternate day therapy is a corticosteroid dosing regimen in which twice the usual daily dose of corticoid is administered every other morning. The purpose of this mode of therapy is to provide the patient requiring long-term pharmacologic dose treatment with the beneficial effects of corticoids while minimizing certain undesirable effects, including pituitary-adrenal suppression, the Cushingoid state, corticoid withdrawal symptoms, and growth suppression in children.</paragraph>
+                  <paragraph>The rationale for this treatment schedule is based on two major premises: (a) the anti-inflammatory or therapeutic effect of corticoids persists longer than their physical presence and metabolic effects and (b) administration of the corticosteroid every other morning allows for reestablishment of more nearly normal hypothalamic-pituitary-adrenal (HPA) activity on the offsteroid day.</paragraph>
+                  <paragraph>A brief review of the HPA physiology may be helpful in understanding this rationale. Acting primarily through the hypothalamus a fall in free cortisol stimulates the pituitary gland to produce increasing amounts of corticotropin (ACTH) while a rise in free cortisol inhibits ACTH secretion. Normally the HPA system is characterized by diurnal (circadian) rhythm. Serum levels of ACTH rise from a low point about 10 pm to a peak level about 6 am. Increasing levels of ACTH stimulate adrenal cortical activity resulting in a rise in plasma cortisol with maximal levels occurring between 2 am and 8 am. This rise in cortisol dampens ACTH production and in turn adrenal cortical activity. There is a gradual fall in plasma corticoids during the day with lowest levels occurring about midnight.</paragraph>
+                  <paragraph>The diurnal rhythm of the HPA axis is lost in Cushing's disease, a syndrome of adrenal cortical hyperfunction characterized by obesity with centripetal fat distribution, thinning of the skin with easy bruisability, muscle wasting with weakness, hypertension, latent diabetes, osteoporosis, electrolyte imbalance, etc. The same clinical findings of hyperadrenocorticism may be noted during long-term pharmacologic dose corticoid therapy administered in conventional daily divided doses. It would appear, then, that a disturbance in the diurnal cycle with maintenance of elevated corticoid values during the night may play a significant role in the development of undesirable corticoid effects. Escape from these constantly elevated plasma levels for even short periods of time may be instrumental in protecting against undesirable pharmacologic effects.</paragraph>
+                  <paragraph>During conventional pharmacologic dose corticosteroid therapy, ACTH production is inhibited with subsequent suppression of cortisol production by the adrenal cortex. Recovery time for normal HPA activity is variable depending upon the dose and duration of treatment. During this time the patient is vulnerable to any stressful situation. Although it has been shown that there is considerably less adrenal suppression following a single morning dose of prednisolone (10 mg) as opposed to a quarter of that dose administered every six hours, there is evidence that some suppressive effect on adrenal activity may be carried over into the following day when pharmacologic doses are used. Further, it has been shown that a single dose of certain corticosteroids will produce adrenal cortical suppression for two or more days. Other corticoids, including methylprednisolone, hydrocortisone, prednisone, and prednisolone, are considered to be short acting (producing adrenal cortical suppression for 1¼ to 1½ days following a single dose) and thus are recommended for alternate day therapy.</paragraph>
+                  <paragraph>The following should be kept in mind when considering alternate day therapy:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Basic principles and indications for corticosteroid therapy should apply. The benefits of ADT should not encourage the indiscriminate use of steroids.</item>
+                     <item>
+                        <caption>2.</caption>ADT is a therapeutic technique primarily designed for patients in whom long-term pharmacologic corticoid therapy is anticipated.</item>
+                     <item>
+                        <caption>3.</caption>In less severe disease processes in which corticoid therapy is indicated, it may be possible to initiate treatment with ADT. More severe disease states usually will require daily divided high dose therapy for initial control of the disease process. The initial suppressive dose level should be continued until satisfactory clinical response is obtained, usually four to ten days in the case of many allergic and collagen diseases. It is important to keep the period of initial suppressive dose as brief as possible particularly when subsequent use of alternate day therapy is intended. Once control has been established, two courses are available: (a) change to ADT and then gradually reduce the amount of corticoid given every other day <content styleCode="bold">or</content> (b) following control of the disease process reduce the daily dose of corticoid to the lowest effective level as rapidly as possible and then change over to an alternate day schedule. Theoretically, course (a) may be preferable.</item>
+                     <item>
+                        <caption>4.</caption>Because of the advantages of ADT, it may be desirable to try patients on this form of therapy who have been on daily corticoids for long periods of time (e.g., patients with rheumatoid arthritis). Since these patients may already have a suppressed HPA axis, establishing them on ADT may be difficult and not always successful. However, it is recommended that regular attempts be made to change them over. It may be helpful to triple or even quadruple the daily maintenance dose and administer this every other day rather than just doubling the daily dose if difficulty is encountered. Once the patient is again controlled, an attempt should be made to reduce this dose to a minimum.</item>
+                     <item>
+                        <caption>5.</caption>As indicated above, certain corticosteroids, because of their prolonged suppressive effect on adrenal activity, are not recommended for alternate day therapy (e.g., dexamethasone and betamethasone).</item>
+                     <item>
+                        <caption>6.</caption>The maximal activity of the adrenal cortex is between 2 am and 8 am, and it is minimal between 4 pm and midnight. Exogenous corticosteroids suppress adrenocortical activity the least, when given at the time of maximal activity (am).</item>
+                     <item>
+                        <caption>7.</caption>In using ADT it is important, as in all therapeutic situations to individualize and tailor the therapy to each patient. Complete control of symptoms will not be possible in all patients. An explanation of the benefits of ADT will help the patient to understand and tolerate the possible flare-up in symptoms which may occur in the latter part of the off-steroid day. Other symptomatic therapy may be added or increased at this time if needed.</item>
+                     <item>
+                        <caption>8.</caption>In the event of an acute flare-up of the disease process, it may be necessary to return to a full suppressive daily divided corticoid dose for control. Once control is again established alternate day therapy may be reinstituted.</item>
+                     <item>
+                        <caption>9.</caption>Although many of the undesirable features of corticosteroid therapy can be minimized by ADT, as in any therapeutic situation, the physician must carefully weigh the benefit-risk ratio for each patient in whom corticoid therapy is being considered.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20240729"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID227">
+               <id root="a973da3f-44ab-4299-96ac-2dc8c876623b"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Methylprednisolone tablets USP, are available in the following strengths and package sizes:</paragraph>
+                  <paragraph>Methylprednisolone tablets USP, 4 mg are white to off-white, oval-shaped, flat-faced, beveled-edge tablets, debossed with '916' on one side and quadrisect on other side and are supplied as follows:</paragraph>
+                  <paragraph>Carton of 100 tablets (10 tablets each blister pack x 10) NDC 0904-6914-61</paragraph>
+                  <paragraph>Store at 20°C to 25° C (68°F to 77° F) [See USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20240729"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID229">
+               <id root="7807bebb-83a9-48fa-8ec4-80a614929ec6"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Fekety R. Infections associated with corticosteroids and immunosuppressive therapy. In: Gorbach SL, Bartlett JG, Blacklow NR, eds. Infectious Diseases. Philadelphia: WBSaunders Company 1992:1050–1.</item>
+                     <item>
+                        <caption>2.</caption> Stuck AE, Minder CE, Frey FJ. Risk of infectious complications in patients taking glucocorticoids. Rev Infect Dis 1989:11(6):954–63.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</content>
+                  </paragraph>
+                  <paragraph>Please address medical inquiries to, (MedicalAffairs@zydususa.com) Tel.: 1-877-993-8779.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">This product's label may have been updated. For current full prescribing information, please visit www.zydususa.com</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Zydus Lifesciences Ltd.</content>
+                  </paragraph>
+                  <paragraph>Ahmedabad, India</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Zydus Pharmaceuticals (USA) Inc.</content>
+                  </paragraph>
+                  <paragraph>Pennington, NJ 08534</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Packaged and Distributed by:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MAJOR® PHARMACEUTICALS</content>
+                  </paragraph>
+                  <paragraph>Indianapolis, IN 46268 USA</paragraph>
+                  <paragraph>Refer to package label for Distributor's NDC Number</paragraph>
+                  <paragraph>Rev.: 06/24</paragraph>
+               </text>
+               <effectiveTime value="20240729"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_70a23ba2-c08f-45ef-a0d7-6e10aedb2b9a">
+               <id root="f650f9f3-2bd9-47eb-a097-26fb0fc90869"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel </title>
+               <text>
+                  <paragraph>MAJOR®</paragraph>
+                  <paragraph>NDC 0904-6914-61</paragraph>
+                  <paragraph>Unit Dose</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MethylPREDNISolone</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tablets, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4 mg</content>
+                  </paragraph>
+                  <paragraph>100 TABLETS (10 x 10)</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <renderMultiMedia ID="id-1090304631" referencedObject="ID_95f41c93-ac06-4d0c-9453-a1d7f036b9e7"/>
+               </text>
+               <effectiveTime value="20250318"/>
+               <component>
+                  <observationMedia ID="ID_95f41c93-ac06-4d0c-9453-a1d7f036b9e7">
+                     <text>4mg carton label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="c435b8b0-da52-4da8-b619-d81663641ea8-00.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

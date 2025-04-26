@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7c0786fa-dc69-4bc6-aa53-664938642855"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Cholestyramine for Oral Suspension, USP</title>
+   <effectiveTime value="20250312"/>
+   <setId root="8c7fc9c8-318c-42de-a736-c439047d8af8"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="035886746" root="1.3.6.1.4.1.519.1"/>
+            <name>Precision Dose, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="460005200" root="1.3.6.1.4.1.519.1"/>
+                        <name>Laboratorios Rubió, S.A.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68094-806" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="c4751c09-5b1a-4bdb-8047-6c96d2f13067"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250312"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68094-806" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cholestyramine</name>
+                        <formCode code="C42975" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Cholestyramine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="4" unit="g"/>
+                              <denominator value="9" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4B33BGI082" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Cholestyramine</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4B33BGI082" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Cholestyramine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C151H8M554" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sucrose</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="26CD3J2R0C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>propylene glycol alginate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5EVU04N5QU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>orange</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>anhydrous citric acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C Yellow No. 10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H77VEI93A8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C Yellow No. 6</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="9" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="60" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="68094-806-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20240425"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="348.6" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68094-806-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43180" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAN"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240425"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209597" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20240425"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="YELLOW" xsi:type="CE">
+                              <originalText>Pale Yellow</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73406" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORANGE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="54f0bfa4-d925-4a62-a9c9-10a57cf58d62"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ace77d08-bfe6-4891-a820-4251331be941"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Cholestyramine for Oral Suspension, USP, the chloride salt of a basic anion exchange resin, a cholesterol lowering agent, is intended for oral administration. Cholestyramine resin is quite hydrophilic, but insoluble in water. Cholestyramine resin is not absorbed from the digestive tract. 8.3 grams of Cholestyramine for Oral Suspension, USP contain 4 grams of cholestyramine resin. It is represented by the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1">
+                     <caption>Representation of structure of main polymeric groups</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Inactive ingredients:</content> sucrose (429.5 mg/g), propylene glycol alginate, natural orange flavor, anhydrous citric acid, D&amp;C Yellow No. 10 aluminum lake and FD&amp;C Yellow No. 6 aluminum lake.</paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cholestyramine-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="555adb22-60a4-4b47-b239-d28bd3f7eaee"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Cholesterol is probably the sole precursor of bile acids. During normal digestion, bile acids are secreted into the intestines. A major portion of the bile acids is absorbed from the intestinal tract and returned to the liver via the enterohepatic circulation. Only very small amounts of bile acids are found in normal serum.</paragraph>
+                  <paragraph>Cholestyramine resin adsorbs and combines with the bile acids in the intestine to form an insoluble complex which is excreted in the feces. This results in a partial removal of bile acids from the enterohepatic circulation by preventing their absorption.</paragraph>
+                  <paragraph>The increased fecal loss of bile acids due to cholestyramine resin administration leads to an increased oxidation of cholesterol to bile acids, a decrease in beta lipoprotein or low density lipoprotein plasma levels and a decrease in serum cholesterol levels. Although in man, cholestyramine resin produces an increase in hepatic synthesis of cholesterol, plasma cholesterol levels fall.</paragraph>
+                  <paragraph>In patients with partial biliary obstruction, the reduction of serum bile acid levels by cholestyramine resin reduces excess bile acids deposited in the dermal tissue with resultant decrease in pruritus.</paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+               <component>
+                  <section>
+                     <id root="5bac6805-e938-407b-a697-7ea74c186569"/>
+                     <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+                     <title>Clinical Studies</title>
+                     <text>
+                        <paragraph>In a large, placebo-controlled, multi-clinic study, LRC-CPPT<sup>1</sup>, hypercholesterolemic subjects treated with cholestyramine resin, had mean reduction in total and low-density lipoprotein cholesterol (LDL-C) which exceeded those for diet and placebo treatment by 7.2% and 10.4%, respectively. Over the seven-year study period the cholestyramine resin group experienced a 19% reduction (relative to the incidence in the placebo group) in the combined rate of coronary heart disease death plus non-fatal myocardial infarction (cumulative incidence of 7% cholestyramine resin and 8.6% placebo). The subjects included in the study were men aged 35 to 59 with serum cholesterol levels above 265 mg/dL and no previous history of heart disease. It is not clear to what extent these findings can be extrapolated to females and other segments of the hypercholesterolemic population (see also <content styleCode="bold">
+                              <linkHtml href="#CMI">PRECAUTIONS, Carcinogenesis, Mutagenesis, Impairment of Fertility</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Two controlled clinical trials have examined the effects of cholestyramine monotherapy upon coronary atherosclerotic lesions using coronary arteriography. In the NHLBI Type II Coronary Intervention Trial<sup>2</sup>, 116 patients (80% male) with coronary artery disease (CAD) documented by arteriography were randomized to cholestyramine resin or placebo for five years of treatment. Final study arteriography revealed progression of coronary artery disease in 49% of placebo patients compared to 32% of the cholestyramine resin group (p&lt;0.05).</paragraph>
+                        <paragraph>In the St. Thomas Atherosclerosis Regression Study (STARS)<sup>3</sup>, 90 hypercholesterolemic men with CAD were randomized to three blinded treatments: usual care, lipid-lowering diet and lipid-lowering diet plus cholestyramine resin. After 36 months, follow-up coronary arteriography revealed progression of disease in 46% of usual care patients, 15% of patients on lipid-lowering diet and 12% of those receiving diet plus cholestyramine resin (p&lt;0.02). The mean absolute width of coronary segments decreased in the usual care group, increased slightly (0.003 mm) in the diet group and increased by 0.103 mm in the diet plus cholestyramine group (p&lt;0.05). Thus in these randomized controlled clinical trials using coronary arteriography, cholestyramine resin monotherapy has been demonstrated to slow progression<sup>2,3</sup> and promote regression<sup>3</sup> of atherosclerotic lesions in the coronary arteries of patients with coronary artery disease.</paragraph>
+                        <paragraph>The effect of intensive lipid-lowering therapy on coronary atherosclerosis has been assessed by arteriography in hyperlipidemic patients. In these randomized, controlled clinical trials, patients were treated for two to four years by either conventional measures (diet, placebo or in some cases low dose resin) or intensive combination therapy using diet plus colestipol (an anion exchange resin with a mechanism of action and an effect on serum lipids similar to that of Cholestyramine for Oral Suspension, USP) plus either nicotinic acid or lovastatin. When compared to conventional measures, intensive lipid-lowering combination therapy significantly reduced the frequency of progression and increased the frequency of regression of coronary atherosclerotic lesions in patients with or at risk for coronary artery disease.</paragraph>
+                     </text>
+                     <effectiveTime value="20250312"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6b7a2615-7fcd-4f80-8da8-d411b07fec3e"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>1) Cholestyramine for Oral Suspension, USP is indicated as adjunctive therapy to diet for the reduction of elevated serum cholesterol in patients with primary hypercholesterolemia (elevated low density lipoprotein [LDL] cholesterol) who do not respond adequately to diet. Cholestyramine for Oral Suspension, USP may be useful to lower LDL cholesterol in patients who also have hypertriglyceridemia, but it is not indicated where hypertriglyceridemia is the abnormality of most concern.</paragraph>
+                  <paragraph>Therapy with lipid-altering agents should be a component of multiple risk factor intervention in those individuals at significantly increased risk for atherosclerotic vascular disease due to hypercholesterolemia. Treatment should begin and continue with dietary therapy specific for the type of hyperlipoproteinemia determined prior to initiation of drug therapy. Excess body weight may be an important factor and caloric restriction for weight normalization should be addressed prior to drug therapy in the overweight.</paragraph>
+                  <paragraph>Prior to initiating therapy with cholestyramine resin, secondary causes of hypercholesterolemia (e.g., poorly controlled diabetes mellitus, hypothyroidism, nephrotic syndrome, dysproteinemias, obstructive liver disease, other drug therapy, alcoholism), should be excluded and a lipid profile performed to assess Total cholesterol, HDL-C and triglycerides (TG). For individuals with TG less than 400 mg/dL (&lt;4.5 mmol/L), LDL-C can be estimated using the following equation:</paragraph>
+                  <paragraph>LDL-C = Total cholesterol - [(TG/5) + HDL-C]</paragraph>
+                  <paragraph>For TG levels &gt; 400 mg/dL, this equation is less accurate and LDL-C concentrations should be determined by ultracentrifugation. In hypertriglyceridemic patients, LDL-C may be low or normal despite elevated Total-C. In such cases cholestyramine resin, may not be indicated.</paragraph>
+                  <paragraph>Serum cholesterol and triglyceride levels should be determined periodically based on NCEP guidelines to confirm initial and adequate long-term response. A favorable trend in cholesterol reduction should occur during the first month of cholestyramine resin therapy. The therapy should be continued to sustain cholesterol reduction. If adequate cholesterol reduction is not attained, increasing the dosage of cholestyramine resin or adding other lipid-lowering agents in combination with cholestyramine resin should be considered.</paragraph>
+                  <paragraph>Since the goal of treatment is to lower LDL-C, the NCEP<sup>4</sup> recommends that LDL-C levels be used to initiate and assess treatment response. If LDL-C levels are not available, then Total-C alone may be used to monitor long-term therapy. A lipoprotein analysis (including LDL-C determination) should be carried out once a year. The NCEP treatment guidelines are summarized below.</paragraph>
+                  <table width="75%">
+                     <col width="25%" align="center" valign="middle"/>
+                     <col width="25%" align="center" valign="middle"/>
+                     <col width="25%" align="center" valign="middle"/>
+                     <col width="25%" align="center" valign="middle"/>
+                     <thead>
+                        <tr styleCode="Botrule">
+                           <th styleCode="Lrule Rrule"/>
+                           <th styleCode="Rrule"/>
+                           <th styleCode="Rrule" colspan="2">LDL-Cholesterol mg/dL (mmol/L)</th>
+                        </tr>
+                        <tr>
+                           <th styleCode="Lrule Rrule">Definite Atherosclerotic Disease<footnote>Coronary heart disease or peripheral vascular disease (including symptomatic carotid artery disease).</footnote>
+                           </th>
+                           <th styleCode="Rrule">Two or More Other Risk Factors<footnote>Other risk factors for coronary heart disease (CHD) include: age (males ≥45 years; females: ≥55 years or premature menopause without estrogen replacement therapy); family history of premature CHD; current cigarette smoking; hypertension; confirmed HDL-C &lt;35 mg/dL (&lt;0.91 mmol/L); and diabetes mellitus. Subtract one risk factor if HDL-C is ≥60 mg/dL (≥1.6 mmol/L).</footnote>
+                           </th>
+                           <th styleCode="Rrule">Initiation Level</th>
+                           <th styleCode="Rrule">Goal</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">No</td>
+                           <td styleCode="Rrule">No</td>
+                           <td styleCode="Rrule">≥190 (≥4.9)</td>
+                           <td styleCode="Rrule">&lt;160 (&lt;4.1)</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">No</td>
+                           <td styleCode="Rrule">Yes</td>
+                           <td styleCode="Rrule">≥160 (≥4.1)</td>
+                           <td styleCode="Rrule">&lt;130 (&lt;3.4)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">Yes</td>
+                           <td styleCode="Rrule">Yes or No</td>
+                           <td styleCode="Rrule">≥130 (≥3.4)</td>
+                           <td styleCode="Rrule">≤100 (≤2.6)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Cholestyramine resin monotherapy has been demonstrated to retard the rate of progression<sup>2,3</sup> and increase the rate of regression<sup>3</sup> of coronary atherosclerosis.</paragraph>
+                  <paragraph>2) Cholestyramine for Oral Suspension, USP is indicated for the relief of pruritus associated with partial biliary obstruction. Cholestyramine resin has been shown to have a variable effect on serum cholesterol in these patients. Patients with primary biliary cirrhosis may exhibit an elevated cholesterol as part of their disease.</paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d80c6d1e-7c6d-4ddf-a1d4-52db6ec7eec8"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Cholestyramine for Oral Suspension, USP is contraindicated in patients with complete biliary obstruction where bile is not secreted into the intestine and in those individuals who have shown hypersensitivity to any of its components.</paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9d754adf-7435-4def-8f92-ee7802cdf1df"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20250312"/>
+               <component>
+                  <section>
+                     <id root="e8f62007-f661-490b-8b30-3facb49638cd"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Chronic use of cholestyramine resin may be associated with increased bleeding tendency due to hypoprothrombinemia associated with Vitamin K deficiency. This will usually respond promptly to parenteral Vitamin K<sub>1</sub> and recurrences can be prevented by oral administration of Vitamin K<sub>1</sub>. Reduction of serum or red cell folate has been reported over long term administration of cholestyramine resin. Supplementation with folic acid should be considered in these cases.</paragraph>
+                        <paragraph>There is a possibility that prolonged use of cholestyramine resin, since it is a chloride form of anion exchange resin, may produce hyperchloremic acidosis. This would especially be true in younger and smaller patients where the relative dosage may be higher. Caution should also be exercised in patients with renal insufficiency or volume depletion and in patients receiving concomitant spironolactone.</paragraph>
+                        <paragraph>Cholestyramine resin may produce or worsen preexisting constipation. The dosage should be increased gradually in patients to minimize the risk of developing fecal impaction. In patients with preexisting constipation, the starting dose should be 1 pouch or 1 scoop once daily for 5 to 7 days, increasing to twice daily with monitoring of constipation and of serum lipoproteins, at least twice, 4 to 6 weeks apart. Increased fluid intake and fiber intake should be encouraged to alleviate constipation and a stool softener may occasionally be indicated. If the initial dose is well tolerated, the dose may be increased as needed by one dose/day (at monthly intervals) with periodic monitoring of serum lipoproteins. If constipation worsens or the desired therapeutic response is not achieved at one to six doses/day, combination therapy or alternate therapy should be considered. Particular effort should be made to avoid constipation in patients with symptomatic coronary artery disease. Constipation associated with cholestyramine resin may aggravate hemorrhoids.</paragraph>
+                     </text>
+                     <effectiveTime value="20250312"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="40f1388c-f22a-4008-bad7-27de0a3df948"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Inform your physician if you are pregnant or plan to become pregnant or are breast-feeding. Drink plenty of fluids and mix each 8.3 gram dose of Cholestyramine for Oral Suspension, USP in at least 2 to 6 ounces of fluid before taking. Sipping or holding the resin suspension in the mouth for prolonged periods may lead to changes in the surface of the teeth resulting in discoloration, erosion of enamel or decay, good oral hygiene should be maintained.</paragraph>
+                     </text>
+                     <effectiveTime value="20250312"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="d4601ae9-7c7a-4fe6-b2f0-0d109fe24e53"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Serum cholesterol levels should be determined frequently during the first few months of therapy and periodically thereafter. Serum triglyceride levels should be measured periodically to detect whether significant changes have occurred.</paragraph>
+                        <paragraph>The LRC-CPPT showed a dose-related increase in serum triglycerides of 10.7% to 17.1% in the cholestyramine-treated group, compared with an increase of 7.9% to 11.7% in the placebo group. Based on the mean values and adjusting for the placebo group, the cholestyramine-treated group showed an increase of 5% over pre-entry levels the first year of the study and an increase of 4.3% the seventh year.</paragraph>
+                     </text>
+                     <effectiveTime value="20250312"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="DI">
+                     <id root="012adc80-d8c5-496b-8661-7094031a7d7f"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Cholestyramine resin may delay or reduce the absorption of concomitant oral medication such as phenylbutazone, warfarin, thiazide diuretics (acidic) or propranolol (basic), as well as tetracycline, penicillin G, phenobarbital, thyroid and thyroxine preparations, estrogens and progestins and digitalis. Interference with the absorption of oral phosphate supplements has been observed with another positively-charged bile acid sequestrant. Cholestyramine resin may interfere with the pharmacokinetics of drugs that undergo enterohepatic circulation. The discontinuance of cholestyramine resin could pose a hazard to health if a potentially toxic drug such as digitalis has been titrated to a maintenance level while the patient was taking cholestyramine resin.</paragraph>
+                        <paragraph>Because cholestyramine binds bile acids, cholestyramine resin may interfere with normal fat digestion and absorption and thus may prevent absorption of fat-soluble vitamins such as A, D, E and K. When cholestyramine resin is given for long periods of time, concomitant supplementation with water-miscible (or parenteral) forms of fat-soluble vitamins should be considered.</paragraph>
+                        <paragraph>SINCE CHOLESTYRAMINE RESIN MAY BIND OTHER DRUGS GIVEN CONCURRENTLY, IT IS RECOMMENDED THAT PATIENTS TAKE OTHER DRUGS AT LEAST 1 HOUR <content styleCode="underline">BEFORE</content> OR 4 TO 6 HOURS <content styleCode="underline">AFTER</content> CHOLESTYRAMINE RESIN (OR AT AS GREAT AN INTERVAL AS POSSIBLE) TO AVOID IMPEDING THEIR ABSORPTION.</paragraph>
+                     </text>
+                     <effectiveTime value="20250312"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="CMI">
+                     <id root="cd881300-d2c4-42e3-9185-0ab1e9ee98c3"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>In studies conducted in rats in which cholestyramine resin was used as a tool to investigate the role of various intestinal factors, such as fat, bile salts and microbial flora, in the development of intestinal tumors induced by potent carcinogens, the incidence of such tumors was observed to be greater in cholestyramine resin-treated rats than in control rats.</paragraph>
+                        <paragraph>The relevance of this laboratory observation from studies in rats to the clinical use of cholestyramine resin is not known. In the LRC-CPPT study referred to above, the total incidence of fatal and nonfatal neoplasms was similar in both treatment groups. When the many different categories of tumors are examined, various alimentary system cancers were somewhat more prevalent in the cholestyramine group. The small numbers and the multiple categories prevent conclusions from being drawn. However, in view of the fact that cholestyramine resin is confined to the GI tract and not absorbed and in light of the animal experiments referred to above, a six-year post-trial follow-up of the LRCCPPT<sup>5</sup> patient population has been completed (a total of 13.4 years of in-trial plus post-trial follow-up) and revealed no significant difference in the incidence of cause-specific mortality or cancer morbidity between cholestyramine and placebo treated patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20250312"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="c58fd5f0-79ae-4825-b432-5876bd299231"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20250312"/>
+                     <component>
+                        <section>
+                           <id root="6ee0ca70-90aa-4791-9cc9-832ad28859d6"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Pregnancy Category C</title>
+                           <text>
+                              <paragraph>There are no adequate and well controlled studies in pregnant women. The use of cholestyramine in pregnancy or lactation or by women of childbearing age requires that the potential benefits of drug therapy be weighed against the possible hazards to the mother and child. Cholestyramine is not absorbed systemically, however, it is known to interfere with absorption of fat-soluble vitamins; accordingly, regular prenatal supplementation may not be adequate (see <content styleCode="bold">
+                                    <linkHtml href="#DI">PRECAUTIONS, Drug Interactions</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20250312"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="68da5f1c-27dc-42a1-a2be-2030eba0823a"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Caution should be exercised when cholestyramine resin is administered to a nursing mother. The possible lack of proper vitamin absorption described in the "Pregnancy" section may have an effect on nursing infants.</paragraph>
+                     </text>
+                     <effectiveTime value="20250312"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="52a28693-d6c1-406d-9472-f1ca073b3f2a"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Although an optimal dosage schedule has not been established, standard texts<sup>(6,7)</sup> list a usual pediatric dose of 240 mg/kg/day of anhydrous cholestyramine resin in two to three divided doses, normally not to exceed 8 g/day with dose titration based on response and tolerance.</paragraph>
+                        <paragraph>In calculating pediatric dosages, 48.2 mg of anhydrous cholestyramine resin are contained in 100 mg of Cholestyramine for Oral Suspension, USP.</paragraph>
+                        <paragraph>The effects of long-term drug administration, as well as its effect in maintaining lowered cholesterol levels in pediatric patients, are unknown. Also, see <content styleCode="bold">
+                              <linkHtml href="#AR">ADVERSE REACTIONS</linkHtml>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250312"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="AR">
+               <id root="fd9baf76-c839-4395-93aa-6fb9e3896f5e"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The most common adverse reaction is constipation. When used as a cholesterol-lowering agent predisposing factors for most complaints of constipation are high dose and increased age (more than 60 years old). Most instances of constipation are mild, transient and controlled with conventional therapy. Some patients require a temporary decrease in dosage or discontinuation of therapy.</paragraph>
+                  <paragraph>Less Frequent Adverse Reactions- Abdominal discomfort and/or pain, flatulence, nausea, vomiting, diarrhea, eructation, anorexia, steatorrhea, bleeding tendencies due to hypoprothrombinemia (Vitamin K deficiency) as well as Vitamin A (one case of night blindness reported) and D deficiencies, hyperchloremic acidosis in children, osteoporosis, rash and irritation of the skin, tongue and perianal area. Rare reports of intestinal obstruction, including two deaths, have been reported in pediatric patients.</paragraph>
+                  <paragraph>Occasional calcified material has been observed in the biliary tree, including calcification of the gallbladder, in patients to whom cholestyramine resin has been given. However, this may be a manifestation of the liver disease and not drug related.</paragraph>
+                  <paragraph>One patient experienced biliary colic on each of three occasions on which he took a cholestyramine for oral suspension product. One patient diagnosed as acute abdominal symptom complex was found to have a "pasty mass" in the transverse colon on x-ray.</paragraph>
+                  <paragraph>Other events (not necessarily drug related) reported in patients taking cholestyramine resin include:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Gastrointestinal:</content> GI-rectal bleeding, black stools, hemorrhoidal bleeding, bleeding from known duodenal ulcer, dysphagia, hiccups, ulcer attack, sour taste, pancreatitis, rectal pain, diverticulitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Laboratory Test Changes:</content> Liver function abnormalities.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Hematologic:</content> Prolonged prothrombin time, ecchymosis, anemia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Hypersensitivity:</content> Urticaria, asthma, wheezing, shortness of breath.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Musculoskeletal:</content> Backache, muscle and joint pains, arthritis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Neurologic:</content> Headache, anxiety, vertigo, dizziness, fatigue, tinnitus, syncope, drowsiness, femoral nerve pain, paresthesia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Eye:</content> Uveitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Renal:</content> Hematuria, dysuria, burnt odor to urine, diuresis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold italics">Miscellaneous:</content> Weight loss, weight gain, increased libido, swollen glands, edema, dental bleeding, dental caries, erosion of tooth enamel, tooth discoloration.</paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="50b8c014-59a8-4239-9332-70c6b5c73176"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdosage of cholestyramine resin has been reported in a patient taking 150% of the maximum recommended daily dosage for a period of several weeks. No ill effects were reported. Should an overdosage occur, the chief potential harm would be obstruction of the gastrointestinal tract. The location of such potential obstruction, the degree of obstruction and the presence or absence of normal gut motility would determine treatment.</paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="512365cf-0b83-4d39-abc9-bf7ff62b7323"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The recommended starting adult dose for Cholestyramine for Oral Suspension, USP is 1 pouch or 1 level scoopful (8.3 grams of Cholestyramine for Oral Suspension, USP contains 4 grams of anhydrous cholestyramine resin) once or twice a day. The recommended maintenance dose for Cholestyramine for Oral Suspension, USP is 2 to 4 pouches or scoopfuls daily (8 to 16 grams anhydrous cholestyramine resin) divided into two doses. It is recommended that increases in dose be gradual with periodic assessment of lipid/lipoprotein levels at intervals of not less than 4 weeks. The maximum recommended daily dose is 6 pouches or scoopfuls of Cholestyramine for Oral Suspension, USP (24 grams of anhydrous cholestyramine resin). The suggested time of administration is at mealtime but may be modified to avoid interference with absorption of other medications. Although the recommended dosing schedule is twice daily, Cholestyramine for Oral Suspension, USP may be administered in 1 to 6 doses per day.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cholestyramine for Oral Suspension, USP should not be taken in its dry form. Always mix the dry powder with water or other fluids before ingesting. See <linkHtml href="#Preparation">Preparation</linkHtml> Instructions.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+               <component>
+                  <section>
+                     <id root="7e42570d-1d2e-4d05-894a-e1715a36387c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Concomitant Therapy</title>
+                     <text>
+                        <paragraph>Preliminary evidence suggests that the lipid-lowering effects of cholestyramine on total and LDL-cholesterol are enhanced when combined with a HMG-CoA reductase inhibitor, e.g., pravastatin, lovastatin, simvastatin and fluvastatin. Additive effects on LDL-cholesterol are also seen with combined nicotinic acid/cholestyramine therapy. See <content styleCode="bold">
+                              <linkHtml href="#DI">PRECAUTIONS, Drug Interactions</linkHtml>
+                           </content> for recommendations on administering concomitant therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20250312"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Preparation">
+                     <id root="637dd80c-5615-430f-8727-dc01b7b890f4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preparation</title>
+                     <text>
+                        <paragraph>The color of Cholestyramine for Oral Suspension, USP may vary somewhat from batch to batch but this variation does not affect the performance of the product. Place the contents of one single-dose pouch or one level scoopful of Cholestyramine for Oral Suspension, USP in a glass or cup. Add at least 2 to 6 ounces of water or the non-carbonated beverage of your choice. Stir to a uniform consistency and drink.</paragraph>
+                        <paragraph>Cholestyramine for Oral Suspension, USP may also be mixed with highly fluid soups or pulpy fruits with a high moisture content such as applesauce or crushed pineapple.</paragraph>
+                     </text>
+                     <effectiveTime value="20250312"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a218ee86-8399-474d-a764-040529ece97e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Cholestyramine for Oral Suspension, USP orange flavor is available in cartons of sixty 8.3 gram pouches and in a can containing 348.6 grams. 8.3 grams of Cholestyramine for Oral Suspension, USP contain 4 grams of anhydrous cholestyramine resin.</paragraph>
+                  <paragraph>NDC 68094-806-20 Carton of 60 single-dose pouches</paragraph>
+                  <paragraph>NDC 68094-806-10 Can, 348.6 g (containing a scoop that is not interchangeable with scoops from other products)</paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+               <component>
+                  <section>
+                     <id root="57929da8-ace5-4e3f-92fa-bbd6b9c13579"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage</title>
+                     <text>
+                        <paragraph>Store at 20°C to 25°C (68° to 77°F) [see USP Controlled Room Temperature].</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Always replace plastic lid after using.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">KEEP OUT OF THE REACH OF CHILDREN.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250312"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6a3a7edd-9234-40e8-916c-f32a8e154953"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <paragraph>1. The Lipid Research Clinics Coronary Primary Prevention Trial Results: (I) Reduction in Incidence of Coronary Heart Disease; (II) The Relationship of Reduction in Incidence of Coronary Heart Disease to Cholesterol Lowering. JAMA 1984; 251:351-374</paragraph>
+                  <paragraph>2. Brensike JF, Levy RI, Kelsey SF, et al. Effects of therapy with cholestyramine on progression of coronary arteriosclerosis results of the NHLBI type II coronary intervention study. <content styleCode="underline">Circulation</content> 1984; 69:313-24.</paragraph>
+                  <paragraph>3. Watts GF, Lewis B, Brunt JNH, Lewis ES, et al. Effects on coronary artery disease of lipid-lowering diet or diet plus cholestyramine, in the St. Thomas Atherosclerosis Regression Study (STARS). <content styleCode="underline">Lancet</content> 1992; 339:563-69.</paragraph>
+                  <paragraph>4. National Cholesterol Education Program. Second Report of the Expert Panel on Detection, Evaluation and Treatment of High Blood Cholesterol in Adults (Adult Treatment Panel II). <content styleCode="underline">Circulation</content> 1994 Mar;89 (3): 1333-445.</paragraph>
+                  <paragraph>5. The Lipid Research Clinics Investigators. The Lipid Research Clinics Coronary Primary Prevention Trial Results of 6 Years of Post-Trial Follow-up. <content styleCode="underline">Arch Intern Med</content> 1992; 152:1399-1410.</paragraph>
+                  <paragraph>6. Behrman RE et al (eds): Nelson, <content styleCode="italics">Textbook of Pediatrics</content>, ed 15. Philadelphia, PA, WB Saunders Company, 1996.</paragraph>
+                  <paragraph>7. Takemoto CK et al (eds): <content styleCode="italics">Pediatric Dosage Handbook</content>, ed 3. Cleveland/Akron, OH, Lexi-Comp, Inc., 1996/1997.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Precision Dose, Inc. at 1-844-668-3942 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="419135da-3313-449f-b3c9-9db31dd79439"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by<br/>Laboratorios Rubió, S.A.<br/>Industria, 29, Pol. Ind. Comte de Sert<br/>08755-Castellbisbal (Barcelona) Spain</paragraph>
+                  <paragraph>Manufactured for<br/>Precision Dose, Inc.<br/>South Beloit, IL 61080</paragraph>
+                  <paragraph>Rev. 09/23</paragraph>
+                  <paragraph>36126007 0124</paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a4dbfcad-9d4b-404d-aa12-c3e1bebd37cb"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 4 g Pouch Carton</title>
+               <text>
+                  <paragraph>60 Single-Dose Pouches<br/>NDC 68094-806-20</paragraph>
+                  <paragraph>Cholestyramine for Oral<br/>Suspension, USP<br/>Powder</paragraph>
+                  <paragraph>4 grams cholestyramine resin USP,<br/>per pouch*</paragraph>
+                  <paragraph>*each pouch contains 4 grams cholestyramine<br/>resin USP</paragraph>
+                  <paragraph>Orange Flavor<br/>Rx Only</paragraph>
+                  <paragraph>This package is not child-resistant.<br/>This product contains sucrose.</paragraph>
+                  <paragraph>Precision Dose</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20250312"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>RINCIPAL DISPLAY PANEL - 4 g Pouch Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cholestyramine-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
