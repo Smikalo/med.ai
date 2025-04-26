@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="30099839-9f77-952c-e063-6294a90a2a1c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250310"/>
+   <setId root="3008e7e0-01d9-bc7c-e063-6394a90a5247"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="080318791"/>
+            <name>Key Therapeutics</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3009a6a4-383b-ac84-e063-6294a90a546c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250310"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70868-510" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Accentrate PNV</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Prenatal Multivitamin Tablet and combination Omega-3 Softgel/Mineral Capsule</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70868-510-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250225"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="70868-511" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Neuro 110</name>
+                              <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Multivitamin Tablet</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="ug" value="150"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="42HK56048U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TYROSINE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="42HK56048U" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>TYROSINE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="15"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="19F5HK2737" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PANTOTHENIC ACID</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="19F5HK2737" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>PANTOTHENIC ACID</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MAGNESIUM STEARATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SILICON DIOXIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CROSCARMELLOSE SODIUM</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="1"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="BR1SN1JS2W" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHYLCOBALAMIN</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="BR1SN1JS2W" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>METHYLCOBALAMIN</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="[USP'U]" value="1200"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="1C6V77QF41" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHOLECALCIFEROL</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="1C6V77QF41" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>CHOLECALCIFEROL</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="1"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="X66NSO3N35" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>THIAMINE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="4ABT0J945J" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>THIAMINE ION</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="6"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="A9R10K3F2F" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEVOMEFOLATE CALCIUM</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="8S95DH25XC" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>LEVOMEFOLIC ACID</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="3"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="7N464URE7E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>RIBOFLAVIN 5'-PHOSPHATE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="7N464URE7E" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>RIBOFLAVIN 5'-PHOSPHATE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="GAN16C9B8O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLUTATHIONE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CELLULOSE, MICROCRYSTALLINE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="10"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="F06SGE49M6" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PYRIDOXAL 5-PHOSPHATE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="F06SGE49M6" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>PYRIDOXAL 5-PHOSPHATE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="5"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="25X51I8RD4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NIACINAMIDE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="25X51I8RD4" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>NIACINAMIDE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="ug" value="85"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="PQ6CK8PD0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ASCORBIC ACID</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="PQ6CK8PD0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>ASCORBIC ACID</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="8I089SAH3T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>STARCH, POTATO</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="30" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="70868-511-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250216"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value value="1" xsi:type="INT"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value unit="mm" value="13" xsi:type="PQ"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                                    <originalText/>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value xsi:type="ST">110</value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                                    <originalText/>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="70868-512" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Omega 110</name>
+                              <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Omega-3 Softgel</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1T8387508X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GELATIN TYPE B BOVINE (160 BLOOM)</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCERIN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SORBITOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="ug" value="260"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="2GZO7EJ6ZE" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>1-STEAROYL-SN-GLYCERO-3-PHOSPHOCHOLINE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="2GZO7EJ6ZE" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>1-STEAROYL-SN-GLYCERO-3-PHOSPHOCHOLINE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="ug" value="140"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="AAN7QOV9EA" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EICOSAPENTAENOIC ACID</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="AAN7QOV9EA" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>EICOSAPENTAENOIC ACID</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="ug" value="70"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="ZAD9OKH9JC" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOCOSAHEXAENOIC ACID</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="ZAD9OKH9JC" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>DOCOSAHEXAENOIC ACID</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="B9AJZ544PE" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EUPHAUSIA KRILL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="60" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="70868-512-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value value="1" xsi:type="INT"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48326" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="red" xsi:type="CE">
+                                    <originalText/>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                                    <originalText>Softgel</originalText>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value unit="mm" value="15" xsi:type="PQ"/>
+                              </characteristic>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="70868-513" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Minerals 110</name>
+                              <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Mineral Capsule</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="PQ6CK8PD0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ASCORBIC ACID</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="68VAV8QID7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>COPPER GLYCINATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SILICA</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIM">
+                                 <quantity>
+                                    <numerator unit="mg" value="10"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="SFW1D987QV" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FERROUS BISGLYCINATE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="GW89581OWR" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>FERROUS CATION</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="8I089SAH3T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>STARCH, POTATO</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="290"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="IFN18A4Y6B" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MAGNESIUM GLYCINATE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="T6V3LHY838" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>MAGNESIUM CATION</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYPROMELLOSES</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="35"/>
+                                    <denominator unit="1" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="681VJX72FE" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ZINC GLYCINATE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="13S1S8SF37" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>ZINC CATION</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="90" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="70868-513-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value unit="mm" value="20" xsi:type="PQ"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                                    <originalText/>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                                    <originalText/>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value value="1" xsi:type="INT"/>
+                              </characteristic>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250217"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb39717-b54e-c23f-e063-6294a90a9cd1">
+               <id root="2f04a359-3184-96f2-e063-6394a90ab0da"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Accentrate® PNV (Folate/Omega-3/Iron) (6 mg-210 mg-10 mg) is an orally administered Prescription Prenatal Multivitamin Tablet and combination Omega-3 Softgel/Mineral Capsule.  Accentrate® PNV contains a prenatal tablet, omega-3 softgels, and mineral capsules. Each one tablet contains 6 mg of L-methylfolate Calcium, each two softgel serving contains 210 mg of EPA and DHA, and each three capsule serving contain 10 mg of iron.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each prenatal tablet contains: </content>
+                  </paragraph>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph>L-methylfolate Calcium</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>6 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Pyridoxal-5-phosphate  (Vitamin B6)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>10 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Methylcobalamin (Vitamin B12)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>1 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Riboflavin-5-phosphate (Vitamin B2)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>3 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Niacinamide (Vitamin B3)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>5 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Pantothenate (Vitamin B5)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>15 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Thiamine (Vitamin B1)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>1 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Vitamin D3</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>1200 IU / 30 mcg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Vitamin C</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Tyrosine</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>150 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">
+                              <paragraph>
+                                 <content styleCode="bold">Other Ingredients:</content> L-Glutathione, Starch, Croscarmellose Sodium, Silicon Dioxide, USP, Magnesium Stearate, Microcrystalline Cellulose.
+     </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Each two omega-3 softgel serving contains: </content>
+                  </paragraph>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph>LYSOVETA® LPC</paragraph>
+                              <paragraph>   which contains</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>1000 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>     Lysophosphatidylcholine (LPC)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>260 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>     Eicosapentaenoic Acid</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>140 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>     Docosahexaenoic Acid</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>  70 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">
+                              <paragraph>
+                                 <content styleCode="bold">Other Ingredients:</content> Lysophosphatidylcholine (LPC)-Rich Oil, Extract of Antarctic Krill (Euphausia superba), Gelatin (bovine), Glycerin, Sorbitol, Water.
+     </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">CONTAINS: Shellfish (Krill)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each three mineral capsule serving contains: </content>
+                  </paragraph>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph>Magnesium (magnesium glycinate chelate)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>290 mg </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Zinc (zinc glycinate chelate)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>  35 mg</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Iron (ferrous bisglycinate chelate)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>  10 mg  </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">
+                              <paragraph>
+                                 <content styleCode="bold">Other Ingredients:</content> Potato starch, ascorbic acid, magnesium stearate, fumed silica, hypomellose, copper bisglycinate.
+     </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb39d1d-93c9-c4b1-e063-6294a90a6696">
+               <id root="2eb3b964-2c64-d564-e063-6294a90a06a6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Accentrate® PNV </content>(Folate/Omega-3/Iron) (6 mg-210 mg-10 mg) is a Prescription Prenatal Multivitamin Tablet and combination Omega-3 Softgel/Mineral Capsule indicated for preventing neural tube defects and use in improving the nutritional status of women prior to conception, throughout pregnancy, and in the postnatal period for both lactating and nonlactating mothers.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb3b753-8480-e8bc-e063-6294a90a5f83">
+               <id root="2eb3b4f9-6d35-18e9-e063-6394a90a5388"/>
+               <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+               <title>PREGNANCY AND NURSING MOTHERS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Accentrate®</content>
+                     <content styleCode="bold">PNV</content> is intended for women of childbearing age who are – or desire to become, pregnant regardless of lactation status. Accentrate® PNV may be preferred for women at risk of dysregulated dopamine or serotonin regulation, which may include depression as a result of folate or cobalamin deficiency as well as folate-induced postpartum depression, or are at risk of folate-induced birth defects such as may be found with spina bifida and other neural tube defects (NTDs). It has been shown that folate enhances the synthesis and/or regeneration of tetrahydrobiopterin (BH
+  <sub>4</sub>), which is an essential cofactor in the biosynthesis of monoamine neurotransmitters serotonin, dopamine and norepinephrine
+  <sup>i, ii, iii</sup>. The conversion of tryptophan to serotonin also requires BH
+  <sub>4</sub>.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Accentrate® PNV may also be an appropriate source of folate for those at high risk of NTDs because of the amount and bioavailability of L-methylfolate contained therein. Accentrate® PNV is Pregnancy Category A; however, Accentrate® PNV is NOT a standard complete prenatal/postnatal supplement for the following reasons:</paragraph>
+                  <paragraph>Accentrate® PNV contains over 1,000% of DV of folate for pregnant and lactating women, which may or may not be important depending upon your genetic disposition and previous pregnancies; please consult with your licensed medical practitioner on advanced folate supplementation during pregnancy for women at risk of NTDs and/or suboptimal folate/depression/postpartum.</paragraph>
+                  <paragraph>Accentrate® PNV contains over 600% of DV for cobalamin for pregnant and lactating women.</paragraph>
+                  <paragraph>Accentrate® PNV contains less than have the DV–only 37%–of iron for pregnant and lactating women, and Accentrate® PNV does not contain other vitamins and minerals that might be more suitable to your specific metabolic needs or part of a standard prenatal/postnatal multivitamin/multimineral/dietary supplement.
+  <sup>iv, v, vi, vii</sup>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb419a9-8af6-188f-e063-6294a90a5857">
+               <id root="2f05505e-3310-6cda-e063-6294a90a4422"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The usual adult dose may be taken as one (1) white vitamin tablet (Neuro 110™), two (2) red omega-3 softgels (Omega 110™), and three (3) white mineral capsules (Minerals 110™) daily, before, during and after pregnancy, or as directed by a physician.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">FOLATE</content>
+                     </content> is essential for the production of certain coenzymes in many metabolic systems such as purine and pyrimidine synthesis. About 70% of food folate and cellular folate is comprised of L-methylfolate. It is the primary form of folate in circulation, and is also the form transported across membranes – particularly across the blood brain barrier – into peripheral tissues. In the cell, L-methylfolate is used in the remethylation of homocysteine to form methionine and tetrahydrofolate (THF). L-methylfolate is converted into functional, metabolically active coenzyme forms for use in the body, and supplies the active folate substrate, THF (tetrahydrofolate) for use in transformylation and methylation biochemistry.
+ </paragraph>
+                  <paragraph>Folates are best known for reducing the incidence of fetal neural tube defects (NTDs). 
+  <sup>viii, ix,x </sup>NTDs are congenital malformations produced by failure of the neural tube to form and close properly during embryonic development. 
+  <sup>xi,xii</sup> During the first four weeks of pregnancy – when many women do not even realize that they have conceived, adequate maternal folate intake is essential to reduce the risk of NTDs. Folate is also essential in the synthesis and maintenance of nucleoprotein in erythropoiesis. It also promotes white blood cell (WBC) and platelet production in folate-deficiency anemia. Folate is associated with methylation and transformylation biochemistry. Folate is involved in transformylation and methylation metabolism as well as, indirectly, succinylation metabolism (through the “methyl trap” hypothesis). Folate plays a central role in the formation of nucleic acid precursors, such as thymidylic acid and purine nucleotides, which are essential for nucleic acid synthesis and cell division. IOM/NAS (1998) noted that the evidence for a protective effect from folate supplements is much stronger than that for food folate.  Other ingredients are added to folate as cofactors, coenzymes and co-metabolites; in studies by Czeizel and Dudas (1992) and Berry et al. (1999), factors other than folate intake may affect the magnitude of risk reduction or participate in a co-protective effect with folate.
+  <sup>4,5</sup>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>L-methylfolate supplementation increases the formation of endothelian nitric oxide synthase resulting in increase nitric oxide. This causes vasodilation to the nerves, increasing blood supply to the nerves, and reducing vascular oxidative stress.
+  <sup>xiv</sup>  L-methylfolate supplementation also increases nitric oxide levels by increasing the amount of tetrahydrobioterin (BH4).  BH4 is required for nitric oxide synthesis.
+  <sup>xv  </sup>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>FOLATE COENZYMES, COFACTORS, AND COMETABOLITES - The following ingredients are added to enhance the bioavailable potential of folate, and include:</paragraph>
+                  <paragraph/>
+                  <paragraph>COBALAMIN - Methylcobalamin is required for two important reactions: the conversion of methylmalonyl CoA to succinyl CoA, a Krebs cycle intermediate, and the conversion of homocysteine to methionine, a reaction in which the methyl group of L-methylfolate is donated to remethylate homocysteine. Homocysteine has been found to stimulate or alter transcription factors involved in inflammation, with an important ancillary consequence of BH
+  <sub>4</sub> depletion. For example, it has been reported that homocysteine-mediated activation of sterol regulatory element binding protein (SREBP) upregulates expression of 3-hydroxy-3-methyl-glutaryl-coenzyme (HMG-CoA reductase) with increased biosynthesis and cellular uptake of cholesterol, the depletion of BH
+  <sub>4</sub> being a secondary effect.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>PYRIDOXAL-5’-PHOSPHATE (PLP) is the active form of vitamin B. The amino acid decarboxylase considered to decarboxylate both dihydroxyphenylalanine (DOPA) and 5-hydroxytryptophan (5-HTP) requires pyridoxal phosphate as coenzyme. Deficient levels of plasma PLP are significantly associated with depressive symptomatology in human studies.
+  <sup>xvi</sup>
+                  </paragraph>
+                  <paragraph>OTHER B VITAMINS - Thiamine pyrophosphate (TPP) is the biologically active derivative of thiamine, vitamin B Flavin adenine dinucleotide (FAD) is the active substrate of riboflavin, vitamin B . It has been reported that deficiencies of thiamine and riboflavin are associated with depressive symptoms. ,  Nicotinamide adenine dinucleotide (NADH) is a reduced form of niacin, or vitamin B Niacin-dependent dihydropteridine reductase (DHPR) is involved in BH regeneration.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">IRON</content>
+                     </content> – Accentrate® PNV supplies iron as a pure amino acid iron-chelate, which provides pure elemental iron – an essential component in the formation of hemoglobin. Iron therapy is necessary in advanced folate supplementation due to interference between iron and folate metabolism. Sufficient amounts are required for effective erythropoiesis. According to the USDA, “The impact of iron deficiency on folate metabolism is most dramatic during the reproductive and neonatal stages of the life cycle.”
+ </paragraph>
+                  <paragraph>Iron is one of the primary cofactors in BH reactions. Tyrosine hydroxylase requires iron and tetrahydrobiopterin to catalyze the conversion of tyrosine (also contained in Accentrate® PNV) to DOPA, which is then converted to dopamine by the enzyme DOPA decarboxylase. Dopamine β-hydroxylase transforms dopamine to norepinephrine, which can be further transformed to epinephrine.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">OMEGA-3 FATTY ACIDS</content>
+                     </content> - Docosahexaenoic acid (DHA) and eicosapentaenoic acid (EPA) are omega-3 fatty acids. Accentrate® PNV contains LYSOVETA® LPC which comprises the omega-3 fatty acid-derivatives EPA and DHA conjugated to lysophosphatidylcholine (LPC). LPC-EPA and LPC-DHA are the forms of EPA and DHA that is absorbed by the brain through the MSFD2a receptor active on the blood brain barrier.  Accretion of EPA and DHA in LPC form has been shown to be significantly higher than triglyceride, phospholipid (PC), and free fatty acid form. 
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>DHA bound to LPC was shown to be 4 times higher in umbilical circulation than maternal circulation,  which may indicate that omega-3 fatty acids in LPC form is preferred for omega-3 supplementation during pregnancy. Evidence suggests that LYSOVETA® LPC provides a neuroprotective effect against neonatal brain injury. 
+  <sup>xxii</sup>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOLATE REGULATION:</content> The Federal Register Notices from 1971 to 1973 establish that increased folate is proper supplement in megaloblastic anemias of tropical and nontropical sprue, nutritional origin, pregnancy, infancy, and childhood. 
+  <sup>xxiii,xxiv,xxv</sup> Folate metabolism may be affected by malabsorption issues that differ widely among population groups. The March 5, 1996 Federal Register Notice (61 FR 8760) states  “The agency concluded that 
+  <content styleCode="bold">
+                        <content styleCode="italics">the scientific literature did not support the superiority of any one source of folate over others, and that the data were insufficient to provide a basis for stating that a specific amount of folate is more effective than another amount</content>
+                     </content> [emphasis added]. 
+  <sup>xxvi</sup> The actual amount and source of folate require the supervision of a licensed medical practitioner to achieve a satisfactory maintenance level, and may exceed the 0.8 mg UL. The Federal Register Notice of August 2, 1973 (38 FR 20750) specifically states that “dietary supplement preparations are available without a prescription (21 CFR 121.1134). 
+  <content styleCode="bold">Levels higher than dietary supplement amounts are available only with a prescription. Oral preparations supplying more than 0.8 mg of folate per dosage unit would be restricted to prescription dispensing </content>and that a dietary supplement furnishing 0.8 mg could be prescribed when a maintenance level of 0.8 mg per day was indicated. When clinical symptoms have subsided and the blood picture and/or CSF folate levels have become normal, a maintenance level should be used. “Patients should be kept under supervision of a licensed practitioner and adjustment of the maintenance level made if relapse appears imminent. In the presence of alcoholism, hemolytic anemia, anticonvulsant therapy, or chronic infection, the maintenance level may need to be increased [emphasis added]. ” In the Letter Regarding Dietary Supplement Health Claim for Folic Acid, Vitamin B
+  <sub>6</sub>, and Vitamin B
+  <sub>12</sub> and Vascular Disease (Docket No. 99P-3029) dated November 28, 2000, FDA wrote “... high intakes of folate may partially and temporarily correct pernicious anemia while the neurological damage of vitamin B
+  <sub>12</sub> deficiency progresses. IOM/NAS (1998) set the UL for all adults of 1 mg per day because of devastating and irreversible neurological consequences of vitamin B
+  <sub>12</sub> deficiency, the data suggesting that 
+  <content styleCode="bold">
+                        <content styleCode="italics">pernicious anemia may develop at a younger age in some racial or ethnic groups, and the uncertainty about the extent of the occurrence of vitamin B12 deficiency in younger age groups</content>
+                     </content> (IOM/NAS, 1998) [emphasis added]. 
+  <sup>xxviii</sup>”
+ </paragraph>
+                  <paragraph>Summary: This product is a Prescription Prenatal Multivitamin Tablet containing folate that, due to advanced folate levels, requires administration under the care of a licensed medical practitioner. "Rx Only" on the label is to ensure prescription dispensing and that the product is administered under the supervision of a licensed medical practitioner due to the increased risk associated with masking of B12 deficiency (pernicious anemia). The “Rx Only” status and a National Drug Code (NDC), or similar Product Code, facilitate pedigree reporting requirements and supply-chain control as well as, in some cases, insurance-reimbursement applications.</paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb3c1fa-d155-de05-e063-6294a90aac80">
+               <id root="2eb3c1fa-d154-de05-e063-6294a90aac80"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>This product is contraindicated in patients with a known hypersensitivity to any of the articles contained in this product. This product is contraindicated for individuals with conditions for which any of the ingredients are contraindicated.</paragraph>
+                  <paragraph/>
+                  <paragraph>Iron therapy is contraindicated in patients with hemochromatosis and patients with iron storage disease or the potential for iron storage disease due to chronic hemolytic anemia (e.g., inherited anomalies of hemoglobin structure or synthesis and/or red cell enzyme deficiencies, etc.), pyridoxine responsive anemia, or cirrhosis of the liver.</paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb4259a-debc-5b87-e063-6294a90a4bd2">
+               <id root="2fb810d5-5726-0b02-e063-6294a90ae024"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING</title>
+               <text>
+                  <paragraph>Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. 
+  <content styleCode="bold">Keep this product out of reach of children.</content> In case of accidental overdose, call a doctor or a Poison Control Center immediately
+  <content styleCode="bold">.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb42b3a-31ac-2d82-e063-6294a90a3b15">
+               <id root="2eb42b3a-31ab-2d82-e063-6294a90a3b15"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>WARNINGS/PRECAUTIONS: </title>
+               <text>
+                  <paragraph>Caution is recommended in patients with a family history of bipolar illness. Mood elevation is possible in this population.</paragraph>
+                  <paragraph/>
+                  <paragraph>Caution is also recommended in patients taking anticonvulsant medications as folate may interfere with anticonvulsant medication, and may lower seizure threshold. Furthermore, it has been reported that anticonvulsant medications interfere with folate metabolism, but the exact action is unclear; therefore caution is recommended with patients in this therapeutic group.</paragraph>
+                  <paragraph/>
+                  <paragraph>Patients undergoing cancer treatment should consult their licensed medical practitioner for advice.</paragraph>
+                  <paragraph/>
+                  <paragraph>Folate alone is improper therapy in the treatment of pernicious anemia and other megaloblastic anemias where vitamin B
+  <sub>12</sub> is deficient. Folate in doses above 0.1 mg daily may obscure pernicious anemia in that hematologic remission may occur while neurological manifestations progress. Daily ingestion of more than 3 grams per day of omega-3 fatty acids (DHA, ALA, and EPA) may have potential antithrombotic activities, or effects, and may increase bleeding times. Administration of omega-3 fatty acids, including DHA, should be avoided in patients with inherited or acquired bleeding diathesis, including those taking anticoagulants. Exercise caution to ensure that the prescribed dosage of DHA does not exceed 1 gram (1000 mg) per day.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb43bc2-ba4f-7305-e063-6294a90a424f">
+               <id root="2fb81f70-2eb4-3e5d-e063-6294a90a883d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Allergic reactions have been reported following the use of oral and parenteral folate. 
+  <sup>xxix </sup>Mild transient diarrhea, polycythemia vera, itching, transitory exanthema, and the feeling of swelling of the entire body have been associated with methylcobalamin.
+  <sup>xxx</sup> Allergic reactions, acne, skin reactions, photosensitivity, nausea, vomiting, abdominal pain, loss of appetite, paresthesia, somnolence, nausea, and headaches have been associated with pyridoxal-5’-phosphate.
+  <sup>xxxi</sup>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Call your medical practitioner about side effects. You may report side effects to the FDA at 1-800- FDA-1088 or call Key Therapeutics, LLC. at 888-981-8337.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb440b9-ff70-9869-e063-6394a90a208c">
+               <id root="2eb440b9-ff6f-9869-e063-6394a90a208c"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>Talk to your licensed medical practitioner, healthcare practitioner, personal physician, and/or pharmacist before taking or using any prescription, over-the-counter medicines, or herbal/health supplements alongside this product. Drugs which may interact with folate include:</paragraph>
+                  <paragraph>•     Antiepileptic drugs (AED): The AED class including, but not limited to, phenytoin, carbamazepine, primidone, valproic acid, fosphenytoin, valproate, phenobarbital and lamotrigine have been shown to impair folate absorption and increase the metabolism of circulating folate.</paragraph>
+                  <paragraph>•     Additionally, concurrent use of folic acid has been associated with enhanced phenytoin metabolism, lowering the level of the AED in the blood and allowing breakthrough seizures to occur. Caution should be used when prescribing this product among patients who are receiving treatment with phenytoin and other anticonvulsants.</paragraph>
+                  <paragraph>•     Cholestyramine: Reduces folic acid absorption and reduces serum folate levels.</paragraph>
+                  <paragraph>•     Colestipol: Reduces folic acid absorption and reduces serum folate levels. Cycloserine: Reduces folic acid absorption and reduces serum folate levels.</paragraph>
+                  <paragraph>•     Fluoxetine: Fluoxetine exerts a noncompetitive inhibition of the 5-methyltetrahydrofolate active transport in the intestine.</paragraph>
+                  <paragraph>•     Isotretinoin: Reduced folate levels have occurred in some patients taking isotretinoin.</paragraph>
+                  <paragraph>•     L-dopa, triamterene, colchicine, and trimethoprim may decrease plasma folate levels.</paragraph>
+                  <paragraph>•     Nonsteroidal Anti-inflammatory Drugs (NSAIDs): NSAIDs have been shown to inhibit some folate dependent enzymes in laboratory experiments.</paragraph>
+                  <paragraph>•     NSAIDs include ibuprofen, naproxen, indomethacin and sulindac.</paragraph>
+                  <paragraph>•     Oral Contraceptives: Serum folate levels may be depressed by oral contraceptive therapy.</paragraph>
+                  <paragraph>•     Methylprednisolone: Reduced serum folate levels have been noted after treatment with methylprednisolone.</paragraph>
+                  <paragraph>•     Pancreatic Enzymes: Reduced serum folate levels have occurred in some patients taking pancreatic extracts, such as pancreatin and pancrelipase.</paragraph>
+                  <paragraph>•     Pentamidine: Reduced folate levels have been seen with prolonged intravenous pentamidine.</paragraph>
+                  <paragraph>•     Pyrimethamine: High levels of folic acid may result in decreased serum levels of pyrimethamine.</paragraph>
+                  <paragraph>•     Smoking and Alcohol: Reduced serum folate levels have been noted.</paragraph>
+                  <paragraph>•     Sulfasalazine: Inhibits the absorption and metabolism of folic acid. Metformin treatment in patients with type 2 diabetes decreases serum folate.</paragraph>
+                  <paragraph>•     Warfarin can produce significant impairment in folate status after a 6-month therapy.</paragraph>
+                  <paragraph>Caution should be exercised with the concomitant use of folinic acid and trimethoprim- sulfamethoxazole for the acute treatment of 
+  <content styleCode="italics">Pneumocystis carinii</content> pneumonia in patients with HIV infection as it is associated with increased rates of treatment failure and mortality in a placebo-controlled study.
+ </paragraph>
+                  <paragraph>Drugs which may interact with vitamin B
+  <sub>12 </sub>(Methylcobalamin):
+ </paragraph>
+                  <paragraph>•     Antibiotics, cholestyramine, colchicines, colestipol, metformin, para-aminosalicylic, and potassium chloride may decrease the absorption of vitamin B
+  <sub>12</sub>.
+ </paragraph>
+                  <paragraph>•     Nitrous oxide can produce a functional vitamin B
+  <sub>12</sub> deficiency
+ </paragraph>
+                  <paragraph/>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph>
+                                 <content styleCode="bold">*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb44a58-3d2b-7c62-e063-6294a90a759f">
+               <id root="2eb44a58-3d2a-7c62-e063-6294a90a759f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Accentrate® PNV (Folate/Omega/Iron) (6 mg-210 mg-10 mg) is available in a carton with NDC
+  <sup>†</sup> 70868-510-30 containing: Neuro 110™ in a bottle with 30 (white) tablets with the imprint “110”, Omega 110™ in a bottle with 60 (red) softgels, and Minerals 110™ in a bottle with 90 (white) capsules.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <sup>†</sup>This product is a prescription folate with or without other dietary ingredients, due to increased folate levels (AUG 2 1973 FR 20750). The “Rx” on the label is to ensure prescription dispensing and that the product is administered under the supervision of a licensed medical practitioner due to the increased risk associated with masking of B
+  <sub>12</sub> deficiency (pernicious anemia).
+ </paragraph>
+                  <paragraph>Based on the risk of obscuring pernicious anemia, this product requires supervision of a licensed medical practitioner. The “Rx Only” status and a National Drug Code (NDC), or similar Product Code, facilitate pedigree reporting requirements and supply-chain control as well as, in some cases, insurance-reimbursement applications.</paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb44eb5-3060-a258-e063-6394a90abb4f">
+               <id root="2eb44eb5-305f-a258-e063-6394a90abb4f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>FOR THE PHARMACIST</title>
+               <text>
+                  <paragraph>This product is not an Orange Book (OB) rated product, therefore all prescriptions using this product shall be pursuant to state statutes as applicable. There are no claims of bioequivalence or therapeutic equivalence.</paragraph>
+                  <paragraph/>
+                  <paragraph>This product may, under certain circumstances, be dispensed through a certified mail-order program as long as there is record of prescription AND confirmation that the patient is under the supervision of a licensed medical practitioner.</paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb4557b-8ab5-a1f0-e063-6394a90a9648">
+               <id root="2eb4557b-8ab4-a1f0-e063-6394a90a9648"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Store in a dry place at 71°F or below. [See USP]. Protect from light and moisture. Dispense in a tight, light-resistant container. 
+  <content styleCode="bold">KEEP THIS PRODUCT OUT OF THE REACH OF CHILDREN. </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb45a1b-bbb1-a375-e063-6394a90a581e">
+               <id root="2fb83dfb-f6b5-d9bd-e063-6294a90aee21"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">MANUFACTURED </content>for Key Therapeutics, LLC. Flowood, MS 39232
+ </paragraph>
+                  <paragraph>NDC: 70868-510-30 
+  <content styleCode="bold">Accentrate® PNV </content>combo kit is packaged in a carton containing each bottle separately:
+ </paragraph>
+                  <paragraph>NDC: 70868-511-30 Prenatal Multivitamin Tablets as Accentrate® Neuro 110,</paragraph>
+                  <paragraph>Product Code: 70868-512-60 Omega-3 softgels as Accentrate® Omega 110, and</paragraph>
+                  <paragraph>Product Code: 70868-513-90 Mineral capsules as Accentrate® Minerals 110.</paragraph>
+                  <paragraph/>
+                  <paragraph>MADE IN USA</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Trademarks: Accentrate® is a trademark of Fenix Health Science, LLC. LYSOVETA® LPC is a trademark of Aker BioMarine Human Ingredients AS.</paragraph>
+                  <paragraph/>
+                  <paragraph>Distributed by Key Therapeutics, LLC. in partnership with Fenix Health Science, LLC.</paragraph>
+                  <paragraph/>
+                  <paragraph>Key Therapeutics, LLC.                    Fenix Health Science, LLC.</paragraph>
+                  <paragraph>232 Market Street                             1000 Parkwood Cir. SE</paragraph>
+                  <paragraph>Building K Number 252                    Suite 900</paragraph>
+                  <paragraph>Flowood, MS 39232                          Atlanta, GA 30339</paragraph>
+                  <paragraph>www.keyrx.com                               www.fenixhealthscience.com</paragraph>
+                  <paragraph/>
+                  <paragraph>© Rev. 02/25</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Accentrate® PNV (Folate/Omega/Iron) (6 mg-210 mg-10 mg)</paragraph>
+                  <paragraph/>
+                  <paragraph>Prescription Prenatal Multivitamin Tablet and combination Omega-3 Softgel/Mineral Capsule</paragraph>
+                  <paragraph>NDC: 70868-510-30</paragraph>
+                  <paragraph>R
+  <sub>x</sub> Only
+ </paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb4882f-d347-b0af-e063-6394a90a2dd2">
+               <id root="2f04b65d-d31d-07e9-e063-6294a90a157b"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <paragraph>i Miller AL. “The methylation, neurotransmitter, and antioxidant connections between folate and depression.” Altern Med Rev. 2008 Sep;13(3):216-26.</paragraph>
+                  <paragraph>ii Bottiglieri T, et al. “Homocysteine, folate, methylation, and monoamine metabolism in depression.” J Neurol Neurosurg Psychiatry. 2000 Aug; 69(2):228-32.</paragraph>
+                  <paragraph>iii Young SN. “Folate and depression a – neglected problem.” J Psychiatry Neurosci 2007 March; 32(2):80-82.</paragraph>
+                  <paragraph>iv Letter Regarding Dietary Supplement Health Claim for Folic Acid, Vitamin B6, and Vitamin B12 and Vascular Disease (Docket No. 99P3029). November 28, 2000.</paragraph>
+                  <paragraph>v Letter Regarding Dietary Supplement Health Claim for Folic Acid With Respect to Neural Tube Defects (Docket No. 91N-100H). October 10, 2000.</paragraph>
+                  <paragraph>vi Hendler SS, Rorvik D, eds. PDR for Nutritional Supplements. Montvale, NJ: Thomson Healthcare; 2001.</paragraph>
+                  <paragraph>vii Hendler SS, Rorvik D. PDR for Nutritional Supplements. 2nd ed. Montvale, NJ. Physicians’ Desk Reference Inc; 2008.</paragraph>
+                  <paragraph>viii Hendler SS, Rorvik D, eds. PDR for Nutritional Supplements. Montvale, NJ: Thomson Healthcare; 2001. 10.</paragraph>
+                  <paragraph>ix Hendler SS, Rorvik D. PDR for Nutritional Supplements. 2nd ed. Montvale, NJ. Physicians’ Desk Reference Inc; 2008. 11.</paragraph>
+                  <paragraph>x Bendich A, “Preventive Nutrition: The Comprehensive Guide for Health Professionals.” 2009. Dietary Supplement Facts Regulations at http://www.fda.gov/Food/GuidanceRegulation/GuidanceDocumentsRegulatoryInformation/DietarySupplements/ucm2006823.htm.</paragraph>
+                  <paragraph>xi Letter Regarding Dietary Supplement Health Claim for Folic Acid With Respect to Neural Tube Defects. October 10, 2000.</paragraph>
+                  <paragraph>xii Veves A. et al. Diabetes 1998. 47:457-463</paragraph>
+                  <paragraph>xiii Verhaar, MC. Atherosclerosis, Thrombosis, Vascular Biology, 2001.</paragraph>
+                  <paragraph>xv Federal Register Notice of April 9, 1971 (36 FR 6843).</paragraph>
+                  <paragraph>xvi Federal Register Notice of August 2, 1973 (38 FR 20750).</paragraph>
+                  <paragraph>xvii Letter Regarding Dietary Supplement Health Claim for Folic Acid, Vitamin B6, and Vitamin B12 and Vascular Disease. November 28, 2000.</paragraph>
+                  <paragraph>xvii Zhang G, et al. “Thiamine nutritional status and depressive symptoms are inversely associated among older Chinese adults.” J Nutr. 2013 Jan;143(1):53-8.</paragraph>
+                  <paragraph>xviii Naghashpour M, et al. “Riboflavin status and its association with serum hs-CRP levels among clinical nurses with depression.” J Am Coll Nutr. 2011 Oct;30(5):340-7.</paragraph>
+                  <paragraph>xix Nguyen, L., et al. “Mfsd2a is a transporter for the essential omega-3 fatty acid DHA in the brain.” Nature, 509 (2014). (7501), 503–506.</paragraph>
+                  <paragraph>xx Sugasini, D. “Enrichment of brain docosahexaenoic acid (DHA) is highly dependent upon the molecular carrier of dietary DHA: lysophosphatidylcholine is more efficient than either phosphatidylcholine or triacylglycerol.” J Nutr Biochem. 2019 Dec; 74:108231.</paragraph>
+                  <paragraph>xxi Ferchaud-Roucher, V, et al. "A potential role for lysophosphatidylcholine in the delivery of long chain polyunsaturated fatty acids to the fetal circulation." Biochimica et Biophysica Acta (BBA)-Molecular and Cell Biology of Lipids 1864.3 (2019): 394-402.</paragraph>
+                  <paragraph>xxii Hermans, E, et al. “Dietary LPC-Bound n-3 LCPUFA Protects against Neonatal Brain Injury in Mice but Does Not Enhance Stem Cell Therapy.” Nutrients 16.14 (2024): 2252.</paragraph>
+                  <paragraph>xxiii Federal Register Notice of April 9, 1971 (36 FR 6843).</paragraph>
+                  <paragraph>xxiv Federal Register Notice of August 2, 1973 (38 FR 20750).</paragraph>
+                  <paragraph>xxv Federal Register Notice of October 17, 1980 (45 FR 69043 at 69044).</paragraph>
+                  <paragraph>xxvi Federal Register Notice of March 5, 1996 (61 FR 8760).</paragraph>
+                  <paragraph>xxvii Federal Register Notice of August 2, 1973 (38 FR 20750).</paragraph>
+                  <paragraph>xxviii Letter Regarding Dietary Supplement Health Claim for Folic Acid, Vitamin B6, and Vitamin B12 and</paragraph>
+                  <paragraph>Vascular Disease (Docket No. 99P3029). November 28, 2000.</paragraph>
+                  <paragraph>xxix Natural Standard Research Collaboration (NIH). Folate (folic acid) Monograph 2009.</paragraph>
+                  <paragraph>xxx Natural Standard Research Collaboration (NIH). Vitamin B12 Monograph 2009.</paragraph>
+                  <paragraph>xxxi Alternative Medicine Review Vitamin B6 Monograph Volume 6, Number 1, 2001.</paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2eb4a861-285a-bbee-e063-6294a90a3be0">
+               <id root="2eb4a861-2859-bbee-e063-6294a90a3be0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2eb4aa3a-6076-bfa0-e063-6394a90aecbe"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250221"/>
+               <component>
+                  <observationMedia ID="img_2eb4aa3a-6076-bfa0-e063-6394a90aecbe">
+                     <text>label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

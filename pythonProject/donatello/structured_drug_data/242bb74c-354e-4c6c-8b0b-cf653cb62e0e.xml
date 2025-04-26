@@ -1,0 +1,2492 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="242bb74c-354e-4c6c-8b0b-cf653cb62e0e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use XACDURO safely and effectively. See full prescribing information for XACDURO. <br/>
+      <br/> XACDURO<sup>®</sup> (sulbactam for injection; durlobactam for injection), co-packaged for intravenous use <br/> Initial U.S. Approval: 2023</title>
+   <effectiveTime value="20250327"/>
+   <setId root="c0167aec-a89d-4e96-afe5-2ccf3e89fe72"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="613541192" root="1.3.6.1.4.1.519.1"/>
+            <name>La Jolla Pharmaceutical Company</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="079834275" root="1.3.6.1.4.1.519.1"/>
+                  <name>Entasis Therapeutics Inc. (ETI)</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="e1ce6e1b-ec7e-40c5-ad38-dfe5d7481c0d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20230531"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68547-111" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Xacduro</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>sulbactam and durlobactam</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68547-111-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230606"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="68547-211" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>sulbactam</name>
+                              <formCode code="C42974" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>sulbactam</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIM">
+                                 <quantity>
+                                    <numerator value="1" unit="g"/>
+                                    <denominator value="5" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="DKQ4T82YE6" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>sulbactam sodium</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="S4TF6I2330" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>sulbactam</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="68547-211-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA216974" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230526"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="68547-311" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>durlobactam</name>
+                              <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>durlobactam</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIM">
+                                 <quantity>
+                                    <numerator value="0.5" unit="g"/>
+                                    <denominator value="2.5" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="F78MDZ9CW9" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>durlobactam sodium</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="PSA33KO9WA" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>durlobactam</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="2.5" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="68547-311-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA216974" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230526"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA216974" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230606"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="S1">
+               <id root="75c6ea9f-4317-436c-b910-c397c4c5f324"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <effectiveTime value="20230531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>XACDURO is a co-packaged product containing sulbactam, a beta-lactam antibacterial and beta lactamase inhibitor, and durlobactam, a beta lactamase inhibitor, indicated in patients 18 years of age and older for the treatment of hospital-acquired bacterial pneumonia and ventilator-associated bacterial pneumonia (HABP/VABP), caused by susceptible isolates of <content styleCode="italics">Acinetobacter baumannii-calcoaceticus</content> complex. (<linkHtml href="#S1.1">1.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Limitations of Use</content>:</paragraph>
+                        <paragraph>XACDURO is not indicated for the treatment of HABP/VABP caused by pathogens other than susceptible isolates of <content styleCode="italics">Acinetobacter baumannii-calcoaceticus</content> complex. (<linkHtml href="#S1.1">1.1</linkHtml>, <linkHtml href="#S14">14</linkHtml>) </paragraph>
+                        <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of XACDURO and other antibacterial drugs, XACDURO should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria. (<linkHtml href="#S1.2">1.2</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S1.1">
+                     <id root="509a0477-8f44-441e-a17b-b8df0e2fa178"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>1.1 Hospital-acquired Bacterial Pneumonia and Ventilator-associated Bacterial Pneumonia (HABP/VABP)</title>
+                     <text>
+                        <paragraph>XACDURO is indicated in patients 18 years of age and older for the treatment of hospital-acquired bacterial pneumonia and ventilator-associated bacterial pneumonia (HABP/VABP), caused by susceptible isolates of <content styleCode="italics">Acinetobacter baumannii-calcoaceticus</content> complex.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                     <component>
+                        <section>
+                           <id root="d6570ba3-6236-43ce-b760-3d9bee537fe5"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Limitations of Use</content>
+                              </paragraph>
+                              <paragraph>XACDURO is not indicated for the treatment of HABP/VABP caused by pathogens other than susceptible isolates of <content styleCode="italics">Acinetobacter baumannii-calcoaceticus</content> complex <content styleCode="italics">[see <linkHtml href="#S14">Clinical Studies (14)</linkHtml>]</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S1.2">
+                     <id root="01b6482e-7157-4909-ae3a-25d1c66e35a1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>1.2 Usage</title>
+                     <text>
+                        <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of XACDURO and other antibacterial drugs, XACDURO should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S2">
+               <id root="8ef614a8-0c95-4549-bff5-93af4743e480"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20230531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Administer XACDURO (1 g of sulbactam, 1 g of durlobactam) every 6 hours by intravenous (IV) infusion over 3 hours in patients with creatinine clearance (CLcr) of 45 to 129 mL/min. (<linkHtml href="#S2.1">2.1</linkHtml>)</item>
+                           <item>Dosing regimen adjustments are recommended for CLcr less than 45 mL/min and CLcr greater than or equal to 130 mL/min. (<linkHtml href="#S2.2">2.2</linkHtml>) </item>
+                           <item>Administer all doses of XACDURO by IV infusion over 3 hours. (<linkHtml href="#S2.3">2.3</linkHtml>)</item>
+                           <item>See full prescribing information for instructions on the preparation of the intravenous solution. (<linkHtml href="#S2.4">2.4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S2.1">
+                     <id root="d420b56e-56ff-482b-b2ed-522a0115aae6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Recommended Dosage </title>
+                     <text>
+                        <paragraph>XACDURO is a co-packaged product containing sulbactam for injection and durlobactam for injection. The recommended dosage of XACDURO is 1 gram (g) of sulbactam and 1 g of durlobactam every 6 hours administered by intravenous (IV) infusion over 3 hours in adults with a creatinine clearance (CLcr) of 45 to 129 mL/min.</paragraph>
+                        <paragraph>Adjustments to the dosing regimen for XACDURO are recommended for patients with CLcr less than 45 mL/min and for patients with CLcr greater than or equal to 130 mL/min <content styleCode="italics">[see <linkHtml href="#S2.2">Dosage and Administration (2.2)</linkHtml>]</content>.</paragraph>
+                        <paragraph>The recommended duration of treatment with XACDURO is 7 to 14 days. The duration of therapy should be guided by the patient's clinical status.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.2">
+                     <id root="e9a9695c-91af-4655-8fd2-1289d62afe9b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Dosage in Patients (18 Years of Age and Older) Based on Renal Function </title>
+                     <text>
+                        <paragraph>See <linkHtml href="#Tb1">Table 1</linkHtml> for the recommended dosage of XACDURO in patients (18 years of age and older) based on renal function <content styleCode="italics">[see <linkHtml href="#S8.6">Use in Specific Populations (8.6)</linkHtml> and <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Adjustments to the dosing regimen are recommended for patients with creatinine clearance (CLcr) less than 45 mL/min and patients with augmented renal clearance (CLcr greater than or equal to 130 mL/min). For patients undergoing intermittent hemodialysis (HD), start the dosing of XACDURO immediately after the completion of HD. </paragraph>
+                        <paragraph>For patients with fluctuating renal function, monitor CLcr and adjust dosage accordingly <content styleCode="italics">[see <linkHtml href="#S8.6">Use in Specific Populations (8.6)</linkHtml>]</content>.</paragraph>
+                        <table width="85%" ID="Tb1">
+                           <caption>Table 1: Dosage of XACDURO (Sulbactam and Durlobactam) in Patients (18 Years of Age and Older) Based on Renal Function</caption>
+                           <col width="20%" align="center" valign="middle"/>
+                           <col width="40%" align="center" valign="middle"/>
+                           <col width="40%" align="center" valign="middle"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule">Dose of Sulbactam and Durlobactam (g)</th>
+                                 <th styleCode="Rrule">Estimated CLcr (mL/min)<footnote>CLcr = creatinine clearance estimated by Cockcroft-Gault equation</footnote>
+                                 </th>
+                                 <th styleCode="Rrule">Frequency</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td rowspan="5" styleCode="Lrule Rrule">sulbactam 1 g and durlobactam 1 g</td>
+                                 <td styleCode="Rrule">Greater than or equal to 130</td>
+                                 <td styleCode="Rrule">Every 4 hours</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">45 to 129</td>
+                                 <td styleCode="Rrule">Every 6 hours</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">30 to 44</td>
+                                 <td styleCode="Rrule">Every 8 hours</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Rrule">15 to 29</td>
+                                 <td styleCode="Rrule">Every 12 hours</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule">less than 15<footnote ID="T1ft2">For patients on hemodialysis, the dose should be administered after the dialysis session has ended</footnote>
+                                 </td>
+                                 <td styleCode="Rrule" align="left">For patients initiating XACDURO: Every 12 hours for the first 3 doses (0, 12, and 24 hours), followed by every 24 hours after the third dose<footnoteRef IDREF="T1ft2"/>
+                                    <br/>For patients currently receiving XACDURO whose CLcr declines to less than 15 mL/min: Every 24 hours</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.3">
+                     <id root="74d43a35-cec7-4fbc-91b8-370624498c49"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Administration</title>
+                     <text>
+                        <paragraph>The prepared XACDURO solution <content styleCode="italics">[see <linkHtml href="#S2.4">Dosage and Administration (2.4)</linkHtml>]</content> should be brought to ambient room temperature (over 15 to 30 min) prior to infusion to the patient. Administer all doses of XACDURO by intravenous (IV) infusion over 3 hours.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.4">
+                     <id root="8be74be5-ecb6-487b-bedb-9bdb507426e8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4 Preparation of XACDURO for Intravenous Administration</title>
+                     <text>
+                        <paragraph>XACDURO is a co-packaged kit containing 1 clear single-dose vial of sulbactam 1g and 2 amber single-dose vials of durlobactam 0.5g as sterile powders that must be reconstituted and further diluted using aseptic technique prior to intravenous infusion. </paragraph>
+                        <paragraph>XACDURO does not contain a bacteriostatic preservative and the prepared solution must be used within 24 hours when stored refrigerated at 2°C to 8°C (36°F to 46°F). Discard unused portion. </paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                     <component>
+                        <section>
+                           <id root="eee06e23-405e-46ba-a07c-a7e89c7e991f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Items required to prepare XACDURO:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>XACDURO kit (includes one sulbactam 1 g single-dose vial and two durlobactam 0.5 g single-dose vials)</item>
+                                 <item>100 mL infusion bag containing 0.9% Sodium Chloride Injection, USP</item>
+                                 <item>10 mL Sterile Water for Injection, USP</item>
+                                 <item>10 mL sterile syringe and alcohol wipes</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="6f21b4ee-d5e8-4db9-8d36-89b82febbdc3"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Preparation of XACDURO:</content>
+                              </paragraph>
+                              <list listType="ordered" styleCode="Arabic">
+                                 <item>Reconstitute the sulbactam 1 g single-dose vial with 5 mL of Sterile Water for Injection and gently shake to dissolve. Each reconstituted vial contains 1 g of sulbactam per 5 mL of clear, colorless to slightly yellow solution. The reconstituted solution is not for direct injection and must be diluted before intravenous infusion. Dilution must occur within 1 hour of reconstitution.</item>
+                                 <item>Reconstitute each durlobactam 0.5 g single-dose vial with 2.5 mL of Sterile Water for Injection and gently shake to dissolve. Each reconstituted vial contains 0.5 g of durlobactam per 2.5 mL of clear, light yellow to orange solution. The reconstituted solution is not for direct injection and must be diluted before intravenous infusion. Dilution must occur within 1 hour of reconstitution.</item>
+                                 <item>To prepare the required XACDURO dose, withdraw 5 mL of reconstituted sulbactam and 5 mL (2.5 mL from each vial) of reconstituted durlobactam. Add the withdrawn volume of both sulbactam and durlobactam to a 100 mL infusion bag of 0.9% Sodium Chloride for Injection, USP. Discard unused portion.</item>
+                              </list>
+                              <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. The prepared XACDURO solution should appear as a clear, light yellow to orange solution, free of particulates. If the XACDURO solution is cloudy or contains particulates, do <content styleCode="bold">not</content> administer. </paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.5">
+                     <id root="532e80fc-787b-4efb-bac8-e161af3d6caf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.5 Compatibility</title>
+                     <text>
+                        <paragraph>XACDURO is compatible with 0.9% Sodium Chloride Injection, USP.</paragraph>
+                        <paragraph>The compatibility of XACDURO for administration with solutions containing other drugs or other diluents has not been established. XACDURO should not be mixed with other drugs or physically added to solutions containing other drugs.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.6">
+                     <id root="a2cf503b-c2ce-4b5c-8da1-2066458f4967"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.6 Storage of Prepared Solution in Infusion Bag</title>
+                     <text>
+                        <paragraph>Store the prepared bag in the refrigerator at 2°C to 8°C (36°F to 46°F) until administration. The time between starting the reconstitution of the powders and the conclusion of the infusion should not exceed 24 hours. Do not freeze.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S3">
+               <id root="b93df8d9-a6e8-4ef0-83e7-7b89f4d73613"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>XACDURO is a co-packaged kit containing the following two components as sterile powders for reconstitution:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>1 clear single-dose vial of sulbactam for injection 1g (as white to off-white powder) and </item>
+                     <item>2 amber single-dose vials of durlobactam for injection 0.5g (as solid cake or powder) in each vial. </item>
+                  </list>
+               </text>
+               <effectiveTime value="20230531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>XACDURO is a co-packaged kit containing the following two components as sterile powders for reconstitution (<linkHtml href="#S3">3</linkHtml>):</paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>1 clear single-dose vial of sulbactam for injection 1 g and </item>
+                           <item>2 amber single-dose vials of durlobactam for injection 0.5 g. </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S4">
+               <id root="db3a05f6-f58f-446b-877a-aa5fc0f80aa1"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>XACDURO is contraindicated in patients with a history of known severe hypersensitivity to the components of XACDURO (sulbactam and durlobactam), or other beta-lactam antibacterial drugs <content styleCode="italics">[see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]</content>.</paragraph>
+               </text>
+               <effectiveTime value="20230531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Known history of severe hypersensitivity to the components of XACDURO (sulbactam and durlobactam), or other beta-lactam antibacterial drugs. (<linkHtml href="#S4">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S5">
+               <id root="b52e9ad5-4ea8-4c2d-987c-907ee816fc20"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20230531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>
+                              <content styleCode="underline">Hypersensitivity Reactions</content>: Serious and occasionally fatal hypersensitivity (anaphylactic) reactions have been reported with beta-lactam antibacterial drugs. Hypersensitivity was observed in patients treated with XACDURO. If an allergic reaction occurs, discontinue XACDURO. (<linkHtml href="#S5.1">5.1</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline italics">Clostridioides difficile</content>
+                              <content styleCode="underline">-Associated Diarrhea (CDAD):</content> CDAD has been reported with nearly all systemic antibacterial agents, including XACDURO. Evaluate if diarrhea occurs. (<linkHtml href="#S5.2">5.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S5.1">
+                     <id root="06dcf05e-b345-411f-92bb-2729fdf02647"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Hypersensitivity Reactions</title>
+                     <text>
+                        <paragraph>Serious and occasionally fatal hypersensitivity (anaphylactic) reactions and serious skin reactions have been reported in patients receiving beta-lactam antibacterial drugs. These reactions are more likely to occur in individuals with a history of beta-lactam hypersensitivity and/or a history of sensitivity to multiple allergens.  Hypersensitivity was observed in patients treated with XACDURO in clinical trials <content styleCode="italics">[see <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]</content>. Before initiating therapy with XACDURO, careful inquiry should be made concerning previous hypersensitivity reactions to carbapenems, penicillins, cephalosporins, other beta lactams, and other allergens. Discontinue XACDURO if an allergic reaction occurs.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.2">
+                     <id root="11050e23-7dc2-4aec-b039-3eded0d4750a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 <content styleCode="italics">Clostridioides difficile</content>-Associated Diarrhea (CDAD)</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Clostridioides difficile</content>-associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including XACDURO, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile</content>. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">C. difficile</content> produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile</content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial drug use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents. </paragraph>
+                        <paragraph>If CDAD is suspected or confirmed, the risk/benefit of continuing treatment with XACDURO should be assessed. Appropriate fluid and electrolyte management, protein supplementation, antibacterial drug treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.3">
+                     <id root="070c4ea8-e80f-49d9-a34c-3bc9482a7f37"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Development of Drug-Resistant Bacteria</title>
+                     <text>
+                        <paragraph>Prescribing XACDURO in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S6">
+               <id root="6617c6cc-5222-41be-b932-82da5148bc75"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following serious adverse reactions are described in greater detail in the Warnings and Precautions section:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Hypersensitivity Reactions <content styleCode="italics">[see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]</content>
+                     </item>
+                     <item>
+                        <content styleCode="italics">Clostridioides difficile</content>-Associated Diarrhea (CDAD) <content styleCode="italics">[see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20230531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common adverse reactions (incidence &gt; 10%) were liver test abnormalities, diarrhea, anemia, and hypokalemia. (<linkHtml href="#S6.1">6.1</linkHtml>) </paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Entasis Therapeutics Inc. at 1-800-651-3861 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S6.1">
+                     <id root="9e7703ab-2f49-4473-b3c1-e2aae36ca452"/>
+                     <code code="90374-0" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL TRIALS EXPERIENCE SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Clinical trials are conducted under widely varying conditions, therefore adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>The safety of durlobactam with or without sulbactam was evaluated in 380 adult subjects across six phase 1 trials, one phase 2 trial in patients with complicated urinary tract infections (cUTIs) including acute pyelonephritis, and one phase 3 trial (also referred to as Trial 1) in adult patients with infections caused by <content styleCode="italics">Acinetobacter baumannii-calcoaceticus</content> complex including hospital-acquired bacterial pneumonia (HABP), ventilator-associated bacterial pneumonia (VABP), and ventilated pneumonia (VP) <content styleCode="italics">[see <linkHtml href="#S14">Clinical Studies (14)</linkHtml>].</content>
+                        </paragraph>
+                        <paragraph>In the randomized, active-controlled portion of the phase 3 trial, 91 patients received XACDURO (1 g sulbactam and 1 g durlobactam, or renally adjusted dose) intravenously over 3 hours every 6 hours and 86 patients were treated with colistin 2.5 mg/kg (or renally adjusted dose) intravenously over 30 minutes every 12 hours after an initial loading dose of colistin 2.5 to 5 mg/kg. Both treatment arms also received 1 g imipenem/1 g cilastatin (or renally adjusted dose) intravenously every 6 hours as background therapy for potential HABP/VABP pathogens other than <content styleCode="italics">Acinetobacter baumannii-calcoaceticus</content> complex. The mean duration of XACDURO therapy was 9 days versus 8 days for colistin. </paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                     <component>
+                        <section>
+                           <id root="20e4f2b6-ba08-4806-948a-6ccfc07e20f8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Serious Adverse Reactions and Discontinuation of Treatment</content>
+                              </paragraph>
+                              <paragraph>Thirty-six patients (40%) in the XACDURO treatment group and 42 patients (49%) in the colistin treatment group experienced serious adverse reactions. Discontinuation of treatment due to any adverse reaction occurred in 10/91 (11%) patients treated with XACDURO and in 14/86 (16%) patients treated with colistin. One patient treated with XACDURO developed anaphylactic shock which led to discontinuation of treatment.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="df1550f7-141d-46ce-ae6a-67b79882147c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Common Adverse Reactions</content>
+                              </paragraph>
+                              <paragraph>Adverse reactions were reported in 88% (80/91) of patients in the XACDURO treatment group and 94% (81/86) of patients in the colistin treatment group.  The most common adverse reactions reported in &gt;10% of patients treated with XACDURO were liver test abnormalities, diarrhea, anemia, and hypokalemia. Table 2 lists selected adverse reactions occurring at a frequency of &gt;5% in Trial 1. </paragraph>
+                              <table width="85%">
+                                 <caption>Table 2. Selected Adverse Reactions Occurring at a Frequency of &gt;5% in Trial 1</caption>
+                                 <col width="50%" align="left" valign="middle"/>
+                                 <col width="25%" align="center" valign="middle"/>
+                                 <col width="25%" align="center" valign="middle"/>
+                                 <thead>
+                                    <tr>
+                                       <th styleCode="Lrule Rrule" valign="top">Adverse Reaction</th>
+                                       <th styleCode="Rrule" valign="top">XACDURO<br/>(N=91)<br/>n (%)</th>
+                                       <th styleCode="Rrule" valign="top">Colistin<br/>(N=86)<br/>n (%)</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Any Adverse Reaction</td>
+                                       <td styleCode="Rrule">80 (88)</td>
+                                       <td styleCode="Rrule">81 (94)</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Liver test abnormalities<footnote>
+                                             <content styleCode="italics">Liver test abnormalities</content> includes the following adverse reactions: liver function test abnormal, hepatic function abnormal, increased transaminases, ALT increased, and AST increased; <content styleCode="italics">Acute kidney injury</content> includes the following adverse reactions: renal impairment, blood Cr increased, toxic nephropathy, renal failure and acute kidney injury. </footnote>
+                                       </td>
+                                       <td styleCode="Rrule">17 (19)</td>
+                                       <td styleCode="Rrule">18 (21)</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Diarrhea</td>
+                                       <td styleCode="Rrule">15 (17)</td>
+                                       <td styleCode="Rrule">9 (11)</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Anemia</td>
+                                       <td styleCode="Rrule">12 (13)</td>
+                                       <td styleCode="Rrule">12 (14)</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Hypokalemia</td>
+                                       <td styleCode="Rrule">11 (12)</td>
+                                       <td styleCode="Rrule">9 (11)</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Arrhythmia</td>
+                                       <td styleCode="Rrule">8 (9)</td>
+                                       <td styleCode="Rrule">8 (9)</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Acute kidney injury</td>
+                                       <td styleCode="Rrule">5 (6)</td>
+                                       <td styleCode="Rrule">31 (36)</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Thrombocytopenia</td>
+                                       <td styleCode="Rrule">5 (6)</td>
+                                       <td styleCode="Rrule">3 (4)</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Lrule Rrule">Constipation</td>
+                                       <td styleCode="Rrule">5 (6)</td>
+                                       <td styleCode="Rrule">5 (6)</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S7">
+               <id root="dcb1d07a-ca12-48d8-b56b-1adcce1443cf"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20230531"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Organic Anion Transporter 1 (OAT1) Inhibitors</content>: Concomitant administration with OAT1 inhibitors may increase plasma concentrations of XACDURO. Concomitant administration is not recommended. (<linkHtml href="#S7.1">7.1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S7.1">
+                     <id root="84d09124-8835-412d-a451-196206aae6a5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Organic Anion Transporter 1 (OAT1) Inhibitors</title>
+                     <text>
+                        <paragraph>Concomitant administration with OAT1 inhibitors may increase plasma concentrations of sulbactam. Concomitant administration of OAT1 inhibitors (e.g., probenecid) with XACDURO is not recommended. <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>. </paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S8">
+               <id root="d07613ed-27ac-4c1a-988c-d70538b6843b"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20230531"/>
+               <component>
+                  <section ID="S8.1">
+                     <id root="ec9b99e0-ff87-4e1d-b808-2555811b64e2"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <effectiveTime value="20230531"/>
+                     <component>
+                        <section>
+                           <id root="44923fc9-6b81-4801-8f2b-9f3d80b3dbe0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                           <component>
+                              <section>
+                                 <id root="3fb9dec8-8334-4464-8af0-be65d5a20af6"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">XACDURO</content>
+                                    </paragraph>
+                                    <paragraph>There are no available data on the use of XACDURO in pregnancy to evaluate for a drug-associated risk of major birth defects, miscarriage, or other adverse maternal or fetal outcomes.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20230531"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="d97c0aa7-044c-435a-993c-b8787b8816ff"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Individual Components of XACDURO</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                           <component>
+                              <section>
+                                 <id root="b6a65ef4-3632-4628-a829-8e144577b220"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Sulbactam:</content>
+                                    </paragraph>
+                                    <paragraph>Available published data from case reports and case series with sulbactam use in combination with ampicillin during pregnancy over many decades have not identified a drug-associated risk of major birth defects, miscarriage or other adverse maternal or fetal outcomes. The published literature reports that sulbactam crosses the human placenta. Reproduction studies have been performed in mice, rats, and rabbits at doses up to ten (10) times the human dose and have revealed no evidence of harm to the fetus due to sulbactam <content styleCode="italics">(see <linkHtml href="#data">Data</linkHtml>).</content>
+                                    </paragraph>
+                                 </text>
+                                 <effectiveTime value="20230531"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="c2bcbccb-51bb-4624-a137-3f2c9851be9e"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Durlobactam:</content>
+                                    </paragraph>
+                                    <paragraph>There are no available data on the use of durlobactam in pregnancy to evaluate for a drug-associated risk of major birth defects, miscarriage, or other adverse maternal or fetal outcomes.</paragraph>
+                                    <paragraph>Durlobactam administered to pregnant mice and rats during organogenesis, showed no drug-induced fetal malformations but an increased incidence of skeletal variations was observed in mice at 2- and 4-times the Maximum Recommended Human Dose (MRHD) <content styleCode="italics">(see <linkHtml href="#data">Data</linkHtml>)</content>. </paragraph>
+                                    <paragraph>The background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriages in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20230531"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="data">
+                           <id root="7de42cb8-e25f-4d72-a1f7-54f4a6d1d620"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Data</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                           <component>
+                              <section>
+                                 <id root="5aa28c9c-f37c-42a3-af3c-a2f7d1c0e64a"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Animal Data</content>
+                                    </paragraph>
+                                 </text>
+                                 <effectiveTime value="20230531"/>
+                                 <component>
+                                    <section>
+                                       <id root="f952f4e0-a1fb-4bad-a309-2072a712de60"/>
+                                       <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                       <text>
+                                          <paragraph>
+                                             <content styleCode="italics">Sulbactam:</content>
+                                          </paragraph>
+                                          <paragraph>Reproduction studies have been performed in mice, rats, and rabbits at doses up to ten (10) times the human dose and have revealed no evidence of harm to the fetus due to sulbactam sodium/ampicillin sodium. </paragraph>
+                                       </text>
+                                       <effectiveTime value="20230531"/>
+                                    </section>
+                                 </component>
+                                 <component>
+                                    <section>
+                                       <id root="2a18c7cc-5862-4df7-b83d-cea4a0df939b"/>
+                                       <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                       <text>
+                                          <paragraph>
+                                             <content styleCode="italics">Durlobactam:</content>
+                                          </paragraph>
+                                          <paragraph>Daily administration of durlobactam at 400, 800, or 1600 mg/kg/day (administered as four doses per day) via subcutaneous injection to pregnant mice from gestation day (GD) 6 through 15 resulted in durlobactam-related, increased incidence of skeletal variations (unossified calcaneum) of the hindlimb and asymmetrical ossification of the sternebrae and supernumerary ribs at 800 and/or 1600 mg/kg, equivalent to 2- and 4-times the maximum recommended human dose based on area under the curve (AUC) comparisons.  No adverse effects on mean body weight, reproductive performance, or cesarean section parameters were observed in any pregnant mice. IV infusion (2 hours/day) of durlobactam to pregnant female Sprague Dawley rats from GD 6 to weaning on Lactation Day 20 at a dose level of 300 or 1000 mg/kg/day was well tolerated with no adverse maternal effects in either group. Similarly, there was no adverse effect of maternal treatment in either group on embryo-fetal, perinatal or postnatal development up to 1000 mg/kg/day (approximately 4 times the MRHD based on AUC). </paragraph>
+                                       </text>
+                                       <effectiveTime value="20230531"/>
+                                    </section>
+                                 </component>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.2">
+                     <id root="8075dfb2-c57b-4915-87ff-11da2646b6c5"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation </title>
+                     <effectiveTime value="20230531"/>
+                     <component>
+                        <section>
+                           <id root="8ed1bd88-7901-4565-84c9-d9ee77147a02"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>There are no data on the presence of durlobactam in human or animal milk.  Sulbactam is present in human milk in low concentrations. Published data report sulbactam in breastmilk at an estimated maximum daily infant dose of 560 mcg/kg/day (1% to 2% of adult weight-adjusted dose), assuming mean milk consumption of 200 mL/kg/day. There are no data on the effects of XACDURO, sulbactam, or durlobactam on the breastfed infant or on milk production.</paragraph>
+                              <paragraph>The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for XACDURO and any potential adverse effects on the breastfed child from XACDURO or from the underlying maternal condition.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.4">
+                     <id root="f5c0bff7-1a1d-4997-93e9-d2f57125add1"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of XACDURO in pediatric patients younger than 18 years of age have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.5">
+                     <id root="def9c3b6-2bd0-4ff4-879b-1575c95e345f"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Of the 91 patients treated with XACDURO in Trial 1, 49 (54%) were 65 years of age and older, including 17 (19%) patients 76 years of age and older. Clinical studies of XACDURO did not include sufficient numbers of patients aged 65 and over to determine whether they respond differently than younger patients. </paragraph>
+                        <paragraph>XACDURO is known to be substantially excreted by the kidney and elderly patients are more likely to have decreased renal function. Adjust dosing regimen for elderly patients based on renal function <content styleCode="italics">[see <linkHtml href="#S2.2">Dosage and Administration (2.2)</linkHtml>, <linkHtml href="#S8.6">Use in Specific Populations (8.6)</linkHtml> and <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.6">
+                     <id root="1042d2df-55df-499c-bbe2-c4f158a3c97f"/>
+                     <code code="88828-9" codeSystem="2.16.840.1.113883.6.1" displayName="RENAL IMPAIRMENT SUBSECTION"/>
+                     <title>8.6 Renal Impairment</title>
+                     <effectiveTime value="20230531"/>
+                     <component>
+                        <section>
+                           <id root="f50c4a18-e8dc-4441-82c2-cf75da325b83"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Patients with CLcr 45 to 129 mL/min</content>
+                              </paragraph>
+                              <paragraph>No dosage adjustment of XACDURO is recommended in patients with CLcr 45 to 129 mL/min.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="f220046f-98b7-4d73-bd08-1fea6032c802"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Patients with CLcr Less Than 45 mL/min Including Patients Receiving Intermittent HD</content>
+                              </paragraph>
+                              <paragraph>Adjustments to the XACDURO dosing regimen are required in patients with CLcr less than 45 mL/min. In patients requiring HD, complete HD at the latest possible time before the start of XACDURO dosing <content styleCode="italics">[see <linkHtml href="#S2.2">Dosage and Administration (2.2)</linkHtml> and <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>. Monitor renal function regularly and adjust the dosage of XACDURO accordingly as renal function may change during the course of therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="29e6c472-6c54-4dea-a88b-5cacf5c55894"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Patients Receiving Continuous Renal Replacement Therapy (CRRT)</content>
+                              </paragraph>
+                              <paragraph>Limited information is available to provide a dosage recommendation in this setting and therapy should be guided by the patient's clinical status. While on CRRT, a patient's residual renal function may change, which may warrant a change in XACDURO dosage. Monitor renal function regularly and adjust the dosage of XACDURO accordingly as renal function may change during the course of therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="5acc8849-9aa9-4244-ba25-0058efbf8108"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Patients with CLcr 130 mL/min or Greater</content>
+                              </paragraph>
+                              <paragraph>CLcr 130 mL/min or greater may be seen in seriously ill patients who are receiving intravenous fluid resuscitation. Dosage adjustment of XACDURO is required in patients with CLcr 130 mL/min or greater <content styleCode="italics">[see <linkHtml href="#S2.2">Dosage and Administration (2.2)</linkHtml> and <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>. Monitor renal function regularly and adjust the dosage of XACDURO accordingly as renal function may change during the course of therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.7">
+                     <id root="0145ec35-789a-41d9-a375-373c1d088aa9"/>
+                     <code code="88829-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEPATIC IMPAIRMENT SUBSECTION"/>
+                     <title>8.7 Hepatic Impairment</title>
+                     <text>
+                        <paragraph>The effects of hepatic impairment on the pharmacokinetics of sulbactam and durlobactam have not been evaluated. Hepatic impairment is not expected to alter the elimination of XACDURO as neither sulbactam nor durlobactam undergo substantial hepatic metabolism/excretion. Dosage adjustments are not necessary in patients with impaired hepatic function.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S10">
+               <id root="63c9cb21-d606-4f0a-98c5-8543b725338a"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>There is no information on the clinical signs and symptoms associated with an overdose of XACDURO. Neurological adverse reactions, including convulsions, may occur with the attainment of high CSF levels of beta-lactams. Sulbactam and durlobactam are removed by hemodialysis <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>].</content> No clinical information is available on the use of hemodialysis to treat overdosage.</paragraph>
+               </text>
+               <effectiveTime value="20230531"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S11">
+               <id root="09283cc2-fc0f-4160-81a6-85998857d85c"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION </title>
+               <text>
+                  <paragraph>XACDURO (sulbactam for injection and durlobactam for injection) is an antibacterial co-packaged product containing sulbactam sodium, a penicillin derivative beta-lactam antibacterial and beta-lactamase inhibitor, and durlobactam sodium, a diazabicyclooctane beta-lactamase inhibitor, for intravenous administration.</paragraph>
+               </text>
+               <effectiveTime value="20230531"/>
+               <component>
+                  <section>
+                     <id root="1c96fa89-cda8-44b3-953d-0d98bedffcbf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Sulbactam Sodium</content>
+                        </paragraph>
+                        <paragraph>Sulbactam sodium is a beta-lactam antibacterial and a beta-lactamase inhibitor. Chemically, sulbactam sodium is sodium penicillinate sulfone; sodium (2S, 5R)-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo [3.2.0] heptane-2-carboxylate 4,4-dioxide. Sulbactam is a white to off-white crystalline powder that is freely soluble in water and its empirical formula is C<sub>8</sub>H<sub>10</sub>NNaO<sub>5</sub>S with a molecular weight of 255.22.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Figure 1: Chemical structure of sulbactam sodium</content>
+                        </paragraph>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="MM1"/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                     <component>
+                        <observationMedia ID="MM1">
+                           <text>Figure 1</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="xacduro-01.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="5c96c31a-2412-428a-a859-cc83765c13b3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Durlobactam Sodium</content>
+                        </paragraph>
+                        <paragraph>Durlobactam is a beta-lactamase inhibitor antibacterial drug. Chemically, durlobactam sodium is sodium (2<content styleCode="italics">S</content>,5<content styleCode="italics">R</content>)-2-carbamoyl-3-methyl-7-oxo-1,6-diazabicyclo[3.2.1]oct-3-en-6-yl sulfate. Durlobactam sodium is the pure (2S,5R)-enantiomer of the trans diastereoisomer. It is a white to yellow amorphous powder that is freely soluble in water. The empirical formula is C<sub>8</sub>H<sub>10</sub>N<sub>3</sub>NaO<sub>6</sub>S and the molecular weight (sodium salt) is 299.23.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Figure 2: Chemical structure of durlobactam sodium</content>
+                        </paragraph>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="MM2"/>
+                        </paragraph>
+                        <paragraph>XACDURO is supplied as a co-packaged kit containing three single-dose vials each containing sterile powder for reconstitution: one clear single-dose vial contains 1 g sulbactam (equivalent to 1.1 g sulbactam sodium) and two amber single-dose vials each contain 0.5 g durlobactam (equivalent to 0.54 g durlobactam sodium) together with sodium hydroxide and hydrochloric acid used for pH adjustment.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                     <component>
+                        <observationMedia ID="MM2">
+                           <text>Figure 2</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="xacduro-02.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S12">
+               <id root="5100e93c-c9a8-4fd4-9393-84bd85b14618"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20230531"/>
+               <component>
+                  <section ID="S12.1">
+                     <id root="56c0a97c-5565-41cc-aefe-236b142401a5"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1	 Mechanism of Action</title>
+                     <text>
+                        <paragraph>XACDURO is an antibacterial drug <content styleCode="italics">[see <linkHtml href="#S12.4">Microbiology (12.4)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.2">
+                     <id root="13bbdf7f-fc9f-40fb-98a4-f204700af684"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2	Pharmacodynamics</title>
+                     <text>
+                        <paragraph>For sulbactam, the percent time of dosing interval that unbound plasma concentrations of sulbactam exceed the minimum inhibitory concentration (MIC) of <content styleCode="italics">A. baumannii</content> has been shown to be the best predictor of efficacy in animal and in vitro models of infection. For durlobactam, the ratio of the 24-hour unbound plasma durlobactam AUC to the sulbactam-durlobactam MIC (<content styleCode="italics">f</content>AUC<sub>0–24</sub>/MIC) best predicts the activity in <content styleCode="italics">in vivo</content> and <content styleCode="italics">in vitro</content> models of infection. </paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                     <component>
+                        <section>
+                           <id root="6046bc11-22ca-4b67-9e31-65e23ef1c89b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Cardiac Electrophysiology</content>
+                              </paragraph>
+                              <paragraph>At a dose 4 times the maximum recommended single dose, durlobactam does not prolong the QTc interval to any clinically relevant extent.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.3">
+                     <id root="085b8046-e9cd-4650-b13d-01fea3a6f439"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Sulbactam and durlobactam pharmacokinetics are similar following single- and multiple-dose administrations. The C<sub>max</sub> and AUC of sulbactam increase in proportion to dose (0.5 times the recommended single dose to 1 g single dose). Durlobactam demonstrated dose-proportional pharmacokinetics across the dose range studied (0.25 times the recommended single dose to 2 times the recommended single dose infused over 3 hours every 6 hours).  </paragraph>
+                        <paragraph>The pharmacokinetic properties of the components of XACDURO and the pharmacokinetic parameters of sulbactam and durlobactam are summarized in Table 3.</paragraph>
+                        <table width="85%">
+                           <caption>Table 3: Pharmacokinetic Properties (Mean ± SD) of the Components of XACDURO</caption>
+                           <col width="50%" align="left" valign="middle"/>
+                           <col width="24%" align="center" valign="middle"/>
+                           <col width="26%" align="center" valign="middle"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule">Pharmacokinetic Parameters</th>
+                                 <th styleCode="Rrule">Sulbactam</th>
+                                 <th styleCode="Rrule">Durlobactam</th>
+                              </tr>
+                           </thead>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="3" align="left" valign="top">AUC<sub>0-6</sub> = area under the plasma concentration time curve from time of dosing to 6 hours post dose; AUC<sub>0-24</sub> = area under the plasma concentration time curve from time of dosing to 24 hours; CL = clearance; C<sub>max</sub> = maximum concentration; ELF = epithelial lining fluid; SD = standard deviation, T<sub>1/2</sub> = terminal half-life; V<sub>ss</sub> = volume of distribution at steady state</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  C<sub>max</sub> (µg/mL)<footnote ID="T3ft1">Pharmacokinetic parameters are presented at steady state (Day 3) in patients with normal renal function defined as creatinine clearance of greater than or equal to 90 mL/min and less than 130 mL/min at a dosage of 1 g sulbactam and 1 g durlobactam every 6 hours. </footnote>
+                                 </td>
+                                 <td styleCode="Rrule">32.4 ± 24.7</td>
+                                 <td styleCode="Rrule">29.2 ± 13.2</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  AUC<sub>0-24</sub> (h∙µg/mL)<footnoteRef IDREF="T3ft1"/>
+                                 </td>
+                                 <td styleCode="Rrule">515 ± 458</td>
+                                 <td styleCode="Rrule">471 ± 240</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">Distribution</content>
+                                 </td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  % Bound to human plasma protein</td>
+                                 <td styleCode="Rrule">38%</td>
+                                 <td styleCode="Rrule">10%</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  AUC<sub>0-6</sub> ELF/plasma ratio</td>
+                                 <td styleCode="Rrule">0.5</td>
+                                 <td styleCode="Rrule">0.37</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  V<sub>ss</sub> (L)<footnoteRef IDREF="T3ft1"/>
+                                 </td>
+                                 <td styleCode="Rrule">25.4 ± 11.3</td>
+                                 <td styleCode="Rrule">30.3 ± 12.9</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">Metabolism</content>
+                                 </td>
+                                 <td colspan="2" styleCode="Rrule">Minimally metabolized</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">Elimination</content>
+                                 </td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  CL (L/h)<footnoteRef IDREF="T3ft1"/>
+                                 </td>
+                                 <td styleCode="Rrule">11.6 ± 5.64</td>
+                                 <td styleCode="Rrule">9.96 ± 3.11</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  T<sub>1/2</sub> (h)<footnoteRef IDREF="T3ft1"/>
+                                 </td>
+                                 <td styleCode="Rrule">2.15 ± 1.16</td>
+                                 <td styleCode="Rrule">2.52 ± 0.77</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">Excretion</content>
+                                 </td>
+                                 <td styleCode="Rrule"/>
+                                 <td styleCode="Rrule"/>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  Major route of elimination</td>
+                                 <td colspan="2" styleCode="Rrule">Renal</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">  % excreted unchanged in urine</td>
+                                 <td styleCode="Rrule">75% to 85%</td>
+                                 <td styleCode="Rrule">78%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                     <component>
+                        <section>
+                           <id root="241c09f1-633c-4884-b1d0-0f20e8ac26f4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Specific Populations</content>
+                              </paragraph>
+                              <paragraph>No clinically significant differences in the pharmacokinetics of sulbactam or durlobactam were observed based on age (18-91 years), gender, weight (35-150 kg), and race (White, Black, Asian, American Indian/Alaska Native, Other).</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                           <component>
+                              <section>
+                                 <id root="a5c28f5f-e7c2-472e-ac56-d5effd89addc"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Patients with Renal Impairment</content>
+                                    </paragraph>
+                                    <paragraph>In a single-dose trial evaluating the effect of renal impairment on the pharmacokinetics of sulbactam and durlobactam, dose normalized systemic exposures of sulbactam and durlobactam were higher at all levels of renal impairment compared to healthy subjects with CLcr greater than or equal to 90 mL/min (Table 4). In subjects with end stage renal disease (ESRD) on hemodialysis, the fraction of the dose removed by hemodialysis was 0.41 and 0.33 for sulbactam and durlobactam, respectively.</paragraph>
+                                    <table width="85%">
+                                       <caption>Table 4: Dose Normalized Fold AUC Increase in Subjects with Renal Impairment Compared to Subjects with CLcr ≥90 mL/min </caption>
+                                       <col width="50%" align="center" valign="middle"/>
+                                       <col width="25%" align="center" valign="middle"/>
+                                       <col width="25%" align="center" valign="middle"/>
+                                       <thead>
+                                          <tr>
+                                             <th styleCode="Lrule Rrule">Estimated eGFR (mL/min/1.73 m<sup>2</sup>)</th>
+                                             <th styleCode="Rrule">Sulbactam</th>
+                                             <th styleCode="Rrule">Durlobactam</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr styleCode="Botrule">
+                                             <td styleCode="Lrule Rrule">≥60 to &lt;90</td>
+                                             <td styleCode="Rrule">1.4</td>
+                                             <td styleCode="Rrule">1.4</td>
+                                          </tr>
+                                          <tr styleCode="Botrule">
+                                             <td styleCode="Lrule Rrule">≥30 to &lt;60</td>
+                                             <td styleCode="Rrule">2.0</td>
+                                             <td styleCode="Rrule">1.9</td>
+                                          </tr>
+                                          <tr>
+                                             <td styleCode="Lrule Rrule">&lt;30</td>
+                                             <td styleCode="Rrule">4.3</td>
+                                             <td styleCode="Rrule">3.7</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    <paragraph>To maintain systemic exposures similar to patients with normal renal function, dosage adjustment is recommended for patients with renal impairment. Patients on hemodialysis should receive XACDURO after hemodialysis session <content styleCode="italics">[see <linkHtml href="#S2.2">Dosage and Administration (2.2)</linkHtml>, <linkHtml href="#S8.6">Specific Populations (8.6)</linkHtml>]</content>.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20230531"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="31dce5bb-e329-4b8d-8a40-83a2dada89fc"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Patients with CLcr 130 mL/min or Greater</content>
+                                    </paragraph>
+                                    <paragraph>Increased sulbactam and durlobactam clearance have been observed in patients with CLcr of 130 mL/min or greater. A XACDURO (1.0 g sulbactam and 1.0 g durlobactam) dose every 4 hours infused over 3 hours provided sulbactam and durlobactam exposures comparable to those in patients with CLcr 90 to 129 mL/min <content styleCode="italics">[see <linkHtml href="#S2.2">Dosage and Administration (2.2)</linkHtml>, <linkHtml href="#S8.6">Use in Specific Populations (8.6)</linkHtml>]</content>.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20230531"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="66ccf107-a038-4470-80a9-364f9a7bb609"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Patients with Hepatic Impairment</content>
+                                    </paragraph>
+                                    <paragraph>Sulbactam and durlobactam are primarily cleared renally; therefore, hepatic impairment is not likely to have any effect on XACDURO exposures <content styleCode="italics">[see <linkHtml href="#S8.7">Use in Specific Populations (8.7)</linkHtml>]</content>.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20230531"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="7d4b001b-e570-477c-8811-80597b026d5d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Drug Interaction Studies</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                           <component>
+                              <section>
+                                 <id root="0ad61223-9953-4f53-86c0-648fe88d74a7"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Clinical Studies</content>
+                                    </paragraph>
+                                    <paragraph>No drug-drug interactions were observed among durlobactam, sulbactam, imipenem, and cilastatin in a clinical study in healthy subjects.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20230531"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="cfecc7b9-9518-4d6b-8b71-dce132a61245"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">In Vitro Studies Where Drug Interaction Potential Was Not Further Evaluated Clinically Cytochrome P450 (CYP) Enzymes:</content> At therapeutic plasma concentrations, durlobactam does not inhibit CYP1A2, CYP2A6, CYP2B6, CYP2C8, CYP2C9, CYP2C19, CYP2D6, CYP2E1, or CYP3A4. Durlobactam showed no potential for in vitro induction of CYP1A2, CYP2B6, or CYP3A4.</paragraph>
+                                    <paragraph>No in vitro studies with CYP450 and sulbactam were conducted.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20230531"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="36b68d92-54cb-4353-842c-84a4527a48f1"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Membrane Transporter Systems:</content>
+                                    </paragraph>
+                                    <paragraph>In vitro data showed that sulbactam did not inhibit P-gp, BCRP, OATP1B1, OATP1B3, OCT1, OCT2, BSEP, OAT1, OAT3, MATE1, or MATE2-K at therapeutic plasma concentrations. In vitro data also indicated that durlobactam did not inhibit P-gp, BCRP, OATP1B1, OAT1, OAT3, or OCT2 at therapeutic plasma concentrations. Sulbactam and durlobactam are both substrates of OAT1. However, only sulbactam is predicted to have active secretion as a significant portion of total clearance; therefore, inhibition of OAT1 may increase sulbactam plasma concentrations. No clinical studies have been conducted with XACDURO and OAT1 inhibitors <content styleCode="italics">[see <linkHtml href="#S7.1">Drug Interactions (7.1)</linkHtml>]</content>.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20230531"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.4">
+                     <id root="b790282d-34d5-400b-af1b-8697532e73e8"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>12.4 Microbiology</title>
+                     <effectiveTime value="20230531"/>
+                     <component>
+                        <section>
+                           <id root="c1e0a048-1791-4626-a76a-16fae35bc5cd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Mechanism of Action</content>
+                              </paragraph>
+                              <paragraph>XACDURO is a co-packaged product containing sulbactam and durlobactam. Sulbactam is a beta-lactam antibacterial and Ambler Class A serine beta-lactamase inhibitor that has bactericidal activity due to its inhibition of <content styleCode="italics">Acinetobacter baumannii-calcoaceticus</content> complex (ABC) penicillin-binding proteins PBP1 and PBP3, which are essential enzymes required for bacterial cell wall synthesis.</paragraph>
+                              <paragraph>Durlobactam is a diazabicyclooctane non-beta-lactam, beta-lactamase inhibitor, that protects sulbactam from degradation by certain serine-beta-lactamases. Durlobactam alone does not have antibacterial activity against ABC isolates.</paragraph>
+                              <paragraph>XACDURO demonstrated in vitro activity against ABC isolates expressing serine beta-lactamases included in Ambler Class A (CTX-M-, TEM-, PER- and SHV-type extended spectrum beta-lactamases [ESBLs], KPC carbapenemase) Class C (ADC-type) and broad spectrum activity against Class D (OXA-type) enzymes. </paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="e1478312-74eb-4830-92b0-be0955cf9afd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Resistance</content>
+                              </paragraph>
+                              <paragraph>Mechanisms of beta-lactam resistance in ABC isolates may include either the production of beta-lactamases, modification of PBPs or target alteration, up-regulation of efflux pumps or loss of outer membrane porin.</paragraph>
+                              <paragraph>XACDURO is not active against ABC isolates that produce Ambler Class B metallo-beta-lactamases or have modification of active target site of sulbactam (i.e., PBPs). Isolates may also produce in combination multiple beta-lactamases, express varying levels of beta-lactamases, have amino acid PBPs sequence variations or other resistance mechanisms that may contribute to resistance.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="99ae2d18-2276-45bf-b621-a2edc7f1947e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Interaction with Other Antimicrobials</content>
+                              </paragraph>
+                              <paragraph>In vitro studies showed no antagonism between XACDURO and other antibacterial drugs including ceftazidime-avibactam, imipenem, meropenem, amikacin, colistin, cefepime, ciprofloxacin, minocycline, rifampicin, rifaximin, daptomycin, dalbavancin, oritavancin, tedizolid, fidaxomicin, vancomycin, linezolid, metronidazole, and fluconazole.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="7f12afdf-bf90-4619-af24-02452168aae1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Animal Models of Infection</content>
+                              </paragraph>
+                              <paragraph>Durlobactam restored activity of sulbactam in animal models of infection (including neutropenic mouse thigh and lung infections) against XACDURO-susceptible <content styleCode="italics">A. baumannii</content> strains.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="e70e91d0-26c9-4228-a39c-2b514da5a95b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Antimicrobial Activity</content>
+                              </paragraph>
+                              <paragraph>XACDURO has been shown to be active against most isolates of the following microorganisms both in vitro and in clinical infections <content styleCode="italics">[see <linkHtml href="#S1.1">Indications and Usage (1.1)</linkHtml>].</content>
+                              </paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="italics">Acinetobacter baumannii-calcoaceticus</content> complex</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="2b2ae98e-ba1c-416c-bbd6-be79c47148ea"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Susceptibility Testing</content>
+                              </paragraph>
+                              <paragraph>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for XACDURO, please see: https://www.fda.gov/STIC.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S13">
+               <id root="9736c31e-3422-4146-b248-a2780818f780"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20230531"/>
+               <component>
+                  <section ID="S13.1">
+                     <id root="4a3dd433-c7b8-4fea-8ff9-1fce876c2c5c"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <effectiveTime value="20230531"/>
+                     <component>
+                        <section>
+                           <id root="bf46ed30-1d65-4de0-9bec-3abc42cea4df"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Carcinogenesis</content>
+                              </paragraph>
+                              <paragraph>Carcinogenicity studies with XACDURO have not been conducted.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="048349cf-df58-488a-a7f6-cfda418c5370"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Mutagenesis</content>
+                              </paragraph>
+                              <paragraph>Durlobactam was negative in genetic toxicology studies including the <content styleCode="italics">Salmonella typhimurium</content> bacterial reverse mutation assay, <content styleCode="italics">in vivo</content> and <content styleCode="italics">in vitro</content> micronucleus assays, and the <content styleCode="italics">in vivo</content> Pig-A assay in rats.</paragraph>
+                              <paragraph>Genetic toxicology studies were not conducted with sulbactam or the combination of sulbactam-durlobactam. </paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="d273f0c2-6265-43ec-8531-b3a26350b376"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Impairment of Fertility</content>
+                              </paragraph>
+                              <paragraph>No adverse effects on fertility, reproductive performance, fetal viability, growth, or postnatal development were observed in male and female rats, and female mice for durlobactam at intravenous doses up to 1000 mg/kg/day (approximately 4 times the MRHD based on AUC comparisons) and subcutaneous doses up to 1600 mg/kg/day, (equivalent to 4 times the MRHD based on AUC comparisons) respectively.</paragraph>
+                           </text>
+                           <effectiveTime value="20230531"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S14">
+               <id root="bd6b49ea-be0b-429d-b8be-34ef29eba628"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <effectiveTime value="20230531"/>
+               <component>
+                  <section>
+                     <id root="18a0775e-10fc-4477-b330-fe74b7641eaa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Treatment of Hospital-acquired and Ventilator-associated Bacterial Pneumonia Caused by</content>
+                           <content styleCode="underline italics"> Acinetobacter baumannii-calcoaceticus</content>
+                           <content styleCode="underline"> Complex Organisms</content>
+                        </paragraph>
+                        <paragraph>A total of 177 hospitalized adults with documented <content styleCode="italics">Acinetobacter baumannii-calcoaceticus</content> complex infections were randomized and treated in a multicenter, active-controlled, investigator-unblinded, independent assessor-blinded, non-inferiority, phase 3 trial (Trial 1, NCT03894046). Patients were treated with either XACDURO (1 g sulbactam and 1 g durlobactam, or renally adjusted dose) intravenously over 3 hours every 6 hours (n = 91) or colistin 2.5 mg/kg (or renally adjusted dose) intravenously over 30 minutes every 12 hours after an initial loading dose of colistin 2.5 to 5 mg/kg (n = 86).  Both treatment arms also received 1 g imipenem/1 g cilastatin (or renally adjusted dose) intravenously every 6 hours as background therapy for potential HABP/VABP pathogens other than <content styleCode="italics">Acinetobacter baumannii-calcoaceticus</content> complex.  Patients received up to 14 days of therapy.</paragraph>
+                        <paragraph>The primary efficacy endpoint for the study was 28-day all-cause mortality in the patients who received any amount of study medication with a confirmed baseline infection with carbapenem-resistant <content styleCode="italics">Acinetobacter baumannii-calcoaceticus</content> complex (CRABC microbiologically modified intent to treat (m-MITT) population). Among 128 patients in the CRABC m-MITT population, 125 patients who did not withdraw consent prior to assessment of survival status at Day 28 were assessed: 63 patients in the XACDURO group and 62 patients in the colistin group.</paragraph>
+                        <paragraph>The demographic and baseline characteristics were comparable between treatment groups among 125 patients in the analysis: 74% male, 50% White, and 44% Asian; the mean age was 63 (±17) years. The majority of patients had pneumonia as the baseline infection (53% VABP and 43% HABP); 2% had bacteremia. The mean Acute Physiology and Chronic Health Evaluation II (APACHE II) score at baseline was 17, and 26% of patients had an APACHE II score ≥ 20. At randomization, 64% of patients had been in the ICU ≥5 days, 26% of patients had been in the ICU for &gt;14 days, and 75% were mechanically ventilated. Approximately 39% of patients had CLcr less than 90 mL/min at baseline. The mean duration of treatment was 9 days for the XACDURO group and 8 days for the colistin group. </paragraph>
+                        <paragraph>Table 5 shows results for the primary endpoint of Day 28 all-cause mortality in the CRABC m-MITT population. XACDURO was non-inferior to colistin with regard to Day 28 all-cause mortality. </paragraph>
+                        <table width="85%">
+                           <caption>Table 5: All-cause Mortality at Day 28 (CRABC m-MITT Population)</caption>
+                           <col width="35%" align="left" valign="middle"/>
+                           <col width="20%" align="left" valign="middle"/>
+                           <col width="20%" align="left" valign="middle"/>
+                           <col width="25%" align="left" valign="middle"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule"/>
+                                 <th styleCode="Rrule">XACDURO<br/>n/N<footnote ID="T5ft1">Percentage was calculated using N, the number of patients in the specified population, as the denominator. </footnote> (%) </th>
+                                 <th styleCode="Rrule">Colistin<br/>n/N<footnoteRef IDREF="T5ft1"/> (%)</th>
+                                 <th styleCode="Rrule">Treatment Difference<br/>(95% CI)<footnote>The 95% CI (2-sided) was computed using a continuity-corrected z statistic.</footnote>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="4" align="left" valign="top">CI = Confidence Interval  </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">
+                                    <content styleCode="bold">Day 28 All-Cause Mortality</content>
+                                 </td>
+                                 <td styleCode="Rrule">12/63 (19.0%)</td>
+                                 <td styleCode="Rrule">20/62 (32.3%)</td>
+                                 <td styleCode="Rrule">-13.2% (-30.0, 3.5)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Clinical cure rates were also evaluated. Clinical cure was defined as complete resolution or significant improvement of signs and symptoms that were present at baseline and no new symptoms, such that no additional gram-negative antimicrobial therapy was warranted. Clinical cure rates in the CRABC m-MITT population at the Test of Cure (TOC) Visit that was 7 days (±2 days) after the end of treatment were 39/63 (61.9%) for XACDURO versus 25/62 (40.3%) for colistin. </paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S16">
+               <id root="63dc8ee3-4d3e-42e9-b27e-6e74885440b0"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <effectiveTime value="20230531"/>
+               <component>
+                  <section>
+                     <id root="31865e31-1e0d-41eb-aeb4-f84d78d54edf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>16.1 How Supplied</title>
+                     <text>
+                        <paragraph>XACDURO is a co-packaged product containing sulbactam for injection and durlobactam for injection. XACDURO is supplied as a kit (NDC 68547-111-10) containing the following single-dose vials each containing sterile powder for reconstitution:</paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>1 g sulbactam in one clear glass single-dose vial</item>
+                           <item>1 g durlobactam in two amber glass single-dose vials (0.5 g durlobactam in each single-dose vial)</item>
+                        </list>
+                        <paragraph>Stoppers are not made with natural rubber latex.</paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="fa7f552b-e75c-43c2-bfe1-2fc47f3f102a"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>16.2 Storage and Handling</title>
+                     <text>
+                        <paragraph>XACDURO vials should be stored refrigerated at 2°C to 8°C (36°F to 46°F); brief exposure to 8°C to 15°C (46°F to 59°F) permitted [see USP Controlled Cold Temperature].  Do not freeze. Store prepared XACDURO solution in the refrigerator <content styleCode="italics">[see <linkHtml href="#S2.6">Dosage and Administration (2.6)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S17">
+               <id root="b2ea5fd6-6d56-4ecc-ae32-a5750a9080cb"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <effectiveTime value="20230531"/>
+               <component>
+                  <section>
+                     <id root="c6703789-0bae-44d3-bdef-198bc7fc79d4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Serious Allergic Reactions</content>
+                        </paragraph>
+                        <paragraph>Advise the patient, their families, or caregivers that allergic reactions, including serious allergic reactions, could occur and that serious reactions require immediate treatment. Ask them about any previous hypersensitivity reactions to XACDURO (sulbactam and durlobactam), other beta-lactams (including cephalosporins) or other allergens <content styleCode="italics">[see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="2000b71e-2007-49ab-b2fb-b5a396d481f2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Potentially Serious Diarrhea</content>
+                        </paragraph>
+                        <paragraph>Advise the patient, their families, or caregivers that diarrhea is a common problem caused by antibacterial drugs, including XACDURO. Sometimes, frequent watery or bloody diarrhea may occur and may be a sign of a more serious intestinal infection. If severe watery or bloody diarrhea develops, tell them to contact their healthcare provider <content styleCode="italics">[see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="8daeec2b-b72d-43f7-aa0c-7be2281a40d6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Antibacterial Resistance</content>
+                        </paragraph>
+                        <paragraph>Patients should be counseled that antibacterial drugs, including XACDURO, should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). Patients should be told that the medication should be administered exactly as directed. <content styleCode="italics">[see <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230531"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="585bb25e-42a5-4b60-aacd-48c98f3d7015"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Distributed by:<br/>La Jolla Pharmaceutical Company, Waltham, MA 02451</paragraph>
+                  <paragraph>XACDURO is a registered trademark of Entasis Therapeutics Ltd.<br/>Copyright ©2023, Entasis Therapeutics Ltd. All rights reserved.</paragraph>
+               </text>
+               <effectiveTime value="20230531"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5805e3e7-e62e-4956-8476-3bfb87766015"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title>INSTRUCTIONS FOR USE</title>
+               <text>
+                  <table width="60%" styleCode="Noautorules">
+                     <col width="50%" align="center" valign="middle"/>
+                     <col width="30%" align="left" valign="middle"/>
+                     <col width="20%" align="left" valign="middle"/>
+                     <tbody>
+                        <tr>
+                           <td rowspan="3" valign="top">
+                              <content styleCode="bold italics">XACDURO<sup>®</sup>
+                              </content>
+                              <br/>(sulbactam for injection;<br/>durlobactam for injection),<br/>co-packaged for intravenous use<br/>1 g/1 g per dose<br/>Single-dose kit<br/>
+                              <content styleCode="bold">3 vials</content>
+                           </td>
+                           <td>
+                              <renderMultiMedia referencedObject="MM3"/>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Durlobactam<br/>0.5 g/vial</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <renderMultiMedia referencedObject="MM4"/>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Durlobactam<br/>0.5 g/vial</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <renderMultiMedia referencedObject="MM5"/>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Sulbactam<br/>1 g/vial</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3">This Instructions for Use provides information for <content styleCode="bold">preparing all 3 vials as a single dose</content>.<br/>Read this Instructions for Use before using this vial kit and prior to each use.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Important Information<br/>Before Injecting</content>
+                  </paragraph>
+                  <table width="60%">
+                     <col width="100%" align="left" valign="middle"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="bold">Important Information</content>
+                              <list>
+                                 <item>For <content styleCode="bold">intravenous use</content> only</item>
+                                 <item>Always use aseptic technique</item>
+                                 <item>Ensure carton and vials are stored in refrigerator at <content styleCode="bold">2° C to 8° C (36° F to 46° F)</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">DO NOT</content> use the supplies if damaged. This includes the vials, syringes, sterile water for injection vial, and infusion bag</item>
+                              </list>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>For product complaints or questions, please call 1-800-651-3861.</paragraph>
+                  <table width="60%">
+                     <col width="25%" align="center" valign="top"/>
+                     <col width="25%" align="center" valign="top"/>
+                     <col width="25%" align="center" valign="top"/>
+                     <col width="25%" align="center" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Lrule" align="left">
+                              <content styleCode="bold">Supplies</content>
+                           </td>
+                           <td/>
+                           <td/>
+                           <td styleCode="Rrule"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left">Included with kit:</td>
+                           <td styleCode="Rrule" colspan="3" align="left">Non-kit components:</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <renderMultiMedia referencedObject="MM6"/>
+                              <br/>(2) Durlobactam 0.5 g/vials</td>
+                           <td>
+                              <renderMultiMedia referencedObject="MM8"/>
+                           </td>
+                           <td styleCode="Rrule" valign="middle" align="left" colspan="2">100 mL of 0.9% sodium chloride infusion bag</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" valign="bottom">
+                              <renderMultiMedia referencedObject="MM7"/>
+                           </td>
+                           <td valign="bottom">
+                              <renderMultiMedia referencedObject="MM9"/>
+                           </td>
+                           <td valign="bottom">
+                              <renderMultiMedia referencedObject="MM10"/>
+                           </td>
+                           <td styleCode="Rrule" valign="bottom">
+                              <renderMultiMedia referencedObject="MM11"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">(1) Sulbactam 1 g/vial</td>
+                           <td>Alcohol wipes</td>
+                           <td>Sterile water for injection</td>
+                           <td styleCode="Rrule">Syringe</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"> </td>
+                           <td/>
+                           <td/>
+                           <td styleCode="Rrule"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">1 Prepare Supplies</content>
+                  </paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="40%" align="left" valign="top"/>
+                     <col width="28%" align="left" valign="top"/>
+                     <col width="2%" align="left" valign="top"/>
+                     <col width="2%" align="left" valign="top"/>
+                     <col width="28%" align="left" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td rowspan="3">
+                              <list>
+                                 <item>
+                                    <caption styleCode="bold">a.</caption>Use aseptic technique.</item>
+                                 <item>
+                                    <caption styleCode="bold">b.</caption>Prepare a clean, flat working surface.</item>
+                                 <item>
+                                    <caption styleCode="bold">c.</caption>Open kit and inspect that:<list styleCode="disc">
+                                       <item>
+                                          <content styleCode="bold">Vials are not damaged</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="bold">Expiration date on carton and all three vials has not passed</content>
+                                       </item>
+                                    </list>
+                                 </item>
+                                 <item>
+                                    <caption styleCode="bold">d.</caption>Retrieve a full 100 mL infusion bag of 0.9% sodium chloride.</item>
+                                 <item>
+                                    <caption styleCode="bold">e.</caption>Retrieve a vial of sterile water for injection.</item>
+                              </list>
+                           </td>
+                           <td styleCode="Botrule">
+                              <content styleCode="bold">a.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM12"/>
+                           </td>
+                           <td styleCode="Rrule"/>
+                           <td/>
+                           <td styleCode="Botrule">
+                              <content styleCode="bold">c.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM13"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">d.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM14"/>
+                           </td>
+                           <td styleCode="Rrule"/>
+                           <td/>
+                           <td>
+                              <content styleCode="bold">e.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM15"/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">2 Clean Supplies</content>
+                  </paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="25%" align="left" valign="top"/>
+                     <col width="2%" align="left" valign="top"/>
+                     <col width="23%" align="left" valign="top"/>
+                     <col width="25%" align="left" valign="top"/>
+                     <col width="25%" align="left" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td rowspan="3">
+                              <list>
+                                 <item>
+                                    <caption styleCode="bold">a.</caption>Remove all vial caps from the three vials and sterile water for injection.</item>
+                                 <item>
+                                    <caption styleCode="bold">b.</caption>Clean all the stoppers with alcohol wipe.</item>
+                                 <item>
+                                    <caption styleCode="bold">c.</caption>Clean infusion bag port of entry and surrounding area with alcohol wipe.</item>
+                              </list>
+                           </td>
+                           <td/>
+                           <td styleCode="Rrule">
+                              <content styleCode="bold">a.</content>
+                              <renderMultiMedia referencedObject="MM16"/>
+                           </td>
+                           <td styleCode="Rrule">
+                              <content styleCode="bold">b.</content>
+                              <renderMultiMedia referencedObject="MM17"/>
+                           </td>
+                           <td>
+                              <content styleCode="bold">c.</content>
+                              <renderMultiMedia referencedObject="MM18"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td> </td>
+                           <td/>
+                           <td/>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td colspan="4" align="center">Failure to clean could result in loss of sterility.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="100%" align="left" valign="middle"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule"> </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="3%" align="left" valign="top"/>
+                     <col width="8%" align="left" valign="top"/>
+                     <col width="37%" align="left" valign="top"/>
+                     <col width="2%" align="left" valign="top"/>
+                     <col width="10%" align="left" valign="top"/>
+                     <col width="10%" align="left" valign="top"/>
+                     <col width="10%" align="left" valign="top"/>
+                     <col width="10%" align="left" valign="top"/>
+                     <col width="10%" align="left" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">3</content>
+                           </td>
+                           <td>
+                              <renderMultiMedia referencedObject="MM19"/>
+                           </td>
+                           <td colspan="7">
+                              <content styleCode="bold">Reconstitute and Inject Both Durlobactam Vials (Vials 1 of 3 and 2 of 3)</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>
+                              <list>
+                                 <item>
+                                    <caption styleCode="bold">a.</caption>Inject <content styleCode="bold">2.5 mL</content> of <content styleCode="bold">sterile water for injection</content> into durlobactam vial.</item>
+                              </list>
+                           </td>
+                           <td/>
+                           <td/>
+                           <td/>
+                           <td/>
+                           <td/>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>
+                              <list>
+                                 <item>
+                                    <caption styleCode="bold">b.</caption>Reconstitute the powder by gently inverting durlobactam vial back and forth <content styleCode="bold">3-5 times</content>. Hold vial base up to a light source to ensure the lyophilized powder is dissolved after inverting.</item>
+                              </list>
+                           </td>
+                           <td/>
+                           <td styleCode="Rrule" rowspan="3">
+                              <content styleCode="bold">a.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM20"/>
+                           </td>
+                           <td styleCode="Rrule" rowspan="3">
+                              <content styleCode="bold">b.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM21"/>
+                           </td>
+                           <td styleCode="Rrule" rowspan="3">
+                              <content styleCode="bold">c.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM22"/>
+                           </td>
+                           <td styleCode="Rrule" rowspan="3">
+                              <content styleCode="bold">d.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM23"/>
+                           </td>
+                           <td rowspan="3">
+                              <content styleCode="bold">e.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM24"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td align="center">After reconstituting, ensure there are no visisble particles in the solution.</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>
+                              <list>
+                                 <item>
+                                    <caption styleCode="bold">c.</caption>Insert needle into durlobactam vial and gently invert vial to withdraw <content styleCode="bold">2.5 mL</content>.</item>
+                                 <item>
+                                    <caption styleCode="bold">d.</caption>Inject <content styleCode="bold">2.5 mL</content> of durlobactam into infusion bag.</item>
+                                 <item>
+                                    <caption styleCode="bold">e.</caption>
+                                    <content styleCode="bold">Repeat step 3</content> with <content styleCode="bold">second vial of durlobactam.</content>
+                                 </item>
+                              </list>
+                           </td>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="100%" align="left" valign="middle"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule"> </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="3%" align="left" valign="top"/>
+                     <col width="8%" align="left" valign="top"/>
+                     <col width="37%" align="left" valign="top"/>
+                     <col width="2%" align="left" valign="top"/>
+                     <col width="12%" align="left" valign="top"/>
+                     <col width="13%" align="left" valign="top"/>
+                     <col width="12%" align="left" valign="top"/>
+                     <col width="13%" align="left" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">4</content>
+                           </td>
+                           <td rowspan="4">
+                              <renderMultiMedia referencedObject="MM25"/>
+                           </td>
+                           <td colspan="6">
+                              <content styleCode="bold">Reconstitute and Inject Sulbactam Vial (Vial 3 of 3)</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td>
+                              <list>
+                                 <item>
+                                    <caption styleCode="bold">a.</caption>Inject <content styleCode="bold">5 mL</content> of <content styleCode="bold">sterile water for injection</content> into sulbactam vial.</item>
+                                 <item>
+                                    <caption styleCode="bold">b.</caption>Reconstitute the powder by gently inverting sulbactam vial back and forth <content styleCode="bold">3-5 times</content>. Hold vial base up to a light source to ensure the lyophilized powder is dissolved after inverting.</item>
+                              </list>
+                           </td>
+                           <td/>
+                           <td styleCode="Rrule" rowspan="3">
+                              <content styleCode="bold">a.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM26"/>
+                           </td>
+                           <td styleCode="Rrule" rowspan="3">
+                              <content styleCode="bold">b.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM27"/>
+                           </td>
+                           <td styleCode="Rrule" rowspan="3">
+                              <content styleCode="bold">c.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM28"/>
+                           </td>
+                           <td rowspan="3">
+                              <content styleCode="bold">d.</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM29"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td align="center">After reconstituting, ensure there are no visible particles in the solution.</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td>
+                              <list>
+                                 <item>
+                                    <caption styleCode="bold">c.</caption>Insert needle into sulbactam vial and gently invert vial to withdraw <content styleCode="bold">5 mL</content>.</item>
+                                 <item>
+                                    <caption styleCode="bold">d.</caption>Inject <content styleCode="bold">5 mL</content> of sulbactam into infusion bag.</item>
+                              </list>
+                           </td>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="100%" align="left" valign="middle"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule"> </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="16%" align="left" valign="top"/>
+                     <col width="17%" align="left" valign="top"/>
+                     <col width="16%" align="left" valign="top"/>
+                     <col width="17%" align="left" valign="top"/>
+                     <col width="17%" align="left" valign="top"/>
+                     <col width="17%" align="left" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">5 Prepare Infusion Bag</content>
+                              <list>
+                                 <item>
+                                    <caption styleCode="bold">a.</caption>Gently invert infusion bag to mix contents.</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule">
+                              <renderMultiMedia referencedObject="MM30"/>
+                           </td>
+                           <td>
+                              <content styleCode="bold">6 Store Infusion Bag</content>
+                              <list>
+                                 <item>
+                                    <caption styleCode="bold">a.</caption>Store infusion bag in refrigerator at <content styleCode="bold">2° C to 8° C (36° F to 46° F)</content>.<br/>
+                                    <content styleCode="bold">DO NOT</content> freeze.</item>
+                                 <item>
+                                    <caption styleCode="bold">b.</caption>Infusion time is <content styleCode="bold">3 hours</content>. Complete the infusion within <content styleCode="bold">24 hours</content> of reconstitution.</item>
+                              </list>
+                           </td>
+                           <td styleCode="Botrule Rrule">
+                              <content styleCode="bold">a.</content>
+                              <renderMultiMedia referencedObject="MM31"/>
+                           </td>
+                           <td>
+                              <content styleCode="bold">7 Dispose of Materials</content>
+                              <list>
+                                 <item>
+                                    <caption styleCode="bold">a.</caption>Discard needle into sharps container.</item>
+                                 <item>
+                                    <caption styleCode="bold">b.</caption>Discard syringe in waste container after needle is removed.</item>
+                                 <item>
+                                    <caption styleCode="bold">c.</caption>Discard vials and all packaging in waste container.</item>
+                              </list>
+                           </td>
+                           <td>
+                              <renderMultiMedia referencedObject="MM33"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td styleCode="Rrule"/>
+                           <td>
+                              <content styleCode="bold">Note:</content> Before infusing, allow <content styleCode="bold">15-30 minutes</content> for infusion bag to reach room temperature after removing from refrigerator.</td>
+                           <td styleCode="Rrule">
+                              <content styleCode="bold">b.</content>
+                              <renderMultiMedia referencedObject="MM32"/>
+                           </td>
+                           <td/>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>XACDURO<sup>®</sup> is a registered trademark of Entasis Therapeutics Limited.</paragraph>
+                  <paragraph>© 2023 Entasis Therapeutics. All rights reserved.</paragraph>
+                  <paragraph>INS16343 01 Approved 2023 MAY</paragraph>
+               </text>
+               <effectiveTime value="20230531"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM8">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM9">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM10">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM11">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-11.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM12">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-12.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM13">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-13.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM14">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-14.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM15">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-15.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM16">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-16.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM17">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-17.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM18">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-18.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM19">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-19.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM20">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-20.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM21">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-21.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM22">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-22.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM23">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-23.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM24">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-24.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM25">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-25.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM26">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-26.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM27">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-27.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM28">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-28.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM29">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-29.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM30">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-30.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM31">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-31.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM32">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-32.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM33">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-33.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3b7c07bf-22c3-409d-9875-7427e4ed5490"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - Kit Carton</title>
+               <text>
+                  <paragraph>Sterile<br/>For intravenous infusion after dilution</paragraph>
+                  <paragraph>XACDURO<sup>®</sup>
+                     <br/>(sulbactam for injection;<br/>durlobactam for injection),<br/>co-packaged for intravenous use</paragraph>
+                  <paragraph>Durlobactam must be<br/>administered with Sulbactam</paragraph>
+                  <paragraph>Single-dose kit – 1 g/1 g per kit</paragraph>
+                  <paragraph>Each carton contains:<br/>Durlobactam: Two amber, single-dose vials, 0.5 g/vial each<br/>Sulbactam: One clear, single-dose vial, 1 g/vial<br/>Discard Unused Portion</paragraph>
+                  <paragraph>ENTASIS<br/>THERAPEUTICS</paragraph>
+                  <paragraph>Recommended dosage:<br/>See prescribing information.</paragraph>
+                  <renderMultiMedia referencedObject="MM34"/>
+               </text>
+               <effectiveTime value="20230531"/>
+               <component>
+                  <observationMedia ID="MM34">
+                     <text>PRINCIPAL DISPLAY PANEL - Kit Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-34.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1a946c7f-b4e7-4369-b6c3-9f7717a561e4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 0.5 g Vial Label - 1 of 3</title>
+               <text>
+                  <paragraph>NDC 68547-311-30<br/>Sterile</paragraph>
+                  <paragraph>For intravenous infusion after dilution</paragraph>
+                  <paragraph>Durlobactam 0.5 g/vial<br/>for injection</paragraph>
+                  <paragraph>Vial<br/>1 of 3</paragraph>
+                  <paragraph>Must be administered<br/>with Sulbactam</paragraph>
+                  <paragraph>For use as part of XACDURO<sup>®</sup> kit</paragraph>
+                  <paragraph>Recommended dosage:<br/>See prescribing information.</paragraph>
+                  <paragraph>Single-Dose Vial - Discard Unused Portion</paragraph>
+                  <paragraph>Store in refrigerator at 2° C to 8° C (36° F to 46° F).</paragraph>
+                  <renderMultiMedia referencedObject="MM35"/>
+               </text>
+               <effectiveTime value="20230531"/>
+               <component>
+                  <observationMedia ID="MM35">
+                     <text>Principal Display Panel - 0.5 g Vial Label - 1 of 3</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-35.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="04118b0a-930e-4c50-b10b-1735be21fa66"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 0.5 g Vial Label - 2 of 3</title>
+               <text>
+                  <paragraph>NDC 68547-311-30<br/>Sterile</paragraph>
+                  <paragraph>For intravenous infusion after dilution</paragraph>
+                  <paragraph>Durlobactam 0.5 g/vial<br/>for injection</paragraph>
+                  <paragraph>Vial<br/>2 of 3</paragraph>
+                  <paragraph>Must be administered<br/>with Sulbactam</paragraph>
+                  <paragraph>For use as part of XACDURO<sup>®</sup> kit</paragraph>
+                  <paragraph>Recommended dosage:<br/>See prescribing information.</paragraph>
+                  <paragraph>Single-Dose Vial - Discard Unused Portion</paragraph>
+                  <paragraph>Store in refrigerator at 2° C to 8° C (36° F to 46° F).</paragraph>
+                  <renderMultiMedia referencedObject="MM36"/>
+               </text>
+               <effectiveTime value="20230531"/>
+               <component>
+                  <observationMedia ID="MM36">
+                     <text>Principal Display Panel - 0.5 g Vial Label - 2 of 3</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-36.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e37d472d-ab51-46cd-972a-6fd1c82b0117"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1 g Vial Label</title>
+               <text>
+                  <paragraph>NDC 68547-211-20<br/>Sterile</paragraph>
+                  <paragraph>For intravenous infusion after dilution</paragraph>
+                  <paragraph>Sulbactam 1 g/vial<br/>for injection</paragraph>
+                  <paragraph>Vial<br/>3 of 3</paragraph>
+                  <paragraph>Must be administered<br/>with Durlobactam</paragraph>
+                  <paragraph>For use as part of XACDURO<sup>®</sup> kit</paragraph>
+                  <paragraph>Recommended dosage:<br/>See prescribing information.</paragraph>
+                  <paragraph>Single-Dose Vial - Discard Unused Portion</paragraph>
+                  <paragraph>Store in refrigerator at 2° C to 8° C (36° F to 46° F).</paragraph>
+                  <renderMultiMedia referencedObject="MM37"/>
+               </text>
+               <effectiveTime value="20230531"/>
+               <component>
+                  <observationMedia ID="MM37">
+                     <text>Principal Display Panel - 1 g Vial Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xacduro-37.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

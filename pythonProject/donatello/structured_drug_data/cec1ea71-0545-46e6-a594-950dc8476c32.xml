@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="cec1ea71-0545-46e6-a594-950dc8476c32"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Doxycycline Capsules, USP</title>
+   <effectiveTime value="20250312"/>
+   <setId root="2c7795c9-9e4e-477a-ad9f-01e4c55c06b6"/>
+   <versionNumber value="11"/>
+   <author>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="830016429" root="1.3.6.1.4.1.519.1"/>
+            <name>A-S Medication Solutions</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="830016429" root="1.3.6.1.4.1.519.1"/>
+                        <name>A-S Medication Solutions</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="RELABEL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50090-4833" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="REPACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50090-4833" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="00872e5b-24db-4755-93e0-5ce3e1e2e53e"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL Product Data Elements Section"/>
+               <effectiveTime value="20240603"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50090-4833" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>doxycycline</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>doxycycline</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="68382-707" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="100" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="N12000U13O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOXYCYCLINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="334895S862" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOXYCYCLINE ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SAND</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CI 77891</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EX438O2MRT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE YELLOW</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C YELLOW NO. 10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PN2ZH5LOQY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 3</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H77VEI93A8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C YELLOW NO. 6</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1K09F3G675" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE RED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROSOFERRIC OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZH3C48M4T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SHELLAC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5138Q19F1X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="14" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50090-4833-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20200110"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50090-4833-0" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20200110"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA205115" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160314"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="YELLOW">
+                              <originalText>OPAQUE YELLOW</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48331" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORANGE">
+                              <originalText>OPAQUE ORANGE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE">
+                              <originalText>CAPSULE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="19" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">707</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID33">
+               <id root="cfe6c6ce-53c3-4978-bd3a-88e00472a153"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of doxycycline capsules and other antibacterial drugs, doxycycline capsules should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.</paragraph>
+               </text>
+               <effectiveTime value="20221004"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID1">
+               <id root="4ef2d705-e1df-4175-87a3-d60c54aec746"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Doxycycline is a broad-spectrum antibacterial synthetically derived from oxytetracycline. Doxycycline capsules 100 mg, 75 mg, and 50 mg capsules contain doxycycline monohydrate, USP equivalent to 100 mg, 75 mg, or 50 mg of doxycycline for oral administration. The chemical designation of the light-yellow to pale yellow powder is alpha-6-deoxy-5-oxytetracycline.</paragraph>
+                  <paragraph>Structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>C<sub>22</sub>H<sub>24</sub>N<sub>2</sub>O<sub>8</sub> • H<sub>2</sub>O           M.W. = 462.45</paragraph>
+                  <paragraph>Doxycycline has a high degree of lipid solubility and a low affinity for calcium binding. It is highly stable in normal human serum. Doxycycline will not degrade into an epianhydro form.</paragraph>
+                  <paragraph>Each doxycycline capsule, USP intended for oral administration contains 50 mg or 75 mg or 100 mg of doxycycline. In addition, each capsule contains the following inactive ingredients: colloidal silicon dioxide, gelatin, magnesium stearate, microcrystalline cellulose, sodium lauryl sulfate, sodium starch glycolate and titanium dioxide. Additionally, each 50 and 100 mg capsule shell contains iron oxide yellow, each 75 mg and 100 mg capsule shell contains: D &amp; C yellow # 10, FD &amp; C blue # 1, FD &amp; C red # 3 and FD &amp; C yellow # 6 and each 100 mg capsule shell contains iron oxide red. The capsule is printed with black pharmaceutical ink which contains following ingredients: black iron oxide, potassium hydroxide, propylene glycol, shellac and strong ammonia solution.</paragraph>
+                  <paragraph>The Product meets USP Dissolution Test 2.</paragraph>
+               </text>
+               <effectiveTime value="20221005"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Aripiprazole Tablets</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9d689079-6de1-4288-af1b-d9505c626c19-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID5">
+               <id root="bf712055-5e24-4c26-9526-2f4474172e11"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Tetracyclines are readily absorbed and are bound to plasma proteins in varying degrees. They are concentrated by the liver in the bile and excreted in the urine and feces at high concentrations in a biologically active form. Doxycycline is virtually completely absorbed after oral administration.</paragraph>
+                  <paragraph>Following a 200 mg dose of doxycycline monohydrate, 24 normal adult volunteers averaged the following serum concentration values:</paragraph>
+                  <table width="100%">
+                     <col width="8%"/>
+                     <col width="6%"/>
+                     <col width="7%"/>
+                     <col width="7%"/>
+                     <col width="7%"/>
+                     <col width="7%"/>
+                     <col width="7%"/>
+                     <col width="7%"/>
+                     <col width="7%"/>
+                     <col width="7%"/>
+                     <col width="7%"/>
+                     <col width="15%"/>
+                     <tbody>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Toprule Botrule Rrule" align="left"> Time (hr):  <br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule Rrule" align="left"> 0.5<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule Rrule" align="left"> 1<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule Rrule" align="left"> 1.5<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule Rrule" align="left"> 2<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule Rrule" align="left"> 3<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule Rrule" align="left"> 4<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule Rrule" align="left"> 8<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule Rrule" align="left"> 12<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule Rrule" align="left"> 24<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule Rrule" align="left"> 48<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule Rrule" align="left"> 72<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Botrule Rrule" align="left"> Conc. <br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule Rrule" align="left"> 1.02<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule Rrule" align="left"> 2.26<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule Rrule" align="left"> 2.67<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule Rrule" align="left"> 3.01<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule Rrule" align="left"> 3.16<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule Rrule" align="left"> 3.03<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule Rrule" align="left"> 2.03<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule Rrule" align="left"> 1.62<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule Rrule" align="left"> 0.95<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule Rrule" align="left"> 0.37<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule Rrule" align="left"> 0.15 (mcg/ mL)<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="54%"/>
+                     <col width="45%"/>
+                     <tbody>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Toprule Botrule Rrule" align="left"> Average Observed Values <br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Botrule Rrule" align="left"> Maximum Concentration <br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="left"> 3.61 mcg/mL (± 0.9 sd)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Botrule Rrule" align="left"> Time of Maximum Concentration <br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="left"> 2.60 hr (± 1.10 sd)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Botrule Rrule" align="left"> Elimination Rate Constant <br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="left"> 0.049 per hr (± 0.030 sd)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Botrule Rrule" align="left"> Half-life <br/>
+                           </td>
+                           <td styleCode=" Botrule Rrule" align="left"> 16.33 hr (± 4.53 sd)<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Excretion of doxycycline by the kidney is about 40%/72 hours in individuals with normal function (creatinine clearance about 75 mL/min). This percentage excretion may fall as low as 1 to 5%/72 hours in individuals with severe renal insufficiency (creatinine clearance below 10 mL/min). Studies have shown no significant difference in serum half-life of doxycycline (range 18 to 22 hours) in individuals with normal and severely impaired renal function. </paragraph>
+                  <paragraph>Hemodialysis does not alter serum half-life.</paragraph>
+                  <paragraph>Results of animal studies indicate that tetracyclines cross the placenta and are found in fetal tissues.</paragraph>
+                  <paragraph>Population pharmacokinetic analysis of sparse concentration-time data of doxycycline following standard of care intravenous and oral dosing in 44 pediatric patients (2 years to 18 years of age) showed that allometrically–scaled clearance (CL) of doxycycline in pediatric patients ≥2 years to ≤8 years of age (median [range] 3.58 [2.27 to 10.82] L/h/70 kg, N =11) did not differ significantly from pediatric patients &gt;8 to 18 years of age (3.27 [1.11 to 8.12] L/h/70 kg, N=33). For pediatric patients weighing ≤45 kg, body weight normalized doxycycline CL in those ≥2 years to ≤8 years of age (median [range] 0.071 [0.041 to 0.202] L/kg/h, N=10) did not differ significantly from those &gt;8 years to 18 years of age (0.081 [0.035 to 0.126] L/kg/h, N=8). In pediatric patients weighing &gt;45 kg, no clinically significant differences in body weight normalized doxycycline CL were observed between those ≥2 years to ≤8 years (0.050 L/kg/h, N=1) and those &gt;8 years to 18 years of age (0.044 [0.014 to 0.121] L/kg/h, N=25). No clinically significant difference in CL between oral and IV dosing was observed in the small cohort of pediatric patients who received the oral (N=19) or IV (N=21) formulation alone.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Microbiology</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Mechanism of Action</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria. </paragraph>
+                  <paragraph>Resistance</paragraph>
+                  <paragraph>Cross resistance with other tetracyclines is common. </paragraph>
+                  <paragraph>Antimicrobial Activity</paragraph>
+                  <paragraph>Doxycycline has been shown to be active against most isolates of the following microorganisms, both <content styleCode="italics">in </content>
+                     <content styleCode="italics">vitro </content>and in clinical infections (see <content styleCode="italics">
+                        <linkHtml href="#ID12">INDICATIONS AND USAGE</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gram-negative Bacteria </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Acinetobacter </content>species </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Bartonella bacilliformis </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Brucella </content>species</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Campylobacter fetus</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Enterobacter aerogenes </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Escherichia coli </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Francisella tularensis </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Haemophilus ducreyi </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Haemophilus influenzae</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Klebsiella granulomatis </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Klebsiella </content>species </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Neisseria gonorrhoeae </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Shigella </content>species</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Vibrio cholerae</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Yersinia pestis</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gram-positive Bacteria </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Bacillus anthracis</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Listeria monocytogenes </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Streptococcus pneumoniae</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Anaerobic Bacteria </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Clostridium </content>species </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Fusobacterium fusiforme </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Propionibacterium acnes</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other Bacteria</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Nocardiae and </content>other <content styleCode="italics">Actinomyces </content>species</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Borrelia recurrentis</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Chlamydophila psittaci </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Chlamydia trachomatis </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Mycoplasma pneumoniae </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Rickettsiae</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Treponema pallidum </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Treponema pallidum </content>subspecies<content styleCode="italics"> pertenue </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Ureaplasma urealyticum</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Parasites </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Balantidium coli </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Entamoeba </content>species</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Susceptibility Testing </content>
+                  </paragraph>
+                  <paragraph>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.</paragraph>
+               </text>
+               <effectiveTime value="20240521"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID12">
+               <id root="353cac2c-1618-42c0-8ebe-e709c40224f3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain effectiveness of doxycycline capsules, USP and other antibacterial drugs, doxycycline capsules, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+                  <paragraph>Doxycycline capsules, USP are indicated for the treatment of the following infections:</paragraph>
+                  <paragraph>Rocky mountain spotted fever, typhus fever and the typhus group, Q fever, rickettsialpox, and tick fevers caused by <content styleCode="italics">Rickettsiae.</content>
+                  </paragraph>
+                  <paragraph>Respiratory tract infections caused by <content styleCode="italics">Mycoplasma pneumoniae. </content>
+                  </paragraph>
+                  <paragraph>Lymphogranuloma venereum caused by <content styleCode="italics">Chlamydia trachomatis. </content>
+                  </paragraph>
+                  <paragraph>Psittacosis (ornithosis) caused by <content styleCode="italics">Chlamydophila psittaci.</content>
+                  </paragraph>
+                  <paragraph>Trachoma caused by <content styleCode="italics">Chlamydia trachomatis, </content>although the infectious agent is not always eliminated as judged by immunofluorescence.</paragraph>
+                  <paragraph>Inclusion conjunctivitis caused by <content styleCode="italics">Chlamydia  trachomatis.</content>
+                  </paragraph>
+                  <paragraph>Uncomplicated urethral, endocervical or rectal infections in adults caused by <content styleCode="italics">Chlamydia trachomatis.</content>
+                  </paragraph>
+                  <paragraph>Nongonococcal urethritis caused by <content styleCode="italics">Ureaplasma  urealyticum.</content>
+                  </paragraph>
+                  <paragraph>Relapsing fever due to <content styleCode="italics">Borrelia recurrentis.</content>
+                  </paragraph>
+                  <paragraph>Doxycycline capsules, USP are also indicated for the treatment of infections caused by the following gram-negative microorganisms: </paragraph>
+                  <paragraph>Chancroid caused by <content styleCode="italics">Haemophilus ducreyi.</content>
+                  </paragraph>
+                  <paragraph>Plague due to <content styleCode="italics">Yersinia pestis</content>.</paragraph>
+                  <paragraph>Tularemia due to <content styleCode="italics">Francisella tularensis</content>. </paragraph>
+                  <paragraph>Cholera caused by <content styleCode="italics">Vibrio cholerae</content>.</paragraph>
+                  <paragraph>Campylobacter fetus infections caused by <content styleCode="italics">Campylobacter fetus</content>.</paragraph>
+                  <paragraph>Brucellosis   due to <content styleCode="italics">Brucella species </content>(in conjunction with streptomycin).</paragraph>
+                  <paragraph>Bartonellosis due to <content styleCode="italics">Bartonella bacilliformis.</content>
+                  </paragraph>
+                  <paragraph>Granuloma inguinale caused by <content styleCode="italics">Klebsiella</content> <content styleCode="italics">granulomatis.</content>
+                  </paragraph>
+                  <paragraph>Because many strains of the following groups of microorganisms have been shown to be resistant to doxycycline, culture and susceptibility testing are recommended.</paragraph>
+                  <paragraph>Doxycycline capsules, USP are indicated for treatment of infections caused by the following gram-negative microorganisms, when bacteriologic testing indicates appropriate susceptibility to the drug:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Escherichia coli </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Enterobacter aerogenes </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Shigella species </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Acinetobacter species</content>
+                  </paragraph>
+                  <paragraph>Respiratory tract infections caused by <content styleCode="italics">Haemophilus influenzae.</content>
+                  </paragraph>
+                  <paragraph>Respiratory tract and urinary tract infections caused by <content styleCode="italics">Klebsiella species.</content>
+                  </paragraph>
+                  <paragraph>Doxycycline capsules, USP are indicated for treatment of infections caused by the following gram-positive microorganisms when bacteriologic testing indicates appropriate susceptibility to the drug:</paragraph>
+                  <paragraph>Upper respiratory infections caused by <content styleCode="italics">Streptococcus pneumoniae</content>.</paragraph>
+                  <paragraph>Anthrax due to <content styleCode="italics">Bacillus anthracis, </content>including inhalational anthrax (post-exposure): to reduce the incidence or progression of disease following exposure to aerosolized <content styleCode="italics">Bacillus anthracis.</content>
+                  </paragraph>
+                  <paragraph>When penicillin is contraindicated, doxycycline is an alternative drug in the treatment of the following infections: </paragraph>
+                  <paragraph>Uncomplicated gonorrhea caused by <content styleCode="italics">Neisseria gonorrhoeae.</content>
+                  </paragraph>
+                  <paragraph>Syphilis caused by <content styleCode="italics">Treponema  pallidum.</content>
+                  </paragraph>
+                  <paragraph>Yaws caused by <content styleCode="italics">Treponema pallidum </content>subspecies<content styleCode="italics"> pertenue.</content>
+                  </paragraph>
+                  <paragraph>Listeriosis due to <content styleCode="italics">Listeria  monocytogenes.</content>
+                  </paragraph>
+                  <paragraph>Vincent's infection caused by <content styleCode="italics">Fusobacterium    fusiforme. </content>
+                  </paragraph>
+                  <paragraph>Actinomycosis caused by <content styleCode="italics">Actinomyces israelii. </content>
+                  </paragraph>
+                  <paragraph>Infections caused by <content styleCode="italics">Clostridium species.</content>
+                  </paragraph>
+                  <paragraph>In acute intestinal amebiasis, doxycycline may be a useful adjunct to amebicides. </paragraph>
+                  <paragraph>In severe acne, doxycycline may be useful adjunctive therapy.</paragraph>
+               </text>
+               <effectiveTime value="20240521"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID14">
+               <id root="238d4895-f851-4356-9df4-a895ac476f14"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>This drug is contraindicated in persons who have shown hypersensitivity to any of the tetracyclines.</paragraph>
+               </text>
+               <effectiveTime value="20221004"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID16">
+               <id root="2044493d-fb66-4d9a-9841-69af18ce1e74"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>The use of drugs of the tetracycline class, including doxycycline, during tooth development (last half of pregnancy, infancy and childhood to the age of 8 years) may cause permanent discoloration of the teeth (yellow-gray-brown). This adverse reaction is more common during long-term use of the drugs, but it has been observed following repeated short-term courses. Enamel hypoplasia has also been reported. Use of doxycycline in pediatric patients 8 years of age or less only when the potential benefits are expected to outweigh the risks in severe or life-threatening conditions (e.g. anthrax, Rocky Mountain spotted fever), particularly when there are no alternative therapies.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Clostridium  difficile </content>associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including doxycycline capsules, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">C. difficile </content>produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile </content>cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile </content>may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+                  <paragraph>Intracranial hypertension (IH, pseudotumor cerebri) has been associated with the use of tetracyclines including doxycycline capsules. Clinical manifestations of IH include headache, blurred vision, diplopia, and vision loss; papilledema can be found on fundoscopy. Women of childbearing age who are overweight or have a history of IH are at greater risk for developing tetracycline associated IH. Concomitant use of isotretinoin and doxycycline capsules should be avoided because isotretinoin is also known to cause pseudotumor cerebri. </paragraph>
+                  <paragraph>Although IH typically resolves after discontinuation of treatment, the possibility for permanent visual loss exists. If visual disturbance occurs during treatment, prompt ophthalmologic evaluation is warranted. Since intracranial pressure can remain elevated for weeks after drug cessation patients should be monitored until they stabilize.</paragraph>
+                  <paragraph>All tetracyclines form a stable calcium complex in any bone-forming tissue. A decrease in the fibula growth rate has been observed in prematures given oral tetracycline in doses of 25 mg/kg every six hours. This reaction was shown to be reversible when the drug was discontinued.</paragraph>
+                  <paragraph>Results of animal studies indicate that tetracyclines cross the placenta, are found in fetal tissues, and can have toxic effects on the developing fetus (often related to retardation of skeletal development). Evidence of embryo toxicity has been noted in animals treated early in pregnancy. If any tetracycline is used during pregnancy or if the patient becomes pregnant while taking these drugs, the patient should be apprised of the potential hazard to the fetus.</paragraph>
+                  <paragraph>The antianabolic action of the tetracyclines may cause an increase in BUN. Studies to date indicate that this does not occur with the use of doxycycline in patients with impaired renal function.</paragraph>
+                  <paragraph>Photosensitivity manifested by an exaggerated sunburn reaction has been observed in some individuals taking tetracyclines. Patients apt to be exposed to direct sunlight or ultraviolet light should be advised that this reaction can occur with tetracycline drugs, and treatment should be discontinued at the first evidence of skin erythema.</paragraph>
+               </text>
+               <effectiveTime value="20221004"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID18">
+               <id root="366bfbab-123b-44c5-81b1-4ccc85de6149"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                  </paragraph>
+                  <paragraph>As with other antibacterial preparations, use of this drug may result in overgrowth of non-susceptible organisms, including fungi. If superinfection occurs, doxycycline capsules should be discontinued and appropriate therapy instituted.</paragraph>
+                  <paragraph>Incision and drainage or other surgical procedures should be performed in conjunction with antibacterial therapy when indicated.</paragraph>
+                  <paragraph>Prescribing doxycycline capsules in the absence of proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information for Patients</content>
+                  </paragraph>
+                  <paragraph>All patients taking doxycycline should be advised:</paragraph>
+                  <paragraph>-   to avoid excessive sunlight or artificial ultraviolet light while receiving doxycycline and to discontinue therapy if phototoxicity (e.g., skin eruptions, etc.) occurs. Sunscreen or sunblock should be considered <content styleCode="italics">(see <linkHtml href="#ID16">WARNINGS</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>-   to drink fluids liberally along with doxycycline to reduce the risk of esophageal irritation and ulceration <content styleCode="italics">(see <linkHtml href="#ID20">ADVERSE REACTIONS</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>-   that the absorption of tetracyclines is reduced when taken with foods, especially those which contain calcium. However, the absorption of doxycycline is not markedly influenced by simultaneous ingestion of food or milk <content styleCode="italics">(see <linkHtml href="#ID18">Drug Interactions</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>-   that the absorption of  tetracyclines is reduced when taking bismuth subsalicylate <content styleCode="italics">(see <linkHtml href="#ID18">Drug Interactions</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>-   not to use outdated or poorly stored doxycycline.</paragraph>
+                  <paragraph>-   that the use of doxycycline might increase the incidence of vaginal candidiasis.</paragraph>
+                  <paragraph>Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.</paragraph>
+                  <paragraph>Patients should be counseled that antibacterial drugs including doxycycline capsules should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When doxycycline capsules are prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by doxycycline capsules or other antibacterial drugs in the future.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Laboratory Tests:</content>
+                  </paragraph>
+                  <paragraph>In venereal disease when coexistent syphilis is suspected, a dark-field examination should be done before treatment is started and the blood serology repeated monthly for at least four months.</paragraph>
+                  <paragraph>In long-term therapy, periodic laboratory evaluations of organ systems, including hematopoietic, renal, and hepatic studies should be performed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug Interactions:</content>
+                  </paragraph>
+                  <paragraph>Because tetracyclines have been shown to depress plasma prothrombin activity, patients who are on anticoagulant therapy may require downward adjustment of their anticoagulant dosage.</paragraph>
+                  <paragraph>Since bacteriostatic drugs may interfere with the bactericidal action of penicillin, it is advisable to avoid giving tetracyclines in conjunction with penicillin.</paragraph>
+                  <paragraph>Absorption of tetracyclines is impaired by antacids containing aluminum, calcium, or magnesium, and iron-containing preparations.</paragraph>
+                  <paragraph>Absorption of tetracyclines is impaired by bismuth subsalicylate.</paragraph>
+                  <paragraph>Barbiturates, carbamazepine, and phenytoin decrease the half-life of doxycycline.</paragraph>
+                  <paragraph>The concurrent use of tetracycline and methoxyflurane has been reported to result in fatal renal toxicity. </paragraph>
+                  <paragraph>Concurrent use of tetracycline may render oral contraceptives less effective.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug/Laboratory Test Interactions:</content>
+                  </paragraph>
+                  <paragraph>False elevations of urinary catecholamine levels may occur due to interference with the fluorescence test.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility:</content>
+                  </paragraph>
+                  <paragraph>Long-term studies in animals to evaluate the carcinogenic potential of doxycycline have not been conducted. However, there has been evidence of oncogenic activity in rats in studies with related antibacterial, oxytetracycline (adrenal and pituitary tumors) and minocycline (thyroid tumors). Likewise, although mutagenicity studies of doxycycline have not been conducted, positive results in <content styleCode="italics">in vitro </content>mammalian cell assays have been reported for related antibacterial (tetracycline, oxytetracycline). Doxycycline administered orally at dosage levels as high as 250 mg/kg/day had no apparent effect on the fertility of female rats. Effect on male fertility has not been studied.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Teratogenic Effects</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Pregnancy Category D</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>There are no adequate and well-controlled studies on the use of doxycycline in pregnant short-term, first trimester exposure. There are no human data available to assess the effects of long-term therapy of doxycycline in pregnant women such as that proposed for treatment of anthrax exposure. An expert review of published data on experiences with doxycycline use during pregnancy by TERIS - the Teratogen Information System - concluded that therapeutic doses during pregnancy are unlikely to pose a substantial teratogenic risk (the quantity and quality of data were assessed as limited to fair), but the data are insufficient to state that there is no risk.<sup>1</sup>
+                  </paragraph>
+                  <paragraph>A case-control study (18,515 mothers of infants with congenital anomalies and 32,804 mothers of infants with no congenital anomalies) shows a weak but marginally statistically significant association with total malformations and use of doxycycline anytime during pregnancy. (Sixty-three [0.19%] of the controls and 56 [0.30%] of the cases were treated with doxycycline.) This association was not seen when the analysis was confined to maternal treatment during the period of organogenesis (i.e., in the second and third months of gestation) with the exception of a marginal relationship with neural tube defect based on only two exposed cases.<sup>2</sup>
+                  </paragraph>
+                  <paragraph>A small prospective study of 81 pregnancies describes 43 pregnant women treated for 10 days with doxycycline during early first trimester. All mothers reported their exposed infants were normal at 1 year of age.<sup>3</sup>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Labor and Delivery</content>
+                  </paragraph>
+                  <paragraph>The effect of tetracyclines on labor and delivery is unknown.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nursing Mothers</content>
+                  </paragraph>
+                  <paragraph>Tetracyclines are excreted in human milk, however, the extent of absorption of tetracyclines, including doxycycline, by the breastfed infant is not known. Short-term use by lactating women is not necessarily contraindicated; however, the effects of prolonged exposure to doxycycline in breast milk are unknown.<sup>4</sup> Because of the potential for adverse reactions in nursing infants from doxycycline, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother <content styleCode="italics">(see <linkHtml href="#ID16">WARNINGS</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use</content>
+                  </paragraph>
+                  <paragraph>Because of the effects of drugs of the tetracycline –class, on tooth development and growth, use doxycycline in pediatric patients 8 years of age or less only when the potential benefits are expected to outweigh the risks in severe or life-threatening conditions (e.g., anthrax, Rocky Mountain spotted fever), particularly when there are no alternative therapies <content styleCode="italics">(s</content>
+                     <content styleCode="italics">ee <linkHtml href="#ID16">WARNINGS </linkHtml>and <linkHtml href="#ID24">DOSAGE AND ADMINISTRATION</linkHtml>)</content>.</paragraph>
+               </text>
+               <effectiveTime value="20240521"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID20">
+               <id root="43bc3650-15ed-469e-a85a-7ee44f607150"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Due to oral doxycycline's virtually complete absorption, side effects to the lower bowel, particularly diarrhea, have been infrequent. The following adverse reactions have been observed in patients receiving tetracyclines.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal</content>
+                  </paragraph>
+                  <paragraph>Anorexia, nausea, vomiting, diarrhea, glossitis, dysphagia, enterocolitis, and inflammatory lesions (with monilial overgrowth) in the anogenital region and pancreatitis. Hepatotoxicity has been reported. These reactions have been caused by both the oral and parenteral administration of tetracyclines. Rare instances of esophagitis and esophageal ulcerations have been reported in patients receiving capsule and tablet forms of drugs in the tetracycline class. Most of these patients took medications immediately before going to bed <content styleCode="italics">(see <linkHtml href="#ID25">DOSAGE AND ADMINISTRATION</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin</content>
+                  </paragraph>
+                  <paragraph>Maculopapular and erythematous rashes, Stevens-Johnson syndrome, toxic epidermal necrolysis, and erythema multiforme have been reported. Exfoliative dermatitis has been reported but is uncommon. Photosensitivity is discussed above <content styleCode="italics">(see <linkHtml href="#ID17">WARNINGS</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Renal Toxicity</content>
+                  </paragraph>
+                  <paragraph>Rise in BUN has been reported and is apparently dose related <content styleCode="italics">(see <linkHtml href="#ID17">WARNINGS</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypersensitivity Reactions</content>
+                  </paragraph>
+                  <paragraph>Urticaria, angioneurotic edema, anaphylaxis, anaphylactoid purpura, serum sickness, pericarditis, and exacerbation of systemic lupus erythematosus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Blood</content>
+                  </paragraph>
+                  <paragraph>Hemolytic anemia, thrombocytopenia, neutropenia, and eosinophilia have been reported with tetracyclines.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other</content>
+                  </paragraph>
+                  <paragraph>Intracranial hypertension (IH, pseudotumor cerebri) has been associated with the use of tetracyclines <content styleCode="italics">(see <linkHtml href="#ID19">PRECAUTIONS-General</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>When given over prolonged periods, tetracyclines have been reported to produce brown-black microscopic discoloration of the thyroid gland. No abnormalities of thyroid function are known to occur.</paragraph>
+               </text>
+               <effectiveTime value="20240521"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID22">
+               <id root="77a0c367-988e-4b8d-80a5-a5f09c39e7a0"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>In case of overdosage, discontinue medication, treat symptomatically and institute supportive measures. Dialysis does not alter serum half-life, and it would not be of benefit in treating cases of overdosage.</paragraph>
+               </text>
+               <effectiveTime value="20221004"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID24">
+               <id root="dd11803f-5000-48ee-a91f-9cfee6e08a8c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>THE USUAL DOSAGE AND FREQUENCY OF ADMINISTRATION OF DOXYCYCLINE DIFFERS FROM THAT OF THE OTHER TETRACYCLINES. EXCEEDING THE RECOMMENDED DOSAGE MAY RESULT IN AN INCREASED INCIDENCE OF SIDE EFFECTS.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Adults</content>
+                  </paragraph>
+                  <paragraph>The usual dose of oral doxycycline is 200 mg on the first day of treatment (administered 100 mg every 12 hours or 50 mg every 6 hours) followed by a maintenance dose of 100 mg/day. The maintenance dose may be administered as a single dose or as 50 mg every 12 hours. In the management of more severe infections (particularly chronic infections of the urinary tract), 100 mg every 12 hours is recommended.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Patients</content>
+                  </paragraph>
+                  <paragraph>For all pediatric patients weighing less than 45 kg with severe or life-threatening infections (e.g. anthrax, Rocky Mountain spotted fever), the recommended dosage is 2.2 mg/kg of body weight administered every 12 hours. Children weighing 45 kg or more should receive the adult dose <content styleCode="italics">(see <linkHtml href="#ID16">WARNINGS</linkHtml> and <linkHtml href="#ID18">PRECAUTIONS</linkHtml>).</content> </paragraph>
+                  <paragraph>For pediatric patients with less severe disease (greater than 8 years of age and weighing less than 45 kg), the recommended dosage schedule is 4.4 mg per kg of body weight divided into two doses on the first day of treatment, followed by a maintenance dose of 2.2 mg per kg of body weight (given as a single daily dose or divided into twice daily doses). For pediatric patients weighing over 45 kg, the usual adult dose should be used. </paragraph>
+                  <paragraph>The therapeutic antibacterial serum activity will usually persist for 24 hours following recommended dosage. </paragraph>
+                  <paragraph>When used in streptococcal infections, therapy should be continued for 10 days. </paragraph>
+                  <paragraph>Administration of adequate amounts of fluid along with capsule and tablet forms of drugs in the tetracycline class is recommended to wash down the drugs and reduce the risk of esophageal irritation and ulceration <content styleCode="italics">(see <linkHtml href="#ID20">ADVERSE REACTIONS</linkHtml> ). </content>
+                  </paragraph>
+                  <paragraph>If gastric irritation occurs, it is recommended that doxycycline be given with food or milk. The absorption of doxycycline is not markedly influenced by simultaneous ingestion of food or milk.</paragraph>
+                  <paragraph>Studies to date have indicated that administration of doxycycline at the usual recommended doses does not lead to excessive accumulation of doxycycline in patients with renal impairment.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Uncomplicated gonococcal infections in adults (except anorectal infections in men)</content>
+                  </paragraph>
+                  <paragraph>100 mg, by mouth, twice a day for 7 days. As an alternate single visit dose, administer 300 mg stat followed in one hour by a second 300 mg dose.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Acute epididymo-orchitis caused by <content styleCode="italics">N. gonorrhoeae</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>100 mg, by mouth, twice a day for at least 10 days.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Primary and secondary syphilis</content>
+                  </paragraph>
+                  <paragraph>300 mg a day in divided doses for at least 10 days.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Uncomplicated urethral, endocervical, or rectal infection in adults caused by <content styleCode="italics">Chlamydia trachomatis</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>100 mg, by mouth, twice a day for at least 7 days.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nongonococcal urethritis caused by <content styleCode="italics">C. trachomatis </content>and <content styleCode="italics">U. urealyticum: </content>
+                     </content>100 mg, by mouth, twice a day for at least 7 days.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Acute epididymo-orchitis caused by <content styleCode="italics">C. trachomatis</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>100 mg, by mouth, twice a day for at least 10 days.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Inhalational anthrax (post-exposure)</content>
+                  </paragraph>
+                  <paragraph>ADULTS: 100 mg of doxycycline, by mouth, twice a day for 60 days. </paragraph>
+                  <paragraph>CHILDREN: weighing less than 45 kg 2.2 mg/kg of body weight, by mouth, twice a day for 60 days. Children weighing 45 kg or more should receive the adult dose.</paragraph>
+               </text>
+               <effectiveTime value="20240521"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID26">
+               <id root="945435e5-683a-451e-99fd-4d5a821eb95b"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Product:    50090-4833</paragraph>
+                  <paragraph>NDC:    50090-4833-0   20 CAPSULE in a BOTTLE</paragraph>
+                  <paragraph>NDC:    50090-4833-1   14 CAPSULE in a BOTTLE</paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID28">
+               <id root="35f68ef1-3c25-4c44-8b14-0d8057f34a31"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered" ID="ID29">
+                     <item>Friedman JM and Polifka JE. <content styleCode="italics">Teratogenic Effects of Drugs. A Resource for Clinicians (TERIS). </content>Baltimore, MD: The Johns Hopkins University Press: 2000: 149-195.</item>
+                     <item>Cziezel AE and Rockenbauer M. Teratogenic study of doxycycline. <content styleCode="italics">Obstet Gynecol </content>1997;89:524-528.</item>
+                     <item>Horne HW Jr. and Kundsin RB. The role of mycoplasma among 81 consecutive pregnancies: a prospective study. <content styleCode="italics">Int J Fertil </content>1980; 25:315-317.</item>
+                     <item>Hale T. <content styleCode="italics">Medications and Mothers Milk. </content>9<sup>th</sup> edition. Amarillo, TX: Pharmasoft Publishing 2000; 225-226.</item>
+                  </list>
+                  <paragraph>Please address medical inquiries to, MedicalAffairs@zydususa.com or Tel.: 1-877-993-8779.</paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+               </text>
+               <effectiveTime value="20240521"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID31">
+               <id root="f30c3fb2-3119-4ba8-94da-3a9f52d0496a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Zydus Lifesciences Ltd.</content>
+                  </paragraph>
+                  <paragraph>Ahmedabad, India.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Zydus Pharmaceuticals (USA) Inc.</content>
+                  </paragraph>
+                  <paragraph>Pennington, NJ 08534</paragraph>
+                  <paragraph>Rev.: 06/24</paragraph>
+               </text>
+               <effectiveTime value="20240603"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c7a09684-c319-4fd9-b7eb-8223ea27c922"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>doxycycline</title>
+               <text>
+                  <renderMultiMedia referencedObject="lbl500904833"/>
+               </text>
+               <effectiveTime value="20250312"/>
+               <component>
+                  <observationMedia ID="lbl500904833">
+                     <text>Label Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl500904833.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7388c216-3de2-4c6d-843c-f2e3b515a611"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Ethosuximide Capsules, USP</title>
+   <effectiveTime value="20250310"/>
+   <setId root="a4dbc665-4db1-4d0a-9630-5cd200ec4c82"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="650738743" root="1.3.6.1.4.1.519.1"/>
+            <name>Strides Pharma Science Limited</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="650738743" root="1.3.6.1.4.1.519.1"/>
+                  <name>Strides Pharma Science Limited</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="918513263" root="1.3.6.1.4.1.519.1"/>
+                        <name>Strides Pharma Science Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64380-878" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64380-878" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64380-878" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d67b4011-7af5-4eb9-a75a-999051d3301d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL Product Data Elements Section"/>
+               <effectiveTime value="20250310"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="64380-878" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ETHOSUXIMIDE<suffix/>
+                        </name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ETHOSUXIMIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="250" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5SEH9X1D1D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ETHOSUXIMIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SEH9X1D1D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ETHOSUXIMIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B697894SGQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 400</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C YELLOW NO. 10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PN2ZH5LOQY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 3</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="9E0S3UM200" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NONCRYSTALLIZING SORBITOL SOLUTION</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C9H2L21V7U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MEDIUM-CHAIN TRIGLYCERIDES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SHELLAC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1DI56QDM62" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LECITHIN, SOYBEAN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64380-878-06" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190515"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA211928" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190515"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48331" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORANGE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="19" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">250</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID1">
+               <id root="e114c4b8-ee33-4b4b-83e2-d0f20e9ab2cb"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph ID="ID2">Ethosuximide is an anticonvulsant succinimide, chemically designated as alpha-ethyl-alpha- methyl-succinimide, with the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph ID="ID4">Each ethosuximide capsule contains 250 mg ethosuximide, USP. Also contains: D &amp; C yellow No. 10, FD &amp; C red # 3, gelatin, glycerin, isopropyl alcohol, lecithin, medium chain triglyceride, polyethylene glycol 400, and sorbitol solution and printing ink white IH-edible oil (Dewaxed Bleached Shellac Resins, Isopropyl Alcohol, Propylene Glycol, Sodium Lauryl Sulphate and Titanium Dioxide).</paragraph>
+               </text>
+               <effectiveTime value="20221122"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Molecular structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="6f135052-6c5c-4aa1-9449-aab2d197627b-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID5">
+               <id root="f0309134-3d1a-4045-a17b-7fde0f590070"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph ID="ID6">Ethosuximide suppresses the paroxysmal three cycle per second spike and wave activity associated with lapses of consciousness which is common in absence (petit mal) seizures. The frequency of epileptiform attacks is reduced, apparently by depression of the motor cortex and elevation of the threshold of the central nervous system to convulsive stimuli.</paragraph>
+               </text>
+               <effectiveTime value="20180417"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID7">
+               <id root="946f5031-431e-477c-8c9b-2685d60e56be"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph ID="ID8">Ethosuximide capsule is indicated for the control of absence (petit mal) epilepsy.</paragraph>
+               </text>
+               <effectiveTime value="20180417"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID9">
+               <id root="6918ce47-9d83-48c3-81e5-f1b8c8ec0eba"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATION</title>
+               <text>
+                  <paragraph ID="ID10">Ethosuximide should not be used in patients with a history of hypersensitivity to succinimides.</paragraph>
+               </text>
+               <effectiveTime value="20220202"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID11">
+               <id root="05d19044-a8f1-44da-b929-45f745e36015"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph ID="ID12">
+                     <content styleCode="bold">Blood Dyscrasias:</content>
+                  </paragraph>
+                  <paragraph>Blood dyscrasias, including some with fatal outcome, have been reported to be associated with the use of ethosuximide; therefore, periodic blood counts should be performed. Should signs and/or symptoms of infection (e.g., sore throat, fever) develop, blood counts should be considered at that point.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug-Induced Immune Thrombocytopenia:</content>
+                  </paragraph>
+                  <paragraph>Drug-induced immune thrombocytopenia (DITP) has been reported with ethosuximide. In the reported cases, the onset of symptoms occurred 1 to 3 weeks after initiation of ethosuximide; one patient had recurrence of symptoms within 1 day of a subsequent re-challenge with the drug. In those cases in which the platelet count was specified, the nadir was 2,000 and 3,000/mm<sup>3</sup>. When DITP is suspected, discontinue ethosuximide, monitor serial platelet counts, and treat as appropriate. If possible, assess the presence of drug-dependent antiplatelet antibodies. Avoid future use of ethosuximide in patients with history of ethosuximide induced DITP.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Effects on Liver and Kidneys:</content>
+                  </paragraph>
+                  <paragraph>Ethosuximide is capable of producing morphological and functional changes in the animal liver. In humans, abnormal liver and renal function studies have been reported. Ethosuximide should be administered with extreme caution to patients with known liver or renal disease. Periodic urinalysis and liver function studies are advised for all patients receiving the drug.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Systemic Lupus Erythematosus</content>
+                     <content styleCode="bold">:</content>
+                  </paragraph>
+                  <paragraph>Cases of systemic lupus erythematosus have been reported with the use of ethosuximide. The physician should be alert to this possibility.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Suicidal Behavior and Ideation</content>
+                     <content styleCode="bold">:</content>
+                  </paragraph>
+                  <paragraph>Antiepileptic drugs (AEDs), including ethosuximide, increase the risk of suicidal thoughts or behavior in patients taking these drugs for any indication. Patients treated with any AED for any indication should be monitored for the emergence or worsening of depression, suicidal thoughts or behavior, and/or any unusual changes in mood or behavior. </paragraph>
+                  <paragraph>Pooled analyses of 199 placebo-controlled clinical trials (mono- and adjunctive therapy) of 11 different AEDs showed that patients randomized to one of the AEDs had approximately twice the risk (adjusted Relative Risk 1.8, 95% Cl: 1.2, 2.7) of suicidal thinking or behavior compared to patients randomized to placebo. In these trials, which had a median treatment duration of 12 weeks, the estimated incidence rate of suicidal behavior or ideation among 27,863 AED-treated patients was 0.43%, compared to 0.24% among 16,029 placebo-treated patients, representing an increase of approximately one case of suicidal thinking or behavior for every 530 patients treated. There were four suicides in drug-treated patients in the trials and none in placebo-treated patients, but the number is too small to allow any conclusion about drug effect on suicide.</paragraph>
+                  <paragraph>The increased risk of suicidal thoughts or behavior with AEDs was observed as early as one week after starting drug treatment with AEDs and persisted for the duration of treatment assessed. Because most trials included in the analysis did not extend beyond 24 weeks, the risk of suicidal thoughts or behavior beyond 24 weeks could not be assessed.</paragraph>
+                  <paragraph>The risk of suicidal thoughts or behavior was generally consistent among drugs in the data analyzed. The finding of increased risk with AEDs of varying mechanisms of action and across a range of indications suggests that the risk applies to all AEDs used for any indication. The risk did not vary substantially by age (5-100 years) in the clinical trials analyzed.</paragraph>
+                  <paragraph>Table 1 shows absolute and relative risk by indication for all evaluated AEDs.</paragraph>
+                  <paragraph>Table 1 Risk by indication for antiepileptic drugs in the pooled analysis</paragraph>
+                  <table ID="ID13" width="577" styleCode="Noautorules">
+                     <col width="88"/>
+                     <col width="122"/>
+                     <col width="109"/>
+                     <col width="141"/>
+                     <col width="117"/>
+                     <tbody>
+                        <tr>
+                           <td valign="top" styleCode=" Toprule Botrule" align="left"> Indication                <br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule" align="left"> Placebo patients<br/> with Events Per 1000 Patients<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule" align="left"> Drug Patients with Events Per 1000 Patients<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule" align="left"> Relative Risk:<br/> Incidence of Events<br/> in Drug Patients /Incidence in<br/> Placebo Patients<br/>
+                           </td>
+                           <td valign="top" styleCode=" Toprule Botrule" align="left"> Risk Difference:<br/> Additional Drug Patients with Events Per 1000 Patients<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode=" Botrule" align="left"> Epilepsy<br/> Psychiatric<br/> Other<br/> Total<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule" align="left"> 1.0<br/> 5.7<br/> 1.0<br/> 2.4<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule" align="left"> 3.4<br/> 8.5<br/> 1.8<br/> 4.3<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule" align="left"> 3.5<br/> 1.5<br/> 1.9<br/> 1.8<br/>
+                           </td>
+                           <td valign="top" styleCode=" Botrule" align="left"> 2.4<br/> 2.9<br/> 0.9<br/> 1.9<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID14">The relative risk for suicidal thoughts or behavior was higher in clinical trials for epilepsy than in clinical trials for psychiatric or other conditions, but the absolute risk differences were similar for the epilepsy and psychiatric indications.</paragraph>
+                  <paragraph>Anyone considering prescribing ethosuximide or any other AED must balance the risk of suicidal thoughts and behavior with the risk of untreated illness. Epilepsy and many other illnesses for which AEDs are prescribed are themselves associated with morbidity and mortality and an increased risk of suicidal thoughts and behavior. Should suicidal thoughts and behavior emerge during treatment, the prescriber needs to consider whether the emergence of these symptoms in any given patient may be related to the illness being treated.</paragraph>
+                  <paragraph>Patients, their caregivers, and families should be informed that AEDs increase the risk of suicidal thoughts and behavior and should be advised of the need to be alert for the emergence or worsening of the signs and symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal thoughts, behavior, or thoughts about self-harm. Behaviors of concern should be reported immediately to healthcare providers.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Serious Dermatologic Reactions:</content>
+                  </paragraph>
+                  <paragraph>Serious dermatologic reactions, including Stevens-Johnson syndrome (SJS), have been reported with ethosuximide treatment. SJS can be fatal. The onset of symptoms is usually within 28 days, but can occur later. Ethosuximide should be discontinued at the first sign of a rash, unless the rash is clearly not drug- related. If signs or symptoms suggest SJS, use of this drug should not be resumed and alternative therapy should be considered.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS):</content>
+                  </paragraph>
+                  <paragraph>Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS), also known as multi organ hypersensitivity, has occurred with ethosuximide. Some of these events have been fatal or life-threatening. DRESS typically, although not exclusively, presents with fever, rash, lymphadenopathy and/or facial swelling, in association with other organ system involvement, such as hepatitis, nephritis, hematologic abnormalities, myocarditis, or myositis, sometimes resembling an acute viral infection. Eosinophilia is often present. This disorder is variable in its expression, and other organ systems not noted here may be involved. It is important to note that early manifestations of hypersensitivity (e.g. fever, lymphadenopathy) may be present even though rash is not evident. If such signs or symptoms are present, the patient should be evaluated immediately. Ethosuximide should be discontinued if an alternative etiology for the signs or symptoms cannot be established.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usage in Pregnancy:</content>
+                  </paragraph>
+                  <paragraph>Ethosuximide crosses the placenta.</paragraph>
+                  <paragraph>Reports suggest an association between the use of anticonvulsant drugs by women with epilepsy and an elevated incidence of birth defects in children born to these women. Data are more extensive with respect to phenytoin and phenobarbital, but these are also the most commonly prescribed anticonvulsants; less systematic or anecdotal reports suggest a possible similar association with the use of all known anticonvulsant drugs.</paragraph>
+                  <paragraph>Cases of birth defects have been reported with ethosuximide. The reports suggesting an elevated incidence of birth defects in children of drug-treated epileptic women cannot be regarded as adequate to prove a definite cause and effect relationship. There are intrinsic methodological problems in obtaining adequate data on drug teratogenicity in humans; the possibility also exists that other factors, e.g., genetic factors or the epileptic condition itself, may be more important than drug therapy in leading to birth defects. The great majority of mothers on anticonvulsant medication deliver normal infants. It is important to note that anticonvulsant drugs should not be discontinued in patients in whom the drug is administered to prevent major seizures because of the strong possibility of precipitating status epilepticus with attendant hypoxia and threat to life. In individual cases where the severity and frequency of the seizure disorder are such that the removal of medication does not pose a serious threat to the patient, discontinuation of the drug may be considered prior to and during pregnancy, although it cannot be said with any confidence that even minor seizures do not pose some hazard to the developing embryo or fetus.</paragraph>
+                  <paragraph>The prescribing physician will wish to weigh these considerations in treating or counseling epileptic women of childbearing potential. </paragraph>
+                  <paragraph>Ethosuximide is excreted in human breast milk. Because the effects of ethosuximide on the nursing infant are unknown, caution should be exercised when ethosuximide is administered to a nursing mother. Ethosuximide should be used in nursing mothers only if the benefits clearly outweigh the risks.</paragraph>
+               </text>
+               <effectiveTime value="20211116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID15">
+               <id root="3cb1a586-f6ac-4cbb-90ca-f5ce36399919"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph ID="ID16">
+                     <content styleCode="bold">General:</content>
+                  </paragraph>
+                  <paragraph>Ethosuximide, when used alone in mixed types of epilepsy, may increase the frequency of grand mal seizures in some patients.</paragraph>
+                  <paragraph>As with other anticonvulsants, it is important to proceed slowly when increasing or decreasing dosage, as well as when adding or eliminating other medication. Abrupt withdrawal of anticonvulsant medication may precipitate absence (petit mal) status.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information for Patients:</content>
+                  </paragraph>
+                  <paragraph>Inform patients of the availability of a Medication Guide, and instruct them to read the Medication Guide prior to taking ethosuximide. Instruct patients to take ethosuximide only as prescribed.</paragraph>
+                  <paragraph>Ethosuximide may impair the mental and/or physical abilities required for the performance of potentially hazardous tasks, such as driving a motor vehicle or other such activity requiring alertness; therefore, the patient should be cautioned accordingly.</paragraph>
+                  <paragraph>Patients taking ethosuximide should be advised of the importance of adhering strictly to the prescribed dosage regimen. </paragraph>
+                  <paragraph>Patients should be instructed to promptly contact their physician if they develop signs and/or symptoms (e.g., sore throat, fever), suggesting an infection. </paragraph>
+                  <paragraph>Patients, their caregivers, and families should be counseled that AEDs, including ethosuximide, may increase the risk of suicidal thoughts and behavior and should be advised of the need to be alert for the emergence or worsening of symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal thoughts, behavior, or thoughts about self-harm. Behaviors of concern should be reported immediately to healthcare providers.</paragraph>
+                  <paragraph>Prior to initiation of treatment with ethosuximide, the patient should be instructed that a rash may herald a serious medical event and that the patient should report any such occurrence to a physician immediately.</paragraph>
+                  <paragraph>Patients should be encouraged to enroll in the North American Antiepileptic Drug (NAAED) Pregnancy Registry if they become pregnant. This registry is collecting information about the safety of antiepileptic drugs during pregnancy. To enroll, patients can call the toll free number 1-888-233-2334 (see <content styleCode="bold">PRECAUTIONS: Pregnancy</content> section).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug Interactions:</content>
+                  </paragraph>
+                  <paragraph>Since ethosuximide may interact with concurrently administered antiepileptic drugs, periodic serum level determinations of these drugs may be necessary (e.g., ethosuximide may elevate phenytoin serum levels and valproic acid has been reported to both increase and decrease ethosuximide levels).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy:</content>
+                  </paragraph>
+                  <paragraph>To provide information regarding the effects of <content styleCode="italics">in utero </content>exposure to ethosuximide, physicians are advised to recommend that pregnant patients taking ethosuximide enroll in the NAAED Pregnancy Registry. This can be done by calling the toll free number 1-888-233-2334, and must be done by patients themselves. Information on the registry can also be found at the website: http://www.aedpregnancyregistry.org/</paragraph>
+                  <paragraph>See <content styleCode="bold">WARNINGS.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use:</content>
+                  </paragraph>
+                  <paragraph>Safety and effectiveness in pediatric patients below the age of 3 years have not been established. (See <content styleCode="bold">DOSAGE AND ADMINISTRATION</content> section.)</paragraph>
+               </text>
+               <effectiveTime value="20211116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID17">
+               <id root="95216951-96f6-4b3c-9be2-c8174879a19a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph ID="ID18">
+                     <content styleCode="bold">Body As A Whole: </content>Allergic reaction, Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal System: </content>Gastrointestinal symptoms occur frequently and include anorexia, vague gastric upset, nausea and vomiting, cramps, epigastric and abdominal pain, weight loss, and diarrhea. There have been reports of gum hypertrophy and swelling of the tongue.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hemopoietic System: </content>Hemopoietic complications associated with the administration of ethosuximide have included leukopenia, agranulocytosis, pancytopenia, with or without bone marrow suppression, eosinophilia and thrombocytopenia (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nervous System: </content>Neurologic and sensory reactions reported during therapy with ethosuximide have included drowsiness, headache, dizziness, euphoria, hiccups, irritability, hyperactivity, lethargy, fatigue, and ataxia.  Psychiatric or psychological aberrations associated with ethosuximide administration have included disturbances of sleep, night terrors, inability to concentrate, and aggressiveness. These effects may be noted particularly in patients who have previously exhibited psychological abnormalities. There have been rare reports of paranoid psychosis, increased libido, and increased state of depression with overt suicidal intentions.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Integumentary System: </content>Dermatologic manifestations which have occurred with the administration of ethosuximide have included urticaria, pruritic erythematous rashes, Stevens-Johnson syndrome, and hirsutism.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Senses: </content>Myopia<content styleCode="bold">.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Genitourinary System: </content>Vaginal bleeding, microscopic hematuria.</paragraph>
+               </text>
+               <effectiveTime value="20211116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID19">
+               <id root="e8351649-e297-4fdd-99bf-614fabb65b6b"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph ID="ID20">Acute overdoses may produce nausea, vomiting, and CNS depression including coma with respiratory depression. A relationship between ethosuximide toxicity and its plasma levels has not been established. The therapeutic range of serum levels is 40 mcg/mL to 100 mcg/mL, although levels as high as 150 mcg/mL have been reported without signs of toxicity.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Treatment:</content>
+                  </paragraph>
+                  <paragraph>Treatment should include emesis (unless the patient is or could rapidly become obtunded, comatose, or convulsing) or gastric lavage, activated charcoal, cathartics, and general supportive measures. Hemodialysis may be useful to treat ethosuximide overdose. Forced diuresis and exchange transfusions are ineffective.</paragraph>
+               </text>
+               <effectiveTime value="20211116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID21">
+               <id root="e8c8b257-4f38-4dcd-a670-0df55b935b3f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph ID="ID22">Ethosuximide capsules are administered by the oral route. The <content styleCode="italics">initial</content> dose for patients 3 to 6 years of age is one capsule (250 mg) per day; for patients 6 years of age and older, 2 capsules (500 mg) per day. The dose thereafter must be individualized according to the patient's response. Dosage should be increased by small increments. One useful method is to increase the daily dose by 250 mg every four to seven days until control is achieved with minimal side effects. Dosages exceeding 1.5 g daily, in divided doses, should be administered only under the strictest supervision of the physician. The <content styleCode="italics">optimal</content> dose for most pediatric patients is 20 mg/kg/day. This dose has given average plasma levels within the accepted therapeutic range of 40 to 100 mcg/mL. Subsequent dose schedules can be based on effectiveness and plasma level determinations.</paragraph>
+                  <paragraph>Ethosuximide may be administered in combination with other anticonvulsants when other forms of epilepsy coexist with absence (petit mal). The <content styleCode="italics">optimal</content> dose for most pediatric patients is 20 mg/kg/day.</paragraph>
+               </text>
+               <effectiveTime value="20211116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID23">
+               <id root="abf14530-35c8-4c5b-a44f-41175a8d568f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph ID="ID24">Ethosuximide Capsules USP, 250 mg supplied as orange coloured, oblong shaped soft gelatin capsules printed with "250" in white ink, containing colourless to orange colour viscous liquid.</paragraph>
+                  <paragraph>NDC: 64380-878-06: Bottles of 100. Each capsule contains 250 mg ethosuximide.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 25° C (77° F); excursions permitted to 15–30° C (59–86° F) [see USP Controlled Room Temperature].</content>
+                  </paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Strides Pharma Science Ltd.</content>
+                  </paragraph>
+                  <paragraph>Bengaluru - 562106 India        </paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Strides Pharma Inc.</content>
+                  </paragraph>
+                  <paragraph>East Brunswick, NJ 08816</paragraph>
+                  <paragraph>Revised: 05/2022</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Medication Guide available at:</content> www.strides.com/medication-guides</paragraph>
+               </text>
+               <effectiveTime value="20221122"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID25">
+               <id root="8c36929f-f40e-450a-b6bb-18a7024f16a4"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <title>MEDICATION GUIDE</title>
+               <text>
+                  <paragraph ID="ID26">
+                     <content styleCode="bold">Ethosuximide Capsules, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Eth" oh sux' i mide)</content>
+                  </paragraph>
+                  <paragraph>Read this Medication Guide before you start taking ethosuximide and each time you get a refill. There may be new information. This information does not take the place of talking to your healthcare provider about your medical condition or treatment. If you have any questions about ethosuximide, ask your healthcare provider or pharmacist.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about ethosuximide?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not stop taking ethosuximide without first talking to your healthcare provider.</content>
+                  </paragraph>
+                  <paragraph>Stopping ethosuximide suddenly can cause serious problems.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ethosuximide can cause serious side effects, including:</content>
+                  </paragraph>
+                  <paragraph ID="ID60">
+                     <content styleCode="bold">1.   Rare but serious blood problems that may be life-threatening.</content> Call your healthcare provider right away if you have: </paragraph>
+                  <list listType="unordered" ID="ID27" styleCode="Disc">
+                     <item>fever, swollen glands, or sore throat that come and go or do not go away</item>
+                     <item>frequent infections or an infection that does not go away</item>
+                     <item>easy bruising</item>
+                     <item>red or purple spots on your body</item>
+                     <item>bleeding gums or nose bleeds</item>
+                     <item>severe fatigue or weakness</item>
+                  </list>
+                  <paragraph ID="ID28">
+                     <content styleCode="bold">2.     </content>
+                     <content styleCode="bold">Drug reactions that may affect different parts of the body such as your liver, kidneys, heart, or blood cells.</content> You may or may not have a rash with these types of reactions. These reactions can be very serious and can cause death. Call your healthcare provider right away if you have any of these symptoms:</paragraph>
+                  <list listType="unordered" ID="ID29" styleCode="Disc">
+                     <item>joint pain and swelling</item>
+                     <item>muscle pain</item>
+                     <item>fatigue, weakness</item>
+                     <item>low-grade fever</item>
+                     <item>pain in the chest that is worse with breathing</item>
+                     <item>skin rash</item>
+                     <item>swollen lymph glands</item>
+                     <item>swelling of your face</item>
+                     <item>yellowing of your skin or the white part of your eyes</item>
+                  </list>
+                  <paragraph ID="ID30">
+                     <content styleCode="bold">3.   Like other antiepileptic drugs, ethosuximide may cause suicidal thoughts or actions in a very small number of people, about 1 in 500.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">      Call a healthcare provider right away if you have any of these symptoms, especially if they are new, worse, or worry you</content>:</paragraph>
+                  <list listType="unordered" ID="ID31" styleCode="Disc">
+                     <item>thoughts about suicide or dying</item>
+                     <item>attempts to commit suicide</item>
+                     <item>new or worse depression</item>
+                     <item>new or worse anxiety</item>
+                     <item>feeling agitated or restless</item>
+                     <item>panic attacks</item>
+                     <item>trouble sleeping (insomnia)</item>
+                     <item>new or worse irritability</item>
+                     <item>acting aggressive, being angry, or violent</item>
+                     <item>acting on dangerous impulses</item>
+                     <item>an extreme increase in activity and talking (mania)</item>
+                     <item>other unusual changes in behavior or mood</item>
+                  </list>
+                  <paragraph ID="ID32">
+                     <content styleCode="bold">How can I watch for early symptoms of suicidal thoughts and actions?</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID33" styleCode="Disc">
+                     <item>Pay attention to any changes, especially sudden changes, in mood, behaviors, thoughts, or feelings.</item>
+                     <item>Keep all follow-up visits with your healthcare provider as scheduled.</item>
+                  </list>
+                  <paragraph ID="ID34">Call your healthcare provider between visits as needed, especially if you are worried about symptoms.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not stop ethosuximide without first talking to a healthcare provider.</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID35" styleCode="Disc">
+                     <item>Stopping ethosuximide suddenly can cause serious problems.</item>
+                     <item>Stopping a seizure medicine suddenly in a patient who has epilepsy can cause seizures that will not stop (status epilepticus).</item>
+                  </list>
+                  <paragraph ID="ID36">Suicidal thoughts or actions can be caused by things other than medicines. If you have suicidal thoughts or actions, your healthcare provider may check for other causes.</paragraph>
+                  <paragraph> </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is ethosuximide? </content>
+                  </paragraph>
+                  <paragraph>Ethosuximide is a prescription medicine used to treat absence (petit mal) seizures.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Who should not take ethosuximide capsules? </content>
+                  </paragraph>
+                  <paragraph>Do not take ethosuximide capsules if you are allergic to succinimides (methsuximide or ethosuximide), or any of the ingredients in ethosuximide capsules. See the end of this Medication Guide for a complete list of ingredients in ethosuximide capsules.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What should I tell my healthcare provider before taking ethosuximide? </content>
+                  </paragraph>
+                  <paragraph>Before you take ethosuximide, tell your healthcare provider if you: </paragraph>
+                  <list listType="unordered" ID="ID37" styleCode="Disc">
+                     <item>have or had liver problems</item>
+                     <item>have or have had depression, mood problems or suicidal thoughts or behavior</item>
+                     <item>have any other medical conditions</item>
+                     <item>are pregnant or plan to become pregnant. It is not known if ethosuximide can harm your unborn baby. Tell your healthcare provider right away if you become pregnant while taking ethosuximide. You and your healthcare provider should decide if you should take ethosuximide while you are pregnant.</item>
+                  </list>
+                  <paragraph ID="ID54">If you become pregnant while taking ethosuximide, talk to your healthcare provider about registering with the North American Antiepileptic Drug (NAAED) Pregnancy Registry. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. You can enroll in this registry by calling 1-888-233-2334.</paragraph>
+                  <list listType="unordered" ID="ID55" styleCode="Disc">
+                     <item>are breast-feeding or plan to breast-feed. It is not known if ethosuximide can pass into breast milk. You and your healthcare provider should decide how you will feed your baby while you take ethosuximide.</item>
+                  </list>
+                  <paragraph ID="ID38">Tell your healthcare provider about all the medicines you take, including prescription and non-prescription medicines, vitamins, and herbal supplements. Taking ethosuximide with certain other medicines can cause side effects or affect how well they work. Do not start or stop other medicines without talking to your healthcare provider.</paragraph>
+                  <paragraph>Know the medicines you take. Keep a list of them with you to show your healthcare provider and pharmacist when you get a new medicine.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I take ethosuximide?</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID39" styleCode="Disc">
+                     <item>Take ethosuximide exactly as prescribed. Your healthcare provider will tell you how much ethosuximide to take.</item>
+                     <item>Your healthcare provider may change your dose. Do not change your dose of ethosuximide without talking to your healthcare provider.</item>
+                     <item>If you take too much ethosuximide, call your healthcare provider or your local Poison Control Center right away.</item>
+                  </list>
+                  <paragraph ID="ID40">
+                     <content styleCode="bold">What should I avoid while taking ethosuximide?</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID41" styleCode="Disc">
+                     <item>Do not drink alcohol or take other medicines that make you sleepy or dizzy while taking ethosuximide without first talking to your healthcare provider. Ethosuximide taken with alcohol or medicines that cause sleepiness or dizziness may make your sleepiness or dizziness worse.</item>
+                  </list>
+                  <list listType="unordered" ID="ID56" styleCode="Disc">
+                     <item>
+                        <content styleCode="xmChange">Do not drive, operate heavy machinery, or do other dangerous activities until you know how ethosuximide affects you. Ethosuximide can slow your thinking and motor skills.</content>
+                     </item>
+                  </list>
+                  <paragraph ID="ID42">
+                     <content styleCode="bold">What are the possible side effects of ethosuximide?</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID43" styleCode="Disc">
+                     <item>
+                        <content styleCode="bold">See "What is the most important information I should know about ethosuximide?"</content>
+                     </item>
+                  </list>
+                  <paragraph ID="ID44">Ethosuximide may cause other serious side effects, including:</paragraph>
+                  <list listType="unordered" ID="ID45" styleCode="Disc">
+                     <item>Serious allergic reactions. Call your healthcare provider right away if you have any of these symptoms:</item>
+                  </list>
+                  <list listType="unordered" ID="ID57" styleCode="Disc">
+                     <item>skin rash</item>
+                     <item>hives</item>
+                     <item>sores in your mouth</item>
+                     <item>blistering or peeling skin</item>
+                  </list>
+                  <list listType="unordered" ID="ID58" styleCode="Disc">
+                     <item>Changes in thinking, mood, or behavior. Some patients may get abnormally suspicious thoughts, hallucinations (seeing or hearing things that are not there), or delusions (false thoughts or beliefs).</item>
+                     <item>Grand mal seizures can happen more often or become worse</item>
+                  </list>
+                  <paragraph ID="ID46">
+                     <content styleCode="bold">Call your healthcare provider right away, if you have any of the symptoms listed above.</content>
+                  </paragraph>
+                  <paragraph>The most common side effects of ethosuximide include</paragraph>
+                  <list listType="unordered" ID="ID47" styleCode="Disc">
+                     <item>nausea or vomiting</item>
+                     <item>indigestion, stomach pain</item>
+                     <item>diarrhea</item>
+                     <item>weight loss</item>
+                     <item>loss of appetite</item>
+                     <item>hiccups</item>
+                     <item>fatigue</item>
+                     <item>dizziness or lightheadedness</item>
+                     <item>unsteadiness when walking</item>
+                     <item>headache</item>
+                     <item>loss of concentration</item>
+                  </list>
+                  <paragraph ID="ID48">Tell your healthcare provider about any side effect that bothers you or that does not go away.</paragraph>
+                  <paragraph>These are not all the possible side effects with ethosuximide. For more information, ask your healthcare provider or pharmacist.</paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800- FDA-1088.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I store ethosuximide?</content>
+                  </paragraph>
+                  <list listType="unordered" ID="ID49" styleCode="Disc">
+                     <item>  Store ethosuximide capsules at room temperature, between 59°F to 86°F (15°C to 30°C).</item>
+                  </list>
+                  <paragraph ID="ID50">
+                     <content styleCode="bold">Keep ethosuximide and all medicines out of the reach of children.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General information about ethosuximide</content>
+                  </paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use ethosuximide for a condition for which it was not prescribed. Do not give ethosuximide to other people, even if they have the same condition. It may harm them.</paragraph>
+                  <paragraph>This Medication Guide summarizes the most important information about ethosuximide. If you would like more information, talk with your healthcare provider. You can ask your healthcare provider or pharmacist for information about ethosuximide that is written for healthcare professionals.</paragraph>
+                  <paragraph>For more information, go to www.strides.com or call 1-877-244-9825.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the ingredients in ethosuximide?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Active ingredient:</content> ethosuximide</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Capsules</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Inactive ingredients:</content> D &amp; C yellow No. 10, FD &amp; C red # 3, gelatin, glycerin, isopropyl alcohol, lecithin, medium chain triglyceride, polyethylene glycol 400, and sorbitol solution.</paragraph>
+                  <paragraph>Printing ink white IH-edible oil: Dewaxed Bleached Shellac Resins, Isopropyl Alcohol, Propylene Glycol, Sodium lauryl Sulphate and Titanium Dioxide.</paragraph>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Strides Pharma Science Limited</content>
+                  </paragraph>
+                  <paragraph>Bengaluru - 562106 India</paragraph>
+                  <paragraph>Distributed by:  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Strides Pharma Inc.</content>
+                  </paragraph>
+                  <paragraph>East Brunswick, NJ 08816</paragraph>
+                  <paragraph>Revised: 05/2022</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Medication Guide available at</content>: www.strides.com/medication-guides</paragraph>
+               </text>
+               <effectiveTime value="20221122"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID51">
+               <id root="e165c84d-8d5e-4ab0-9f1a-1ad722c083fd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL- 250 mg Capsule Bottle Label</title>
+               <text>
+                  <paragraph ID="ID52">NDC 64380-878-06</paragraph>
+                  <paragraph>Ethosuximide Capsules, USP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">250 mg</content>
+                  </paragraph>
+                  <paragraph>PHARMACIST: Dispense the enclosed Medication Guide to each patient.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Strides Pharma Inc.</content>
+                  </paragraph>
+                  <paragraph>100 Capsules</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20221122"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>100s container label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="6f135052-6c5c-4aa1-9449-aab2d197627b-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

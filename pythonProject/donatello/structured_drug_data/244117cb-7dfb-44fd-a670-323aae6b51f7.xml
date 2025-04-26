@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="244117cb-7dfb-44fd-a670-323aae6b51f7"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Cefuroxime for Injection, USP
+</title>
+   <effectiveTime value="20250204"/>
+   <setId root="0a145288-733a-4966-b7ae-dc96eb103d8c"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="080579617" root="1.3.6.1.4.1.519.1"/>
+            <name>Sagent Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="94b888a1-28a6-44b0-9022-e41bb8aff7af"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250204"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="25021-118" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cefuroxime sodium</name>
+                        <formCode code="C42974" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Cefuroxime sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="750" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="R8A7M9MY61" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>cefuroxime sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="O1R9FJ93ED" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>cefuroxime</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="25" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25021-118-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20160901"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160901"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA064125" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="25021-119" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cefuroxime sodium</name>
+                        <formCode code="C42974" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Cefuroxime sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="1.5" unit="g"/>
+                              <denominator value="16" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="R8A7M9MY61" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>cefuroxime sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="O1R9FJ93ED" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>cefuroxime</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="16" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="25" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25021-119-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20160901"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160901"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA064125" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="51f900c3-20da-4016-b17b-6844d7850deb"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>SAGENT<sup>®</sup>
+                     <br/>Rx only
+</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Cefuroxime for Injection and other antibacterial drugs, Cefuroxime for Injection should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.
+</paragraph>
+               </text>
+               <effectiveTime value="20160516"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="292ac5f3-327a-41ec-9819-1d59f5b33ba2"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Cefuroxime is a sterile semisynthetic, broad-spectrum, cephalosporin antibiotic for parenteral administration. It is the sodium salt of (6R,7R)-3-[(carbamoyloxy)methyl]-7-[[(Z)-(furan-2-yl) (methoxyimino)acetyl] amino]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate, and it has the following chemical structure:
+</paragraph>
+                  <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                  <paragraph>The empirical formula is C<sub>16</sub>H<sub>15</sub>N<sub>4</sub>NaO<sub>8</sub>S, representing a molecular weight of 446.37.
+</paragraph>
+                  <paragraph>Cefuroxime for Injection, USP contains approximately 54.2 mg (2.4 mEq) of sodium per gram of cefuroxime activity.
+</paragraph>
+                  <paragraph>Cefuroxime for Injection, USP in sterile crystalline form is supplied in vials equivalent to 750 mg or 1.5 g of cefuroxime as cefuroxime sodium. Solutions of Cefuroxime for Injection, USP range in color from light yellow to amber, depending on the concentration and diluent used. The pH of freshly constituted solutions usually ranges from 6 to 8.5.
+</paragraph>
+               </text>
+               <effectiveTime value="20210624"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Chemical Structure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cef0c-0009-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="6d58c7d6-b098-4824-a4db-1148b3f8446e"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY
+</title>
+               <text>
+                  <paragraph>After intramuscular (IM) injection of a 750-mg dose of cefuroxime to normal volunteers, the mean peak serum concentration was 27 mcg/mL. The peak occurred at approximately 45 minutes (range, 15 to 60 minutes). Following IV doses of 750 mg and 1.5 g, serum concentrations were approximately 50 and 100 mcg/mL, respectively, at 15 minutes. Therapeutic serum concentrations of approximately 2 mcg/mL or more were maintained for 5.3 hours and 8 hours or more, respectively. There was no evidence of accumulation of cefuroxime in the serum following IV administration of 1.5-g doses every 8 hours to normal volunteers. The serum half-life after either IM or IV injections is approximately 80 minutes.
+</paragraph>
+                  <paragraph>Approximately 89% of a dose of cefuroxime is excreted by the kidneys over an 8-hour period, resulting in high urinary concentrations.
+</paragraph>
+                  <paragraph>Following the IM administration of a 750-mg single dose, urinary concentrations averaged 1,300 mcg/mL during the first 8 hours. Intravenous doses of 750 mg and 1.5 g produced urinary levels averaging 1,150 and 2,500 mcg/mL, respectively, during the first 8-hour period.
+</paragraph>
+                  <paragraph>The concomitant oral administration of probenecid with cefuroxime slows tubular secretion, decreases renal clearance by approximately 40%, increases the peak serum level by approximately 30%, and increases the serum half-life by approximately 30%. Cefuroxime is detectable in therapeutic concentrations in pleural fluid, joint fluid, bile, sputum, bone, and aqueous humor.
+</paragraph>
+                  <paragraph>Cefuroxime is detectable in therapeutic concentrations in cerebrospinal fluid (CSF) of adults and pediatric patients with meningitis. The following table shows the concentrations of cefuroxime achieved in cerebrospinal fluid during multiple dosing of patients with meningitis.
+</paragraph>
+                  <table ID="t1" width="100%">
+                     <caption>Table 1. Concentrations of Cefuroxime Achieved in Cerebrospinal Fluid During Multiple Dosing of Patients with Meningitis
+</caption>
+                     <col width="25.000%" align="left"/>
+                     <col width="28.850%" align="left"/>
+                     <col width="15.775%" align="left"/>
+                     <col width="30.375%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="bottom" styleCode="Toprule Botrule Lrule Rrule">
+                              <br/>
+                              <br/>
+                              <br/>
+                              <content styleCode="bold">Patients</content>
+                           </td>
+                           <td align="center" valign="bottom" styleCode="Toprule Botrule Rrule">
+                              <br/>
+                              <br/>
+                              <br/>
+                              <content styleCode="bold">Dose</content>
+                           </td>
+                           <td align="center" valign="bottom" styleCode="Toprule Botrule Rrule">
+                              <br/>
+                              <br/>
+                              <content styleCode="bold">Number of Patients</content>
+                           </td>
+                           <td align="center" valign="bottom" styleCode="Toprule Botrule Rrule">
+                              <content styleCode="bold">Mean (Range) CSF Cefuroxime</content>
+                              <br/>
+                              <content styleCode="bold">Concentrations (mcg/mL) Achieved Within 8 Hours</content>
+                              <br/>
+                              <content styleCode="bold">Post Dose</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="middle" styleCode="Lrule Rrule">Pediatric patients<br/>(4 weeks to 6.5 years)
+</td>
+                           <td align="center" valign="middle" styleCode="Rrule">200 mg/kg/day,<br/>divided q 6 hours
+</td>
+                           <td align="center" valign="top" styleCode="Rrule">5
+</td>
+                           <td align="center" valign="middle" styleCode="Rrule">6.6<br/>(0.9 to 17.3)
+</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="middle" styleCode="Lrule Rrule"/>
+                           <td align="center" valign="middle" styleCode="Rrule"/>
+                           <td align="center" valign="middle" styleCode="Rrule"/>
+                           <td align="center" valign="middle" styleCode="Rrule"/>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Lrule Rrule">Pediatric patients<br/>(7 months to 9 years)
+</td>
+                           <td align="center" valign="top" styleCode="Rrule">200 to 230 mg/kg/day, divided q 8 hours
+</td>
+                           <td align="center" valign="top" styleCode="Rrule">6
+</td>
+                           <td align="center" valign="top" styleCode="Rrule">8.3<br/>(&lt; 2 to 22.5)
+</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="middle" styleCode="Lrule Rrule"/>
+                           <td align="center" valign="middle" styleCode="Rrule"/>
+                           <td align="center" valign="middle" styleCode="Rrule"/>
+                           <td align="center" valign="middle" styleCode="Rrule"/>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Lrule Rrule">Adults
+</td>
+                           <td align="center" valign="top" styleCode="Rrule">1.5 grams q 8 hours
+</td>
+                           <td align="center" valign="top" styleCode="Rrule">2
+</td>
+                           <td align="center" valign="middle" styleCode="Rrule">5.2<br/>(2.7 to 8.9)
+</td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Lrule Rrule"/>
+                           <td align="center" valign="top" styleCode="Rrule"/>
+                           <td align="center" valign="top" styleCode="Rrule"/>
+                           <td align="center" valign="middle" styleCode="Rrule"/>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top" styleCode="Botrule Lrule Rrule">Adults
+</td>
+                           <td align="center" valign="top" styleCode="Botrule Rrule">1.5 grams q 6 hours
+</td>
+                           <td align="center" valign="top" styleCode="Botrule Rrule">10
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">6<br/>(1.5 to 13.5)
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Cefuroxime is approximately 50% bound to serum protein.
+</paragraph>
+               </text>
+               <effectiveTime value="20200720"/>
+               <component>
+                  <section ID="s4">
+                     <id root="4103646e-0e2d-46ac-aeaa-79c5419650c6"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>Microbiology
+</title>
+                     <effectiveTime value="20160516"/>
+                     <component>
+                        <section ID="s5">
+                           <id root="4880aaf9-8a2c-493e-9c21-6c29fde045ed"/>
+                           <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                           <title>Mechanism of Action
+</title>
+                           <text>
+                              <paragraph>Cefuroxime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefuroxime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20160516"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s6">
+                           <id root="51be23f9-3541-49a2-8d16-ead10e39f9ec"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Mechanism of Resistance
+</title>
+                           <text>
+                              <paragraph>Resistance to cefuroxime is primarily through hydrolysis by beta-lactamase, alteration of penicillin-binding proteins (PBPs), and decreased permeability.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210624"/>
+                           <component>
+                              <section ID="s7">
+                                 <id root="48a7f930-2310-4d39-a1ec-836eab0392d3"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Interaction with Other Antimicrobials
+</title>
+                                 <text>
+                                    <paragraph>In an <content styleCode="italics">in vitro</content> study antagonistic effects have been observed with the combination of chloramphenicol and cefuroxime.
+</paragraph>
+                                    <paragraph>Cefuroxime has been shown to be active against most isolates of the following bacteria, both <content styleCode="italics">in vitro</content> and in clinical infections as described in the <content styleCode="bold">
+                                          <linkHtml href="#s12">INDICATIONS AND USAGE</linkHtml>
+                                       </content> section:
+</paragraph>
+                                    <paragraph>
+                                       <content styleCode="underline">Gram-negative bacteria</content>
+                                    </paragraph>
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>
+                                          <content styleCode="italics">Enterobacter</content> spp.
+</item>
+                                       <item>
+                                          <content styleCode="italics">Escherichia coli</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="italics">Klebsiella</content> spp.
+</item>
+                                       <item>
+                                          <content styleCode="italics">Haemophilus influenzae</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="italics">Neisseria meningitidis</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="italics">Neisseria gonorrhoeae</content>
+                                       </item>
+                                    </list>
+                                    <paragraph>
+                                       <content styleCode="underline">Gram-positive bacteria</content>
+                                    </paragraph>
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>
+                                          <content styleCode="italics">Staphylococcus aureus</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="italics">Streptococcus pneumoniae</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="italics">Streptococcus pyogenes</content>
+                                       </item>
+                                    </list>
+                                    <paragraph>The following <content styleCode="italics">in vitro</content> data are available, but their clinical significance is unknown. At least 90 percent of the following bacteria exhibit an <content styleCode="italics">in vitro</content> minimum inhibitory concentration (MIC) less than or equal to the susceptible breakpoint for cefuroxime against isolates of similar genus or organism group. However, the efficacy of cefuroxime in treating clinical infections caused by these bacteria has not been established in adequate and well-controlled clinical trials.
+</paragraph>
+                                    <paragraph>
+                                       <content styleCode="underline">Gram-negative bacteria</content>
+                                    </paragraph>
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>
+                                          <content styleCode="italics">Citrobacter</content> spp.
+</item>
+                                       <item>
+                                          <content styleCode="italics">Providencia rettgeri</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="italics">Haemophilus parainfluenzae</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="italics">Proteus mirabilis</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="italics">Moraxella catarrhalis</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="italics">Morganella morganii</content>
+                                       </item>
+                                       <item>
+                                          <content styleCode="italics">Salmonella</content> spp.
+</item>
+                                       <item>
+                                          <content styleCode="italics">Shigella</content> spp.
+</item>
+                                    </list>
+                                    <paragraph>
+                                       <content styleCode="underline">Gram-positive bacteria</content>
+                                    </paragraph>
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>
+                                          <content styleCode="italics">Staphylococcus epidermidis</content>
+                                       </item>
+                                    </list>
+                                 </text>
+                                 <effectiveTime value="20210624"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s8">
+                           <id root="28a677e8-45aa-4c20-83eb-c30236ad2e0d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Susceptibility Testing
+</title>
+                           <text>
+                              <paragraph>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20181024"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s12">
+               <id root="e8dd6878-e65c-423c-a838-d7dd504893b7"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>Cefuroxime for Injection, USP is indicated for the treatment of patients with infections caused by susceptible strains of the designated organisms in the following diseases:
+</paragraph>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>
+                        <content styleCode="bold"> Lower Respiratory Tract Infections</content>, including pneumonia, caused by <content styleCode="italics">Streptococcus pneumoniae, Haemophilus influenzae</content> (including ampicillin-resistant strains), <content styleCode="italics">Klebsiella</content> spp., <content styleCode="italics">Staphylococcus aureus</content> (penicillinase- and non-penicillinase- producing strains), <content styleCode="italics">Streptococcus pyogenes</content>, and <content styleCode="italics">Escherichia coli</content>.
+</item>
+                     <item>
+                        <content styleCode="bold"> Urinary Tract Infections</content> caused by <content styleCode="italics">Escherichia coli</content> and <content styleCode="italics">Klebsiella spp.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold"> Skin and Skin-Structure Infections</content> caused by <content styleCode="italics">Staphylococcus aureus</content> (penicillinase- and non-penicillinase-producing strains), <content styleCode="italics">Streptococcus pyogenes</content>, <content styleCode="italics">Escherichia coli, Klebsiella</content> spp., and <content styleCode="italics">Enterobacter</content> spp.
+</item>
+                     <item>
+                        <content styleCode="bold"> Septicemia</content> caused by <content styleCode="italics">Staphylococcus aureus</content> (penicillinase- and non-penicillinase- producing strains), <content styleCode="italics">Streptococcus pneumoniae, Escherichia coli, Haemophilus influenzae</content> (including ampicillin-resistant strains), and <content styleCode="italics">Klebsiella spp.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold"> Meningitis</content> caused by <content styleCode="italics">Streptococcus pneumoniae, Haemophilus influenzae</content> (including ampicillin-resistant strains), <content styleCode="italics">Neisseria meningitidis</content>, and <content styleCode="italics">Staphylococcus aureus</content> (penicillinase- and non-penicillinase-producing strains).
+</item>
+                     <item>
+                        <content styleCode="bold"> Gonorrhea:</content> Uncomplicated and disseminated gonococcal infections due to <content styleCode="italics">Neisseria gonorrhoeae</content> (penicillinase- and non-penicillinase-producing strains) in both males and females.
+</item>
+                     <item>
+                        <content styleCode="bold"> Bone and Joint Infections</content> caused by <content styleCode="italics">Staphylococcus aureus</content> (penicillinase- and non- penicillinase-producing strains).
+</item>
+                  </list>
+                  <paragraph>Clinical microbiological studies in skin and skin-structure infections frequently reveal the growth of susceptible strains of both aerobic and anaerobic organisms. Cefuroxime for Injection, USP has been used successfully in these mixed infections in which several organisms have been isolated.
+</paragraph>
+                  <paragraph>In certain cases of confirmed or suspected gram-positive or gram-negative sepsis or in patients with other serious infections in which the causative organism has not been identified, Cefuroxime for Injection, USP may be used concomitantly with an aminoglycoside (see <content styleCode="bold">
+                        <linkHtml href="#s16">PRECAUTIONS</linkHtml>
+                     </content>). The recommended doses of both antibiotics may be given depending on the severity of the infection and the patient's condition.
+</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Cefuroxime for Injection, USP and other antibacterial drugs, Cefuroxime for Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.
+</paragraph>
+               </text>
+               <effectiveTime value="20160516"/>
+               <component>
+                  <section ID="s13">
+                     <id root="7ec0e6b3-ac00-48bc-9273-bc6aa9771758"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Prevention
+</title>
+                     <text>
+                        <paragraph>The preoperative prophylactic administration of Cefuroxime for Injection, USP may prevent the growth of susceptible disease-causing bacteria and thereby may reduce the incidence of certain postoperative infections in patients undergoing surgical procedures (e.g., vaginal hysterectomy) that are classified as clean-contaminated or potentially contaminated procedures. Effective prophylactic use of antibiotics in surgery depends on the time of administration. Cefuroxime for Injection, USP should usually be given one-half to 1 hour before the operation to allow sufficient time to achieve effective antibiotic concentrations in the wound tissues during the procedure. The dose should be repeated intraoperatively if the surgical procedure is lengthy.
+</paragraph>
+                        <paragraph>Prophylactic administration is usually not required after the surgical procedure ends and should be stopped within 24 hours. In the majority of surgical procedures, continuing prophylactic administration of any antibiotic does not reduce the incidence of subsequent infections but will increase the possibility of adverse reactions and the development of bacterial resistance.
+</paragraph>
+                        <paragraph>The perioperative use of Cefuroxime for Injection, USP has also been effective during open heart surgery for surgical patients in whom infections at the operative site would present a serious risk. For these patients it is recommended that therapy with Cefuroxime for Injection, USP be continued for at least 48 hours after the surgical procedure ends. If an infection is present, specimens for culture should be obtained for the identification of the causative organism, and appropriate antimicrobial therapy should be instituted.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s14">
+               <id root="3933de51-4442-4771-a547-2dd45a20b732"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>Cefuroxime for Injection is contraindicated in patients with known allergy to the cephalosporin group of antibiotics.
+</paragraph>
+               </text>
+               <effectiveTime value="20160516"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s15">
+               <id root="c5f96298-f64c-477c-af0a-c51b2b07bf56"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS
+</title>
+               <text>
+                  <paragraph>BEFORE THERAPY WITH CEFUROXIME FOR INJECTION IS INSTITUTED, CAREFUL INQUIRY SHOULD BE MADE TO DETERMINE WHETHER THE PATIENT HAS HAD PREVIOUS HYPERSENSITIVITY REACTIONS TO CEPHALOSPORINS, PENICILLINS, OR OTHER DRUGS. THIS PRODUCT SHOULD BE GIVEN CAUTIOUSLY TO PENICILLIN-SENSITIVE PATIENTS. ANTIBIOTICS SHOULD BE ADMINISTERED WITH CAUTION TO ANY PATIENT WHO HAS DEMONSTRATED SOME FORM OF ALLERGY, PARTICULARLY TO DRUGS. IF AN ALLERGIC REACTION TO CEFUROXIME FOR INJECTION OCCURS, DISCONTINUE THE DRUG. SERIOUS ACUTE HYPERSENSITIVITY REACTIONS MAY REQUIRE EPINEPHRINE AND OTHER EMERGENCY MEASURES.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Clostridioides difficile</content> associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including Cefuroxime for Injection, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">C. difficile</content> produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile</content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.
+</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.
+</paragraph>
+                  <paragraph>When the colitis is not relieved by drug discontinuation or when it is severe, oral vancomycin is the treatment of choice for antibiotic-associated pseudomembranous colitis produced by <content styleCode="italics">Clostridioides difficile</content>. Other causes of colitis should also be considered.
+</paragraph>
+               </text>
+               <effectiveTime value="20210624"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s16">
+               <id root="e4345507-eb8e-495b-85fb-e573aecdce0d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS
+</title>
+               <effectiveTime value="20200720"/>
+               <component>
+                  <section ID="s17">
+                     <id root="88c679de-0a51-462f-ab0c-5a6d2979d907"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General
+</title>
+                     <text>
+                        <paragraph>Although Cefuroxime for Injection rarely produces alterations in kidney function, evaluation of renal status during therapy is recommended, especially in seriously ill patients receiving the maximum doses. Cephalosporins should be given with caution to patients receiving concurrent treatment with potent diuretics as these regimens are suspected of adversely affecting renal function.
+</paragraph>
+                        <paragraph>The total daily dose of Cefuroxime for Injection should be reduced in patients with transient or persistent renal insufficiency (see <content styleCode="bold">
+                              <linkHtml href="#s36">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>), because high and prolonged serum antibiotic concentrations can occur in such individuals from usual doses.
+</paragraph>
+                        <paragraph>As with other antibiotics, prolonged use of Cefuroxime for Injection may result in overgrowth of nonsusceptible organisms. Careful observation of the patient is essential. If superinfection occurs during therapy, appropriate measures should be taken.
+</paragraph>
+                        <paragraph>Broad-spectrum antibiotics should be prescribed with caution in individuals with a history of gastrointestinal disease, particularly colitis.
+</paragraph>
+                        <paragraph>Nephrotoxicity has been reported following concomitant administration of aminoglycoside antibiotics and cephalosporins.
+</paragraph>
+                        <paragraph>As with other therapeutic regimens used in the treatment of meningitis, mild-to-moderate hearing loss has been reported in a few pediatric patients treated with cefuroxime. Persistence of positive CSF (cerebrospinal fluid) cultures at 18 to 36 hours has also been noted with cefuroxime injection, as well as with other antibiotic therapies; however, the clinical relevance of this is unknown.
+</paragraph>
+                        <paragraph>Cephalosporins may be associated with a fall in prothrombin activity. Those at risk include patients with renal or hepatic impairment, or poor nutritional state, as well as patients receiving a protracted course of antimicrobial therapy, and patients previously stabilized on anticoagulant therapy. Prothrombin time should be monitored in patients at risk and exogenous Vitamin K administered as indicated.
+</paragraph>
+                        <paragraph>Prescribing Cefuroxime for Injection in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s18">
+                     <id root="996fc06d-91d7-4e3b-8e6d-cb0bae1682cb"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients
+</title>
+                     <text>
+                        <paragraph>Patients should be counseled that antibacterial drugs, including Cefuroxime for Injection should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When Cefuroxime for Injection is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may: (1) decrease the effectiveness of the immediate treatment, and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by Cefuroxime for Injection or other antibacterial drugs in the future.
+</paragraph>
+                        <paragraph>Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as 2 or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s20">
+                     <id root="f9a5bb55-d646-4876-a595-c6ac8dabd28e"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions
+</title>
+                     <text>
+                        <paragraph>A false-positive reaction for glucose in the urine may occur with copper reduction tests (Benedict's or Fehling's solution or with CLINITEST<sup>®</sup> tablets) but not with enzyme-based tests for glycosuria. As a false-negative result may occur in the ferricyanide test, it is recommended that either the glucose oxidase or hexokinase method be used to determine blood plasma glucose levels in patients receiving Cefuroxime for Injection.
+</paragraph>
+                        <paragraph>Cefuroxime does not interfere with the assay of serum and urine creatinine by the alkaline picrate method.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s21">
+                     <id root="fd9d0194-fe09-4c77-8b0d-30b3eed32aba"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>Although lifetime studies in animals have not been performed to evaluate carcinogenic potential, no mutagenic activity was found for cefuroxime in the mouse lymphoma assay and a battery of bacterial mutation tests. Positive results were obtained in an <content styleCode="italics">in vitro</content> chromosome aberration assay; however, negative results were found in an <content styleCode="italics">in vivo</content> micronucleus test at doses up to 10 g/kg. Reproduction studies in mice at doses up to 3,200 mg/kg/day (3.1 times the recommended maximum human dose based on mg/m<sup>2</sup>) have revealed no impairment of fertility.
+</paragraph>
+                        <paragraph>Reproductive studies revealed no impairment of fertility in animals.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200720"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s22">
+                     <id root="177f0df2-fd73-4f7e-b66a-0eac68239f6d"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy
+</title>
+                     <effectiveTime value="20160516"/>
+                     <component>
+                        <section ID="s23">
+                           <id root="14f90e37-44c1-47f0-b1b1-4e45ef4fca09"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects
+</title>
+                           <text>
+                              <paragraph>Pregnancy Category B. Reproduction studies have been performed in mice at doses up to 6,400 mg/kg/day (6.3 times the recommended maximum human dose based on mg/m<sup>2</sup>) and rabbits at doses up to 400 mg/kg/day (2.1 times the recommended maximum human dose based on mg/m<sup>2</sup>) and have revealed no evidence of impaired fertility or harm to the fetus due to cefuroxime. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20160516"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s24">
+                     <id root="bf570791-557e-41e0-b367-629e8dc8fc80"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers
+</title>
+                     <text>
+                        <paragraph>Since cefuroxime is excreted in human milk, caution should be exercised when Cefuroxime for Injection is administered to a nursing woman.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s25">
+                     <id root="54b38b4f-1f5a-4533-a51f-291c580e5693"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use
+</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients below 3 months of age have not been established. Accumulation of other members of the cephalosporin class in newborn infants (with resulting prolongation of drug half-life) has been reported.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s26">
+                     <id root="b60fc6d1-6b65-4879-aa65-a915f00713c6"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use
+</title>
+                     <text>
+                        <paragraph>Of the 1,914 subjects who received cefuroxime in 24 clinical studies of Cefuroxime for Injection, 901 (47%) were 65 years and older while 421 (22%) were 75 years and older. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater susceptibility of some older individuals to drug effects cannot be ruled out. This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function (see <content styleCode="bold">
+                              <linkHtml href="#s36">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s27">
+               <id root="26c373cd-afc8-463b-8f67-dbefb306eadf"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS
+</title>
+               <text>
+                  <paragraph>Cefuroxime for Injection is generally well tolerated. The most common adverse effects have been local reactions following IV administration. Other adverse reactions have been encountered only rarely.
+</paragraph>
+               </text>
+               <effectiveTime value="20160516"/>
+               <component>
+                  <section ID="s28">
+                     <id root="a2aea1fa-2f87-4037-8757-c714f69b74ca"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Local Reactions
+</title>
+                     <text>
+                        <paragraph>Thrombophlebitis has occurred with IV administration in 1 in 60 patients.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s29">
+                     <id root="bbf2dabf-d293-49cc-9e67-7d5f4e6cb826"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal
+</title>
+                     <text>
+                        <paragraph>Gastrointestinal symptoms occurred in 1 in 150 patients and included diarrhea (1 in 220 patients) and nausea (1 in 440 patients). The onset of pseudomembranous colitis may occur during or after antibacterial treatment (see <content styleCode="bold">
+                              <linkHtml href="#s15">WARNINGS</linkHtml>
+                           </content>).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s30">
+                     <id root="c890f0b8-a651-40f4-9ee5-b97079acb0f5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hypersensitivity Reactions
+</title>
+                     <text>
+                        <paragraph>Hypersensitivity reactions have been reported in fewer than 1% of the patients treated with Cefuroxime for Injection and include rash (1 in 125). Pruritus, urticaria, and positive Coombs' test each occurred in fewer than 1 in 250 patients, and, as with other cephalosporins, rare cases of anaphylaxis, drug fever, erythema multiforme, interstitial nephritis, toxic epidermal necrolysis, and Stevens-Johnson syndrome have occurred.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s31">
+                     <id root="a87d1f1f-8765-4afb-968d-8aa1e4a447bd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Blood
+</title>
+                     <text>
+                        <paragraph>A decrease in hemoglobin and hematocrit has been observed in 1 in 10 patients and transient eosinophilia in 1 in 14 patients. Less common reactions seen were transient neutropenia (fewer than 1 in 100 patients) and leukopenia (1 in 750 patients). A similar pattern and incidence were seen with other cephalosporins used in controlled studies. As with other cephalosporins, there have been rare reports of thrombocytopenia.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s32">
+                     <id root="31686c1a-6b7d-4324-bd13-c7e2567a8a97"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hepatic
+</title>
+                     <text>
+                        <paragraph>Transient rise in SGOT and SGPT (1 in 25 patients), alkaline phosphatase (1 in 50 patients), LDH (1 in 75 patients), and bilirubin (1 in 500 patients) levels has been noted.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s33">
+                     <id root="2842ecee-5776-45fd-9449-7c277b9baffa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Kidney
+</title>
+                     <text>
+                        <paragraph>Elevations in serum creatinine and/or blood urea nitrogen and a decreased creatinine clearance have been observed, but their relationship to cefuroxime is unknown.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s34">
+                     <id root="dde49ff0-542b-4ca3-b1fb-46cee9c911d9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Postmarketing Experience with Cefuroxime for Injection
+</title>
+                     <text>
+                        <paragraph>In addition to the adverse events reported during clinical trials, the following events have been observed during clinical practice in patients treated with Cefuroxime for Injection and were reported spontaneously. Data are generally insufficient to allow an estimate of incidence or to establish causation.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">Immune System Disorders:</content> Cutaneous vasculitis, angioedema, acute myocardial ischemia with or without myocardial infarction may occur as part of an allergic reaction.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">Nervous System Disorders:</content> Seizure
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200720"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s35">
+                     <id root="5ca2145c-f088-4651-88c4-52ebe785b70f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cephalosporin-class Adverse Reactions
+</title>
+                     <text>
+                        <paragraph>In addition to the adverse reactions listed above that have been observed in patients treated with cefuroxime, the following adverse reactions and altered laboratory tests have been reported for cephalosporin-class antibiotics:
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">Adverse Reactions</content>
+                        </paragraph>
+                        <paragraph>Vomiting, abdominal pain, colitis, vaginitis including vaginal candidiasis, toxic nephropathy, hepatic dysfunction including cholestasis, aplastic anemia, hemolytic anemia, hemorrhage.
+</paragraph>
+                        <paragraph>Several cephalosporins, including Cefuroxime for Injection, have been implicated in triggering seizures, particularly in patients with renal impairment when the dosage was not reduced (see <content styleCode="bold">
+                              <linkHtml href="#s36">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>). If seizures associated with drug therapy should occur, the drug should be discontinued. Anticonvulsant therapy can be given if clinically indicated.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">Altered Laboratory Tests</content>
+                        </paragraph>
+                        <paragraph>Prolonged prothrombin time, pancytopenia, agranulocytosis.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Sagent Pharmaceuticals, Inc. at 1-866-625-1618 or FDA at 1-800-FDA-1088 or </content>
+                           <content styleCode="bold underline">www.fda.gov/medwatch</content>
+                           <content styleCode="bold">.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="e35">
+               <id root="733e1b2a-6fed-4a3f-ad16-cc869ba2cedf"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE
+</title>
+               <text>
+                  <paragraph>Overdosage of cephalosporins can cause cerebral irritation leading to convulsions. Serum levels of cefuroxime can be reduced by hemodialysis and peritoneal dialysis.
+</paragraph>
+               </text>
+               <effectiveTime value="20160516"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s36">
+               <id root="14cac942-cc6d-479a-b668-17b76222ac26"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION
+</title>
+               <effectiveTime value="20160516"/>
+               <component>
+                  <section ID="s37">
+                     <id root="9a813f19-dfc3-4ae8-9baf-711a8f3f896e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Dosage
+</title>
+                     <effectiveTime value="20160516"/>
+                     <component>
+                        <section ID="s38">
+                           <id root="957984c5-7c38-492b-92cf-a700e3e05da5"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Adults
+</title>
+                           <text>
+                              <paragraph>The usual adult dosage range for Cefuroxime for Injection is 750 mg to 1.5 grams every 8 hours, usually for 5 to 10 days. In uncomplicated urinary tract infections, skin and skin-structure infections, disseminated gonococcal infections, and uncomplicated pneumonia, a 750-mg dose every 8 hours is recommended. In severe or complicated infections, a 1.5-gram dose every 8 hours is recommended.
+</paragraph>
+                              <paragraph>In bone and joint infections, a 1.5-gram dose every 8 hours is recommended. In clinical trials, surgical intervention was performed when indicated as an adjunct to therapy with Cefuroxime for Injection. A course of oral antibiotics was administered when appropriate following the completion of parenteral administration of Cefuroxime for Injection.
+</paragraph>
+                              <paragraph>In life-threatening infections or infections due to less susceptible organisms, 1.5 grams every 6 hours may be required. In bacterial meningitis, the dosage should not exceed 3 grams every 8 hours. The recommended dosage for uncomplicated gonococcal infection is 1.5 grams given intramuscularly as a single dose at 2 different sites together with 1 gram of oral probenecid. For preventive use for clean-contaminated or potentially contaminated surgical procedures, a 1.5-gram dose administered intravenously just before surgery (approximately one-half to 1 hour before the initial incision) is recommended. Thereafter, give 750 mg intravenously or intramuscularly every 8 hours when the procedure is prolonged.
+</paragraph>
+                              <paragraph>For preventive use during open heart surgery, a 1.5-gram dose administered intravenously at the induction of anesthesia and every 12 hours thereafter for a total of 6 grams is recommended.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20160516"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s39">
+                           <id root="a54de9ec-f00c-4609-9565-5619f14c4930"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Impaired Renal Function
+</title>
+                           <text>
+                              <paragraph>A reduced dosage must be employed when renal function is impaired. Dosage should be determined by the degree of renal impairment and the susceptibility of the causative organism (see <content styleCode="italics">
+                                    <linkHtml href="#t2">Table 2</linkHtml>
+                                 </content>).
+</paragraph>
+                              <table ID="t2" width="100%">
+                                 <caption>Table 2. Dosage of Cefuroxime for Injection in Adults with Reduced Renal Function
+</caption>
+                                 <col width="35.200%" align="left"/>
+                                 <col width="31.167%" align="left"/>
+                                 <col width="33.633%" align="left"/>
+                                 <tfoot>
+                                    <tr>
+                                       <td colspan="3" align="left" valign="top">
+                                          <paragraph styleCode="footnote">
+                                             <sup>a</sup> Since Cefuroxime for Injection is dialyzable, patients on hemodialysis should be given a further dose at the end of the dialysis.
+</paragraph>
+                                       </td>
+                                    </tr>
+                                 </tfoot>
+                                 <tbody>
+                                    <tr>
+                                       <td align="center" valign="middle" styleCode="Toprule Botrule Lrule Rrule">
+                                          <content styleCode="bold">Creatinine Clearance (mL/min)</content>
+                                       </td>
+                                       <td align="center" valign="middle" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">Dose</content>
+                                       </td>
+                                       <td align="center" valign="middle" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">Frequency</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="middle" styleCode="Botrule Lrule Rrule">&gt; 20
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">750 mg to 1.5 grams
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">q8h
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="middle" styleCode="Botrule Lrule Rrule">10 to 20
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">750 mg
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">q12h
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="middle" styleCode="Botrule Lrule Rrule">&lt; 10
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">750 mg
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">q24h<sup>a</sup>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>When only serum creatinine is available, the following formula<sup>1</sup> (based on sex, weight, and age of the patient) may be used to convert this value into creatinine clearance. The serum creatinine should represent a steady state of renal function.
+</paragraph>
+                              <paragraph>
+                                 <renderMultiMedia ID="f02" referencedObject="mm02"/>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">NOTE:</content> As with antibiotic therapy in general, administration of Cefuroxime for Injection should be continued for a minimum of 48 to 72 hours after the patient becomes asymptomatic or after evidence of bacterial eradication has been obtained; a minimum of 10 days of treatment is recommended in infections caused by <content styleCode="italics">Streptococcus pyogenes</content> in order to guard against the risk of rheumatic fever or glomerulonephritis; frequent bacteriologic and clinical appraisal is necessary during therapy of chronic urinary tract infection and may be required for several months after therapy has been completed; persistent infections may require treatment for several weeks; and doses smaller than those indicated above should not be used. In staphylococcal and other infections involving a collection of pus, surgical drainage should be carried out where indicated.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210624"/>
+                           <component>
+                              <observationMedia ID="mm02">
+                                 <text>Equation
+</text>
+                                 <value xsi:type="ED" mediaType="image/jpeg">
+                                    <reference value="cef0c-0009-02.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s40">
+                           <id root="23420534-f6a8-4149-8969-05b5ca3ffc8c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Pediatric Patients Above 3 Months of Age
+</title>
+                           <text>
+                              <paragraph>Administration of 50 to 100 mg/kg/day in equally divided doses every 6 to 8 hours has been successful for most infections susceptible to cefuroxime. The higher dosage of 100 mg/kg/day (not to exceed the maximum adult dosage) should be used for the more severe or serious infections.
+</paragraph>
+                              <paragraph>In bone and joint infections, 150 mg/kg/day (not to exceed the maximum adult dosage) is recommended in equally divided doses every 8 hours. In clinical trials, a course of oral antibiotics was administered to pediatric patients following the completion of parenteral administration of Cefuroxime for Injection.
+</paragraph>
+                              <paragraph>In cases of bacterial meningitis, a larger dosage of Cefuroxime for Injection is recommended, 200 to 240 mg/kg/day intravenously in divided doses every 6 to 8 hours.
+</paragraph>
+                              <paragraph>In pediatric patients with renal insufficiency, the frequency of dosing should be modified consistent with the recommendations for adults.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20160516"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s41">
+                     <id root="d5de6722-ac62-426f-abfb-08ee70293804"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preparation of Solution and Suspension
+</title>
+                     <text>
+                        <paragraph>The directions for preparing Cefuroxime for Injection for both IV and IM use are summarized in <content styleCode="italics">
+                              <linkHtml href="#t3">Table 3</linkHtml>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20181024"/>
+                     <component>
+                        <section ID="s42">
+                           <id root="ef29d462-207a-4576-8929-8ec741076cd0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>For Intramuscular Use
+</title>
+                           <text>
+                              <paragraph>Each 750-mg vial of Cefuroxime for Injection should be constituted with 3 mL of Sterile Water for Injection. Shake gently to disperse and withdraw completely the resulting suspension for injection.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20200720"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s43">
+                           <id root="02e38f04-176d-47d4-812d-55d0f7a45591"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>For Intravenous Use
+</title>
+                           <text>
+                              <paragraph>Each 750-mg vial should be constituted with 8.3 mL of Sterile Water for Injection. Withdraw completely the resulting solution for injection.
+</paragraph>
+                              <paragraph>Each 1.5-gram vial should be constituted with 16 mL of Sterile Water for Injection, and the solution should be completely withdrawn for injection.
+</paragraph>
+                              <table ID="t3" width="100%">
+                                 <caption>Table 3. Preparation of Solution and Suspension
+</caption>
+                                 <col width="28.850%" align="left"/>
+                                 <col width="21.150%" align="left"/>
+                                 <col width="19.800%" align="left"/>
+                                 <col width="30.200%" align="left"/>
+                                 <tfoot>
+                                    <tr>
+                                       <td colspan="4" align="left" valign="top">
+                                          <paragraph styleCode="footnote">
+                                             <sup>a</sup> Note: Cefuroxime for Injection is a suspension at IM concentrations.
+</paragraph>
+                                       </td>
+                                    </tr>
+                                 </tfoot>
+                                 <tbody>
+                                    <tr>
+                                       <td align="center" valign="bottom" styleCode="Toprule Botrule Lrule Rrule">
+                                          <content styleCode="bold">Strength</content>
+                                       </td>
+                                       <td align="center" valign="bottom" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">Amount of Diluent to be Added (mL)</content>
+                                       </td>
+                                       <td align="center" valign="bottom" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">Volume to be</content>
+                                          <br/>
+                                          <content styleCode="bold">Withdrawn</content>
+                                       </td>
+                                       <td align="center" valign="bottom" styleCode="Toprule Botrule Rrule">
+                                          <content styleCode="bold">Approximate</content>
+                                          <br/>
+                                          <content styleCode="bold">Cefuroxime</content>
+                                          <br/>
+                                          <content styleCode="bold">Concentration</content>
+                                          <br/>
+                                          <content styleCode="bold">(mg/mL)</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="middle" styleCode="Botrule Lrule Rrule">750-mg Vial
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">3 (IM)
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">Total<sup>a</sup>
+                                       </td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">225
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="middle" styleCode="Botrule Lrule Rrule">750-mg Vial
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">8.3 (IV)
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">Total
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">90
+</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="middle" styleCode="Botrule Lrule Rrule">1.5-gram Vial
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">16 (IV)
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">Total
+</td>
+                                       <td align="center" valign="middle" styleCode="Botrule Rrule">90
+</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20200720"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s44">
+                     <id root="c1ae1fa8-043b-4845-a9e4-aef9809348a3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Administration
+</title>
+                     <text>
+                        <paragraph>After constitution, Cefuroxime for Injection may be given intravenously or by deep IM injection into a large muscle mass (such as the gluteus or lateral part of the thigh). Before injecting intramuscularly, aspiration is necessary to avoid inadvertent injection into a blood vessel.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                     <component>
+                        <section ID="s45">
+                           <id root="957bed4b-69aa-4c52-83c7-f30f014aeb96"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Intravenous Administration
+</title>
+                           <text>
+                              <paragraph>The IV route may be preferable for patients with bacterial septicemia or other severe or life-threatening infections or for patients who may be poor risks because of lowered resistance, particularly if shock is present or impending.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20160516"/>
+                           <component>
+                              <section ID="s46">
+                                 <id root="640718ea-2411-4fa5-ade8-526eda9be2fe"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold italics">For direct intermittent IV administration</content>, slowly inject the solution into a vein over a period of 3 to 5 minutes or give it through the tubing system by which the patient is also receiving other IV solutions.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20160516"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="s47">
+                                 <id root="d109efe3-4dc8-4ba0-8a7a-a8def62a7d34"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold italics">For intermittent IV infusion with a Y-type administration set</content>, dosing can be accomplished through the tubing system by which the patient may be receiving other IV solutions. However, during infusion of the solution containing Cefuroxime for Injection, it is advisable to temporarily discontinue administration of any other solutions at the same site.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20160516"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="s48">
+                                 <id root="9d883a26-dfc8-4ce6-b9a7-00a3a2fbed0d"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold italics">For continuous IV infusion</content>, a solution of Cefuroxime for Injection may be added to an IV infusion pack containing one of the following fluids: 0.9% Sodium Chloride Injection; 5% Dextrose Injection; 10% Dextrose Injection; 5% Dextrose and 0.9% Sodium Chloride Injection; 5% Dextrose and 0.45% Sodium Chloride Injection; or 1/6 M Sodium Lactate Injection.
+</paragraph>
+                                    <paragraph>Solutions of Cefuroxime for Injection, like those of most beta-lactam antibiotics, should not be added to solutions of aminoglycoside antibiotics because of potential interaction.
+</paragraph>
+                                    <paragraph>However, if concurrent therapy with Cefuroxime for Injection and an aminoglycoside is indicated, each of these antibiotics can be administered separately to the same patient.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20160516"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s49">
+               <id root="f0730bf2-4188-47d1-91d6-4ea29f1f6ba7"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>COMPATIBILITY AND STABILITY
+</title>
+               <effectiveTime value="20160516"/>
+               <component>
+                  <section ID="s50">
+                     <id root="8d1fc65d-f5fb-42b5-9b7f-9e60edcd7e1a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Intramuscular
+</title>
+                     <text>
+                        <paragraph>When constituted as directed with Sterile Water for Injection, suspensions of cefuroxime for IM injection maintain satisfactory potency for 24 hours at room temperature and for 48 hours under refrigeration (5°C).
+</paragraph>
+                        <paragraph>After the periods mentioned above any unused suspensions should be discarded.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s51">
+                     <id root="2870efbf-8831-48bf-80b0-d1f3ebb846ec"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Intravenous
+</title>
+                     <text>
+                        <paragraph>When the 750-mg and 1.5-g vials are constituted as directed with Sterile Water for Injection, the solutions of Cefuroxime for Injection for IV administration maintain satisfactory potency for 24 hours at room temperature and for 48 hours (750-mg and 1.5-g vials) under refrigeration (5°C). More dilute solutions, such as 750 mg or 1.5 g plus 100 mL of Sterile Water for Injection, 5% Dextrose Injection, or 0.9% Sodium Chloride Injection, also maintain satisfactory potency for 24 hours at room temperature and for 7 days under refrigeration.
+</paragraph>
+                        <paragraph>These solutions may be further diluted to concentrations of between 1 and 30 mg/mL in the following solutions and will lose not more than 10% activity for 24 hours at room temperature or for at least 7 days under refrigeration: 0.9% Sodium Chloride Injection; 1/6 M Sodium Lactate Injection; Ringer's Injection, USP; Lactated Ringer's Injection, USP; 5% Dextrose and 0.9% Sodium Chloride Injection; 5% Dextrose Injection; 5% Dextrose and 0.45% Sodium Chloride Injection; 5% Dextrose and 0.225% Sodium Chloride Injection; 10% Dextrose Injection; and 10% Invert Sugar in Water for Injection.
+</paragraph>
+                        <paragraph>Unused solutions should be discarded after the time periods mentioned above.
+</paragraph>
+                        <paragraph>Cefuroxime for Injection has also been found compatible for 24 hours at room temperature when admixed in IV infusion with heparin (10 and 50 U/mL) in 0.9% Sodium Chloride Injection and Potassium Chloride (10 and 40 mEq/L) in 0.9% Sodium Chloride Injection. Sodium Bicarbonate Injection, USP is not recommended for the dilution of Cefuroxime for Injection.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200720"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s52">
+                     <id root="237f0806-fc16-4b1c-a7d2-0360f67e91e4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Frozen Stability
+</title>
+                     <text>
+                        <paragraph>Constitute the 750-mg or 1.5-g vial as directed for IV administration in <content styleCode="italics">
+                              <linkHtml href="#t3">Table 3</linkHtml>
+                           </content>. Immediately withdraw the total contents of the 750-mg or 1.5-g vial and add to a compatible container containing 50 or 100 mL of 0.9% Sodium Chloride Injection or 5% Dextrose Injection and freeze. Frozen solutions are stable for 6 months when stored at -20°C. Frozen solutions should be thawed at room temperature and not refrozen. Do not force thaw by immersion in water baths or by microwave irradiation. Thawed solutions may be stored for up to 24 hours at room temperature or for 7 days in a refrigerator.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Note</content>: Parenteral drug products should be inspected visually for particulate matter and discoloration before administration whenever solution and container permit.
+</paragraph>
+                        <paragraph>As with other cephalosporins, Cefuroxime for Injection powder as well as solutions and suspensions tend to darken, depending on storage conditions, without adversely affecting product potency.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20200720"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s53">
+               <id root="9dfb94b4-1d2a-46fe-9808-67610ba54b99"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED
+</title>
+               <text>
+                  <paragraph>Cefuroxime for Injection, USP is supplied as follows:
+</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="24.633%" align="left"/>
+                     <col width="44.167%" align="left"/>
+                     <col width="31.200%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Cefuroxime for Injection, USP</content>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Package Factor</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top">25021-118-10
+</td>
+                           <td align="left" valign="top">750 mg equivalent of cefuroxime
+</td>
+                           <td align="left" valign="top">25 vials per carton
+</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top">in a Single-Dose Vial
+</td>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top"> 
+</td>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top">25021-119-20
+</td>
+                           <td align="left" valign="top">1.5 grams equivalent of cefuroxime
+</td>
+                           <td align="left" valign="top">25 vials per carton
+</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top">in a Single-Dose Vial
+</td>
+                           <td align="left" valign="top"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Cefuroxime for Injection, USP is a dry, white to off-white powder.
+</paragraph>
+               </text>
+               <effectiveTime value="20160516"/>
+               <component>
+                  <section ID="s54">
+                     <id root="6118e362-2d5c-4385-8d2b-024bcc8c8e4c"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage Conditions
+</title>
+                     <text>
+                        <paragraph>Store at 20° to 25°C (68° to 77°F). [See USP Controlled Room Temperature.]
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Protect from light.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Sterile, Nonpyrogenic, Preservative-free.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">The container closure is not made with natural rubber latex.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20160516"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s55">
+               <id root="c84e9342-aaeb-4ece-8172-0edc999bdbfe"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES
+</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Cockcroft DW, Gault MH. Prediction of creatinine clearance from serum creatinine. <content styleCode="italics">Nephron</content>. 1976; 16:31-41.
+</item>
+                  </list>
+                  <paragraph>Brands listed are the trademarks of their respective owners. 
+</paragraph>
+                  <paragraph>SAGENT<sup>®</sup>
+                     <br/>Mfd. for SAGENT Pharmaceuticals<br/>Schaumburg, IL 60195 (USA)<br/>Made in Italy <br/>©2021 Sagent Pharmaceuticals, Inc.
+</paragraph>
+                  <paragraph>Revised: June 2021
+</paragraph>
+                  <paragraph>SAGENT Pharmaceuticals<sup>®</sup>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210624"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s56">
+               <id root="924848b6-ce8c-4693-aad6-78d7531420c6"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Vial Label
+</title>
+               <text>
+                  <paragraph>NDC 25021-119-20
+</paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <paragraph>CEFUROXIME FOR INJECTION, USP
+</paragraph>
+                  <paragraph>1.5 grams per vial
+</paragraph>
+                  <paragraph>Equivalent to 1.5 grams of cefuroxime activity
+</paragraph>
+                  <paragraph>Single-Dose Vial
+</paragraph>
+                  <paragraph>For Intravenous Use
+</paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20210624"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Vial Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cef0c-0009-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s57">
+               <id root="ccc5852e-96f0-43a7-b65c-791648baef06"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Vial Label
+</title>
+               <text>
+                  <paragraph>NDC 25021-118-10
+</paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <paragraph>CEFUROXIME FOR INJECTION, USP
+</paragraph>
+                  <paragraph>750 mg per vial
+</paragraph>
+                  <paragraph>Equivalent to 750 mg of cefuroxime activity
+</paragraph>
+                  <paragraph>Single-Dose Vial
+</paragraph>
+                  <paragraph>For Intravenous or Intramuscular Use
+</paragraph>
+                  <renderMultiMedia ID="f04" referencedObject="mm04"/>
+               </text>
+               <effectiveTime value="20210624"/>
+               <component>
+                  <observationMedia ID="mm04">
+                     <text>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Vial Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cef0c-0009-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

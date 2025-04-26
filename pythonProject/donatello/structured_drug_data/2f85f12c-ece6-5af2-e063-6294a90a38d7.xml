@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2f85f12c-ece6-5af2-e063-6294a90a38d7"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250304"/>
+   <setId root="2f85f12c-ece5-5af2-e063-6294a90a38d7"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="751139942"/>
+            <name>POLIFARMA ILAC SANAYI VE TICARET ANONIM SIRKETI CORLU SUBESI</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="751139942"/>
+                        <name>POLIFARMA ILAC SANAYI VE TICARET ANONIM SIRKETI CORLU SUBESI</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="84879-263" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="84879-263" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="84879-263" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="84879-263" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" displayName="sterilize" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="84879-263" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="308f2d2d-889a-48b9-e063-6294a90a5749"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250304"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="84879-263" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Polifleks</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>0.9% Isotonic Sodium Chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="0.9"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="VR5Y7PDT5W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOTONIC SODIUM CHLORIDE SOLUTION</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="84879-263-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250310"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="84879-263-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250310"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="84879-263-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250310"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="84879-263-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250310"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="3000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="84879-263-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250310"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250310"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2f8991f9-362d-ae76-e063-6394a90a1256">
+               <id root="302c7aa8-f553-4878-e063-6394a90a6e14"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <text>
+                  <paragraph>[Text Box: Subject: Temporary Importation of 0.9% Sodium Chloride Injection Products from Turkey to address drug shortages.] February 21, 2025</paragraph>
+                  <paragraph/>
+                  <paragraph>Dear Healthcare Provider,</paragraph>
+                  <paragraph/>
+                  <paragraph>In order to address shortages of Sodium Chloride Injection, USP, in the United States, GLOBAL GUARD INC. is coordinating with the U.S. Food and Drug Administration (FDA) to temporarily import 0.9% Sodium Chloride Solution from POLIFARMA’s manufacturing facility in Turkey.</paragraph>
+                  <paragraph>
+                     <br/>
+FDA has not approved these products manufactured by Polifarma.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>You may be provided with additional letters for other imported products you receive. Please read each letter in its entirety because as each letter may contain different product-specific information.</paragraph>
+                  <paragraph>
+                     <br/>
+At this time, no other entity except Global Guard, Inc is authorized by the FDA to import or to distribute this Polifarma product in the United States.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Effective immediately, and during this temporary period, Global Guard, Inc., will offer the following presentations of Polifarma POLİFLEKS® 0.9% Isotonic Sodium Chloride Solution:</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_302c7aa8-f552-4878-e063-6394a90a6e14"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>It is important to note the following:</paragraph>
+                  <paragraph>The imported products do not have a UPC barcode on the bag, rather they have a GTIN barcode that contains the product Global Trade Identification Number (GTIN). The barcode on the imported product labels may not register accurately in U.S. scanning systems. Alternative procedures should be followed to ensure that the correct drug product is being used in all systems and processes and administered to individual patients. For example, institutions should consider manually inputting the product into their systems and ensure that barcode systems provide correct information when the product is scanned.
+  <br/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>These products are available only by prescription in the U.S. the imported products do not have the statement “Rx only” they state Sold with Prescription on the labeling.</paragraph>
+                  <paragraph/>
+                  <paragraph>After opening the carton or box, the bags should be inspected visually to confirm there is no visible particulate matter or bag defects; such as, leaks. Container integrity is imperative to ensure sterility of products listed in Table 1. Parenteral drug products should be inspected visually for particulate matter and bag defects prior to administrations, whenever solution or container permits. This requirement is specifically stated on the package for the products which are subject to this notification.
+  <br/>
+                     <br/>
+You should perform a visual inspection of the bag prior to administration of the solution.
+  <br/>
+                     <br/>
+USE A NEW BAG IF PARTICULATES ARE VISIBLE OR IF THE IV BAG CONTAINS A LEAK
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Additional key differences in the labeling between the FDA-approved products and the imported products are stated in the product comparison tables at the end of this letter as follows:</paragraph>
+                  <paragraph>Table 1. Key differences between FDA-approved and imported 0.9% Sodium Chloride Injection USP</paragraph>
+                  <paragraph>Table 2. Label images of FDA-approved and imported 0.9% Sodium Chloride Injection USP</paragraph>
+                  <paragraph/>
+                  <paragraph>Please refer to FDA-approved prescribing information as follows:</paragraph>
+                  <paragraph/>
+                  <paragraph>0.9% Sodium Chloride Injection, USP, Polifleks Polypropylene I.V. bag (click here)</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Reporting Adverse Events:</paragraph>
+                  <paragraph>Healthcare providers should report adverse events associated with the use of POLİFLEKS 0.9% Isotonic Sodium Chloride Solution for I.V. Infusion to GLOBAL GUARD LLC by phone: 1-800-555-1212 NEED TO ESTABLISH # ; email: AER@GLOBALGUARDCORP.COM NEED TO ESTABLISH</paragraph>
+                  <paragraph/>
+                  <paragraph>Adverse reactions or quality problems experienced with the use of this product may be reported to the FDA’s MedWatch Adverse Event Reporting program either online, by regular mail or by fax:</paragraph>
+                  <paragraph>Complete and submit the report Online: www.fda.gov/medwatch/report.htm
+  <br/>
+Regular Mail or Fax: Download form https://www.accessdata.fda.gov/scripts/medwatch/index.cfm or call 1-800-332-1088 to request a reporting form, then complete and return to the address on the pre-addressed form or submit by fax to 1-800-FDA-0178 (1-800-332-0178).
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Please ensure that your staff and others in your institution who may be involved in the administration of POLİFLEKS 0.9% Isotonic Sodium Chloride Solution for I.V. Infusion receives a copy of this letter and reviews the information.</paragraph>
+                  <paragraph/>
+                  <paragraph>To place an order:</paragraph>
+                  <paragraph>please contact GLOBAL GUARD LLC at orders@globalguardcorp.com</paragraph>
+                  <paragraph>For all other inquiries please contact GLOBAL GUARD LLC at 1-800-555-1212 (phone); email: INFO@GLOBALGUARDCORP.COM</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Gürmen Kaynar Michael Bogdan</paragraph>
+                  <paragraph>International Markets and President
+  <br/>
+Business Development Director Global Guard LLC
+  <br/>
+POLIFARMA İLAC SAN. ve TIC. A.Ş.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Table 1. Key differences between FDA-approved and imported 0.9% Sodium Chloride Injection USP</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>FDA approved product</paragraph>
+                  <paragraph>Imported product from Turkey</paragraph>
+                  <paragraph>Product name</paragraph>
+                  <paragraph>Sodium Chloride Injection, USP</paragraph>
+                  <paragraph>in VIAFLEX Plastic Container</paragraph>
+                  <paragraph>POLİFLEKS 0.9% Isotonic Sodium Chloride Solution for I.V. Infusion</paragraph>
+                  <paragraph>Label volume</paragraph>
+                  <paragraph>1,000 mL</paragraph>
+                  <paragraph>1,000 mL</paragraph>
+                  <paragraph>Language of the labels</paragraph>
+                  <paragraph>English</paragraph>
+                  <paragraph>English</paragraph>
+                  <paragraph>Indications</paragraph>
+                  <paragraph>Sodium Chloride Injection, USP is indicated as a source of water and electrolytes. 0.9% Sodium Chloride Injection, USP is also indicated for use as a priming solution in hemodialysis procedures.</paragraph>
+                  <paragraph>POLİFLEKS 0.9% ISOTONIC SODIUM CHLORIDE is indicated in the following situations:</paragraph>
+                  <paragraph>- Treatment of isotonic extracellular dehydration</paragraph>
+                  <paragraph>- Treatment of sodium depletion</paragraph>
+                  <paragraph>- As diluent of compatible drugs for parenteral administration.</paragraph>
+                  <paragraph>Active Ingredients</paragraph>
+                  <paragraph>Each 100 ml contains 900 mg Sodium Chloride, USP</paragraph>
+                  <paragraph>Each 100 ml contains 900 mg Sodium Chloride</paragraph>
+                  <paragraph>Additional Information</paragraph>
+                  <paragraph>pH is 5.0 (4.5 to 7.0) Osmolarity 308 mOsm/L (calc)</paragraph>
+                  <paragraph>pH is 5.5 (4.5 – 7.0). Osmolarity of solution is 308 mOsmol/l.</paragraph>
+                  <paragraph>Storage conditions</paragraph>
+                  <paragraph>Store at room temperature 25 ° C/77° F.</paragraph>
+                  <paragraph>Store at room temperature below 25°C.</paragraph>
+                  <paragraph>Container type</paragraph>
+                  <paragraph>VIAFLEX PVC</paragraph>
+                  <paragraph>POLIFLEKS POLYPROPYLENE</paragraph>
+                  <paragraph>Medication and administration port closures</paragraph>
+                  <paragraph>Contains medication port and administration port; Pull off port protector (blue color), right side</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Contains medication port and administration port; Pull off port protector (CLEAR/no color), right side</paragraph>
+                  <paragraph/>
+                  <paragraph>[A close-up of a plastic tube Description generated with high confidence]</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Table 2. Label images of FDA-approved and imported 0.9% Sodium Chloride Injections</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>FDA approved product</paragraph>
+                  <paragraph>Imported product from Turkey</paragraph>
+                  <paragraph>0.9% Sodium Chloride Injection USP</paragraph>
+                  <paragraph>0.9% ISOTONIC SODIUM CHLORIDE SOLUTION</paragraph>
+                  <paragraph>Label Color: Black barcode not shown</paragraph>
+                  <paragraph>1,000 mL shown as representative label</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Label: Color Black barcode shown 1000 mL shown as representative label</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250310"/>
+               <component>
+                  <observationMedia ID="img_302c7aa8-f552-4878-e063-6394a90a6e14">
+                     <text>pnd</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Product name and Description.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2f8661f9-895b-1bb5-e063-6394a90adb33">
+               <id root="302cb7a4-ddb9-72cb-e063-6294a90a80da"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2f8663a1-6d46-1d0e-e063-6394a90ac57f"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_302cb61f-fd42-5d13-e063-6394a90a4902"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_30271e09-3417-c413-e063-6394a90ad0ff"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_30271f6c-03f4-acd7-e063-6394a90a6421"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_3027203c-31ee-c0e6-e063-6394a90a38b1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250310"/>
+               <component>
+                  <observationMedia ID="img_2f8663a1-6d46-1d0e-e063-6394a90ac57f">
+                     <text>50mL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="50 ml Cliche-PP.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_302cb61f-fd42-5d13-e063-6394a90a4902">
+                     <text>250ml</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="250 ml Cliche-PP.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_30271e09-3417-c413-e063-6394a90ad0ff">
+                     <text>500mL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="500 ml Cliche-PP.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_30271f6c-03f4-acd7-e063-6394a90a6421">
+                     <text>1000 mL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="1000 ml Cliche-PP.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_3027203c-31ee-c0e6-e063-6394a90a38b1">
+                     <text>3000 mL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="3000 mL Cliche-PP.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

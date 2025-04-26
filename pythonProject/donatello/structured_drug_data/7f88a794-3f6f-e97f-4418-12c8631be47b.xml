@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:voc="urn:hl7-org:v3/voc" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7f88a794-3f6f-e97f-4418-12c8631be47b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use IVRA safely and effectively. See full prescribing information for IVRA. IVRA (melphalan) injection, for intravenous use Initial U.S. Approval: 1964</content>
+   </title>
+   <effectiveTime value="20250319"/>
+   <setId root="c23e868a-dc62-2181-5099-76c9226602b2"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="845263701" root="1.3.6.1.4.1.519.1"/>
+            <name>Apotex Corp</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="209429182" root="1.3.6.1.4.1.519.1"/>
+                  <name>Apotex Inc</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="342875539" root="1.3.6.1.4.1.519.1"/>
+                        <name>AqVida GmbH</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60505-6414" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="60505-6414" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9108f574-c261-4703-0164-2aaeb4d0723d"/>
+               <code code="48780-1" displayName="SPL PRODUCT DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20250319"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="60505-6414" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>IVRA </name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>melphalan HCl</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="90"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1VXP4V453T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MELPHALAN HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q41OR9510P" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Melphalan</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="170"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="AAO1P0WSXJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MONOTHIOGLYCEROL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="3"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43210" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, MULTI-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="60505-6414-1"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250319"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250319"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA217110" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <section>
+                     <id root="9a5c8b82-f007-41dd-6d88-6a7b890bc922"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <effectiveTime value="20220926"/>
+                     <component>
+                        <observationMedia ID="MM838465360850">
+                           <text>molecular-structure</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="molecular-structure.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM627792821141">
+                           <text>90mg-bottle-label-front.jpg</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="90mg-bottle-label-front.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM635830767448">
+                           <text>90mg-carton-label.jpg</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="90mg-carton-label.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM583438346492">
+                           <text>90mg-bottle-label-back.jpg</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="90mg-bottle-label-back.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="BOXED_WARNING">
+               <id root="62b52ddf-a40c-19cf-07de-2dfd304f9070"/>
+               <code code="34066-1" displayName="BOXED WARNING SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">WARNING: SEVERE BONE MARROW SUPPRESSION, HYPERSENSITIVITY and LEUKEMOGENICITY</content>
+               </title>
+               <text>
+                  <list>
+                     <item>
+                        <content styleCode="bold">Severe bone marrow suppression with resulting infection or bleeding may occur. Controlled trials comparing intravenous melphalan to oral melphalan have shown more myelosuppression with the intravenous formulation. Monitor hematologic laboratory parameters </content>
+                        <content styleCode="bold italics">[see Warnings and Precautions ( <linkHtml href="#_3448deb1-25d3-f6b8-aad9-c8c2eeaa7c95">5.1</linkHtml> )]</content>
+                        <content styleCode="bold">.</content>
+                        <content styleCode="bold"/>
+                     </item>
+                  </list>
+                  <list>
+                     <item>
+                        <content styleCode="bold">Hypersensitivity reactions, including anaphylaxis, have occurred in approximately 2% of patients who received the intravenous formulation of melphalan. Discontinue treatment with <content styleCode="bold">IVRA</content> for serious hypersensitivity reactions </content>
+                        <content styleCode="bold italics">[see Warnings and Precautions (</content>
+                        <linkHtml href="#_c341d082-75a3-39f8-aa04-1b6bf2774ae4">5.4</linkHtml>
+                        <content styleCode="bold italics">)]</content>
+                        <content styleCode="bold italics"/>. </item>
+                  </list>
+                  <content styleCode="bold italics"/>
+                  <list>
+                     <item>
+                        <content styleCode="bold">Melphalan produces chromosomal aberrations </content>
+                        <content styleCode="bold italics">in vitro</content>
+                        <content styleCode="bold"> and </content>
+                        <content styleCode="bold italics">in vivo</content>
+                        <content styleCode="bold">.<content styleCode="bold"> IVRA</content> should be considered potentially leukemogenic in humans </content>
+                        <content styleCode="bold italics">[see Warnings and Precautions </content>
+                        <content styleCode="bold">(<linkHtml href="#_e9f79fdb-b4b3-c180-f081-8a0ea7e0c21f">5.5</linkHtml>)].</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240725"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">WARNING: SEVERE BONE MARROW SUPPRESSION, HYPERSENSITIVITY and LEUKEMOGENICITY</content>
+                           <content styleCode="bold"/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">See full prescribing information for complete boxed warning.</content>
+                           <content styleCode="bold"/>
+                        </paragraph>
+                        <list>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="bold">Severe bone marrow suppression with resulting infection or bleeding may occur. Controlled trials comparing intravenous melphalan to oral melphalan have shown more myelosuppression with the intravenous formulation. Monitor hematologic laboratory parameters (</content>
+                                 <content styleCode="bold">
+                                    <linkHtml href="#_3448deb1-25d3-f6b8-aad9-c8c2eeaa7c95">5.1</linkHtml>
+                                 </content>
+                                 <linkHtml href="bold"/>
+                                 <content styleCode="bold">).</content>
+                              </content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="bold">Hypersensitivity reactions, including anaphylaxis, have occurred in approximately 2% of patients who received the intravenous formulation of melphalan. Discontinue treatment with IVRA for serious hypersensitivity reactions (</content>
+                                 <content styleCode="bold">
+                                    <linkHtml href="#_c341d082-75a3-39f8-aa04-1b6bf2774ae4">5.4</linkHtml>
+                                 </content>
+                                 <linkHtml href="#_c341d082-75a3-39f8-aa04-1b6bf2774ae4"/>
+                                 <content styleCode="bold">).</content>
+                              </content>
+                              <content styleCode="bold"/>
+                           </item>
+                           <item>
+                              <content styleCode="bold">
+                                 <content styleCode="bold">Melphalan produces chromosomal aberrations in vitro and in vivo. IVRA should be considered potentially leukemogenic in humans (</content>
+                                 <content styleCode="bold">
+                                    <linkHtml href="#_e9f79fdb-b4b3-c180-f081-8a0ea7e0c21f">5.5</linkHtml>
+                                 </content>
+                                 <linkHtml href="bold"/>
+                                 <content styleCode="bold">).</content>
+                              </content>
+                              <content styleCode="bold"/>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="_627967d2-4e8c-9da8-970c-89eb224e4cbc">
+               <id root="09ceedeb-1d45-7c57-2bed-eaffd9ac65ef"/>
+               <code code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Multiple Myeloma-Palliative Treatment</content>
+                  </paragraph>
+                  <paragraph>IVRA is indicated for the palliative treatment of patients with multiple myeloma for whom oral therapy is not appropriate.</paragraph>
+               </text>
+               <effectiveTime value="20240725"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>IVRA is an alkylating drug indicated for palliative treatment of patients with multiple myeloma for whom oral therapy is not appropriate. (<linkHtml href="#_627967d2-4e8c-9da8-970c-89eb224e4cbc">1</linkHtml>) </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="CLINICAL_PHARMACOLOGY">
+               <id root="8d864d40-ed23-3a19-9035-39be6887d9ba"/>
+               <code code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220926"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Recommended dosage is 16 mg/m<sup>2</sup> administered intravenously over 15 to 20 minutes at 2-week intervals for 4 doses, then, after adequate recovery from toxicity, at 4-week intervals. (<linkHtml href="#_94d9f759-50a5-c505-7698-d34cf222d598">2.2</linkHtml>)</paragraph>
+                        <paragraph>See full prescribing information for preparation and administration instructions. (<linkHtml href="#_8bd5bcbd-cd45-a452-eed1-fa991a4f88ff">2.3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_f60da05b-7483-2131-9032-b50c4ef12906">
+                     <id root="f098097a-e510-ebcb-967a-c1005d7dcf66"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>2.1 Recommended Dosage </title>
+                     <text>
+                        <paragraph>The recommended dosage is 16 mg/m<sup>2</sup> intravenously over 15 to 20 minutes at 2-week intervals for 4 doses, then at 4-week intervals until unacceptable toxicity.</paragraph>
+                        <paragraph>Administer prophylactic antiemetics <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_5a35bb2f-59de-aa1c-fb5c-2cd8713f05b9">5.2</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_6f33cb03-3a9e-6d02-1a87-43e373220515">
+                     <id root="0b3d7615-5f75-6c4c-4467-4b58f94e996d"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>2.2 Dosage Modifications for Adverse Reactions</title>
+                     <text>
+                        <paragraph>See Table 1 for dosage modifications for adverse reactions related to bone marrow suppression <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_3448deb1-25d3-f6b8-aad9-c8c2eeaa7c95">5.1</linkHtml>)].</content>
+                        </paragraph>
+                        <paragraph>Table 1. Dosage Modifications for Adverse Reaction: Bone Marrow Suppression</paragraph>
+                        <table frame="box" rules="all" width="75%">
+                           <tbody align="center">
+                              <tr>
+                                 <th colspan="2">Parameter</th>
+                                 <th rowspan="2">Dosing Recommendations</th>
+                              </tr>
+                              <tr>
+                                 <td>White Blood Cell Count (WBC/mm<sup>3</sup>)</td>
+                                 <td>Platelet Count (Per mcL)</td>
+                              </tr>
+                              <tr>
+                                 <td>Greater than or equal to 4,000</td>
+                                 <td>Greater than or equal to 100,000</td>
+                                 <td align="left">Continue full IVRA dose</td>
+                              </tr>
+                              <tr>
+                                 <td>Greater than or equal to 3,000</td>
+                                 <td>Greater than or equal to 75,000</td>
+                                 <td align="left">Reduce IVRA to 75% of full dose</td>
+                              </tr>
+                              <tr>
+                                 <td>Greater than or equal to 2,000</td>
+                                 <td>Greater than or equal to 50,000</td>
+                                 <td align="left">Reduce IVRA to 50% of full dose</td>
+                              </tr>
+                              <tr>
+                                 <td>Less than 2,000</td>
+                                 <td>Less than 50,000</td>
+                                 <td align="left">Withold IVRA</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_94d9f759-50a5-c505-7698-d34cf222d598">
+                     <id root="2a1db8da-f1b0-7adc-7fcc-008efc603be4"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>2.3 Dosage Modifications for Renal Impairment</title>
+                     <text>
+                        <paragraph>Consider a dosage reduction of up to 50%  in patients with renal insufficiency (BUN ≥30 mg/dL) <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#_2ee7f53f-3592-c754-2e11-3035d034ce15">8.6</linkHtml>)]</content>.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_8bd5bcbd-cd45-a452-eed1-fa991a4f88ff">
+                     <id root="e9864e87-cce0-abc9-753c-f88469316a78"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>2.4 Preparation and Administration</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline"> Preparation</content>
+                        </paragraph>
+                        <list>
+                           <item>IVRA is a hazardous drug. Follow applicable special handling and disposal procedures<sup>1</sup>.</item>
+                           <item>Parenteral drug products should be visually inspected for particulate matter and discoloration prior to administration whenever solution and container permit. If either occurs, do not use this product.</item>
+                           <item>IVRA is light sensitive. After first use, store the partially used vial refrigerated at 2°C to 8°C [36°F to 46°F] in the original carton for use within 28 days and then discard the remaining contents. Retain vial in original carton until contents are used.</item>
+                           <item>Do not mix IVRA with other melphalan hydrochloride drug products.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Dilution</content>
+                        </paragraph>
+                        <list>
+                           <item>Calculate the required volume of IVRA needed for a patient’s dose and withdraw that volume from the vial(s).</item>
+                           <item>Add the required volume of IVRA to the appropriate volume of 0.9% Sodium Chloride Injection to obtain a solution with a concentration not greater than 0.45 mg/mL. Immediately mix the contents of infusion vigorously by manual rotation. The diluted product is stable for 1 hour at room temperature.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Administration</content>
+                        </paragraph>
+                        <list>
+                           <item>Infuse over 15 to 20 minutes via an injection port or central venous catheter. Complete administration within 60 minutes of dilution.</item>
+                           <item>IVRA may cause local tissue damage should extravasation occur. Administer IVRA only by injecting slowly into a fast-running intravenous infusion via an injection port or, central venous access line.</item>
+                        </list>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="CLINICAL_TRIALS">
+               <id root="65898892-bc88-09f7-3c23-f9adf2db0537"/>
+               <code code="43678-2" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Injection: 90 mg/mL melphalan as a clear colorless to yellow solution in a multiple-dose vial for dilution.</paragraph>
+               </text>
+               <effectiveTime value="20240725"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Injection</content>: 90 mg/mL of melphalan in a multiple-dose vial. (<linkHtml href="#CLINICAL_TRIALS">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="_c045de18-86e0-9bb2-3a3c-027e5da2736a">
+               <id root="944e71db-9715-ba2a-4933-743f2e162d5b"/>
+               <code code="34070-3" displayName="CONTRAINDICATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>IVRA is contraindicated in patients with a history of severe hypersensitivity to melphalan. Reactions have included anaphylaxis <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_c341d082-75a3-39f8-aa04-1b6bf2774ae4">5.4</linkHtml>)].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240725"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>History of severe hypersensitivity to melphalan. (<linkHtml href="#_c045de18-86e0-9bb2-3a3c-027e5da2736a">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="CONTRAINDICATIONS">
+               <id root="54556a68-15b0-5edb-5b5b-79b7ced7c67b"/>
+               <code code="43685-7" displayName="WARNINGS AND PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220926"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list>
+                           <item>Gastrointestinal toxicity: Nausea, vomiting, diarrhea, or oral mucositis may occur; provide supportive care using antiemetic and antidiarrheal medications as needed. (<linkHtml href="#_5a35bb2f-59de-aa1c-fb5c-2cd8713f05b9">5.2</linkHtml>) </item>
+                           <item>Embryo-fetal toxicity: Can cause fetal harm. Advise females of reproductive potential and males with female partners of reproductive potential of potential risk to fetus and to use effective contraception. (<linkHtml href="#_340132df-c1ec-4e14-ecb2-fc82cc08774d">5.6</linkHtml>, <linkHtml href="#_1c72aefc-38a0-fe46-0032-6cc044c086bd">8.1</linkHtml>) </item>
+                           <item>Infertility: Melphalan may cause ovarian function suppression or testicular suppression. (<linkHtml href="#_d650b83a-e7d6-3e30-bf94-9becd4bf5097">5.7</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_3448deb1-25d3-f6b8-aad9-c8c2eeaa7c95">
+                     <id root="dd416392-9e5a-107e-2eb4-c11cafe285f1"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>5.1 Bone Marrow Suppression</title>
+                     <text>
+                        <paragraph>IVRA causes bone marrow suppression in most patients.</paragraph>
+                        <paragraph>Obtain complete blood counts with differential at the start of therapy and prior to each subsequent dose of IVRA. Withhold treatment for grade 3 thrombocytopenia and/ or leukopenia until blood counts have returned to grade 2 <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#_6f33cb03-3a9e-6d02-1a87-43e373220515">2.2</linkHtml>)]</content>. Consider dose adjustment on the basis of blood counts at the nadir and day of treatment.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_5a35bb2f-59de-aa1c-fb5c-2cd8713f05b9">
+                     <id root="cdb205cc-4d08-5d20-d766-57da6974d93b"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="none">5.2 Gastrointestinal Toxicity</content>
+                     </title>
+                     <text>
+                        <paragraph>Gastrointestinal disturbances such as nausea and vomiting, diarrhea, and oral ulceration can occur with melphalan treatment.</paragraph>
+                        <paragraph>Severe mucositis, stomatitis, colitis, diarrhea, and hemorrhage of the gastrointestinal tract occur at high doses (greater than 100 mg/m<sup>2</sup> 6 times the recommended approved dose).</paragraph>
+                        <paragraph>Use prophylactic antiemetics [see Dosage and Administration (<linkHtml href="#_f60da05b-7483-2131-9032-b50c4ef12906">2.1</linkHtml>)]. Provide supportive care for nausea, vomiting, diarrhea, and mucositis.</paragraph>
+                     </text>
+                     <effectiveTime value="20230707"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_9f4a247a-4298-1f00-c7c4-254b897b990a">
+                     <id root="a7767ecb-5263-484b-f038-d43f0e3fa3fd"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="none">5.3 Hepatotoxicity</content>
+                     </title>
+                     <text>
+                        <paragraph>Hepatic disorders ranging from abnormal liver function tests to clinical manifestations such as hepatitis and jaundice have been reported during treatment with melphalan. Hepatic veno-occlusive disease has been reported. Monitor liver enzymes as clinically indicated.</paragraph>
+                     </text>
+                     <effectiveTime value="20230707"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_c341d082-75a3-39f8-aa04-1b6bf2774ae4">
+                     <id root="361de3c9-cec1-bf8f-798b-e87d4f03a795"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="none">5.4 Hypersensitivity</content>
+                     </title>
+                     <text>
+                        <paragraph>Acute hypersensitivity reactions including anaphylaxis were reported in 2.4% of 425 patients receiving melphalan injection for myeloma. These reactions were characterized by urticaria, pruritus, edema, skin rashes, and in some patients, tachycardia, bronchospasm, dyspnea, and hypotension. These patients appeared to respond to antihistamine and corticosteroid therapy. If a hypersensitivity reaction occurs, intravenous or oral melphalan should not be readministered since hypersensitivity reactions have also been reported with oral melphalan. Cardiac arrest has also been reported in association with such reports.</paragraph>
+                        <paragraph>Discontinue treatment with IVRA for serious hypersensitivity reactions.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_e9f79fdb-b4b3-c180-f081-8a0ea7e0c21f">
+                     <id root="150a0dc0-9203-02b6-b609-b4e0b219826c"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="none">5.5 Secondary Malignancies</content>
+                     </title>
+                     <text>
+                        <paragraph>Melphalan has been shown to cause chromatid or chromosome damage in humans. Secondary malignancies, including acute nonlymphocytic leukemia, myeloproliferative syndrome, and carcinoma, have been reported in patients with cancer treated with alkylating agents (including melphalan). Some patients also received other chemotherapeutic agents or radiation therapy. The potential benefits from melphalan therapy must be weighed on an individual basis against the possible risk of the induction of a second malignancy.</paragraph>
+                     </text>
+                     <effectiveTime value="20230707"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_340132df-c1ec-4e14-ecb2-fc82cc08774d">
+                     <id root="286409f3-f5b5-638f-2c66-6ec96fc8c768"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="none">5.6 Embryo-Fetal Toxicity</content>
+                     </title>
+                     <text>
+                        <paragraph>Based on its mechanism of action, IVRA can cause fetal harm when administered to a pregnant woman. Melphalan is genotoxic, targets actively dividing cells, and was embryolethal and teratogenic in rats. While adequate animal studies have not been conducted with intravenous melphalan, oral (6 to 18 mg/m<sup>2</sup>/day for 10 days) and IP (18 mg/m<sup>2</sup>) administration in rats was embryolethal and teratogenic. Malformations resulting from melphalan included alterations of the brain (underdevelopment, deformation, meningocele, and encephalocele) and eye (anophthalmia and microphthalmos), reduction of the mandible and tail, as well as hepatocele (exomphaly).</paragraph>
+                        <paragraph>If this drug is used during pregnancy or if the patient becomes pregnant while taking this drug, advise a pregnant woman of the of potential risk to the fetus. Advise females of reproductive potential to use effective contraception during treatment with IVRA and for 6 months after the last dose. Advise males with female partners of reproductive potential to use effective contraception during treatment with IVRA and for 3 months after the last dose <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#_1c72aefc-38a0-fe46-0032-6cc044c086bd">8.1</linkHtml>, <linkHtml href="#_e96d8341-04ec-cd3c-5868-8b078803bf1d">8.3</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_d650b83a-e7d6-3e30-bf94-9becd4bf5097">
+                     <id root="38a5c072-2bb8-6994-32f0-87aa8cb10d76"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="none">5.7 Infertility</content>
+                     </title>
+                     <text>
+                        <paragraph>Melphalan causes suppression of ovarian function in premenopausal women, resulting in amenorrhea in a significant number of patients. Reversible and irreversible testicular suppression have also been reported <content styleCode="italics"> [see Use in Specific Populations (<linkHtml href="#_e96d8341-04ec-cd3c-5868-8b078803bf1d">8.3</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230707"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS">
+               <id root="182e93ae-fa60-53cb-6b52-f8b80a92be67"/>
+               <code code="34084-4" displayName="ADVERSE REACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following clinically significant adverse reactions are described elsewhere in the labeling:</paragraph>
+                  <list>
+                     <item> Bone Marrow Suppression <content styleCode="italics">[see Warnings and Precautions </content>(<linkHtml href="#_3448deb1-25d3-f6b8-aad9-c8c2eeaa7c95">5.1</linkHtml>)] </item>
+                     <item>Gastrointestinal Toxicity <content styleCode="italics">[see Warnings and Precautions</content> (<linkHtml href="#_5a35bb2f-59de-aa1c-fb5c-2cd8713f05b9">5.2</linkHtml>)] </item>
+                     <item>Hepatotoxicity <content styleCode="italics">[see Warnings and Precautions</content> (<linkHtml href="#_9f4a247a-4298-1f00-c7c4-254b897b990a">5.3</linkHtml>)] </item>
+                     <item>Hypersensitivity <content styleCode="italics">[see Warnings and Precautions</content> (<linkHtml href="#_c341d082-75a3-39f8-aa04-1b6bf2774ae4">5.4</linkHtml>)] </item>
+                     <item>Secondary Malignancies <content styleCode="italics">[see Warnings and Precautions</content> (<linkHtml href="#_e9f79fdb-b4b3-c180-f081-8a0ea7e0c21f">5.5</linkHtml>)]</item>
+                  </list>
+               </text>
+               <effectiveTime value="20240725"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (≥50%) are neutrophil count decreased, white blood cell count decreased, lymphocyte count decreased, platelet count decreased, diarrhea, nausea, fatigue, hypokalemia, anemia, and vomiting. (<linkHtml href="#_342697e5-85e8-ed5e-24ce-334891a37624">6.1</linkHtml>) </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Apotex Corp. at 1-800-706-5575 or FDA at 1-800-FDA-1088 or <linkHtml href="#BOXED_WARNING"> www.fda.gov/medwatch</linkHtml>.</content>
+                           <content styleCode="bold">­</content>
+                           <content styleCode="bold"/>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_342697e5-85e8-ed5e-24ce-334891a37624">
+                     <id root="bc2d58c7-4a2f-7773-1534-4db9ebc4f35e"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph> Because clinical studies are conducted under widely varying conditions, adverse reaction rates observed in the clinical studies of melphalan may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>The most common adverse reactions observed in at least 50% of patients with multiple myeloma treated with melphalan were neutrophil count decreased, white blood cell count decreased, lymphocyte count decreased, platelet count decreased, diarrhea, nausea, fatigue, hypokalemia, anemia, and vomiting.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Palliative Treatment of Patients with Multiple Myeloma</content>
+                        </paragraph>
+                        <paragraph>The safety of melphalan was evaluated in 295 patients with multiple myeloma in the randomized clinical trial [see Clinical Studies (<linkHtml href="#_b6243e5b-b12d-deea-d89f-34ef2ebd6a54">14</linkHtml>)]. One hundred and ninety-five patients were administered intravenous melphalan at a dosage of 16 mg/m<sup>2</sup>
+                        </paragraph>
+                        <paragraph>q 2 weeks x 4 (over 6 weeks) followed by the same dose every 4 weeks. One hundred patients were administered oral melphalan at a dosage of 0.15 mg/kg/day x 7 followed by 0.05 mg/kg/day when WBC counts began to rise.</paragraph>
+                        <paragraph>Severe myelotoxicity (WBC ≤1,000 and/or platelets ≤25,000) was more common in the intravenous melphalan arm (28%) than in the oral melphalan arm (11%).<content styleCode="bold"/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PRECAUTIONS">
+               <id root="d2592d61-bdaa-a895-1541-1b97692a62d0"/>
+               <code code="34073-7" displayName="DRUG INTERACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20230707"/>
+               <component>
+                  <section ID="_a01cf680-ff37-32ba-897d-7ffac443f660">
+                     <id root="6b4a78b9-74e6-b2b6-160c-67cef23756e0"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>7.1 Effect of Other Drugs on IVRA</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Cisplatin</content>
+                        </paragraph>
+                        <paragraph>Concomitant use with cisplatin may alter melphalan clearance by inducing renal dysfunction. Consider intravenous IVRA dosage reduction in patients with renal insufficiency following concomitant use with cisplatin <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#_6f33cb03-3a9e-6d02-1a87-43e373220515">2.2</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_d116b796-3c3d-7355-39c6-4d50df27f663">
+                     <id root="73f29d1d-d407-e4ce-48bf-ff83cf3a7c73"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>7.2 Effect of IVRA on Other Drugs</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">BCNU</content>
+                        </paragraph>
+                        <paragraph>Concomitant use with BCNU may reduce the threshold for lung toxicity. Monitor for increased lung toxicity.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_f873be3b-23b9-a825-93ae-2eeb70ce0236">
+                     <id root="bf26a9f7-b8d3-ec85-a315-3a1ec6f217ee"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>7.3 Cyclosporine</title>
+                     <text>
+                        <paragraph>Concomitant use with cyclosporine may increase the risk of developing severe renal failure <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#_d839bc98-3c44-16a5-5e48-52a711c43102">12.3</linkHtml>)</content>]. Consider intravenous IVRA dosage reduction in patients with renal insufficiency following concomitant use with cyclosporine <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#_6f33cb03-3a9e-6d02-1a87-43e373220515">2.2</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_81bb36dd-3d80-3fca-ce43-5257f6540a88">
+               <id root="787f0310-0d0c-3041-3514-cbf179dad3e6"/>
+               <code code="43684-0" displayName="USE IN SPECIFIC POPULATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220926"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph> Lactation: Advise not to breastfeed. (<linkHtml href="#_e96d8341-04ec-cd3c-5868-8b078803bf1d">8.2</linkHtml>)</paragraph>
+                        <paragraph>Renal insufficiency (BUN ≥30 mg/dL): Consider dosage reduction (<linkHtml href="#_94d9f759-50a5-c505-7698-d34cf222d598">2.2</linkHtml>, <linkHtml href="#_2ee7f53f-3592-c754-2e11-3035d034ce15">8.6</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="_1c72aefc-38a0-fe46-0032-6cc044c086bd">
+                     <id root="dec24efa-4cea-9845-40e7-8a96607ebf32"/>
+                     <code code="42228-7" displayName="PREGNANCY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.1 Pregnancy </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Based on its mechanism of action and findings from animal studies, IVRA can cause fetal harm when administered to a pregnant woman. There are no available data on IVRA use in pregnant women to evaluate for a drug-associated risk. In rats, melphalan was embryolethal and teratogenic at doses lower than the highest recommended clinical dose (see Data). If this drug is used during pregnancy, or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential risk to the fetus.</paragraph>
+                        <paragraph>The background risk in the U.S. general population of major birth defects is 2 to 4% and of miscarriage is 15 to 20% of clinically recognized pregnancies.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Adequate animal studies have not been conducted with intravenous melphalan. Melphalan was embryolethal and teratogenic in rats following oral administration of 6 to 18 mg/m<sup>2</sup>/day for 10 days (0.06 to 0.18 times the highest recommended clinical dose of 100 mg/m<sup>2</sup>/day) and intraperitoneal administration of 18 mg/m<sup>2</sup> (0.18 times the highest recommended clinical dose). Malformations resulting from melphalan administration included alterations of the brain (underdevelopment, deformation, meningocele, and encephalocele) and eye (anophthalmia and microphthalmos), reduction of the mandible and tail, and hepatocele (exomphaly).</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_e96d8341-04ec-cd3c-5868-8b078803bf1d">
+                     <id root="546cbe1e-2725-db9b-6b51-89ba1864c06b"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no data on the presence of melphalan in human milk, the effects on the breastfed child, or the effects on milk production. Because of the potential for serious adverse reactions in a breastfed child, advise women not to breastfeed during treatment with IVRA and for 1 week following the last dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_ee330320-2f5f-875e-a57a-7701853a1eca">
+                     <id root="f517b6da-f723-3a70-9a8d-d74d1a82ec20"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.3 Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph>IVRA can cause fetal harm when administered to a pregnant woman <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#_1c72aefc-38a0-fe46-0032-6cc044c086bd">8.1</linkHtml>)]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Contraception</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Females</content>
+                        </paragraph>
+                        <paragraph>Advise females of reproductive potential to use effective contraception during treatment with IVRA and for 6 months after the last dose.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Males</content>
+                        </paragraph>
+                        <paragraph>Melphalan may damage spermatozoa and testicular tissue, resulting in possible genetic fetal abnormalities. Advise males with female partners of reproductive potential to use effective contraception during treatment with IVRA and for 3 months after the last dose <content styleCode="italics">[see Nonclinical Toxicology (<linkHtml href="#_4b38fa01-3f60-d479-b900-38b4daf66bb8">13.1</linkHtml>)]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Infertility</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Females</content>
+                        </paragraph>
+                        <paragraph>Melphalan causes suppression of ovarian function in premenopausal women, resulting in amenorrhea in a significant number of patients.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Males</content>
+                        </paragraph>
+                        <paragraph>Reversible and irreversible testicular suppression has been reported in male patients after administration of melphalan.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_3e2774eb-4a90-250e-834b-40d59ead1c34">
+                     <id root="55726cc4-885d-0f6f-0072-f04f33d82427"/>
+                     <code code="34081-0" displayName="PEDIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of IVRA in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_7efde480-9d73-13ae-b30c-b357094f3225">
+                     <id root="357ec6f8-41c0-259e-c1a2-ff4e7170953d"/>
+                     <code code="34082-8" displayName="GERIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of melphalan did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20230707"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_2ee7f53f-3592-c754-2e11-3035d034ce15">
+                     <id root="c88dd996-0e75-30a9-6cf9-bfc410bd462b"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>8.6 Renal Impairment</title>
+                     <text>
+                        <paragraph>Consider a dosage reduction in patients with renal insufficiency receiving intravenous IVRA <content styleCode="italics"> [see Dosage and Administration (<linkHtml href="#_6f33cb03-3a9e-6d02-1a87-43e373220515">2.2</linkHtml>)]</content>. In one trial, increased bone marrow suppression was observed in patients with elevated BUN <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#_d839bc98-3c44-16a5-5e48-52a711c43102">12.3</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_757bb8dc-d2c6-c52d-a2f4-010c44f2c41b">
+               <id root="a50c0924-1783-16d2-31a2-5be625a1a591"/>
+               <code code="34088-5" displayName="OVERDOSAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdoses resulting in death have been reported. Overdoses, including doses up to 290 mg/m<sup>2</sup> (18 times the recommended dose), have produced the following symptoms: severe nausea and vomiting, decreased consciousness, convulsions, muscular paralysis, and cholinomimetic effects. Severe mucositis, stomatitis, colitis, diarrhea, and hemorrhage of the gastrointestinal tract occur at high doses (greater than 100 mg/m<sup>2</sup> 6 times the recommended dose). Elevations in liver enzymes and veno-occlusive disease have occurred. Significant hyponatremia caused by an associated inappropriate secretion of ADH syndrome has been observed. Nephrotoxicity and adult respiratory distress syndrome have been reported.</paragraph>
+                  <paragraph>The principal toxic effect is bone marrow suppression. In the event of an overdosage, monitor hematologic parameters for 3 to 6 weeks. General supportive measures together with appropriate blood transfusions and antibiotics should be instituted as deemed necessary by the physician. This drug is not removed from plasma to any significant degree by hemodialysis or hemoperfusion.</paragraph>
+               </text>
+               <effectiveTime value="20240725"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_bd6b2c56-fa98-f82f-e8fb-92477817c0eb">
+               <id root="1afdf1ed-374d-279a-2782-660d88297d83"/>
+               <code code="34089-3" displayName="DESCRIPTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>IVRA contains melphalan which is an alkylating drug. The chemical name of melphalan hydrochloride is 4-[bis(2-chloroethyl)amino]-L-phenylalanine hydrochloride. The molecular formula is C<sub>13</sub>H<sub>18</sub>Cl<sub>2</sub>N<sub>2</sub>O<sub>2</sub> • HCl and the molecular weight is 341.67. The structural formula is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM838465360850"/>
+                  </paragraph>
+                  <paragraph>Melphalan hydrochloride is a white to off-white powder, with a melting range of 199°C to 201°C. It is practically insoluble in water, but freely soluble in 1N HCl and methanol.</paragraph>
+                  <paragraph>IVRA is supplied as a sterile, clear colorless to yellow solution in a multiple-dose vial for intravenous use. Each mL contains 90 mg melphalan free base equivalent to 100.75 mg melphalan hydrochloride, 170 mg propylene glycol, 5 mg monothioglycerol, 0.5 mg (1,4,7,10-tetraazacyclododecane-1,4,7,10-tetraacetic acid dihydrate), and 0.025 mL water for injection in polyethylene glycol 400. May contain hydrochloric acid and/or sodium hydroxide for pH adjustment. The pH of the drug product solution after dilution with 0.9% sodium chloride ranges from 2.4 - 3.5. Each mL contains 90 mg melphalan free base equivalent to 100.75 mg melphalan hydrochloride.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240725"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_06afc898-18a5-a5bc-035c-54dced62ced6">
+               <id root="5b369162-79aa-9d5b-fd14-f7c6e22cc0c4"/>
+               <code code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220926"/>
+               <component>
+                  <section ID="_f608407e-5d4f-2488-c79f-69751c3a5c31">
+                     <id root="ce6b4899-e19f-4867-c43d-d71b70aba630"/>
+                     <code code="43679-0" displayName="MECHANISM OF ACTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N<sup>7</sup> position of guanine. Like other bifunctional alkylating agents, it is active against both resting and rapidly dividing tumor cells.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_f3a14eba-de14-2df0-ce3f-24d84664fb16">
+                     <id root="50f5f8db-42e5-dbe5-c9d9-4627821e7b7b"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Due to lack of information, melphalan exposure-response relationships and the time course of pharmacodynamic response are unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20230707"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_d839bc98-3c44-16a5-5e48-52a711c43102">
+                     <id root="0e9156e5-cc40-80c4-bc15-1bd7cd535990"/>
+                     <code code="43682-4" displayName="PHARMACOKINETICS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>The mean ±SD melphalan peak plasma concentration is 1.2 ± 0.4 following an intravenous dosage of 10 mg/m<sup>2</sup> (0.62 times the approved recommended dosage) and 2.8 ± 1.9 mcg/mL following an intravenous dosage of 20 mg/m<sup>2</sup> (1.25 times the approved recommended dosage) in myeloma patients.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Distribution</content>
+                        </paragraph>
+                        <paragraph>The melphalan steady-state volume of distribution is 0.5 L/kg. Melphalan penetration into cerebrospinal fluid (CSF) is low.</paragraph>
+                        <paragraph>The mean melphalan plasma protein binding ranges from 53% to 92% with approximately 30% irreversible (covalent). Serum albumin accounts for approximately 40% to 60% and α<sub>1</sub>-acid glycoprotein approximately 20% of the plasma protein binding.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Elimination</content>
+                        </paragraph>
+                        <paragraph>The melphalan elimination half-life is approximately 75 minutes. Mean total body melphalan clearance varied among studies, but typical values of approximately 7 to 9 mL/min/kg (250 to 325 mL/min/m<sup>2</sup>) were observed. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Metabolism</content>
+                        </paragraph>
+                        <paragraph>Melphalan primarily metabolized by hydrolysis to monohydroxymelphalan and dihydroxymelphalan, which are inactive.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Excretion</content>
+                        </paragraph>
+                        <paragraph> Following a radiolabeled dose of intravenous melphalan in 9 patients with cancer, the mean (± SD) excretion of melphalan over 24 hours was 13% ± 5.4% of the total dose.   </paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">Specific Populations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Patients with renal Impairment</content>
+                        </paragraph>
+                        <paragraph>Although melphalan renal clearance appears to be low, one study reported an increase in the occurrence of severe leukopenia in patients with BUN levels ≥30 mg/dL after 10 weeks of therapy. A 50% reduction in the IV melphalan dosage decreased the incidence of severe bone marrow suppression in the latter portion of this study.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Drug Interaction Studies</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Cyclosporine</content>
+                        </paragraph>
+                        <paragraph>Patients treated with a single dose of intravenous melphalan followed by standard oral doses of cyclosporine were reported to develop severe renal failure.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Immunoglobulins</content>
+                        </paragraph>
+                        <paragraph>Interactions between melphalan and immunoglobulins are negligible.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_a167bb3b-a158-ddbb-e848-642a9b0abb5a">
+               <id root="c7679b49-bd0f-6210-3b44-85b71135bb53"/>
+               <code code="43680-8" displayName="NONCLINICAL TOXICOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20220926"/>
+               <component>
+                  <section ID="_4b38fa01-3f60-d479-b900-38b4daf66bb8">
+                     <id root="bd29a8c2-e0ac-2713-414c-756650e0a773"/>
+                     <code code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="none">13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </title>
+                     <text>
+                        <paragraph>Adequate and well-controlled carcinogenicity studies with melphalan have not been conducted in animals. However, intraperitoneal (IP) administration of melphalan in rats (5.4 to 10.8 mg/m<sup>2</sup>) and in mice (2.25 to 4.5 mg/m<sup>2</sup>) 3 times per week for 6 months followed by 12 months post-dose observation produced peritoneal sarcoma and lung tumors, respectively.</paragraph>
+                        <paragraph>Intramuscular administration of melphalan at 6 and 60 mg/m<sup>2</sup> produced structural aberrations of the chromatid and chromosomes in bone marrow cells of Wistar rats.</paragraph>
+                     </text>
+                     <effectiveTime value="20240725"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_b6243e5b-b12d-deea-d89f-34ef2ebd6a54">
+               <id root="af99dc30-5ae1-c074-2d9b-938fe553e1ec"/>
+               <code code="34092-7" displayName="CLINICAL STUDIES SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Palliative Treatment of Patients with Multiple Myeloma</content>
+                  </paragraph>
+                  <paragraph>A randomized trial compared prednisone plus intravenous melphalan to prednisone plus oral melphalan in the treatment of myeloma. Both arms received oral prednisone starting at 0.8 mg/kg/day with doses tapered over 6 weeks. Melphalan doses in each arm were: Arm 1: Oral melphalan 0.15 mg/kg/day x 7 followed by 0.05 mg/kg/day when WBC began to rise. Arm 2: Intravenous melphalan 16 mg/m<sup>2</sup> q 2 weeks x 4 (over 6 weeks) followed by the same dose every 4 weeks.</paragraph>
+                  <paragraph>One hundred seven patients were randomized to the oral melphalan arm and 203 patients to the intravenous melphalan arm. More patients had a poor-risk classification (58% versus 44%) and high tumor load (51% versus 34%) on the oral compared to the intravenous arm (P&lt;0.04). Response rates at week 22 are shown in the following table:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Table 2. Response Rates at Week 22</content>
+                     <content styleCode="bold"> In Patients with Multiple Myeloma Who Received Oral or Intravenous Melphalan with Prednisone</content>
+                  </paragraph>
+                  <table frame="box" rules="all" width="75%">
+                     <tbody>
+                        <tr>
+                           <th>Initial Arm</th>
+                           <th>Evaluable Patients</th>
+                           <th>Responders n (%)</th>
+                           <th>
+                              <content styleCode="bold italics">P</content>
+                           </th>
+                        </tr>
+                        <tr>
+                           <td>Oral melphalan</td>
+                           <td>100</td>
+                           <td>44 (44%)</td>
+                           <td rowspan="2">P&gt;0.2</td>
+                        </tr>
+                        <tr>
+                           <td>Intravenous melphalan</td>
+                           <td>195</td>
+                           <td>74 (38%)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Because of changes in protocol design after week 22, other efficacy parameters such as response duration and survival cannot be compared.</paragraph>
+               </text>
+               <effectiveTime value="20240725"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_c4e81f2d-ee65-5a4a-39e7-c9b053f0d21e">
+               <id root="d5797f80-e64f-5a6e-9d4b-2f76494c5479"/>
+               <code code="34093-5" displayName="REFERENCES SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>15 REFERENCES </title>
+               <text>
+                  <paragraph>1. OSHA Hazardous Drugs https://www.osha.gov/hazardous-drugs</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20230707"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_3ff48e11-e26c-ceee-8fdc-09f62a7a7907">
+               <id root="372a1d05-4fd3-9a90-f6f2-860ad7f26ca1"/>
+               <code code="34069-5" displayName="HOW SUPPLIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">How Supplied</content>
+                  </paragraph>
+                  <paragraph>IVRA (melphalan) injection is a clear colorless to yellow solution supplied in a carton containing one 90 mg/mL amber glass multiple-dose vial for dilution. (NDC 60505-6414-1).</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Storage and Handling</content>
+                  </paragraph>
+                  <paragraph>Store IVRA refrigerated at 2°C to 8°C (36°F to 46°F). IVRA is light sensitive. Retain in original carton when not in use.</paragraph>
+                  <paragraph>IVRA is a hazardous drug<sup>1</sup>. Follow special handling and disposal procedures<sup>1</sup>.</paragraph>
+               </text>
+               <effectiveTime value="20240731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_04a83191-2e72-45ce-a1b5-b78fffb0b89a">
+               <id root="fe8ad4c7-a208-fe7e-af0b-19a4b832c335"/>
+               <code code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Low Blood Cell Counts</content>
+                  </paragraph>
+                  <paragraph>Advise patients to report any signs or symptoms of thrombocytopenia, leukopenia (neutropenia and lymphopenia), and anemia. Inform patients of the need for routine blood counts<content styleCode="italics"> [see Warnings and Precautions (<linkHtml href="#_3448deb1-25d3-f6b8-aad9-c8c2eeaa7c95">5.1</linkHtml>)</content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline"> Mucositis</content>
+                  </paragraph>
+                  <paragraph>Inform patients of the signs and symptoms of mucositis. Instruct patients on ways to reduce the risk of its development, and on ways to maintain nutrition and control discomfort if it occurs <content styleCode="italics">[see Warnings and Precautions</content> (<linkHtml href="#_5a35bb2f-59de-aa1c-fb5c-2cd8713f05b9">5.2</linkHtml>)].   </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Allergic Reactions</content>
+                  </paragraph>
+                  <paragraph>Advise patients to immediately report symptoms of hypersensitivity reactions including changes involving the skin, breathing or heart rate, so that antihistamine or corticosteroid therapy can be administered <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_c341d082-75a3-39f8-aa04-1b6bf2774ae4">5.4</linkHtml>)]</content>.   </paragraph>
+                  <paragraph>
+                     <content styleCode="underline"> Secondary Malignancies</content>
+                  </paragraph>
+                  <paragraph>Advise patients of the potential long-term risks related to secondary malignancy <content styleCode="italics">[see Warnings and Precautions</content> (<linkHtml href="#_e9f79fdb-b4b3-c180-f081-8a0ea7e0c21f">5.5</linkHtml>)].   </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Embryo Fetal Toxicity</content>
+                  </paragraph>
+                  <list>
+                     <item>Advise pregnant women of the potential risk to a fetus <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_340132df-c1ec-4e14-ecb2-fc82cc08774d">5.6</linkHtml>) and Use in Specific Populations (<linkHtml href="#_1c72aefc-38a0-fe46-0032-6cc044c086bd">8.1</linkHtml>)].</content>
+                     </item>
+                     <item> Advise females of reproductive potential to use effective contraception during and for 6 months after treatment with IVRA. Advise males with female partners of reproductive potential to use effective contraception during treatment with IVRA and for 3 months after the last dose. Advise females to contact their healthcare provider if they become pregnant, or if pregnancy is suspected, while taking IVRA <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_340132df-c1ec-4e14-ecb2-fc82cc08774d">5.6</linkHtml>) and Use in Specific Populations (<linkHtml href="#_1c72aefc-38a0-fe46-0032-6cc044c086bd">8.1</linkHtml>)].</content>
+                     </item>
+                     <item> Inform females of reproductive potential about the risk for infertility. Advise males that reversible and irreversible testicular suppression have been reported <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#_d650b83a-e7d6-3e30-bf94-9becd4bf5097">5.7</linkHtml>)].</content>
+                     </item>
+                     <item>Advise women not to breastfeed during treatment with IVRA and for 1 week following the last dose <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#_e96d8341-04ec-cd3c-5868-8b078803bf1d">8.2</linkHtml>)].</content>
+                     </item>
+                  </list>
+                  <paragraph> Manufactured by: </paragraph>
+                  <paragraph> AqVida GmbH </paragraph>
+                  <paragraph>23942 Dassow Germany   </paragraph>
+                  <paragraph> Manufactured for: </paragraph>
+                  <paragraph> Apotex Corp. </paragraph>
+                  <paragraph>Weston, Florida, USA 33326</paragraph>
+                  <paragraph>Rev 1</paragraph>
+               </text>
+               <effectiveTime value="20240725"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_8ccd034d-f397-9c9d-4915-76f579c7c723">
+               <id root="90a7afb0-b9e3-56a3-ba53-1bb8309f9016"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold"> IVRA (melphalan) Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">90 mg/mL</content>
+                     <content styleCode="bold">- Bottle label</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Multiple-Dose Vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC# 60505-6414-1</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM627792821141"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM583438346492"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_58a90696-f301-2d10-d9ca-c1aa14c6bb5b">
+               <id root="810546cc-25b4-f6ce-1ed6-e5684956d731"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">IVRA</content> (<content styleCode="bold">melphalan) Injection</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">90 mg/mL</content>
+                     <content styleCode="bold"> - Bottle Carton</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                     <content styleCode="bold">Multiple-Dose Vial</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC# 60505-6414-1</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM635830767448"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240731"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="303d7311-f94f-31bb-e063-6294a90aa97b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">PROMETHAZINE HYDROCHLORIDE TABLETS, USP</content>
+   </title>
+   <effectiveTime value="20250313"/>
+   <setId root="5ce082e9-13eb-4e63-a9e2-657d3ef0e9f8"/>
+   <versionNumber value="31"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="156893695"/>
+            <name>PD-Rx Pharmaceuticals, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="156893695"/>
+                  <name>PD-Rx Pharmaceuticals, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="156893695"/>
+                        <name>PD-Rx Pharmaceuticals, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43063-874" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="303d48a6-9266-1c7b-e063-6294a90a002c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250313"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="43063-874" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>PROMETHAZINE HYDROCHLORIDE</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>promethazine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="10702-003" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4GFU244C4J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLCELLULOSE (100 CPS)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="25"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="R61ZEH7I1I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROMETHAZINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="FF28EJQ494" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROMETHAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-874-79" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20191107"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-874-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20191111"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="4" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-874-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180827"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-874-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180906"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="6" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-874-06" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180827"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-874-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180730"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="12" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-874-12" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180820"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-874-15" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180820"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-874-20" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20181207"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-874-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180905"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-874-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180816"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43063-874-95" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180817"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040712" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20060731"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">K;3</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="4" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="8" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="200dae4a-2489-fabc-e063-6294a90a019e"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Each 12.5 mg promethazine hydrochloride tablet for oral administration contains 12.5 mg promethazine hydrochloride.</paragraph>
+                  <paragraph>Each 25 mg promethazine hydrochloride tablet for oral administration contains 25 mg promethazine hydrochloride.</paragraph>
+                  <paragraph>Each 50 mg promethazine hydrochloride tablet for oral administration contains 50 mg promethazine hydrochloride.</paragraph>
+                  <paragraph>Each tablet contains the following inactive ingredients: lactose monohydrate, magnesium stearate, and methylcellulose.</paragraph>
+                  <paragraph>In addition, 50 mg tablet contains FD&amp;C Red #40 and 12.5 mg tablet contains FD&amp;C Yellow #6.</paragraph>
+                  <paragraph>Promethazine hydrochloride is a racemic compound; the empirical formula is C
+ 
+  <sub>17</sub>H
+ 
+  <sub>20</sub>N
+ 
+  <sub>2</sub>S•HCl and its molecular weight is 320.88.
+
+ </paragraph>
+                  <paragraph>Promethazine hydrochloride, a phenothiazine derivative, is designated chemically as 10
+ 
+  <content styleCode="italics">H</content>-Phenothiazine-10-ethanamine,
+ 
+  <content styleCode="italics">N,N</content>,α-trimethyl-, monohydrochloride, (±)- with the following structural formula:
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Laae2c9cb-6798-4c44-a4f7-ab5b229d389e"/>
+                  </paragraph>
+                  <paragraph>Promethazine hydrochloride occurs as a white to faint yellow, practically odorless, crystalline powder which slowly oxidizes and turns blue on prolonged exposure to air. It is freely soluble in water and soluble in alcohol.</paragraph>
+               </text>
+               <effectiveTime value="20181218"/>
+               <component>
+                  <observationMedia ID="Laae2c9cb-6798-4c44-a4f7-ab5b229d389e">
+                     <text>chemical-structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="figure-01-chemical-structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="200dae4a-248a-fabc-e063-6294a90a019e"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>Promethazine is a phenothiazine derivative which differs structurally from the antipsychotic phenothiazines by the presence of a branched side chain and no ring substitution. It is thought that this configuration is responsible for its relative lack (1/10 that of chlorpromazine) of dopamine antagonist properties.</paragraph>
+                  <paragraph>Promethazine is an H
+ 
+  <sub>1</sub>receptor blocking agent. In addition to its antihistaminic action, it provides clinically useful sedative and antiemetic effects.
+
+ </paragraph>
+                  <paragraph>Promethazine is well absorbed from the gastrointestinal tract. Clinical effects are apparent within 20 minutes after oral administration and generally last four to six hours, although they may persist as long as 12 hours. Promethazine is metabolized by the liver to a variety of compounds; the sulfoxides of promethazine and
+ 
+  <content styleCode="italics">N-</content>demethylpromethazine are the predominant metabolites appearing in the urine.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20150928"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="200dae4a-248b-fabc-e063-6294a90a019e"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>Promethazine hydrochloride tablets, USP are useful for:</paragraph>
+                  <paragraph>Perennial and seasonal allergic rhinitis.</paragraph>
+                  <paragraph>Vasomotor rhinitis.</paragraph>
+                  <paragraph>Allergic conjunctivitis due to inhalant allergens and foods.</paragraph>
+                  <paragraph>Mild, uncomplicated allergic skin manifestations of urticaria and angioedema.</paragraph>
+                  <paragraph>Amelioration of allergic reactions to blood or plasma.</paragraph>
+                  <paragraph>Dermographism.</paragraph>
+                  <paragraph>Anaphylactic reactions, as adjunctive therapy to epinephrine and other standard measures, after the acute manifestations have been controlled.</paragraph>
+                  <paragraph>Preoperative, postoperative, or obstetric sedation.</paragraph>
+                  <paragraph>Prevention and control of nausea and vomiting associated with certain types of</paragraph>
+                  <paragraph>anesthesia and surgery.</paragraph>
+                  <paragraph>Therapy adjunctive to meperidine or other analgesics for control of post-operative pain.</paragraph>
+                  <paragraph>Sedation in both children and adults, as well as relief of apprehension and production of light sleep from which the patient can be easily aroused.</paragraph>
+                  <paragraph>Active and prophylactic treatment of motion sickness.</paragraph>
+                  <paragraph>Antiemetic therapy in postoperative patients.</paragraph>
+               </text>
+               <effectiveTime value="20150928"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="200dae4a-248c-fabc-e063-6294a90a019e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>Promethazine hydrochloride tablets, USP are contraindicated for use in pediatric patients less than two years of age.</paragraph>
+                  <paragraph>Promethazine hydrochloride tablets, USP are contraindicated in comatose states, and in individuals known to be hypersensitive or to have had an idiosyncratic reaction to promethazine or to other phenothiazines.</paragraph>
+                  <paragraph>Antihistamines are contraindicated for use in the treatment of lower respiratory tract symptoms including asthma.</paragraph>
+               </text>
+               <effectiveTime value="20150928"/>
+            </section>
+         </component>
+         <component>
+            <section ID="bec57d5b-4c3b-415d-a2b4-9e8be3db06cd">
+               <id root="200dae4a-248d-fabc-e063-6294a90a019e"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <text>
+                  <table width="638">
+                     <tbody>
+                        <tr styleCode="First Last">
+                           <td align="left" styleCode="Botrule Toprule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">WARNING:</content>
+                              </paragraph>
+                              <paragraph/>
+                              <paragraph/>
+                              <paragraph>
+                                 <content styleCode="bold">PROMETHAZINE HYDROCHLORIDE TABLETS, USP SHOULD NOT BE USED IN PEDIATRIC PATIENTS LESS THAN 2 YEARS OF AGE BECAUSE OF THE POTENTIAL FOR FATAL RESPIRATORY DEPRESSION.</content>
+                              </paragraph>
+                              <paragraph/>
+                              <paragraph>
+                                 <content styleCode="bold">POSTMARKETING CASES OF RESPIRATORY DEPRESSION, INCLUDING FATALITIES, HAVE BEEN REPORTED WITH USE OF PROMETHAZINE HYDROCHLORIDE TABLETS, USP IN PEDIATRIC PATIENTS LESS THAN 2 YEARS OF AGE. A WIDE RANGE OF WEIGHT-BASED DOSES OF PROMETHAZINE HYDROCHLORIDE TABLETS, USP HAVE RESULTED IN RESPIRATORY DEPRESSION IN THESE PATIENTS.</content>
+                              </paragraph>
+                              <paragraph/>
+                              <paragraph>
+                                 <content styleCode="bold">CAUTION SHOULD BE EXERCISED WHEN ADMINISTERING PROMETHAZINE</content>
+                                 <content styleCode="bold">HYDROCHLORIDE TABLETS, USP TO PEDIATRIC PATIENTS 2 YEARS OF AGE AND OLDER. IT IS RECOMMENDED THAT THE LOWEST EFFECTIVE DOSE OF PROMETHAZINE HYDROCHLORIDE TABLETS, USP BE USED IN PEDIATRIC PATIENTS 2 YEARS OF AGE AND OLDER AND CONCOMITANT ADMINISTRATION OF OTHER DRUGS WITH RESPIRATORY DEPRESSANT EFFECTS BE AVOIDED.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">CNS Depression</content>
+                  </paragraph>
+                  <paragraph>Promethazine hydrochloride tablets, USP may impair the mental and/or physical abilities required for the performance of potentially hazardous tasks, such as driving a vehicle or operating machinery. The impairment may be amplified by concomitant use of other central-nervous-system depressants such as alcohol, sedatives/hypnotics (including barbiturates), narcotics, narcotic analgesics, general anesthetics, tricyclic antidepressants, and tranquilizers; therefore such agents should either be eliminated or given in reduced dosage in the presence of promethazine hydrochloride (see
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#b04c2903-e1f5-40bd-a958-b3b440024eeb">PRECAUTIONS- Information for Patients</linkHtml>
+                     </content>and
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#bff57104-b66b-4f81-94a5-435c8f464a44">Drug Interactions</linkHtml>
+                     </content>).
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory Depression</content>
+                  </paragraph>
+                  <paragraph>Promethazine hydrochloride tablets, USP may lead to potentially fatal respiratory depression.</paragraph>
+                  <paragraph>Use of promethazine hydrochloride tablets, USP in patients with compromised respiratory function (e.g., COPD, sleep apnea) should be avoided.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Lower Seizure Threshold</content>
+                  </paragraph>
+                  <paragraph>Promethazine hydrochloride tablets, USP may lower seizure threshold. It should be used with caution in persons with seizure disorders or in persons who are using concomitant medications, such as narcotics or local anesthetics, which may also affect seizure threshold.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Bone-Marrow Depression</content>
+                  </paragraph>
+                  <paragraph>Promethazine hydrochloride tablets, USP should be used with caution in patients with bone-marrow depression. Leukopenia and agranulocytosis have been reported, usually when promethazine hydrochloride tablets, USP have been used in association with other known marrow-toxic agents.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Neuroleptic Malignant Syndrome</content>
+                  </paragraph>
+                  <paragraph>A potentially fatal symptom complex sometimes referred to as Neuroleptic Malignant</paragraph>
+                  <paragraph>Syndrome (NMS) has been reported in association with promethazine hydrochloride alone or in combination with antipsychotic drugs. Clinical manifestations of NMS are hyperpyrexia, muscle rigidity, altered mental status and evidence of autonomic instability (irregular pulse or blood pressure, tachycardia, diaphoresis and cardiac dysrhythmias).</paragraph>
+                  <paragraph>The diagnostic evaluation of patients with this syndrome is complicated. In arriving at a diagnosis, it is important to identify cases where the clinical presentation includes both serious medical illness (e.g. pneumonia, systemic infection, etc.) and untreated or inadequately treated extrapyramidal signs and symptoms (EPS). Other important considerations in the differential diagnosis include central anticholinergic toxicity, heat stroke, drug fever and primary central nervous system (CNS) pathology.</paragraph>
+                  <paragraph>The management of NMS should include 1) immediate discontinuation of promethazine hydrochloride, antipsychotic drugs, if any, and other drugs not essential to concurrent therapy, 2) intensive symptomatic treatment and medical monitoring, and 3) treatment of any concomitant serious medical problems for which specific treatments are available. There is no general agreement about specific pharmacological treatment regimens for uncomplicated NMS.</paragraph>
+                  <paragraph>Since recurrences of NMS have been reported with phenothiazines, the reintroduction of promethazine hydrochloride should be carefully considered.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use in Pediatric Patients</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PROMETHAZINE HYDROCHLORIDE TABLETS, USP ARE CONTRAINDICATED FOR USE IN PEDIATRIC PATIENTS LESS THAN TWO YEARS OF AGE.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION SHOULD BE EXERCISED WHEN ADMINISTERING PROMETHAZINE HYDROCHLORIDE TABLETS, USP TO PEDIATRIC PATIENTS 2 YEARS OF AGE AND OLDER BECAUSE OF THE POTENTIAL FOR FATAL RESPIRATORY DEPRESSION. RESPIRATORY DEPRESSION AND APNEA, SOMETIMES ASSOCIATED WITH DEATH, ARE STRONGLY ASSOCIATED WITH PROMETHAZINE PRODUCTS AND ARE NOT DIRECTLY RELATED TO INDIVIDUALIZED WEIGHT-BASED DOSING, WHICH MIGHT OTHERWISE PERMIT SAFE ADMINISTRATION. CONCOMITANT ADMINISTRATION OF PROMETHAZINE PRODUCTS WITH OTHER RESPIRATORY DEPRESSANTS HAS AN ASSOCIATION WITH RESPIRATORY DEPRESSION, AND SOMETIMES DEATH, IN PEDIATRIC PATIENTS.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ANTIEMETICS ARE NOT RECOMMENDED FOR TREATMENT OF UNCOMPLICATED VOMITING IN PEDIATRIC PATIENTS, AND THEIR USE SHOULD BE LIMITED TO PROLONGED VOMITING OF KNOWN ETIOLOGY. THE EXTRAPYRAMIDAL SYMPTOMS WHICH CAN OCCUR SECONDARY TO PROMETHAZINE HYDROCHLORIDE TABLETS, USP ADMINISTRATION MAY BE CONFUSED WITH THE CNS SIGNS OF UNDIAGNOSED PRIMARY DISEASE, e.g., ENCEPHALOPATHY OR REYE’S SYNDROME. THE USE OF PROMETHAZINE HYDROCHLORIDE TABLETS, USP SHOULD BE AVOIDED IN PEDIATRIC PATIENTS WHOSE SIGNS AND SYMPTOMS MAY SUGGEST REYE’S SYNDROME OR OTHER HEPATIC DISEASES.</content>
+                  </paragraph>
+                  <paragraph>Excessively large dosages of antihistamines, including promethazine hydrochloride tablets, USP, in pediatric patients may cause sudden death (see
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#b3f2eb4c-405b-4877-a49d-09ef10610302">OVERDOSAGE</linkHtml>
+                     </content>). Hallucinations and convulsions have occurred with therapeutic doses and overdoses of promethazine hydrochloride tablets, USP in pediatric patients. In pediatric patients who are acutely ill associated with dehydration, there is an increased susceptibility to dystonias with the use of promethazine hydrochloride.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other Considerations</content>
+                  </paragraph>
+                  <paragraph>Administration of promethazine hydrochloride has been associated with reported cholestatic jaundice.</paragraph>
+               </text>
+               <effectiveTime value="20150928"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_b3af6abb-18ed-84fd-e053-2a95a90a489a">
+               <id root="200dae4a-248e-fabc-e063-6294a90a019e"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <effectiveTime value="20201109"/>
+               <component>
+                  <section>
+                     <id root="200dae4a-248f-fabc-e063-6294a90a019e"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">General</content>
+                     </title>
+                     <text>
+                        <paragraph>Drugs having anticholinergic properties should be used with caution in patients with narrow-angle glaucoma, prostatic hypertrophy, stenosing peptic ulcer, pyloroduodenal obstruction, and bladder-neck obstruction.</paragraph>
+                        <paragraph>Promethazine hydrochloride tablets, USP should be used cautiously in persons with cardiovascular disease or with impairment of liver function.</paragraph>
+                     </text>
+                     <effectiveTime value="20150928"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b04c2903-e1f5-40bd-a958-b3b440024eeb">
+                     <id root="200dae4a-2490-fabc-e063-6294a90a019e"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Information for Patients</content>
+                     </title>
+                     <text>
+                        <paragraph>Promethazine hydrochloride tablets, USP may cause marked drowsiness or impair the mental and/or physical abilities required for the performance of potentially hazardous tasks, such as driving a vehicle or operating machinery. The use of alcohol or other central- nervous-system depressants such as sedatives/hypnotics (including barbiturates), narcotics, narcotic analgesics, general anesthetics, tricyclic antidepressants, and tranquilizers, may enhance impairment (see
+ 
+  <content styleCode="bold">
+                              <linkHtml href="#b5f06b0e-0da0-4bcf-9bbe-ac6ab9817d18">WARNINGS - CNS Depression</linkHtml>
+                           </content>and
+ 
+  <content styleCode="bold">
+                              <linkHtml href="#bff57104-b66b-4f81-94a5-435c8f464a44">PRECAUTIONS - Drug Interactions</linkHtml>
+                           </content>). Pediatric patients should be supervised to avoid potential harm in bike riding or in other hazardous activities.
+
+ </paragraph>
+                        <paragraph>Patients should be advised to report any involuntary muscle movements.</paragraph>
+                        <paragraph>Avoid prolonged exposure to the sun.</paragraph>
+                     </text>
+                     <effectiveTime value="20150928"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="bff57104-b66b-4f81-94a5-435c8f464a44">
+                     <id root="200dae4a-2491-fabc-e063-6294a90a019e"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Drug Interactions</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">CNS Depressants</content>– Promethazine hydrochloride tablets, USP may increase, prolong, or intensify the sedative action of other central-nervous-system depressants, such as alcohol, sedatives/hypnotics (including barbiturates), narcotics, narcotic analgesics, general anesthetics, tricyclic antidepressants, and tranquilizers; therefore, such agents should be avoided or administered in reduced dosage to patients receiving promethazine hydrochloride. When given concomitantly with promethazine hydrochloride tablets, USP, the dose of barbiturates should be reduced by at least one-half, and the dose of narcotics should be reduced by one-quarter to one-half. Dosage must be individualized. Excessive amounts of promethazine hydrochloride relative to a narcotic may lead to restlessness and motor hyperactivity in the patient with pain; these symptoms usually disappear with adequate control of the pain.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Epinephrine</content>— Because of the potential for promethazine hydrochloride tablets, USP to reverse epinephrine’s vasopressor effect, epinephrine should NOT be used to treat hypotension associated with promethazine hydrochloride tablets, USP overdose.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Anticholinergics</content>
+                           <content styleCode="bold">—</content>Concomitant use of other agents with anticholinergic properties should be undertaken with caution.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Monoamine Oxidase Inhibitors (MAOI)</content>— Drug interactions, including an increased incidence of extrapyramidal effects, have been reported when some MAOI and phenothiazines are used concomitantly. This possibility should be considered with promethazine hydrochloride tablets, USP.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20150928"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_b3aef6f3-ccf8-7cca-e053-2995a90a411d">
+                     <id root="200dae4a-2492-fabc-e063-6294a90a019e"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Drug/Laboratory Test Interactions</content>
+                     </title>
+                     <text>
+                        <paragraph>The following laboratory tests may be affected in patients who are receiving therapy with promethazine hydrochloride:</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">Pregnancy Tests</content>
+                        </paragraph>
+                        <paragraph>Diagnostic pregnancy tests based on immunological reactions between HCG and anti-HCG may result in false-negative or false-positive interpretations.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">Glucose Tolerance Test</content>
+                        </paragraph>
+                        <paragraph>An increase in blood glucose has been reported in patients receiving promethazine hydrochloride.</paragraph>
+                     </text>
+                     <effectiveTime value="20150928"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_b3aef9a1-7b5c-10ca-e053-2a95a90a5232">
+                     <id root="200dae4a-2493-fabc-e063-6294a90a019e"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </title>
+                     <text>
+                        <paragraph>Long-term animal studies have not been performed to assess the carcinogenic potential of promethazine, nor are there other animal or human data concerning carcinogenicity, mutagenicity, or impairment of fertility with this drug. Promethazine was nonmutagenic in the
+ 
+  <content styleCode="italics">Salmonella</content>test system of Ames.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20150928"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_b3af1535-9072-4ee5-e053-2a95a90acac7">
+                     <id root="200dae4a-2494-fabc-e063-6294a90a019e"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pregnancy</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Teratogenic Effects - Pregnancy Category C</content>
+                        </paragraph>
+                        <paragraph>Teratogenic effects have not been demonstrated in rat-feeding studies at doses of 6.25 mg/kg and 12.5 mg/kg of promethazine hydrochloride. These doses are from approximately 2.1 to 4.2 times the maximum recommended total daily dose of promethazine for a 50-kg subject, depending upon the indication for which the drug is prescribed. Daily doses of 25 mg/kg intraper-itoneally have been found to produce fetal mortality in rats.</paragraph>
+                        <paragraph/>
+                        <paragraph>Specific studies to test the action of the drug on parturition, lactation, and development of the animal neonate were not done, but a general preliminary study in rats indicated no effect on these parameters. Although antihistamines have been found to produce fetal mortality in rodents, the pharmacological effects of histamine in the rodent do not parallel those in man. There are no adequate and well-controlled studies of promethazine hydrochloride tablets, USP in pregnant women.</paragraph>
+                        <paragraph/>
+                        <paragraph>Promethazine hydrochloride tablets, USP should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">Nonteratogenic Effects</content>
+                        </paragraph>
+                        <paragraph>Promethazine hydrochloride tablets, USP administered to a pregnant woman within two weeks of delivery may inhibit platelet aggregation in the newborn.</paragraph>
+                     </text>
+                     <effectiveTime value="20150928"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_b3af26a3-cf86-1348-e053-2a95a90a23b3">
+                     <id root="200dae4a-2495-fabc-e063-6294a90a019e"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Labor and Delivery</content>
+                     </title>
+                     <text>
+                        <paragraph>Promethazine hydrochloride may be used alone or as an adjunct to narcotic analgesics during labor (see
+ 
+  <content styleCode="bold">
+                              <linkHtml href="#b0ec6c81-09c3-4cf3-9b40-2a2f1602878c">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>). Limited data suggest that use of promethazine hydrochloride tablets, USP during labor and delivery does not have an appreciable effect on the duration of labor or delivery and does not increase the risk of need for intervention in the newborn. The effect on later growth and development of the newborn is unknown. (See also
+ 
+  <content styleCode="italics">Nonteratogenic Effects</content>.)
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20150928"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_b3aef9a1-7b61-10ca-e053-2a95a90a5232">
+                     <id root="200dae4a-2496-fabc-e063-6294a90a019e"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Nursing Mothers</content>
+                     </title>
+                     <text>
+                        <paragraph>It is not known whether promethazine hydrochloride is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from promethazine hydrochloride tablets, USP, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20150928"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_b3af26a3-cf88-1348-e053-2a95a90a23b3">
+                     <id root="200dae4a-2497-fabc-e063-6294a90a019e"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pediatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">PROMETHAZINE HYDROCHLORIDE TABLETS, USP ARE CONTRAINDICATED FOR USE IN PEDIATRIC PATIENTS LESS THAN TWO YEARS OF AGE</content>(see
+ 
+  <content styleCode="bold">
+                              <linkHtml href="#bec57d5b-4c3b-415d-a2b4-9e8be3db06cd">WARNINGS - Black Box Warning</linkHtml>
+                           </content>and
+ 
+  <content styleCode="bold">
+                              <linkHtml href="#b357be76-61a3-4ec3-a603-5cc26b74fa28">Use in Pediatric Patients</linkHtml>
+                           </content>).
+
+ </paragraph>
+                        <paragraph>Promethazine hydrochloride tablets, USP should be used with caution in pediatric patients 2 years of age and older (see
+ 
+  <content styleCode="bold">
+                              <linkHtml href="#b357be76-61a3-4ec3-a603-5cc26b74fa28">WARNINGS - Use in Pediatric Patients</linkHtml>
+                           </content>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20150928"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_b3aef6f5-9105-02f9-e053-2a95a90af8e8">
+                     <id root="200dae4a-2498-fabc-e063-6294a90a019e"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Geriatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>Clinical studies of promethazine hydrochloride tablets, USP did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>Sedating drugs may cause confusion and over-sedation in the elderly; elderly patients generally should be started on low doses of promethazine hydrochloride tablets, USP and observed closely.</paragraph>
+                     </text>
+                     <effectiveTime value="20150928"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="200dae4a-2499-fabc-e063-6294a90a019e"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Central Nervous System</content>
+                  </paragraph>
+                  <paragraph>Drowsiness is the most prominent CNS effect of this drug. Sedation, somnolence, blurred vision, dizziness; confusion, disorientation, and extrapyramidal symptoms such as oculogyric crisis, torticollis, and tongue protrusion; lassitude, tinnitus, incoordination, fatigue, euphoria, nervousness, diplopia, insomnia, tremors, convulsive seizures, excitation, catatonic-like states, hysteria. Hallucinations have also been reported.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular —</content>Increased or decreased blood pressure, tachycardia, bradycardia,
+
+ </paragraph>
+                  <paragraph>faintness.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dermatologic —</content>Dermatitis, photosensitivity, urticaria.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hematologic —</content>Leukopenia, thrombocytopenia, thrombocytopenic purpura,
+
+ </paragraph>
+                  <paragraph>agranulocytosis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal —</content>Dry mouth, nausea, vomiting, jaundice.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory —</content>Asthma, nasal stuffiness, respiratory depression (potentially fatal) and apnea (potentially fatal). (See
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#b8ee5fd7-0a81-4d1b-948a-d97ec285598b">WARNINGS - Respiratory Depression</linkHtml>
+                     </content>).
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other —</content>Angioneurotic edema. Neuroleptic malignant syndrome (potentially fatal) has also been reported. (See
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#b1db6bbd-3d86-4901-bb40-8d55a251b5aa">WARNINGS - Neuroleptic Malignant Syndrome</linkHtml>
+                     </content>).
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Paradoxical Reactions</content>
+                  </paragraph>
+                  <paragraph>Hyperexcitability and abnormal movements have been reported in patients following a single administration of promethazine hydrochloride. Consideration should be given to the discontinuation of promethazine hydrochloride and to the use of other drugs if these reactions occur. Respiratory depression, nightmares, delirium, and agitated behavior have also been reported in some of these patients.</paragraph>
+               </text>
+               <effectiveTime value="20150928"/>
+            </section>
+         </component>
+         <component>
+            <section ID="b3f2eb4c-405b-4877-a49d-09ef10610302">
+               <id root="200dae4a-249a-fabc-e063-6294a90a019e"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>Signs and symptoms of overdosage with promethazine hydrochloride range from mild depression of the central nervous system and cardiovascular system to profound hypotension, respiratory depression, unconsciousness, and sudden death. Other reported reactions include hyperreflexia, hypertonia, ataxia, athetosis, and extensorplantar reflexes (Babinski reflex).</paragraph>
+                  <paragraph>Stimulation may be evident, especially in children and geriatric patients. Convulsions may rarely occur. A paradoxical-type reaction has been reported in children receiving single doses of 75 mg to 125 mg orally, characterized by hyperexcitability and nightmares.</paragraph>
+                  <paragraph>Atropine-like signs and symptoms—dry mouth, fixed, dilated pupils, flushing, as well as gastrointestinal symptoms - may occur.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Treatment</content>
+                  </paragraph>
+                  <paragraph>Treatment of overdosage is essentially symptomatic and supportive. Only in cases of extreme overdosage or individual sensitivity do vital signs, including respiration, pulse, blood pressure, temperature, and EKG, need to be monitored. Activated charcoal orally or by lavage may be given, or sodium or magnesium sulfate orally as a cathartic. Attention should be given to the reestablishment of adequate respiratory exchange through provision of a patent airway and institution of assisted or controlled ventilation. Diazepam may be used to control convulsions. Acidosis and electrolyte losses should be corrected. Note that any depressant effects of promethazine hydrochloride are not reversed by naloxone. Avoid analeptics which may cause convulsions.</paragraph>
+                  <paragraph>The treatment of choice for resulting hypotension is administration of intravenous fluids, accompanied by repositioning if indicated. In the event that vasopressors are considered for the management of severe hypotension which does not respond to intravenous fluids and repositioning, the administration of norepinephrine or phenylephrine should be considered. EPINEPHRINE SHOULD NOT BE USED, since its use in patients with partial adrenergic blockade may further lower the blood pressure. Extrapyramidal reactions may be treated with anticholinergic antiparkinsonian agents, diphenhydramine, or barbiturates. Oxygen may also be administered.</paragraph>
+                  <paragraph>Limited experience with dialysis indicates that it is not helpful.</paragraph>
+               </text>
+               <effectiveTime value="20150928"/>
+            </section>
+         </component>
+         <component>
+            <section ID="b0ec6c81-09c3-4cf3-9b40-2a2f1602878c">
+               <id root="200dae4a-249b-fabc-e063-6294a90a019e"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Promethazine hydrochloride tablets, USP are contraindicated for children under 2 years of age</content>(see
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#bec57d5b-4c3b-415d-a2b4-9e8be3db06cd">WARNINGS - Black Box Warning</linkHtml>
+                     </content>and
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#b357be76-61a3-4ec3-a603-5cc26b74fa28">Use in Pediatric Patients</linkHtml>
+                     </content>).
+
+ </paragraph>
+                  <paragraph>Promethazine hydrochloride tablets, USP are for oral administration only.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Allergy</content>
+                  </paragraph>
+                  <paragraph>The average oral dose is 25 mg taken before retiring; however, 12.5 mg may be taken before meals and on retiring, if necessary. Single 25 mg doses at bedtime or 6.25 mg to 12.5 mg taken three times daily will usually suffice. After initiation of treatment in children or adults, dosage should be adjusted to the smallest amount adequate to relieve symptoms. The administration of promethazine hydrochloride in 25 mg doses will control minor transfusion reactions of an allergic nature.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Motion Sickness</content>
+                  </paragraph>
+                  <paragraph>The average adult dose is 25 mg taken twice daily. The initial dose should be taken one-half to one hour before anticipated travel and be repeated 8 to 12 hours later, if necessary. On succeeding days of travel, it is recommended that 25 mg be given on arising and again before the evening meal. For children, promethazine hydrochloride tablets, USP 12.5 mg to 25 mg, twice daily, may be administered.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nausea and Vomiting</content>
+                  </paragraph>
+                  <paragraph>Antiemetics should not be used in vomiting of unknown etiology in children and adolescents (see
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#b357be76-61a3-4ec3-a603-5cc26b74fa28">WARNINGS - Use in Pediatric Patients</linkHtml>
+                     </content>).
+
+ </paragraph>
+                  <paragraph>The average effective dose of promethazine hydrochloride tablets, USP for the active therapy of nausea and vomiting in children or adults is 25 mg. 12.5 to 25 mg doses may be repeated, as necessary, at 4 to 6 hour intervals.</paragraph>
+                  <paragraph>For nausea and vomiting in children, the usual dose is 0.5 mg per pound of body weight, and the dose should be adjusted to the age and weight of the patient and the severity of the condition being treated.</paragraph>
+                  <paragraph>For prophylaxis of nausea and vomiting, as during surgery and the postoperative period, the average dose is 25 mg repeated at 4 to 6 hour intervals, as necessary.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sedation</content>
+                  </paragraph>
+                  <paragraph>This product relieves apprehension and induces a quiet sleep from which the patient can be easily aroused. Administration of 12.5 to 25 mg promethazine hydrochloride orally at bedtime will provide sedation in children. Adults usually require 25 to 50 mg for nighttime, presurgical, or obstetrical sedation.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pre- and Postoperative Use</content>
+                  </paragraph>
+                  <paragraph>Promethazine hydrochloride tablets, USP in 12.5 to 25 mg doses for children and 50 mg doses for adults the night before surgery relieves apprehension and produces a quiet sleep.</paragraph>
+                  <paragraph>For preoperative medication, children require doses of 0.5 mg per pound of body weight in combination with an appropriately reduced dose of narcotic or barbiturate and the appropriate dose of an atropine-like drug. Usual adult dosage is 50 mg promethazine hydrochloride tablets, USP with an appropriately reduced dose of narcotic or barbiturate and the required amount of a belladonna alkaloid.</paragraph>
+                  <paragraph>Postoperative sedation and adjunctive use with analgesics may be obtained by the administration of 12.5 to 25 mg in children and 25 to 50 mg doses in adults.</paragraph>
+                  <paragraph>Promethazine hydrochloride tablets, USP are contraindicated for children under 2 years of age.</paragraph>
+               </text>
+               <effectiveTime value="20150928"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_b3aef6f3-cceb-7cca-e053-2995a90a411d">
+               <id root="200dae4a-249c-fabc-e063-6294a90a019e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>Promethazine hydrochloride tablets, USP are available as follows:</paragraph>
+                  <paragraph>Promethazine hydrochloride tablets, USP 25 mg are supplied as white colored, round shaped, flat face bevel edge tablets, debossed “K 3” on one side and quadrisected on the other side.</paragraph>
+                  <paragraph>NDC 43063-874-79 Bottles of 1</paragraph>
+                  <paragraph>NDC 43063-874-02 Bottles of 2</paragraph>
+                  <paragraph>NDC 43063-874-04 Bottles of 4</paragraph>
+                  <paragraph>NDC 43063-874-05 Bottles of 5</paragraph>
+                  <paragraph>NDC 43063-874-06 Bottles of 6</paragraph>
+                  <paragraph>NDC 43063-874-10 Bottles of 10</paragraph>
+                  <paragraph>NDC 43063-874-12 Bottles of 12</paragraph>
+                  <paragraph>NDC 43063-874-15 Bottles of 15</paragraph>
+                  <paragraph>NDC 43063-874-20 Bottles of 20</paragraph>
+                  <paragraph>NDC 43063-874-30 Bottles of 30</paragraph>
+                  <paragraph>NDC 43063-874-01 Bottles of 100</paragraph>
+                  <paragraph>NDC 43063-874-95 Bottles of 1000</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store</content>at 20° to 25°C with excursions permitted between 15° to 30°C (59° to 86°F) [See USP Controlled Room Temperature].
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protect</content>from light.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dispense</content>in a tight, light-resistant container as defined in the USP, with a child-resistant closure (as required).
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20181218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_303d7b74-18fc-11d9-e063-6294a90a6670">
+               <id root="303d7b74-18fb-11d9-e063-6294a90a6670"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PROMETHAZINE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">HYDROCHLORIDE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TABLETS, USP</content>
+                  </paragraph>
+                  <paragraph>25 mg</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_303d7b2d-1f07-3407-e063-6294a90a7b7c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181218"/>
+               <component>
+                  <observationMedia ID="img_303d7b2d-1f07-3407-e063-6294a90a7b7c">
+                     <text>image</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="43063874.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

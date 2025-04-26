@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3de36693-e566-4f2a-b9fe-8b777b275fa4"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>CEFOXITIN FOR INJECTION, USP<br/>
+      <br/>
+      <br/>
+   </title>
+   <effectiveTime value="20250303"/>
+   <setId root="6a4a2afa-4f00-41d4-bd6d-baa0a95f6929"/>
+   <versionNumber value="13"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="001230762" root="1.3.6.1.4.1.519.1"/>
+            <name>Hikma Pharmaceuticals USA Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="452742943" root="1.3.6.1.4.1.519.1"/>
+                        <name>HIKMA FARMACEUTICA (PORTUGAL), S.A</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0143-9876" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="f2aead57-79e0-4ed4-aa64-f42da1c52083"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20250303"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9876" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cefoxitin</name>
+                        <formCode code="C42974" displayName="INJECTION, POWDER, FOR SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Cefoxitin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Q68050H03T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CEFOXITIN SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="6OEV9DX57Y" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CEFOXITIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0143-9876-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9876-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20100226"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065239" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20100226"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fbdde6d5-4bf2-4d61-8f4e-3b128a3dfb51">
+               <id root="68185ad2-a2c7-4aa7-b68a-1e9c13b01efe"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <table width="180px">
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph> PHARMACY BULK PACKAGE<br/>
+            NOT FOR DIRECT INFUSION</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Cefoxitin for Injection, USP and other antibacterial drugs, Cefoxitin for Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria. </paragraph>
+               </text>
+               <effectiveTime value="20250303"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_13f1b92b-a986-4b09-a48a-1e4eebf5249d">
+               <id root="b247c1b3-ab58-4b19-b5f0-bb948aeaba50"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Cefoxitin for Injection, USP is a semi-synthetic, broad-spectrum cepha antibiotic sealed under nitrogen for intravenous administration. It is derived from cephamycin C, which is produced by <content styleCode="italics">Streptomyces lactamdurans. </content>Its chemical name is sodium (6R,7S)-3-(hydroxymethyl)-7-methoxy-8-oxo-7-[2-(2-thienyl)acetamido]-5-thia-1-azabicyclo [4.2.0] oct-2-ene-2-carboxylate carbamate (ester). </paragraph>
+                  <paragraph>The molecular formula is C<sub>16</sub>H<sub>16</sub>N<sub>3</sub>N<sub>a</sub>O<sub>7</sub>S<sub>2</sub>, and the structural formula is: </paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Cefoxitin for injection contains approximately 53.8 mg (2.3 milliequivalents) of sodium per gram of cefoxitin activity. Solutions of Cefoxitin for Injection, USP range from colorless to light amber in color. The pH of freshly constituted solutions usually ranges from 4.2 to 7.0. </paragraph>
+                  <paragraph>Each Pharmacy Bulk Package Bottle of Cefoxitin for Injection, USP contains sterile cefoxitin sodium, USP equivalent to 10 grams of cefoxitin.</paragraph>
+                  <paragraph>This Pharmacy Bulk Package Bottle is a container of sterile preparation for intravenous use that contains many single doses. The contents are intended for use in a pharmacy admixture service and are restricted to the preparation of admixtures for intravenous infusion. AFTER RECONSTITUTION FURTHER DILUTION IS REQUIRED BEFORE USE. NOT FOR DIRECT INFUSION.</paragraph>
+               </text>
+               <effectiveTime value="20250303"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>chemical structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cefoxitin-injection-pbp-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d8bdd0e1-358e-49a8-981d-5622734f7812">
+               <id root="ada36c0d-65c5-4763-9ce8-5055483efd63"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20250303"/>
+               <component>
+                  <section ID="LINK_d098f197-1a43-4f25-9244-87c1c1ea7a93">
+                     <id root="f46e934b-0d9f-4538-a9c7-fd81d23879a2"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Clinical Pharmacology</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Following an intravenous dose of 1 gram, serum concentrations were 110 mcg/mL at 5 minutes, declining to less than 1 mcg/mL at 4 hours. The half-life after an intravenous dose is 41 to 59 minutes. Approximately 85 percent of cefoxitin is excreted unchanged by the kidneys over a 6-hour period, resulting in high urinary concentrations. Probenecid slows tubular excretion and produces higher serum levels and increases the duration of measurable serum concentrations.</paragraph>
+                        <paragraph> Cefoxitin passes into pleural and joint fluids and is detectable in antibacterial concentrations in bile. In a published study of geriatric patients ranging in age from 64 to 88 years with normal renal function for their age (creatinine clearance ranging from 31.5 to 174.0 mL/min), the half-life for cefoxitin ranged from 51 to 90 minutes, resulting in higher plasma concentrations than in younger adults. These changes were attributed to decreased renal function associated with the aging process.  </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d02b1f36-7682-415b-a612-3cc2ab0c4457">
+                     <id root="48545a08-fb0f-43f7-bdd2-a26d1ea811b6"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Microbiology</content>
+                        </content>
+                     </title>
+                     <effectiveTime value="20250303"/>
+                     <component>
+                        <section ID="LINK_48e34d67-5cc2-414f-a46b-0e27426b0a12">
+                           <id root="9ea81495-9c30-4059-a74e-ca3ac3ea651c"/>
+                           <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                           <title>
+                              <content styleCode="italics">Mechanism of Action</content>
+                           </title>
+                           <text>
+                              <paragraph>Cefoxitin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefoxitin has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria. </paragraph>
+                           </text>
+                           <effectiveTime value="20250303"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_072c1dd4-efd8-44f0-82cb-fe1c3e3b8d89">
+                           <id root="5716fc65-4f13-4e24-bc1f-278e04f42bae"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Mechanism of Resistance </content>
+                           </title>
+                           <text>
+                              <paragraph>Resistance to cefoxitin is primarily through hydrolysis by beta-lactamase, alteration of penicillin-binding proteins (PBPs), and decreased permeability.</paragraph>
+                              <paragraph>Cefoxitin has been shown to be active against most isolates of the following bacteria, both <content styleCode="italics">in vitro </content>and in clinical infections as described in the <content styleCode="bold">
+                                    <linkHtml href="#LINK_e36b5b8b-5c95-466a-8cfa-4bab349abaf0">INDICATIONS AND USAGE</linkHtml>
+                                 </content>section: </paragraph>
+                              <paragraph>Gram-positive bacteria<content styleCode="italics">  </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Staphylococcus aureus</content> (methicillin-susceptible isolates only) <content styleCode="italics">  </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Staphylococcus epidermidis (</content>methicillin-susceptible isolates only<content styleCode="italics">)  </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Streptococcus agalactiae   </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Streptococcus pneumoniae  </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Streptococcus pyogenes </content>
+                              </paragraph>
+                              <paragraph>Gram-negative<content styleCode="italics"> bacteria </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Escherichia coli  </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Haemophilus influenzae  </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Klebsiella </content>spp. <content styleCode="italics"> </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Morganella morganii   </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Neisseria gonorrhoeae    </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Proteus mirabilis    </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Proteus vulgaris    </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Providencia </content>spp. </paragraph>
+                              <paragraph>Anaerobic bacteria<content styleCode="italics">   </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Clostridium </content>spp.<content styleCode="italics">   </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Peptococcus niger </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Peptostreptococcus </content>spp. <content styleCode="italics">   </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Bacteroides </content>spp. </paragraph>
+                              <paragraph>The following<content styleCode="italics"> in vitro </content>data are available,but their clinical significance is unknown. </paragraph>
+                              <paragraph> At least 90 percent of the following microorganisms exhibit an <content styleCode="italics">in vitro </content>minimum inhibitory concentration (MIC) less than or equal to the susceptible breakpoint for cefoxitin. However, the efficacy of cefoxitin in treating clinical infections due to these microorganisms has not been established in adequate and well-controlled clinical trials. </paragraph>
+                              <paragraph>Gram-negative bacteria<content styleCode="italics">   </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Eikenella corrodens </content>(non-β-lactamase producers) </paragraph>
+                              <paragraph>Anaerobic bacteria</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Clostridium perfringens   </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Prevotella bivia </content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20250303"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_451e7113-adc6-4342-b53d-1355365574d3">
+                     <id root="16fef53b-4acf-4555-8666-877aaffa0374"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Susceptibility Test Methods</content>
+                     </title>
+                     <text>
+                        <paragraph>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.</paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e36b5b8b-5c95-466a-8cfa-4bab349abaf0">
+               <id root="893ef807-9c38-4e54-8fc1-6198dc60abbf"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <effectiveTime value="20250303"/>
+               <component>
+                  <section ID="LINK_0f260a4a-f812-409b-af94-08dcaaf23c00">
+                     <id root="2e32f18e-eeed-42bb-8ecb-89eadaa77a08"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Treatment</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Cefoxitin for Injection, USP is indicated for the treatment of serious infections caused by susceptible strains of the designated microorganisms in the diseases listed below. </paragraph>
+                        <paragraph>(1) <content styleCode="bold">Lower respiratory tract infections,</content> including pneumonia and lung abscess, caused by <content styleCode="italics">Streptococcus pneumoniae,</content> other streptococci (excluding enterococci, e.g., <content styleCode="italics">Enterococcus faecalis</content> [formerly <content styleCode="italics">Streptococcus faecalis</content>]), <content styleCode="italics">Staphylococcus aureus</content> (including penicillinase-producing strains), <content styleCode="italics">Escherichia coli, Klebsiella species, Haemophilus influenzae,</content> and <content styleCode="italics">Bacteroides</content> species. </paragraph>
+                        <paragraph>(2) <content styleCode="bold">Urinary tract infections </content>caused by <content styleCode="italics">Escherichia coli, Klebsiella</content> species, <content styleCode="italics">Proteus mirabilis, Morganella morganii, Proteus vulgaris</content> and <content styleCode="italics">Providencia </content>species (including <content styleCode="italics">P. rettgeri</content>). </paragraph>
+                        <paragraph>(3) <content styleCode="bold">Intra-abdominal infections,</content> including peritonitis and intra-abdominal abscess, caused by <content styleCode="italics">Escherichia coli, Klebsiella </content>species,<content styleCode="italics"> Bacteroides</content> species including <content styleCode="italics">Bacteroides fragilis, </content>and <content styleCode="italics">Clostridium</content> species. </paragraph>
+                        <paragraph>(4) <content styleCode="bold">Gynecological infections, </content>including endometritis, pelvic cellulitis, and pelvic inflammatory disease caused by<content styleCode="italics"> Escherichia coli, Neisseria gonorrhoeae</content> (including penicillinase-producing strains), <content styleCode="italics">Bacteroides </content>species including<content styleCode="italics"> B. fragilis, Clostridium</content> species, <content styleCode="italics">Peptococcus niger, Peptostreptococcus</content> species and <content styleCode="italics">Streptococcus agalactiae.</content> Cefoxitin for Injection, USP, like cephalosporins, has no activity against <content styleCode="italics">Chlamydia trachomatis.</content> Therefore, when Cefoxitin for Injection, USP is used in the treatment of patients with pelvic inflammatory disease and <content styleCode="italics">C. trachomatis</content> is one of the suspected pathogens, appropriate anti-chlamydial coverage should be added. </paragraph>
+                        <paragraph>(5) <content styleCode="bold">Septicemia caused by Streptococcus pneumoniae, </content>
+                           <content styleCode="italics">Staphylococcus aureus</content> (including penicillinase­-producing strains),<content styleCode="italics"> Escherichia coli, Klebsiella</content> species, and <content styleCode="italics">Bacteroides</content> species including<content styleCode="italics"> B. fragilis. </content>
+                        </paragraph>
+                        <paragraph>(6) <content styleCode="bold">Bone and joint infections</content> caused by <content styleCode="italics">Staphylococcus aureus </content>(including penicillinase-producing strains). </paragraph>
+                        <paragraph>(7) <content styleCode="bold">Skin and skin structure infections </content>caused by <content styleCode="italics">Staphylococcus aureus</content> (including penicillinase­-producing strains),<content styleCode="italics"> Staphylococcus epidermidis, Streptococcus pyogenes</content> and other <content styleCode="italics">streptococci </content>(excluding enterococci e.g., <content styleCode="italics">Enterococcus faecalis</content> [formerly <content styleCode="italics">Streptococcus faecalis</content>]), <content styleCode="italics">Escherichia coli, Proteus mirabilis, Klebsiella</content> species, <content styleCode="italics">Bacteroides</content> species including <content styleCode="italics">B. fragilis, Clostridium </content>species, <content styleCode="italics">Peptococcus niger, </content>and <content styleCode="italics">Peptostreptococcus</content> species. </paragraph>
+                        <paragraph>Appropriate culture and susceptibility studies should be performed to determine the susceptibility of the causative organisms to cefoxitin. Therapy may be started while awaiting the results of these studies. </paragraph>
+                        <paragraph>In randomized comparative studies, cefoxitin and cephalothin were comparably safe and effective in the management of infections caused by gram-positive cocci and gram-negative rods susceptible to the cephalosporins. Cefoxitin Injection, USP has a high degree of stability in the presence of bacterial beta-lactamases, both penicillinases and cephalosporinases. </paragraph>
+                        <paragraph>Many infections caused by aerobic and anaerobic gram-negative bacteria resistant to some cephalosporins respond to cefoxitin. Similarly, many infections caused by aerobic and anaerobic bacteria resistant to some penicillin antibiotics (ampicillin, carbenicillin, penicillin G) respond to treatment with Cefoxitin Injection, USP. Many infections caused by mixtures of susceptible aerobic and anaerobic bacteria respond to treatment with Cefoxitin Injection, USP. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a73816db-b54e-4605-b1f7-3056bebb3ac2">
+                     <id root="4ce042e4-c054-462b-9a9f-3d5a2351ce52"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Prevention</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Cefoxitin for Injection is indicated for the prophylaxis of infection in patients undergoing uncontaminated gastrointestinal surgery, vaginal hysterectomy, abdominal hysterectomy, or cesarean section. </paragraph>
+                        <paragraph>If there are signs of infection, specimens for culture should be obtained for identification of the causative organism so that appropriate treatment may be instituted. </paragraph>
+                        <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of cefoxitin for injection and other antibacterial drugs, Cefoxitin for Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_65422070-9a95-441e-8b17-ea32437a8431">
+               <id root="79024aea-e4e1-4115-b92b-e4f3d8a70304"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Cefoxitin for Injection is contraindicated in patients who have shown hypersensitivity to cefoxitin and the cephalosporin group of antibiotics. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250303"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2efaab26-8ec8-4f52-a8fa-c78004493e07">
+               <id root="d91bf8ae-0892-45d6-9a33-ae139220f354"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>BEFORE THERAPY WITH CEFOXITIN FOR INJECTION IS INSTlTUTED, CAREFUL INQUIRY SHOULD BE MADE TO DETERMINE WHETHER THE PATIENT HAS HAD PREVIOUS HYPERSENSITIVITY REACTIONS TO CEFOXITIN, CEPHALOSPORINS, PENICILLlNS, OR OTHER DRUGS. THIS PRODUCT SHOULD BE GIVEN WITH CAUTION TO PENICILLlN-SENSITIVE PATIENTS. ANTIBIOTICS SHOULD BE ADMINISTERED WITH CAUTION TO ANY PATIENT WHO HAS DEMONSTRATED SOME FORM OF ALLERGY, PARTICULARLY TO DRUGS. IF AN ALLERGIC REACTION TO CEFOXITIN FOR INJECTION OCCURS, DISCONTINUE THE DRUG. SERIOUS HYPERSENSITIVITY REACTIONS MAY REQUIRE EPINEPHRINE AND OTHER EMERGENCY MEASURES. </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Clostridium difficile</content> associated diarrhea (CDAD) has been reported with the use of nearly all antibacterial agents, including Cefoxitin for Injection, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">C. difficile</content> produces toxins A and B which contribute to the development of CDAD. </paragraph>
+                  <paragraph>Hypertoxin producing strains of <content styleCode="italics">C. difficile</content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents. </paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile,</content> and surgical evaluation should be instituted as clinically indicated. </paragraph>
+               </text>
+               <effectiveTime value="20250303"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c16c6a94-3a2f-4319-8d70-330af5ba9f6f">
+               <id root="995283d4-3bc9-458e-af1e-1fc9e89a976c"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20250303"/>
+               <component>
+                  <section ID="LINK_2091eca3-b435-41a2-a092-990318466783">
+                     <id root="6563b887-abd2-4aeb-b5a2-8bf0975da520"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">General</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>The total daily dose should be reduced when Cefoxitin for Injection is administered to patients with transient or persistent reduction of urinary output due to renal insufficiency (see <content styleCode="bold">
+                              <linkHtml href="#LINK_64cffdf8-98c0-4324-9dc9-6557d777ee6c">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>), because high and prolonged serum antibiotic concentrations can occur in such individuals from usual doses. </paragraph>
+                        <paragraph>Antibiotics (including cephalosporins) should be prescribed with caution in individuals with a history of gastrointestinal disease, particularly colitis. </paragraph>
+                        <paragraph>As with other antibiotics, prolonged use of Cefoxitin for Injection may result in overgrowth of nonsusceptible organisms. Repeated evaluation of the patient's condition is essential. If superinfection occurs during therapy, appropriate measures should be taken. </paragraph>
+                        <paragraph> Prescribing Cefoxitin for Injection in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b0246075-e30d-4aa1-bb40-6f3133a8be1c">
+                     <id root="3ce3b792-9cc2-4548-b829-34fd9d1e80b3"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Information for Patients</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Patients should be counseled that antibacterial drugs including Cefoxitin for Injection should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When Cefoxitin for Injection is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. </paragraph>
+                        <paragraph>Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by Cefoxitin for Injection or other antibacterial drugs in the future. </paragraph>
+                        <paragraph>Diarrhea is a common problem caused by antibiotics, which usually ends when the antibiotic is discontinued. Sometimes after starting the treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a3af73f4-fc5b-4487-89b2-c2a0944968b0">
+                     <id root="1b568210-92e9-4425-902c-fc7aedcb4fed"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Laboratory Tests</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>As with any potent antibacterial agent, periodic assessment of organ system functions, including renal, hepatic, and hematopoietic, is advisable during prolonged therapy. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_6a848173-2f0f-4179-b193-264edab790d3">
+                     <id root="26ede58c-76ec-47a8-b9ad-203603fea711"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Drug Interactions</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Increased nephrotoxicity has been reported following concomitant administration of cephalosporins and aminoglycoside antibiotics. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_bff4eef3-b99e-49e1-b6f8-9e7971c3c24a">
+                     <id root="e0744981-5e77-4afb-ab48-6db2ff83dfb7"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Drug/Laboratory Test Interactions</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>As with cephalothin, high concentrations of cefoxitin (&gt;100 micrograms/mL) may interfere with measurement of serum and urine creatinine levels by the Jaffé reaction, and produce false increases of modest degree in the levels of creatinine reported. Serum samples from patients treated with cefoxitin should not be analyzed for creatinine if withdrawn within 2 hours of drug administration. </paragraph>
+                        <paragraph>High concentrations of cefoxitin in the urine may interfere with measurement of urinary 17-hydroxy­corticosteroids by the Porter-Silber reaction, and produce false increases of modest degree in the levels reported. </paragraph>
+                        <paragraph>A false-positive reaction for glucose in the urine may occur. This has been observed with CLlNITEST<sup>†</sup> reagent tablets. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_542f08ad-9658-402a-8d86-c97de87652ff">
+                     <id root="877ced2a-d183-4dd7-813d-3913b2947eca"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="bold">
+                           <content styleCode="italics">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Long-term studies in animals have not been performed with cefoxitin to evaluate carcinogenic or mutagenic potential. Studies in rats treated intravenously with 400 mg/kg of cefoxitin (approximately three times the maximum recommended human dose) revealed no effects on fertility or mating ability. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_791907d7-70cb-492d-9643-3c7a7d66ce60">
+                     <id root="ed78e308-00e8-41f2-ab0b-dfe6c99e89ad"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Pregnancy</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Reproduction studies performed in rats and mice at parenteral doses of approximately one to seven and one-half times the maximum recommended human dose did not reveal teratogenic or fetal toxic effects, although a slight decrease in fetal weight was observed. </paragraph>
+                        <paragraph>There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed. </paragraph>
+                        <paragraph>In the rabbit, cefoxitin was associated with a high incidence of abortion and maternal death. This was not considered to be a teratogenic effect but an expected consequence of the rabbit's unusual sensitivity to antibiotic-induced changes in the population of the microflora of the intestine. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f6bc684d-68d5-4ba5-a6ea-ff69bf5cb88f">
+                     <id root="b3d90583-cc9b-40ba-a2b3-696579a74e40"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Nursing Mothers</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Cefoxitin is excreted in human milk in low concentrations. Caution should be exercised when cefoxitin is administered to a nursing woman. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c510a44c-b2c9-43aa-8452-ddcfdff53598">
+                     <id root="575943ab-be08-49c6-8ae4-dcfa0e5fb187"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Pediatric Use</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Safety and efficacy in pediatric patients from birth to three months of age have not yet been established. In pediatric patients three months of age and older, higher doses of cefoxitin have been associated with an increased incidence of eosinophilia and elevated SGOT. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_06c1b1e2-495b-4902-a876-ccc322b87fea">
+                     <id root="8a9fd1f8-8f90-43ba-9c26-5191e2ac3870"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Geriatric Use</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Of the 1,775 subjects who received cefoxitin in clinical studies, 424 (24%) were 65 and over, while 124 (7%) were 75 and over. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out (see <content styleCode="bold">
+                              <linkHtml href="#LINK_d8bdd0e1-358e-49a8-981d-5622734f7812">CLINICAL PHARMACOLOGY</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function (see <content styleCode="bold">
+                              <linkHtml href="#LINK_64cffdf8-98c0-4324-9dc9-6557d777ee6c">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content> and<content styleCode="bold">
+                              <linkHtml href="#LINK_c16c6a94-3a2f-4319-8d70-330af5ba9f6f">PRECAUTIONS</linkHtml>
+                           </content>). </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_17b57ffb-5500-4de4-8c6c-e8751da49143">
+               <id root="dbb9279c-bac4-48bc-8a93-c2d1f93108d6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Cefoxitin for Injection is generally well tolerated. The most common adverse reactions have been local reactions following intravenous injection. Other adverse reactions have been encountered infrequently.  </paragraph>
+               </text>
+               <effectiveTime value="20250303"/>
+               <component>
+                  <section ID="LINK_aa522087-3948-4592-87b9-2f9e7e73d4df">
+                     <id root="97eaee2f-c2d1-4b00-bf1c-09a4adf00294"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Local Reactions</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Thrombophlebitis has occurred with intravenous administration. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d4b10ce7-faa5-4805-9bab-653dd29f4272">
+                     <id root="2ea77301-5bac-49dc-8f70-b1760a3f4fe4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Allergic Reactions</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Rash (including exfoliative dermatitis and toxic epidermal necrolysis), urticaria, flushing, pruritus, eosinophilia, fever, dyspnea, and other allergic reactions including anaphylaxis, interstitial nephritis and angioedema have been noted. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_7d049a2c-0d9f-4eca-862a-6df8cc3d6d7c">
+                     <id root="5fafd640-325c-4d6e-8be9-448f295730e2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Cardiovascular</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Hypotension.</paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_539d6bfa-4651-4b7e-b999-c6660280969b">
+                     <id root="2f310a85-6f18-4e36-994d-f7f358f3b3ff"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Gastrointestinal</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Diarrhea, including documented pseudomembranous colitis which can appear during or after antibiotic treatment. Nausea and vomiting have been reported rarely. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_eaafb004-98b3-4683-b632-be4ca94b5473">
+                     <id root="aaece56e-f285-45e1-b4f0-c45af76ff00f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Neuromuscular</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Possible exacerbation of myasthenia gravis.</paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_10fb11e7-5246-44c8-a189-a7301efd1692">
+                     <id root="4413efba-f9b2-4809-a82f-a089474cb7d8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Blood</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Eosinophilia, leukopenia including granulocytopenia, neutropenia, anemia, including hemolytic anemia, thrombocytopenia, and bone marrow depression. A positive direct Coombs test may develop in some individuals, especially those with azotemia. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1cb01c65-1452-4290-bd8a-46704d2bb363">
+                     <id root="af89bf8a-5ae5-4b31-9bd8-57e23ba819a8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Liver Function</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Transient elevations in SGOT, SGPT, serum LDH, and serum alkaline phosphatase; and jaundice have been reported. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_4e1cb55f-90f2-40be-a6bb-dbd509e6279d">
+                     <id root="c4c066aa-93d2-4d85-b185-d63196aaed1e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Renal Function</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Elevations in serum creatinine and/or blood urea nitrogen levels have been observed. As with the cephalosporins, acute renal failure has been reported rarely. The role of cefoxitin in changes in renal function tests is difficult to assess, since factors predisposing to prerenal azotemia or to impaired renal function usually have been present. </paragraph>
+                        <paragraph>In addition to the adverse reactions listed above which have been observed in patients treated with cefoxitin, the following adverse reactions and altered laboratory test results have been reported for cephalosporin class antibiotics: Urticaria, erythema multiforme, Stevens-Johnson syndrome, serum sickness-like reactions, abdominal pain, colitis, renal dysfunction, toxic nephropathy, false-positive test for urinary glucose, hepatic dysfunction including cholestasis, elevated bilirubin, aplastic anemia, hemorrhage, prolonged prothrombin time, pancytopenia, agranulocytosis, superinfection, vaginitis including vaginal candidiasis. </paragraph>
+                        <paragraph>Several cephalosporins have been implicated in triggering seizures, particularly in patients with renal impairment when the dosage was not reduced. (See <content styleCode="bold">
+                              <linkHtml href="#LINK_64cffdf8-98c0-4324-9dc9-6557d777ee6c">DOSAGE AND ADMINISTRATION</linkHtml>.</content>) If seizures associated with drug therapy occur, the drug should be discontinued. Anticonvulsant therapy can be given if clinically indicated. </paragraph>
+                        <paragraph>To report <content styleCode="bold">SUSPECTED ADVERSE REACTIONS</content>, contact Hikma Pharmaceuticals USA Inc. at 1-877-845-0689 or the FDA at 1-800-FDA-1088 or <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_070e0174-8d0a-4649-830c-4b0bdff1b653">
+               <id root="bedfd5fb-01e9-4f5a-bf82-89af4d7ab044"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>The acute intravenous LD<sub>50</sub> in the adult female mouse and rabbit was about 8.0 g/kg and greater than 1.0 g/kg, respectively. The acute intraperitoneal LD<sub>50</sub> in the adult rat was greater than 10.0 g/kg. </paragraph>
+               </text>
+               <effectiveTime value="20250303"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_64cffdf8-98c0-4324-9dc9-6557d777ee6c">
+               <id root="a07342c6-133a-42b5-9479-a4b962528327"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">The intent of this Pharmacy Bulk Package is for the preparation of solutions for intravenous infusion only.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250303"/>
+               <component>
+                  <section ID="LINK_eda40c07-7def-4a85-928c-c222a4b33c77">
+                     <id root="1b6bb678-bace-49f6-8420-9570bdbf6ea6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">TREATMENT</content>
+                     </title>
+                     <effectiveTime value="20250303"/>
+                     <component>
+                        <section ID="LINK_357a44c3-73b0-4edb-9ef0-f3f5a48b44c9">
+                           <id root="106cccd1-04f5-4f24-ba74-5813cb06e7db"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">
+                                 <content styleCode="bold">Adults</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The usual adult dosage range is 1 gram to 2 grams every six to eight hours. Dosage should be determined by susceptibility of the causative organisms, severity of infection, and the condition of the patient (see Table 3 for dosage guidelines). </paragraph>
+                              <paragraph>If <content styleCode="italics">C. trachomatis</content> is a suspected pathogen, appropriate anti-chlamydial coverage should be added, because cefoxitin sodium has no activity against this organism. </paragraph>
+                              <paragraph>Cefoxitin for Injection may be used in patients with reduced renal function with the following dosage adjustments: </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">In adults with renal insufficiency, </content>an initial loading dose of 1 gram to 2 grams may be given. After a loading dose, the recommendations for maintenance dosage (Table 4) may be used as a guide. </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">When only the serum creatinine level is available, </content>the following formula (based on sex, weight, and age of the patient) may be used to convert this value into creatinine clearance. The serum creatinine should represent a steady state of renal function. </paragraph>
+                              <paragraph>Males: <content styleCode="underline">Weight (kg) x (140 - age)<br/>
+                                 </content>            72 x serum creatinine (mg/100 mL) </paragraph>
+                              <paragraph>Females: 0.85 x above value </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">In patients undergoing hemodialysis, </content>the loading dose of 1 gram to 2 grams should be given after each hemodialysis, and the maintenance dose should be given as indicated in Table 4.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"> Antibiotic therapy for group A beta-hemolytic streptococcal infections should be maintained for at least 10 days to guard against the risk of rheumatic fever or glomerulonephritis. In staphylococcal and other infections involving a collection of pus, surgical drainage should be carried out where indicated. </content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20250303"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_0f61f309-2e10-4293-a810-41236207b48c">
+                           <id root="8e5c40e7-7aff-4f1e-a77f-4e623847c7a4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">
+                                 <content styleCode="bold">Pediatric Patients</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The recommended dosage in pediatric patients three months of age and older is 80 to 160 mg/kg of body weight per day divided into four to six equal doses. The higher dosages should be used for more severe or serious infections. The total daily dosage should not exceed 12 grams. </paragraph>
+                              <paragraph>At this time no recommendation is made for pediatric patients from birth to three months of age (see <content styleCode="bold">
+                                    <linkHtml href="#LINK_c16c6a94-3a2f-4319-8d70-330af5ba9f6f">PRECAUTIONS</linkHtml>
+                                 </content>). </paragraph>
+                              <paragraph>In pediatric patients with renal insufficiency, the dosage and frequency of dosage should be modified consistent with the recommendations for adults (see Table 4). </paragraph>
+                           </text>
+                           <effectiveTime value="20250303"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_41eabcae-b397-4ccd-9025-673e80e99fe0">
+                     <id root="896ef93d-8ed7-438d-b2b0-06b3d937ce48"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">PREVENTION</content>
+                     </title>
+                     <text>
+                        <paragraph>Effective prophylactic use depends on the time of administration. Cefoxitin for Injection usually should be given one-half to one hour before the operation, which is sufficient time to achieve effective levels in the wound during the procedure. Prophylactic administration should usually be stopped within 24 hours since continuing administration of any antibiotic increases the possibility of adverse reactions but, in the majority of surgical procedures, does not reduce the incidence of subsequent infection. </paragraph>
+                        <paragraph>For prophylactic use in uncontaminated gastrointestinal surgery, vaginal hysterectomy, or abdominal hysterectomy, the following doses are recommended: </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                     <component>
+                        <section ID="LINK_d85efee2-b45d-4f5c-9635-52603ba09a21">
+                           <id root="6505617a-5929-4221-9813-20eba853312d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">
+                                 <content styleCode="bold">Adults: </content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>2 grams administered intravenously just prior to surgery (approximately one-half to one hour before the initial incision) followed by 2 grams every 6 hours after the first dose for no more than 24 hours. </paragraph>
+                           </text>
+                           <effectiveTime value="20250303"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_c8e6fa85-8666-4525-8fbf-67516e35dc7f">
+                           <id root="8324c40d-2212-4fcc-af73-7c4512a33029"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">
+                                 <content styleCode="bold">Pediatric Patients (3 months and older): </content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>30 to 40 mg/kg doses may be given at the times designated above. </paragraph>
+                           </text>
+                           <effectiveTime value="20250303"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_ad0ecf3f-41ee-4cd3-946e-fb01c24d98c7">
+                           <id root="0c5dbb8e-3e46-47b2-82b5-37e8257b6b91"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">
+                                 <content styleCode="bold">Cesarean section patients: </content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>For patients undergoing cesarean section, either a single 2 gram dose administered intravenously as soon as the umbilical cord is clamped OR a 3-dose regimen consisting of 2 grams given intravenously as soon as the umbilical cord is clamped followed by 2 grams 4 and 8 hours after the initial dose is recommended. (See <content styleCode="bold">
+                                    <linkHtml href="#LINK_14aa9f96-831d-4eba-a622-a53b6fef8c02">CLlNICAL STUDIES</linkHtml>.</content>) </paragraph>
+                           </text>
+                           <effectiveTime value="20250303"/>
+                           <component>
+                              <section ID="LINK_f8bf88c7-c1ef-4c81-b5b8-ef70404989fd">
+                                 <id root="c9af3aa4-d58e-4a51-8794-e67456587865"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold">Table 3 - Guidelines for Dosage of Cefoxitin for Injection </content>
+                                    </paragraph>
+                                    <table cellspacing="0" cellpadding="0" border="1">
+                                       <col/>
+                                       <col/>
+                                       <col/>
+                                       <tbody>
+                                          <tr>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>
+                                                   <content styleCode="bold">
+                                                      <content styleCode="italics">Type of Infection </content>
+                                                   </content>
+                                                </paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>
+                                                   <content styleCode="bold">
+                                                      <content styleCode="italics">Daily Dosage</content>
+                                                   </content>
+                                                </paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>
+                                                   <content styleCode="bold">
+                                                      <content styleCode="italics">Frequency and Route</content>
+                                                   </content>
+                                                </paragraph>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>Uncomplicated forms* of infections such as pneumonia, urinary tract infection, cutaneous infection</paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>3-4 grams</paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>1 gram every 6-8 hours IV</paragraph>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>Moderately severe or severe infections </paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>6-8 grams</paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>1 gram every 4 hours</paragraph>
+                                                <paragraph>or</paragraph>
+                                                <paragraph>2 grams every 6-8 hours IV</paragraph>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>Infections commonly needing antibiotics in higher dosage (e.g., gas gangrene) </paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>12 grams</paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>2 grams every 4 hours</paragraph>
+                                                <paragraph>or</paragraph>
+                                                <paragraph>3 grams every 6 hours IV</paragraph>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    <paragraph>*Including patients in whom bacteremia is absent or unlikely. </paragraph>
+                                 </text>
+                                 <effectiveTime value="20250303"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="LINK_003c657b-738f-4f02-a970-82c20a315dda">
+                                 <id root="60ed5959-9fa9-4be7-9230-84083daf6442"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold">Table 4 - Maintenance Dosage of Cefoxitin for Injection in Adults with Reduced Renal Function</content>
+                                    </paragraph>
+                                    <table cellspacing="0" cellpadding="0" border="1">
+                                       <col/>
+                                       <col/>
+                                       <col/>
+                                       <col/>
+                                       <col/>
+                                       <tbody>
+                                          <tr>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>
+                                                   <content styleCode="bold">Renal Function </content>
+                                                </paragraph>
+                                             </td>
+                                             <td colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>
+                                                   <content styleCode="bold">Creatinine Clearance (mL/min)</content>
+                                                </paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>
+                                                   <content styleCode="bold">Dose (Grams)</content>
+                                                </paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>
+                                                   <content styleCode="bold">Frequency</content>
+                                                </paragraph>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>Mild impairment </paragraph>
+                                                <paragraph>Moderate impairment </paragraph>
+                                                <paragraph>Severe impairment </paragraph>
+                                                <paragraph>Essentially no function </paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>50 – 30</paragraph>
+                                                <paragraph>29 – 10</paragraph>
+                                                <paragraph>9 – 5</paragraph>
+                                                <paragraph>&lt; 5</paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>1 – 2</paragraph>
+                                                <paragraph>1 – 2</paragraph>
+                                                <paragraph>0.5 – 1</paragraph>
+                                                <paragraph>0.5 – 1</paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>Every 8-12 hours</paragraph>
+                                                <paragraph>Every 12-24 hours</paragraph>
+                                                <paragraph>Every 12-24 hours</paragraph>
+                                                <paragraph>Every 24-48 hours</paragraph>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    <br/>
+                                 </text>
+                                 <effectiveTime value="20250303"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="LINK_ec1405be-6278-4bb5-8903-638c8d72a4b3">
+                                 <id root="b46ebfad-4138-409e-b781-e196082782fd"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold">Table 5 - Preparation of Solution for Intravenous Administration</content>
+                                    </paragraph>
+                                    <table cellspacing="0" cellpadding="0" border="1">
+                                       <col/>
+                                       <col/>
+                                       <col/>
+                                       <col/>
+                                       <tbody>
+                                          <tr>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>
+                                                   <content styleCode="bold">Strength</content>
+                                                </paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>
+                                                   <content styleCode="bold">Amount of Diluent to be Added</content>
+                                                </paragraph>
+                                                <paragraph>
+                                                   <content styleCode="bold">(mL)*</content>
+                                                </paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>
+                                                   <content styleCode="bold">Approximate Withdrawable Volume (mL)</content>
+                                                </paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>
+                                                   <content styleCode="bold">Approximate Average concentration (mg/mL)</content>
+                                                </paragraph>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>10 grams Pharmacy Bulk Package </paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>43 or 93</paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>49 or 98.5</paragraph>
+                                             </td>
+                                             <td styleCode=" Botrule Toprule Lrule Rrule">
+                                                <paragraph>200 or 100</paragraph>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    <paragraph>*Shake to dissolve and let stand until clear </paragraph>
+                                 </text>
+                                 <effectiveTime value="20250303"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_aaa53fd4-1f82-4a66-881f-ae251c3c3685">
+                     <id root="9fdba9c1-1438-4f68-8448-24b015c617ae"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>DIRECTIONS FOR PROPER USE OF PHARMACY BULK PACKAGE BOTTLE - NOT FOR DIRECT INFUSION</title>
+                     <effectiveTime value="20250303"/>
+                     <component>
+                        <section ID="LINK_4dc5c83b-3cdd-461b-8b5e-1cebe91eced0">
+                           <id root="af16a636-7937-4ed9-b210-37224d8521fe"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>For Bulk Packages</title>
+                           <text>
+                              <paragraph>The Pharmacy Bulk Package bottle is for use in a pharmacy admixture service under a laminar flow hood. Penetration into the Pharmacy Bulk Package bottle should be made only one time after reconstitution with a sterile transfer set or other sterile dispensing device, which allows measured distribution of the contents. Dispense the contents in aliquots using aseptic technique. The use of a syringe with a needle is not recommended as it may cause leakage (see <content styleCode="bold">
+                                    <linkHtml href="#LINK_64cffdf8-98c0-4324-9dc9-6557d777ee6c">DOSAGE AND ADMINISTRATION</linkHtml>
+                                 </content>).</paragraph>
+                              <paragraph>AFTER INITIAL ENTRY USE ENTIRE CONTENTS OF THE PHARMACY BULK PACKAGE PROMPTLY. A maximum time of <content styleCode="bold">4 HOURS </content>from initial entry is permitted to complete fluid transfer operations. ANY UNUSED PORTION MUST BE DISCARDED WITHIN <content styleCode="bold">4 HOURS. </content>This time limit should begin with the introducing of solvent or diluent into the Pharmacy Bulk Package bottle. <content styleCode="bold">RECONSTITUTED BULK SOLUTION SHOULD NOT BE USED FOR DIRECT INFUSION.</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20250303"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_67e28d2f-75ad-4cf0-8392-d0c63b281fc0">
+                           <id root="0917c3af-da0d-44ce-8ada-2576fc194408"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>PREPARATION OF SOLUTION</title>
+                           <text>
+                              <paragraph>Table 5 is provided for convenience in constituting Cefoxitin for Injection Pharmacy Bulk Package.</paragraph>
+                              <paragraph>The 10 grams bulk packages should be constituted with 43 mL or 93 mL of Sterile Water for Injection, Bacteriostatic Water for Injection, 0.9 percent Sodium Chloride Injection, or 5 percent Dextrose Injection. <content styleCode="bold">RECONSTITUTED STOCK SOLUTION MUST BE TRANSFERRED AND FURTHER DILUTED FOR I.V. INFUSION. </content>These primary solutions may be further diluted in 50 to 1000 mL of the diluents listed under the <content styleCode="bold">COMPATIBILITY AND STABILITY</content> section. </paragraph>
+                              <paragraph>Benzyl alcohol as a preservative has been associated with toxicity in neonates. While toxicity has not been demonstrated in pediatric patients greater than three months of age, in whom use of Cefoxitin for Injection may be indicated, small pediatric patients in this age range may also be at risk for benzyl alcohol toxicity. Therefore, diluent containing benzyl alcohol should not be used when Cefoxitin for Injection is constituted for administration to pediatric patients in this age range. </paragraph>
+                           </text>
+                           <effectiveTime value="20250303"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_7743d227-3e25-4d0f-b4ed-eefbd8233442">
+                           <id root="a63a0d78-d408-4174-8de8-ffe482d5c0b0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>ADMINISTRATION</title>
+                           <text>
+                              <paragraph>Cefoxitin for Injection may be administered intravenously after constitution. </paragraph>
+                              <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">The intent of this pharmacy bulk package is for the preparation of solutions for intravenous infusion only.</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Intravenous Administration </content>
+                              </paragraph>
+                              <paragraph>The intravenous route is preferable for patients with bacteremia, bacterial septicemia, or other severe or life-threatening infections, or for patients who may be poor risks because of lowered resistance resulting from such debilitating conditions as malnutrition, trauma, surgery, diabetes, heart failure, or malignancy, particularly if shock is present or impending.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">For intermittent intravenous administration, a</content> solution containing 1 gram or 2 grams in 10 mL of Sterile Water for Injection can be injected over a period of three to five minutes. Using an infusion system, it may also be given over a longer period of time through the tubing system by which the patient may be receiving other intravenous solutions. However, during infusion of the solution containing Cefoxitin for Injection, it is advisable to temporarily discontinue administration of any other solutions at the same site. </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">For the administration of higher doses by continuous intravenous infusion, </content>a solution of Cefoxitin for Injection may be added to an intravenous bottle containing 5 percent Dextrose Injection, 0.9 percent Sodium Chloride Injection, or 5 percent Dextrose and 0.9 percent Sodium Chloride Injection. BUTTERFLY<sup>®</sup>
+                                 <sup>††</sup> or scalp vein-type needles are preferred for this type of infusion. </paragraph>
+                              <paragraph>Solutions of Cefoxitin for Injection, like those of most beta-lactam antibiotics, should not be added to aminoglycoside solutions (e.g., gentamicin sulfate, tobramycin sulfate, amikacin sulfate) because of potential interaction. However, cefoxitin for injection and aminoglycosides may be administered separately to the same patient. </paragraph>
+                           </text>
+                           <effectiveTime value="20250303"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_08f66535-1908-491d-8580-4f1d58a13187">
+                           <id root="59f6c93f-1966-42fb-a64b-bd9201b5b2d5"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>COMPATIBILITY AND STABILITY</title>
+                           <text>
+                              <paragraph>Cefoxitin for Injection supplied in pharmacy bulk package bottles and constituted to 1 gram/10 mL with Sterile Water for Injection, Bacteriostatic Water for Injection, (see <content styleCode="bold">
+                                    <linkHtml href="#LINK_67e28d2f-75ad-4cf0-8392-d0c63b281fc0">PREPARATION OF SOLUTION</linkHtml>
+                                 </content>), 0.9 percent Sodium Chloride Injection, or 5 percent Dextrose Injection, should be DISCARDED 4 HOURS AFTER INITIAL ENTRY. FURTHER DILUTION IS REQUIRED BEFORE USE. <content styleCode="bold">RECONSTITUTED BULK SOLUTION SHOULD NOT BE USED FOR DIRECT INFUSION.</content>
+                              </paragraph>
+                              <paragraph>These primary solutions may be further diluted in 50 mL to 1000 mL of the following diluents and maintain potency for an additional 18 hours at room temperature or an additional 48 hours under refrigeration: </paragraph>
+                              <paragraph>0.9 percent Sodium Chloride Injection </paragraph>
+                              <paragraph>5 percent or 10 percent Dextrose Injection </paragraph>
+                              <paragraph>5 percent Dextrose and 0.9 percent Sodium Chloride Injection </paragraph>
+                              <paragraph>5 percent Dextrose Injection with 0.2 percent or 0.45 percent saline solution</paragraph>
+                              <paragraph>Lactated Ringer’s Injection  </paragraph>
+                              <paragraph>5 percent Dextrose in Lactated Ringer's Injection </paragraph>
+                              <paragraph>5 percent Sodium Bicarbonate Injection </paragraph>
+                              <paragraph>M/6 sodium lactate solution </paragraph>
+                              <paragraph>Mannitol 5% and 10% </paragraph>
+                              <paragraph>After the periods mentioned above, any unused solutions should be discarded. </paragraph>
+                           </text>
+                           <effectiveTime value="20250303"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3081bc60-bc3e-4771-8359-c15a46a81dc9">
+               <id root="f665963c-7ac6-45a8-bb0f-65bf18919104"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Cefoxitin for Injection, USP is a dry white to off-white powder supplied in Pharmacy Bulk Package bottle. Each Pharmacy Bulk Package bottle contains cefoxitin sodium as follows: </paragraph>
+                  <paragraph>Cefoxitin for Injection, USP 10 g, Pharmacy Bulk Package - (10 gram cefoxitin equivalent)</paragraph>
+                  <paragraph>   NDC 0143-9876-10 cartons of 10 pharmacy bulk packages</paragraph>
+               </text>
+               <effectiveTime value="20250303"/>
+               <component>
+                  <section ID="LINK_a93362c1-7be0-40fd-bbc5-1cc5fec111ef">
+                     <id root="63f8de48-a3a9-4eda-9797-a584a7c0bda2"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>
+                        <content styleCode="italics">
+                           <content styleCode="bold">Special storage instructions</content>
+                        </content>
+                     </title>
+                     <text>
+                        <paragraph>Cefoxitin for Injection in the dry state should be stored between 2º to 25°C (36º to 77°F). Avoid exposure to temperatures above 50°C. The dry material as well as solutions tend to darken, depending on storage conditions; product potency, however, is not adversely affected. </paragraph>
+                     </text>
+                     <effectiveTime value="20250303"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_14aa9f96-831d-4eba-a622-a53b6fef8c02">
+               <id root="9e9bce91-2085-4db4-8588-cd26b56b1b91"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>A prospective, randomized, double-blind, placebo-controlled clinical trial was conducted to determine the efficacy of short-term prophylaxis with cefoxitin in patients undergoing cesarean section who were at high risk for subsequent endometritis because of ruptured membranes. Patients were randomized to receive either three doses of placebo (n=58), a single dose of cefoxitin (2 g) followed by two doses of placebo (n=64), or a three-dose regimen of cefoxitin (each dose consisting of 2 g) (n=60), given intravenously, usually beginning at the time of clamping of the umbilical cord, with the second and third doses given 4 and 8 hours post­-operatively. Endometritis occurred in 16/58 (27.6%) patients given placebo, 5/63 (7.9%) patients given a single dose of cefoxitin, and 3/58 (5.2%) patients given three doses of cefoxitin. The differences between the two groups treated with cefoxitin and placebo with respect to endometritis were statistically significant (p&lt;0.01) in favor of cefoxitin. The differences between the one-dose and three-dose regimens of cefoxitin were not statistically significant. </paragraph>
+                  <paragraph>Two double-blind, randomized studies compared the efficacy of a single 2 gram intravenous dose of cefoxitin to a single 2 gram intravenous dose of cefotetan in the prevention of surgical site-related infection (major morbidity) and non-site-related infections (minor morbidity) in patients following cesarean section. In the first study, 82/98 (83.7%) patients treated with cefoxitin and 71/95 (74.7%) patients treated with cefotetan experienced no major or minor morbidity. The difference in the outcomes in this study (95% CI: –0.03, +0.21) was not statistically significant. In the second study, 65/75 (86.7%) patients treated with cefoxitin and 62/76 (81.6%) patients treated with cefotetan experienced no major or minor morbidity. The difference in the outcomes in this study (95% CI: –0.08, +0.18) was not statistically significant. </paragraph>
+                  <paragraph>In clinical trials of patients with intra-abdominal infections due to <content styleCode="italics">Bacteroides fragilis</content> group microorganisms, eradication rates at 1 to 2 weeks post treatment for isolates were in the range of 70% to 80%. Eradication rates for individual species are listed below: </paragraph>
+                  <table cellspacing="0" cellpadding="0" border="0">
+                     <col width="1.95in"/>
+                     <col width="58.5pt"/>
+                     <col width="0.75in"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Bacteroides distasonis</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>7/10</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>(70%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Bacteroides fragilis</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>26/33</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>(79%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">Bacteroides ovatus</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>10/13</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>(77%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="italics">B. thetaiotaomicron</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>13/18</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>(72%)</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+               </text>
+               <effectiveTime value="20250303"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2f327dbb-d4cc-4fa4-bd4b-ec4dced707a4">
+               <id root="2564b522-e6f5-48e7-b501-a458b69f79d0"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Carver PL, Nightingale CH and Quintiliani R. Pharmacokinetics and pharmacodynamics of total and unbound cefoxitin and cefotetan in healthy volunteers. Journal of Antimicrobial Chemotherapy (1989) 23, 99-106.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                  </paragraph>
+                  <paragraph>HIKMA FARMACÊUTICA (PORTUGAL), S.A.</paragraph>
+                  <paragraph>Estrada do Rio da Mó, nº 8, 8A e 8B - Fervença, </paragraph>
+                  <paragraph>2705 – 906 Terrugem SNT</paragraph>
+                  <paragraph>PORTUGAL</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                  </paragraph>
+                  <paragraph>Hikma Pharmaceuticals USA Inc.</paragraph>
+                  <paragraph>Berkeley Heights, NJ 07922</paragraph>
+                  <paragraph>Revised June 2020</paragraph>
+                  <paragraph>PIN146-WES/6</paragraph>
+               </text>
+               <effectiveTime value="20250303"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d50ccaed-ae06-4e8d-8ad0-14e2905a3925">
+               <id root="8a5af8fa-06ed-44a5-af57-d2b3b77b2fba"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 0143-<content styleCode="bold">9876</content>-01   Rx only<br/>
+                     <content styleCode="bold">CEFOXITIN<br/>
+                     </content>FOR INJECTION, USP<br/>
+                     <content styleCode="bold">PHARMACY BULK PACKAGE<br/>
+NOT FOR DIRECT INFUSION<br/>
+10 grams* per Pharmacy Bulk Package<br/>
+                     </content>Bottle contains cefoxitin sodium powder equivalent to 10 g cefoxitin<content styleCode="bold">
+                        <br/>
+For Intravenous use ONLY          </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM2"/>
+                     </content>
+                  </paragraph>
+                  <paragraph>10 x 10 g Pharmacy Bulk Package bottles<br/>
+NDC 0143-<content styleCode="bold">9876</content>-10    Rx only<br/>
+                     <content styleCode="bold">CEFOXITIN<br/>
+                     </content>FOR INJECTION, USP<br/>
+                     <content styleCode="bold">PHARMACY BULK PACKAGE<br/>
+                     </content>
+                     <content styleCode="bold">NOT FOR DIRECT INFUSION<br/>
+                     </content>
+                     <content styleCode="bold">10 grams per Pharmacy Bulk Package<br/>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="bold">For Intravenous use ONLY</content>
+                     </content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20250303"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Cefoxitin vial</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cefoxitin-injection-pbp-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Cefoxitin shelfpack</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cefoxitin-injection-pbp-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

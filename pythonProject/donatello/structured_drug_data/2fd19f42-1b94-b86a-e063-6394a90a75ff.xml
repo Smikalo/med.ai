@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2fd19f42-1b94-b86a-e063-6394a90a75ff"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Misoprostol</content>
+      <br/>
+      <content styleCode="bold">Tablets</content>
+   </title>
+   <effectiveTime value="20250308"/>
+   <setId root="2fd197c6-05db-5011-e063-6294a90a585d"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="828374897"/>
+            <name>Redpharm Drug</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="828374897"/>
+                        <name>Redpharm Drug</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="67296-1936" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2fd1d66f-1d8c-818e-e063-6294a90ae924"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250308"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67296-1936" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>misoprostol</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>MISOPROSTOL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="59762-5008" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ZF94AP8MEY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROGENATED CASTOR OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="200"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0E43V0BB57" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MISOPROSTOL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="0E43V0BB57" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MISOPROSTOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67296-1936-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20091227"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA019268" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73605" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA authorized generic"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20091227"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48343" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="HEXAGON (6 sided)" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="9" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">G;5008</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="BOX">
+               <id root="2fd197c6-05b4-5011-e063-6294a90a585d"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>MISOPROSTOL ADMINISTRATION TO WOMEN WHO ARE PREGNANT CAN CAUSE BIRTH DEFECTS, ABORTION, PREMATURE BIRTH OR UTERINE RUPTURE.</paragraph>
+                  <paragraph>UTERINE RUPTURE HAS BEEN REPORTED WHEN MISOPROSTOL WAS ADMINISTERED IN PREGNANT WOMEN TO INDUCE LABOR OR TO INDUCE ABORTION. THE RISK OF UTERINE RUPTURE INCREASES WITH ADVANCING GESTATIONAL AGES AND WITH PRIOR UTERINE SURGERY, INCLUDING CESAREAN DELIVERY (see also
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#PRECAUTIONS">PRECAUTIONS</linkHtml>
+                     </content>and
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#LABOR">LABOR AND DELIVERY</linkHtml>
+                     </content>).
+
+ </paragraph>
+                  <paragraph>MISOPROSTOL SHOULD NOT BE TAKEN BY PREGNANT WOMEN TO REDUCE THE RISK OF ULCERS INDUCED BY NONSTEROIDAL ANTI-INFLAMMATORY DRUGS (NSAIDs) (see
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                     </content>,
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                     </content>, and
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#PRECAUTIONS">PRECAUTIONS</linkHtml>
+                     </content>).
+
+ </paragraph>
+                  <paragraph>PATIENTS MUST BE ADVISED OF THE ABORTIFACIENT PROPERTY AND WARNED NOT TO GIVE THE DRUG TO OTHERS.</paragraph>
+                  <paragraph>Misoprostol should not be used for reducing the risk of NSAID-induced ulcers in women of childbearing potential unless the patient is at high risk of complications from gastric ulcers associated with use of the NSAID, or is at high risk of developing gastric ulceration. In such patients, misoprostol may be prescribed if the patient</paragraph>
+                  <list listType="unordered">
+                     <item>has had a negative serum pregnancy test within 2 weeks prior to beginning therapy.</item>
+                     <item>is capable of complying with effective contraceptive measures.</item>
+                     <item>has received both oral and written warnings of the hazards of misoprostol, the risk of possible contraception failure, and the danger to other women of childbearing potential should the drug be taken by mistake.</item>
+                     <item>will begin misoprostol only on the second or third day of the next normal menstrual period.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250225"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DESCRIPTION">
+               <id root="2fd197c6-05b5-5011-e063-6294a90a585d"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Misoprostol oral tablets contain either 100 mcg or 200 mcg of misoprostol, a synthetic prostaglandin E
+ 
+  <sub>1</sub>analog.
+
+ </paragraph>
+                  <paragraph>Misoprostol contains approximately equal amounts of the two diastereomers presented below with their enantiomers indicated by (±):</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="98%"/>
+                     <tbody>
+                        <tr>
+                           <td valign="top">
+                              <renderMultiMedia ID="id449" referencedObject="MM1"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top">
+                              <paragraph>C
+     
+      <sub>22</sub>H
+     
+      <sub>38</sub>O
+     
+      <sub>5</sub>                     M.W. = 382.5
+    
+     </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top">
+                              <paragraph>(±) methyl 11α, 16-dihydroxy-16-methyl-9-oxoprost-13E-en-1-oate</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Misoprostol is a water-soluble, viscous liquid.</paragraph>
+                  <paragraph>Inactive ingredients of tablets are hydrogenated castor oil, hypromellose, microcrystalline cellulose, and sodium starch glycolate.</paragraph>
+               </text>
+               <effectiveTime value="20250225"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="misoprostol-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="CP">
+               <id root="2fd197c6-05b6-5011-e063-6294a90a585d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20250225"/>
+               <component>
+                  <section ID="Pharmacokinetics">
+                     <id root="2fd197c6-05b7-5011-e063-6294a90a585d"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Misoprostol is extensively absorbed, and undergoes rapid de-esterification to its free acid, which is responsible for its clinical activity and, unlike the parent compound, is detectable in plasma. The alpha side chain undergoes beta oxidation and the beta side chain undergoes omega oxidation followed by reduction of the ketone to give prostaglandin F analogs.</paragraph>
+                        <paragraph>In normal volunteers, misoprostol is rapidly absorbed after oral administration with a T
+ 
+  <sub>max</sub>of misoprostol acid of 12 ± 3 minutes and a terminal half-life of 20–40 minutes.
+
+ </paragraph>
+                        <paragraph>There is high variability of plasma levels of misoprostol acid between and within studies but mean values after single doses show a linear relationship with dose over the range of 200–400 mcg. No accumulation of misoprostol acid was noted in multiple dose studies; plasma steady state was achieved within two days.</paragraph>
+                        <paragraph>Maximum plasma concentrations of misoprostol acid are diminished when the dose is taken with food and total availability of misoprostol acid is reduced by use of concomitant antacid. Clinical trials were conducted with concomitant antacid, however, so this effect does not appear to be clinically important.</paragraph>
+                        <table width="75%">
+                           <col width="18%"/>
+                           <col width="19%"/>
+                           <col width="18%"/>
+                           <col width="18%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" styleCode="Botrule Toprule " valign="bottom">
+                                    <content styleCode="bold">Mean ± SD</content>
+                                 </th>
+                                 <th align="center" styleCode="Botrule Toprule " valign="bottom">
+                                    <content styleCode="bold">C
+     
+      <sub>max</sub>(pg/ml)
+    
+     </content>
+                                 </th>
+                                 <th align="center" styleCode="Botrule Toprule " valign="bottom">
+                                    <content styleCode="bold">AUC(0–4)</content>
+                                    <br/>
+                                    <content styleCode="bold">(pg∙hr/ml)</content>
+                                 </th>
+                                 <th align="center" styleCode="Botrule Toprule " valign="bottom">
+                                    <content styleCode="bold">T
+     
+      <sub>max</sub>(min)
+    
+     </content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule " valign="top">
+                                    <paragraph>Fasting</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Toprule " valign="top">
+                                    <paragraph>811 ± 317</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Toprule " valign="top">
+                                    <paragraph>417 ± 135</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Toprule " valign="top">
+                                    <paragraph>14 ± 8</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>With Antacid</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>689 ± 315</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>349 ± 108
+     
+      <footnote ID="_Reft1f1">Comparisons with fasting results statistically significant, p&lt;0.05.</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>20 ± 14</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>With High Fat Breakfast</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>303 ± 176
+     
+      <footnoteRef IDREF="_Reft1f1"/>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>373 ± 111</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>64 ± 79
+     
+      <footnoteRef IDREF="_Reft1f1"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>After oral administration of radiolabeled misoprostol, about 80% of detected radioactivity appears in urine. Pharmacokinetic studies in patients with varying degrees of renal impairment showed an approximate doubling of T
+ 
+  <sub>1/2</sub>, C
+ 
+  <sub>max</sub>, and AUC compared to normals, but no clear correlation between the degree of impairment and AUC. In subjects over 64 years of age, the AUC for misoprostol acid is increased. No routine dosage adjustment is recommended in older patients or patients with renal impairment, but dosage may need to be reduced if the usual dose is not tolerated.
+
+ </paragraph>
+                        <paragraph>Drug interaction studies between misoprostol and several nonsteroidal anti-inflammatory drugs showed no effect on the kinetics of ibuprofen or diclofenac, and a 20% decrease in aspirin AUC, not thought to be clinically significant.</paragraph>
+                        <paragraph>Pharmacokinetic studies also showed a lack of drug interaction with antipyrine and propranolol when these drugs were given with misoprostol. Misoprostol given for 1 week had no effect on the steady state pharmacokinetics of diazepam when the two drugs were administered 2 hours apart.</paragraph>
+                        <paragraph>The serum protein binding of misoprostol acid is less than 90% and is concentration-independent in the therapeutic range.</paragraph>
+                        <paragraph>After a single oral dose of misoprostol to nursing mothers, misoprostol acid was excreted in breast milk. The maximum concentration of misoprostol acid in expressed breast milk was achieved within 1 hour after dosing and was 7.6 pg/ml (CV 37%) and 20.9 pg/ml (CV 62%) after single 200 µg and 600 µg misoprostol administration, respectively. The misoprostol acid concentrations in breast milk declined to &lt; 1 pg/ml at 5 hours post-dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Pharmacodynamics">
+                     <id root="2fd197c6-05b8-5011-e063-6294a90a585d"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Misoprostol has both antisecretory (inhibiting gastric acid secretion) and (in animals) mucosal protective properties. NSAIDs inhibit prostaglandin synthesis, and a deficiency of prostaglandins within the gastric mucosa may lead to diminishing bicarbonate and mucus secretion and may contribute to the mucosal damage caused by these agents. Misoprostol can increase bicarbonate and mucus production, but in man this has been shown at doses 200 mcg and above that are also antisecretory. It is therefore not possible to tell whether the ability of misoprostol to reduce the risk of gastric ulcer is the result of its antisecretory effect, its mucosal protective effect, or both.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro</content>studies on canine parietal cells using tritiated misoprostol acid as the ligand have led to the identification and characterization of specific prostaglandin receptors. Receptor binding is saturable, reversible, and stereospecific. The sites have a high affinity for misoprostol, for its acid metabolite, and for other E type prostaglandins, but not for F or I prostaglandins and other unrelated compounds, such as histamine or cimetidine. Receptor-site affinity for misoprostol correlates well with an indirect index of antisecretory activity. It is likely that these specific receptors allow misoprostol taken with food to be effective topically, despite the lower serum concentrations attained.
+
+ </paragraph>
+                        <paragraph>Misoprostol produces a moderate decrease in pepsin concentration during basal conditions, but not during histamine stimulation. It has no significant effect on fasting or postprandial gastrin nor on intrinsic factor output.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_fa7e8818-137e-4fcd-9756-6d8ce4f1f838">
+                     <id root="2fd197c6-05b9-5011-e063-6294a90a585d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Effects on gastric acid secretion</title>
+                     <text>
+                        <paragraph>Misoprostol, over the range of 50–200 mcg, inhibits basal and nocturnal gastric acid secretion, and acid secretion in response to a variety of stimuli, including meals, histamine, pentagastrin, and coffee. Activity is apparent 30 minutes after oral administration and persists for at least 3 hours. In general, the effects of 50 mcg were modest and shorter lived, and only the 200-mcg dose had substantial effects on nocturnal secretion or on histamine and meal-stimulated secretion.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_35dfbaa2-e8f6-40b0-8ce8-224478af51d8">
+                     <id root="2fd197c6-05ba-5011-e063-6294a90a585d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Uterine effects</title>
+                     <text>
+                        <paragraph>Misoprostol has been shown to produce uterine contractions that may endanger pregnancy (see
+ 
+  <content styleCode="bold">
+                              <linkHtml href="#BOX">boxed WARNINGS</linkHtml>
+                           </content>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_d8fa9497-1dd7-4368-b794-486f84c29b99">
+                     <id root="2fd197c6-05bb-5011-e063-6294a90a585d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other pharmacologic effects</title>
+                     <text>
+                        <paragraph>Misoprostol does not produce clinically significant effects on serum levels of prolactin, gonadotropins, thyroid-stimulating hormone, growth hormone, thyroxine, cortisol, gastrointestinal hormones (somatostatin, gastrin, vasoactive intestinal polypeptide, and motilin), creatinine, or uric acid. Gastric emptying, immunologic competence, platelet aggregation, pulmonary function, or the cardiovascular system are not modified by recommended doses of misoprostol.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Studies">
+                     <id root="2fd197c6-05bc-5011-e063-6294a90a585d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Clinical studies</title>
+                     <text>
+                        <paragraph>In a series of small short-term (about 1 week) placebo-controlled studies in healthy human volunteers, doses of misoprostol were evaluated for their ability to reduce the risk of NSAID-induced mucosal injury. Studies of 200 mcg q.i.d. of misoprostol with tolmetin and naproxen, and of 100 and 200 mcg q.i.d. with ibuprofen, all showed reduction of the rate of significant endoscopic injury from about 70–75% on placebo to 10–30% on misoprostol. Doses of 25–200 mcg q.i.d. reduced aspirin-induced mucosal injury and bleeding.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_eae8f461-0c09-46da-840e-8aa3d993fed4">
+                     <id root="2fd197c6-05bd-5011-e063-6294a90a585d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Reducing the risk of gastric ulcers caused by nonsteroidal anti-inflammatory drugs (NSAIDs)</title>
+                     <text>
+                        <paragraph>Two 12-week, randomized, double-blind trials in osteoarthritic patients who had gastrointestinal symptoms but no ulcer on endoscopy while taking an NSAID compared the ability of 200 mcg of misoprostol, 100 mcg of misoprostol, and placebo to reduce the risk of gastric ulcer (GU) formation. Patients were approximately equally divided between ibuprofen, piroxicam, and naproxen, and continued this treatment throughout the 12 weeks. The 200-mcg dose caused a marked, statistically significant reduction in gastric ulcers in both studies. The lower dose was somewhat less effective, with a significant result in only one of the studies.</paragraph>
+                        <table ID="_RefID0ETEAE" width="95%">
+                           <caption>Reduction of Risk of Gastric Ulcers Induced by Ibuprofen, Piroxicam, or Naproxen [No. of patients with ulcer(s) (%)]</caption>
+                           <col width="19%"/>
+                           <col width="19%"/>
+                           <col width="19%"/>
+                           <col width="19%"/>
+                           <col width="18%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" styleCode="Toprule " valign="top"/>
+                                 <th align="center" colspan="3" styleCode="Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Therapy Duration</content>
+                                 </th>
+                                 <th align="left" styleCode="Toprule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <th align="left" styleCode="Botrule " valign="top">
+                                    <content styleCode="bold">Therapy</content>
+                                 </th>
+                                 <th align="center" styleCode="Botrule " valign="top">
+                                    <content styleCode="bold">4 weeks</content>
+                                 </th>
+                                 <th align="center" styleCode="Botrule " valign="top">
+                                    <content styleCode="bold">8 weeks</content>
+                                 </th>
+                                 <th align="center" styleCode="Botrule " valign="top">
+                                    <content styleCode="bold">12 weeks</content>
+                                 </th>
+                                 <th align="left" styleCode="Botrule " valign="top"/>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="italics">Study No. 1</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Toprule " valign="top"/>
+                                 <td styleCode="Toprule " valign="top"/>
+                                 <td styleCode="Toprule " valign="top"/>
+                                 <td styleCode="Toprule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>Misoprostol</paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>  200 mcg 
+      <br/>    q.i.d. (n=74)
+     </paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>1 (1.4)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>1 (1.4)
+     
+      <footnote ID="_Reft2f1">Statistically significantly different from placebo at the 5% level.</footnote>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>Misoprostol</paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>  100 mcg 
+      <br/>    q.i.d. (n=77)
+     </paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>3 (3.9)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>1 (1.3)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>1 (1.3)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>5 (6.5)
+     
+      <footnoteRef IDREF="_Reft2f1"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>Placebo (n=76)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>11 (14.5)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>4 (5.3)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>4 (5.3)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>19 (25.0)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>
+                                       <content styleCode="italics">Study No. 2</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>Misoprostol</paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>  200 mcg 
+      <br/>    q.i.d. (n=65)
+     </paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>1 (1.5)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>1 (1.5)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>2 (3.1)
+     
+      <footnoteRef IDREF="_Reft2f1"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>Misoprostol</paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>  100 mcg 
+      <br/>    q.i.d. (n=66)
+     </paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>2 (3.0)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>2 (3.0)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>1 (1.5)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>5 (7.6)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>Placebo (n=62)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>6 (9.7)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>2 (3.2)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>3 (4.8)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>11 (17.7)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>
+                                       <content styleCode="italics">Studies No. 1 &amp; No. 2</content>
+                                       <footnote ID="_RefID0EAJAE">Combined data from Study No. 1 and Study No. 2.</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>Misoprostol</paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>  200 mcg 
+      <br/>    q.i.d. (n=139)
+     </paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>2 (1.4)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>1 (0.7)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>3 (2.2)
+     
+      <footnoteRef IDREF="_Reft2f1"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>Misoprostol</paragraph>
+                                 </td>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>  100 mcg 
+      <br/>    q.i.d. (n=143)
+     </paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>5 (3.5)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>3 (2.1)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>2 (1.4)</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>10 (7.0)
+     
+      <footnoteRef IDREF="_Reft2f1"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>Placebo (n=138)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>17 (12.3)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>6 (4.3)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>7 (5.1)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>30 (21.7)</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In these trials there were no significant differences between misoprostol and placebo in relief of day or night abdominal pain. No effect of misoprostol in reducing the risk of duodenal ulcers was demonstrated, but relatively few duodenal lesions were seen.</paragraph>
+                        <paragraph>In another clinical trial, 239 patients receiving aspirin 650–1300 mg q.i.d. for rheumatoid arthritis who had endoscopic evidence of duodenal and/or gastric inflammation were randomized to misoprostol 200 mcg q.i.d. or placebo for 8 weeks while continuing to receive aspirin. The study evaluated the possible interference of misoprostol on the efficacy of aspirin in these patients with rheumatoid arthritis by analyzing joint tenderness, joint swelling, physician's clinical assessment, patient's assessment, change in ARA classification, change in handgrip strength, change in duration of morning stiffness, patient's assessment of pain at rest, movement, interference with daily activity, and ESR. Misoprostol did not interfere with the efficacy of aspirin in these patients with rheumatoid arthritis.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="IU">
+               <id root="2fd197c6-05be-5011-e063-6294a90a585d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Misoprostol is indicated for reducing the risk of NSAID (nonsteroidal anti-inflammatory drugs, including aspirin)–induced gastric ulcers in patients at high risk of complications from gastric ulcer, e.g., the elderly and patients with concomitant debilitating disease, as well as patients at high risk of developing gastric ulceration, such as patients with a history of ulcer. Misoprostol has not been shown to reduce the risk of duodenal ulcers in patients taking NSAIDs. Misoprostol should be taken for the duration of NSAID therapy. Misoprostol has been shown to reduce the risk of gastric ulcers in controlled studies of 3 months' duration. It had no effect, compared to placebo, on gastrointestinal pain or discomfort associated with NSAID use.</paragraph>
+               </text>
+               <effectiveTime value="20250225"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CONTRAINDICATIONS">
+               <id root="2fd197c6-05bf-5011-e063-6294a90a585d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>See
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#BOX">boxed WARNINGS</linkHtml>.
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Misoprostol should not be taken by pregnant women to reduce the risk of ulcers induced by nonsteroidal anti-inflammatory drugs (NSAIDs).</content>
+                  </paragraph>
+                  <paragraph>Misoprostol should not be taken by anyone with a history of allergy to prostaglandins.</paragraph>
+               </text>
+               <effectiveTime value="20250225"/>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS">
+               <id root="2fd197c6-05c0-5011-e063-6294a90a585d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>See
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#BOX">boxed WARNINGS</linkHtml>.
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>For hospital use only if misoprostol were to be used for cervical ripening, induction of labor, or for the treatment of serious post-partum hemorrhage, which are outside of the approved indication.</paragraph>
+               </text>
+               <effectiveTime value="20250225"/>
+            </section>
+         </component>
+         <component>
+            <section ID="PRECAUTIONS">
+               <id root="2fd197c6-05c1-5011-e063-6294a90a585d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Caution should be employed when administering misoprostol to patients with pre-existing cardiovascular disease.</paragraph>
+               </text>
+               <effectiveTime value="20250225"/>
+               <component>
+                  <section ID="Information">
+                     <id root="2fd197c6-05c2-5011-e063-6294a90a585d"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for patients</title>
+                     <text>
+                        <paragraph>Women of childbearing potential using misoprostol to decrease the risk of NSAID-induced ulcers should be told that they must not be pregnant when misoprostol therapy is initiated, and that they must use an effective contraception method while taking misoprostol.</paragraph>
+                        <paragraph>See
+ 
+  <content styleCode="bold">
+                              <linkHtml href="#BOX">boxed WARNINGS</linkHtml>.
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>Misoprostol is intended for administration along with nonsteroidal anti-inflammatory drugs (NSAIDs), including aspirin, to decrease the chance of developing an NSAID-induced gastric ulcer.</paragraph>
+                        <paragraph>Misoprostol should be taken only according to the directions given by a physician.</paragraph>
+                        <paragraph>If the patient has questions about or problems with misoprostol, the physician should be contacted promptly.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">THE PATIENT SHOULD NOT GIVE MISOPROSTOL TO ANYONE ELSE.</content>Misoprostol has been prescribed for the patient's specific condition, may not be the correct treatment for another person, and may be dangerous to the other person if she were to become pregnant.
+
+ </paragraph>
+                        <paragraph>The misoprostol package the patient receives from the pharmacist will include a leaflet containing patient information. The patient should read the leaflet before taking misoprostol and each time the prescription is renewed because the leaflet may have been revised.</paragraph>
+                        <paragraph>Keep misoprostol out of the reach of children.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">SPECIAL NOTE FOR WOMEN: Misoprostol may cause birth defects, abortion (sometimes incomplete), premature labor or rupture of the uterus if given to pregnant women.</content>
+                        </paragraph>
+                        <paragraph>Misoprostol is available only as a unit-of-use package that includes a leaflet containing patient information. See
+ 
+  <content styleCode="italics">
+                              <linkHtml href="#PI">Patient Information</linkHtml>
+                           </content>at the end of this labeling.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="DI">
+                     <id root="2fd197c6-05c3-5011-e063-6294a90a585d"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug interactions</title>
+                     <text>
+                        <paragraph>See
+ 
+  <content styleCode="italics">
+                              <linkHtml href="#CP">Clinical Pharmacology</linkHtml>.
+ 
+  </content>Misoprostol has not been shown to interfere with the beneficial effects of aspirin on signs and symptoms of rheumatoid arthritis. Misoprostol does not exert clinically significant effects on the absorption, blood levels, and antiplatelet effects of therapeutic doses of aspirin. Misoprostol has no clinically significant effect on the kinetics of diclofenac or ibuprofen.
+
+ </paragraph>
+                        <paragraph>Prostaglandins such as misoprostol may augment the activity of oxytocic agents, especially when given less than 4 hours prior to initiating oxytocin treatment. Concomitant use is not recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_4301e829-66eb-4370-acf4-54a4c1b8b7f8">
+                     <id root="2fd197c6-05c4-5011-e063-6294a90a585d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Animal toxicology</title>
+                     <text>
+                        <paragraph>A reversible increase in the number of normal surface gastric epithelial cells occurred in the dog, rat, and mouse. No such increase has been observed in humans administered misoprostol for up to 1 year.</paragraph>
+                        <paragraph>An apparent response of the female mouse to misoprostol in long-term studies at 100 to 1000 times the human dose was hyperostosis, mainly of the medulla of sternebrae. Hyperostosis did not occur in long-term studies in the dog and rat and has not been seen in humans treated with misoprostol.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_19793581-f81b-4714-b976-3f34c65f28f0">
+                     <id root="2fd197c6-05c5-5011-e063-6294a90a585d"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, mutagenesis, impairment of fertility</title>
+                     <text>
+                        <paragraph>There was no evidence of an effect of misoprostol on tumor occurrence or incidence in rats receiving daily doses up to 150 times the human dose for 24 months. Similarly, there was no effect of misoprostol on tumor occurrence or incidence in mice receiving daily doses up to 1000 times the human dose for 21 months. The mutagenic potential of misoprostol was tested in several
+ 
+  <content styleCode="italics">in vitro</content>assays, all of which were negative.
+
+ </paragraph>
+                        <paragraph>Misoprostol, when administered to breeding male and female rats at doses 6.25 times to 625 times the maximum recommended human therapeutic dose, produced dose-related pre- and post-implantation losses and a significant decrease in the number of live pups born at the highest dose. These findings suggest the possibility of a general adverse effect on fertility in males and females.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_bd180360-091a-4284-b71a-0388574d5fc7">
+                     <id root="2fd197c6-05c6-5011-e063-6294a90a585d"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20250225"/>
+                     <component>
+                        <section ID="ID_49ae4f54-511b-4234-b420-fe478f7f188c">
+                           <id root="2fd197c6-05c7-5011-e063-6294a90a585d"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="bold">Teratogenic effects</content>
+                           </title>
+                           <text>
+                              <paragraph>See
+ 
+  <content styleCode="bold">
+                                    <linkHtml href="#BOX">boxed WARNINGS</linkHtml>.
+ 
+  </content>Congenital anomalies sometimes associated with fetal death have been reported subsequent to the unsuccessful use of misoprostol as an abortifacient, but the drug's teratogenic mechanism has not been demonstrated. Several reports in the literature associate the use of misoprostol during the first trimester of pregnancy with skull defects, cranial nerve palsies, facial malformations, and limb defects.
+
+ </paragraph>
+                              <paragraph>Misoprostol is not fetotoxic or teratogenic in rats and rabbits at doses 625 and 63 times the human dose, respectively.</paragraph>
+                           </text>
+                           <effectiveTime value="20250225"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_55f5c89b-d363-4151-9045-eb221354549e">
+                           <id root="2fd197c6-05c8-5011-e063-6294a90a585d"/>
+                           <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="bold">Nonteratogenic effects</content>
+                           </title>
+                           <text>
+                              <paragraph>See
+ 
+  <content styleCode="bold">
+                                    <linkHtml href="#BOX">boxed WARNINGS</linkHtml>
+                                 </content>. Misoprostol may endanger pregnancy (may cause abortion) and thereby cause harm to the fetus when administered to a pregnant woman. Misoprostol may produce uterine contractions, uterine bleeding, and expulsion of the products of conception. Abortions caused by misoprostol may be incomplete. If a woman is or becomes pregnant while taking this drug to reduce the risk of NSAID-induced ulcers, the drug should be discontinued and the patient apprised of the potential hazard to the fetus.
+
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20250225"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LABOR">
+                     <id root="2fd197c6-05c9-5011-e063-6294a90a585d"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and delivery</title>
+                     <text>
+                        <paragraph>Misoprostol can induce or augment uterine contractions. Vaginal administration of misoprostol, outside of its approved indication, has been used as a cervical ripening agent, for the induction of labor and for treatment of serious postpartum hemorrhage in the presence of uterine atony. A major adverse effect of the obstetrical use of misoprostol is uterine tachysystole which may progress to uterine tetany with marked impairment of uteroplacental blood flow, uterine rupture (requiring surgical repair, hysterectomy, and/or salpingo-oophorectomy), or amniotic fluid embolism and lead to adverse fetal heart changes. Uterine activity and fetal status should be monitored by trained obstetrical personnel in a hospital setting.</paragraph>
+                        <paragraph>The risk of uterine rupture associated with misoprostol use in pregnancy increases with advancing gestational ages and prior uterine surgery, including Cesarean delivery. Grand multiparity also appears to be a risk factor for uterine rupture.</paragraph>
+                        <paragraph>The use of misoprostol outside of its approved indication may also be associated with meconium passage, meconium staining of amniotic fluid, and Cesarean delivery. Maternal shock, maternal death, fetal bradycardia, and fetal death have also been reported with the use of misoprostol.</paragraph>
+                        <paragraph>Misoprostol should not be used in the third trimester in women with a history of Cesarean section or major uterine surgery because of an increased risk of uterine rupture.</paragraph>
+                        <paragraph>Misoprostol should not be used in cases where uterotonic drugs are generally contraindicated or where hyperstimulation of the uterus is considered inappropriate, such as cephalopelvic disproportion, grand multiparity, hypertonic or hyperactive uterine patterns, or fetal distress where delivery is not imminent, or when surgical intervention is more appropriate.</paragraph>
+                        <paragraph>The effect of misoprostol on later growth, development, and functional maturation of the child when misoprostol is used for cervical ripening or induction of labor has not been established. Information on misoprostol's effect on the need for forceps delivery or other intervention is unknown.</paragraph>
+                        <paragraph>The use of misoprostol for the management of postpartum hemorrhage has been associated with reports of high fevers (greater than 40 degrees Celsius or 104 degrees Fahrenheit), accompanied by autonomic and central nervous system effects, such as tachycardia, disorientation, agitation, and convulsions. These fevers were transient in nature. Supportive therapy should be dictated by the patient's clinical presentation.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Nursing">
+                     <id root="2fd197c6-05ca-5011-e063-6294a90a585d"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing mothers</title>
+                     <text>
+                        <paragraph>Misoprostol is rapidly metabolized in the mother to misoprostol acid, which is biologically active and is excreted in breast milk. There are no published reports of adverse effects of misoprostol in breast-feeding infants of mothers taking misoprostol. Caution should be exercised when misoprostol is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Pediatric">
+                     <id root="2fd197c6-05cb-5011-e063-6294a90a585d"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of misoprostol in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="AR">
+               <id root="2fd197c6-05cc-5011-e063-6294a90a585d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following have been reported as adverse events in subjects receiving misoprostol:</paragraph>
+               </text>
+               <effectiveTime value="20250225"/>
+               <component>
+                  <section ID="Gastrointestinal">
+                     <id root="2fd197c6-05cd-5011-e063-6294a90a585d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal</title>
+                     <text>
+                        <paragraph>In subjects receiving misoprostol 400 or 800 mcg daily in clinical trials, the most frequent gastrointestinal adverse events were diarrhea and abdominal pain. The incidence of diarrhea at 800 mcg in controlled trials in patients on NSAIDs ranged from 14–40% and in all studies (over 5,000 patients) averaged 13%. Abdominal pain occurred in 13–20% of patients in NSAID trials and about 7% in all studies, but there was no consistent difference from placebo.</paragraph>
+                        <paragraph>Diarrhea was dose-related and usually developed early in the course of therapy (after 13 days), usually was self-limiting (often resolving after 8 days), but sometimes required discontinuation of misoprostol (2% of the patients). Rare instances of profound diarrhea leading to severe dehydration have been reported. Patients with an underlying condition such as inflammatory bowel disease, or those in whom dehydration, were it to occur, would be dangerous, should be monitored carefully if misoprostol is prescribed. The incidence of diarrhea can be minimized by administering after meals and at bedtime, and by avoiding coadministration of misoprostol with magnesium-containing antacids.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_9a5d0165-026c-4484-a148-1dca37be0898">
+                     <id root="2fd197c6-05ce-5011-e063-6294a90a585d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gynecological</title>
+                     <text>
+                        <paragraph>Women who received misoprostol during clinical trials reported the following gynecological disorders: spotting (0.7%), cramps (0.6%), hypermenorrhea (0.5%), menstrual disorder (0.3%) and dysmenorrhea (0.1%). Postmenopausal vaginal bleeding may be related to misoprostol administration. If it occurs, diagnostic workup should be undertaken to rule out gynecological pathology (see
+ 
+  <content styleCode="bold">
+                              <linkHtml href="#BOX">boxed WARNINGS</linkHtml>
+                           </content>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_85673231-6ae3-4bbb-9e25-d8258c8af628">
+                     <id root="2fd197c6-05cf-5011-e063-6294a90a585d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Elderly</title>
+                     <text>
+                        <paragraph>There were no significant differences in the safety profile of misoprostol in approximately 500 ulcer patients who were 65 years of age or older compared with younger patients.</paragraph>
+                        <paragraph>Additional adverse events which were reported are categorized as follows:</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_4add426c-dddb-43bc-bd5d-c014f692546e">
+                     <id root="2fd197c6-05d0-5011-e063-6294a90a585d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Incidence greater than 1%</title>
+                     <text>
+                        <paragraph>In clinical trials, the following adverse reactions were reported by more than 1% of the subjects receiving misoprostol and may be causally related to the drug: nausea (3.2%), flatulence (2.9%), headache (2.4%), dyspepsia (2.0%), vomiting (1.3%), and constipation (1.1%). However, there were no significant differences between the incidences of these events for misoprostol and placebo.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_ebcaf9f6-5ebf-4740-85c4-dde1342dd376">
+                     <id root="2fd197c6-05d1-5011-e063-6294a90a585d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Causal relationship unknown</title>
+                     <text>
+                        <paragraph>The following adverse events were infrequently reported. Causal relationships between misoprostol and these events have not been established but cannot be excluded:</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Body as a whole:</content>aches/pains, asthenia, fatigue, fever, chills, rigors, weight changes.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Skin:</content>rash, dermatitis, alopecia, pallor, breast pain.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Special senses:</content>abnormal taste, abnormal vision, conjunctivitis, deafness, tinnitus, earache.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Respiratory:</content>upper respiratory tract infection, bronchitis, bronchospasm, dyspnea, pneumonia, epistaxis.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cardiovascular:</content>chest pain, edema, diaphoresis, hypotension, hypertension, arrhythmia, phlebitis, increased cardiac enzymes, syncope, myocardial infarction (some fatal), thromboembolic events (e.g., pulmonary embolism, arterial thrombosis, and CVA).
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Gastrointestinal:</content>GI bleeding, GI inflammation/infection, rectal disorder, abnormal hepatobiliary function, gingivitis, reflux, dysphagia, amylase increase.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hypersensitivity:</content>anaphylactic reaction
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolic:</content>glycosuria, gout, increased nitrogen, increased alkaline phosphatase.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Genitourinary:</content>polyuria, dysuria, hematuria, urinary tract infection.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nervous system/Psychiatric:</content>anxiety, change in appetite, depression, drowsiness, dizziness, thirst, impotence, loss of libido, sweating increase, neuropathy, neurosis, confusion.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Musculoskeletal:</content>arthralgia, myalgia, muscle cramps, stiffness, back pain.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Blood/Coagulation:</content>anemia, abnormal differential, thrombocytopenia, purpura, ESR increased.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="OVERDOSAGE">
+               <id root="2fd197c6-05d2-5011-e063-6294a90a585d"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>The toxic dose of misoprostol in humans has not been determined. Cumulative total daily doses of 1600 mcg have been tolerated, with only symptoms of gastrointestinal discomfort being reported. In animals, the acute toxic effects are diarrhea, gastrointestinal lesions, focal cardiac necrosis, hepatic necrosis, renal tubular necrosis, testicular atrophy, respiratory difficulties, and depression of the central nervous system. Clinical signs that may indicate an overdose are sedation, tremor, convulsions, dyspnea, abdominal pain, diarrhea, fever, palpitations, hypotension, or bradycardia. Symptoms should be treated with supportive therapy.</paragraph>
+                  <paragraph>It is not known if misoprostol acid is dialyzable. However, because misoprostol is metabolized like a fatty acid, it is unlikely that dialysis would be appropriate treatment for overdosage.</paragraph>
+               </text>
+               <effectiveTime value="20250225"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DA">
+               <id root="2fd197c6-05d3-5011-e063-6294a90a585d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The recommended adult oral dose of misoprostol for reducing the risk of NSAID-induced gastric ulcers is 200 mcg four times daily with food. If this dose cannot be tolerated, a dose of 100 mcg can be used (see
+ 
+  <content styleCode="italics">
+                        <linkHtml href="#Studies">Clinical Pharmacology: Clinical studies</linkHtml>
+                     </content>). Misoprostol should be taken for the duration of NSAID therapy as prescribed by the physician. Misoprostol should be taken with a meal, and the last dose of the day should be at bedtime.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20250225"/>
+               <component>
+                  <section ID="ID_c6fc787f-3cbd-41a1-a4f8-014766f86a5a">
+                     <id root="2fd197c6-05d4-5011-e063-6294a90a585d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Renal impairment</title>
+                     <text>
+                        <paragraph>Adjustment of the dosing schedule in renally impaired patients is not routinely needed, but dosage can be reduced if the 200-mcg dose is not tolerated (see
+ 
+  <content styleCode="italics">
+                              <linkHtml href="#CP">Clinical Pharmacology</linkHtml>
+                           </content>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="HS">
+               <id root="2fd197c6-05d5-5011-e063-6294a90a585d"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Misoprostol 100-mcg tablets are white, round, with G and 5007 debossed on one side; supplied as:</paragraph>
+                  <table width="50%">
+                     <col width="25%"/>
+                     <col width="24%"/>
+                     <thead>
+                        <tr>
+                           <th align="left" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">NDC Number</content>
+                           </th>
+                           <th align="left" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">Size</content>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>59762-5007-1</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>unit-of-use bottle of 60</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>59762-5007-2</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>unit-of-use bottle of 120</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Misoprostol 200-mcg tablets are white, hexagonal, with G debossed above and 5008 debossed below the line on one side; supplied as:</paragraph>
+                  <table width="50%">
+                     <col width="25%"/>
+                     <col width="24%"/>
+                     <thead>
+                        <tr>
+                           <th align="left" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">NDC Number</content>
+                           </th>
+                           <th align="left" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">Size</content>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>59762-5008-1</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>unit-of-use bottle of 60</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>59762-5008-2</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>unit-of-use bottle of 100</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20250225"/>
+               <component>
+                  <section ID="ID_31918a7b-e6d5-4488-933c-704199509f44">
+                     <id root="2fd197c6-05d6-5011-e063-6294a90a585d"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>Store at or below 25°C (77°F), in a dry area.</paragraph>
+                     </text>
+                     <effectiveTime value="20250225"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7e390b6e-b1d6-4073-9de6-31a32acd0d42">
+               <id root="2fd197c6-05d7-5011-e063-6294a90a585d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <renderMultiMedia ID="id1061" referencedObject="MM2"/>
+                  <paragraph>LAB-0171-9.0 
+  <br/>  Revised February 2025
+ </paragraph>
+               </text>
+               <effectiveTime value="20250225"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="misoprostol-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PI">
+               <id root="2fd197c6-05d8-5011-e063-6294a90a585d"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title>PATIENT INFORMATION</title>
+               <text>
+                  <paragraph>Read this leaflet before taking misoprostol and each time your prescription is renewed, because the leaflet may be changed.</paragraph>
+                  <paragraph>Misoprostol is being prescribed by your doctor to decrease the chance of getting stomach ulcers related to the arthritis/pain medication that you take.</paragraph>
+                  <paragraph>Do not take misoprostol to reduce the risk of NSAID-induced ulcers if you are pregnant (see
+ 
+  <content styleCode="bold">
+                        <linkHtml href="#BOX">boxed WARNINGS</linkHtml>
+                     </content>). Misoprostol can cause abortion (sometimes incomplete which could lead to dangerous bleeding and require hospitalization and surgery), premature birth, or birth defects. It is also important to avoid pregnancy while taking this medication and for at least one month or through one menstrual cycle after you stop taking it. Misoprostol may cause the uterus to tear (uterine rupture) during pregnancy. The risk of uterine rupture increases as your pregnancy advances and if you have had surgery on the uterus, such as a Cesarean delivery. Rupture (tearing) of the uterus can result in severe bleeding, hysterectomy, and/or maternal or fetal death.
+
+ </paragraph>
+                  <paragraph>If you become pregnant during misoprostol therapy, stop taking misoprostol and contact your physician immediately. Remember that even if you are on a means of birth control it is still possible to become pregnant. Should this occur, stop taking misoprostol and contact your physician immediately.</paragraph>
+                  <paragraph>Misoprostol may cause diarrhea, abdominal cramping, and/or nausea in some people. In most cases these problems develop during the first few weeks of therapy and stop after about a week. You can minimize possible diarrhea by making sure you take misoprostol with food.</paragraph>
+                  <paragraph>Because these side effects are usually mild to moderate and usually go away in a matter of days, most patients can continue to take misoprostol. If you have prolonged difficulty (more than 8 days), or if you have severe diarrhea, cramping and/or nausea, call your doctor.</paragraph>
+                  <paragraph>Take misoprostol only according to the directions given by your physician.</paragraph>
+                  <paragraph>Do not give misoprostol to anyone else. It has been prescribed for your specific condition, may not be the correct treatment for another person, and would be dangerous if the other person were pregnant.</paragraph>
+                  <paragraph>This information sheet does not cover all possible side effects of misoprostol. This patient information leaflet does not address the side effects of your arthritis/pain medication. See your doctor if you have questions.</paragraph>
+                  <paragraph>Keep out of reach of children.</paragraph>
+                  <renderMultiMedia ID="id1091" referencedObject="ID0EZQCI"/>
+                  <paragraph>LAB-0646-3.0 
+  <br/>  Revised February 2025
+ </paragraph>
+               </text>
+               <effectiveTime value="20250225"/>
+               <component>
+                  <observationMedia ID="ID0EZQCI">
+                     <text>Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="misoprostol-02a.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e955d7fe-5d2f-4b41-b6d2-33077e9dd1f2">
+               <id root="2fd197c6-05d9-5011-e063-6294a90a585d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 100 mcg Tablet Bottle Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content>59762-5007-2 
+  <br/>  120 Tablets
+
+ </paragraph>
+                  <paragraph>GREENSTONE
+ 
+  <sup>®</sup>BRAND
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">misoprostol</content>
+                     <br/>
+                     <content styleCode="bold">tablets</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">100 mcg</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Adult Dosage:</content>
+                     <br/>  See accompanying literature.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id1118" referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20250225"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PRINCIPAL DISPLAY PANEL - 100 mcg Tablet Bottle Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="misoprostol-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_80b72865-d88f-4b41-bb9e-d548e2e8568d">
+               <id root="2fd197c6-05da-5011-e063-6294a90a585d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 200 mcg Tablet Bottle Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content>59762-5008-2 
+  <br/>  100 Tablets
+
+ </paragraph>
+                  <paragraph>GREENSTONE
+ 
+  <sup>®</sup>BRAND
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">misoprostol</content>
+                     <br/>
+                     <content styleCode="bold">tablets</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">200 mcg</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Adult Dosage:</content>
+                     <br/>  See accompanying literature.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id1147" referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20250225"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>PRINCIPAL DISPLAY PANEL - 200 mcg Tablet Bottle Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="misoprostol-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

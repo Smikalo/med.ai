@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2f365a80-62cf-95d6-e063-6394a90af5c5"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Buspirone HCL</title>
+   <effectiveTime value="20250228"/>
+   <setId root="f71e019b-3928-f8eb-e053-6394a90a871e"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>Direct_Rx</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                  <name>Direct_Rx</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>Direct_Rx</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72189-448" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2f364a93-4e09-92a2-e063-6394a90af1a2"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250228"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72189-448" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Buspirone HCL</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Buspirone HCL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="29300-245" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="207LT9J9OC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUSPIRONE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="TK65WKS8HL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BUSPIRONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-448-90" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230317"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-448-60" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230317"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="180" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-448-82" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230317"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-448-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230317"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA210907" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230317"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>(white to off white)</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText>(flat faced beveled edge)</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="8" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">U;245</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e18dc-05c4-2973-e053-6394a90a74ea">
+               <id root="f71e18dc-05c3-2973-e053-6394a90a74ea"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Buspirone hydrochloride tablets, USP are an antianxiety agent that is not chemically or pharmacologically related to the benzodiazepines, barbiturates, or other sedative/anxiolytic drugs.</paragraph>
+                  <paragraph>Buspirone hydrochloride is a white crystalline, water soluble compound with a molecular weight of 421.96. Chemically, buspirone hydrochloride is N-[4-[4-(2-pyrimidinyl)-1-piperazinyl]butyl]-1,1-cyclopentanediacetamide monohydrochloride. The empirical formula C21H31N5O2•HCl is represented by the following structural formula:</paragraph>
+                  <paragraph>[Image]</paragraph>
+                  <paragraph>Each tablet, for oral administration, contains 5 mg, 10 mg, 15 mg or 30 mg of buspirone hydrochloride, USP (equivalent to 4.6 mg, 9.1 mg, 13.7 mg, and 27.4 mg of buspirone free base, respectively). The 5 mg and 10 mg tablets are scored so they can be bisected. Thus, the 5 mg tablet can also provide a 2.5 mg dose, and the 10 mg tablet can provide a 5 mg dose. The 15 mg tablets are scored such that they may be bisected or trisected. Thus, a single tablet can provide the following doses: 15 mg (entire tablet), 10 mg (two-thirds of a tablet), 7.5 mg (one-half of a tablet), or 5 mg (one-third of a tablet). The 30 mg tablets are scored such that they may be bisected or trisected. Thus, a single tablet can provide the following doses: 30 mg (entire tablet), 20 mg (two-thirds of a tablet), 15 mg (one-half of a tablet), or 10 mg (one-third of a tablet). Buspirone hydrochloride tablets, USP contain the following inactive ingredients: anhydrous lactose, colloidal silicon dioxide, magnesium stearate, microcrystalline cellulose, and sodium starch glycolate.</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e19f9-9ee0-7e45-e053-6294a90a94c3">
+               <id root="f71e19f9-9edf-7e45-e053-6294a90a94c3"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>The mechanism of action of buspirone is unknown. Buspirone differs from typical benzodiazepine anxiolytics in that it does not exert anticonvulsant or muscle relaxant effects. It also lacks the prominent sedative effect that is associated with more typical anxiolytics. In vitro preclinical studies have shown that buspirone has a high affinity for serotonin (5-HT1A) receptors. Buspirone has no significant affinity for benzodiazepine receptors and does not affect GABA binding in vitro or in vivo when tested in preclinical models.</paragraph>
+                  <paragraph>Buspirone has moderate affinity for brain D2-dopamine receptors. Some studies do suggest that buspirone may have indirect effects on other neurotransmitter systems.</paragraph>
+                  <paragraph>Buspirone hydrochloride tablets are rapidly absorbed in man and undergo extensive first-pass metabolism. In a radiolabeled study, unchanged buspirone in the plasma accounted for only about 1% of the radioactivity in the plasma. Following oral administration, plasma concentrations of unchanged buspirone are very low and variable between subjects. Peak plasma levels of 1 ng/mL to 6 ng/mL have been observed 40 to 90 minutes after single oral doses of 20 mg. The single-dose bioavailability of unchanged buspirone when taken as a tablet is on the average about 90% of an equivalent dose of solution, but there is large variability.</paragraph>
+                  <paragraph>The effects of food upon the bioavailability of buspirone hydrochloride tablets have been studied in eight subjects. They were given a 20 mg dose with and without food; the area under the plasma concentration-time curve (AUC) and peak plasma concentration (Cmax) of unchanged buspirone increased by 84% and 116%, respectively, but the total amount of buspirone immunoreactive material did not change. This suggests that food may decrease the extent of presystemic clearance of buspirone (see DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>A multiple-dose study conducted in 15 subjects suggests that buspirone has nonlinear pharmacokinetics. Thus, dose increases and repeated dosing may lead to somewhat higher blood levels of unchanged buspirone than would be predicted from results of single-dose studies.</paragraph>
+                  <paragraph>An in vitro protein binding study indicated that approximately 86% of buspirone is bound to plasma proteins. It was also observed that aspirin increased the plasma levels of free buspirone by 23%, while flurazepam decreased the plasma levels of free buspirone by 20%. However, it is not known whether these drugs cause similar effects on plasma levels of free buspirone in vivo, or whether such changes, if they do occur, cause clinically significant differences in treatment outcome. An in vitro study indicated that buspirone did not displace highly protein-bound drugs such as phenytoin, warfarin, and propranolol from plasma protein, and that buspirone may displace digoxin.</paragraph>
+                  <paragraph>Buspirone is metabolized primarily by oxidation, which in vitro has been shown to be mediated by cytochrome P450 3A4 (CYP3A4) (see PRECAUTIONS, DRUG INTERACTIONS). Several hydroxylated derivatives and a pharmacologically active metabolite, 1-pyrimidinylpiperazine (1-PP), are produced. In animal models predictive of anxiolytic potential, 1-PP has about one quarter of the activity of buspirone, but is present in up to 20-fold greater amounts. However, this is probably not important in humans: blood samples from humans chronically exposed to buspirone hydrochloride tablets do not exhibit high levels of 1-PP; mean values are approximately 3 ng/mL and the highest human blood level recorded among 108 chronically dosed patients was 17 ng/mL, less than 1/200th of 1-PP levels found in animals given large doses of buspirone without signs of toxicity.</paragraph>
+                  <paragraph>In a single-dose study using 14C-labeled buspirone, 29% to 63% of the dose was excreted in the urine within 24 hours, primarily as metabolites; fecal excretion accounted for 18% to 38% of the dose. The average elimination half-life of unchanged buspirone after single doses of 10 mg to 40 mg is about 2 to 3 hours.</paragraph>
+                  <paragraph>Special Populations</paragraph>
+                  <paragraph>Age and Gender Effects</paragraph>
+                  <paragraph>After single or multiple doses in adults, no significant differences in buspirone pharmacokinetics (AUC and Cmax) were observed between elderly and younger subjects or between men and women.</paragraph>
+                  <paragraph>Hepatic Impairment</paragraph>
+                  <paragraph>After multiple-dose administration of buspirone to patients with hepatic impairment, steady-state AUC of buspirone increased 13-fold compared with healthy subjects (see PRECAUTIONS).</paragraph>
+                  <paragraph>Renal Impairment</paragraph>
+                  <paragraph>After multiple-dose administration of buspirone to renally impaired (Clcr = 10 to 70 mL/min/1.73 m2) patients, steady-state AUC of buspirone increased 4-fold compared with healthy (Clcr &gt; 80 mL/min/1.73 m2) subjects (see PRECAUTIONS).</paragraph>
+                  <paragraph>Race Effects</paragraph>
+                  <paragraph>The effects of race on the pharmacokinetics of buspirone have not been studied.</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e18dc-05c6-2973-e053-6394a90a74ea">
+               <id root="f71e18dc-05c5-2973-e053-6394a90a74ea"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Buspirone hydrochloride tablets, USP are indicated for the management of anxiety disorders or the short-term relief of the symptoms of anxiety. Anxiety or tension associated with the stress of everyday life usually does not require treatment with an anxiolytic.</paragraph>
+                  <paragraph>The efficacy of buspirone hydrochloride tablets, USP has been demonstrated in controlled clinical trials of outpatients whose diagnosis roughly corresponds to Generalized Anxiety Disorder (GAD). Many of the patients enrolled in these studies also had coexisting depressive symptoms and buspirone hydrochloride tablets, USP relieved anxiety in the presence of these coexisting depressive symptoms. The patients evaluated in these studies had experienced symptoms for periods of 1 month to over 1 year prior to the study, with an average symptom duration of 6 months. Generalized Anxiety Disorder (300.02) is described in the American Psychiatric Association's Diagnostic and Statistical Manual, III1 as follows:</paragraph>
+                  <paragraph>Generalized, persistent anxiety (of at least 1 month continual duration), manifested by symptoms from three of the four following categories:</paragraph>
+                  <paragraph>Motor tension: shakiness, jitteriness, jumpiness, trembling, tension, muscle aches, fatigability, inability to relax, eyelid twitch, furrowed brow, strained face, fidgeting, restlessness, easy startle.
+  <br/>
+Autonomic hyperactivity: sweating, heart pounding or racing, cold, clammy hands, dry mouth, dizziness, lightheadedness, paresthesias (tingling in hands or feet), upset stomach, hot or cold spells, frequent urination, diarrhea, discomfort in the pit of the stomach, lump in the throat, flushing, pallor, high resting pulse and respiration rate.
+  <br/>
+Apprehensive expectation: anxiety, worry, fear, rumination, and anticipation of misfortune to self or others.
+  <br/>
+Vigilance and scanning: hyperattentiveness resulting in distractibility, difficulty in concentrating, insomnia, feeling "on edge," irritability, impatience.
+ </paragraph>
+                  <paragraph>The above symptoms would not be due to another mental disorder, such as a depressive disorder or schizophrenia. However, mild depressive symptoms are common in GAD.</paragraph>
+                  <paragraph>The effectiveness of buspirone hydrochloride tablets, USP in long-term use, that is, for more than 3 to 4 weeks, has not been demonstrated in controlled trials. There is no body of evidence available that systematically addresses the appropriate duration of treatment for GAD. However, in a study of long-term use, 264 patients were treated with buspirone hydrochloride tablets, USP for 1 year without ill effect. Therefore, the physician who elects to use buspirone hydrochloride tablets, USP for extended periods should periodically reassess the usefulness of the drug for the individual patient.</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e18dc-05c8-2973-e053-6394a90a74ea">
+               <id root="f71e18dc-05c7-2973-e053-6394a90a74ea"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Buspirone hydrochloride tablets are contraindicated in patients hypersensitive to buspirone hydrochloride.</paragraph>
+                  <paragraph>The use of monoamine oxidase inhibitors (MAOIs) intended to treat depression with buspirone or within 14 days of stopping treatment with buspirone is contraindicated because of an increased risk of serotonin syndrome and/or elevated blood pressure. The use of buspirone within 14 days of stopping an MAOI intended to treat depression is also contraindicated.</paragraph>
+                  <paragraph>Starting buspirone in a patient who is being treated with reversible MAOIs such as linezolid or intravenous methylene blue is also contraindicated because of an increased risk of serotonin syndrome (see WARNINGS, DOSAGE AND ADMINISTRATION and DRUG INTERACTIONS).</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e19f9-9ee2-7e45-e053-6294a90a94c3">
+               <id root="f71e19f9-9ee1-7e45-e053-6294a90a94c3"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>The administration of buspirone hydrochloride to a patient taking a monoamine oxidase inhibitor (MAOI) may pose a hazard. There have been reports of the occurrence of elevated blood pressure when buspirone hydrochloride has been added to a regimen including an MAOI. Therefore, it is recommended that buspirone hydrochloride not be used concomitantly with an MAOI.</paragraph>
+                  <paragraph>Serotonin Syndrome</paragraph>
+                  <paragraph>The development of a potentially life-threatening serotonin syndrome has been reported with SNRIs, SSRIs, and other serotonergic drugs, including buspirone, alone but particularly with concomitant use of other serotonergic drugs (including triptans), with drugs that impair metabolism of serotonin (in particular, MAOIs, including reversible MAOIs such as linezolid and intravenous methylene blue), or with antipsychotics or other dopamine antagonists.</paragraph>
+                  <paragraph>Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular changes (e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea). Patients should be monitored for emergence of serotonin syndrome.</paragraph>
+                  <paragraph>The concomitant use of buspirone with MAOIs intended to treat depression is contraindicated. Buspirone should also not be started in a patient who is being treated with reversible MAOIs such as linezolid or intravenous methylene blue. All reports with methylene blue that provided information on the route of administration involved intravenous administration in the dose range of 1 mg/kg to 8 mg/kg. There have been no reports involving the administration of methylene blue by other routes (such as oral tablets or local tissue injection) or at lower doses. There may be circumstances when it is necessary to initiate treatment with a reversible MAOI such as linezolid or intravenous methylene blue in a patient taking buspirone. Buspirone should be discontinued before initiating treatment with the reversible MAOI (see CONTRAINDICATIONS, DOSAGE AND ADMINISTRATION and DRUG INTERACTIONS).</paragraph>
+                  <paragraph>If concomitant use of buspirone with a 5-hydroxytryptamine receptor agonist (triptan) is clinically warranted, careful observation of the patient is advised, particularly during treatment initiation and dose increases.</paragraph>
+                  <paragraph>The concomitant use of buspirone with serotonin precursors (such as tryptophan) is not recommended.</paragraph>
+                  <paragraph>Treatment with buspirone and any concomitant serotonergic or antidopaminergic agents, including antipsychotics, should be discontinued immediately if the above events occur and supportive symptomatic treatment should be initiated.</paragraph>
+                  <paragraph>Because buspirone hydrochloride has no established antipsychotic activity, it should not be employed in lieu of appropriate antipsychotic treatment.</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e18dc-05ca-2973-e053-6394a90a74ea">
+               <id root="f71e18dc-05c9-2973-e053-6394a90a74ea"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>Interference with Cognitive and Motor Performance</paragraph>
+                  <paragraph>Studies indicate that buspirone hydrochloride is less sedating than other anxiolytics and that it does not produce significant functional impairment. However, its CNS effects in any individual patient may not be predictable. Therefore, patients should be cautioned about operating an automobile or using complex machinery until they are reasonably certain that buspirone treatment does not affect them adversely.</paragraph>
+                  <paragraph>While formal studies of the interaction of buspirone hydrochloride with alcohol indicate that buspirone does not increase alcohol-induced impairment in motor and mental performance, it is prudent to avoid concomitant use of alcohol and buspirone.</paragraph>
+                  <paragraph>Potential for Withdrawal Reactions in Sedative/Hypnotic/Anxiolytic Drug-Dependent Patients</paragraph>
+                  <paragraph>Because buspirone hydrochloride do not exhibit cross-tolerance with benzodiazepines and other common sedative/hypnotic drugs, it will not block the withdrawal syndrome often seen with cessation of therapy with these drugs. Therefore, before starting therapy with buspirone hydrochloride tablets, it is advisable to withdraw patients gradually, especially patients who have been using a CNS-depressant drug chronically, from their prior treatment. Rebound or withdrawal symptoms may occur over varying time periods, depending in part on the type of drug, and its effective half-life of elimination.</paragraph>
+                  <paragraph>The syndrome of withdrawal from sedative/hypnotic/anxiolytic drugs can appear as any combination of irritability, anxiety, agitation, insomnia, tremor, abdominal cramps, muscle cramps, vomiting, sweating, flu-like symptoms without fever, and occasionally, even as seizures.</paragraph>
+                  <paragraph>Possible Concerns Related to Buspirone's Binding to Dopamine Receptors</paragraph>
+                  <paragraph>Because buspirone can bind to central dopamine receptors, a question has been raised about its potential to cause acute and chronic changes in dopamine-mediated neurological function (e.g., dystonia, pseudo-parkinsonism, akathisia, and tardive dyskinesia). Clinical experience in controlled trials has failed to identify any significant neuroleptic-like activity; however, a syndrome of restlessness, appearing shortly after initiation of treatment, has been reported in some small fraction of buspirone-treated patients. The syndrome may be explained in several ways. For example, buspirone may increase central noradrenergic activity; alternatively, the effect may be attributable to dopaminergic effects (i.e., represent akathisia). See ADVERSE REACTIONS, POSTMARKETING EXPERIENCE.</paragraph>
+                  <paragraph>Information for Patients</paragraph>
+                  <paragraph>To assure safe and effective use of buspirone hydrochloride, the following information and instructions should be given to patients:</paragraph>
+                  <paragraph>Do not take a monoamine oxidase inhibitor (MAOI). Ask your healthcare provider or pharmacist if you are not sure if you take an MAOI, including the antibiotic linezolid.
+  <br/>
+Do not take an MAOI within 2 weeks of stopping buspirone unless directed to do so by your physician.
+  <br/>
+Do not start buspirone if you stopped taking an MAOI in the last 2 weeks unless directed to do so by your physician.
+  <br/>
+Inform your physician about any medications, prescription or non-prescription, alcohol, or drugs that you are now taking or plan to take during your treatment with buspirone hydrochloride tablets.
+  <br/>
+Inform your physician if you are pregnant, or if you are planning to become pregnant, or if you become pregnant while you are taking buspirone hydrochloride tablets.
+  <br/>
+Inform your physician if you are breastfeeding an infant.
+  <br/>
+Until you experience how this medication affects you, do not drive a car or operate potentially dangerous machinery.
+  <br/>
+You should take buspirone hydrochloride tablets consistently, either always with or always without food.
+  <br/>
+During your treatment with buspirone hydrochloride tablets, avoid drinking large amounts of grapefruit juice.
+ </paragraph>
+                  <paragraph>Laboratory Tests</paragraph>
+                  <paragraph>There are no specific laboratory tests recommended.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>Psychotropic Agents</paragraph>
+                  <paragraph>MAO inhibitors</paragraph>
+                  <paragraph>The use of monoamine oxidase inhibitors (MAOIs) intended to treat depression with buspirone or within 14 days of stopping treatment with buspirone is contraindicated because of an increased risk of serotonin syndrome and/or elevated blood pressure. The use of buspirone within 14 days of stopping an MAOI intended to treat depression is also contraindicated.</paragraph>
+                  <paragraph>Starting buspirone in a patient who is being treated with reversible MAOIs such as linezolid or intravenous methylene blue is also contraindicated because of an increased risk of serotonin syndrome (see WARNINGS, DOSAGE AND ADMINISTRATION AND CONCOMITANT DRUG).</paragraph>
+                  <paragraph>Amitriptyline</paragraph>
+                  <paragraph>After addition of buspirone to the amitriptyline dose regimen, no statistically significant differences in the steady-state pharmacokinetic parameters (Cmax, AUC, and Cmin) of amitriptyline or its metabolite nortriptyline were observed.</paragraph>
+                  <paragraph>Diazepam</paragraph>
+                  <paragraph>After addition of buspirone to the diazepam dose regimen, no statistically significant differences in the steady-state pharmacokinetic parameters (Cmax, AUC, and Cmin) were observed for diazepam, but increases of about 15% were seen for nordiazepam, and minor adverse clinical effects (dizziness, headache, and nausea) were observed.</paragraph>
+                  <paragraph>Haloperidol</paragraph>
+                  <paragraph>In a study in normal volunteers, concomitant administration of buspirone and haloperidol resulted in increased serum haloperidol concentrations. The clinical significance of this finding is not clear.</paragraph>
+                  <paragraph>Nefazodone</paragraph>
+                  <paragraph>(See INHIBITORS AND INDUCERS OF CYTOCHROME P450 3A4 (CYP3A4))</paragraph>
+                  <paragraph>Trazodone</paragraph>
+                  <paragraph>There is one report suggesting that the concomitant use of trazodone hydrochloride and buspirone may have caused 3 to 6-fold elevations on SGPT (ALT) in a few patients. In a similar study attempting to replicate this finding, no interactive effect on hepatic transaminases was identified.</paragraph>
+                  <paragraph>Triazolam/Flurazepam</paragraph>
+                  <paragraph>Coadministration of buspirone with either triazolam or flurazepam did not appear to prolong or intensify the sedative effects of either benzodiazepine.</paragraph>
+                  <paragraph>Other Psychotropics</paragraph>
+                  <paragraph>Because the effects of concomitant administration of buspirone with most other psychotropic drugs have not been studied, the concomitant use of buspirone with other CNS-active drugs should be approached with caution.</paragraph>
+                  <paragraph>Inhibitors and Inducers of Cytochrome P450 3A4 (CYP3A4)</paragraph>
+                  <paragraph>Buspirone has been shown in vitro to be metabolized by CYP3A4. This finding is consistent with the in vivo interactions observed between buspirone and the following:</paragraph>
+                  <paragraph>Diltiazem and Verapamil</paragraph>
+                  <paragraph>In a study of nine healthy volunteers, coadministration of buspirone (10 mg as a single dose) with verapamil (80 mg t.i.d.) or diltiazem (60 mg t.i.d.) increased plasma buspirone concentrations (verapamil increased AUC and Cmax of buspirone 3.4-fold while diltiazem increased AUC and Cmax 5.5-fold and 4-fold, respectively). Adverse events attributable to buspirone may be more likely during concomitant administration with either diltiazem or verapamil. Subsequent dose adjustment may be necessary and should be based on clinical assessment.</paragraph>
+                  <paragraph>Erythromycin</paragraph>
+                  <paragraph>In a study in healthy volunteers, coadministration of buspirone (10 mg as a single dose) with erythromycin (1.5 g/day for 4 days) increased plasma buspirone concentrations (5-fold increase in Cmax and 6-fold increase in AUC). These pharmacokinetic interactions were accompanied by an increased incidence of side effects attributable to buspirone. If the two drugs are to be used in combination, a low dose of buspirone (e.g., 2.5 mg b.i.d.) is recommended. Subsequent dose adjustment of either drug should be based on clinical assessment.</paragraph>
+                  <paragraph>Grapefruit Juice</paragraph>
+                  <paragraph>In a study in healthy volunteers, coadministration of buspirone (10 mg as a single dose) with grapefruit juice (200 mL double-strength t.i.d. for 2 days) increased plasma buspirone concentrations (4.3-fold increase in Cmax; 9.2-fold increase in AUC). Patients receiving buspirone should be advised to avoid drinking such large amounts of grapefruit juice.</paragraph>
+                  <paragraph>Itraconazole</paragraph>
+                  <paragraph>In a study in healthy volunteers, coadministration of buspirone (10 mg as a single dose) with itraconazole (200 mg/day for 4 days) increased plasma buspirone concentrations (13-fold increase in Cmax and 19-fold increase in AUC). These pharmacokinetic interactions were accompanied by an increased incidence of side effects attributable to buspirone. If the two drugs are to be used in combination, a low dose of buspirone (e.g., 2.5 mg q.d.) is recommended. Subsequent dose adjustment of either drug should be based on clinical assessment.</paragraph>
+                  <paragraph>Nefazodone</paragraph>
+                  <paragraph>In a study of steady-state pharmacokinetics in healthy volunteers, coadministration of buspirone (2.5 or 5 mg b.i.d.) with nefazodone (250 mg b.i.d.) resulted in marked increases in plasma buspirone concentrations (increases up to 20-fold in Cmax and up to 50-fold in AUC) and statistically significant decreases (about 50%) in plasma concentrations of the buspirone metabolite 1-PP. With 5 mg b.i.d. doses of buspirone, slight increases in AUC were observed for nefazodone (23%) and its metabolites hydroxynefazodone (HO-NEF) (17%) and meta-chlorophenylpiperazine (9%). Slight increases in Cmax were observed for nefazodone (8%) and its metabolite HO-NEF (11%). Subjects receiving buspirone 5 mg b.i.d. and nefazodone 250 mg b.i.d. experienced lightheadedness, asthenia, dizziness, and somnolence, adverse events also observed with either drug alone. If the two drugs are to be used in combination, a low dose of buspirone (e.g., 2.5 mg q.d.) is recommended. Subsequent dose adjustment of either drug should be based on clinical assessment.</paragraph>
+                  <paragraph>Rifampin</paragraph>
+                  <paragraph>In a study in healthy volunteers, coadministration of buspirone (30 mg as a single dose) with rifampin (600 mg/day for 5 days) decreased the plasma concentrations (83.7% decrease in Cmax; 89.6% decrease in AUC) and pharmacodynamic effects of buspirone. If the two drugs are to be used in combination, the dosage of buspirone may need adjusting to maintain anxiolytic effect.</paragraph>
+                  <paragraph>Other Inhibitors and Inducers of CYP3A4</paragraph>
+                  <paragraph>Substances that inhibit CYP3A4, such as ketoconazole or ritonavir, may inhibit buspirone metabolism and increase plasma concentrations of buspirone while substances that induce CYP3A4, such as dexamethasone or certain anticonvulsants (phenytoin, phenobarbital, carbamazepine), may increase the rate of buspirone metabolism. If a patient has been titrated to a stable dosage on buspirone, a dose adjustment of buspirone may be necessary to avoid adverse events attributable to buspirone or diminished anxiolytic activity. Consequently, when administered with a potent inhibitor of CYP3A4, a low dose of buspirone used cautiously is recommended. When used in combination with a potent inducer of CYP3A4 the dosage of buspirone may need adjusting to maintain anxiolytic effect.</paragraph>
+                  <paragraph>Other Drugs</paragraph>
+                  <paragraph>Cimetidine</paragraph>
+                  <paragraph>Coadministration of buspirone with cimetidine was found to increase Cmax (40%) and Tmax (2 fold), but had minimal effects on the AUC of buspirone.</paragraph>
+                  <paragraph>Protein Binding</paragraph>
+                  <paragraph>In vitro, buspirone does not displace tightly bound drugs like phenytoin, propranolol, and warfarin from serum proteins. However, there has been one report of prolonged prothrombin time when buspirone was added to the regimen of a patient treated with warfarin. The patient was also chronically receiving phenytoin, phenobarbital, digoxin, and levothyroxine sodium. In vitro, buspirone may displace less firmly bound drugs like digoxin. The clinical significance of this property is unknown.</paragraph>
+                  <paragraph>Therapeutic levels of aspirin, desipramine, diazepam, flurazepam, ibuprofen, propranolol, thioridazine, and tolbutamide had only a limited effect on the extent of binding of buspirone to plasma proteins (see CLINICAL PHARMACOLOGY).</paragraph>
+                  <paragraph>Drug/Laboratory Test Interactions</paragraph>
+                  <paragraph>Buspirone hydrochloride may interfere with the urinary metanephrine/catecholamine assay. It has been mistakenly read as metanephrine during routine assay testing for pheochromocytoma, resulting in a false positive laboratory result. Buspirone hydrochloride should therefore be discontinued for at least 48 hours prior to undergoing a urine collection for catecholamines.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis and Impairment Of Fertility</paragraph>
+                  <paragraph>No evidence of carcinogenic potential was observed in rats during a 24-month study at approximately 133 times the maximum recommended human oral dose; or in mice, during an 18-month study at approximately 167 times the maximum recommended human oral dose.</paragraph>
+                  <paragraph>With or without metabolic activation, buspirone did not induce point mutations in five strains of Salmonella typhimurium (Ames Test) or mouse lymphoma L5178YTK+ cell cultures, nor was DNA damage observed with buspirone in Wi-38 human cells. Chromosomal aberrations or abnormalities did not occur in bone marrow cells of mice given one or five daily doses of buspirone.</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Teratogenic Effects</paragraph>
+                  <paragraph>Pregnancy Category B</paragraph>
+                  <paragraph>No fertility impairment or fetal damage was observed in reproduction studies performed in rats and rabbits at buspirone doses of approximately 30 times the maximum recommended human dose. In humans, however, adequate and well-controlled studies during pregnancy have not been performed. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                  <paragraph>Labor and Delivery</paragraph>
+                  <paragraph>The effect of buspirone hydrochloride tablets on labor and delivery in women is unknown. No adverse effects were noted in reproduction studies in rats.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>The extent of the excretion in human milk of buspirone or its metabolites is not known. In rats, however, buspirone and its metabolites are excreted in milk. Buspirone hydrochloride tablets administration to nursing women should be avoided if clinically possible.</paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>The safety and effectiveness of buspirone were evaluated in two placebo-controlled 6 week trials involving a total of 559 pediatric patients (ranging from 6 to 17 years of age) with GAD. Doses studied were 7.5 mg to 30 mg b.i.d. (15 to 60 mg/day). There were no significant differences between buspirone and placebo with regard to the symptoms of GAD following doses recommended for the treatment of GAD in adults. Pharmacokinetic studies have shown that, for identical doses, plasma exposure to buspirone and its active metabolite, 1-PP, are equal to or higher in pediatric patients than adults. No unexpected safety findings were associated with buspirone in these trials. There are no long-term safety or efficacy data in this population.</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>In one study of 6632 patients who received buspirone for the treatment of anxiety, 605 patients were &gt; 65 years old and 41 were &gt; 75 years old; the safety and efficacy profiles for these 605 elderly patients (mean age = 70.8 years) were similar to those in the younger population (mean age = 43.3 years). Review of spontaneously reported adverse clinical events has not identified differences between elderly and younger patients, but greater sensitivity of some older patients cannot be ruled out.</paragraph>
+                  <paragraph>There were no effects of age on the pharmacokinetics of buspirone (see CLINICAL PHARMACOLOGY, SPECIAL POPULATIONS).</paragraph>
+                  <paragraph>Use in Patients with Impaired Hepatic or Renal Function</paragraph>
+                  <paragraph>Buspirone is metabolized by the liver and excreted by the kidneys. A pharmacokinetic study in patients with impaired hepatic or renal function demonstrated increased plasma levels and a lengthened half-life of buspirone. Therefore, the administration of buspirone hydrochloride tablets to patients with severe hepatic or renal impairment cannot be recommended (see CLINICAL PHARMACOLOGY).</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e24ae-fc6d-4906-e053-6394a90ae4b6">
+               <id root="f71e24ae-fc6c-4906-e053-6394a90ae4b6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>(See also PRECAUTIONS)</paragraph>
+                  <paragraph>Commonly Observed</paragraph>
+                  <paragraph>The more commonly observed untoward events associated with the use of buspirone hydrochloride not seen at an equivalent incidence among placebo-treated patients include dizziness, nausea, headache, nervousness, lightheadedness, and excitement.</paragraph>
+                  <paragraph>Associated with Discontinuation of Treatment</paragraph>
+                  <paragraph>One guide to the relative clinical importance of adverse events associated with buspirone hydrochloride is provided by the frequency with which they caused drug discontinuation during clinical testing. Approximately 10% of the 2200 anxious patients who participated in the buspirone hydrochloride premarketing clinical efficacy trials in anxiety disorders lasting 3 to 4 weeks discontinued treatment due to an adverse event. The more common events causing discontinuation included: central nervous system disturbances (3.4%), primarily dizziness, insomnia, nervousness, drowsiness, and lightheaded feeling; gastrointestinal disturbances (1.2%), primarily nausea; and miscellaneous disturbances (1.1%), primarily headache and fatigue. In addition, 3.4% of patients had multiple complaints, none of which could be characterized as primary.</paragraph>
+                  <paragraph>Incidence in Controlled Clinical Trials</paragraph>
+                  <paragraph>The table that follows enumerates adverse events that occurred at a frequency of 1% or more among buspirone hydrochloride patients who participated in 4-week, controlled trials comparing buspirone hydrochloride with placebo. The frequencies were obtained from pooled data for 17 trials. The prescriber should be aware that these figures cannot be used to predict the incidence of side effects in the course of usual medical practice where patient characteristics and other factors differ from those which prevailed in the clinical trials. Similarly, the cited frequencies cannot be compared with figures obtained from other clinical investigations involving different treatments, uses, and investigators. Comparison of the cited figures, however, does provide the prescribing physician with some basis for estimating the relative contribution of drug and nondrug factors to the side-effect incidence rate in the population studied.</paragraph>
+                  <paragraph>TREATMENT-EMERGENT ADVERSE EXPERIENCE INCIDENCE IN PLACEBO-CONTROLLED CLINICAL TRIALS*</paragraph>
+                  <paragraph>*
+  <br/>
+Events reported by at least 1% of buspirone patients are included.
+ </paragraph>
+                  <paragraph>(Percent of Patients Reporting)
+  <br/>
+Buspirone
+  <br/>
+Placebo
+  <br/>
+Adverse Experience
+  <br/>
+(n = 477)
+  <br/>
+(n = 464)
+  <br/>
+Cardiovascular
+  <br/>
+      Tachycardia/Palpitations
+  <br/>
+1
+  <br/>
+1
+  <br/>
+CNS
+  <br/>
+      Dizziness
+  <br/>
+12
+  <br/>
+3
+  <br/>
+      Drowsiness
+  <br/>
+10
+  <br/>
+9
+  <br/>
+      Nervousness
+  <br/>
+5
+  <br/>
+1
+  <br/>
+      Insomnia
+  <br/>
+3
+  <br/>
+3
+  <br/>
+      Lightheadedness
+  <br/>
+3
+  <br/>
+-
+  <br/>
+      Decreased concentration
+  <br/>
+2
+  <br/>
+2
+  <br/>
+      Excitement
+  <br/>
+2
+  <br/>
+-
+  <br/>
+      Anger/Hostility
+  <br/>
+2
+  <br/>
+-
+  <br/>
+      Confusion
+  <br/>
+2
+  <br/>
+-
+  <br/>
+      Depression
+  <br/>
+2
+  <br/>
+2
+  <br/>
+EENT
+  <br/>
+      Blurred vision
+  <br/>
+2
+  <br/>
+-
+  <br/>
+Gastrointestinal
+  <br/>
+      Nausea
+  <br/>
+8
+  <br/>
+5
+  <br/>
+      Dry mouth
+  <br/>
+3
+  <br/>
+4
+  <br/>
+      Abdominal/gastric distress
+  <br/>
+2
+  <br/>
+2
+  <br/>
+      Diarrhea
+  <br/>
+2
+  <br/>
+-
+  <br/>
+      Constipation
+  <br/>
+1
+  <br/>
+2
+  <br/>
+      Vomiting
+  <br/>
+1
+  <br/>
+2
+  <br/>
+Musculoskeletal
+  <br/>
+      Musculoskeletal aches/pains
+  <br/>
+1
+  <br/>
+-
+  <br/>
+      Neurological
+  <br/>
+      Numbness
+  <br/>
+2
+  <br/>
+-
+  <br/>
+      Paresthesia
+  <br/>
+1
+  <br/>
+-
+  <br/>
+      Incoordination
+  <br/>
+1
+  <br/>
+-
+  <br/>
+      Tremor
+  <br/>
+1
+  <br/>
+-
+  <br/>
+Skin
+  <br/>
+      Skin rash
+  <br/>
+1
+  <br/>
+-
+  <br/>
+Miscellaneous
+  <br/>
+      Headache
+  <br/>
+6
+  <br/>
+3
+  <br/>
+      Fatigue
+  <br/>
+4
+  <br/>
+4
+  <br/>
+      Weakness
+  <br/>
+2
+  <br/>
+-
+  <br/>
+      Sweating/Clamminess
+  <br/>
+1
+  <br/>
+-
+ </paragraph>
+                  <paragraph>- Incidence less than 1%.</paragraph>
+                  <paragraph>Other Events Observed During the Entire Premarketing Evaluation of Buspirone Hydrochloride</paragraph>
+                  <paragraph>During its premarketing assessment, buspirone hydrochloride were evaluated in over 3500 subjects. This section reports event frequencies for adverse events occurring in approximately 3000 subjects from this group who took multiple doses of buspirone hydrochloride in the dose range for which buspirone is being recommended (i.e., the modal daily dose of buspirone hydrochloride fell between 10 mg and 30 mg for 70% of the patients studied) and for whom safety data were systematically collected. The conditions and duration of exposure to buspirone hydrochloride varied greatly, involving well-controlled studies as well as experience in open and uncontrolled clinical settings. As part of the total experience gained in clinical studies, various adverse events were reported. In the absence of appropriate controls in some of the studies, a causal relationship to buspirone hydrochloride treatment cannot be determined. The list includes all undesirable events reasonably associated with the use of the drug.</paragraph>
+                  <paragraph>The following enumeration by organ system describes events in terms of their relative frequency of reporting in this data base. Events of major clinical importance are also described in the PRECAUTIONS section.</paragraph>
+                  <paragraph>The following definitions of frequency are used: Frequent adverse events are defined as those occurring in at least 1/100 patients. Infrequent adverse events are those occurring in 1/100 to 1/1000 patients, while rare events are those occurring in less than 1/1000 patients.</paragraph>
+                  <paragraph>Cardiovascular</paragraph>
+                  <paragraph>Frequent was nonspecific chest pain; infrequent were syncope, hypotension, and hypertension; rare were cerebrovascular accident, congestive heart failure, myocardial infarction, cardiomyopathy, and bradycardia.</paragraph>
+                  <paragraph>Central Nervous System</paragraph>
+                  <paragraph>Frequent were dream disturbances; infrequent were depersonalization, dysphoria, noise intolerance, euphoria, akathisia, fearfulness, loss of interest, dissociative reaction, hallucinations, involuntary movements, slowed reaction time, suicidal ideation, and seizures; rare were feelings of claustrophobia, cold intolerance, stupor, and slurred speech and psychosis.</paragraph>
+                  <paragraph>EENT</paragraph>
+                  <paragraph>Frequent were tinnitus, sore throat, and nasal congestion; infrequent were redness and itching of the eyes, altered taste, altered smell, and conjunctivitis; rare were inner ear abnormality, eye pain, photophobia, and pressure on eyes.</paragraph>
+                  <paragraph>Endocrine</paragraph>
+                  <paragraph>Rare were galactorrhea and thyroid abnormality.</paragraph>
+                  <paragraph>Gastrointestinal</paragraph>
+                  <paragraph>Infrequent were flatulence, anorexia, increased appetite, salivation, irritable colon, and rectal bleeding; rare was burning of the tongue.</paragraph>
+                  <paragraph>Genitourinary</paragraph>
+                  <paragraph>Infrequent were urinary frequency, urinary hesitancy, menstrual irregularity and spotting, and dysuria; rare were amenorrhea, pelvic inflammatory disease, enuresis, and nocturia.</paragraph>
+                  <paragraph>Musculoskeletal</paragraph>
+                  <paragraph>Infrequent were muscle cramps, muscle spasms, rigid/stiff muscles, and arthralgias; rare was muscle weakness.</paragraph>
+                  <paragraph>Respiratory</paragraph>
+                  <paragraph>Infrequent were hyperventilation, shortness of breath, and chest congestion; rare was epistaxis.</paragraph>
+                  <paragraph>Sexual Function</paragraph>
+                  <paragraph>Infrequent were decreased or increased libido; rare were delayed ejaculation and impotence.</paragraph>
+                  <paragraph>Skin</paragraph>
+                  <paragraph>Infrequent were edema, pruritus, flushing, easy bruising, hair loss, dry skin, facial edema, and blisters; rare were acne and thinning of nails.</paragraph>
+                  <paragraph>Clinical Laboratory</paragraph>
+                  <paragraph>Infrequent were increases in hepatic aminotransferases (SGOT, SGPT); rare were eosinophilia, leukopenia, and thrombocytopenia.</paragraph>
+                  <paragraph>Miscellaneous</paragraph>
+                  <paragraph>Infrequent were weight gain, fever, roaring sensation in the head, weight loss, and malaise; rare were alcohol abuse, bleeding disturbance, loss of voice, and hiccoughs.</paragraph>
+                  <paragraph>Postmarketing Experience</paragraph>
+                  <paragraph>Postmarketing experience has shown an adverse experience profile similar to that given above. Voluntary reports since introduction have included rare occurrences of allergic reactions (including urticaria), angioedema, cogwheel rigidity, dizziness (rarely reported as vertigo), dystonic reactions (including dystonia), ataxias, extrapyramidal symptoms, dyskinesias (acute and tardive), ecchymosis, emotional lability, serotonin syndrome, transient difficulty with recall, urinary retention, visual changes (including tunnel vision), parkinsonism, akathisia, restless leg syndrome, and restlessness. Because of the uncontrolled nature of these spontaneous reports, a causal relationship to buspirone hydrochloride treatment has not been determined.</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e1c04-c00f-911c-e053-6394a90acfdf">
+               <id root="f71e1c04-c00e-911c-e053-6394a90acfdf"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <text>
+                  <paragraph>Controlled Substance Class</paragraph>
+                  <paragraph>Buspirone hydrochloride is not a controlled substance.</paragraph>
+                  <paragraph>Physical and Psychological Dependence</paragraph>
+                  <paragraph>In human and animal studies, buspirone has shown no potential for abuse or diversion and there is no evidence that it causes tolerance, or either physical or psychological dependence. Human volunteers with a history of recreational drug or alcohol usage were studied in two double-blind clinical investigations. None of the subjects were able to distinguish between buspirone hydrochloride tablets and placebo. By contrast, subjects showed a statistically significant preference for methaqualone and diazepam. Studies in monkeys, mice, and rats have indicated that buspirone lacks potential for abuse.</paragraph>
+                  <paragraph>Following chronic administration in the rat, abrupt withdrawal of buspirone did not result in the loss of body weight commonly observed with substances that cause physical dependency.</paragraph>
+                  <paragraph>Although there is no direct evidence that buspirone hydrochloride tablets cause physical dependence or drug-seeking behavior, it is difficult to predict from experiments the extent to which a CNS-active drug will be misused, diverted, and/or abused once marketed. Consequently, physicians should carefully evaluate patients for a history of drug abuse and follow such patients closely, observing them for signs of buspirone hydrochloride tablets misuse or abuse (e.g., development of tolerance, incrementation of dose, drug-seeking behavior).</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e24ae-fc70-4906-e053-6394a90ae4b6">
+               <id root="f71e24ae-fc6f-4906-e053-6394a90ae4b6"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>Signs and Symptoms</paragraph>
+                  <paragraph>In clinical pharmacology trials, doses as high as 375 mg/day were administered to healthy male volunteers. As this dose was approached, the following symptoms were observed: nausea, vomiting, dizziness, drowsiness, miosis, and gastric distress. A few cases of overdosage have been reported, with complete recovery as the usual outcome. No deaths have been reported following overdosage with buspirone hydrochloride alone. Rare cases of intentional overdosage with a fatal outcome were invariably associated with ingestion of multiple drugs and/or alcohol, and a causal relationship to buspirone could not be determined. Toxicology studies of buspirone yielded the following LD50 values: mice, 655 mg/kg; rats, 196 mg/kg; dogs, 586 mg/kg; and monkeys, 356 mg/kg. These dosages are 160 to 550 times the recommended human daily dose.</paragraph>
+                  <paragraph>Recommended Overdose Treatment</paragraph>
+                  <paragraph>General symptomatic and supportive measures should be used along with immediate gastric lavage. Respiration, pulse, and blood pressure should be monitored as in all cases of drug overdosage. No specific antidote is known to buspirone, and dialyzability of buspirone has not been determined.</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e1c04-c011-911c-e053-6394a90acfdf">
+               <id root="f71e1c04-c010-911c-e053-6394a90acfdf"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>The recommended initial dose is 15 mg daily (7.5 mg b.i.d.). To achieve an optimal therapeutic response, at intervals of 2 to 3 days the dosage may be increased 5 mg per day, as needed. The maximum daily dosage should not exceed 60 mg per day. In clinical trials allowing dose titration, divided doses of 20 mg to 30 mg per day were commonly employed.</paragraph>
+                  <paragraph>The bioavailability of buspirone is increased when given with food as compared to the fasted state (see CLINICAL PHARMACOLOGY). Consequently, patients should take buspirone in a consistent manner with regard to the timing of dosing; either always with or always without food.</paragraph>
+                  <paragraph>When buspirone is to be given with a potent inhibitor of CYP3A4, the dosage recommendations described in the PRECAUTIONS, DRUG INTERACTIONS section should be followed.</paragraph>
+                  <paragraph>Switching a Patient To or From a Monoamine Oxidase Inhibitor (MAOI) Antidepressant</paragraph>
+                  <paragraph>At least 14 days should elapse between discontinuation of an MAOI intended to treat depression and initiation of therapy with buspirone hydrochloride tablets. Conversely, at least 14 days should be allowed after stopping buspirone hydrochloride tablets before starting an MAOI antidepressant CONTRAINDICATIONS and DRUG INTERACTIONS).</paragraph>
+                  <paragraph>Use of buspirone hydrochloride tablets with (Reversible) MAOIs, Such as Linezolid or Methylene Blue</paragraph>
+                  <paragraph>Do not start buspirone hydrochloride tablets in a patient who is being treated with a reversible MAOI such as linezolid or intravenous methylene blue because there is an increased risk of serotonin syndrome. In a patient who requires more urgent treatment of a psychiatric condition, non-pharmacological interventions, including hospitalization, should be considered (see CONTRAINDICATIONS and DRUG INTERACTIONS).</paragraph>
+                  <paragraph>In some cases, a patient already receiving therapy with buspirone hydrochloride tablets may require urgent treatment with linezolid or intravenous methylene blue. If acceptable alternatives to linezolid or intravenous methylene blue treatment are not available and the potential benefits of linezolid or intravenous methylene blue treatment are judged to outweigh the risks of serotonin syndrome in a particular patient, buspirone hydrochloride tablets should be stopped promptly, and linezolid or intravenous methylene blue can be administered. The patient should be monitored for symptoms of serotonin syndrome for 2 weeks or until 24 hours after the last dose of linezolid or intravenous methylene blue, whichever comes first. Therapy with buspirone hydrochloride tablets may be resumed 24 hours after the last dose of linezolid or intravenous methylene blue (see WARNINGS).</paragraph>
+                  <paragraph>The risk of administering methylene blue by non-intravenous routes (such as oral tablets or by local injection) or in intravenous doses much lower than 1 mg per kg with buspirone hydrochloride tablets is unclear. The clinician should, nevertheless, be aware of the possibility of emergent symptoms of serotonin syndrome with such use (see CONTRAINDICATIONS, WARNINGS and DRUG INTERACTIONS).</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e1c04-c013-911c-e053-6394a90acfdf">
+               <id root="f7e37eed-229b-7808-e053-6394a90ae269"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Buspirone Hydrochloride Tablets, USP, are supplied as follows:</paragraph>
+                  <paragraph>Buspirone Hydrochloride Tablets, USP 5 mg:</paragraph>
+                  <paragraph>White to off white, round flat faced beveled edge tablet, debossed with "244" on one side and "U" on either side of the break line.</paragraph>
+                  <paragraph>Bottle of 100: NDC 29300-244-01</paragraph>
+                  <paragraph>Bottle of 500: NDC 29300-244-05</paragraph>
+                  <paragraph>Buspirone Hydrochloride Tablets, USP 10 mg:</paragraph>
+                  <paragraph>White to off white, round flat faced beveled edge tablet, debossed with "245" on one side and "U" on either side of the break line.</paragraph>
+                  <paragraph>Bottle of 90: NDC 72189-0448-90</paragraph>
+                  <paragraph>Buspirone Hydrochloride Tablets, USP 15 mg:</paragraph>
+                  <paragraph>White to off white, rectangular flat faced beveled edge tablet that can either be bisected or trisected, debossed with "U" and "246" on one side of the trisect segments and plain on other side of the trisect segment.</paragraph>
+                  <paragraph>Bottle of 60: NDC 29300-246-16</paragraph>
+                  <paragraph>Bottle of 100: NDC 29300-246-01</paragraph>
+                  <paragraph>Bottle of 180: NDC 29300-246-18</paragraph>
+                  <paragraph>Bottle of 500: NDC 29300-246-05</paragraph>
+                  <paragraph>Buspirone Hydrochloride Tablets, USP 30 mg:</paragraph>
+                  <paragraph>White to off white, rectangular flat faced beveled edge tablet that can either be bisected or trisected, debossed with "U" and "247" on one side of the trisect segments and plain on other side of the trisect segment.</paragraph>
+                  <paragraph>Bottle of 60: NDC 29300-247-16</paragraph>
+                  <paragraph>Bottle of 100: NDC 29300-247-01</paragraph>
+                  <paragraph>Bottle of 500: NDC 29300-247-05</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e24ae-fc74-4906-e053-6394a90ae4b6">
+               <id root="f71e24ae-fc75-4906-e053-6394a90ae4b6"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Store at 200 to 250C (680 to 770F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container as defined in the USP, with a child-resistant closure (as required).</paragraph>
+                  <paragraph>Keep this and all drugs out of reach of children.</paragraph>
+                  <paragraph>Additional patient information leaflets can be obtained by calling Unichem at 1-866-562-4616.</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e24ae-fc77-4906-e053-6394a90ae4b6">
+               <id root="f71e24ae-fc76-4906-e053-6394a90ae4b6"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <text>
+                  <paragraph>American Psychiatric Association, Ed.: Diagnostic and Statistical Manual of Mental Disorders—III, American Psychiatric Association, May 1980.</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>UNICHEM LABORATORIES LTD.</paragraph>
+                  <paragraph>Ind. Area, Meerut Road, Ghaziabad – 201 003, India</paragraph>
+                  <paragraph>and</paragraph>
+                  <paragraph>UNICHEM LABORATORIES LTD.</paragraph>
+                  <paragraph>Pilerne Ind. Estate, Pilerne, Bardez,</paragraph>
+                  <paragraph>Goa - 403 511, India</paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>[Image]</paragraph>
+                  <paragraph>East Brunswick, NJ 08816</paragraph>
+                  <paragraph> 04-R-07/2022</paragraph>
+                  <paragraph>13014108</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e24ae-fc79-4906-e053-6394a90ae4b6">
+               <id root="f71e24ae-fc78-4906-e053-6394a90ae4b6"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <text>
+                  <paragraph>Buspirone Hydrochloride Tablets, USP</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>HOW TO USE:</paragraph>
+                  <paragraph>Buspirone Hydrochloride Tablets, USP, 15 mg and 30 mg</paragraph>
+                  <paragraph>Response to buspirone varies among individuals. Your physician may find it necessary to adjust your dosage to obtain the proper response.</paragraph>
+                  <paragraph>This tablet design makes dosage adjustments easy. Each tablet is scored and can be broken accurately to provide any of the following dosages.</paragraph>
+                  <paragraph>If your doctor prescribed the
+  <br/>
+15 mg tablet :
+  <br/>
+If your doctor prescribed the
+  <br/>
+30 mg tablet :
+  <br/>
+15 mg (the entire tablet)
+  <br/>
+30 mg (the entire tablet)
+  <br/>
+[Image]
+  <br/>
+[Image]
+  <br/>
+                     <br/>
+                     <br/>
+10 mg (two-thirds of a tablet)
+  <br/>
+20 mg (two-thirds of a tablet)
+  <br/>
+[Image]
+  <br/>
+[Image]
+  <br/>
+                     <br/>
+                     <br/>
+7.5 mg (one-half of a tablet)
+  <br/>
+15 mg (one-half of a tablet)
+  <br/>
+[Image]
+  <br/>
+[Image]
+  <br/>
+                     <br/>
+                     <br/>
+5 mg (one-third of a tablet)
+  <br/>
+10 mg (one-third of a tablet)
+  <br/>
+[Image]
+  <br/>
+[Image]
+ </paragraph>
+                  <paragraph>To break a tablet accurately and easily, hold the tablet between your thumbs and index fingers close to the appropriate tablet score (groove) as shown below. Then, with the tablet score facing you, apply pressure and snap the tablet segments apart (segments breaking incorrectly should not be used).</paragraph>
+                  <paragraph>[Image]</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>UNICHEM LABORATORIES LTD.</paragraph>
+                  <paragraph>Ind. Area, Meerut Road, Ghaziabad – 201 003, India</paragraph>
+                  <paragraph>and</paragraph>
+                  <paragraph>UNICHEM LABORATORIES LTD.</paragraph>
+                  <paragraph>Pilerne Ind. Estate, Pilerne, Bardez,</paragraph>
+                  <paragraph>Goa - 403 511, India</paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>[Image]</paragraph>
+                  <paragraph>East Brunswick, NJ 08816</paragraph>
+                  <paragraph>04-R-07/2022</paragraph>
+                  <paragraph>13014108</paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f71e1c04-c01a-911c-e053-6394a90acfdf">
+               <id root="f71e1c04-c019-911c-e053-6394a90acfdf"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_f71e1c04-c018-911c-e053-6394a90acfdf"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230317"/>
+               <component>
+                  <observationMedia ID="img_f71e1c04-c018-911c-e053-6394a90acfdf">
+                     <text>72189-448-90</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72189-0448-90.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f87318d1-da58-50c3-e053-6294a90ae63b">
+               <id root="f87318d1-da57-50c3-e053-6294a90ae63b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_f87318d1-da56-50c3-e053-6294a90ae63b"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230403"/>
+               <component>
+                  <observationMedia ID="img_f87318d1-da56-50c3-e053-6294a90ae63b">
+                     <text>72189-448-60</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72189-448-60.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_18968ee8-8fea-ce0a-e063-6294a90ad934">
+               <id root="18968ee8-8fe9-ce0a-e063-6294a90ad934"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_18968eae-e95d-5edc-e063-6394a90aeb55"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240516"/>
+               <component>
+                  <observationMedia ID="img_18968eae-e95d-5edc-e063-6394a90aeb55">
+                     <text>72189-448-82</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72189-448-82.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2f366557-056d-812d-e063-6394a90a5b71">
+               <id root="2f366557-056c-812d-e063-6394a90a5b71"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2f365592-8df8-41ae-e063-6294a90a86ec"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250228"/>
+               <component>
+                  <observationMedia ID="img_2f365592-8df8-41ae-e063-6294a90a86ec">
+                     <text>72189-448-30</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72189-448-30.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

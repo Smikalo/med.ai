@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="059b293e-7ced-45c1-910c-aee3c35b943e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Propranolol Hydrochloride Tablets, USP<br/>
+         <br/>
+      </content>
+      <content styleCode="bold">(10 mg, 20 mg, 40 mg, 60 mg and 80 mg)<br/>
+         <br/>
+      </content>
+      <content styleCode="bold">Rx Only</content>
+   </title>
+   <effectiveTime value="20240529"/>
+   <setId root="a21eb31b-db50-47a5-8f4c-315c2a842c8b"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+            <name>Bryant Ranch Prepack</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                  <name>Bryant Ranch Prepack</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bryant Ranch Prepack</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="71335-2372"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="71335-2372"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="b977070e-2fb7-4d02-851a-4a808c35f49d"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240528"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71335-2372" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Propranolol Hydrochloride</name>
+                        <formCode code="C42998" displayName="TABLET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Propranolol Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="69238-2077" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F8A3652H1V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPRANOLOL HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9Y8NXQ24VQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROPRANOLOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H77VEI93A8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C YELLOW NO. 6</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="CQ3XH3DET6" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C YELLOW NO. 10 ALUMINUM LAKE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-2372-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240529"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-2372-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240529"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-2372-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240529"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-2372-4" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240529"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="120" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-2372-5" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240529"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71335-2372-6" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240529"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA071972" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210603"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48331" displayName="orange" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">PLIVA;467</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="6" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="propranolol-hydrochloride-tablets-usp-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_cd3bf5a3-f16f-417b-a36e-773f36d9065f">
+               <id root="bf3ec02e-1dc6-4ff0-b81d-1b2b55fa2509"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Propranolol hydrochloride, USP is a synthetic beta-adrenergic receptor blocking agent chemically described as 2-Propanol, 1-[(1-methylethyl)amino]-3-(1-naphthalenyloxy)-, hydrochloride,(±)-. Its structural formula is:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Propranolol hydrochloride, USP is a stable, white to off-white, crystalline powder which is readily soluble in water and ethanol.</paragraph>
+                  <paragraph>Propranolol Hydrochloride Tablets, USP are available as tablets for oral administration containing either 10 mg, 20 mg, 40 mg, 60 mg, or 80 mg of propranolol hydrochloride, USP. Propranolol Hydrochloride Tablets, USP also contain lactose anhydrous, magnesium stearate, microcrystalline cellulose, and sodium starch glycolate. Color additives include FD&amp;C Yellow no. 6 aluminum lake (10 mg and 80 mg), D&amp;C Yellow no. 10 aluminum lake (10 mg, 40 mg, and 80 mg), FD&amp;C Blue no. 1 aluminum lake (20 mg and 40 mg) and FD&amp;C Red no. 40 aluminum lake (60 mg).</paragraph>
+               </text>
+               <effectiveTime value="20231230"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_aaf4d5d6-386d-4ee6-b46f-698c97b28e8b">
+               <id root="0bacceec-29e2-494b-bc23-750395713480"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Propranolol is a nonselective beta-adrenergic receptor blocking agent possessing no other autonomic nervous system activity. It specifically competes with beta-adrenergic receptor agonist agents for available receptor sites. When access to beta-receptor sites is blocked by propranolol, the chronotropic, inotropic, and vasodilator responses to beta-adrenergic stimulation are decreased proportionately. At dosages greater than required for beta blockade, propranolol also exerts a quinidine-like or anesthetic-like membrane action, which affects the cardiac action potential. The significance of the membrane action in the treatment of arrhythmias is uncertain.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mechanism of Action</content>
+                  </paragraph>
+                  <paragraph>The mechanism of the antihypertensive effect of propranolol has not been established. Factors that may contribute to the antihypertensive action include: (1) decreased cardiac output, (2) inhibition of renin release by the kidneys, and (3) diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain. Although total peripheral resistance may increase initially, it readjusts to or below the pretreatment level with chronic use of propranolol. Effects of propranolol on plasma volume appear to be minor and somewhat variable.<br/>
+                  </paragraph>
+                  <paragraph>In angina pectoris, propranolol generally reduces the oxygen requirement of the heart at any given level of effort by blocking the catecholamine-induced increases in the heart rate, systolic blood pressure, and the velocity and extent of myocardial contraction. Propranolol may increase oxygen requirements by increasing left ventricular fiber length, end diastolic pressure, and systolic ejection period. The net physiologic effect of beta-adrenergic blockade is usually advantageous and is manifested during exercise by delayed onset of pain and increased work capacity.</paragraph>
+                  <paragraph>Propranolol exerts its antiarrhythmic effects in concentrations associated with beta-adrenergic blockade, and this appears to be its principal antiarrhythmic mechanism of action. In dosages greater than required for beta blockade, propranolol also exerts a quinidine-like or anesthetic-like membrane action, which affects the cardiac action potential. The significance of the membrane action in the treatment of arrhythmias is uncertain.</paragraph>
+                  <paragraph>The mechanism of the antimigraine effect of propranolol has not been established. Beta-adrenergic receptors have been demonstrated in the pial vessels of the brain.</paragraph>
+                  <paragraph>The specific mechanism of propranolol’s antitremor effects has not been established, but beta-2 (noncardiac) receptors may be involved. A central effect is also possible. Clinical studies have demonstrated that propranolol is of benefit in exaggerated physiological and essential (familial) tremor.</paragraph>
+               </text>
+               <effectiveTime value="20231230"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_547d7d86-ccdb-494c-aed0-95e6cf6be7ef">
+               <id root="852e2160-bb7c-40da-b16d-fab2659bbfd5"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>PHARMACOKINETICS AND DRUG METABOLISM</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Absorption</content>
+                  </paragraph>
+                  <paragraph>Propranolol is highly lipophilic and almost completely absorbed after oral administration. However, it undergoes high first-pass metabolism by the liver and on average, only about 25% of propranolol reaches the systemic circulation. Peak plasma concentrations occur about 1 to 4 hours after an oral dose.<br/>
+                  </paragraph>
+                  <paragraph>Administration of protein-rich foods increase the bioavailability of propranolol by about 50% with no change in time to peak concentration, plasma binding, half-life, or the amount of unchanged drug in the urine.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distribution</content>
+                  </paragraph>
+                  <paragraph>Approximately 90% of circulating propranolol is bound to plasma proteins (albumin and alpha<sub>1</sub> acid glycoprotein). The binding is enantiomer-selective. The S(-)-enantiomer is preferentially bound to alpha<sub>1</sub> glycoprotein and the R(+)-enantiomer preferentially bound to albumin. The volume of distribution of propranolol is approximately 4 liters/kg.<br/>
+                  </paragraph>
+                  <paragraph>Propranolol crosses the blood-brain barrier and the placenta, and is distributed into breast milk.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metabolism and Elimination</content>
+                  </paragraph>
+                  <paragraph>Propranolol is extensively metabolized with most metabolites appearing in the urine. Propranolol is metabolized through three primary routes: aromatic hydroxylation (mainly 4-hydroxylation), N-dealkylation followed by further side-chain oxidation, and direct glucuronidation. It has been estimated that the percentage contributions of these routes to total metabolism are 42%, 41% and 17%, respectively, but with considerable variability between individuals. The four major metabolites are propranolol glucuronide, naphthyloxylactic acid and glucuronic acid, and sulfate conjugates of 4-hydroxy propranolol.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">In vitro </content>studies have indicated that the aromatic hydroxylation of propranolol is catalyzed mainly by polymorphic CYP2D6. Side-chain oxidation is mediated mainly by CYP1A2 and to some extent by CYP2D6. 4-hydroxy propranolol is a weak inhibitor of CYP2D6.</paragraph>
+                  <paragraph>Propranolol is also a substrate of CYP2C19 and a substrate for the intestinal efflux transporter, p-glycoprotein (p-gp). Studies suggest however that p-gp is not dose-limiting for intestinal absorption of propranolol in the usual therapeutic dose range.</paragraph>
+                  <paragraph>In healthy subjects, no difference was observed between CYP2D6 extensive metabolizers (EMs) and poor metabolizers (PMs) with respect to oral clearance or elimination half-life. Partial clearance of 4-hydroxy propranolol was significantly higher and of naphthyloxyactic acid significantly lower in EMs than PMs.</paragraph>
+                  <paragraph>The plasma half-life of propranolol is from 3 to 6 hours.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Enantiomers</content>
+                  </paragraph>
+                  <paragraph>Propranolol is a racemic mixture of two enantiomers, R(+) and S(-). The S(-)-enantiomer is approximately 100 times as potent as the R(+)-enantiomer in blocking beta adrenergic receptors. In normal subjects receiving oral doses of racemic propranolol, S(-)-enantiomer concentrations exceeded those of the R(+)-enantiomer by 40% to 90% as a result of stereoselective hepatic metabolism. Clearance of the pharmacologically active S(-)-propranolol is lower than R(+)-propranolol after intravenous and oral doses.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Populations</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Geriatric</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>In a study of 12 elderly (62 to 79 years old) and 12 young (25 to 33 years old) healthy subjects, the clearance of S(-)-enantiomer of propranolol was decreased in the elderly. Additionally, the half-life of both the R(+)- and S(-)-propranolol were prolonged in the elderly compared with the young (11 hours vs. 5 hours).</paragraph>
+                  <paragraph>Clearance of propranolol is reduced with aging due to decline in oxidation capacity (ring oxidation and side-chain oxidation). Conjugation capacity remains unchanged. In a study of 32 patients age 30 to 84 years given a single 20-mg dose of propranolol, an inverse correlation was found between age and the partial metabolic clearances to 4-hydroxypropranolol (40HP-ring oxidation) and to naphthoxylactic acid (NLA-side chain oxidation). No correlation was found between age and the partial metabolic clearance to propranolol glucuronide (PPLG-conjugation).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gender</content>
+                  </paragraph>
+                  <paragraph>In a study of 9 healthy women and 12 healthy men, neither the administration of testosterone nor the regular course of the menstrual cycle affected the plasma binding of the propranolol enantiomers. In contrast, there was a significant, although non-enantioselective diminution of the binding of propranolol after treatment with ethinyl estradiol. These findings are inconsistent with another study, in which administration of testosterone cypionate confirmed the stimulatory role of this hormone on propranolol metabolism and concluded that the clearance of propranolol in men is dependent on circulating concentrations of testosterone. In women, none of the metabolic clearances for propranolol showed any significant association with either estradiol or testosterone.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Race</content>
+                  </paragraph>
+                  <paragraph>A study conducted in 12 Caucasian and 13 African-American male subjects taking propranolol, showed that at steady state, the clearance of R(+)- and S(-)-propranolol were about 76% and 53% higher in African-Americans than in Caucasians, respectively.</paragraph>
+                  <paragraph>Chinese subjects had a greater proportion (18% to 45% higher) of unbound propranolol in plasma compared to Caucasians, which was associated with a lower plasma concentration of alpha<sub>1</sub> acid glycoprotein.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Renal Insufficiency</content>
+                  </paragraph>
+                  <paragraph>In a study conducted in 5 patients with chronic renal failure, 6 patients on regular dialysis, and 5 healthy subjects, who received a single oral dose of 40 mg of propranolol, the peak plasma concentrations (C<sub>max</sub>) of propranolol in the chronic renal failure group were 2 to 3-fold higher (161±41 ng/mL) than those observed in the dialysis patients (47±9 ng/mL) and in the healthy subjects (26±1 ng/mL). Propranolol plasma clearance was also reduced in the patients with chronic renal failure.<br/>
+                  </paragraph>
+                  <paragraph>Studies have reported a delayed absorption rate and a reduced half-life of propranolol in patients with renal failure of varying severity. Despite this shorter plasma half-life, propranolol peak plasma levels were 3 to 4 times higher and total plasma levels of metabolites were up to 3 times higher in these patients than in subjects with normal renal function.</paragraph>
+                  <paragraph>Chronic renal failure has been associated with a decrease in drug metabolism via downregulation of hepatic cytochrome P450 activity resulting in a lower “first-pass” clearance.</paragraph>
+                  <paragraph>Propranolol is not significantly dialyzable.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hepatic Insufficiency</content>
+                  </paragraph>
+                  <paragraph>Propranolol is extensively metabolized by the liver. In a study conducted in 7 patients with cirrhosis and 9 healthy subjects receiving 80-mg oral propranolol every 8 hours for 7 doses, the steady-state unbound propranolol concentration in patients with cirrhosis was increased 3-fold in comparison to controls. In cirrhosis, the half-life increased to 11 hours compared to 4 hours (see <content styleCode="bold">
+                        <linkHtml href="#LINK_d50b8e92-2009-4566-afe7-397e1fb1fb18">PRECAUTIONS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug Interactions</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Interactions with Substrates, Inhibitors or Inducers of Cytochrome P-450 Enzymes</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Because propranolol’s metabolism involves multiple pathways in the cytochrome P-450 system (CYP2D6, 1A2, 2C19), co-administration with drugs that are metabolized by, or effect the activity (induction or inhibition) of one or more of these pathways may lead to clinically relevant drug interactions (see <content styleCode="bold">
+                        <content styleCode="bold">
+                           <linkHtml href="#LINK_d50b8e92-2009-4566-afe7-397e1fb1fb18">Drug Interactions </linkHtml>
+                        </content>
+                     </content>
+                     <linkHtml href="#LINK_d50b8e92-2009-4566-afe7-397e1fb1fb18">under</linkHtml>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <linkHtml href="#LINK_d50b8e92-2009-4566-afe7-397e1fb1fb18">PRECAUTION</linkHtml>S</content>
+                     </content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Substrates or Inhibitors of CYP2D6</content>
+                  </paragraph>
+                  <paragraph>Blood levels and/or toxicity of propranolol may be increased by co-administration with substrates or inhibitors of CYP2D6, such as amiodarone, cimetidine, delavudin, fluoxetine, paroxetine, quinidine, and ritonavir. No interactions were observed with either ranitidine or lansoprazole.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Substrates or Inhibitors of CYP1A2</content>
+                  </paragraph>
+                  <paragraph>Blood levels and/or toxicity of propranolol may be increased by co-administration with substrates or inhibitors of CYP1A2, such as imipramine, cimetidine, ciprofloxacin, fluvoxamine, isoniazid, ritonavir, theophylline, zileuton, zolmitriptan, and rizatriptan.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Substrates or Inhibitors of CYP2C19</content>
+                  </paragraph>
+                  <paragraph>Blood levels and/or toxicity of propranolol may be increased by co-administration with substrates or inhibitors of CYP2C19, such as fluconazole, cimetidine, fluoxetine, fluvoxamine, tenioposide, and tolbutamide. No interaction was observed with omeprazole.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Inducers of Hepatic Drug Metabolism</content>
+                  </paragraph>
+                  <paragraph>Blood levels of propranolol may be decreased by co-administration with inducers such as rifampin, ethanol, phenytoin, and phenobarbital. Cigarette smoking also induces hepatic metabolism and has been shown to increase up to 77% the clearance of propranolol, resulting in decreased plasma concentrations.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular Drugs</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Antiarrhythmics</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>The AUC of propafenone is increased by more than 200% by co-administration of propranolol.</paragraph>
+                  <paragraph>The metabolism of propranolol is reduced by co-administration of quinidine, leading to a two-three fold increased blood concentration and greater degrees of clinical beta-blockade.</paragraph>
+                  <paragraph>The metabolism of lidocaine is inhibited by co-administration of propranolol, resulting in a 25% increase in lidocaine concentrations.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Calcium Channel Blockers</content>
+                  </paragraph>
+                  <paragraph>The mean C<sub>max</sub> and AUC of propranolol are increased, respectively, by 50% and 30% by co-administration of nisoldipine and by 80% and 47%, by co-administration of nicardipine.</paragraph>
+                  <paragraph>The mean C<sub>max</sub> and AUC of nifedipine are increased by 64% and 79%, respectively, by co-administration of propranolol.</paragraph>
+                  <paragraph>Propranolol does not affect the pharmacokinetics of verapamil and norverapamil. Verapamil does not affect the pharmacokinetics of propranolol.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Non-Cardiovascular Drugs</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Migraine Drugs</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Administration of zolmitriptan or rizatriptan with propranolol resulted in increased concentrations of zolmitriptan (AUC increased by 56% and C<sub>max</sub> by 37%) or rizatriptan (the AUC and C<sub>max</sub> were increased by 67% and 75%, respectively).<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Theophylline</content>
+                  </paragraph>
+                  <paragraph>Co-administration of theophylline with propranolol decreases theophylline oral clearance by 30% to 52%.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Benzodiazepines</content>
+                  </paragraph>
+                  <paragraph>Propranolol can inhibit the metabolism of diazepam, resulting in increased concentrations of diazepam and its metabolites. Diazepam does not alter the pharmacokinetics of propranolol.<br/>
+                  </paragraph>
+                  <paragraph>The pharmacokinetics of oxazepam, triazolam, lorazepam, and alprazolam are not affected by co-administration of propranolol.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Neuroleptic Drugs</content>
+                  </paragraph>
+                  <paragraph>Co-administration of long-acting propranolol at doses greater than or equal to 160 mg/day resulted in increased thioridazine plasma concentrations ranging from 55% to 369% and increased thioridazine metabolite (mesoridazine) concentrations ranging from 33% to 209%.</paragraph>
+                  <paragraph>Co-administration of chlorpromazine with propranolol resulted in a 70% increase in propranolol plasma level.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Anti-Ulcer Drugs</content>
+                  </paragraph>
+                  <paragraph>Co-administration of propranolol with cimetidine, a non-specific CYP450 inhibitor, increased propranolol AUC and C<sub>max</sub> by 46% and 35%, respectively. Co-administration with aluminum hydroxide gel (1200 mg) may result in a decrease in propranolol concentrations.<br/>
+                  </paragraph>
+                  <paragraph>Co-administration of metoclopramide with the long-acting propranolol did not have a significant effect on propranolol’s pharmacokinetics.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Lipid Lowering Drugs</content>
+                  </paragraph>
+                  <paragraph>Co-administration of cholestyramine or colestipol with propranolol resulted in up to 50% decrease in propranolol concentrations.</paragraph>
+                  <paragraph>Co-administration of propranolol with lovastatin or pravastatin, decreased 18% to 23% the AUC of both, but did not alter their pharmacodynamics. Propranolol did not have an effect on the pharmacokinetics of fluvastatin.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Warfarin</content>
+                  </paragraph>
+                  <paragraph>Concomitant administration of propranolol and warfarin has been shown to increase warfarin bioavailability and increase prothrombin time.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Alcohol</content>
+                  </paragraph>
+                  <paragraph>Concomitant use of alcohol may increase plasma levels of propranolol.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231230"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0215952e-87dd-49a4-92c3-9e3428602593">
+               <id root="92b13ac1-ed82-4004-b34c-14f402454355"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>PHARMACODYNAMICS AND CLINICAL EFFECTS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Hypertension</content>
+                  </paragraph>
+                  <paragraph>In a retrospective, uncontrolled study, 107 patients with diastolic blood pressure 110 mmHg to 150 mmHg received propranolol 120 mg three times a day for at least 6 months, in addition to diuretics and potassium, but with no other antihypertensive agent. Propranolol contributed to control of diastolic blood pressure, but the magnitude of the effect of propranolol on blood pressure cannot be ascertained.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Angina Pectoris</content>
+                  </paragraph>
+                  <paragraph>In a double-blind, placebo-controlled study of 32 patients of both sexes, aged 32 to 69 years, with stable angina, propranolol 100 mg three times a day was administered for 4 weeks and shown to be more effective than placebo in reducing the rate of angina episodes and in prolonging total exercise time.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Atrial Fibrillation</content>
+                  </paragraph>
+                  <paragraph>In a report examining the long-term (5 to 22 months) efficacy of propranolol, 10 patients, aged 27 to 80, with atrial fibrillation and ventricular rate greater than 120 beats per minute despite digitalis, received propranolol up to 30 mg three times a day. Seven patients (70%) achieved ventricular rate reduction to less than 100 beats per minute.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Myocardial Infarction</content>
+                  </paragraph>
+                  <paragraph>The Beta-Blocker Heart Attack Trial (BHAT) was a National Heart, Lung and Blood Institute-sponsored multicenter, randomized, double-blind, placebo-controlled trial conducted in 31 U.S. centers (plus one in Canada) in 3,837 persons without history of severe congestive heart failure or presence of recent heart failure; certain conduction defects; angina since infarction, who had survived the acute phase of myocardial infarction. Propranolol was administered at either 60 mg or 80 mg three times a day based on blood levels achieved during an initial trial of 40 mg three times a day. Therapy with propranolol, begun 5 to 21 days following infarction, was shown to reduce overall mortality up to 39 months, the longest period of follow-up. This was primarily attributable to a reduction in cardiovascular mortality. The protective effect of propranolol was consistent regardless of age, sex, or site of infarction. Compared with placebo, total mortality was reduced 39% at 12 months and 26% over an average follow-up period of 25 months. The Norwegian Multicenter Trial in which propranolol was administered at 40 mg four times a day gave overall results which support the findings in the BHAT.<br/>
+                  </paragraph>
+                  <paragraph>Although the clinical trials used either three times a day or four times a day dosing, clinical, pharmacologic, and pharmacokinetic data provide a reasonable basis for concluding that twice daily dosing with propranolol should be adequate in the treatment of postinfarction patients.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Migraine</content>
+                  </paragraph>
+                  <paragraph>In a 34-week, placebo-controlled, 4-period, dose-finding crossover study with a double-blind randomized treatment sequence, 62 patients with migraine received propranolol 20 mg to 80 mg 3 or 4 times daily. The headache unit index, a composite of the number of days with headache and the associated severity of the headache, was significantly reduced for patients receiving propranolol as compared to those on placebo.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Essential Tremor</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>In a 2 week, double-blind, parallel, placebo-controlled study of 9 patients with essential or familial tremor, propranolol, at a dose titrated as needed from 40 mg to 80 mg three times a day reduced tremor severity compared to placebo.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypertrophic Subaortic Stenosis</content>
+                  </paragraph>
+                  <paragraph>In an uncontrolled series of 13 patients with New York Heart Association (NYHA) class 2 or 3 symptoms and hypertrophic subaortic stenosis diagnosed at cardiac catheterization, oral propranolol 40 mg to 80 mg three times a day was administered and patients were followed for up to 17 months. Propranolol was associated with improved NYHA class for most patients.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pheochromocytoma</content>
+                  </paragraph>
+                  <paragraph>In an uncontrolled series of 3 patients with norepinephrine-secreting pheochromocytoma who were pretreated with an alpha adrenergic blocker (prazosin), perioperative use of propranolol at doses of 40 mg to 80 mg three times a day resulted in symptomatic blood pressure control.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231230"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f0f56a24-5fa3-4b89-9a95-f9a97f4aa22c">
+               <id root="98b97554-35d9-4f7b-8217-baadcbb25399"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Hypertension</content>
+                  </paragraph>
+                  <paragraph>Propranolol hydrochloride tablets are indicated in the management of hypertension. It may be used alone or used in combination with other antihypertensive agents, particularly a thiazide diuretic. Propranolol hydrochloride is not indicated in the management of hypertensive emergencies.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Angina Pectoris Due to Coronary Atherosclerosis</content>
+                  </paragraph>
+                  <paragraph>Propranolol hydrochloride tablets are indicated to decrease angina frequency and increase exercise tolerance in patients with angina pectoris.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Atrial Fibrillation</content>
+                  </paragraph>
+                  <paragraph>Propranolol hydrochloride tablets are indicated to control ventricular rate in patients with atrial fibrillation and a rapid ventricular response.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Myocardial Infarction</content>
+                  </paragraph>
+                  <paragraph>Propranolol is indicated to reduce cardiovascular mortality in patients who have survived the acute phase of myocardial infarction and are clinically stable.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Migraine</content>
+                  </paragraph>
+                  <paragraph>Propranolol is indicated for the prophylaxis of common migraine headache. The efficacy of propranolol in the treatment of a migraine attack that has started has not been established, and propranolol is not indicated for such use.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Essential Tremor</content>
+                  </paragraph>
+                  <paragraph>Propranolol is indicated in the management of familial or hereditary essential tremor. Familial or essential tremor consists of involuntary, rhythmic, oscillatory movements, usually limited to the upper limbs. It is absent at rest, but occurs when the limb is held in a fixed posture or position against gravity and during active movement. Propranolol causes a reduction in the tremor amplitude, but not in the tremor frequency. Propranolol is not indicated for the treatment of tremor associated with Parkinsonism.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypertrophic Subaortic Stenosis</content>
+                  </paragraph>
+                  <paragraph>Propranolol improves NYHA functional class in symptomatic patients with hypertrophic subaortic stenosis.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pheochromocytoma</content>
+                  </paragraph>
+                  <paragraph>Propranolol is indicated as an adjunct to alpha-adrenergic blockade to control blood pressure and reduce symptoms of catecholamine-secreting tumors.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231230"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_26d28ba3-8f4f-4d69-b9e1-ecb09c08d2f6">
+               <id root="123fc7e0-cfae-4ffe-879f-77eecfdbdfa9"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Propranolol is contraindicated in 1) cardiogenic shock; 2) sinus bradycardia and greater than first degree block; 3) bronchial asthma; and 4) in patients with known hypersensitivity to propranolol hydrochloride.</paragraph>
+               </text>
+               <effectiveTime value="20231230"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9f2b539d-235c-4fc4-a672-09cede7dba82">
+               <id root="917462d1-0318-45fd-8c6b-59761e744664"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Angina Pectoris</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">There have been reports of exacerbation of angina and, in some cases, myocardial infarction, following abrupt discontinuance of propranolol therapy. Therefore, when discontinuance of propranolol is planned, the dosage should be gradually reduced over at least a few weeks and the patient should be cautioned against interruption or cessation of therapy without the physician’s advice. If propranolol therapy is interrupted and exacerbation of angina occurs, it usually is advisable to reinstitute propranolol therapy and take other measures appropriate for the management of angina pectoris. Since coronary artery disease may be unrecognized, it may be prudent to follow the above advice in patients considered at risk of having occult atherosclerotic heart disease who are given propranolol for other indications.</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypersensitivity and Skin Reactions</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Hypersensitivity reactions, including anaphylactic/anaphylactoid reactions, have been associated with the administration of propranolol (see <content styleCode="bold">
+                        <linkHtml href="#LINK_d9346e2c-3850-43e6-aaf7-162e6c1b5f0e">ADVERSE REACTIONS</linkHtml>
+                     </content>).<br/>
+                  </paragraph>
+                  <paragraph>Cutaneous reactions, including Stevens-Johnson Syndrome, toxic epidermal necrolysis, exfoliative dermatitis, erythema multiforme, and urticaria, have been reported with use of propranolol (see <content styleCode="bold">
+                        <linkHtml href="#LINK_d9346e2c-3850-43e6-aaf7-162e6c1b5f0e">ADVERSE REACTIONS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiac Failure</content>
+                  </paragraph>
+                  <paragraph>Sympathetic stimulation may be a vital component supporting circulatory function in patients with congestive heart failure, and its inhibition by beta blockade may precipitate more severe failure. Although beta blockers should be avoided in overt congestive heart failure, some have been shown to be highly beneficial when used with close follow-up in patients with a history of failure who are well compensated and are receiving additional therapies, including diuretics as needed. Beta-adrenergic blocking agents do not abolish the inotropic action of digitalis on heart muscle.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">In Patients without a History of Heart Failure, </content>Continued use of beta blockers can, in some cases, lead to cardiac failure.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nonallergic Bronchospasm (e.g., Chronic Bronchitis, Emphysema)</content>
+                  </paragraph>
+                  <paragraph>In general, patients with bronchospastic lung disease should not receive beta blockers. Propranolol should be administered with caution in this setting since it may provoke a bronchial asthmatic attack by blocking bronchodilation produced by endogenous and exogenous catecholamine stimulation of beta-receptors.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Major Surgery</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Chronically administered beta-blocking therapy should not be routinely withdrawn prior to major surgery, however the impaired ability of the heart to respond to reflex adrenergic stimuli may augment the risks of general anesthesia and surgical procedures.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Diabetes and Hypoglycemia</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Beta-adrenergic blockade may prevent the appearance of certain premonitory signs and symptoms (pulse rate and pressure changes) of acute hypoglycemia, especially in labile insulin-dependent diabetics. In these patients, it may be more difficult to adjust the dosage of insulin.<br/>
+                  </paragraph>
+                  <paragraph>Propranolol therapy, particularly when given to infants and children, diabetic or not, has been associated with hypoglycemia, especially during fasting as in preparation for surgery. Hypoglycemia has been reported in patients taking propranolol after prolonged physical exertion and in patients with renal insufficiency.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Thyrotoxicosis</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Beta-adrenergic blockade may mask certain clinical signs of hyperthyroidism. Therefore, abrupt withdrawal of propranolol may be followed by an exacerbation of symptoms of hyperthyroidism, including thyroid storm. Propranolol may change thyroid-function tests, increasing T<sub>4</sub> and reverse T<sub>3</sub> and decreasing T<sub>3</sub>.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Wolff-Parkinson-White Syndrome</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Beta-adrenergic blockade in patients with Wolf-Parkinson-White Syndrome and tachycardia has been associated with severe bradycardia requiring treatment with a pacemaker. In one case, this result was reported after an initial dose of 5 mg propranolol.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pheochromocytoma</content>
+                  </paragraph>
+                  <paragraph>Blocking only the peripheral dilator (beta) action of epinephrine with propranolol leaves its constrictor (alpha) action unopposed. In the event of hemorrhage or shock, there is a disadvantage in having both beta and alpha blockade since the combination prevents the increase in heart rate and peripheral vasoconstriction needed to maintain blood pressure.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231230"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d50b8e92-2009-4566-afe7-397e1fb1fb18">
+               <id root="9d41c598-c47d-4660-b783-870a40526b1b"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20231230"/>
+               <component>
+                  <section ID="LINK_e589cef7-364d-4046-89d1-b43bd0be3f9e">
+                     <id root="1d88aba6-f867-485b-a28d-e6bd12e94370"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Propranolol should be used with caution in patients with impaired hepatic or renal function. Propranolol is not indicated for the treatment of hypertensive emergencies.</paragraph>
+                        <paragraph>Beta-adrenergic receptor blockade can cause reduction of intraocular pressure. Patients should be told that propranolol may interfere with the glaucoma screening test. Withdrawal may lead to a return of increased intraocular pressure.</paragraph>
+                        <paragraph>While taking beta blockers, patients with a history of severe anaphylactic reaction to a variety of allergens may be more reactive to repeated challenge, either accidental, diagnostic, or therapeutic. Such patients may be unresponsive to the usual doses of epinephrine used to treat allergic reaction.</paragraph>
+                     </text>
+                     <effectiveTime value="20231230"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_18315c8e-f041-43da-97cd-e0bb34459ed4">
+                     <id root="254582ee-5f8f-4076-9f54-79ba97b4a6bc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Clinical Laboratory Tests</title>
+                     <text>
+                        <paragraph>In patients with hypertension, use of propranolol has been associated with elevated levels of serum potassium, serum transaminases and alkaline phosphatase. In severe heart failure, the use of propranolol has been associated with increases in Blood Urea Nitrogen.</paragraph>
+                     </text>
+                     <effectiveTime value="20231230"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ce9841ce-27c7-4292-8e35-23cc335b0fd0">
+                     <id root="abb252cd-686e-43fc-aeaa-96afcda304d0"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Caution should be exercised when propranolol is administered with drugs that have an effect on CYP2D6, 1A2, or 2C19 metabolic pathways. Co-administration of such drugs with propranolol may lead to clinically relevant drug interactions and changes on its efficacy and/or toxicity (see <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#LINK_547d7d86-ccdb-494c-aed0-95e6cf6be7ef">Drug Interactions </linkHtml>
+                              </content>
+                           </content>
+                           <linkHtml href="#LINK_547d7d86-ccdb-494c-aed0-95e6cf6be7ef">in</linkHtml>
+                           <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#LINK_547d7d86-ccdb-494c-aed0-95e6cf6be7ef">PHARMACOKINETICS AND DRUG METABOLISM</linkHtml>
+                              </content>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cardiovascular Drugs</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Antiarrhythmics</content>
+                           <br/>
+                        </paragraph>
+                        <paragraph>Propafenone has negative inotropic and beta-blocking properties that can be additive to those of propranolol.</paragraph>
+                        <paragraph>Quinidine increases the concentration of propranolol and produces greater degrees of clinical beta-blockade and may cause postural hypotension.</paragraph>
+                        <paragraph>Amiodarone is an antiarrhythmic agent with negative chronotropic properties that may be additive to those seen with β-blockers such as propranolol.</paragraph>
+                        <paragraph>The clearance of lidocaine is reduced with administration of propranolol. Lidocaine toxicity has been reported following co-administration with propranolol.</paragraph>
+                        <paragraph>Caution should be exercised when administering propranolol with drugs that slow A-V nodal conduction, e.g. digitalis, lidocaine and calcium channel blockers.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Digitalis Glycosides</content>
+                        </paragraph>
+                        <paragraph>Both digitalis glycosides and beta-blockers slow atrioventricular conduction and decrease heart rate. Concomitant use can increase the risk of bradycardia.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Calcium Channel Blockers</content>
+                        </paragraph>
+                        <paragraph>Caution should be exercised when patients receiving a beta blocker are administered a calcium-channel-blocking drug with negative inotropic and/or chronotropic effects. Both agents may depress myocardial contractility or atrioventricular conduction.</paragraph>
+                        <paragraph>There have been reports of significant bradycardia, heart failure, and cardiovascular collapse with concurrent use of verapamil and beta-blockers.</paragraph>
+                        <paragraph>Co-administration of propranolol and diltiazem in patients with cardiac disease has been associated with bradycardia, hypotension, high-degree heart block, and heart failure.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">ACE Inhibitors</content>
+                        </paragraph>
+                        <paragraph>When combined with beta-blockers, ACE inhibitors can cause hypotension, particularly in the setting of acute myocardial infarction.</paragraph>
+                        <paragraph>The antihypertensive effects of clonidine may be antagonized by beta-blockers. Propranolol should be administered cautiously to patients withdrawing from clonidine.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Alpha Blockers</content>
+                        </paragraph>
+                        <paragraph>Prazosin has been associated with prolongation of first dose hypotension in the presence of beta-blockers.<br/>
+                        </paragraph>
+                        <paragraph>Postural hypotension has been reported in patients taking both beta-blockers and terazosin or doxazosin.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Reserpine</content>
+                        </paragraph>
+                        <paragraph>Patients receiving catecholamine-depleting drugs, such as reserpine, should be closely observed for excessive reduction of resting sympathetic nervous activity, which may result in hypotension, marked bradycardia, vertigo, syncopal attacks, or orthostatic hypotension.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Inotropic Agents</content>
+                        </paragraph>
+                        <paragraph>Patients on long-term therapy with propranolol may experience uncontrolled hypertension if administered epinephrine as a consequence of unopposed alpha-receptor stimulation. Epinephrine is therefore not indicated in the treatment of propranolol overdose (see <content styleCode="bold">
+                              <linkHtml href="#LINK_3141e871-13a2-43b9-b262-ee0927c0c89f">OVERDOSAGE</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Isoproterenol and Dobutamine</content>
+                        </paragraph>
+                        <paragraph>Propranolol is a competitive inhibitor of beta-receptor agonists, and its effects can be reversed by administration of such agents, e.g., dobutamine or isoproterenol. Also, propranolol may reduce sensitivity to dobutamine stress echocardiography in patients undergoing evaluation for myocardial ischemia.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Non-Cardiovascular Drugs</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Nonsteroidal Anti-Inflammatory Drugs</content>
+                           <br/>
+                        </paragraph>
+                        <paragraph>Nonsteroidal anti-inflammatory drugs (NSAIDS) have been reported to blunt the antihypertensive effect of beta-adrenoreceptor blocking agents.</paragraph>
+                        <paragraph>Administration of indomethacin with propranolol may reduce the efficacy of propranolol in reducing blood pressure and heart rate.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Antidepressants</content>
+                        </paragraph>
+                        <paragraph>The hypotensive effects of MAO inhibitors or tricyclic antidepressants may be exacerbated when administered with beta-blockers by interfering with the beta blocking activity of propranolol.<br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Anesthetic Agents</content>
+                        </paragraph>
+                        <paragraph>Methoxyflurane and trichloroethylene may depress myocardial contractility when administered with propranolol.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Warfarin</content>
+                           <br/>
+                        </paragraph>
+                        <paragraph>Propranolol when administered with warfarin increases the concentration of warfarin. Prothrombin time, therefore, should be monitored.<br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Neuroleptic Drugs</content>
+                        </paragraph>
+                        <paragraph>Hypotension and cardiac arrest have been reported with the concomitant use of propranolol and haloperidol.<br/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Thyroxine</content>
+                        </paragraph>
+                        <paragraph>Thyroxine may result in a lower than expected T<sub>3 </sub>concentration when used concomitantly with propranolol.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Alcohol</content>
+                        </paragraph>
+                        <paragraph>Alcohol, when used concomitantly with propranolol, may increase plasma levels of propranolol.</paragraph>
+                     </text>
+                     <effectiveTime value="20231230"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1543098a-81a1-4fa3-a805-a4f521951a29">
+                     <id root="f7217650-daa2-45df-8c20-820a75fbd836"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>In dietary administration studies in which mice and rats were treated with propranolol hydrochloride for up to 18 months at doses of up to 150 mg/kg/day, there was no evidence of drug-related tumorigenesis. On a body surface area basis, this dose in the mouse and rat is, respectively, about equal to and about twice the maximum recommended human oral daily dose (MRHD) of 640 mg propranolol hydrochloride. In a study in which both male and female rats were exposed to propranolol hydrochloride in their diets at concentrations of up to 0.05% (about 50 mg/kg body weight and less than the MRHD), from 60 days prior to mating and throughout pregnancy and lactation for two generations, there were no effects on fertility. Based on differing results from Ames Tests performed by different laboratories, there is equivocal evidence for a genotoxic effect of propranolol hydrochloride in bacteria (<content styleCode="italics">S</content>. <content styleCode="italics">typhimurium </content>strain TA 1538).</paragraph>
+                     </text>
+                     <effectiveTime value="20231230"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_17da8cfd-ef3a-4b84-a0f3-37c145648bf1">
+                     <id root="d716753c-fe4a-46d5-b3d8-f9f31a2c6128"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>In a series of reproductive and developmental toxicology studies, propranolol hydrochloride was given to rats by gavage or in the diet throughout pregnancy and lactation. At doses of 150 mg/kg/day, but not at doses of 80 mg/kg/day (equivalent to the MRHD on a body surface area basis), treatment was associated with embryotoxicity (reduced litter size and increased resorption rates) as well as neonatal toxicity (deaths). Propranolol hydrochloride also was administered (in the feed) to rabbits (throughout pregnancy and lactation) at doses as high as 150 mg/kg/day (about 5 times the maximum recommended human oral daily dose). No evidence of embryo or neonatal toxicity was noted.</paragraph>
+                        <paragraph>There are no adequate and well-controlled studies in pregnant women. Intrauterine growth retardation, small placentas, and congenital abnormalities have been reported in neonates whose mothers received propranolol during pregnancy. Neonates whose mothers received propranolol at parturition have exhibited bradycardia, hypoglycemia, and/or respiratory depression. Adequate facilities for monitoring such infants at birth should be available. Propranolol should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20231230"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_e806c26d-16dd-459f-9d05-b514bbb306f1">
+                     <id root="5850d44f-cf1d-4993-b203-342b05b9e25c"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Propranolol is excreted in human milk. Caution should be exercised when propranolol is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20231230"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f2379a03-1f2b-452a-9c46-69052d9aa6fe">
+                     <id root="ba3a66af-3c75-42ab-9665-497eaed2882c"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of propranolol in pediatric patients have not been established. </paragraph>
+                        <paragraph>Bronchospasm and congestive heart failure have been reported coincident with the administration of propranolol therapy in pediatric patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20231230"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_17c1d5e1-a307-45f0-9dc2-7265eea8209b">
+                     <id root="3c0fbc98-f23c-4294-a1d5-52e13b0d7186"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of propranolol did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20231230"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d9346e2c-3850-43e6-aaf7-162e6c1b5f0e">
+               <id root="6e6a86eb-147f-4d26-b052-eea48ecad90a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse events were observed and have been reported in patients using propranolol.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Bradycardia; congestive heart failure; intensification of AV block; hypotension; paresthesia of hands; thrombocytopenic purpura; arterial insufficiency, usually of the Raynaud type.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Central Nervous System </content>
+                  </paragraph>
+                  <paragraph>Light-headedness, mental depression manifested by insomnia, lassitude, weakness, fatigue; catatonia; visual disturbances; hallucinations; vivid dreams; an acute reversible syndrome characterized by disorientation for time and place, short-term memory loss, emotional lability, slightly clouded sensorium, and decreased performance on neuropsychometrics. For immediate-release formulations, fatigue, lethargy, and vivid dreams appear dose-related.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal </content>
+                  </paragraph>
+                  <paragraph>Nausea, vomiting, epigastric distress, abdominal cramping, diarrhea, constipation, mesenteric arterial thrombosis, ischemic colitis.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Allergic </content>
+                  </paragraph>
+                  <paragraph>Hypersensitivity reactions, including anaphylactic/anaphylactoid reactions, pharyngitis and agranulocytosis; erythematous rash, fever combined with aching and sore throat; laryngospasm, and respiratory distress.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Bronchospasm.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hematologic </content>
+                  </paragraph>
+                  <paragraph>Agranulocytosis, nonthrombocytopenic purpura, thrombocytopenic purpura.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Autoimmune</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Systemic lupus erythematosus (SLE).<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin and mucous membranes</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Stevens-Johnson Syndrome, toxic epidermal necrolysis, dry eyes, exfoliative dermatitis, erythema multiforme, urticaria, alopecia, SLE-like reactions, and psoriasiform rashes. Oculomucocutaneous syndrome involving the skin, serous membranes and conjunctivae reported for a beta blocker (practolol) have not been associated with propranolol.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Genitourinary </content>
+                  </paragraph>
+                  <paragraph>Male impotence; Peyronie’s disease.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Amneal Pharmaceuticals at 1-877-835-5472 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231230"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3141e871-13a2-43b9-b262-ee0927c0c89f">
+               <id root="af93a0fb-ae93-4c2c-8f95-d469a53dbf7f"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Propranolol is not significantly dialyzable. In the event of overdosage or exaggerated response, the following measures should be employed:</paragraph>
+                  <paragraph>General: If ingestion is or may have been recent, evacuate gastric contents, taking care to prevent pulmonary aspiration.</paragraph>
+                  <paragraph>Supportive Therapy: Hypotension and bradycardia have been reported following propranolol overdose and should be treated appropriately. Glucagon can exert potent inotropic and chronotropic effects and may be particularly useful for the treatment of hypotension or depressed myocardial function after a propranolol overdose. Glucagon should be administered as 50 mcg/kg to 150 mcg/kg intravenously followed by continuous drip of 1 mg/hour to 5 mg/hour for positive chronotropic effect. Isoproterenol, dopamine or phosphodiesterase inhibitors may also be useful. Epinephrine, however, may provoke uncontrolled hypertension. Bradycardia can be treated with atropine or isoproterenol. Serious bradycardia may require temporary cardiac pacing.</paragraph>
+                  <paragraph>The electrocardiogram, pulse, blood pressure, neurobehavioral status and intake and output balance must be monitored. Isoproterenol and aminophylline may be used for bronchospasm.</paragraph>
+               </text>
+               <effectiveTime value="20231230"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7605768b-181d-45a9-a3d3-068a08a6ea76">
+               <id root="fff07991-05dd-434c-b25e-682e038d84c5"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                  </paragraph>
+                  <paragraph>Because of the variable bioavailability of propranolol, the dose should be individualized based on response.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypertension</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>The usual initial dosage is 40 mg propranolol hydrochloride twice daily, whether used alone or added to a diuretic. Dosage may be increased gradually until adequate blood pressure control is achieved. The usual maintenance dosage is 120 mg/day to 240 mg per day. In some instances a dosage of 640 mg a day may be required. The time needed for full antihypertensive response to a given dosage is variable and may range from a few days to several weeks.<br/>
+                  </paragraph>
+                  <paragraph>While twice-daily dosing is effective and can maintain a reduction in blood pressure throughout the day, some patients, especially when lower doses are used, may experience a modest rise in blood pressure toward the end of the 12-hour dosing interval. This can be evaluated by measuring blood pressure near the end of the dosing interval to determine whether satisfactory control is being maintained throughout the day. If control is not adequate, a larger dose, or 3-times-daily therapy may achieve better control.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Angina Pectoris</content>
+                  </paragraph>
+                  <paragraph>Total daily doses of 80 mg to 320 mg propranolol hydrochloride, when administered orally, twice a day, three times a day, or four times a day, have been shown to increase exercise tolerance and to reduce ischemic changes in the ECG. If treatment is to be discontinued, reduce dosage gradually over a period of several weeks. (See <content styleCode="bold">
+                        <linkHtml href="#LINK_9f2b539d-235c-4fc4-a672-09cede7dba82">WARNINGS</linkHtml>
+                     </content>.)<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Atrial Fibrillation</content>
+                  </paragraph>
+                  <paragraph>The recommended dose is 10 mg to 30 mg propranolol hydrochloride three or four times daily before meals and at bedtime.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Myocardial Infarction</content>
+                  </paragraph>
+                  <paragraph>In the Beta-Blocker Heart Attack Trial (BHAT), the initial dose was 40 mg three times a day, with titration after 1 month to 60 mg to 80 mg three times a day as tolerated. The recommended daily dosage is 180 mg to 240 mg propranolol hydrochloride per day in divided doses. Although a three times a day regimen was used in the BHAT and a four times a day regimen in the Norwegian Multicenter Trial, there is a reasonable basis for the use of either a three times a day or twice daily regimen (see <content styleCode="bold">
+                        <linkHtml href="#LINK_0215952e-87dd-49a4-92c3-9e3428602593">PHARMACODYNAMICS AND CLINICAL EFFECTS</linkHtml>
+                     </content>). The effectiveness and safety of daily dosages greater than 240 mg for prevention of cardiac mortality have not been established. However, higher dosages may be needed to effectively treat coexisting diseases such as angina or hypertension (see above).<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Migraine</content>
+                  </paragraph>
+                  <paragraph>The initial dose is 80 mg propranolol hydrochloride daily in divided doses. The usual effective dose range is 160 mg to 240 mg per day. The dosage may be increased gradually to achieve optimum migraine prophylaxis. If a satisfactory response is not obtained within four to six weeks after reaching the maximum dose, propranolol therapy should be discontinued. It may be advisable to withdraw the drug gradually over a period of several weeks.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Essential Tremor</content>
+                  </paragraph>
+                  <paragraph>The initial dosage is 40 mg propranolol hydrochloride twice daily. Optimum reduction of essential tremor is usually achieved with a dose of 120 mg per day. Occasionally, it may be necessary to administer 240 mg to 320 mg per day.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypertrophic Subaortic Stenosis</content>
+                  </paragraph>
+                  <paragraph>The usual dosage is 20 mg to 40 mg propranolol hydrochloride three or four times daily before meals and at bedtime.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pheochromocytoma</content>
+                  </paragraph>
+                  <paragraph>The usual dosage is 60 mg propranolol hydrochloride daily in divided doses for three days prior to surgery as adjunctive therapy to alpha-adrenergic blockade. For the management of inoperable tumors, the usual dosage is 30 mg daily in divided doses as adjunctive therapy to alpha-adrenergic blockade.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231230"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_89efe8b4-dc29-4ab9-ba47-2eb16312a81e">
+               <id root="4f110af1-c43d-428c-a265-27b6b00e7416"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Propranolol Hydrochloride Tablets, USP</paragraph>
+                  <paragraph>10 mg – Orange, round, convex, debossed tablets on one side with PLIVA 467 and scored on the other side.</paragraph>
+                  <paragraph/>
+                  <list listType="unordered">
+                     <item>NDC: 71335-2372-1: 30 Tablets in a BOTTLE</item>
+                     <item>NDC: 71335-2372-2: 60 Tablets in a BOTTLE</item>
+                     <item>NDC: 71335-2372-3: 100 Tablets in a BOTTLE</item>
+                     <item>NDC: 71335-2372-4: 90 Tablets in a BOTTLE</item>
+                     <item>NDC: 71335-2372-5: 120 Tablets in a BOTTLE</item>
+                     <item>NDC: 71335-2372-6: 10 Tablets in a BOTTLE</item>
+                  </list>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].<br/>Dispense in a tight, light-resistant container as defined in the USP, with a child-resistant closure (as required).</paragraph>
+                  <paragraph>PROTECT FROM LIGHT.</paragraph>
+                  <paragraph>KEEP THIS AND ALL MEDICATIONS OUT OF THE REACH OF CHILDREN.</paragraph>
+                  <paragraph>Repackaged/Relabeled by:<br/>Bryant Ranch Prepack, Inc.<br/>Burbank, CA 91504</paragraph>
+               </text>
+               <effectiveTime value="20250312"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1f7b552d-82e2-488b-bf7b-4237a034f399"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Propranolol Hydrochloride Tablets 10 mg</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="mm63629"/>
+               </text>
+               <effectiveTime value="20250312"/>
+               <component>
+                  <observationMedia ID="mm63629">
+                     <text>Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl713352372.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

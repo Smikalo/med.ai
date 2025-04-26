@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e55d252a-ff23-4fe5-b884-2dc696ffb7be"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Econazole Nitrate Cream, 1%</title>
+   <effectiveTime value="20240404"/>
+   <setId root="ae173340-7611-4dc8-99a7-7669bc4fc97d"/>
+   <versionNumber value="106"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+            <name>Bryant Ranch Prepack</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                  <name>Bryant Ranch Prepack</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bryant Ranch Prepack</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="63629-8647"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="63629-8647"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a89b2001-ac98-4a6f-b9ab-b12a6f47c313"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20240417"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63629-8647" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Econazole Nitrate</name>
+                        <formCode code="C28944" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CREAM"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Econazole Nitrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="45802-466" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="H438WYN10E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ECONAZOLE NITRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="6Z1Y2V4A7M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ECONAZOLE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8SKN0B0MIM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZOIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="REK4960K2U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYLATED HYDROXYANISOLE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="T5L8T28FGP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0240V77G50" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PEG-5 OLEATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3EW5AXE5X5" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PEGOXOL 7 STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="85"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="63629-8647-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20060808"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA076479" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20060808"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="id_1e0dd390-7c06-4d85-bc55-be72abb07c9e">
+                     <text>Structural Formula Image</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_309a3192-6cf6-4a87-b631-4a67aa51979a">
+               <id root="23674ffb-8e5b-4225-8c70-52d37f62a811"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Topical Use Only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250303"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_49e476d8-7d9a-4d04-9863-58619638f5d2">
+               <id root="33105af5-08ce-46ba-a411-e30e5eaae46f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Econazole Nitrate Cream contains the antifungal agent, econazole nitrate 1%, in a water-miscible base consisting of benzoic acid, butylated hydroxyanisole, mineral oil, peglicol 5 oleate, pegoxol-7 stearate, and purified water. The white to off-white soft cream is for topical use only.</paragraph>
+                  <paragraph>Chemically, econazole nitrate is 1-[2-{(4-chlorophenyl)methoxy}-2-(2,4-dichlorophenyl)ethyl]-1H-imidazole mononitrate. Its structure is as follows:</paragraph>
+                  <renderMultiMedia ID="id239" referencedObject="id_1e0dd390-7c06-4d85-bc55-be72abb07c9e"/>
+               </text>
+               <effectiveTime value="20220210"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_a3cbf447-2d59-4fd6-ad7f-7446b70e3e64">
+               <id root="0561b0b1-b961-42f3-bf59-fd6a46245e13"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>After topical application to the skin of normal subjects, systemic absorption of econazole nitrate is extremely low. Although most of the applied drug remains on the skin surface, drug concentrations were found in the stratum corneum which, by far, exceeded the minimum inhibitory concentration for <content styleCode="italics">dermatophytes</content>. Inhibitory concentrations were achieved in the epidermis and as deep as the middle region of the dermis. Less than 1% of the applied dose was recovered in the urine and feces.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Microbiology:</content> Econazole nitrate has been shown to be active against most strains of the following microorganisms, both <content styleCode="italics">in vitro</content> and in clinical infections as described in the INDICATIONS AND USAGE section.</paragraph>
+                  <table width="100%">
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Dermatophytes</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top"/>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Yeasts</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Epidermophyton floccosum</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Trichophyton mentagrophytes</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Candida albicans</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Microsporum audouini</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Trichophyton rubrum</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Malassezia furfur</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Microsporum canis</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Trichophyton tonsurans</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Microsporum gypseum</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="top"/>
+                           <td styleCode="Botrule " valign="top"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Econazole nitrate exhibits broad-spectrum antifungal activity against the following organisms <content styleCode="italics">in vitro</content>, <content styleCode="bold">
+                        <content styleCode="underline">but the clinical significance of these data is unknown</content>.</content>
+                  </paragraph>
+                  <table width="100%">
+                     <col width="50%"/>
+                     <col width="50%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Dermatophytes</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Yeasts</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Trichophyton verrucosum</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Candida guillermondii</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top"/>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Candida parapsilosis</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top"/>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="italics">Candida tropicalis</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20220210"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_indications">
+               <id root="e2d84d64-62b4-42c8-813e-de88f47400b2"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Econazole Nitrate Cream is indicated for topical application in the treatment of tinea pedis, tinea cruris, and tinea corporis caused by <content styleCode="italics">Trichophyton rubrum, Trichophyton mentagrophytes, Trichophyton tonsurans, Microsporum canis, Microsporum audouini, Microsporum gypseum,</content> and <content styleCode="italics">Epidermophyton floccosum,</content> in the treatment of cutaneous candidiasis, and in the treatment of tinea versicolor.</paragraph>
+               </text>
+               <effectiveTime value="20220210"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_f2b703a4-8d9e-434c-9360-f2343e02efd2">
+               <id root="aaacee2f-7d01-481b-b717-0435de6b444b"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Econazole Nitrate Cream is contraindicated in individuals who have shown hypersensitivity to any of its ingredients.</paragraph>
+               </text>
+               <effectiveTime value="20220210"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_930bfff6-449f-4dc5-937f-90701885d9cf">
+               <id root="b5e68af6-3f20-47bd-99ed-2073a5a14d1b"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Econazole Nitrate Cream is not for ophthalmic use.</paragraph>
+               </text>
+               <effectiveTime value="20220210"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_752789a2-ba55-4036-8818-b082b76cbea1">
+               <id root="809a139f-2b16-4042-99c0-dbbf9b8093f7"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20231130"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_6259e8dc-0823-40a3-9c9b-cbd82e86ffb1">
+                     <id root="3b09af4a-3d19-47f4-bab0-30141277c1fb"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>If a reaction suggesting sensitivity or chemical irritation should occur, use of the medication should be discontinued. </paragraph>
+                        <paragraph>For external use only. Avoid introduction of Econazole Nitrate Cream into the eyes.</paragraph>
+                     </text>
+                     <effectiveTime value="20220210"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_496d072f-fdc1-44cd-86c2-f1f32b35fad4">
+                     <id root="2e407203-88d8-442e-a84e-ffbcfff67a27"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Warfarin</content>
+                        </paragraph>
+                        <paragraph>Concomitant administration of econazole and warfarin has resulted in enhancement of anticoagulation effect. Most cases reported product application with use under occlusion, genital application, or application to large body surface area which may increase the systemic absorption of econazole nitrate. Monitoring of International Normalized Ratio (INR) and/or prothrombin time may be indicated especially for patients who apply econazole to large body surface areas, in the genital area, or under occlusion.</paragraph>
+                     </text>
+                     <effectiveTime value="20220210"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_77d4722e-842e-485c-b7a4-01640dab83ab">
+                     <id root="0971f316-ac5a-4c51-b60e-4c6812227cbf"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, mutagenesis, impairment of fertility</title>
+                     <text>
+                        <paragraph>Long-term animal studies to determine carcinogenic potential have not been performed.</paragraph>
+                        <paragraph>Oral administration of econazole nitrate in rats has been reported to produce prolonged gestation. Intravaginal administration in humans has not shown prolonged gestation or other adverse reproductive effects attributable to econazole nitrate therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20220210"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_94679ab9-18dd-4c99-b894-7436dc6b0af5">
+                     <id root="40b7983d-10bc-4d83-91a8-362dd8aacb66"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>Econazole nitrate has not been shown to be teratogenic when administered orally to mice, rabbits or rats. Fetotoxic or embryotoxic effects were observed in Segment I oral studies with rats receiving 10 to 40 times the human dermal dose. Similar effects were observed in Segment II or Segment III studies with mice, rabbits and/or rats receiving oral doses 80 or 40 times the human dermal dose.</paragraph>
+                        <paragraph>Econazole nitrate should be used in the first trimester of pregnancy only when the physician considers it essential to the welfare of the patient. The drug should be used during the second and third trimesters of pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20220210"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_3f7d096c-e56f-405d-a2fa-bb6c0a50664c">
+                     <id root="8cf0ae1a-c5d1-4435-b9b8-d014bd2f1b10"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether econazole nitrate is excreted in human milk. Following oral administration of econazole nitrate to lactating rats, econazole and/or metabolites were excreted in milk and were found in nursing pups. Also, in lactating rats receiving large oral doses (40 or 80 times the human dermal dose), there was a reduction in post partum viability of pups and survival to weaning; however, at these high doses, maternal toxicity was present and may have been a contributing factor. Caution should be exercised when econazole nitrate is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20220210"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_f8b54fe0-c0e1-438d-a737-a2099e5a2c88">
+                     <id root="0c261744-8612-4dda-8384-eac9c6a9330b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Geriatric Use </title>
+                     <text>
+                        <paragraph>Clinical studies of econazole nitrate cream did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20231130"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_72b4fe4b-383b-4f49-aad3-7cdc51277060">
+               <id root="7a456781-1bab-45e9-8010-51097d4bc9b0"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>During clinical trials, approximately 3% of patients treated with econazole nitrate cream, 1% reported side effects thought possibly to be due to the drug, consisting mainly of burning, itching, stinging, and erythema. One case of pruritic rash has also been reported.</paragraph>
+               </text>
+               <effectiveTime value="20220210"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_3c14a4ad-6793-45e0-ad84-34f5ec0e11a5">
+               <id root="f6c21d22-737c-4577-b811-a305a59bd7a1"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSE</title>
+               <text>
+                  <paragraph>Overdosage of econazole nitrate in humans has not been reported to date. In mice, rats, guinea pigs and dogs, the oral LD 50 values were found to be 462, 668, 272, and &gt;160 mg/kg, respectively.</paragraph>
+               </text>
+               <effectiveTime value="20220210"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_7956d95d-16b4-4330-9ef6-da6ba9daf6b2">
+               <id root="46b2b576-f639-4d9a-9cb7-6ed5a72107a2"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Sufficient Econazole Nitrate Cream, 1% should be applied to cover affected areas once daily in patients with tinea pedis, tinea cruris, tinea corporis, and tinea versicolor, and twice daily (morning and evening) in patients with cutaneous candidiasis.</paragraph>
+                  <paragraph>Early relief of symptoms is experienced by the majority of patients and clinical improvement may be seen fairly soon after treatment is begun; however, candidal infections and tinea cruris and corporis should be treated for two weeks and tinea pedis for one month in order to reduce the possibility of recurrence. If a patient shows no clinical improvement after the treatment period, the diagnosis should be redetermined. Patients with tinea versicolor usually exhibit clinical and mycological clearing after two weeks of treatment.</paragraph>
+               </text>
+               <effectiveTime value="20070109"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_ab93cf73-8dc0-40be-9beb-fdeaa0fac214">
+               <id root="b7bbd2e4-ba39-4df6-a807-283edadf466e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Econazole Nitrate Cream, 1% is available as follows:</paragraph>
+                  <paragraph>85 g tube (NDC 63629-8647-1)</paragraph>
+                  <paragraph>Store at 20-25ºC (68-77ºF) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Repackaged/Relabeled by:<br/>Bryant Ranch Prepack, Inc.<br/>Burbank, CA 91504</paragraph>
+               </text>
+               <effectiveTime value="20250303"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a49d29a1-882c-4b01-b15a-a23345f79437"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Econazole Nitrate 1% Cream</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="mm63629"/>
+               </text>
+               <effectiveTime value="20240418"/>
+               <component>
+                  <observationMedia ID="mm63629">
+                     <text>Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl636298647.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

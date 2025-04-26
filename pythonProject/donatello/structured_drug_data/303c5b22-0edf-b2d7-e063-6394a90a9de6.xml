@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="303c5b22-0edf-b2d7-e063-6394a90a9de6"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Amantadine Hydrochloride Tablets, USP
+ <br/>
+      <br/>
+      <br/>
+      <br/>
+Rx only
+</title>
+   <effectiveTime value="20250313"/>
+   <setId root="303c5b9d-5761-9fcd-e063-6394a90a8a2b"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="119003108"/>
+            <name>Coupler LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="119003108"/>
+                        <name>Coupler LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="67046-1531" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="303c74db-2b2f-4d3e-e063-6294a90af411"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250313"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67046-1531" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Amantadine</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Amantadine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="62332-586" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="U725QWY32X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE K30</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="RDH86HJV5Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE K90</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H77VEI93A8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C YELLOW NO. 6</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="100"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M6Q1EO9TD0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMANTADINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="BF4C9Z1J53" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>AMANTADINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67046-1531-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250313"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA214284" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250313"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48331" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="orange" xsi:type="CE">
+                              <originalText>Peach</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText>flat face</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="7" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">L75</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="303c71a8-f4c3-3f70-e063-6294a90a0755"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Amantadine hydrochloride, USP is designated generically as amantadine hydrochloride and chemically as 1-adamantanamine hydrochloride.</paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Amantadine hydrochloride, USP is a stable white or practically white crystalline powder, freely soluble in water, soluble in alcohol and in chloroform.
+  <br/>
+Amantadine hydrochloride, USP has pharmacological actions as both an anti-Parkinson and an antiviral drug. 
+  <br/>
+Each tablet intended for oral administration contains 100 mg amantadine hydrochloride, USP  and has the following inactive ingredients: microcrystalline cellulose, povidone K-30, povidone K-90, sodium starch glycolate, colloidal silicon dioxide, magnesium stearate and FD&amp;C Yellow No. 6 Aluminium Lake.
+ </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="303c5b22-0ee1-b2d7-e063-6394a90a9de6"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacodynamics</content>
+                     <br/>
+                     <content styleCode="italics">Mechanism of Action: Antiviral</content>
+                  </paragraph>
+                  <paragraph>The mechanism by which amantadine exerts its antiviral activity is not clearly understood. It appears to mainly prevent the release of infectious viral nucleic acid into the host cell by interfering with the function of the transmembrane domain of the viral M2 protein. In certain cases, amantadine is also known to prevent virus assembly during virus replication.  It does not appear to interfere with the immunogenicity of inactivated influenza A virus vaccine.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Antiviral Activity</content>
+                  </paragraph>
+                  <paragraph>Amantadine inhibits the replication of influenza A virus isolates from each of the subtypes, i.e., H1N1, H2N2 and H3N2. It has very little or no activity against influenza B virus isolates. A quantitative relationship between the
+ 
+  <content styleCode="italics">in vitro</content>susceptibility of influenza A virus to amantadine and the clinical response to therapy has not been established in man. Sensitivity test results, expressed as the concentration of amantadine required to inhibit by 50% the growth of virus (ED
+ 
+  <sub>50</sub>) in tissue culture vary greatly (from 0.1 μg/mL to 25 μg/mL) depending upon the assay protocol used, size of virus inoculum, isolates of influenza A virus strains tested, and the cell type used. Host cells in tissue culture readily tolerated amantadine up to a concentration of 100 μg/mL.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Drug Resistance</content>
+                  </paragraph>
+                  <paragraph>Influenza A variants with reduced
+ 
+  <content styleCode="italics">in vitro</content>sensitivity to amantadine have been isolated from epidemic strains in areas where adamantane derivatives are being used. Influenza viruses with reduced
+ 
+  <content styleCode="italics">in vitro</content>sensitivity have been shown to be transmissible and to cause typical influenza illness. The quantitative relationship between the
+ 
+  <content styleCode="italics">in vitro</content>sensitivity of influenza A variants to amantadine and the clinical response to therapy has not been established.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Mechanism of Action: Parkinson’s Disease</content>
+                  </paragraph>
+                  <paragraph>The mechanism of action of amantadine in the treatment of Parkinson’s disease and drug-induced extrapyramidal reactions is not known. Data from earlier animal studies suggest that amantadine hydrochloride may have direct and indirect effects on dopamine neurons. More recent studies have demonstrated that amantadine is a weak, non-competitive NMDA receptor antagonist (Ki = 10μM). Although amantadine has not been shown to possess direct anticholinergic activity in animal studies, clinically, it exhibits anticholinergic-like side effects such as dry mouth, urinary retention, and constipation.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacokinetics</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>Amantadine hydrochloride is well absorbed orally. Maximum plasma concentrations are directly related to dose for doses up to 200 mg/day. Doses above 200 mg/day may result in a greater than proportional increase in maximum plasma concentrations. It is primarily excreted unchanged in the urine by glomerular filtration and tubular secretion. Eight metabolites of amantadine have been identified in human urine. One metabolite, an N-acetylated compound, was quantified in human urine and accounted for 5 to 15% of the administered dose. Plasma acetylamantadine accounted for up to 80% of the concurrent amantadine plasma concentration in 5 of 12 healthy volunteers following the ingestion of a 200 mg dose of amantadine. Acetylamantadine was not detected in the plasma of the remaining seven volunteers. The contribution of this metabolite to efficacy or toxicity is not known.</paragraph>
+                  <paragraph>There appears to be a relationship between plasma amantadine concentrations and toxicity. As concentration increases, toxicity seems to be more prevalent, however, absolute values of amantadine concentrations associated with adverse effects have not been fully defined.</paragraph>
+                  <br/>
+                  <paragraph>Amantadine pharmacokinetics were determined in 24 normal adult male volunteers after the oral administration of a single amantadine hydrochloride 100 mg soft gel capsule. The mean ± SD maximum plasma concentration was 0.22 ± 0.03 μg/mL (range: 0.18 to 0.32 μg/mL). The time to peak concentration was 3.3 ± 1.5 hours (range: 1.5 to 8 hours). The apparent oral clearance was 0.28 ± 0.11 L/hr/kg (range: 0.14 to 0.62 L/hr/kg). The half-life was 17 ± 4 hours (range: 10 to 25 hours). Across other studies, amantadine plasma half-life has averaged 16 ± 6 hours (range: 9 to 31 hours) in 19 healthy volunteers.</paragraph>
+                  <paragraph>After oral administration of a single dose of 100 mg amantadine syrup to five healthy volunteers, the mean ± SD maximum plasma concentration C
+ 
+  <sub>max</sub>was 0.24 ± 0.04 μg/mL and ranged from 0.18 to 0.28 μg/mL. After 15 days of amantadine 100 mg b.i.d., the C
+ 
+  <sub>max</sub>was 0.47 ± 0.11 μg/mL in four of the five volunteers. The administration of amantadine tablets as a 200 mg single dose to 6 healthy subjects resulted in a C
+ 
+  <sub>max</sub>of 0.51 ± 0.14 μg/mL. Across studies, the time to C
+ 
+  <sub>max</sub>(T
+ 
+  <sub>max</sub>) averaged about 2 to 4 hours.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>Plasma amantadine clearance ranged from 0.2 to 0.3 L/hr/kg after the administration of 5 mg to 25 mg intravenous doses of amantadine to 15 healthy volunteers.</paragraph>
+                  <br/>
+                  <paragraph>In six healthy volunteers, the ratio of amantadine renal clearance to apparent oral plasma clearance was 0.79 ± 0.17 (mean ± SD).</paragraph>
+                  <br/>
+                  <paragraph>The volume of distribution determined after the intravenous administration of amantadine to 15 healthy subjects was 3 to 8 L/kg, suggesting tissue binding. Amantadine, after single oral 200 mg doses to 6 healthy young subjects and to 6 healthy elderly subjects has been found in nasal mucus at mean ± SD concentrations of 0.15 ± 0.16, 0.28 ± 0.26, and 0.39 ± 0.34 μg/g at 1, 4, and 8 hours after dosing, respectively. These concentrations represented 31 ± 33%, 59 ± 61%, and 95 ± 86% of the corresponding plasma amantadine concentrations. Amantadine is approximately 67% bound to plasma proteins over a concentration range of 0.1 to 2 μg/mL. Following the administration of amantadine 100 mg as a single dose, the mean ± SD red blood cell to plasma ratio ranged from 2.7 ± 0.5 in 6 healthy subjects to 1.4 ± 0.2 in 8 patients with renal insufficiency.</paragraph>
+                  <br/>
+                  <paragraph>The apparent oral plasma clearance of amantadine is reduced and the plasma half-life and plasma concentrations are increased in healthy elderly individuals age 60 and older. After single dose administration of 25 to 75 mg to 7 healthy, elderly male volunteers, the apparent plasma clearance of amantadine was 0.1 ± 0.04 L/hr/kg (range 0.06 to 0.17 L/hr/kg) and the half-life was 29 ± 7 hours (range 20 to 41 hours). Whether these changes are due to decline in renal function or other age related factors is not known.</paragraph>
+                  <br/>
+                  <paragraph>In a study of young healthy subjects (n=20), mean renal clearance of amantadine, normalized for body mass index, was 1.5 fold higher in males compared to females (p&lt;0.032).</paragraph>
+                  <br/>
+                  <paragraph>Compared with otherwise healthy adult individuals, the clearance of amantadine is significantly reduced in adult patients with renal insufficiency. The elimination half-life increases two to three fold or greater when creatinine clearance is less than 40 mL/min/1.73 m
+ 
+  <sup>2</sup>and averages eight days in patients on chronic maintenance hemodialysis. Amantadine is removed in negligible amounts by hemodialysis.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>The pH of the urine has been reported to influence the excretion rate of amantadine hydrochloride. Since the excretion rate of amantadine hydrochloride increases rapidly when the urine is acidic, the administration of urine acidifying drugs may increase the elimination of the drug from the body.</paragraph>
+               </text>
+               <effectiveTime value="20240502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="303c5b22-0ee2-b2d7-e063-6394a90a9de6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Amantadine hydrochloride tablets  are indicated for the prophylaxis and treatment of signs and symptoms of infection caused by various strains of influenza A virus. Amantadine hydrochloride tablets  are also indicated in the treatment of parkinsonism and drug-induced extrapyramidal reactions.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Influenza A Prophylaxis</content>
+                  </paragraph>
+                  <paragraph>Amantadine hydrochloride tablets  are indicated for chemoprophylaxis against signs and symptoms of influenza A virus infection. Because amantadine hydrochloride tablets do not completely prevent the host immune response to influenza A infection, individuals who take this drug may still develop immune responses to natural disease or vaccination and may be protected when later exposed to antigenically related viruses. Following vaccination during an influenza A outbreak, amantadine hydrochloride tablets prophylaxis should be considered for the 2- to 4-week time period required to develop an antibody response.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Influenza A Treatment</content>
+                  </paragraph>
+                  <paragraph>Amantadine hydrochloride tablets  are also indicated in the treatment of uncomplicated respiratory tract illness caused by influenza A virus strains especially when administered early in the course of illness. There are no well-controlled clinical studies demonstrating that treatment with amantadine hydrochloride tablets will avoid the development of influenza A virus pneumonitis or other complications in high risk patients.</paragraph>
+                  <br/>
+                  <paragraph>There is no clinical evidence indicating that amantadine hydrochloride tablets are effective in the prophylaxis or treatment of viral respiratory tract illnesses other than those caused by influenza A virus strains.</paragraph>
+                  <br/>
+                  <paragraph>The following points should be considered before initiating treatment or prophylaxis with amantadine hydrochloride tablets:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Amantadine hydrochloride tablets  are not a substitute for early vaccination on an annual basis as recommended by the Centers for Disease Control and Prevention Advisory Committee on Immunization Practices.</item>
+                     <item>Influenza viruses change over time. Emergence of resistance mutations could decrease drug effectiveness. Other factors (for example, changes in viral virulence) might also diminish clinical benefit of antiviral drugs. Prescribers should consider available information on influenza drug susceptibility patterns and treatment effects when deciding whether to use amantadine hydrochloride tablets.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Parkinson’s Disease/Syndrome</content>
+                  </paragraph>
+                  <paragraph>Amantadine hydrochloride tablets  are indicated in the treatment of idiopathic Parkinson’s disease (Paralysis Agitans), postencephalitic parkinsonism, and symptomatic parkinsonism which may follow injury to the nervous system by carbon monoxide intoxication. It is indicated in those elderly patients believed to develop parkinsonism in association with cerebral arteriosclerosis. In the treatment of Parkinson’s disease, amantadine hydrochloride tablets are less effective than levodopa, (-)-3-(3,4- dihydroxyphenyl)-L-alanine, and its efficacy in comparison with the anticholinergic antiparkinson drugs has not yet been established.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Drug-Induced Extrapyramidal Reactions</content>
+                  </paragraph>
+                  <paragraph>Amantadine hydrochloride tablets  are indicated in the treatment of drug-induced extrapyramidal reactions. Although anticholinergic-type side effects have been noted with amantadine hydrochloride tablets  when used in patients with drug-induced extrapyramidal reactions, there is a lower incidence of these side effects than that observed with the anticholinergic antiparkinson drugs.</paragraph>
+               </text>
+               <effectiveTime value="20240502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="303c5b22-0ee3-b2d7-e063-6394a90a9de6"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Amantadine hydrochloride tablets are contraindicated in patients with known hypersensitivity to amantadine hydrochloride or to any of the other ingredients in amantadine hydrochloride tablets.</paragraph>
+               </text>
+               <effectiveTime value="20240502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="303c5b22-0ee4-b2d7-e063-6394a90a9de6"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Deaths</content>
+                  </paragraph>
+                  <paragraph>Deaths have been reported from overdose with amantadine hydrochloride. The lowest reported acute lethal dose was 1 gram. Acute toxicity may be attributable to the anticholinergic effects of amantadine. Drug overdose has resulted in cardiac, respiratory, renal or central nervous system toxicity. Cardiac dysfunction includes arrhythmia, tachycardia and hypertension (see
+ 
+  <content styleCode="bold">OVERDOSAGE</content>). 
+  <br/>  Deaths due to drug accumulation (overdosage) have been reported in patients with renal impairment, who were prescribed higher than recommended doses of Amantadine Hydrochloride for their level of renal function (see
+ 
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION; </content>
+                     <content styleCode="bold">Dosage For Impaired Renal Function</content> and
+ 
+  <content styleCode="bold">OVERDOSAGE</content>).
+
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Suicide Attempts</content>
+                  </paragraph>
+                  <paragraph>Suicide attempts, some of which have been fatal, have been reported in patients treated with amantadine hydrochloride, many of whom received short courses for influenza treatment or prophylaxis. The incidence of suicide attempts is not known and the pathophysiologic mechanism is not understood. Suicide attempts and suicidal ideation have been reported in patients with and without prior history of psychiatric illness. Amantadine hydrochloride can exacerbate mental problems in patients with a history of psychiatric disorders or substance abuse. Patients who attempt suicide may exhibit abnormal mental states which include disorientation, confusion, depression, personality changes, agitation, aggressive behavior, hallucinations, paranoia, other psychotic reactions, and somnolence or insomnia. Because of the possibility of serious adverse effects, caution should be observed when prescribing amantadine hydrochloride tablets to patients being treated with drugs having CNS effects, or for whom the potential risks outweigh the benefit of treatment.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">CNS Effects</content>
+                  </paragraph>
+                  <paragraph>Patients with a history of epilepsy or other “seizures” should be observed closely for possible increased seizure activity.</paragraph>
+                  <br/>
+                  <paragraph>Patients receiving amantadine hydrochloride tablets who note central nervous system effects or bluallergic reactions including rring of vision should be cautioned against driving or working in situations where alertness and adequate motor coordination are important.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Other         </content>
+                  </paragraph>
+                  <paragraph>Patients with a history of congestive heart failure or peripheral edema should be followed closely as there are patients who developed congestive heart failure while receiving amantadine hydrochloride tablets.</paragraph>
+                  <br/>
+                  <paragraph>Patients with Parkinson’s disease improving on amantadine hydrochloride tablets should resume normal activities gradually and cautiously, consistent with other medical considerations, such as the presence of osteoporosis or phlebothrombosis.</paragraph>
+                  <br/>
+                  <paragraph>Because amantadine hydrochloride tablets have anticholinergic effects and may cause mydriasis, it should not be given to patients with untreated angle closure glaucoma.</paragraph>
+               </text>
+               <effectiveTime value="20240502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="303c5b22-0ee5-b2d7-e063-6394a90a9de6"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Amantadine hydrochloride should not be discontinued abruptly in patients with Parkinson’s disease since a few patients have experienced a parkinsonian crisis, i.e., a sudden marked clinical deterioration, when this medication was suddenly stopped. The dose of anticholinergic drugs or of amantadine hydrochloride should be reduced if atropine-like effects appear when these drugs are used concurrently. Abrupt discontinuation may also precipitate delirium, agitation, delusions, hallucinations, paranoid reaction, stupor, anxiety, depression and slurred speech.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Neuroleptic Malignant Syndrome (NMS)</content>
+                  </paragraph>
+                  <paragraph>Sporadic cases of possible Neuroleptic Malignant Syndrome (NMS) have been reported in association with dose reduction or withdrawal of amantadine hydrochloride therapy. Therefore, patients should be observed carefully when the dosage of amantadine hydrochloride is reduced abruptly or discontinued, especially if the patient is receiving neuroleptics.  </paragraph>
+                  <br/>
+                  <paragraph>NMS is an uncommon but life-threatening syndrome characterized by fever or hyperthermia; neurologic findings including muscle rigidity, involuntary movements, altered consciousness; mental status changes; other disturbances such as autonomic dysfunction, tachycardia, tachypnea, hyper- or hypotension; laboratory findings such as creatine phosphokinase elevation, leukocytosis, myoglobinuria, and increased serum myoglobin.  </paragraph>
+                  <br/>
+                  <paragraph>The early diagnosis of this condition is important for the appropriate management of these patients. Considering NMS as a possible diagnosis and ruling out other acute illnesses (e.g., pneumonia, systemic infection, etc.) is essential. This may be especially complex if the clinical presentation includes both serious medical illness and untreated or inadequately treated extrapyramidal signs and symptoms (EPS). Other important considerations in the differential diagnosis include central anticholinergic toxicity, heat stroke, drug fever and primary central nervous system (CNS) pathology.</paragraph>
+                  <br/>
+                  <paragraph>The management of NMS should include: 1) intensive symptomatic treatment and medical monitoring, and 2) treatment of any concomitant serious medical problems for which specific treatments are available. Dopamine agonists, such as bromocriptine, and muscle relaxants, such as dantrolene are often used in the treatment of NMS, however, their effectiveness has not been demonstrated in controlled studies.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Renal disease</content>
+                  </paragraph>
+                  <paragraph>Because amantadine hydrochloride is mainly excreted in the urine, it accumulates in the plasma and in the body when renal function declines. Thus, the dose of amantadine hydrochloride should be reduced in patients with renal impairment and in individuals who are 65 years of age or older (see
+ 
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION; Dosage for Impaired Renal Function</content>).
+
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Liver disease</content>
+                  </paragraph>
+                  <paragraph>Care should be exercised when administering amantadine hydrochloride to patients with liver disease. Rare instances of reversible elevation of liver enzymes have been reported in patients receiving amantadine hydrochloride, though a specific relationship between the drug and such changes has not been established.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Impulse Control/Compulsive Behaviors</content>
+                     <br/>  Postmarketing reports suggest that patients treated with anti- Parkinson medications can experience intense urges to gamble, increased sexual urges, intense urges to spend money uncontrollably, and other intense urges. Patients may be unable to control these urges while taking one or more of the medications that are generally used for the treatment of Parkinson’s disease and that increase central dopaminergic tone, including amantadine hydrochloride. In some cases, although not all, these urges were reported to have stopped when the dose was reduced or the medication was discontinued. Because patients may not recognize these behaviors as abnormal it is important for prescribers to specifically ask patients or their caregivers about the development of new or increased gambling urges, sexual urges, uncontrolled spending or other urges while being treated with amantadine hydrochloride. Physicians should consider dose reduction or stopping the medication if a patient develops such urges while taking amantadine hydrochloride. 
+  <br/>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Melanoma</content>
+                  </paragraph>
+                  <paragraph>Epidemiological studies have shown that patients with Parkinson’s disease have a higher risk (2- to approximately 6-fold higher) of developing melanoma than the general population. Whether the increased risk observed was due to Parkinson’s disease or other factors, such as drugs used to treat Parkinson’s disease, is unclear.</paragraph>
+                  <br/>
+                  <paragraph>For the reasons stated above, patients and providers are advised to monitor for melanomas frequently and on a regular basis when using amantadine hydrochloride tablets for
+ 
+  <content styleCode="italics">any</content>indication. Ideally, periodic skin examinations should be performed by appropriately qualified individuals (e.g., dermatologists).
+
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Other</content>
+                  </paragraph>
+                  <paragraph>The dose of amantadine hydrochloride may need careful adjustment in patients with congestive heart failure, peripheral edema, or orthostatic hypotension. Care should be exercised when administering amantadine hydrochloride to patients with a history of recurrent eczematoid rash, or to patients with psychosis or severe psychoneurosis not controlled by chemotherapeutic agents.</paragraph>
+                  <br/>
+                  <paragraph>Serious bacterial infections may begin with influenza-like symptoms or may coexist with or occur as complications during the course of influenza. Amantadine hydrochloride has not been shown to prevent such complications.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Information for Patients</content>
+                  </paragraph>
+                  <paragraph>Patients should be advised of the following information:</paragraph>
+                  <paragraph>Blurry vision and/or impaired mental acuity may occur.</paragraph>
+                  <paragraph>Gradually increase physical activity as the symptoms of Parkinson’s disease improve.</paragraph>
+                  <paragraph>Avoid excessive alcohol usage, since it may increase the potential for CNS effects such as dizziness, confusion, lightheadedness and orthostatic hypotension.</paragraph>
+                  <paragraph>Avoid getting up suddenly from a sitting or lying position. If dizziness or lightheadedness occurs, notify physician.</paragraph>
+                  <paragraph>Notify physician if mood/mental changes, swelling of extremities, difficulty urinating and/or shortness of breath occur.</paragraph>
+                  <paragraph>Do not take more medication than prescribed because of the risk of overdose. If there is no improvement in a few days, or if medication appears less effective after a few weeks, discuss with a physician.</paragraph>
+                  <paragraph>Consult physician before discontinuing medication.</paragraph>
+                  <paragraph>Seek medical attention immediately if it is suspected that an overdose of medication has been taken.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Drug Interactions</content>
+                  </paragraph>
+                  <paragraph>Careful observation is required when amantadine hydrochloride is administered concurrently with central nervous system stimulants.</paragraph>
+                  <paragraph>Agents with anticholinergic properties may potentiate the anticholinergic-like side effects of amantadine.</paragraph>
+                  <br/>
+                  <paragraph>Coadministration of thioridazine has been reported to worsen the tremor in elderly patients with Parkinson’s disease, however, it is not known if other phenothiazines produce a similar response. Coadministration of Dyazide (triamterene/hydrochlorothiazide) resulted in a higher plasma amantadine concentration in a 61-year-old man receiving amantadine hydrochloride 100 mg TID for Parkinson’s disease.
+ 
+  <sup>1</sup>It is not known which of the components of Dyazide contributed to the observation or if related drugs produce a similar response.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>Coadministration of quinine or quinidine with amantadine was shown to reduce the renal clearance of amantadine by about 30%.</paragraph>
+                  <br/>
+                  <paragraph>The concurrent use of amantadine hydrochloride with live attenuated influenza vaccine (LAIV) intranasal has not been evaluated. However, because of the potential for interference between these products, LAIV should not be administered within 2 weeks before or 48 hours after administration of amantadine hydrochloride, unless medically indicated. The concern about possible interference arises from the potential for antiviral drugs to inhibit replication of live vaccine virus. Trivalent inactivated influenza vaccine can be administered at any time relative to use of amantadine hydrochloride.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenesis and Mutagenesis</content>
+                  </paragraph>
+                  <paragraph>Long-term
+ 
+  <content styleCode="italics">in vivo</content>animal studies designed to evaluate the carcinogenic potential of amantadine hydrochloride have not been performed. In several
+ 
+  <content styleCode="italics">in vitro</content>assays for gene mutation, amantadine hydrochloride did not increase the number of spontaneously observed mutations in four strains of
+ 
+  <content styleCode="italics">Salmonella typhimurium</content>(Ames Test) or in a mammalian cell line (Chinese Hamster Ovary cells) when incubations were performed either with or without a liver metabolic activation extract. Further, there was no evidence of chromosome damage observed in an
+ 
+  <content styleCode="italics">in vitro</content>test using freshly derived and stimulated human peripheral blood lymphocytes (with and without metabolic activation) or in an in vivo mouse bone marrow micronucleus test (140 to 550 mg/kg; estimated human equivalent doses of 11.7 to 45.8 mg/kg based on body surface area conversion).
+
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>The effect of amantadine on fertility has not been adequately tested, that is, in a study conducted under Good Laboratory Practice (GLP) and according to current recommended methodology. In a three litter, non-GLP, reproduction study in rats, amantadine hydrochloride at a dose of 32 mg/kg/day (equal to the maximum recommended human dose on a mg/m
+ 
+  <sup>2</sup>basis) administered to both males and females slightly impaired fertility. There were no effects on fertility at a dose level of 10 mg/kg/day (or 0.3 times the maximum recommended human dose on a mg/m
+ 
+  <sup>2</sup>basis); intermediate doses were not tested.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>Failed fertility has been reported during human
+ 
+  <content styleCode="italics">in vitro</content>fertilization (IVF) when the sperm donor ingested amantadine 2 weeks prior to, and during the IVF cycle.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy </content>
+                  </paragraph>
+                  <paragraph>The effect of amantadine on embryofetal and peri-postnatal development has not been adequately tested, that is, in studies conducted under Good Laboratory Practice (GLP) and according to current recommended methodology. However, in two non-GLP studies in rats in which females were dosed from 5 days prior to mating to Day 6 of gestation or on Days 7 to 14 of gestation, amantadine hydrochloride produced increases in embryonic death at an oral dose of 100 mg/kg (or 3 times the maximum recommended human dose on a mg/m
+ 
+  <sup>2</sup>basis). In the non-GLP rat study in which females were dosed on Days 7 to14 of gestation, there was a marked increase in severe visceral and skeletal malformations at oral doses of 50 and 100 mg/kg (or 1.5 and 3 times, respectively, the maximum recommended human dose on a mg/m
+ 
+  <sup>2</sup>basis). The no-effect dose for teratogenicity was 37 mg/kg (equal to the maximum recommended human dose on a mg/m
+ 
+  <sup>2</sup>basis). The safety margins reported may not accurately reflect the risk considering the questionable quality of the study on which they are based. There are no adequate and well-controlled studies in pregnant women. Human data regarding teratogenicity after maternal use of amantadine is scarce. Tetralogy of Fallot and tibial hemimelia (normal karyotype) occurred in an infant exposed to amantadine during the first trimester of pregnancy (100 mg P.O. for 7 days during the 6th and 7th week of gestation). Cardiovascular maldevelopment (single ventricle with pulmonary atresia) was associated with maternal exposure to amantadine (100 mg/d) administered during the first 2 weeks of pregnancy. Amantadine hydrochloride should be used during pregnancy only if the potential benefit justifies the potential risk to the embryo or fetus.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Nursing Mothers</content>
+                  </paragraph>
+                  <paragraph>Amantadine hydrochloride is excreted in human milk. Use is not recommended in nursing mothers.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use</content>
+                  </paragraph>
+                  <paragraph>The safety and efficacy of amantadine hydrochloride in newborn infants and infants below the age of 1 year have not been established.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Usage in the Elderly</content>
+                  </paragraph>
+                  <paragraph>Because amantadine hydrochloride is primarily excreted in the urine, it accumulates in the plasma and in the body when renal function declines. Thus, the dose of amantadine hydrochloride should be reduced in patients with renal impairment and in individuals who are 65 years of age or older. The dose of amantadine hydrochloride may need reduction in patients with congestive heart failure, peripheral edema, or orthostatic hypotension (see
+ 
+  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>).
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20240502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="303c5b22-0ee6-b2d7-e063-6394a90a9de6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The adverse reactions reported most frequently at the recommended dose of amantadine hydrochloride (5 to 10%) are: nausea, dizziness (lightheadedness), and insomnia.</paragraph>
+                  <br/>
+                  <paragraph>Less frequently (1 to 5%) reported adverse reactions are: depression, anxiety and irritability, hallucinations, confusion, anorexia, dry mouth, constipation, ataxia, livedo reticularis, peripheral edema, orthostatic hypotension, headache, somnolence, nervousness, dream abnormality, agitation, dry nose, diarrhea and fatigue.  </paragraph>
+                  <br/>
+                  <paragraph>Infrequently (0.1 to 1%) occurring adverse reactions are: congestive heart failure, psychosis, urinary retention, dyspnea, skin rash, vomiting, weakness, slurred speech, euphoria, thinking abnormality, amnesia, hyperkinesia, hypertension, decreased libido, and visual disturbance, including punctate subepithelial or other corneal opacity, corneal edema, decreased visual acuity, sensitivity to light, and optic nerve palsy.</paragraph>
+                  <br/>
+                  <paragraph>Rare (less than 0.1%) occurring adverse reactions are: instances of convulsion, leukopenia, neutropenia, eczematoid dermatitis, oculogyric episodes, suicidal attempt, suicide, and suicidal ideation (see
+ 
+  <content styleCode="bold">WARNINGS</content>).  
+
+ </paragraph>
+                  <br/>
+                  <paragraph>Other adverse reactions reported during postmarketing experience with amantadine hydrochloride usage include:</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Nervous System/Psychiatric -</content>coma, stupor, delirium, hypokinesia, hypertonia, delusions, aggressive behavior, paranoid reaction, manic reaction, involuntary muscle contractions, gait abnormalities, paresthesia, EEG changes, and tremor. Abrupt discontinuation may also precipitate delirium, agitation, delusions, hallucinations, paranoid reaction, stupor, anxiety, depression and slurred speech;
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular -</content>cardiac arrest, arrhythmias including malignant arrhythmias, hypotension, and tachycardia;
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory -</content>acute respiratory failure, pulmonary edema, and tachypnea;
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal -</content>dysphagia;
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hematologic -</content>leukocytosis; agranulocytosis
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Senses -</content>keratitis and mydriasis;
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin and Appendages -</content>pruritus and diaphoresis;
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Miscellaneous -</content>neuroleptic malignant syndrome (see
+ 
+  <content styleCode="bold">WARNINGS</content>), allergic reactions including anaphylactic reactions, edema and  fever.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Laboratory Test -</content>elevated: CPK, BUN, serum creatinine, alkaline phosphatase, LDH, bilirubin, GGT, SGOT, and SGPT.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Alembic Pharmaceuticals Limited at 1-866-210-9797 or FDA at 1-800-FDA-1088 or
+ 
+  <content styleCode="underline">www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="303c5b22-0ee7-b2d7-e063-6394a90a9de6"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Deaths have been reported from overdose with amantadine hydrochloride. The lowest reported acute lethal dose was 1 gram. Because some patients have attempted suicide by overdosing with amantadine, prescriptions should be written for the smallest quantity consistent with good patient management.</paragraph>
+                  <br/>
+                  <paragraph>Acute toxicity may be attributable to the anticholinergic effects of amantadine. Drug overdose has resulted in cardiac, respiratory, renal or central nervous system toxicity. Cardiac dysfunction includes arrhythmia, tachycardia and hypertension. Pulmonary edema and respiratory distress (including adult respiratory distress syndrome - ARDS) have been reported; renal dysfunction including increased BUN, decreased creatinine clearance and renal insufficiency can occur. Central nervous system effects that have been reported include insomnia, anxiety, agitation, aggressive behavior, hypertonia, hyperkinesia, ataxia, gait abnormality, tremor, confusion, disorientation, depersonalization, fear, delirium, hallucinations, psychotic reactions, lethargy, somnolence and coma. Seizures may be exacerbated in patients with prior history of seizure disorders. Hyperthermia has also been observed in cases where a drug overdose has occurred.</paragraph>
+                  <br/>
+                  <paragraph>There is no specific antidote for an overdose of amantadine hydrochloride. However, slowly administered intravenous physostigmine in 1 and 2 mg doses in an adult
+ 
+  <sup>2</sup>at 1- to 2-hour intervals and 0.5 mg doses in a child
+ 
+  <sup>3</sup>at 5- to 10-minute intervals up to a maximum of 2 mg/hour have been reported to be effective in the control of central nervous system toxicity caused by amantadine hydrochloride. For acute overdosing, general supportive measures should be employed along with immediate gastric lavage or induction of emesis. Fluids should be forced, and if necessary, given intravenously. The pH of the urine has been reported to influence the excretion rate of amantadine hydrochloride. Since the excretion rate of amantadine hydrochloride increases rapidly when the urine is acidic, the administration of urine acidifying drugs may increase the elimination of the drug from the body. The blood pressure, pulse, respiration and temperature should be monitored. The patient should be observed for hyperactivity and convulsions; if required, sedation, and anticonvulsant therapy should be administered. The patient should be observed for the possible development of arrhythmias and hypotension; if required, appropriate antiarrhythmic and antihypotensive therapy should be given. Electrocardiographic monitoring may be required after ingestion, since malignant tachyarrhythmias can appear after overdose.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>Care should be exercised when administering adrenergic agents, such as isoproterenol, to patients with a amantadine hydrochloride overdose, since the dopaminergic activity of amantadine hydrochloride has been reported to induce malignant arrhythmias.  </paragraph>
+                  <br/>
+                  <paragraph>The blood electrolytes, urine pH and urinary output should be monitored. If there is no record of recent voiding, catheterization should be done.</paragraph>
+               </text>
+               <effectiveTime value="20240502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="303c5b22-0ee8-b2d7-e063-6394a90a9de6"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The dose of amantadine hydrochloride tablets may need reduction in patients with congestive heart failure, peripheral edema, orthostatic hypotension, or impaired renal function (see
+ 
+  <content styleCode="bold">Dosage for Impaired Renal Function</content>).
+
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Dosage for Prophylaxis and Treatment of Uncomplicated Influenza A Virus Illness</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>Adult</paragraph>
+                  <paragraph>The adult daily dosage of amantadine hydrochloride tablet is 200 mg; two 100 mg tablets as a single daily dose. The daily dosage may be split into one tablet of 100 mg twice a day. If central nervous system effects develop in once-a-day dosage, a split dosage schedule may reduce such complaints. In persons 65 years of age or older, the daily dosage of amantadine hydrochloride tablet is 100 mg.</paragraph>
+                  <br/>
+                  <paragraph>A 100 mg daily dose has also been shown in experimental challenge studies to be effective as prophylaxis in healthy adults who are not at high risk for influenza-related complications. However, it has not been demonstrated that a 100 mg daily dose is as effective as a 200 mg daily dose for prophylaxis, nor has the 100 mg daily dose been studied in the treatment of acute influenza illness. In recent clinical trials, the incidence of central nervous system (CNS) side effects associated with the 100 mg daily dose was at or near the level of placebo. The 100 mg dose is recommended for persons who have demonstrated intolerance to 200 mg of amantadine hydrochloride tablets daily because of CNS or other toxicities.</paragraph>
+                  <br/>
+                  <paragraph>Pediatric Patients:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">1 yr. to 9 yrs. of age</content>
+                  </paragraph>
+                  <paragraph>The total daily dose should be calculated on the basis of 2 to 4 mg/lb/day (4.4 to 8.8 mg/kg/day), but not to exceed 150 mg per day.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">9 yrs. to 12 yrs. of age</content>
+                  </paragraph>
+                  <paragraph>The total daily dose is 200 mg given as one tablet of 100 mg twice a day. The 100 mg daily dose has not been studied in this pediatric population. Therefore, there are no data which demonstrate that this dose is as effective as or is safer than the 200 mg daily dose in this patient population.</paragraph>
+                  <br/>
+                  <paragraph>Prophylactic dosing should be started in anticipation of an influenza A outbreak and before or after contact with individuals with influenza A virus respiratory tract illness.</paragraph>
+                  <br/>
+                  <paragraph>Amantadine hydrochloride tablets should be continued daily for at least 10 days following a known exposure. If amantadine hydrochloride tablets are used chemoprophylactically in conjunction with inactivated influenza A virus vaccine until protective antibody responses develop, then it should be administered for 2 to 4 weeks after the vaccine has been given. When inactivated influenza A virus vaccine is unavailable or contraindicated, amantadine hydrochloride tablets should be administered for the duration of known influenza A in the community because of repeated and unknown exposure.</paragraph>
+                  <br/>
+                  <paragraph>Treatment of influenza A virus illness should be started as soon as possible, preferably within 24 to 48 hours after onset of signs and symptoms, and should be continued for 24 to 48 hours after the disappearance of signs and symptoms.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Dosage for Parkinsonism</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>Adult</paragraph>
+                  <paragraph>The usual dose of amantadine hydrochloride tablet is 100 mg twice a day when used alone. Amantadine hydrochloride tablets have an onset of action usually within 48 hours.</paragraph>
+                  <br/>
+                  <paragraph>The initial dose of amantadine hydrochloride tablet is 100 mg daily for patients with serious associated medical illnesses or who are receiving high doses of other antiparkinson drugs. After one to several weeks at 100 mg once daily, the dose may be increased to 100 mg twice daily, if necessary.</paragraph>
+                  <br/>
+                  <paragraph>Occasionally, patients whose responses are not optimal with amantadine hydrochloride tablets at 200 mg daily may benefit from an increase up to 400 mg daily in divided doses. However, such patients should be supervised closely by their physicians.</paragraph>
+                  <br/>
+                  <paragraph>Patients initially deriving benefit from amantadine hydrochloride tablets not uncommonly experience a fall-off of effectiveness after a few months. Benefit may be regained by increasing the dose to 300 mg daily. Alternatively, temporary discontinuation of amantadine hydrochloride tablets for several weeks, followed by reinitiation of the drug, may result in regaining benefit in some patients. A decision to use other antiparkinson drugs may be necessary.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Dosage for Concomitant Therapy</content>
+                  </paragraph>
+                  <paragraph>Some patients who do not respond to anticholinergic antiparkinson drugs may respond to amantadine hydrochloride tablets. When amantadine hydrochloride tablets or anticholinergic antiparkinson drugs are each used with marginal benefit, concomitant use may produce additional benefit.</paragraph>
+                  <br/>
+                  <paragraph>When amantadine hydrochloride and levodopa are initiated concurrently, the patient can exhibit rapid therapeutic benefits. Amantadine hydrochloride should be held constant at 100 mg daily or twice daily while the daily dose of levodopa is gradually increased to optimal benefit.</paragraph>
+                  <br/>
+                  <paragraph>When amantadine hydrochloride is added to optimal well-tolerated doses of levodopa, additional benefit may result, including smoothing out the fluctuations in improvement which sometimes occur in patients on levodopa alone. Patients who require a reduction in their usual dose of levodopa because of development of side effects may possibly regain lost benefit with the addition of amantadine hydrochloride. 
+  <br/>
+                     <br/>
+                     <content styleCode="bold">Dosage for Drug-Induced Extrapyramidal Reactions</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>Adult</paragraph>
+                  <paragraph>The usual dose of amantadine hydrochloride tablet is 100 mg twice a day. Occasionally, patients whose responses are not optimal with amantadine hydrochloride tablets at 200 mg daily may benefit from an increase up to 300 mg daily in divided doses.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Dosage for Impaired Renal Function</content>
+                  </paragraph>
+                  <paragraph>Depending upon creatinine clearance, the following dosage adjustments are recommended:</paragraph>
+                  <br/>
+                  <br/>
+                  <table cellspacing="0" cellpadding="0" border="0" width="517.5695">
+                     <col width="42.9911345239625%"/>
+                     <col width="57.0088654760375%"/>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td align="center" styleCode="Lrule Rrule" valign="top">
+                              <content styleCode="bold">CREATININE CLEARANCE (mL/min/1.73 m
+     
+      <sup>2</sup>)
+    
+     </content>
+                              <br/>
+                           </td>
+                           <td align="center" styleCode="Rrule" valign="top">
+                              <content styleCode="bold">AMANTADINE HYDROCHLORIDE TABLETS DOSAGE</content>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td align="center" styleCode="Lrule Rrule" valign="top">30 to 50 
+     <br/>
+                           </td>
+                           <td align="center" styleCode="Rrule" valign="top">
+                              <br/>  200 mg 1
+    
+     <sup>st</sup>day and 100 mg each day thereafter
+   
+    </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td align="center" styleCode="Lrule Rrule" valign="top">15 to 29 
+     <br/>
+                           </td>
+                           <td align="center" styleCode="Rrule" valign="top">
+                              <br/>  200 mg 1
+    
+     <sup>st</sup>day followed by 100 mg on alternate days
+   
+    </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Lrule Rrule" valign="top">&lt;15 
+     <br/>
+                           </td>
+                           <td align="center" styleCode="Rrule" valign="top">
+                              <br/>  200 mg every 7 days
+    </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The recommended dosage for patients on hemodialysis is 200 mg every 7 days.</paragraph>
+               </text>
+               <effectiveTime value="20240502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="303c5b22-0ee9-b2d7-e063-6394a90a9de6"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Amantadine hydrochloride tablets, USP are available as peach color, round, flat face, beveled-edge mottled tablets, debossed with ‘L 75’ on one side and plain on other side as follows:</paragraph>
+                  <br/>
+                  <paragraph>Bottle of 100 tablets with child resistant closure, NDC 62332-586-31</paragraph>
+                  <paragraph>Bottle of 500 tablets, NDC 62332-586-71</paragraph>
+                  <br/>
+                  <paragraph>Store at 25°C (77°F), excursions permitted to 15° to 30°C (59° to 86°F) [see USP Controlled Room Temperature].</paragraph>
+                  <br/>
+                  <paragraph>Dispense in a tight container as defined in the USP, with a child-resistant closure (as required).</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">REFERENCES</content>
+                  </paragraph>
+                  <paragraph>
+                     <sup>1</sup>W.W. Wilson and A.H. Rajput, Amantadine-Dyazide Interaction,
+ 
+  <content styleCode="italics">Can. Med. Assoc. J.</content>129:974-975, 1983.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <sup>2</sup>D.F. Casey,
+ 
+  <content styleCode="italics">N. Engl. J. Med.</content>298:516, 1978.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <sup>3</sup>C.D. Berkowitz,
+ 
+  <content styleCode="italics">J. Pediatr.</content>95:144, 1979.
+
+ </paragraph>
+                  <br/>
+                  <paragraph>Brands listed are trademarks of their respective owners. 
+  <br/>
+                     <br/>  Manufactured by:
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Alembic Pharmaceuticals Limited</content>
+                  </paragraph>
+                  <paragraph>(Formulation Division),</paragraph>
+                  <paragraph>Panelav 389350, Gujarat, India</paragraph>
+                  <br/>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Alembic Pharmaceuticals, Inc.</content>
+                  </paragraph>
+                  <paragraph>Bedminster, NJ 07921, USA</paragraph>
+                  <paragraph>
+                     <br/>  Revised: 03/2024
+ </paragraph>
+               </text>
+               <effectiveTime value="20240502"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_303c6b5f-95a9-3db5-e063-6294a90a35fc">
+               <id root="303c6b5f-95aa-3db5-e063-6294a90a35fc"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_303c6ede-ef58-b20f-e063-6394a90aa7f2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250313"/>
+               <component>
+                  <observationMedia ID="img_303c6ede-ef58-b20f-e063-6394a90aa7f2">
+                     <text>label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="62332-586-31 AMANTADINE HCL 100MG_67046-1531-30.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

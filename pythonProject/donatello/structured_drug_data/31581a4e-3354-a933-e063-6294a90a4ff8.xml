@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="31581a4e-3354-a933-e063-6294a90a4ff8"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Clindamycin and Benzoyl Peroxide Topical Gel, 1%/5%</title>
+   <effectiveTime value="20250327"/>
+   <setId root="b43ba953-ae8d-47ad-b320-567f9e3bcc3a"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="829572556"/>
+            <name>REMEDYREPACK INC.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="315814fe-ad5d-b1de-e063-6294a90ad1f2"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250327"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70518-2722" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>CLINDAMYCIN AND BENZOYL PEROXIDE</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>clindamycin and benzoyl peroxide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="45802-507" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70518-2722-0" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20200501"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="0.6" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>CLINDAMYCIN PHOSPHATE</name>
+                              <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>clindamycin phosphate</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="10"/>
+                                    <denominator unit="g" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="EH6D7113I8" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CLINDAMYCIN PHOSPHATE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="3U02EL437C" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>CLINDAMYCIN</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="0.6" unit="g"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="ANDA202440" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="39.4" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>BENZOYL PEROXIDE</name>
+                              <formCode code="C42934" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GEL"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>benzoyl peroxide</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="4Q93RCW27E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARBOMER HOMOPOLYMER TYPE C (ALLYL PENTAERYTHRITOL CROSSLINKED)</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM HYDROXIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="50"/>
+                                    <denominator unit="g" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="W9WZN9A0GM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BENZOYL PEROXIDE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="W9WZN9A0GM" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>BENZOYL PEROXIDE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="39.4" unit="g"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43195" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="JAR"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="ANDA202440" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA202440" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200501"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_4940360a-5cc0-47d3-adc7-eb81d41efb9e">
+               <id root="dc9f5348-fd7f-bdee-e053-2a95a90a6372"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Topical Gel: clindamycin (1%) as clindamycin phosphate, benzoyl peroxide (5%)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Dermatological Use Only - Not for Ophthalmic Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">*Reconstitute Before Dispensing*</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_bf1270d2-a895-4acb-8c13-8cd026b10ec9">
+               <id root="dc9f5348-fd80-bdee-e053-2a95a90a6372"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Clindamycin and benzoyl peroxide topical gel, 1%/5% </content>contains clindamycin phosphate, (7(S)-chloro-7-deoxylincomycin-2-phosphate). Clindamycin phosphate is a water soluble ester of the semi-synthetic antibiotic produced by a 7(S)-chloro-substitution of the 7(R)-hydroxyl group of the parent antibiotic lincomycin.
+      
+
+ </paragraph>
+                  <paragraph>Chemically, clindamycin phosphate is (C
+       
+ 
+  <sub>18</sub>H
+       
+ 
+  <sub>34</sub>ClN
+       
+ 
+  <sub>2</sub>O
+       
+ 
+  <sub>8</sub>PS). The structural formula for clindamycin is represented below:
+      
+
+ </paragraph>
+                  <renderMultiMedia ID="id-463966433" referencedObject="ID_1801bf85-7935-4cc4-961b-d46db138b6f5"/>
+                  <paragraph>Clindamycin phosphate has a molecular weight of 504.97 and its chemical name is Methyl 7-chloro-6,7,8-trideoxy-6-(1-methyl-trans-4-propyl-L-2-pyrrolidinecarboxamido) - 1-thio-L- threo-alpha-D-galacto- octopyranoside 2-(dihydrogen phosphate).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Clindamycin and benzoyl peroxide topical gel, 1%/5% </content>also contains benzoyl peroxide, for topical use.
+      
+
+ </paragraph>
+                  <paragraph>Chemically, benzoyl peroxide is (C
+       
+ 
+  <sub>14</sub>H
+       
+ 
+  <sub>10</sub>O
+       
+ 
+  <sub>4</sub>). It has the following structural formula:
+      
+
+ </paragraph>
+                  <renderMultiMedia ID="id1073555221" referencedObject="f86c66a3-bf7d-4294-96d4-32287692f34c"/>
+                  <paragraph>Benzoyl peroxide has a molecular weight of 242.23.</paragraph>
+                  <paragraph>Each gram of 
+       
+ 
+  <content styleCode="bold">clindamycin and benzoyl peroxide topical gel, 1%/5% </content>contains, as dispensed, 10 mg (1%) clindamycin as phosphate and 50 mg (5%) benzoyl peroxide in a base of carbomer homopolymer type C, sodium hydroxide, dioctyl sodium sulfosuccinate, and purified water.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20220414"/>
+               <component>
+                  <observationMedia ID="ID_1801bf85-7935-4cc4-961b-d46db138b6f5">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="f86c66a3-bf7d-4294-96d4-32287692f34c">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_3c3322e0-c77b-4eaf-bc57-3fa31db1f5c4">
+               <id root="dc9f5348-fd81-bdee-e053-2a95a90a6372"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>An 
+       
+ 
+  <content styleCode="italics">in vitro </content>percutaneous penetration study comparing clindamycin and benzoyl peroxide topical gel, 1%/5% and topical 1% clindamycin gel alone, demonstrated there was no statistical difference in penetration between the two drugs. Mean systemic bioavailability of topical clindamycin in clindamycin and benzoyl peroxide topical gel, 1%/5% is suggested to be less than 1%.
+      
+
+ </paragraph>
+                  <paragraph>Benzoyl peroxide has been shown to be absorbed by the skin where it is converted to benzoic acid. Less than 2% of the dose enters systemic circulation as benzoic acid. It is suggested that the lipophilic nature of benzoyl peroxide acts to concentrate the compound into the lipid-rich sebaceous follicle.</paragraph>
+               </text>
+               <effectiveTime value="20220414"/>
+               <component>
+                  <section ID="ID_14cc7ec3-d3e3-4112-8c88-ee6be0d0cb44">
+                     <id root="dc9f5348-fd82-bdee-e053-2a95a90a6372"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics:</title>
+                     <text>
+                        <paragraph>The pharmacokinetics (plasma and urine) of clindamycin from clindamycin and benzoyl peroxide topical gel, 1%/5% was studied in male and female patients (n=13) with acne vulgaris. Clindamycin and benzoyl peroxide topical gel, 1%/5% (~2g) was applied topically to the face and back twice daily for four and a half (4.5) days. Quantifiable (&gt;LOQ=1ng/mL) clindamycin plasma concentrations were obtained in six of thirteen subjects (46.2%) on Day 1 and twelve of thirteen subjects (92.3%) on Day 5. Peak plasma concentrations (C
+         
+ 
+  <sub>max</sub>) of clindamycin ranged from 1.47 ng/mL to 2.77 ng/mL on Day 1 and 1.43 ng/mL to 7.18 ng/mL on Day 5. The AUC (0-12h) ranged from 2.74 ng.h/mL to 12.86 ng.h/mL on Day 1 and 11.4 ng.h/mL to 69.7 ng.h/mL on Day 5.
+        
+
+ </paragraph>
+                        <paragraph>The amount of clindamycin excreted in the urine during the 12 hour dosing interval increased from a mean (SD) of 5745 (3130) ng on Day 1 to 12069 (7660) ng on Day 5. The mean % (SD) of the administered dose that was excreted in the urine ranged from 0.03% (0.02) to 0.08% (0.04).</paragraph>
+                        <paragraph>A comparison of the single (Day 1) and multiple (Day 5) dose plasma and urinary concentrations of clindamycin indicates that there is accumulation of clindamycin following multiple dosing of clindamycin and benzoyl peroxide topical gel, 1%/5%. The degree of accumulation calculated from the plasma and urinary excretion data was ~2-fold.</paragraph>
+                     </text>
+                     <effectiveTime value="20220414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_1699e4d0-8a2f-4499-81ac-00a9dfcd973d">
+                     <id root="dc9f5348-fd83-bdee-e053-2a95a90a6372"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>Microbiology:</title>
+                     <text>
+                        <paragraph>The clindamycin and benzoyl peroxide components individually have been shown to have 
+         
+ 
+  <content styleCode="italics">in vitro </content>activity against 
+         
+ 
+  <content styleCode="italics">Propionibacterium acnes </content>an organism which has been associated with acne vulgaris; however, the clinical significance of this activity against 
+         
+ 
+  <content styleCode="italics">P. acnes </content>was not examined in clinical trials with this product.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220414"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e93e039f-13ae-4bd4-82e3-07be93db28ae">
+               <id root="dc9f5348-fd84-bdee-e053-2a95a90a6372"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>In two adequate and well controlled clinical studies of 758 patients, 214 used clindamycin and benzoyl peroxide topical gel, 1%/5%, 210 used benzoyl peroxide, 168 used clindamycin, and 166 used vehicle. Clindamycin and benzoyl peroxide topical gel, 1%/5% applied twice daily for 10 weeks was significantly more effective than vehicle in the treatment of moderate to moderately severe facial acne vulgaris. Patients were evaluated and acne lesions counted at each clinical visit; weeks 2, 4, 6, 8 and 10. The primary efficacy measures were the lesion counts and the investigator’s global assessment evaluated at week 10. Patients were instructed to wash the face with a mild soap, using only the hands. Fifteen minutes after the face was thoroughly dry, application was made to the entire face. Non-medicated make-up could be applied at one hour after the clindamycin and benzoyl peroxide topical gel, 1%/5% application. If a moisturizer was required, the patients were provided a moisturizer to be used as needed. Patients were instructed to avoid sun exposure. Percent reductions in lesion counts after treatment for 10 weeks in these two studies are shown below:</paragraph>
+                  <table width="100%">
+                     <col width="22%"/>
+                     <col width="17%"/>
+                     <col width="16%"/>
+                     <col width="16%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" colspan="4" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>Study 1</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Clindamycin and benzoyl peroxide topical gel, 1%/5%</paragraph>
+                              <paragraph>n=120</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>Benzoyl peroxide</paragraph>
+                              <paragraph>n=120</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>Clindamycin</paragraph>
+                              <paragraph>n=120</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>Vehicle</paragraph>
+                              <paragraph>n=120</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" colspan="4" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Mean percent reduction in inflammatory lesion counts</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>46%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>32%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>16%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>+3%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" colspan="4" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Mean percent reduction in non-inflammatory lesion counts</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>22%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>22%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>9%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>+1%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" colspan="4" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Mean percent reduction in total lesion counts</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>36%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>28%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>15%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>0.2%</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="100%">
+                     <col width="22%"/>
+                     <col width="17%"/>
+                     <col width="16%"/>
+                     <col width="16%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" colspan="4" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>Study 2</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Clindamycin and benzoyl peroxide topical gel, 1%/5%</paragraph>
+                              <paragraph>n=95</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>Benzoyl peroxide</paragraph>
+                              <paragraph>n=95</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>Clindamycin</paragraph>
+                              <paragraph>n=49</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>Vehicle</paragraph>
+                              <paragraph>n=48</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" colspan="4" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Mean percent reduction in inflammatory lesion counts</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>63%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>53%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>45%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>42%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" colspan="4" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Mean percent reduction in non-inflammatory lesion counts</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>54%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>50%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>39%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>36%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" colspan="4" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Mean percent reduction in total lesion counts</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>58%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>52%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>42%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>39%</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The clindamycin and benzoyl peroxide topical gel, 1%/5% group showed greater overall improvement than the benzoyl peroxide, clindamycin and vehicle groups as rated by the investigator.</paragraph>
+               </text>
+               <effectiveTime value="20220414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_762a315e-7ddd-4bee-9778-fd732854ada5">
+               <id root="dc9f5348-fd85-bdee-e053-2a95a90a6372"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Clindamycin and benzoyl peroxide topical gel, 1%/5% </content>is indicated for the topical treatment of acne vulgaris.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20220414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_70fde621-b7bf-4b51-aba5-8adb3b717ea3">
+               <id root="dc9f5348-fd86-bdee-e053-2a95a90a6372"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Clindamycin and benzoyl peroxide topical gel, 1%/5% </content>is contraindicated in those individuals who have shown hypersensitivity to any of its components or to lincomycin. It is also contraindicated in those having a history of regional enteritis, ulcerative colitis, or antibiotic-associated colitis.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20220414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_261c2cde-b38c-413a-a878-be4ef9284c52">
+               <id root="dc9f5348-fd87-bdee-e053-2a95a90a6372"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ORALLY AND PARENTERALLY ADMINISTERED CLINDAMYCIN HAS BEEN ASSOCIATED WITH SEVERE COLITIS WHICH MAY RESULT IN PATIENT DEATH. USE OF THE TOPICAL FORMULATION OF CLINDAMYCIN RESULTS IN ABSORPTION OF THE ANTIBIOTIC FROM THE SKIN SURFACE. DIARRHEA, BLOODY DIARRHEA, AND COLITIS (INCLUDING PSEUDOMEMBRANOUS COLITIS) HAVE BEEN REPORTED WITH THE USE OF TOPICAL AND SYSTEMIC CLINDAMYCIN. STUDIES INDICATE A TOXIN(S) PRODUCED BY CLOSTRIDIA IS ONE PRIMARY CAUSE OF ANTIBIOTIC-ASSOCIATED COLITIS. THE COLITIS IS USUALLY CHARACTERIZED BY SEVERE PERSISTENT DIARRHEA AND SEVERE ABDOMINAL CRAMPS AND MAY BE ASSOCIATED WITH THE PASSAGE OF BLOOD AND MUCUS. ENDOSCOPIC EXAMINATION MAY REVEAL PSEUDOMEMBRANOUS COLITIS. STOOL CULTURE FOR 
+        
+  
+   <content styleCode="italics">Clostridium Difficile </content>AND STOOL ASSAY FOR 
+        
+  
+   <content styleCode="italics">C. difficile </content>TOXIN MAY BE HELPFUL DIAGNOSTICALLY. WHEN SIGNIFICANT DIARRHEA OCCURS, THE DRUG SHOULD BE DISCONTINUED. LARGE BOWEL ENDOSCOPY SHOULD BE CONSIDERED TO ESTABLISH A DEFINITIVE DIAGNOSIS IN CASES OF SEVERE DIARRHEA. ANTIPERISTALTIC AGENTS SUCH AS OPIATES AND DIPHENOXYLATE WITH ATROPINE MAY PROLONG AND/OR WORSEN THE CONDITION. DIARRHEA, COLITIS, AND PSEUDOMEMBRANOUS COLITIS HAVE BEEN OBSERVED TO BEGIN UP TO SEVERAL WEEKS FOLLOWING CESSATION OF ORAL AND PARENTERAL THERAPY WITH CLINDAMYCIN.
+       
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>Mild cases of pseudomembranous colitis usually respond to drug discontinuation alone. In moderate to severe cases, consideration should be given to management with fluids and electrolytes, protein supplementation and treatment with an antibacterial drug clinically effective against 
+       
+ 
+  <content styleCode="italics">C. difficile </content>colitis.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20220414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_130d96f9-ed59-4999-a313-4e71b96141b6">
+               <id root="dc9f5348-fd88-bdee-e053-2a95a90a6372"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20220414"/>
+               <component>
+                  <section ID="ID_b79d1b19-8d26-4fd2-869f-49d257a37efc">
+                     <id root="dc9f5348-fd89-bdee-e053-2a95a90a6372"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General:</title>
+                     <text>
+                        <paragraph>For dermatological use only; not for ophthalmic use. Concomitant topical acne therapy should be used with caution because a possible cumulative irritancy effect may occur, especially with the use of peeling, desquamating, or abrasive agents.</paragraph>
+                        <paragraph>The use of antibiotic agents may be associated with the overgrowth of nonsusceptible organisms including fungi. If this occurs, discontinue use of this medication and take appropriate measures.</paragraph>
+                        <paragraph>Avoid contact with eyes and mucous membranes.</paragraph>
+                        <paragraph>Clindamycin and erythromycin containing products should not be used in combination. 
+         
+ 
+  <content styleCode="italics">In vitro </content>studies have shown antagonism between these two antimicrobials. The clinical significance of this 
+         
+ 
+  <content styleCode="italics">in vitro </content>antagonism is not known.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_699378ba-4b87-4a20-9ba7-4ee2c16e25dc">
+                     <id root="dc9f5348-fd8a-bdee-e053-2a95a90a6372"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients:</title>
+                     <text>
+                        <paragraph>Patients using 
+         
+ 
+  <content styleCode="bold">clindamycin and benzoyl peroxide topical gel, 1%/5% </content>should receive the following information and instructions:
+        
+
+ </paragraph>
+                        <paragraph>1. 
+         
+ 
+  <content styleCode="bold">Clindamycin and benzoyl peroxide topical gel, 1%/5% </content>is to be used as directed by the physician. It is for external use only. Avoid contact with eyes, and inside the nose, mouth, and all mucous membranes, as this product may be irritating.
+        
+
+ </paragraph>
+                        <paragraph>2. This medication should not be used for any disorder other than that for which it was prescribed.</paragraph>
+                        <paragraph>3. Patients should not use any other topical acne preparation unless otherwise directed by physician.</paragraph>
+                        <paragraph>4. Patients should minimize or avoid exposure to natural or artificial sunlight (tanning beds or UVA/B treatment) while using clindamycin and benzoyl peroxide topical gel, 1%/5%. To minimize exposure to sunlight, a wide-brimmed hat or other protective clothing should be worn, and a sunscreen with SPF 15 rating or higher should be used.</paragraph>
+                        <paragraph>5. Patients who develop allergic symptoms such as severe swelling or shortness of breath should discontinue 
+         
+ 
+  <content styleCode="bold">clindamycin and benzoyl peroxide topical gel, 1%/5% </content>and contact their physician immediately. In addition, patients should report any signs of local adverse reactions to their physician.
+        
+
+ </paragraph>
+                        <paragraph>6. 
+         
+ 
+  <content styleCode="bold">Clindamycin and benzoyl peroxide topical gel, 1%/5% </content>may bleach hair or colored fabric.
+        
+
+ </paragraph>
+                        <paragraph>7. 
+         
+ 
+  <content styleCode="bold">Clindamycin and benzoyl peroxide topical gel, 1%/5% </content>can be stored at room temperature up to 25°C (77°F) for 3 months. Do not freeze. Discard any unused product after 3 months.
+        
+
+ </paragraph>
+                        <paragraph>8. Before applying 
+         
+ 
+  <content styleCode="bold">clindamycin and benzoyl peroxide topical gel, 1%/5% </content>to affected areas wash the skin gently, then rinse with warm water and pat dry.
+        
+
+ </paragraph>
+                        <paragraph>Repackaged By / Distributed By: RemedyRepack Inc.</paragraph>
+                        <paragraph>625 Kolter Drive, Indiana, PA 15701</paragraph>
+                        <paragraph>(724) 465-8762</paragraph>
+                     </text>
+                     <effectiveTime value="20220414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_cabfd2bb-2499-4bad-bcee-e22c3095cd59">
+                     <id root="dc9f5348-fd8b-bdee-e053-2a95a90a6372"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility:</title>
+                     <text>
+                        <paragraph>Benzoyl peroxide has been shown to be a tumor promoter and progression agent in a number of animal studies. The clinical significance of this is unknown.</paragraph>
+                        <paragraph>Benzoyl peroxide in acetone at doses of 5 and 10 mg administered twice per week induced skin tumors in transgenic Tg.AC mice in a study using 20 weeks of topical treatment.</paragraph>
+                        <paragraph>In a 52 week dermal photocarcinogenicity study in hairless mice, the median time to onset of skin tumor formation was decreased and the number of tumors per mouse increased following chronic concurrent topical administration of clindamycin and benzoyl peroxide topical gel, 1%/5% with exposure to ultraviolet radiation (40 weeks of treatment followed by 12 weeks of observation).</paragraph>
+                        <paragraph>In a 2-year dermal carcinogenicity study in rats, treatment with clindamycin and benzoyl peroxide topical gel, 1%/5% at doses of 100, 500 and 2000 mg/kg/day caused a dose-dependent increase in the incidence of keratoacanthoma at the treated skin site of male rats. The incidence of keratoacanthoma at the treated site of males treated with 2000 mg/kg/day (8 times the highest recommended adult human dose of 2.5 g clindamycin and benzoyl peroxide topical gel, 1%/5%, based on mg/m
+         
+ 
+  <sup>2</sup>) was statistically significantly higher than that in the sham- and vehicle-controls.
+        
+
+ </paragraph>
+                        <paragraph>Genotoxicity studies were not conducted with clindamycin and benzoyl peroxide topical gel, 1%/5%. Clindamycin phosphate was not genotoxic in 
+         
+ 
+  <content styleCode="italics">Salmonella typhimurium </content>or in a rat micronucleus test. Clindamycin phosphate sulfoxide, an oxidative degradation product of clindamycin phosphate and benzoyl peroxide, was not clastogenic in a mouse micronucleus test. Benzoyl peroxide has been found to cause DNA strand breaks in a variety of mammalian cell types, to be mutagenic in 
+         
+ 
+  <content styleCode="italics">S. typhimurium </content>tests by some but not all investigators, and to cause sister chromatid exchanges in Chinese hamster ovary cells. Studies have not been performed with clindamycin and benzoyl peroxide topical gel, 1%/5% or benzoyl peroxide to evaluate the effect on fertility. Fertility studies in rats treated orally with up to 300 mg/kg/day of clindamycin (approximately 120 times the amount of clindamycin in the highest recommended adult human dose of 2.5 g clindamycin and benzoyl peroxide topical gel, 1%/5%, based on mg/m
+         
+ 
+  <sup>2</sup>) revealed no effects on fertility or mating ability.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_82d60493-386c-4b5a-8de3-1abd605c1932">
+                     <id root="dc9f5348-fd8c-bdee-e053-2a95a90a6372"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy: Teratogenic Effects: Pregnancy Category C:</title>
+                     <text>
+                        <paragraph>Animal reproductive/developmental toxicity studies have not been conducted with clindamycin and benzoyl peroxide topical gel, 1%/5% or benzoyl peroxide. Developmental toxicity studies performed in rats and mice using oral doses of clindamycin up to 600 mg/kg/day (240 and 120 times amount of clindamycin in the highest recommended adult human dose based on mg/m
+         
+ 
+  <sup>2</sup>, respectively) or subcutaneous doses of clindamycin up to 250 mg/kg/day (100 and 50 times the amount of clindamycin in the highest recommended adult human dose based on mg/m
+         
+ 
+  <sup>2</sup>, respectively) revealed no evidence of teratogenicity.
+        
+
+ </paragraph>
+                        <paragraph>There are no well-controlled trials in pregnant women treated with clindamycin and benzoyl peroxide topical gel, 1%/5%. It also is not known whether clindamycin and benzoyl peroxide topical gel, 1%/5% can cause fetal harm when administered to a pregnant woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20220414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b4fa3534-b414-4bbb-aae2-f5812461e907">
+                     <id root="dc9f5348-fd8d-bdee-e053-2a95a90a6372"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Women:</title>
+                     <text>
+                        <paragraph>It is not known whether clindamycin and benzoyl peroxide topical gel, 1%/5% is excreted in human milk after topical application. However, orally and parenterally administered clindamycin has been reported to appear in breast milk. Because of the potential for serious adverse reactions in nursing infants, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20220414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_68826c33-6b95-4652-ab5a-108055cc199b">
+                     <id root="dc9f5348-fd8e-bdee-e053-2a95a90a6372"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use:</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of this product in pediatric patients below the age of 12 have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20220414"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_17810c55-edf0-487f-8d32-5e1a1c6fb76d">
+               <id root="dc9f5348-fd8f-bdee-e053-2a95a90a6372"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>During clinical trials, the most frequently reported adverse event in the clindamycin and benzoyl peroxide topical gel, 1%/5% treatment group was dry skin (12%). The Table below lists local adverse events reported by at least 1% of patients in the clindamycin and benzoyl peroxide topical gel, 1%/5% and vehicle groups.</paragraph>
+                  <table width="100%">
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" colspan="3" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>Local Adverse Events – all causalities in &gt;/= 1% of patients</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top"/>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>Clindamycin and benzoyl peroxide topical gel, 1%/5%</paragraph>
+                              <paragraph>n=420</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>Vehicle</paragraph>
+                              <paragraph>n=168</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Application site reaction</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>13 (3%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>1 (&lt;1%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Dry skin</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>50 (12%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>10 (6%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Pruritus</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>8 (2%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>1 (&lt;1%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Peeling</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>9 (2%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>-</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Erythema</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>6 (1%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>1 (&lt;1%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>Sunburn</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>5 (1%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>-</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <br/>The actual incidence of dry skin might have been greater were it not for the use of a moisturizer in these studies.
+      
+
+ </paragraph>
+                  <paragraph>Anaphylaxis, as well as allergic reactions leading to hospitalization, have been reported during post-marketing use of clindamycin/benzoyl peroxide products. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+               </text>
+               <effectiveTime value="20220414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_4f1304fc-ddd8-46e0-b831-f0e231599a7c">
+               <id root="dc9f5348-fd90-bdee-e053-2a95a90a6372"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Clindamycin and benzoyl peroxide topical gel, 1%/5% </content>should be applied twice daily, morning and evening, or as directed by a physician, to affected areas after the skin is gently washed, rinsed with warm water and patted dry.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20220414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e1dd29f2-ec15-4659-a3ea-9e953b7fe5dc">
+               <id root="dc9f5348-fd91-bdee-e053-2a95a90a6372"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED AND COMPOUNDING INSTRUCTIONS</title>
+               <text>
+                  <paragraph>Size (Net Weight): 50 grams, Benzoyl Peroxide Gel: 39.4g, Active Clindamycin Powder (In plastic vial): 0.6g, Purified Water To Be Added to each vial: 10 Ml</paragraph>
+                  <paragraph>NDC: 70518-2722-00</paragraph>
+                  <paragraph>PACKAGING: 1 in 1 CARTON, TYPE 1</paragraph>
+                  <paragraph/>
+                  <paragraph>Prior to dispensing, tap the vial until powder flows freely. Add indicated amount of purified water to the vial (to the mark) and immediately shake to completely dissolve clindamycin. If needed, add additional purified water to bring level up to the mark. Add the solution in the vial to the gel and stir until homogenous in appearance (1 to 1½ minutes). For the 35 and 50 gram pumps only, reassemble jar with pump dispenser. Clindamycin and benzoyl peroxide topical gel, 1%/5% (as reconstituted) can be stored at room temperature up to 25°C (77°F) for 3 months. Place a 3 month expiration date on the label immediately following mixing.</paragraph>
+                  <paragraph/>
+                  <paragraph>Repackaged and Distributed By:</paragraph>
+                  <paragraph>Remedy Repack, Inc.</paragraph>
+                  <paragraph>625 Kolter Dr. Suite #4 Indiana, PA 1-724-465-8762</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6b1818fb-e3f5-4d45-bdf9-0caa1ee14c64">
+               <id root="dc9f5348-fd92-bdee-e053-2a95a90a6372"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Store at room temperature up to 25ºC (77ºF) {See USP}.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not freeze. Keep tightly closed. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of the reach of children.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_9a60cc98-1945-46ec-b8ba-366652f3f0ec">
+               <id root="dc9f72c3-1386-7f21-e053-2a95a90ad5ef"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph/>
+                  <paragraph>Repackaged and Distributed By:</paragraph>
+                  <paragraph>Remedy Repack, Inc.</paragraph>
+                  <paragraph>625 Kolter Dr. Suite #4 Indiana, PA 1-724-465-8762</paragraph>
+               </text>
+               <effectiveTime value="20220414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_dca064db-ca1c-bfac-e053-2995a90a19d5">
+               <id root="e38988c9-f791-6ed7-e053-2995a90ae43c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>DRUG: CLINDAMYCIN PHOSPHATE</paragraph>
+                  <paragraph>GENERIC: clindamycin phosphate</paragraph>
+                  <paragraph>DOSAGE: POWDER, FOR SOLUTION</paragraph>
+                  <paragraph>ADMINSTRATION: TOPICAL</paragraph>
+                  <paragraph>NDC: 70518-2722-0</paragraph>
+                  <paragraph>PACKAGING: 1 in 1 CARTON</paragraph>
+                  <paragraph>ACTIVE INGREDIENT(S):</paragraph>
+                  <list listType="unordered">
+                     <item>CLINDAMYCIN PHOSPHATE 10mg in 1g</item>
+                  </list>
+                  <paragraph>INACTIVE INGREDIENT(S):</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_e3898850-8f6e-32d9-e053-2995a90aefda"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220414"/>
+               <component>
+                  <observationMedia ID="img_e3898850-8f6e-32d9-e053-2995a90aefda">
+                     <text>MM1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Clindamycin and Benzoyl Peroxide_70518-2722-00.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

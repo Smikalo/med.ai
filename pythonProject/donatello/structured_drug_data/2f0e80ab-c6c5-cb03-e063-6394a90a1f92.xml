@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2f0e80ab-c6c5-cb03-e063-6394a90a1f92"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use TRANEXAMIC ACID IN SODIUM CHLORIDE INJECTION safely and effectively. See full prescribing information for TRANEXAMIC ACID IN SODIUM CHLORIDE INJECTION.
+ <br/>
+      <br/>
+TRANEXAMIC ACID IN SODIUM CHLORIDE injection, for intravenous use
+ <br/>
+Initial U.S. Approval: 1986
+</title>
+   <effectiveTime value="20250226"/>
+   <setId root="c479dccd-15c6-47c2-9675-680ebb9db2cb"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="620714787"/>
+            <name>Nexus Pharmaceuticals LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="620714787"/>
+                        <name>Nexus Pharmaceuticals LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="14789-115" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2f25bb8f-6f6d-85d8-e063-6294a90a845a"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250226"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="14789-115" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Tranexamic Acid</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Tranexamic Acid</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6T84R30KC1" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRANEXAMIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="6T84R30KC1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRANEXAMIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="14789-115-08" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="14789-115-05" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20240625"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA216877" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20240625"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="2f0e80ab-c6c6-cb03-e063-6394a90a1f92"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Tranexamic Acid in Sodium Chloride Injection is indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction.</paragraph>
+               </text>
+               <effectiveTime value="20220131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Tranexamic Acid in Sodium Chloride Injection is an antifibrinolytic indicated in patients with hemophilia for short-term use (two to eight days) to reduce or prevent hemorrhage and reduce the need for replacement therapy during and following tooth extraction (
+ 
+    <linkHtml href="#s1">1</linkHtml>).
+
+   </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="2f0e80ab-c6c7-cb03-e063-6394a90a1f92"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20220131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Before Extraction: Administer 10 mg/kg actual body weight of Tranexamic Acid in Sodium Chloride Injection intravenously with replacement therapy.</item>
+                           <item>After Extraction: Administer 10 mg/kg actual body weight 3 to 4 times daily for 2 to 8 days. Infuse no more than 10 mL/minute to avoid hypotension (
+  
+     <linkHtml href="#s3">2.1</linkHtml>).
+ 
+    </item>
+                           <item>Reduce the dosage for patients with renal impairment (
+  
+     <linkHtml href="#s4">2.2</linkHtml>,
+  
+     <linkHtml href="#s29">8.6</linkHtml>).
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s3">
+                     <id root="2f0e80ab-c6c8-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Recommended Dosage</title>
+                     <text>
+                        <paragraph>The recommended dose of Tranexamic Acid in Sodium Chloride Injection is 10 mg/kg actual body weight intravenously administered as a single dose, immediately before tooth extractions. Infuse no more than 10 mL/minute to avoid hypotension
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#s8">5.1</linkHtml>)]
+ 
+  </content>. Following tooth extraction, Tranexamic Acid in Sodium Chloride Injection may be administered for 2 to 8 days at a dose of 10 mg/kg actual body weight three to four times daily, intravenously.
+
+ </paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Do not use Tranexamic Acid in Sodium Chloride Injection if particulate matter or coloration is seen.</paragraph>
+                        <paragraph>Tranexamic Acid in Sodium Chloride Injection should NOT be mixed with blood. The drug is a synthetic amino acid and should NOT be mixed with solutions containing penicillin.</paragraph>
+                        <paragraph>The premix flexible plastic container bag contains no preservative; discard any unused portion.</paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s4">
+                     <id root="2f0e80ab-c6c9-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Recommended Dosage for Patients with Varying Degrees of Renal Impairment*</title>
+                     <text>
+                        <paragraph>For patients with moderate to severe impaired renal function, the following dosages are recommended:</paragraph>
+                        <table ID="t1" width="100%">
+                           <caption>Table 1. Recommended Dosage in Patients with Varying Degrees of Renal Impairment</caption>
+                           <col width="43.500%" align="left"/>
+                           <col width="56.500%" align="left"/>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="2" align="left" valign="top">
+                                    <paragraph styleCode="footnote">*Dose reduction is recommended for all doses, both before and after tooth extraction.</paragraph>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td align="left" styleCode="Toprule Botrule Lrule Rrule" valign="top">
+                                    <content styleCode="bold">Serum Creatinine (mg/dL)</content>
+                                 </td>
+                                 <td align="left" styleCode="Toprule Botrule Rrule" valign="top">
+                                    <content styleCode="bold">Tranexamic Acid in Sodium Chloride Injection</content>
+                                    <br/>
+                                    <content styleCode="bold">Intravenous Dosage</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" styleCode="Botrule Lrule Rrule" valign="top">1.36 to 2.83 
+     <br/>
+                                    <br/>  (120 to 250 micromol/L)
+    </td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">
+                                    <br/>  10 mg/kg twice daily
+    </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" styleCode="Botrule Lrule Rrule" valign="top">2.83 to 5.66 
+     <br/>
+                                    <br/>  (250 to 500 micromol/L)
+    </td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">
+                                    <br/>  10 mg/kg daily
+    </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" styleCode="Botrule Lrule Rrule" valign="top">&gt;5.66 
+     <br/>
+                                    <br/>  (&gt;500 micromol/L)
+    </td>
+                                 <td align="left" styleCode="Botrule Rrule" valign="top">
+                                    <br/>  10 mg/kg every 48 hours or 5 mg/kg every 24 hours
+    </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="2f0e80ab-c6ca-cb03-e063-6394a90a1f92"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Injection: 1,000 mg of tranexamic acid in 100 mL (10 mg/mL), colorless solution in a single-dose bag for intravenous use</paragraph>
+               </text>
+               <effectiveTime value="20220131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Injection: 1,000 mg of tranexamic acid in 100 mL (10 mg/mL) sterile, unpreserved, colorless solution in a single-dose bag for intravenous use (
+ 
+    <linkHtml href="#s5">3</linkHtml>).
+
+   </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="2f0e80ab-c6cb-cb03-e063-6394a90a1f92"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Tranexamic Acid in Sodium Chloride Injection is contraindicated:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>In patients with subarachnoid hemorrhage. Anecdotal experience indicates that cerebral edema and cerebral infarction may be caused by tranexamic acid in such patients.</item>
+                     <item>In patients with active intravascular clotting
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#s8">5.1</linkHtml>)]
+  
+   </content>.
+ 
+  </item>
+                     <item>In patients with hypersensitivity to tranexamic acid or any of the ingredients
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#s10">5.3</linkHtml>)]
+  
+   </content>.
+ 
+  </item>
+                  </list>
+               </text>
+               <effectiveTime value="20220131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>In patients with subarachnoid hemorrhage, due to risk of cerebral edema and cerebral infarction (
+  
+     <linkHtml href="#s6">4</linkHtml>).
+ 
+    </item>
+                           <item>In patients with active intravascular clotting (
+  
+     <linkHtml href="#s6">4</linkHtml>).
+ 
+    </item>
+                           <item>In patients with severe hypersensitivity reactions to tranexamic acid or any of the ingredients (
+  
+     <linkHtml href="#s6">4</linkHtml>).
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="2f0e80ab-c6cc-cb03-e063-6394a90a1f92"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20220131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Risk of Thrombosis with concomitant use of Factor IX: Avoid concomitant use (
+  
+     <linkHtml href="#s8">5.1</linkHtml>).
+ 
+    </item>
+                           <item>Seizures: Inadvertent injection into neuraxial system may result in seizures (
+  
+     <linkHtml href="#s9">5.2</linkHtml>).
+ 
+    </item>
+                           <item>Hypersensitivity Reactions: In case of severe reaction, discontinue use and seek immediate medical attention (
+  
+     <linkHtml href="#s10">5.3</linkHtml>).
+ 
+    </item>
+                           <item>Visual Disturbances: Visual or ocular adverse effects may occur. Discontinue use if visual or ocular symptoms occur (
+  
+     <linkHtml href="#s11">5.4</linkHtml>).
+ 
+    </item>
+                           <item>Dizziness. Advise patients not to drive if dizziness occurs (
+  
+     <linkHtml href="#s12">5.5</linkHtml>).
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s8">
+                     <id root="2f0e80ab-c6cd-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Thromboembolic Risk</title>
+                     <text>
+                        <paragraph>Tranexamic Acid in Sodium Chloride Injection is contraindicated in patients with active intravascular clotting.</paragraph>
+                        <paragraph>Tranexamic acid is an antifibrinolytic and may increase the risk of thromboembolic events. Venous and arterial thrombosis or thromboembolism has been reported in patients treated with tranexamic acid. Avoid concomitant use of Tranexamic Acid in Sodium Chloride Injection and medical products that are pro-thrombotic, as the risk of thrombosis may be increased. These medications include but are not limited to, Factor IX Complex concentrates, Anti-inhibitor Coagulant concentrates, and hormonal contraceptives
+ 
+  <content styleCode="italics">[see Drug Interactions (
+  
+   <linkHtml href="#s16">7.1</linkHtml>), Use in Specific Populations (
+  
+   <linkHtml href="#s25">8.3</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="2f0e80ab-c6ce-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Seizures</title>
+                     <text>
+                        <paragraph>Tranexamic acid may cause seizures, including focal and generalized seizures. The most common setting for tranexamic acid-induced seizures has been during cardiovascular surgery (a setting in which Tranexamic Acid in Sodium Chloride Injection is not FDA approved and which uses doses of up to ten-fold higher than the recommended human dose and in patients inadvertently given tranexamic acid into the neuraxial system). Tranexamic Acid in Sodium Chloride Injection is not approved and not recommended for neuraxial administration. Consider dose reduction during surgery and dose adjustments for patients with clinical conditions such as renal dysfunction. Closely monitor the patient during surgery. Consider electroencephalogram (EEG) monitoring for patients with history of seizures or who experience myoclonic movements, twitching, or show evidence of focal seizures. Discontinue Tranexamic Acid in Sodium Chloride Injection if seizures occur.</paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s10">
+                     <id root="2f0e80ab-c6cf-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Hypersensitivity Reactions</title>
+                     <text>
+                        <paragraph>Cases of hypersensitivity reactions, including anaphylactic reactions, have occurred with use of intravenous tranexamic acid. Discontinue treatment with Tranexamic Acid in Sodium Chloride Injection if serious reaction occurs, provide appropriate medical management, and do not restart treatment. Tranexamic Acid in Sodium Chloride Injection is contraindicated in patients with a history of hypersensitivity to tranexamic acid.</paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="2f0e80ab-c6d0-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Visual Disturbances</title>
+                     <text>
+                        <paragraph>Although not seen in humans, focal areas of retinal degeneration have been observed in cats and dogs following oral or intravenous tranexamic acid at doses between 250 to 1600 mg/kg/day (1.6 to 22 times the recommended usual human dose based on body surface area) from 6 days to 1 year. No retinal changes have been observed in eye examinations of patients treated with tranexamic acid for up to 8 years. Patients expected to be treated for greater than 3 months may consider ophthalmic monitoring including visual acuity and optical coherence tomography at regular intervals. Discontinue Tranexamic Acid in Sodium Chloride Injection if changes in ophthalmological examination occurs.</paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="2f0e80ab-c6d1-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Dizziness</title>
+                     <text>
+                        <paragraph>Tranexamic acid may cause dizziness. Concomitant use of other drugs that may also cause dizziness may worsen this effect. Advise patients to avoid driving or using machines until they know how Tranexamic Acid in Sodium Chloride Injection affects them.</paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s13">
+               <id root="2f0e80ab-c6d2-cb03-e063-6394a90a1f92"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following clinically significant adverse reactions are described elsewhere in the labeling:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Thromboembolic Risk
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#s8">5.1</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>Seizures
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#s9">5.2</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>Hypersensitivity Reactions
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#s10">5.3</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>Visual Disturbances
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#s11">5.4</linkHtml>)]
+  
+   </content>
+                     </item>
+                     <item>Dizziness
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#s12">5.5</linkHtml>)]
+  
+   </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20220131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions are nausea, vomiting, diarrhea, allergic dermatitis, giddiness, hypotension, and thromboembolic events (
+ 
+    <linkHtml href="#s13">6</linkHtml>).
+
+   </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Nexus Pharmaceuticals at (855) 642-2594 or FDA at 1-800-FDA-1088 or</content>
+                           <content styleCode="bold">
+                              <content styleCode="underline">www.fda.gov/medwatch</content>
+                           </content>
+                           <content styleCode="bold">.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s14">
+                     <id root="2f0e80ab-c6d3-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2 Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during postapproval use of tranexamic acid. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>Gastrointestinal disturbances (nausea, vomiting, diarrhea) may occur and may resolve with dose-reduction. Allergic dermatitis and giddiness have been reported. Hypotension has been reported when intravenous injection is too rapid.</paragraph>
+                        <paragraph>Thromboembolic events (e.g., deep vein thrombosis, pulmonary embolism, cerebral thrombosis, acute renal cortical necrosis, and central retinal artery, vein obstruction and cases associated with concomitant use of combination hormonal contraceptives) have been rarely reported in patients receiving tranexamic acid for indications other than hemorrhage prevention in patients with hemophilia. Convulsion, cromatopsia, and visual impairment have also been reported.</paragraph>
+                        <paragraph>Anaphylaxis or anaphylactoid reactions have been reported that are suggestive of a causal relationship.</paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s15">
+               <id root="2f0e80ab-c6d4-cb03-e063-6394a90a1f92"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20220131"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Prothrombotic Medical Products: Avoid concomitant use, can further increase the risk of thromboembolic adverse reactions associated with tranexamic acid (
+ 
+    <linkHtml href="#s8">5.1</linkHtml>,
+ 
+    <linkHtml href="#s16">7.1</linkHtml>,
+ 
+    <linkHtml href="#s25">8.3</linkHtml>).
+
+   </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s16">
+                     <id root="2f0e80ab-c6d5-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Prothrombotic Medical Products</title>
+                     <text>
+                        <paragraph>Avoid concomitant use of Tranexamic Acid in Sodium Chloride Injection with medical products that are prothrombotic because concomitant use can further increase the risk of thromboembolic adverse reactions associated with tranexamic acid
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#s8">5.1</linkHtml>), Use in Specific Populations (
+  
+   <linkHtml href="#s25">8.3</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s17">
+               <id root="2f0e80ab-c6d6-cb03-e063-6394a90a1f92"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20220131"/>
+               <component>
+                  <section ID="s18">
+                     <id root="2f0e80ab-c6d7-cb03-e063-6394a90a1f92"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <effectiveTime value="20220131"/>
+                     <component>
+                        <section ID="s19">
+                           <id root="2f0e80ab-c6d8-cb03-e063-6394a90a1f92"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>Available data from published studies, case series and case reports with tranexamic acid use in pregnant women in the second and third trimester and at the time of delivery have not clarified whether there is a drug-associated risk of miscarriage or adverse maternal or fetal outcomes. There are 2 (0.02%) infant cases with structural abnormalities that resulted in death when tranexamic acid was used during conception or the first trimester of pregnancy; however, due to other confounding factors the risk of major birth defects with use of tranexamic acid during pregnancy is not clear.</paragraph>
+                              <paragraph>Tranexamic acid is known to pass the placenta and appears in cord blood at concentrations approximately equal to maternal concentration (
+ 
+  <content styleCode="italics">see
+  
+   <linkHtml href="#s20">Data</linkHtml>
+                                 </content>).
+
+ </paragraph>
+                              <paragraph>Reproduction studies performed in mice, rats, and rabbits have not revealed any adverse effects on the fetus due to tranexamic acid administered during organogenesis. Doses examined were multiples of up to 3 times (mouse), 6 times (rat), and 3 times (rabbit) the maximum human dose based on body surface area in the mouse, rat, and rabbit, respectively
+ 
+  <content styleCode="italics">(see
+  
+   <linkHtml href="#s20">Data</linkHtml>)
+ 
+  </content>.
+
+ </paragraph>
+                              <paragraph>The estimated background risk for major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in the clinically recognized pregnancies is 2-4% and 15-20%, respectively.</paragraph>
+                              <paragraph>It is not known whether tranexamic acid use in pregnant women may cause a drug-associated risk of miscarriage or adverse maternal or fetal outcomes. For decisions regarding the use of Tranexamic Acid in Sodium Chloride Injection during pregnancy, the potential risk of Tranexamic Acid in Sodium Chloride Injection administration on the fetus should always be considered along with the mother's clinical need for Tranexamic Acid in Sodium Chloride Injection; an accurate risk-benefit evaluation should drive the treating physician's decision.</paragraph>
+                           </text>
+                           <effectiveTime value="20220131"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s20">
+                           <id root="2f0e80ab-c6d9-cb03-e063-6394a90a1f92"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Data</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20220131"/>
+                           <component>
+                              <section ID="s21">
+                                 <id root="2f0e80ab-c6da-cb03-e063-6394a90a1f92"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Human Data</content>
+                                    </paragraph>
+                                    <paragraph>Tranexamic acid passes through the placenta. The concentration in cord blood after an intravenous injection of 10 mg/kg to pregnant women is about 30 mg/L, as high as in the maternal blood.</paragraph>
+                                    <paragraph>There were 13 clinical studies that described fetal and/or neonatal functional issues such as low Apgar score, neonatal sepsis, cephalohematoma and 9 clinical studies that discussed alterations to growth including low birth weight and preterm birth at 22-36 weeks of gestation in fetuses and infants exposed to tranexamic acid in-utero.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20220131"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="s22">
+                                 <id root="2f0e80ab-c6db-cb03-e063-6394a90a1f92"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Animal Data</content>
+                                    </paragraph>
+                                    <paragraph>In embryo-fetal development studies, tranexamic acid was administered to pregnant mice from Gestation day (GD) 6 through GD 12 and rats from GD 9 through GD 14 at daily doses of 0.3 or 1.5 g/kg. There was no evidence of adverse developmental outcomes in mice and rats at multiple of 3 and 6 times the maximum recommended human dose based on body surface area in the mouse and rat, respectively.</paragraph>
+                                    <paragraph>In rabbits, tranexamic acid was administered intravenously at doses of 50, 100, or 200 mg/kg/day or orally at doses of 100, 200, or 400 mg/kg/day from GD 6 through GD 18. There was no evidence of adverse developmental outcomes at dose multiples of 2 or 3 times, respectively, the maximum recommended human dose based on body surface area.</paragraph>
+                                    <paragraph>Intravenous doses of 200 mg/kg/day showed slightly retarded weight gain in pregnant rabbits.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20220131"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s23">
+                     <id root="2f0e80ab-c6dc-cb03-e063-6394a90a1f92"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <effectiveTime value="20220131"/>
+                     <component>
+                        <section ID="s24">
+                           <id root="2f0e80ab-c6dd-cb03-e063-6394a90a1f92"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>Published literature reports the presence of tranexamic acid in human milk. There are no data on the effects of tranexamic acid on the breastfed child or the effects on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for Tranexamic Acid in Sodium Chloride Injection and any potential adverse effects on the breastfed child from Tranexamic Acid in Sodium Chloride Injection or from the underlying maternal condition.</paragraph>
+                           </text>
+                           <effectiveTime value="20220131"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s25">
+                     <id root="2f0e80ab-c6de-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.3 Females and Males of Reproductive Potential</title>
+                     <effectiveTime value="20220131"/>
+                     <component>
+                        <section ID="s26">
+                           <id root="2f0e80ab-c6df-cb03-e063-6394a90a1f92"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Contraception</content>
+                              </paragraph>
+                              <paragraph>Concomitant use of Tranexamic Acid in Sodium Chloride Injection, which is an antifibrinolytic, with hormonal contraceptives may increase the risk for thromboembolic adverse reactions. Advise patients to use an effective alternative (nonhormonal) contraceptive method
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#s12">5.5</linkHtml>), Drug Interactions (
+  
+   <linkHtml href="#s16">7.1</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20220131"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s27">
+                     <id root="2f0e80ab-c6e0-cb03-e063-6394a90a1f92"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>There are limited data concerning the use of tranexamic acid in pediatric patients with hemophilia who are undergoing tooth extraction. The limited data suggest that there are no significant pharmacokinetic differences between adult and pediatric patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s28">
+                     <id root="2f0e80ab-c6e1-cb03-e063-6394a90a1f92"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of tranexamic acid did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients.</paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function
+ 
+  <content styleCode="italics">[Dosage and Administration (
+  
+   <linkHtml href="#s4">2.2</linkHtml>), Clinical Pharmacology (
+  
+   <linkHtml href="#s35">12.3</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s29">
+                     <id root="2f0e80ab-c6e2-cb03-e063-6394a90a1f92"/>
+                     <code code="88828-9" codeSystem="2.16.840.1.113883.6.1" displayName="RENAL IMPAIRMENT SUBSECTION"/>
+                     <title>8.6 Renal Impairment</title>
+                     <text>
+                        <paragraph>Reduce the dosage of Tranexamic Acid in Sodium Chloride Injection in patients with renal impairment, based on the patient's serum creatinine
+ 
+  <content styleCode="italics">[see Dosage and Administration (
+  
+   <linkHtml href="#s4">2.2</linkHtml>), Clinical Pharmacology (
+  
+   <linkHtml href="#s35">12.3</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s30">
+               <id root="2f0e80ab-c6e3-cb03-e063-6394a90a1f92"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Cases of overdosage of tranexamic acid have been reported. Based on these reports, symptoms of overdosage may be gastrointestinal, e.g., nausea, vomiting, diarrhea; hypotensive, e.g., orthostatic symptoms; thromboembolic; e.g., arterial, venous, embolic; neurologic, e.g., visual impairment, convulsions, headache, mental status changes; myoclonus; and rash. Tranexamic acid is not dialyzable.</paragraph>
+               </text>
+               <effectiveTime value="20220131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s31">
+               <id root="2f0ee566-239d-4749-e063-6294a90a85d9"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Tranexamic acid is trans-4-(aminomethyl)cyclohexanecarboxylic acid, an antifibrinolytic agent. Tranexamic acid is a white crystalline powder. The structural formula is</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2f0ee6e8-5266-155e-e063-6394a90a4284"/>
+                  </paragraph>
+                  <paragraph>Empirical Formula: C 
+  <sub>8</sub>H 
+  <sub>15</sub>NO 
+  <sub>2</sub>         Molecular Weight: 157.2
+ </paragraph>
+                  <paragraph>Tranexamic Acid in Sodium Chloride Injection is a clear to colorless sterile, nonpyrogenic injectable solution for intravenous administration. Each IV bag contains 1,000 mg tranexamic acid, USP, 700 mg of sodium chloride, USP and Water for Injection, USP. The aqueous solution has a pH of 6.5 to 8.0.</paragraph>
+               </text>
+               <effectiveTime value="20220731"/>
+               <component>
+                  <observationMedia ID="img_2f0ee6e8-5266-155e-e063-6394a90a4284">
+                     <text>Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tra16-0002-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s32">
+               <id root="2f0e80ab-c6e5-cb03-e063-6394a90a1f92"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20220131"/>
+               <component>
+                  <section ID="s33">
+                     <id root="2f0e80ab-c6e6-cb03-e063-6394a90a1f92"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Tranexamic acid is a synthetic lysine amino acid derivative, which diminishes the dissolution of hemostatic fibrin by plasmin. In the presence of tranexamic acid, the lysine receptor binding sites of plasmin for fibrin are occupied, preventing binding to fibrin monomers, thus preserving and stabilizing fibrin's matrix structure.</paragraph>
+                        <paragraph>The antifibrinolytic effects of tranexamic acid are mediated by reversible interactions at multiple binding sites within plasminogen. Native human plasminogen contains 4 to 5 lysine binding sites with low affinity for tranexamic acid (K
+ 
+  <sub>d</sub>= 750 μmol/L) and 1 with high affinity (K
+ 
+  <sub>d</sub>= 1.1 μmol/L). The high affinity lysine site of plasminogen is involved in its binding to fibrin. Saturation of the high affinity binding site with tranexamic acid displaces plasminogen from the surface of fibrin. Although plasmin may be formed by conformational changes in plasminogen, binding to and dissolution of the fibrin matrix is inhibited.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s34">
+                     <id root="2f0e80ab-c6e7-cb03-e063-6394a90a1f92"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Tranexamic acid in concentrations of 1 mg/mL and 10 mg/mL prolongs the thrombin time. An antifibrinolytic concentration of tranexamic acid remains in different tissues for about 17 hours, and in the serum, up to seven or eight hours.</paragraph>
+                        <paragraph>Tranexamic acid in concentrations up to 10 mg/mL blood has no influence on the platelet count, the coagulation time or various coagulation factors in whole blood or citrated blood from healthy subjects.</paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s35">
+                     <id root="2f0e80ab-c6e8-cb03-e063-6394a90a1f92"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <effectiveTime value="20220131"/>
+                     <component>
+                        <section ID="e36">
+                           <id root="2f0e80ab-c6e9-cb03-e063-6394a90a1f92"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Distribution</content>
+                              </paragraph>
+                              <paragraph>The initial volume of distribution is about 9 to 12 liters. The plasma protein binding of tranexamic acid is about 3% at therapeutic plasma levels and seems to be fully accounted for by its binding to plasminogen. Tranexamic acid does not bind to serum albumin.</paragraph>
+                           </text>
+                           <effectiveTime value="20220131"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="e37">
+                           <id root="2f0e80ab-c6ea-cb03-e063-6394a90a1f92"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Elimination</content>
+                              </paragraph>
+                              <paragraph>After an intravenous dose of 1 g, the plasma concentration time curve shows a triexponential decay with a half-life of about 2 hours for the terminal elimination phase.</paragraph>
+                           </text>
+                           <effectiveTime value="20220131"/>
+                           <component>
+                              <section ID="s36">
+                                 <id root="2f0e80ab-c6eb-cb03-e063-6394a90a1f92"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Excretion</content>
+                                    </paragraph>
+                                    <paragraph>Urinary excretion is the main route of elimination via glomerular filtration. Overall renal clearance is equal to overall plasma clearance (110 to 116 mL/min), and more than 95% of the dose is excreted in the urine as unchanged drug. Excretion of tranexamic acid is about 90% at 24 hours after intravenous administration of 10 mg/kg body weight.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20220131"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s37">
+                           <id root="2f0e80ab-c6ec-cb03-e063-6394a90a1f92"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Specific Populations</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20220131"/>
+                           <component>
+                              <section ID="s38">
+                                 <id root="2f0e80ab-c6ed-cb03-e063-6394a90a1f92"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Patients with Renal Impairment</content>
+                                    </paragraph>
+                                    <paragraph>The blood levels of tranexamic acid are increased in patients with renal insufficiency. Urinary excretion following a single intravenous injection of tranexamic acid declines as renal function decreases. Following a single 10 mg/kg intravenous injection of tranexamic acid, the 24-hour urinary fractions of tranexamic acid with serum creatinine concentrations 1.4 – 2.8, 2.8 – 5.7, and greater than 5.7 mg/dL were 51, 39, and 19%, respectively. The 24-hour tranexamic acid plasma concentrations for these patients demonstrated a direct relationship to the degree of renal impairment. Therefore, dose adjustment is needed in patients with renal impairment
+ 
+  <content styleCode="italics">[</content>see
+ 
+  <content styleCode="italics">Dosage and Administration (
+  
+   <linkHtml href="#s4">2.2</linkHtml>), Use in Specific Populations (
+  
+   <linkHtml href="#s29">8.6</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                                 </text>
+                                 <effectiveTime value="20220131"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s39">
+                           <id root="2f0e80ab-c6ee-cb03-e063-6394a90a1f92"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Drug Interaction Studies</content>
+                              </paragraph>
+                              <paragraph>No studies of interactions between Tranexamic Acid in Sodium Chloride Injection and other drugs have been conducted.</paragraph>
+                           </text>
+                           <effectiveTime value="20220131"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s40">
+               <id root="2f0e80ab-c6ef-cb03-e063-6394a90a1f92"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20220131"/>
+               <component>
+                  <section ID="s41">
+                     <id root="2f0ec88c-7d76-460f-e063-6294a90afb95"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Tranexamic acid was not carcinogenic in a 2-year study in rats and mice at oral doses up to 3 and 5.3 g/kg/day, which are approximately 12 and 11 times the maximum recommended human dose based on body surface area, respectively.</paragraph>
+                        <paragraph>Tranexamic acid was not genotoxic in the reverse mutation bacterial (Ames) test, and 
+  <content styleCode="italics">in vitro</content> and 
+  <content styleCode="italics">in vivo</content> cytogenetic test.
+ </paragraph>
+                        <paragraph>In a fertility and early embryonic development study, tranexamic acid was administered to male rats as 0.3% and 1% of drug in diet (average doses of 222 and 856 mg/kg/day) or to female rats at dose levels of 0.3% and 1.2% of drug in diet. Tranexamic acid had no effect on fertility or reproductive function of male or female rats at dose multiples of 4 or 5 times the maximum recommended human dose based on body surface area, respectively.</paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s42">
+                     <id root="2f0e80ab-c6f1-cb03-e063-6394a90a1f92"/>
+                     <code code="34091-9" codeSystem="2.16.840.1.113883.6.1" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+                     <title>13.2 Animal Toxicology and/or Pharmacology</title>
+                     <text>
+                        <paragraph>Nonclinical studies have shown a retinal toxicity associated with tranexamic acid. Toxicity is characterized by retinal atrophy commencing with changes to the retinal pigmented epithelium and progressing to retinal detachment in cats. The toxicity appears to be dose related, and changes are partially reversible at lower doses. Effects were observed in dogs at oral doses of 800 mg/kg/day and higher (multiple of 11 times the maximum human dose based on body surface area), and in cats at 250 mg/kg/day for 14 days (multiple of 1.6 times the maximum human dose based on body surface area). Some fully reversible changes in pigmentation were observed in cats at doses of 125 mg/kg/day (multiple of 0.8 times the maximum human dose based on body surface area). Studies suggest that the underlying mechanism may be related to a transient retinal ischemia at high exposures, linked to the known sympathomimetic effect of high plasma exposures of tranexamic acid.</paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s43">
+               <id root="2f0e8c85-d14b-c191-e063-6394a90a4f94"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>Tranexamic Acid in Sodium Chloride Injection is supplied as a sterile, unpreserved, colorless solution in a single-dose polymeric bag containing 1000 mg tranexamic acid in 100 mL of solution (10 mg/mL) sealed with a Twist Off port and oversealed in an aluminum pouch as follows:</paragraph>
+                  <table border="0" width="100%">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Strength</content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Package</content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">NDC Number</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="1" rowspan="2">1000 mg (10 mg/mL)</td>
+                           <td>1 single-dose bag</td>
+                           <td>14789-115-08</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>10 bags per carton</paragraph>
+                           </td>
+                           <td>14789-115-05</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Discard any unused portion.</paragraph>
+                  <paragraph>Store at 20°C to 25°C (68°F to 77°F); excursions permitted to 15°C to 30°C (59°F to 86°F) [see USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20220731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s44">
+               <id root="2f0e80ab-c6f3-cb03-e063-6394a90a1f92"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <effectiveTime value="20220131"/>
+               <component>
+                  <section ID="s45">
+                     <id root="2f0e80ab-c6f4-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Thromboembolic Risk</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Inform patients that Tranexamic Acid in Sodium Chloride Injection may increase the risk of venous and arterial thrombosis or thromboembolism and to contact their healthcare provider for any signs or symptoms suggestive of thromboembolism.</item>
+                           <item>Advise patients using hormonal contraception that combined use with Tranexamic Acid in Sodium Chloride Injection may increase the risk for thromboembolic adverse reactions and to use effective alternative (nonhormonal) contraception during therapy with Tranexamic Acid in Sodium Chloride Injection
+  
+   <content styleCode="italics">[see Warnings and Precautions (
+   
+    <linkHtml href="#s8">5.1</linkHtml>), Drug Interactions (
+   
+    <linkHtml href="#s16">7.1</linkHtml>), Use in Specific Populations (
+   
+    <linkHtml href="#s25">8.3</linkHtml>)]
+  
+   </content>.
+ 
+  </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s46">
+                     <id root="2f0e80ab-c6f5-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Seizures</content>
+                        </paragraph>
+                        <paragraph>Inform patients that Tranexamic Acid in Sodium Chloride Injection may cause seizures and to contact their healthcare provider for any signs or symptoms suggestive of seizures
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#s9">5.2</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s47">
+                     <id root="2f0e80ab-c6f6-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Hypersensitivity Reactions</content>
+                        </paragraph>
+                        <paragraph>Inform patients that Tranexamic Acid in Sodium Chloride Injection may cause hypersensitivity reactions and to contact their healthcare provider for any signs or symptoms of hypersensitivity reactions
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#s10">5.3</linkHtml>)].
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s48">
+                     <id root="2f0e80ab-c6f7-cb03-e063-6394a90a1f92"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Visual Disturbances</content>
+                        </paragraph>
+                        <paragraph>Inform patients that Tranexamic Acid in Sodium Chloride Injection can cause visual disturbance and that they should report any eye symptoms or change in their vision to their healthcare provider and to follow-up with an ophthalmologist for a complete ophthalmologic evaluation, including dilated retinal examination of the retina
+ 
+  <content styleCode="italics">[see Warnings and Precautions (
+  
+   <linkHtml href="#s11">5.4</linkHtml>)]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220131"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s49">
+                     <id root="2f0ecc0b-3f06-5374-e063-6294a90a6936"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk of Driving and Operating Machinery</content>
+                        </paragraph>
+                        <paragraph>Inform patients that Tranexamic Acid in Sodium Chloride Injection may cause dizziness, and that the patient should be cautioned about driving, operating machinery, or performing hazardous tasks while taking Tranexamic Acid in Sodium Chloride Injection 
+  <content styleCode="italics">[see Warnings and Precautions ( 
+   <linkHtml href="#s12">5.5</linkHtml>)] 
+  </content>.
+ </paragraph>
+                        <paragraph>Manufactured in UK for:</paragraph>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="img_2f0ee6e8-526b-155e-e063-6394a90a4284"/>
+                        </paragraph>
+                        <paragraph>Nexus Pharmaceuticals, LLC
+  <br/>
+400 Knightsbridge Parkway
+  <br/>
+Lincolnshire, IL 60069
+  <br/>
+USA
+  <br/>
+TRAPI01GBR01
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20220731"/>
+                     <component>
+                        <observationMedia ID="img_2f0ee6e8-526b-155e-e063-6394a90a4284">
+                           <text>Logo</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="tra16-0002-02.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s50">
+               <id root="2f0ee599-17dc-19ed-e063-6394a90a6f53"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Principal Display Panel – 100 mL Bag Label</content>
+                  </paragraph>
+                  <paragraph>TO OPEN-TEAR AT NOTCH</paragraph>
+                  <paragraph>LEAVE BAG IN FOIL OVERWRAP UNTIL USE</paragraph>
+                  <paragraph>100 mL Single-Dose Container</paragraph>
+                  <paragraph>Discard Unused Portion</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 14789-115-08</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tranexamic Acid
+   <br/>
+in 0.7% Sodium Chloride
+   <br/>
+Injection
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1,000 mg per 100 mL (10 mg per mL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Infusion Only.</content>
+                  </paragraph>
+                  <paragraph>Each mL contains 10 mg of Tranexamic Acid, USP 7 mg of
+  <br/>
+Sodium Chloride, USP in Water for Injection, USP. pH 6.5 – 8.0.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DOSAGE:</content>See prescribing information for complete
+  <br/>
+information on dosing and administration.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CAUTIONS:</content>Check for minute leaks by squeezing bag firmly. Do
+  <br/>
+not use unless solution is clear. Do not add supplemental
+  <br/>
+medication. Must not be used in series connections.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">STORAGE:</content>Store at 20°C to 25°C (68°F to 77°F);
+  <br/>
+excursions permitted to 15°C to 30°C (59°F to 86°F).
+ </paragraph>
+                  <paragraph>[see USP Controlled Room Temperature]</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>Sterile, Unpreserved, Nonpyrogenic</paragraph>
+                  <paragraph>NEXUS
+  <br/>
+PHARMACEUTICALS
+ </paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>Nexus Pharmaceuticals, Inc.</paragraph>
+                  <paragraph>Lincolnshire, IL 60069</paragraph>
+                  <paragraph>TRA10-100LBL-FR001</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2f0ee566-239b-4749-e063-6294a90a85d9"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220731"/>
+               <component>
+                  <observationMedia ID="img_2f0ee566-239b-4749-e063-6294a90a85d9">
+                     <text>Principal Display Panel – 100 mL Bag Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tra16-0002-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2f0eef7b-714b-35ac-e063-6394a90a45c8">
+               <id root="2f0ee6e8-526f-155e-e063-6394a90a4284"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>Principal Display Panel – Carton Label</paragraph>
+                  <paragraph>NDC 14789-115-05</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>Tranexamic Acid
+  <br/>
+in 0.7% Sodium Chloride
+  <br/>
+Injection
+ </paragraph>
+                  <paragraph>1,000 mg per 100 mL (10 mg per mL)</paragraph>
+                  <paragraph>10 x 100 mL Single-Dose Containers</paragraph>
+                  <paragraph>For Intravenous Infusion Only.</paragraph>
+                  <paragraph>NEXUS</paragraph>
+                  <paragraph>PHARMACEUTICALS</paragraph>
+                  <paragraph>TRACT01GBR03</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2f0efbd2-0526-6460-e063-6294a90a13f5"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250226"/>
+               <component>
+                  <observationMedia ID="img_2f0efbd2-0526-6460-e063-6294a90a13f5">
+                     <text>Principal Display Panel – Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tract01gbr03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

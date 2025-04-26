@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="dea325b5-3cb8-4ffb-84e9-782f0e3f6b0e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title>Tretinoin Gel, USP<br/>
+      <br/> For Topical Use Only</title>
+   <effectiveTime value="20250303"/>
+   <setId root="dea325b5-3cb8-4ffb-84e9-782f0e3f6b0e"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="650082092"/>
+            <name>Aurobindo Pharma Limited</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="878100017" root="1.3.6.1.4.1.519.1"/>
+                        <name>APL HEALTHCARE LIMITED</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59651-713" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59651-713" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="79173481-f01c-4111-8629-d77192a0e360"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250203"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59651-713" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Tretinoin<suffix/>
+                        </name>
+                        <formCode code="C42934" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GEL"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Tretinoin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="0.25" unit="mg"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5688UTC01R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRETINOIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5688UTC01R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRETINOIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1P9D0Z171K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYLATED HYDROXYTOLUENE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="RFW2ET671P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROXYPROPYL CELLULOSE (1600000 WAMW)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="59651-713-14" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250227"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="45" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="59651-713-46" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250227"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA218245" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250227"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="500f11fa-18bb-495a-9001-d7aa478d8591"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Tretinoin gel, USP, containing tretinoin USP, is used for the topical treatment of acne vulgaris. Tretinoin gel, USP contains tretinoin USP (retinoic acid, vitamin A acid) 0.25 mg (0.025%) by weight, in a gel vehicle of alcohol (90.5% w/w), butylated hydroxytoluene and hydroxypropyl cellulose. Chemically, tretinoin is <content styleCode="italics">all</content>-<content styleCode="italics">trans</content>-retinoic acid and has the following structure:<br/>
+                     <renderMultiMedia referencedObject="MM1"/>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250203"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="tretinoin-str.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="5364d348-7792-47fa-b7fb-30909c7c2c44"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Although the exact mode of action of tretinoin is unknown, current evidence suggests that topical tretinoin decreases cohesiveness of follicular epithelial cells with decreased microcomedo formation. Additionally, tretinoin stimulates mitotic activity and increased turnover of follicular epithelial cells causing extrusion of the comedones.</paragraph>
+               </text>
+               <effectiveTime value="20250203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="3a939835-31a7-4e41-8d43-49d1a8e5a57a"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Tretinoin gel is indicated for topical application in the treatment of acne vulgaris. The safety and efficacy of the long-term use of this product in the treatment of other disorders have not been established.</paragraph>
+               </text>
+               <effectiveTime value="20250203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="f1c7905a-c136-4c9c-93c9-4b1cd285a091"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Use of the product should be discontinued if hypersensitivity to any of the ingredients is noted. </paragraph>
+               </text>
+               <effectiveTime value="20250203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="641b29ac-39fe-4f75-983d-3ae77766f748"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">GELS ARE FLAMMABLE. AVOID FIRE, FLAME OR SMOKING DURING USE. </content>Keep out of reach of children. Keep tube tightly closed. Do not expose to heat or store at temperatures above 120°F (49° C).</paragraph>
+               </text>
+               <effectiveTime value="20250203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="0e878885-b3f6-46ac-aa9a-c29d5898bc69"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20250203"/>
+               <component>
+                  <section ID="Section_6.1">
+                     <id root="e9cdcdeb-501a-421a-b9d9-f62035b3be74"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>If a reaction suggesting sensitivity or chemical irritation occurs, use of the medication should be discontinued. Exposure to sunlight, including sunlamps, should be minimized during the use of tretinoin, and patients with sunburn should be advised not to use the product until fully recovered because of heightened susceptibility to sunlight as a result of the use of tretinoin. Patients who may be required to have considerable sun exposure due to occupation and those with inherent sensitivity to the sun should exercise particular caution. Use of sunscreen products and protective clothing over treated areas is recommended when exposure cannot be avoided. Weather extremes, such as wind or cold, also may be irritating to patients under treatment with tretinoin.</paragraph>
+                        <br/>
+                        <paragraph>Tretinoin acne treatment should be kept away from the eyes, the mouth, angles of the nose, and mucous membranes. Topical use may induce severe local erythema and peeling at the site of application. If the degree of local irritation warrants, patients should be directed to use the medication less frequently, discontinue use temporarily, or discontinue use altogether. Tretinoin has been reported to cause severe irritation on eczematous skin and should be used with utmost caution in patients with this condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20250203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.4">
+                     <id root="3a0dcb3d-5ecf-4b9d-a808-e1ff9d77be60"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Concomitant topical medication, medicated or abrasive soaps and cleansers, soaps and cosmetics that have a strong drying effect, and products with high concentrations of alcohol, astringents, spices or lime should be used with caution because of possible interaction with tretinoin. Particular caution should be exercised in using preparations containing sulfur, resorcinol, or salicylic acid with tretinoin. It also is advisable to “rest” a patient’s skin until the effects of such preparations subside before use of tretinoin is begun.</paragraph>
+                     </text>
+                     <effectiveTime value="20250203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.6">
+                     <id root="9459c301-c4c3-4296-ba7c-60c60503016c"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment to Fertility</title>
+                     <text>
+                        <paragraph>In a 91-week dermal study in which CD-1 mice were administered 0.017% and 0.035% formulations of tretinoin, cutaneous squamous cell carcinomas and papillomas in the treatment area were observed in some female mice. A dose-related incidence of liver tumors in male mice was observed at those same doses. The maximum systemic doses associated with the administered 0.017% and 0.035% formulations are 0.5 and 1.0 mg/kg/day, respectively. These doses are two and four times the maximum human systemic dose, when adjusted for total body surface area. The biological significance of these findings is not clear because they occurred at doses that exceeded the dermal maximally tolerated dose (MTD) of tretinoin and because they were within the background natural occurrence rate for these tumors in this strain of mice. There was no evidence of carcinogenic potential when 0.025 mg/kg/day of tretinoin was administered topically to mice (0.1 times the maximum human systemic dose, adjusted for total body surface area). For purposes of comparisons of the animal exposure to systemic human exposure, the maximum human systemic dose is defined as 1 gram of 0.1% tretinoin applied daily to a 50 kg person (0.02 mg tretinoin/kg body weight). </paragraph>
+                        <br/>
+                        <paragraph>Studies in hairless albino mice suggest that concurrent exposure to tretinoin may enhance the tumorigenic potential of carcinogenic doses of UVB and UVA light from a solar simulator. This effect has been confirmed in a later study in pigmented mice, and dark pigmentation did not overcome the enhancement of photocarcinogenesis by 0.05% tretinoin. Although the significance of these studies to humans is not clear, patients should minimize exposure to sunlight or artificial ultraviolet irradiation sources.</paragraph>
+                        <br/>
+                        <paragraph>The mutagenic potential of tretinoin was evaluated in the Ames assay and in the <content styleCode="italics">in vivo</content> mouse micronucleus assay, both of which were negative.</paragraph>
+                        <br/>
+                        <paragraph>In dermal Segment I fertility studies of another tretinoin formulation in rats, slight (not statistically significant) decreases in sperm count and motility were seen at 0.5 mg/kg/day (4 times the maximum human systemic dose adjusted for total body surface area) and slight (not statistically significant) increases in the number and percent of nonviable embryos in females treated with 0.25 mg/kg/day (2 times the maximum human systemic dose adjusted for total body surface area) and above were observed. A dermal Segment III study with tretinoin has not been performed in any species. In oral Segment I and Segment III studies in rats with tretinoin, decreased survival of neonates and growth retardation were observed at doses in excess of 2 mg/kg/day (16 times the human topical dose adjusted for total body surface area).</paragraph>
+                     </text>
+                     <effectiveTime value="20250203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.7">
+                     <id root="aabfc779-bdaf-464d-90c8-2d6d89007e21"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="underline">Teratogenic Effects</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Oral</content> tretinoin has been shown to be teratogenic in rats, mice, hamsters, and subhuman primates. It was teratogenic and fetotoxic in Wistar rats when given orally or topically in doses greater than 1 mg/kg/day (8 times the maximum human systemic dose adjusted for total body surface area). However, variations in teratogenic doses among various strains of rats have been reported. In the cynomolgus monkey, which metabolically is closer to humans for tretinoin than the other species examined, fetal malformations were reported at doses of 10 mg/kg/day or greater, but none were observed at 5 mg/kg/day (83 times the maximum human systemic dose adjusted for total body surface area), although increased skeletal variations were observed at all doses. A dose-related increase in embryolethality and abortion was reported. Similar results have also been reported in pigtail macaques.</paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="underline">Topical</content> tretinoin in animal teratogenicity tests has generated equivocal results. There is evidence for teratogenicity (shortened or kinked tail) of topical tretinoin in Wistar rats at doses greater than 1 mg/kg/day (8 times the maximum human systemic dose adjusted for total body surface area). Anomalies (humerus: short 13%, bent 6%, os parietale incompletely ossified 14%) have also been reported when 10 mg/kg/day was topically applied.</paragraph>
+                        <br/>
+                        <paragraph>There are other reports in New Zealand White rabbits administered doses of greater than 0.2 mg/kg/day (3.3 times the maximum human systemic dose adjusted for total body surface area) of an increased incidence of domed head and hydrocephaly, typical of retinoid-induced fetal malformations in this species.</paragraph>
+                        <br/>
+                        <paragraph>In contrast, several well-controlled animals studies have shown that dermally applied tretinoin may be fetotoxic, but not overly teratogenic in rats and rabbits at doses of 1.0 and 0.5 mg/kg/day, respectively (8 times the maximum human systemic dose adjusted for total body surface area in both species).</paragraph>
+                        <br/>
+                        <paragraph>With widespread use of any drug, a small number of birth defect reports associated temporally with the administration of the drug would be expected by chance alone. Thirty human cases of temporally associated congenital malformations have been reported during two decades of clinical use of tretinoin. Although no definite pattern of teratogenicity and no causal association have been established from these cases, five of the reports describe the rare birth defect category holoprosencephaly (defects associated with incomplete midline development of the forebrain). The significance of these spontaneous reports in terms of risk to the fetus is not known.</paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="underline">Nonteratogenic Effects</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Topical tretinoin has been shown to be fetotoxic in rabbits when administered 0.5 mg/kg/day (8 times the maximum human systemic dose adjusted for total body surface area). Oral tretinoin has been shown to be fetotoxic, resulting in skeletal variations and increased intrauterine death in rats when administered 2.5 mg/kg/day (20 times the maximum human systemic dose adjusted for total body surface area).</paragraph>
+                        <br/>
+                        <paragraph>There are, however, no adequate and well-controlled studies in pregnant women. Tretinoin should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20250203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.9">
+                     <id root="8cc44831-aefe-4dfc-a6be-c8aba49db49e"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when tretinoin is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20250203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.10">
+                     <id root="19e17179-8f99-41cb-9811-f3e74f6efa6d"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients below the age of 12 have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20250203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.11">
+                     <id root="5688aa1e-79c3-40d2-9296-fa82322f6e76"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in a geriatric population have not been established. Clinical studies of tretinoin did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20250203"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="226bd829-5305-4e2e-9fcf-f36cd20d30a6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The skin of certain sensitive individuals may become excessively red, edematous, blistered, or crusted. If these effects occur, the medication should either be discontinued until the integrity of the skin is restored, or the medication should be adjusted to a level the patient can tolerate. True contact allergy to topical tretinoin is rarely encountered. Temporary hyper- or hypopigmentation has been reported with repeated application of tretinoin. Some individuals have been reported to have heightened susceptibility to sunlight while under treatment with tretinoin. To date, all adverse effects of tretinoin have been reversible upon discontinuance of therapy (see <content styleCode="bold">
+                        <linkHtml href="#Section_10">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>).</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Aurobindo Pharma USA, Inc. at 1-866-850-2876 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="631fa92a-a8fd-4393-bf69-6cebf12ce8fc"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>If medication is applied excessively, no more rapid or better results will be obtained and marked redness, peeling, or discomfort may occur. Oral ingestion of the drug may lead to the same side effects as those associated with excessive oral intake of Vitamin A.</paragraph>
+               </text>
+               <effectiveTime value="20250203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="ae30a051-39a3-4e46-9a2d-77c7fc1f241a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Tretinoin gel should be applied once a day, before retiring, to the skin where acne lesions appear, using enough to cover the entire affected area lightly. Excessive application results in “pilling” of the gel, which minimizes the likelihood of overapplication by the patient.</paragraph>
+                  <br/>
+                  <paragraph>Application may cause a transitory feeling of warmth or slight stinging. In cases where it has been necessary to temporarily discontinue therapy or to reduce the frequency of application, therapy may be resumed or frequency of application increased when the patients become able to tolerate the treatment.</paragraph>
+                  <br/>
+                  <paragraph>Alterations of vehicle, drug concentration, or dose frequency should be closely monitored by careful observation of the clinical therapeutic response and skin tolerance.</paragraph>
+                  <br/>
+                  <paragraph>During the early weeks of therapy, an <content styleCode="italics">apparent </content>exacerbation of inflammatory lesions may occur. This is due to the action of the medication on deep, previously unseen lesions and should not be considered a reason to discontinue therapy.</paragraph>
+                  <br/>
+                  <paragraph>Therapeutic results should be noticed after 2 to 3 weeks but more than 6 weeks of therapy may be required before definite beneficial effects are seen.</paragraph>
+                  <br/>
+                  <paragraph>Once the acne lesions have responded satisfactorily, it may be possible to maintain the improvement with less frequent applications, or other dosage forms.</paragraph>
+                  <br/>
+                  <paragraph>Patients treated with tretinoin gel acne treatment may use cosmetics, but the area to be treated should be cleansed thoroughly before the medication is applied (see <content styleCode="bold">
+                        <linkHtml href="#Section_6">PRECAUTIONS</linkHtml>
+                     </content>).<content styleCode="bold"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="64cfed86-4a89-4f1e-b22f-7a015fc85453"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Tretinoin Gel USP, 0.025% is supplied as:</paragraph>
+                  <paragraph>                                              15 g aluminium tube                                                               NDC 59651-713-14 <br/>                                               45 g aluminium tube                                                               NDC 59651-713-46</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Storage Conditions: </content>Store below 30°C (86°F). </paragraph>
+                  <br/>
+                  <paragraph>Distributed by:<br/>
+                     <content styleCode="bold">Aurobindo Pharma USA, Inc.<br/>
+                     </content>279 Princeton-Hightstown Road<br/>East Windsor, NJ 08520<br/>
+                     <br/> Manufactured by:<br/>
+                     <content styleCode="bold">Aurobindo Pharma Limited<br/>
+                     </content>Hyderabad-500 032, India<br/>
+                     <br/> Issued: January 2024</paragraph>
+               </text>
+               <effectiveTime value="20250203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_16">
+               <id root="47771dc7-6e0a-4a20-8a24-d5cea4d37eb7"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>                                                                                                                                                  PATIENT INSTRUCTIONS<br/>
+                        <content styleCode="bold">                                                                                                                                                     Tretinoin Gel, USP</content>
+                        <content styleCode="bold">
+                           <br/>                                                                                                                                                          Acne Treatment<br/>                                                                                                                                                           <content styleCode="bold">IMPORTANT</content>
+                        </content>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">                                                                                                                                         Read Directions Carefully Before Using<br/>
+                     </content>
+                     <content styleCode="bold">                                                                                                                                                      For Topical Use Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">THIS LEAFLET TELLS YOU ABOUT TRETINOIN GEL ACNE TREATMENT AS PRESCRIBED BY YOUR PHYSICIAN. THIS PRODUCT IS TO BE USED ONLY ACCORDING TO YOUR DOCTOR’S INSTRUCTIONS, AND IT SHOULD NOT BE APPLIED TO OTHER AREAS OF THE BODY OR TO OTHER GROWTHS OR LESIONS. THE LONG-TERM SAFETY AND EFFECTIVENESS OF THIS PRODUCT IN OTHER DISORDERS HAVE NOT BEEN EVALUATED. IF YOU HAVE ANY QUESTIONS, BE SURE TO ASK YOUR DOCTOR.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WARNINGS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TRETINOIN GELS ARE FLAMMABLE. AVOID FIRE, FLAME OR SMOKING DURING USE. </content>Keep out of reach of children. Keep tube tightly closed. Do not expose to heat or store at temperatures above 120°F (49°C).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PRECAUTIONS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The effects of the sun on your skin. </content>As you know, overexposure to natural sunlight or the artificial sunlight of a sunlamp can cause sunburn. Overexposure to the sun over many years may cause premature aging of the skin and even skin cancer. The chance of these effects occurring will vary depending on skin type, the climate and the care taken to avoid overexposure to the sun. Therapy with tretinoin gel may make your skin more susceptible to sunburn and other adverse effects of the sun, so unprotected exposure to natural or artificial sunlight should be minimized.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Laboratory findings. </content>
+                     <content styleCode="italics">When laboratory mice are exposed to artificial sunlight, they often develop skin tumors. These sunlight-induced tumors may appear more quickly and in greater number if the mouse is also topically treated with the active ingredient in tretinoin gel, tretinoin. In some studies, under different conditions, however, when mice treated with tretinoin gel were exposed to artificial sunlight, the incidence and rate of development of skin tumors was reduced. There is no evidence to date that tretinoin alone will cause the development of skin tumors in either laboratory animals or humans. However, investigations in this area are continuing.</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Use caution in the sun. </content>When outside, even on hazy days, areas treated with tretinoin gel should be protected. An effective sunscreen should be used <content styleCode="underline">any time you are outside</content> (consult your physician for a recommendation of an SPF level which will provide you with the necessary high level of protection). For extended sun exposure, protective clothing, like a hat, should be worn. Do not use artificial sunlamps while you are using tretinoin gel. If you do become sunburned, stop your therapy with tretinoin gel until your skin has recovered.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Avoid excessive exposure to wind or cold. </content>Extremes of climate tend to dry or burn normal skin. Skin treated with tretinoin gel may be more vulnerable to these extremes. Your physician can recommend ways to manage your acne treatment under such conditions.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Possible problems. </content>The skin of certain sensitive individuals may become excessively red, swollen, blistered or crusted. If you are experiencing severe or persistent irritation, discontinue the use of tretinoin gel and consult your physician.</paragraph>
+                  <br/>
+                  <paragraph>There have been reports that, in some patients, areas treated with tretinoin gel developed a temporary increase or decrease in the amount of skin pigment (color) present. The pigment in these areas returned to normal either when the skin was allowed to adjust to tretinoin gel or therapy was discontinued.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Use other medications only on your physician’s advice. </content>Only your physician knows which other medications may be helpful during treatment and will recommend them to you if necessary. Follow the physician’s instructions carefully. In addition, you should avoid preparations that may dry or irritate your skin. These preparations may include certain astringents, toiletries containing alcohol, spices or lime, or certain medicated soaps, shampoos and hair permanent solutions. Do not allow anyone else to use this medication.</paragraph>
+                  <br/>
+                  <paragraph>Do not use other medications with tretinoin gel which are not recommended by your doctor. The medications you have used in the past might cause unnecessary redness or peeling.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If you are pregnant, think you are pregnant or are nursing an infant: </content>No studies have been conducted in humans to establish the safety of tretinoin gel in pregnant women. If you are pregnant, think you are pregnant, or are nursing a baby, consult your physician before using this medication.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">AND WHILE YOU’RE ON TRETINOIN GEL THERAPY</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Use a mild, non-medicated soap. Avoid frequent washings and harsh scrubbing. </content>Acne isn’t caused by dirt, so no matter how hard you scrub, you can’t wash it away. Washing too frequently or scrubbing too roughly may at times actually make your acne worse. Wash your skin gently with a mild, bland soap. Two or three times a day should be sufficient. Pat skin dry with a towel. Let the face dry 20 to 30 minutes before applying tretinoin gel. Remember, excessive irritation such as rubbing, too much washing, use of other medications not suggested by your physician, etc., may worsen your acne.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">HOW TO USE TRETINOIN GEL</content>
+                  </paragraph>
+                  <paragraph>To get the best results with tretinoin gel therapy, it is necessary to use it properly. Forget about the instructions given for other products and the advice of friends. Just stick to the special plan your doctor has laid out for you and be patient. Remember, when tretinoin gel is <content styleCode="italics">used properly</content>, many users see improvement by 12 weeks. AGAIN, FOLLOW INSTRUCTIONS – BE PATIENT – DON’T START AND STOP THERAPY ON YOUR OWN – IF YOU HAVE QUESTIONS, ASK YOUR DOCTOR.</paragraph>
+                  <br/>
+                  <paragraph>To help you use the medication correctly, keep these simple instructions in mind.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM2"/>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Apply tretinoin gel once daily before bedtime, or as directed by your physician. Your physician may advise, especially if your skin is sensitive, that you start your therapy by applying tretinoin gel every other night. First, wash with a mild soap and dry your skin gently. WAIT 20 TO 30 MINUTES BEFORE APPLYING MEDICATION; it is important for skin to be completely dry in order to minimize possible irritation.</item>
+                     <item>It is better not to use more than the amount suggested by your physician or to apply more frequently than instructed. Too much may irritate the skin, waste medication and won’t give faster or better results.</item>
+                     <item>Keep the medication away from the corners of the nose, mouth, eyes and open wounds. <content styleCode="italics">Spread away from these areas when applying.</content>
+                     </item>
+                     <item>Squeeze about a half inch or less of medication onto the fingertip. While that should be enough for your whole face, after you have some experience with the medication, you may find you need slightly more or less to do the job. The medication should become invisible almost immediately. If it is still visible, or if dry flaking occurs from the gel <content styleCode="bold">within a minute or so</content>, you are using too much. Cover the affected area lightly with tretinoin gel by first dabbing it on your forehead, chin and both cheeks, then spreading it over the entire affected area. Smooth gently into the skin.</item>
+                     <item>It is recommended that you apply a moisturizer or a moisturizer with sunscreen that will not aggravate your acne (noncomedogenic) every morning after you wash.</item>
+                  </list>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">WHAT TO EXPECT WITH YOUR NEW TREATMENT</content>
+                  </paragraph>
+                  <paragraph>Tretinoin gel works deep inside your skin and this takes time. You cannot make tretinoin gel work any faster by applying more than one dose each day, but an excess amount of tretinoin gel may irritate your skin. Be patient.</paragraph>
+                  <br/>
+                  <paragraph>There may be some discomfort or peeling during the early days of treatment. Some patients also notice that their skin begins to take on a blush.</paragraph>
+                  <br/>
+                  <paragraph>These reactions do not happen to everyone. If they do, it is just your skin adjusting to tretinoin gel and this usually subsides within 2 to 4 weeks. These reactions can usually be minimized by following instructions carefully. Should the effects become excessively troublesome, consult your doctor.</paragraph>
+                  <br/>
+                  <paragraph>BY 3 TO 6 WEEKS, some patients notice an appearance of new blemishes (papules and pustules). At this stage it is <content styleCode="italics">important to continue </content>using tretinoin gel.</paragraph>
+                  <br/>
+                  <paragraph>If tretinoin gel is going to have a beneficial effect for you, you should notice a continued improvement in your appearance after 6 to 12 weeks of therapy. Don’t be discouraged if you see no immediate improvement. Don’t stop treatment at the first signs of improvement.</paragraph>
+                  <br/>
+                  <paragraph>Once your acne is under control you should continue regular application of tretinoin gel until your physician instructs otherwise.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">IF YOU HAVE QUESTIONS</content>
+                  </paragraph>
+                  <paragraph>All questions of a medical nature should be taken up with your doctor. For more information about tretinoin gel, call our toll-free number: 1-866-850-2876.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Storage Conditions: </content>Store below 30°C (86°F). </paragraph>
+                  <br/>
+                  <paragraph>Distributed by:<br/>
+                     <content styleCode="bold">Aurobindo Pharma USA, Inc.<br/>
+                     </content>279 Princeton-Hightstown Road<br/>East Windsor, NJ 08520<br/>
+                     <br/> Manufactured by:<br/>
+                     <content styleCode="bold">Aurobindo Pharma Limited<br/>
+                     </content>Hyderabad-500 032, India<br/>
+                     <br/> Issued: January 2024</paragraph>
+               </text>
+               <effectiveTime value="20250203"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Figure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="tretinoin-fig1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_17">
+               <id root="56b6afdd-d0df-41d4-8ba9-8288ab485ba5"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL- 15 g Tube Label </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only                             NDC 59651-713-14 <br/>
+                        <br/> Tretinoin Gel, USP <br/> 0.025% <br/> For Topical Use Only <br/> WARNING: Keep out of reach of children. <br/>
+                        <br/> AUROBINDO                     Net Wt. 15 g</content>
+                  </paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20250203"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL- 15 g Tube Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="tretinoin-fig2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Unclassified_Section_1">
+               <id root="f0ff0cf7-0a31-4c8a-b904-5111dcd9e9ef"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL- 15 g Tube Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only                         NDC 59651-713-14 <br/>
+                        <br/> Tretinoin Gel, USP <br/> 0.025% <br/> For Topical Use Only <br/> WARNING: Keep out of reach of children. <br/>
+                        <br/> AUROBINDO                 Net Wt. 15 g</content>
+                  </paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20250203"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL- 15 g Tube Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="tretinoin-fig3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

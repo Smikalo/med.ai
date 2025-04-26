@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5344ba2c-faed-481f-9230-722e9854fd2f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>MITOMYCIN FOR INJECTION USP, 5 mg/vial
+ <br/>
+      <br/>
+NOVAPLUS 
+ <sup>®</sup>
+   </title>
+   <effectiveTime value="20250306"/>
+   <setId root="799a06b1-7697-42a3-b31a-c9d621b34f6f"/>
+   <versionNumber value="100"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+            <name>Bryant Ranch Prepack</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                  <name>Bryant Ranch Prepack</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bryant Ranch Prepack</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="72162-2464"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="72162-2464"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="c579bb76-ef74-4fc0-9824-8c9ca8b5a39f"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250306"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72162-2464" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Mitomycin</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Mitomycin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="72819-152" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="10"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="50SG953SK6" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MITOMYCIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="50SG953SK6" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MITOMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="72162-2464-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250306"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA202670" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220311"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5f3b6dda-313a-4d72-a737-54974c8fb4ab"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+               <component>
+                  <section>
+                     <id root="51d8af94-bd9c-4aec-a447-b718c4dad2f9"/>
+                     <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">WARNING</content>
+                        </paragraph>
+                        <paragraph>Mitomycin should be administered under the supervision of a qualified physician experienced in the use of cancer chemotherapeutic agents. Appropriate management of therapy and complications is possible only when adequate diagnostic and treatment facilities are readily available.</paragraph>
+                        <paragraph>Bone marrow suppression, notably thrombocytopenia and leukopenia, which may contribute to overwhelming infections in an already compromised patient, is the most common and severe of the toxic effects of mitomycin (see <linkHtml href="#warnings">WARNINGS</linkHtml> and <linkHtml href="#adverse">ADVERSE REACTIONS</linkHtml> sections).</paragraph>
+                        <paragraph>Hemolytic Uremic Syndrome (HUS) a serious complication of chemotherapy, consisting primarily of microangiopathic hemolytic anemia, thrombocytopenia, and irreversible renal failure has been reported in patients receiving systemic mitomycin. The syndrome may occur at any time during systemic therapy with mitomycin as a single agent or in combination with other cytotoxic drugs, however, most cases occur at doses ≥60 mg of mitomycin. Blood product transfusion may exacerbate the symptoms associated with this syndrome.</paragraph>
+                        <paragraph>The incidence of the syndrome has not been defined.</paragraph>
+                     </text>
+                     <effectiveTime value="20250306"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5844a59a-e84c-4b94-85d0-84e22e42526d"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Mitomycin, USP (also known as Mitomycin and/or Mitomycin-C) is an antibiotic isolated from the broth of Streptomyces caespitosus which has been shown to have antitumor activity. The compound is heat stable, has a high melting point, and is freely soluble in organic solvents.</paragraph>
+                  <paragraph>Mitomycin for Injection, USP is a sterile dry mixture of mitomycin, USP and mannitol, which when reconstituted with Sterile Water for Injection provides a solution for intravenous administration. Each vial contains either mitomycin, USP 5 mg and mannitol 10 mg, or mitomycin, USP 20 mg and mannitol 40 mg, or mitomycin, USP 40 mg and mannitol 80 mg. Each mL of reconstituted solution will contain 0.5 mg mitomycin, USP and have a pH between 6.0 and 8.0.</paragraph>
+                  <paragraph>Mitomycin, USP is a blue-violet crystalline powder with the molecular formula of C 
+       
+ 
+  <sub>15</sub>H 
+       
+ 
+  <sub>18</sub>N 
+       
+ 
+  <sub>4</sub>O 
+       
+ 
+  <sub>5</sub>, and a molecular weight of 334.33. Its chemical name is 7-amino-9α-methoxymitosane and it has the following structural formula;
+      
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220311"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="72304226-959a-418a-9912-469a3622574c"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Mitomycin selectively inhibits the synthesis of deoxyribonucleic acid (DNA). The guanine and cytosine content correlates with the degree of mitomycin-induced cross-linking. At high concentrations of the drug, cellular RNA and protein synthesis are also suppressed.</paragraph>
+                  <paragraph>In humans, mitomycin is rapidly cleared from the serum after intravenous administration. Time required to reduce the serum concentration by 50% after a 30 mg bolus injection is 17 minutes. After injection of 30 mg, 20 mg, or 10 mg Intravenous., the maximal serum concentrations were 2.4 mcg/mL, 1.7 mcg/mL, and 0.52 mcg/mL, respectively. Clearance is effected primarily by metabolism in the liver, but metabolism occurs in other tissues as well. The rate of clearance is inversely proportional to the maximal serum concentration because, it is thought, of saturation of the degradative pathways.</paragraph>
+                  <paragraph>Approximately 10% of a dose of mitomycin is excreted unchanged in the urine. Since metabolic pathways are saturated at relatively low doses, the percent of a dose excreted in urine increases with increasing dose. </paragraph>
+                  <paragraph>In children, excretion of intravenously administered mitomycin is similar.</paragraph>
+               </text>
+               <effectiveTime value="20211230"/>
+               <component>
+                  <section>
+                     <id root="6dc96abc-77f7-4c43-aa2e-c6126fe657c1"/>
+                     <code code="34091-9" codeSystem="2.16.840.1.113883.6.1" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+                     <title>Animal Toxicology</title>
+                     <text>
+                        <paragraph>Mitomycin has been found to be carcinogenic in rats and mice. At doses approximating the recommended clinical dose in man, it produces a greater than 100 percent increase in tumor incidence in male Sprague-Dawley rats, and a greater than 50 percent increase in tumor incidence in female Swiss mice.</paragraph>
+                     </text>
+                     <effectiveTime value="20211230"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5ca6dbbe-140b-4994-bbff-d48d9790cb33"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Mitomycin for Injection, USP is not recommended as single-agent, primary therapy. It has been shown to be useful in the therapy of disseminated adenocarcinoma of the stomach or pancreas in proven combinations with other approved chemotherapeutic agents and as palliative treatment when other modalities have failed. Mitomycin is not recommended to replace appropriate surgery and/or radiotherapy.</paragraph>
+               </text>
+               <effectiveTime value="20211230"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7f5e733e-a961-41c0-bb54-2f24f9712cac"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Mitomycin is contraindicated in patients who have demonstrated a hypersensitive or idiosyncratic reaction to it in the past.</paragraph>
+                  <paragraph>Mitomycin is contraindicated in patients with thrombocytopenia, coagulation disorder, or an increase in bleeding tendency due to other causes.</paragraph>
+               </text>
+               <effectiveTime value="20211230"/>
+            </section>
+         </component>
+         <component>
+            <section ID="warnings">
+               <id root="0109629a-a7b7-4ab4-8156-3349152b1dd6"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Patients being treated with mitomycin must be observed carefully and frequently during and after therapy.</paragraph>
+                  <paragraph>The use of mitomycin results in a high incidence of bone marrow suppression, particularly thrombocytopenia and leukopenia. Therefore, the following studies should be obtained repeatedly during therapy and for at least eight weeks following therapy: platelet count, white blood cell count, differential, and hemoglobin. The occurrence of a platelet count below 100,000/mm 
+       
+ 
+  <sup>3</sup> or a WBC below 4,000/mm 
+       
+ 
+  <sup>3</sup> or a progressive decline in either is an indication to withhold further therapy until blood counts have recovered above these levels.
+      
+
+ </paragraph>
+                  <paragraph>Patients should be advised of the potential toxicity of this drug, particularly bone marrow suppression.</paragraph>
+                  <paragraph> Deaths have been reported due to septicemia as a result of leukopenia due to the drug.</paragraph>
+                  <paragraph>Patients receiving mitomycin should be observed for evidence of renal toxicity. Mitomycin should not be given to patients with a serum creatinine greater than 1.7 mg percent.</paragraph>
+               </text>
+               <effectiveTime value="20211230"/>
+               <component>
+                  <section>
+                     <id root="bb00f57d-1dad-4397-9aa2-d2a65a2e8c67"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Usage in Pregnancy</title>
+                     <text>
+                        <paragraph>Safe use of mitomycin in pregnant women has not been established. Teratological changes have been noted in animal studies. The effect of mitomycin on fertility is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20211230"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="precautions">
+               <id root="0f5a70e5-2fce-4eff-b11d-988d6cee2692"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Acute shortness of breath and severe bronchospasm have been reported following the administration of vinca alkaloids in patients who had previously or simultaneously received mitomycin. The onset of this acute respiratory distress occurred within minutes to hours after the vinca alkaloid injection. The total number of doses for each drug has varied considerably. Bronchodilators, steroids and/or oxygen have produced symptomatic relief. </paragraph>
+                  <paragraph>A few cases of adult respiratory distress syndrome have been reported in patients receiving mitomycin in combination with other chemotherapy and maintained at FlO
+       
+ 
+  
+       
+ 
+  
+       
+ 
+  <sub>2</sub> concentrations greater than 50% perioperatively. Therefore, caution should be exercised using only enough oxygen to provide adequate arterial saturation since oxygen itself is toxic to the lungs. Careful attention should be paid to fluid balance and overhydration should be avoided.
+      
+
+ 
+      
+
+ 
+      
+
+ </paragraph>
+                  <paragraph>Bladder fibrosis/contraction has been reported with intravesical administration (not an approved route of administration), which in rare cases has required cystectomy.</paragraph>
+               </text>
+               <effectiveTime value="20211230"/>
+               <component>
+                  <section>
+                     <id root="1c3a25c6-98dd-4734-b49f-6e64d0f25699"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known if mitomycin is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious
+adverse reactions in nursing infants from mitomycin, it is recommended that nursing be discontinued when receiving mitomycin therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20211230"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="cfd17a73-9bca-444c-bcbb-b74cba86baf0"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20211230"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="geriatric">
+               <id root="4c379653-d770-4863-93c5-55870708eb5d"/>
+               <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+               <title>Geriatric Use</title>
+               <text>
+                  <paragraph>Insufficient data from clinical studies of mitomycin are available for patients 65 years of age and older to determine whether they respond differently than younger patients. Postmarketing surveillance suggests that elderly patients may be more susceptible than younger patients to injection site reactions (see 
+       
+ 
+  
+       
+ 
+  
+       
+ 
+  <linkHtml href="#adverse">ADVERSE REACTIONS</linkHtml>: 
+       
+ 
+  
+       
+ 
+  
+       
+ 
+  <linkHtml href="mucous">Integument and Mucous Membrane Toxicity</linkHtml>) and hypersensitivity reactions. In general, caution should be exercised when prescribing to elderly patients, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.
+      
+
+ 
+      
+
+ 
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20211230"/>
+            </section>
+         </component>
+         <component>
+            <section ID="adverse">
+               <id root="ce3c3319-14a0-4120-8bc9-a2a8682aa9b6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <effectiveTime value="20211230"/>
+               <component>
+                  <section>
+                     <id root="29f6e7e6-3e3b-4f35-878e-f9e9564fa770"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Bone Marrow Toxicity</title>
+                     <text>
+                        <paragraph>This was the most common and most serious toxicity, occurring in 605 of 937 patients (64.4%). Thrombocytopenia and/or leukopenia may occur anytime within 8 weeks after onset of therapy with an average time of 4 weeks. Recovery after cessation of therapy was within 10 weeks. About 25% of the leukopenic or thrombocytopenic episodes did not recover. Mitomycin produces cumulative myelosuppression.</paragraph>
+                     </text>
+                     <effectiveTime value="20211230"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="mucous">
+                     <id root="b5ecf342-3435-4a1e-a70b-a93b87023ae3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Integument and Mucous Membrane Toxicity</title>
+                     <text>
+                        <paragraph>This has occurred in approximately 4% of patients treated with mitomycin. Cellulitis at the injection site has been reported and is occasionally severe. Stomatitis and alopecia also occur frequently. Rashes are rarely reported. The most important dermatological problem with this drug, however, is the necrosis and consequent sloughing of tissue which results if the drug is extravasated during injection. Extravasation may occur with or without an accompanying stinging or burning sensation and even if there is adequate blood return when the injection needle is aspirated. There have been reports of delayed erythema and/or ulceration occurring either at or distant from the injection site, weeks to months after mitomycin, even when no obvious evidence of extravasation was observed during administration. Skin grafting has been required in some of the cases. Elderly patients may be more susceptible than younger patients to injection site reactions (see 
+         
+ 
+  <content styleCode="bold">
+                              <linkHtml href="#geriatric">PRECAUTIONS: Geriatric Use</linkHtml>
+                           </content>).
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20211230"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="a3e0ca21-4c47-4ce0-8966-632100aa2114"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Renal Toxicity</title>
+                     <text>
+                        <paragraph>2% of 1,281 patients demonstrated a statistically significant rise in creatinine. There appeared to be no correlation between total dose administered or duration of therapy and the degree of renal impairment.</paragraph>
+                     </text>
+                     <effectiveTime value="20211230"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9b56d35f-ce2a-4019-b1b7-5158292ad58c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pulmonary Toxicity</title>
+                     <text>
+                        <paragraph>This has occurred infrequently but can be severe and may be life-threatening. Dyspnea with a nonproductive cough and radiographic evidence of pulmonary infiltrates may be indicative of mitomycin-induced pulmonary toxicity. If other etiologies are eliminated, mitomycin therapy should be discontinued. Steroids have been employed as treatment of this toxicity, but the therapeutic value has not been determined. A few cases of adult respiratory distress syndrome have been reported in patients receiving mitomycin in combination with other chemotherapy and maintained at FlO
+         
+ 
+  
+         
+ 
+  
+         
+ 
+  <sub>2</sub> concentrations greater than 50% perioperatively.
+        
+
+ 
+        
+
+ 
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20211230"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="bee4c6f1-be28-4a4b-9bb3-cc0df5c22021"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hemolytic Uremic Syndrome (HUS)</title>
+                     <text>
+                        <paragraph>This serious complication of chemotherapy, consisting primarily of microangiopathic hemolytic anemia (hematocrit ≤25%), thrombocytopenia 
+								(≤100,000/mm
+         
+ 
+  
+         
+ 
+  
+         
+ 
+  <sup>3</sup>), and irreversible renal failure (serum creatinine ≥1.6 mg/dL) has been reported in patients receiving systemic mitomycin. Microangiopathic hemolysis with fragmented red blood cells on peripheral blood smears has occurred in 98% of patients with the syndrome. Other less frequent complications of the syndrome may include pulmonary edema (65%), neurologic abnormalities (16%), and hypertension. Exacerbation of the symptoms associated with HUS has been reported in some patients receiving blood product transfusions. A high mortality rate (52%) has been associated with this syndrome.
+        
+
+ 
+        
+
+ 
+        
+
+ </paragraph>
+                        <paragraph>The syndrome may occur at any time during systemic therapy with mitomycin as a single agent or in combination with other cytotoxic drugs. Less frequently, HUS has also been reported in patients receiving combinations of cytotoxic drugs not including mitomycin. Of 83 patients studied, 72 developed the syndrome at total doses exceeding 60 mg of mitomycin. Consequently, patients receiving ≥60 mg of mitomycin should be monitored closely for unexplained anemia with fragmented cells on peripheral blood smear, thrombocytopenia, and decreased renal function.</paragraph>
+                        <paragraph>The incidence of the syndrome has not been defined.</paragraph>
+                        <paragraph>Therapy for the syndrome is investigational.</paragraph>
+                     </text>
+                     <effectiveTime value="20211230"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="2647752e-b9a4-4185-8d63-78e9d8128657"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiac Toxicity</title>
+                     <text>
+                        <paragraph>Congestive heart failure, often treated effectively with diuretics and cardiac glycosides, has rarely been reported. Almost all patients who experienced this side effect had received prior doxorubicin therapy.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Acute Side Effects Due to Mitomycin</content> were fever, anorexia, nausea, and vomiting. They occurred in about 14% of 1,281 patients.
+        
+
+ 
+        
+
+ 
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20211230"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="d5358442-1af0-44a1-b405-82d98cb5c5c1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other</title>
+                     <text>
+                        <paragraph>Headache, blurring of vision, confusion, drowsiness, syncope, fatigue, edema, thrombophlebitis, hematemesis, diarrhea, and pain. These did not appear to be dose related and were not unequivocally drug related. They may have been due to the primary or metastatic disease processes. Malaise and asthenia have been reported as part of postmarketing surveillance. Bladder fibrosis/contraction has been reported with intravesical administration (see 
+         
+ 
+  <linkHtml href="#precautions">PRECAUTIONS</linkHtml>).
+        
+
+ </paragraph>
+                        <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact RK Pharma Inc. at 1-844-757-4276 (1-844-4-RKPHARM). or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+                     </text>
+                     <effectiveTime value="20211230"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b7f63f72-577c-4a95-ac29-aef964445d0f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.</paragraph>
+                  <paragraph>Mitomycin should be given intravenously only, using care to avoid extravasation of the compound. If extravasation occurs, cellulitis, ulceration, and slough may result.</paragraph>
+                  <paragraph>Each vial contains mitomycin, USP 5 mg and mannitol 10 mg. To administer, add Sterile Water for Injection, 10 mL. Shake to dissolve. If product does not dissolve immediately, allow to stand at room temperature until solution is obtained.</paragraph>
+                  <paragraph>After full hematological recovery (see guide to dosage adjustment) from any previous chemotherapy, the following dosage schedule may be used at 6 to 8 week intervals:</paragraph>
+                  <paragraph>20 mg/m 
+       
+ 
+  <sup>2</sup> intravenously as a single dose via a functioning intravenous catheter.
+      
+
+ </paragraph>
+                  <paragraph>Because of cumulative myelosuppression, patients should be fully reevaluated after each course of mitomycin, and the dose reduced if the patient has experienced any toxicities. Doses greater than 20 mg/m 
+       
+ 
+  <sup>2</sup> have not been shown to be more effective, and are more toxic than lower doses.
+      
+
+ </paragraph>
+                  <paragraph>The following schedule is suggested as a guide to dosage adjustment:</paragraph>
+                  <table width="60%">
+                     <caption>Nadir After Prior Dose   </caption>
+                     <tbody>
+                        <tr>
+                           <td align="center">
+                              <content styleCode="bold"> Leukocytes/mm 
+           
+     
+      <sup>3</sup>
+                              </content>
+                           </td>
+                           <td align="center">
+                              <content styleCode="bold">Platelets/mm 
+           
+     
+      <sup>3</sup>
+                              </content>
+                           </td>
+                           <td align="center">
+                              <content styleCode="bold">Percentage of</content>
+                              <br/>
+                              <content styleCode="bold">Prior Dose</content>
+                              <br/>
+                              <content styleCode="bold">To Be Given</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center"> &gt;4000</td>
+                           <td align="center"> &gt;100,000</td>
+                           <td align="center"> 100%</td>
+                        </tr>
+                        <tr>
+                           <td align="center"> 3000-3999</td>
+                           <td align="center"> 75,000-99,999</td>
+                           <td align="center"> 100%</td>
+                        </tr>
+                        <tr>
+                           <td align="center"> 2000-2999</td>
+                           <td align="center"> 25,000-74,999</td>
+                           <td align="center"> 70%</td>
+                        </tr>
+                        <tr>
+                           <td align="center"> &lt;2000</td>
+                           <td align="center"> &lt;25,000</td>
+                           <td align="center"> 50%</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>No repeat dosage should be given until leukocyte count has returned to 4000/mm 
+       
+ 
+  <sup>3</sup> and a platelet count to 100,000/mm 
+       
+ 
+  <sup>3</sup>.
+      
+
+ </paragraph>
+                  <paragraph>
+                     <br/>When mitomycin is used in combination with other myelosuppressive agents, the doses should be adjusted accordingly. If the disease continues to progress after two courses of mitomycin, the drug should be stopped since chances of response are minimal.
+      
+
+ </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220315"/>
+               <component>
+                  <section>
+                     <id root="3da8876d-49a5-4354-86d8-9afd993dfd95"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>STABILITY</title>
+                     <text>
+                        <list listType="ordered">
+                           <item>
+                              <content styleCode="bold">Unreconstituted</content> mitomycin stored at room temperature is stable for the lot life indicated on the package. Avoid excessive heat (over 40°C, 104°F).
+         
+ 
+  </item>
+                           <item>
+                              <content styleCode="bold">Reconstituted</content> with Sterile Water for Injection to a concentration of 0.5 mg per mL, mitomycin is stable for 14 days refrigerated or 7 days at room temperature.
+         
+ 
+  </item>
+                           <item>
+                              <content styleCode="bold">Diluted </content>in various intravenous fluids at room temperature, to a concentration of 20 to 40 micrograms per mL:
+          
+  
+   <table width="419px" border="single">
+                                 <col width="52.7%" align="center"/>
+                                 <col width="47.3%" align="center"/>
+                                 <tbody>
+                                    <tr>
+                                       <td align="left" styleCode="Botrule Lrule Rrule Toprule" valign="top">
+                                          <content styleCode="bold">Intravenous Fluid</content>
+                                       </td>
+                                       <td align="center" styleCode="Botrule Rrule" valign="top">
+                                          <content styleCode="bold">Stability</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" styleCode="Botrule Lrule Rrule" valign="top">0.9% Sodium Chloride Injection</td>
+                                       <td align="center" styleCode="Botrule Rrule" valign="top">12 hours</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" styleCode="Botrule Lrule Rrule" valign="top">Sodium Lactate Injection</td>
+                                       <td align="center" styleCode="Botrule Rrule" valign="top">24 hours</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </item>
+                           <item>The combination of mitomycin (5 mg to 15 mg) and heparin (1,000 units to 10,000 units) in 30 mL of 0.9% Sodium Chloride Injection is stable for 48 hours at room temperature.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">Procedures for proper handling and disposal </content>of anticancer drugs should be considered. Several guidelines on this subject have been published. 
+         
+ 
+  <sup>1-8</sup> There is no general agreement that all of the procedures recommended in the guidelines are necessary or appropriate.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20211230"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5fe57346-7396-47a8-860a-fff86f116a8d"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Mitomycin for injection, USP</paragraph>
+                  <paragraph>NDC: 72162-2464-2: 5 mg; individually-boxed amber vial</paragraph>
+                  <paragraph>Storage: Store dry powder at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature.], protected from light. Avoid excessive heat, over 40°C (104°F). Protect reconstituted solution from light. Store solution under refrigeration 2° to 8°C (36° to 46°F), discard after 14 days. If unrefrigerated, discard after 7 days.</paragraph>
+                  <paragraph>Repackaged/Relabeled by:<br/>Bryant Ranch Prepack, Inc.<br/>Burbank, CA 91504</paragraph>
+               </text>
+               <effectiveTime value="20250306"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bfade434-16b7-4e72-995b-5e8ac702c5aa"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>References</title>
+               <text>
+                  <list listType="ordered">
+                     <item>ONS Clinical Practice Committee. Cancer Chemotherapy Guidelines and Recommendations for Practice Pittsburgh, PA: Oncology Nursing Society; 1999:32-41.</item>
+                     <item>Recommendations for the safe handling of parenteral antineoplastic drugs. Washington, DC: Division of Safety, National Institutes of Health; 1983. US Dept of Health and Human Services, Public Health Service publication NIH 83-2621.</item>
+                     <item>AMA Council on Scientific Affairs. Guidelines for handling parenteral antineoplastics. JAMA. 1985;253:1590-1591.</item>
+                     <item>National Study Commission on Cytotoxic Exposure. – Recommendations for handling cytotoxic agents. 1987. Available from Louis P. Jeffrey, Chairman, National Study Commission on Cytotoxic Exposure. Massachusetts College of Pharmacy and Allied Health Sciences, 179 Longwood Avenue, Boston, MA 02115.</item>
+                     <item>Clinical Oncological Society of Australia. Guidelines and recommendations for safe handling of antineoplastic agents. Med J Australia. 1983;1:426-428.</item>
+                     <item>Jones RB, Frank R, Mass T. Safe handling of chemotherapeutic agents: a report from the Mount Sinai Medical Center. CA-A Cancer J for Clin. 1983;33:258-263.</item>
+                     <item>American Society of Hospital Pharmacists. ASHP technical assistance bulletin on handling cytotoxic and hazardous drugs. Am J Hosp Pharm. 1990;47:1033-1049.</item>
+                     <item>Controlling Occupational Exposure to Hazardous Drugs. (OSHA Work-Practice Guidelines.). Am J Health SystPharm. 1996;53:1669-1685.</item>
+                  </list>
+                  <paragraph>                                                                                                                                                                                             DECEMBER 2021
+       
+ 
+  <br/>                                                                                                                                                                                             PI-152-00-NP
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20220315"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0ec445d8-28c3-4a4a-8e8d-802d61416a8e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Distributed by</paragraph>
+                  <paragraph>Archis Pharma LLC
+       
+ 
+  <br/>Piscataway, NJ 08854
+      
+
+ </paragraph>
+                  <paragraph>NOVAPLUS is a registered trademarks of of Vizient, Inc.</paragraph>
+                  <paragraph>                                                                                                                                                                                                      1033045</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20211230"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b34b43ea-8bf7-49e1-9579-5392a950564f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph styleCode="bold">Mitomycin 5 mg/vial Injection #10 mL</paragraph>
+                  <renderMultiMedia ID="F30" referencedObject="mm63629"/>
+               </text>
+               <effectiveTime value="20111230"/>
+               <component>
+                  <observationMedia ID="mm63629">
+                     <text>Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl721622464.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

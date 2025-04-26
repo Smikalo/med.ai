@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="0f25eef8-d21f-138d-dd9c-550b42f355dc"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">PROGESTERONE INJECTION USP <br/>IN SESAME OIL <br/>FOR INTRAMUSCULAR USE ONLY<br/>Rx only<br/>
+      </content>Revised:Dec 2021</title>
+   <effectiveTime value="20250306"/>
+   <setId root="dcfa4050-d142-b774-369f-8a421eb23c62"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="080228637" root="1.3.6.1.4.1.519.1"/>
+            <name>XIROMED, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="468835741" root="1.3.6.1.4.1.519.1"/>
+                  <name>XIROMED PHARMA ESPAÑA, S.L</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="468284866" root="1.3.6.1.4.1.519.1"/>
+                        <name>Laboratorios Farmalan, S.A.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70700-286" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a3261227-b634-163d-67d9-53208a0f692d"/>
+               <code code="48780-1" displayName="SPL PRODUCT DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20221213"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="70700-286"/>
+                        <name>PROGESTERONE</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>PROGESTERONE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="50"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4G7DS2Q64Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROGESTERONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4G7DS2Q64Y" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROGESTERONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QX10HYY4QV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SESAME OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="70700-286-22"/>
+                              <formCode code="C43210" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, MULTI-DOSE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20220329"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA215634" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code codeSystem="1.0.3166.1.2.3" code="USA"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220329"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ss1">
+               <id root="81546626-6dfa-ebb7-8239-8e0a394d93ad"/>
+               <code code="34089-3" displayName="DESCRIPTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Progesterone injection, a progestin, is a sterile solution of progesterone in a suitable vegetable oil available for intramuscular use.</paragraph>
+                  <paragraph>Progesterone occurs as a white or creamy white, crystalline powder. It is odorless and is stable in air. Practically insoluble in water, it is soluble in alcohol, acetone, and dioxane and sparingly soluble in vegetable oils.</paragraph>
+                  <paragraph>It has the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>C<sub>21</sub>H<sub>30</sub>O<sub>2</sub>           M.W. 314.47</paragraph>
+                  <paragraph>Pregn-4-ene-3, 20-dione</paragraph>
+                  <paragraph>Each mL contains: Progesterone 50 mg, Benzyl Alcohol 10% as preservative in Sesame Oil q.s.</paragraph>
+               </text>
+               <effectiveTime value="20201204"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Progesterone structural </text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="progesterone-structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ss2">
+               <id root="c869a5c1-3ad3-d4cb-d20a-3948fa722948"/>
+               <code code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Transforms proliferative endometrium into secretory endometrium.</paragraph>
+                  <paragraph>Inhibits (at the usual dose range) the secretion of pituitary gonadotropins, which in turn prevents follicular maturation and ovulation.</paragraph>
+               </text>
+               <effectiveTime value="20201204"/>
+               <component>
+                  <section ID="ss3">
+                     <id root="a9533582-a24c-0f7c-c2be-3836fbd099b2"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">Pharmacokinetics and Metabolism:</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Absorption: </content>After intramuscular administration of 10 mg of progesterone in oil, maximum plasma concentrations (geometric mean of 7 ng/mL) were reached within approximately 8 hours after injection and plasma concentrations remained above baseline for about 24 hours after injection. Injection of 10, 25, and 50 mg resulted in geometric mean values for maximum plasma concentration (C<sub>MAX</sub>) of 7, 28, and 50 ng/mL, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Distribution: </content>Progesterone is extensively bound to plasma proteins, primarily albumin (50-54%) and cortisol-binding protein (43-48%).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism: </content>Progesterone is metabolized primarily in the liver by reduction to pregnanediol, pregnanetriol, and pregnanolone. Subsequent conjugation results in the formation of glucuronide and sulfate metabolites. The mean plasma metabolic clearance rate in cycling women is 2510 ± 135 (SEM) L/day.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Excretion: </content>The glucuronide and sulfate conjugates of pregnanediol and pregnanolone are excreted in the urine and bile. Progesterone metabolites which are excreted in the bile may undergo enterohepatic recycling or may be excreted in the feces.</paragraph>
+                        <paragraph>The pharmacokinetic data was determined in a small number of patients, limiting the precision in which population values may be estimated.</paragraph>
+                     </text>
+                     <effectiveTime value="20201204"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ss4">
+                     <id root="9ac5e5af-e076-db18-7323-e25508844e17"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">Special Populations:</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Renal Insufficiency: </content>The safety and effectiveness in patients with renal insufficiency have not been established. Since progesterone metabolites are excreted mainly by the kidneys, progesterone should be administered with caution and careful monitoring in this patient population (see <linkHtml href="#ss9">PRECAUTIONS</linkHtml>).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatic Insufficiency: </content>The safety and effectiveness in patients with hepatic insufficiency have not been established. Since progesterone is metabolized by the liver, use in patients with liver dysfunction or disease is contraindicated (see <linkHtml href="#ss7">CONTRAINDICATIONS</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20201204"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ss5">
+                     <id root="c85f74e4-ae5e-3cf5-9c16-b706672f9910"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">Drug Interactions:</content>
+                     </title>
+                     <text>
+                        <paragraph>The metabolism of progesterone by human liver microsomes was inhibited by ketoconazole (IC<sub>50</sub> &lt; 01 μM). Ketoconazole is a known inhibitor of cytochrome P450 3A4 and these data suggest that ketoconazole or other known inhibitors of this enzyme may increase the bioavailability of progesterone. The clinical relevance of the <content styleCode="italics">in vitro </content>findings is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20201204"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ss6">
+               <id root="b9b35bb1-c613-6a5f-dbc7-b59227af0895"/>
+               <code code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>This drug is indicated in amenorrhea and abnormal uterine bleeding due to hormonal imbalance in the absence of organic pathology, such as submucous fibroids or uterine cancer.</paragraph>
+               </text>
+               <effectiveTime value="20201204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ss7">
+               <id root="1141bfd3-7f9b-d573-d19b-d78cea48c227"/>
+               <code code="34070-3" displayName="CONTRAINDICATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Current or past history of thrombophlebitis, thromboembolic disorders, or cerebral apoplexy.</item>
+                     <item>Liver dysfunction or disease.</item>
+                     <item>Known or suspected malignancy of breast or genital organs.</item>
+                     <item>Undiagnosed vaginal bleeding.</item>
+                     <item>Missed abortion.</item>
+                     <item>Known sensitivity to progesterone injection.</item>
+                     <item>Known sensitivity to sesame oil/seeds.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20201204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ss8">
+               <id root="85ca3a09-c8e1-097b-5350-f76da579abde"/>
+               <code code="34071-1" displayName="WARNINGS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <text>
+                  <paragraph>The physician should be alert to the earliest manifestations of thrombotic disorders (thrombophlebitis, cerebrovascular disorders, pulmonary embolism, and retinal thrombosis). Should any of these occur or be suspected, the drug should be discontinued immediately.</paragraph>
+                  <paragraph>Medication should be discontinued pending examination if there is a sudden partial or complete loss of vision, or if there is a sudden onset of proptosis, diplopia or migraine. If examination reveals papilledema or retinal vascular lesions, medication should be withdrawn.</paragraph>
+                  <paragraph>Acute eosinophilic pneumonia has been reported in patients receiving progesterone in sesame oil. In reported cases associated with progesterone in sesame oil, patients developed fever, dyspnea with hypoxic respiratory insufficiency, and diffuse pulmonary infiltrates. In general, patients developed eosinophilic pneumonia 2 to 4 weeks after starting progesterone in sesame oil and improved when progesterone in sesame oil was discontinued and a different formulation of progesterone and/or steroid therapy was initiated. Patients who develop these signs and symptoms while receiving progesterone in sesame oil should undergo prompt medical evaluation, and progesterone in sesame oil should be discontinued immediately. </paragraph>
+               </text>
+               <effectiveTime value="20201204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ss9">
+               <id root="08858f22-4608-1de1-c8d9-7ac940b17344"/>
+               <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <effectiveTime value="20201204"/>
+               <component>
+                  <section ID="ss10">
+                     <id root="a24fab86-6415-ac88-ab78-c8a014477390"/>
+                     <code code="34072-9" displayName="GENERAL PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">General</content>
+                     </title>
+                     <text>
+                        <paragraph>The pretreatment physical examination should include special reference to breast and pelvic organs, as well as a Papanicolaou smear.</paragraph>
+                        <paragraph>Because progestational drugs may cause some degree of fluid retention, conditions which might be influenced by this condition, such as epilepsy, migraine, asthma, cardiac, or renal dysfunction, require careful observation.</paragraph>
+                        <paragraph>In cases of breakthrough bleeding, as in all cases of irregular bleeding <content styleCode="italics">per vaginum, </content>nonfunctional causes should be borne in mind, and adequate diagnostic measures undertaken.</paragraph>
+                        <paragraph>Patients who have a history of psychic depression should be carefully observed and the drug discontinued if the depression recurs to a serious degree.</paragraph>
+                        <paragraph>The age of the patient constitutes no absolute limiting factor although treatment with progestin may mask the onset of the climacteric.</paragraph>
+                        <paragraph>The pathologist should be advised of progestin therapy when relevant specimens are submitted.</paragraph>
+                        <paragraph>There are possible risks which may be associated with the use of progestin treatment, including adverse effects on carbohydrate and lipid metabolism. The dosage used may be important in minimizing these adverse effects.</paragraph>
+                        <paragraph>A decrease in glucose tolerance has been observed in a small percentage of patients on estrogen-progestin combination treatment. The mechanism of this decrease is obscure. For this reason, diabetic patients should be carefully observed while receiving such therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20201204"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ss11">
+                     <id root="e1693788-f2df-5265-57fc-d2b3d8dca1d9"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </title>
+                     <text>
+                        <paragraph>Long-term intramuscular administration of Medroxyprogesterone acetate (MPA) has been shown to produce mammary tumors in beagle dogs. There is no evidence of a carcinogenic effect associated with the oral administration of MPA to rats and mice.</paragraph>
+                        <paragraph>Medroxyprogesterone acetate was not mutagenic in a battery of <content styleCode="italics">in vitro </content>or <content styleCode="italics">in vivo </content>genetic toxicity assays.</paragraph>
+                        <paragraph>Progesterone at high doses is an antifertility drug and high doses would be expected to impair fertility until the cessation of treatment.</paragraph>
+                     </text>
+                     <effectiveTime value="20201204"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ss12">
+                     <id root="1886fd6f-9445-5992-0d78-14b7aec506c2"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">Geriatric Use:</content>
+                     </title>
+                     <text>
+                        <paragraph>The safety and effectiveness in geriatric patients (over age 65) have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20201204"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ss13">
+                     <id root="1d3b8387-da02-b656-cd33-6e4e04867075"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">Pediatric Use:</content>
+                     </title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20201204"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ss14">
+                     <id root="80956b41-8a47-2d6d-6f4c-7600412db76f"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">Nursing Mothers:</content>
+                     </title>
+                     <text>
+                        <paragraph>Detectable amounts of drug have been identified in the milk of mothers receiving progestational drugs. The effect of this on the nursing infant has not been determined.</paragraph>
+                     </text>
+                     <effectiveTime value="20201204"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ss15">
+               <id root="644d1a51-eeed-9ab6-3990-31c20f5bfd50"/>
+               <code code="34084-4" displayName="ADVERSE REACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Breakthrough bleeding; spotting; change in menstrual flow; amenorrhea; edema; change in weight (increase or decrease); changes in cervical erosion and cervical secretions; cholestatic jaundice; breast tenderness and galactorrhea; pain, irritation, and/or redness at the injection area; skin sensitivity reactions consisting of urticaria, pruritus, edema and generalized rash; acne, alopecia and hirsutism; rash (allergic) with and without pruritus; anaphylactoid reactions (including eosinophilic pneumonia); mental depression; pyrexia; insomnia; nausea; and somnolence.</paragraph>
+                  <paragraph>A statistically significant association has been demonstrated between use of estrogen-progestin combination drugs and pulmonary embolism and cerebral thrombosis and embolism. For this reason patients on progestin therapy should be carefully observed. There is also evidence suggestive of an association with neuro-ocular lesions, e.g., retinal thrombosis and optic neuritis.</paragraph>
+                  <paragraph>The following adverse reactions have been observed in patients receiving estrogen-progestin combination drugs: rise in blood pressure in susceptible individual, premenstrual syndrome, changes in libido, changes in appetite, cystitis-like syndrome, headache, nervousness, fatigue, backache, hirsutism, loss of scalp hair, erythema multiforme, erythema nodosum, hemorrhagic eruption, itching, and dizziness.</paragraph>
+                  <paragraph>The following laboratory results may be altered by the use of estrogen-progestin combination drugs: increased sulfobromophthalein retention and other hepatic function tests; coagulation tests: increase in prothrombin factors VII, VIII, IX, and X; metyrapone test; pregnanediol determinations; thyroid function: increase in PBI and butanol extractable protein bound iodine, and decrease in T  <sup>3</sup> uptake values.</paragraph>
+               </text>
+               <effectiveTime value="20210324"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ss16">
+               <id root="32219695-3167-0a64-57d2-f7cc78b61dda"/>
+               <code code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>Progesterone is administered by intramuscular injection. It differs from other commonly used steroids in that it is irritating at the place of injection.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Amenorrhea: </content>Five to 10 mg are given for six to eight consecutive days. If there has been sufficient ovarian activity to produce a proliferative endometrium, one can expect withdrawal bleeding forty-eight to seventy-two hours after the last injection. This may be followed by spontaneous normal cycles.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Functional Uterine Bleeding: </content>Five to 10 mg are given daily for six doses. Bleeding may be expected to cease within six days. When estrogen is given as well, the administration of progesterone is begun after two weeks of estrogen therapy. If menstrual flow begins during the course of injections of progesterone, they are discontinued.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever the solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="20201204"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ss17">
+               <id root="899258e5-2b6f-10a0-215d-36fc65f81f96"/>
+               <code code="34069-5" displayName="HOW SUPPLIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>Progesterone Injection USP, 500 mg/10 mL (50 mg/mL) is available in 10 mL multiple dose vials, individually boxed.</paragraph>
+                  <paragraph> (NDC 70700-286-22) </paragraph>
+                  <paragraph>Store at 20°-25°C (68°-77°F). [See USP controlled room temperature.]</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>Manufactured for:<br/>Xiromed, LLC <br/>Florham Park, NJ 07932</paragraph>
+                  <paragraph>Made in Spain <br/>Revised: Dec 2021 <br/>PI-286-00</paragraph>
+               </text>
+               <effectiveTime value="20211116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ss18">
+               <id root="3e4e8a8a-b91a-a71f-d9ea-56a2d1d758c0"/>
+               <code code="42230-3" displayName="SPL PATIENT PACKAGE INSERT SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">PATIENT INFORMATION</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">FOR THE TREATMENT OF AMENORRHEA (ABSENCE OF MENSES IN WOMEN WHO HAVE PREVIOUSLY HAD A MENSTRUAL PERIOD) OR ABNORMAL UTERINE BLEEDING DUE TO HORMONAL IMBALANCE.</content>
+                  </paragraph>
+                  <paragraph>Please read this information carefully before you start to use Progesterone Injection and each time your prescription is renewed, in case anything has changed. This leaflet does not take the place of discussions with your doctor. If you still have any questions, ask your doctor or health-care provider.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">About Progesterone Injection<br/>
+                     </content>Progesterone Injection is a sterile injectable solution containing the natural female hormone called progesterone. Progesterone Injection is indicated for the treatment of amenorrhea and abnormal uterine bleeding due to progesterone deficiency.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Understanding the role of Progesterone Injection in the treatment of your menstrual irregularities.<br/>
+                     </content>Progesterone is one of the hormones essential for regular menstrual periods. If your doctor has determined your body does not produce enough progesterone on its own, Progesterone Injection may be prescribed to provide the progesterone you need.</paragraph>
+                  <paragraph>When you do not produce enough progesterone, menstrual irregularities can occur. Progesterone Injection can provide you with the progesterone needed during a normal menstrual cycle.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Possible side effects of Progesterone Injection<br/>
+                     </content>The following side effects have been reported with Progesterone Injection. Consult your doctor if you experience any of the side effects mentioned below, or other side effects.</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <paragraph>anaphylactoid (life-threatening allergic) reaction with symptoms that may include a sense of uneasiness or apprehension; flushing; fast, throbbing heartbeat; itching; hives; difficult breathing; swelling of the throat; eosinophilic pneumonia (gathering of eosinophils, a type of white blood cell, in the lungs), fainting; nausea; vomiting; or convulsions.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>breakthrough bleeding</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>spotting</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>changes in menstrual flow</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>amenorrhea</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>change in weight (increase or decrease)</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>pain, irritation, swelling, and/or redness at the injection area</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>general swelling</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>vaginal discharge</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>yellow discoloration of skin or white of eyes</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>breast tenderness, discharge from the nipple</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>skin reactions including rash, hives, itching, and swelling</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>acne</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>hair loss or growth of new hair</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>mental depression</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>fever</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>insomnia or sleepiness*</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>nausea</paragraph>
+                     </item>
+                  </list>
+                  <paragraph>*If you experience sleepiness, do not drive or operate machinery.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">When you should not use Progesterone Injection</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <paragraph>If you are allergic to progesterone, progesterone-like drugs, benzyl alcohol or sesame oil/seeds.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>If you have unusual vaginal bleeding which has not been evaluated by your doctor.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>If you have liver disease.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>If you have known or suspected cancer of the breast or genital organs.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>If you have a miscarriage and your physician suspects some tissue is still in the uterus.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>If you have or have had blood clots in the legs, lungs, eyes, or elsewhere.</paragraph>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Risks of Progesterone Injection</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <paragraph>Abnormal blood clotting. Blood clots have been reported with the use of estrogens and progestational drugs (alone or in combination). If blood clots do form in your bloodstream, they can cut off the blood supply to vital organs, causing serious problems. These problems may include a stroke (by cutting off blood to part of the brain), a heart attack (by cutting off blood to part of the heart), a pulmonary embolus (by cutting off blood to part of the lungs), or other problems. Any of these conditions may cause death or serious long-term disability. Call your doctor immediately if you suspect you have any of these conditions. He or she may advise you to stop using this drug.</paragraph>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Precautions<br/>
+                     </content>Be alert for unusual signs and symptoms. If any of these warning signals (or any other unusual symptoms) happen while you are using Progesterone Injection, call your doctor immediately:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <paragraph>Abnormal bleeding from the vagina.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Pains in the calves or chest, a sudden shortness of breath or coughing blood indicating possible clots in the legs, heart, or lungs.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Severe headache or vomiting, dizziness, faintness, or changes in vision or speech, weakness or numbness of an arm or leg indicating possible clots in the brain or eye.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Breast lumps, which could be associated with fibrocystic disorders, fibroadenoma, or breast cancer. (Ask your doctor or health-care provider to show you how to examine your breasts monthly.)</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Yellowing of the skin and/or white of the eyes indicating possible liver problems.</paragraph>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">How Progesterone Injection works<br/>
+                     </content>Progesterone Injection is intended for administration by injection into a muscle mass. Following injection, the medication is absorbed into the bloodstream.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other information</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Your doctor has prescribed this drug for you and you alone. Do not give this drug to anyone else.</item>
+                     <item>This medication was prescribed for your particular medical condition. Do not use it for another condition.</item>
+                     <item>Keep this and all drugs out of the reach of children.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">How to use Progesterone Injection<br/>
+                     </content>Progesterone Injection will be administered to you by a health-care provider or your caregiver. Your doctor will provide instructions regarding the dose and manner in which the medication should be injected. Follow your doctor’s instructions closely. If you have any questions about product administration, ask your doctor or health-care provider.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How Supplied<br/>
+                     </content>Progesterone Injection, 500 mg/10 mL (50 mg/mL) is available in 10 mL multiple dose vials. Vials are individually boxed.</paragraph>
+                  <paragraph>Progesterone Injection should be stored at 20°-25°C (68°-77°F). [See USP controlled room temperature.]</paragraph>
+                  <paragraph>Do not use Progesterone Injection after the expiration date which is printed on the vial label.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>For all medical inquiries contact: <br/>Xiromed LLC at 1-844-XIROMED (1-844-947-6633)</paragraph>
+                  <paragraph>Manufactured for:<br/>Xiromed, LLC <br/>Florham Park, NJ 07932</paragraph>
+                  <paragraph>Revised: 12/2021<br/>PI-286-00</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20221116"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="xiromed-logo.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP">
+               <id root="0f3ed69d-071f-d1ce-fc70-ae1b1fc5f0f2"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Progesterone Injection USP 50mg/mL NDC 70700-286-22 Vial Label</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph>
+                     <content styleCode="bold">Progesterone Injection USP 50mg/mL NDC 70700-286-22 Carton Label</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20221213"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Progesterone Injection USP-50mg/mL-NDC 70700-286-22 Vial-Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="progesterone-injection-usp-vial-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Progesterone Injection-USP-50mg/mL-NDC 70700-286-22-Carton-Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="progesterone-injection-usp-carton-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
