@@ -1,10 +1,7 @@
 import asyncio
 import os
 from dotenv import load_dotenv
-import openai
-import random
 from typing import List, Dict, Tuple, Any
-from collections import defaultdict
 import numpy as np
 import re
 from nltk.tokenize import sent_tokenize
@@ -310,9 +307,12 @@ async def fact_selfcheck_KG(fact: Tuple[str, str, str], sample_graphs: List[List
     else:
         return 1.0
 
+    """
+    1. fhfdshfdsjlfds."""
 
 
-async def fact_selfcheck_text(fact: Tuple[str, str, str], samples: List[str]) -> float:
+
+'''async def fact_selfcheck_text(fact: Tuple[str, str, str], samples: List[str]) -> float:
     """LLM-based check if fact is supported in sample text."""
     h, r, t = fact
     prompt_template = """  You are a top-tier algorithm designed for verification whether fact is supported by the provided context.
@@ -359,13 +359,13 @@ Is the fact supported by the context? """
     if results:
         return np.mean(results)
     else:
-        return 1.0  # default if no valid response
+        return 1.0  # default if no valid response'''
 
 
 # === 5. AGGREGATION: SENTENCE- AND PASSAGE-LEVEL ===
 
-def aggregate_fact_scores(fact_scores: Dict[Tuple[str, str, str], float], method: str = "max") -> float:
-    """Aggregate fact scores to a single hallucination score."""
+"""def aggregate_fact_scores(fact_scores: Dict[Tuple[str, str, str], float], method: str = "max") -> float:
+    Aggregate fact scores to a single hallucination score.
     scores = list(fact_scores.values())
     if not scores:
         return 0.0
@@ -374,7 +374,7 @@ def aggregate_fact_scores(fact_scores: Dict[Tuple[str, str, str], float], method
     elif method == "max":
         return np.max(scores)
     else:
-        raise ValueError(f"Unknown aggregation method: {method}")
+        raise ValueError(f"Unknown aggregation method: {method}")"""
 
 
 # === 6. FULL PIPELINE ===
@@ -385,13 +385,8 @@ async def process_sample(sample: str) -> Dict:
     facts = await extract_facts(text=sample, entities=entities, relations=relations)
     return facts
 
-async def score_fact(fact, samples: list[str], sample_graphs, method = "kg"):
-    if method == "kg":
+async def score_fact(fact, sample_graphs):
         return fact, await fact_selfcheck_KG(fact, sample_graphs)
-    elif method == "text":
-        return fact, await fact_selfcheck_text(fact, samples)
-    else:
-        raise ValueError("method must be 'kg' or 'text'")
 
 async def fact_selfcheck_pipeline(prompt: str, response_text: str, n_samples: int = 5, method: str = "text",
                             agg_method: str = "mean") -> Dict[str, Any]:
@@ -415,27 +410,21 @@ async def fact_selfcheck_pipeline(prompt: str, response_text: str, n_samples: in
     sample_graphs = await asyncio.gather(*tasks)
     print(f"Generated sample graphs, the time gone is {time.time() - start_time}")
     # 2. Score facts
-    tasks = [score_fact(fact, samples = samples, sample_graphs= sample_graphs) for fact in facts]
+    tasks = [score_fact(fact, sample_graphs= sample_graphs) for fact in facts]
     results = await asyncio.gather(*tasks)
     print(f"Generated fact scores, the time gone is {time.time() - start_time}")
 
-    fact_scores = {fact: score for fact, score in results}
+    fact_scores = {fact: float(score) for fact, score in results}
 
     # 3. Aggregate
-    passage_score = aggregate_fact_scores(fact_scores, method=agg_method)
-    print(f"Generated passage scores, the time gone is {time.time() - start_time}")
+    #passage_score = aggregate_fact_scores(fact_scores, method=agg_method)
+    #print(f"Generated passage scores, the time gone is {time.time() - start_time}")
 
-    return {
-        "fact_scores": fact_scores,
-        "passage_score": passage_score,
-        "sample_graphs": sample_graphs,
-        "original_facts": facts,
-        "samples": samples
-    }
+    return fact_scores
 
 
 with open("../test/questions.txt", "r") as f:
-    for _ in range(10):
+    for _ in range(1):
         prompt = f.readline()
         response = call_llm(prompt, temperature=0.0)
 
@@ -443,8 +432,8 @@ with open("../test/questions.txt", "r") as f:
 
         async def main():
             results = await fact_selfcheck_pipeline(prompt=prompt,response_text=response, method="kg", agg_method="max", n_samples=5)
-            print(results)
 
+            print(results)
         asyncio.run(main())
 
 
