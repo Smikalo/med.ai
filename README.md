@@ -3,5 +3,5 @@
 A self-checking multiagent RAG-based system, with a goal of reducing context or intrinsic hallucinations, based on a pharmaceutical usecase. This repository is its ML part. 
 
 Contributors:
-Mykhailo Kozyrev - Smikalo
-Nazarii Yukhnovskyi - madbulgarianfromukraine
+* Mykhailo Kozyrev - Smikalo
+* Nazarii Yukhnovskyi - madbulgarianfromukraine
