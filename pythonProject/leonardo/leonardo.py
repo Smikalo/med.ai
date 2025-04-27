@@ -364,7 +364,7 @@ Is the fact supported by the context? """
 
 # === 5. AGGREGATION: SENTENCE- AND PASSAGE-LEVEL ===
 
-def aggregate_fact_scores(fact_scores: Dict[Tuple[str, str, str], float], method: str = "max") -> float:
+def aggregate_fact_scores(fact_scores: Dict[Tuple[str, str, str], float], method: str = "mean") -> float:
     """Aggregate fact scores to a single hallucination score."""
     scores = list(fact_scores.values())
     if not scores:
@@ -400,30 +400,30 @@ async def fact_selfcheck_pipeline(prompt: str, response_text: str, n_samples: in
     start_time = time.time()
     # 1. Extract KGs
     entities = await extract_entities(response_text)
-    print(f"Extracted entities, the time gone is {time.time() - start_time}")
+    #print(f"Extracted entities, the time gone is {time.time() - start_time}")
     relations = await extract_relations(response_text, entities)
-    print(f"Extracted relations, the time gone is {time.time() - start_time}")
+    #print(f"Extracted relations, the time gone is {time.time() - start_time}")
     facts = await extract_facts(response_text, entities, relations)
-    print(f"Extracted facts, the time gone is {time.time() - start_time}")
+    #print(f"Extracted facts, the time gone is {time.time() - start_time}")
 
     #sample generation
     samples = await generate_samples(prompt, n_samples)
-    print(f"Generated samples, the time gone is {time.time() - start_time}")
+    #print(f"Generated samples, the time gone is {time.time() - start_time}")
 
     #1. Extract entities
     tasks = [process_sample(sample) for sample in samples]
     sample_graphs = await asyncio.gather(*tasks)
-    print(f"Generated sample graphs, the time gone is {time.time() - start_time}")
+    #print(f"Generated sample graphs, the time gone is {time.time() - start_time}")
     # 2. Score facts
     tasks = [score_fact(fact, samples = samples, sample_graphs= sample_graphs) for fact in facts]
     results = await asyncio.gather(*tasks)
-    print(f"Generated fact scores, the time gone is {time.time() - start_time}")
+    #print(f"Generated fact scores, the time gone is {time.time() - start_time}")
 
     fact_scores = {fact: score for fact, score in results}
 
     # 3. Aggregate
     passage_score = aggregate_fact_scores(fact_scores, method=agg_method)
-    print(f"Generated passage scores, the time gone is {time.time() - start_time}")
+    #print(f"Generated passage scores, the time gone is {time.time() - start_time}")
 
     return {
         "fact_scores": fact_scores,
@@ -433,18 +433,30 @@ async def fact_selfcheck_pipeline(prompt: str, response_text: str, n_samples: in
         "samples": samples
     }
 
+# -----------------------------------------------------------------------------
+# DEMO / QUICK-TEST SECTION
+# -----------------------------------------------------------------------------
+if __name__ == "__main__":
+    # run ten random self-checks just for manual inspection
+    try:
+        with open("../test/questions.txt", "r") as f:
+            for _ in range(10):
+                prompt = f.readline().strip()
+                if not prompt:
+                    break
+                response = call_llm(prompt, temperature=0.0)
 
-with open("../test/questions.txt", "r") as f:
-    for _ in range(10):
-        prompt = f.readline()
-        response = call_llm(prompt, temperature=0.0)
+                async def _demo():
+                    res = await fact_selfcheck_pipeline(
+                        prompt=prompt,
+                        response_text=response,
+                        method="kg",
+                        agg_method="max",
+                        n_samples=5,
+                    )
+                    #print(res)
 
-        results = None
-
-        async def main():
-            results = await fact_selfcheck_pipeline(prompt=prompt,response_text=response, method="kg", agg_method="max", n_samples=5)
-            print(results)
-
-        asyncio.run(main())
-
-
+                asyncio.run(_demo())
+    except FileNotFoundError:
+        pass
+        #print("Demo skipped – ../test/questions.txt not found.")
